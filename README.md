@@ -1,0 +1,31 @@
+# tosomething
+
+## CLI Commands
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# test the production build locally
+npm run serve
+
+# run tests with jest and enzyme
+npm run test
+```
+
+For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+
+
+## tosomething
+
+Add prerender-urls.js file
+Install sass, and sass-loader
+Add preact.config.js file, include sass
+Add jest types: install @types/jest and/or/both jsconfig.json file (in this case in the folder where the tests are)
+Add jest globally to take advantage of cli to e.g. run single tests.
