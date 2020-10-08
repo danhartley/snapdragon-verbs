@@ -1,6 +1,5 @@
 import { h } from 'preact';
-import Header from '../src/components/header';
-// See: https://github.com/preactjs/enzyme-adapter-preact-pure
+import Header from './header';
 import { shallow } from 'enzyme';
 
 describe('Initial Test of the Header', () => {

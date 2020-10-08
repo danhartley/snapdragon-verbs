@@ -1,17 +1,30 @@
 import { h } from 'preact';
-import { useState } from 'preact/hooks';
+import glamorous, {Div} from 'glamorous';
 import Downshift from 'downshift/preact';
-
-// https://www.downshift-js.com/use-combobox
+import style from './picker.scss';
+import {
+    ControllerButton,
+    ArrowIcon,
+    XIcon,
+    Input
+  } from '../../components/icons/icons'
 
 export const Picker = props => (
     <Downshift
       onChange={selection => {
-          props.onChange(selection);
-      }}
-      itemToString={item => (item ? item.value : '')}
+          if(selection) {
+              props.onChange(selection);
+            //   props.items = props.items.filter(item => item.value !== selection.value);
+              setTimeout(() => {
+                // document.getElementsByTagName('input')[0].value = '';
+                // selection.value = '';
+              });   
+          }
+      }}      
+      itemToString={item => (item ? item.value : '')}      
     >
       {({
+        getToggleButtonProps,
         getInputProps,
         getItemProps,
         getLabelProps,
@@ -21,37 +34,56 @@ export const Picker = props => (
         highlightedIndex,
         selectedItem,
         getRootProps,
+        clearSelection
       }) => (
         <section>
-          <label className="margin-right" {...getLabelProps()}>{props.label}</label>
-          <div
-            style={{display: 'inline-block'}}
-            {...getRootProps({}, {suppressRefError: true})}
-          >
-            <input {...getInputProps()} />
-          </div>
-          <ul {...getMenuProps()}>
-            {isOpen
-              ? props.items
-                  .filter(item => !inputValue || item.value.toLowerCase().includes(inputValue.toLowerCase()))
-                  .map((item, index) => (
-                    <li
-                      {...getItemProps({
-                        key: item.value,
-                        index,
-                        item,
-                        style: {
-                          backgroundColor:
-                            highlightedIndex === index ? 'lightgray' : 'white',
-                          fontWeight: selectedItem === item ? 'bold' : 'normal',
-                        },
-                      })}
+            <div class={style.picker}>
+                <label {...getLabelProps()}>{props.label}</label>
+                <Div position="relative" css={{paddingRight: '1.75em'}}>
+                    <Input
+                    {...getInputProps({
+                        isOpen,
+                        placeholder: 'Pick a verb',
+                    })}
+                    />
+                    {selectedItem ? (
+                    <ControllerButton
+                        css={{paddingTop: 4}}
+                        onClick={clearSelection}
+                        aria-label="clear selection"
                     >
-                      {item.value}
-                    </li>
-                  ))
-              : null}
-          </ul>
+                        <XIcon />
+                    </ControllerButton>
+                    ) : (
+                    <ControllerButton {...getToggleButtonProps()}>
+                        <ArrowIcon isOpen={isOpen} />
+                    </ControllerButton>
+                    )}
+                </Div>
+
+            </div>
+            <ul {...getMenuProps()}>
+                {isOpen
+                ? props.items
+                    .filter(item => !inputValue || item.value.toLowerCase().includes(inputValue.toLowerCase()))
+                    .map((item, index) => (
+                        <li
+                        {...getItemProps({
+                            key: item.value,
+                            index,
+                            item,
+                            style: {
+                            backgroundColor:
+                                highlightedIndex === index ? 'lightgray' : 'white',
+                            fontWeight: selectedItem === item ? 'bold' : 'normal',
+                            },
+                        })}
+                        >
+                        {item.value}
+                        </li>
+                    ))
+                : null}
+            </ul>          
         </section>
       )}
     </Downshift>

@@ -60,6 +60,13 @@ describe('lesson, question, and answer constructors, methods and default setting
             down: []
         })
     });
+    test('calling addVerb should not add verb that is already in lesson', () => {
+        verbs = lesson.addVerb('cantar');
+        expect(verbs).toStrictEqual({
+            up: ['cantar', 'andar'],
+            down: []
+        })
+    });
     test('calling removeVerb should update verbs and return new values', () => {
         verbs = lesson.removeVerb('andar');
         expect(verbs).toStrictEqual({
@@ -140,6 +147,6 @@ describe('lesson use case one', () => {
         expect(questions[0].label).toBe('eu');
         expect(questions[0].pronoun).toBe('eu');
         expect(questions[0].value.to).toBe('canto');
-        console.log(lesson);
+        // console.log(lesson);
     });
 });

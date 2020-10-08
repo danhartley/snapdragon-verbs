@@ -25,16 +25,20 @@
     "eslint-config-preact": "^1.1.0",
     "jest": "^24.9.0",
     "jest-preset-preact": "^1.0.0",
-    "preact-cli": "^3.0.0",
+    "preact-cli": "^3.0.0-rc.18",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
     "sirv-cli": "1.0.3"
   },
   "dependencies": {
     "@types/jest": "^26.0.14",
-    "preact": "^10.3.2",
+    "glamor": "^2.20.40",
+    "glamorous": "^5.0.0",
+    "preact": "^10.5.4",
     "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1"
+    "preact-router": "^3.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1"
   },
   "jest": {
     "preset": "jest-preset-preact",
@@ -42,5 +46,8 @@
       "<rootDir>/tests/__mocks__/browserMocks.js",
       "<rootDir>/tests/__mocks__/setupTests.js"
     ]
+  },
+  "bin": {
+    "no-warnings": "./no-warnings.js"
   }
 }

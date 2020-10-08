@@ -1,16 +1,11 @@
-$bg1: rgb(255, 255, 255);
-$bg2: rgb(245, 245, 245);
-$bg3: rgb(215, 215, 215);
-$bg4: rgb(185, 185, 185);
-$bg5: rgb(125, 125, 125);
-
+@import '../../style/variables.scss';
 
 .header {
 	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 56px;
+	height: 3.5rem;
 	padding: 0;
     background-color: $bg5;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -20,9 +15,9 @@ $bg5: rgb(125, 125, 125);
 .header h1 {
 	float: left;
 	margin: 0;
-	padding: 0 15px;
-	font-size: 24px;
-	line-height: 56px;
+	padding: 0;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
 	font-weight: 400;
 	color: #FFF;
 }

@@ -9,7 +9,7 @@ export class Lesson {
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
         verbs = {
-            up: [ 'to be' ],
+            up: [],
             down: []
         },
         tenses = ['present'],
@@ -91,6 +91,7 @@ export class Lesson {
         }
     };
     addVerb = inf => {
+        if(this.verbs.up.includes(inf)) return this.verbs;
         this.verbs.up.push(inf);
         return this.verbs;
     };
