@@ -11,7 +11,11 @@ export const api = {
     },
     async getLike(inf, language) {
         let verb = await this.getVerb(inf, language);
-        return verb = verb ? verb[language.toLowerCase()].like : null;
+        return verb = verb 
+            ? verb[language.toLowerCase()]
+              ? verb[language.toLowerCase()].like 
+              : inf
+            : inf;
     },
     getRoot(inf, language) {
         switch(language) {

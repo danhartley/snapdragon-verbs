@@ -17,6 +17,10 @@ html, body {
 	box-sizing: border-box;
 }
 
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
 // #app {
 // 	height: 100%;
 // }

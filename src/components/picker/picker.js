@@ -6,7 +6,9 @@ import {
     ControllerButton,
     ArrowIcon,
     XIcon,
-    Input
+    Input,
+    Menu,
+    Item
   } from '../../components/icons/icons'
 
 export const Picker = props => (
@@ -14,14 +16,8 @@ export const Picker = props => (
       onChange={selection => {
           if(selection) {
               props.onChange(selection);
-            //   props.items = props.items.filter(item => item.value !== selection.value);
-              setTimeout(() => {
-                // document.getElementsByTagName('input')[0].value = '';
-                // selection.value = '';
-              });   
           }
-      }}      
-      itemToString={item => (item ? item.value : '')}      
+      }}
     >
       {({
         getToggleButtonProps,
@@ -60,30 +56,26 @@ export const Picker = props => (
                     </ControllerButton>
                     )}
                 </Div>
-
             </div>
-            <ul {...getMenuProps()}>
-                {isOpen
-                ? props.items
-                    .filter(item => !inputValue || item.value.toLowerCase().includes(inputValue.toLowerCase()))
-                    .map((item, index) => (
-                        <li
-                        {...getItemProps({
-                            key: item.value,
-                            index,
-                            item,
-                            style: {
-                            backgroundColor:
-                                highlightedIndex === index ? 'lightgray' : 'white',
-                            fontWeight: selectedItem === item ? 'bold' : 'normal',
-                            },
-                        })}
-                        >
-                        {item.value}
-                        </li>
-                    ))
-                : null}
-            </ul>          
+            {!isOpen ? null : (
+                <Menu>
+                {props.items
+                        .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
+                        .map((item, index) => (
+                    <Item
+                    key={item.id}
+                    {...getItemProps({
+                        item,
+                        index,
+                        isActive: highlightedIndex === index,
+                        isSelected: selectedItem === item,
+                    })}
+                    >
+                    {props.itemToString(item)}
+                    </Item>
+                ))}
+                </Menu>
+            )}
         </section>
       )}
     </Downshift>
