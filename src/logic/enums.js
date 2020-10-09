@@ -11,8 +11,8 @@ export class Mode extends Enumify {
 }
 
 export class Language extends Enumify {
-    static EN = 'EN';
-    static PT = 'PT';
+    static EN = 'en';
+    static PT = 'pt';
 }
 
 export class Pronoun_EN extends Enumify {

@@ -147,6 +147,7 @@ describe('lesson use case one', () => {
         expect(questions[0].label).toBe('eu');
         expect(questions[0].pronoun).toBe('eu');
         expect(questions[0].value.to).toBe('canto');
-        // console.log(lesson);
+        questions = await lesson.createQuestions(api);
+        expect(questions.length).toBe(6);
     });
 });

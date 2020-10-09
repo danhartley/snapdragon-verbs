@@ -10,10 +10,10 @@ export const api = {
         return verbs ? verbs[0] : {};
     },
     async getLike(inf, language) {
-        let verb = await this.getVerb(inf, language);
+        let verb = await this.getVerb(inf);
         return verb = verb 
-            ? verb[language.toLowerCase()]
-              ? verb[language.toLowerCase()].like 
+            ? verb[language]
+              ? verb[language].like 
               : inf
             : inf;
     },
@@ -50,7 +50,7 @@ export const api = {
             tenses = ['present', 'preterite'];
             like = await this.getLike(inf, language);
             likeRoot = this.getRoot(like, language);
-            likeConjugations = await this.getConjugations(like);
+            likeConjugations = await this.getConjugations(like, language);
             root = this.getRoot(inf, language);
             conjugations = this.getConjugationsFromLike(likeRoot, likeConjugations, root, tenses);
             return conjugations;

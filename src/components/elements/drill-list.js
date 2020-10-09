@@ -1,6 +1,6 @@
 export const DrillList = props => {
     const questions = props.values.map(question =>
-        <div><label>{question.label}</label><input /></div>        
+        <div><label>{question.label}-{question.value.to}</label><input id={question.value.to} /></div>
     );
     console.log({questions})
     return (

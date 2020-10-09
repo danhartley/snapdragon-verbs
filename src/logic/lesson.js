@@ -78,6 +78,7 @@ export class Lesson {
         let verb, conjugations, pronoun, question;
         if(this.option === Option.drill) {
             verb = this.verbs.up[0];
+            // console.log(this);
             conjugations = await api.getConjugations(this.verbs.up[0], this.language.to);
             conjugations[this.tense].forEach((conjugation, index) => {
                 pronoun = Pronoun_PT[index];

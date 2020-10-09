@@ -13,13 +13,18 @@ const Home = () => {
     
     const [inputItems, setInputItems] = useState([]);
     const [selectedItem, setSelectedItem] = useState({});
+    const [startLesson, setStartLesson] = useState(false);
 
     if( Object.keys(selectedItem).length !== 0) {
         lesson.addVerb(selectedItem);
-        lesson.createQuestions(api);
-        // console.log(lesson);
+              
         const items = inputItems.filter(item => item !== selectedItem );        
     }
+
+    const getQuestions = () => {
+        lesson.createQuestions(api);
+        setStartLesson(true);
+    };
 
     useEffect(async()=>{
         let verbs = await api.getVerbs();
@@ -37,7 +42,10 @@ const Home = () => {
                 <SimpleList values={lesson.verbs.up} />                
             </div>
             <div>
-                <DrillList values={lesson.questions} />
+                <button onClick={getQuestions}>Start lesson</button>
+                {!startLesson ? null : (
+                    <DrillList values={lesson.questions} />
+                )}
             </div>
         </div>
       )
