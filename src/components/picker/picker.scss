@@ -5,13 +5,15 @@
     @include display-wrap;
     border: 1px solid $border;
     label {
-        margin-right: $space;
+        align-self: center;
+        padding-left: $space;
         min-width: 300px;
     }
     input {
+        margin: $space;
         padding: $space;
     }
     .highlighted {
-        background-color: red;;
+        background-color: red;
     }
 }

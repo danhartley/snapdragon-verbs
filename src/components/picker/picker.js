@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import glamorous, {Div} from 'glamorous';
 import Downshift from 'downshift/preact';
 import style from './picker.scss';
@@ -37,9 +36,10 @@ export const Picker = props => (
                 <label {...getLabelProps()}>{props.label}</label>
                 <Div position="relative" css={{paddingRight: '1.75em'}}>
                     <Input
+                    autoFocus={true}
                     {...getInputProps({
                         isOpen,
-                        placeholder: 'Pick a verb',
+                        placeholder: 'Start typing…'
                     })}
                     />
                     {selectedItem ? (
@@ -48,7 +48,7 @@ export const Picker = props => (
                         onClick={clearSelection}
                         aria-label="clear selection"
                     >
-                        <XIcon />
+                        <ArrowIcon />
                     </ControllerButton>
                     ) : (
                     <ControllerButton {...getToggleButtonProps()}>

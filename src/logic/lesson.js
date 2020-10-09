@@ -1,5 +1,6 @@
 import { Option, Mode, Language, Pronoun_EN, Pronoun_PT } from './enums.js';
 import { Question } from './question.js';
+import { Score } from './score.js';
 
 export class Lesson {
     constructor (
@@ -8,10 +9,7 @@ export class Lesson {
         },
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
-        verbs = {
-            up: [],
-            down: []
-        },
+        verbs = [],
         tenses = ['present'],
         tense = 'present',
         pronouns = '111111',
@@ -29,6 +27,7 @@ export class Lesson {
         this.options = options,
         this.option = option,
         this.verbs = verbs;
+        this.verb = null;
         this.tenses = tenses;
         this.tense = tense;
         this.pronouns = pronouns;
@@ -38,7 +37,8 @@ export class Lesson {
         this.mode = mode;
         this.randoms = randoms;
         this.random = random;
-        this.questions = [];
+        this.drills = [];
+        this.scores = [];
     };
     updateProps = props => {
         this.options = props.options || this.options,
@@ -68,36 +68,59 @@ export class Lesson {
             ? Mode.textEntry
             : Mode.multipleChoice;
     };
-    getNextVerb = () => {
-        if(this.verbs.up.length > 0) {
-            const lastVerb = this.verbs.up.shift();
-            this.verbs.down.push(lastVerb);
+    getNextDrill = () => {
+        if(this.drills.length > 0) {
+            const uncompletedDrills = this.drills.filter(drill => !drill.completed);
+            this.drills[0].completed = true;
+            if(uncompletedDrills.length > 0) {                        
+                this.verb = uncompletedDrills[0].verb;
+                return uncompletedDrills[0];
+            } else {
+                return [];
+            }
+        } else {
+            return [];
         }
     };
-    createQuestions = async api => {
-        let verb, conjugations, pronoun, question;
+    createDrill = async (api, verb) => {
+        let conjugations, pronoun, drill, question;
         if(this.option === Option.drill) {
-            verb = this.verbs.up[0];
-            // console.log(this);
-            conjugations = await api.getConjugations(this.verbs.up[0], this.language.to);
+            verb = verb || this.verbs[0];
+            drill = {
+                verb: verb,
+                questions: [],
+                completed: false
+            };
+            conjugations = await api.getConjugations(this.verbs[0], this.language.to);
             conjugations[this.tense].forEach((conjugation, index) => {
                 pronoun = Pronoun_PT[index];
                 question = new Question(pronoun, pronoun, {
                     from: conjugation,
                     to: conjugation
                 });
-                this.questions.push(question);
+                drill.questions.push(question);
             });
-            return this.questions;
+            this.drills.push(drill);
         }
     };
+    createDrills = async api => {
+        this.drills = [];
+        const getDrills = async (api, verbs, fnc) => Promise.all(verbs.map(async verb => {
+            return await fnc(api, verb);
+        }));
+        await getDrills(api, this.verbs, this.createDrill);
+        if(this.drills.length > 0) {            
+            this.verb = this.drills[0].verb;            
+        }
+        return this.drills;
+    };
     addVerb = inf => {
-        if(this.verbs.up.includes(inf)) return this.verbs;
-        this.verbs.up.push(inf);
+        if(this.verbs.includes(inf)) return this.verbs;
+        this.verbs.push(inf);        
         return this.verbs;
     };
     removeVerb = inf => {
-        this.verbs.up = this.verbs.up.filter(verb => verb !== inf);
+        this.verbs = this.verbs.filter(verb => verb !== inf);
         return this.verbs;
     };
     addTense = tense => {
@@ -107,5 +130,12 @@ export class Lesson {
     removeTense = tense => {
         this.tenses = this.tenses.filter(t => t !== tense);
         return this.tenses;
-    }
+    };
+    markLesson = answers => {
+        this.scores = answers.map(answer => {
+            const score = new Score(answer.question, answer.response);
+            return { ...answer, isCorrect: score.isCorrect() }
+        });
+        return this.scores;
+    };
 };

@@ -9,6 +9,7 @@ const ControllerButton = glamorous.button({
     right: 8,
     top: 12,
     cursor: 'pointer',
+    padding: '0.25rem !important'
   })
   
   function ArrowIcon({isOpen}) {
@@ -54,7 +55,7 @@ const ControllerButton = glamorous.button({
       minHeight: '2em',
       background: '#fff',
       display: 'inline-block',
-      padding: '.5em 2em .5em 1em',
+      padding: '.5em 2em .5em 1em !important',
       color: 'rgba(0,0,0,.87)',
       boxShadow: 'none',
       border: '1px solid rgba(34,36,38,.15)',
@@ -118,7 +119,7 @@ const ControllerButton = glamorous.button({
       if (isActive) {
         styles.push({
           color: 'rgba(0,0,0,.95)',
-          background: 'rgba(0,0,0,.03)',
+          background: 'rgba(0,0,0,.1)',
         })
       }
       if (isSelected) {

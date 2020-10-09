@@ -1,6 +1,5 @@
 export class Score {
-    constructor(lesson, question, answer) {
-        this.lesson = lesson;
+    constructor(question, answer) {
         this.clean = str => {
             let cleaned = str;
                 cleaned = cleaned.trim();
@@ -9,5 +8,8 @@ export class Score {
         };
         this.question = this.clean(question.value.to);
         this.answer = this.clean(answer.value);
-    };    
+    };
+    isCorrect = () => {
+        return this.question === this.answer;
+    };
 };

@@ -1,16 +1,25 @@
 @import './variables.scss';
 
+@mixin snap-button {
+    button {
+        padding: $space;
+        cursor: pointer;
+    }
+}
+
 html, body {
 	height: 100%;
-	width: 100%;
+    width: 100%;
+    max-width: 1400px;
 	padding: 0;
-	margin: 0;
+	margin: auto 2rem;
 	background: #FAFAFA;
 	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    @include snap-button;
 }
 
 * {
@@ -21,6 +30,25 @@ li {
     list-style-type: none;
     cursor: pointer;
 }
-// #app {
-// 	height: 100%;
-// }
+
+.main {
+    padding: $space;
+    min-width: 500px;
+}
+
+.drills {
+    .questions {
+        label {
+            width: 30 * $space;
+            display: inline-block;
+            text-align: right;
+            padding-right: $space;
+        }
+        input {
+            padding: .5 * $space;
+        }
+        & > div {
+            margin: $space;
+        }
+    }
+}

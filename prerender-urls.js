@@ -1,4 +1,4 @@
-const release = [new Date().toDateString()];
+const release = [new Date().toLocaleTimeString()];
 
 module.exports = function() {
   return [
