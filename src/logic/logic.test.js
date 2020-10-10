@@ -101,41 +101,17 @@ describe('lesson use case one', () => {
         lesson = new Lesson();
         expect(lesson.drills).toStrictEqual([]);
     });
-    test('calling createDrill should return first drill for current verb', async () => {
-        lesson = new Lesson();
-        lesson.updateProps({
-            verbs: ['cantar', 'falar'],
-            tenses: ['present', 'preterite'],
-            tense: ['present']
-        });
-        // lesson.verb = 'cantar';
-        await lesson.createDrill(api);
-        expect(lesson.drills.length).toBe(1);
-        expect(lesson.drills[0].verb).toBe('cantar');
-        expect(lesson.drills[0].questions[0].pronoun).toBe('eu');
-        expect(lesson.drills[0].questions[0].value.to).toBe('canto');
-    });
-    test('calling createDrill should return set of one drills', async () => {
-        lesson = new Lesson();
-        lesson.updateProps({
-            verbs: ['cantar', 'falar'],
-            tenses: ['present', 'preterite'],
-            tense: ['present']
-        });
-        await lesson.createDrill(api);
-        expect(lesson.drills.length).toBe(1);
-    });
     test('calling createDrills should set of drills for all verbs', async () => {
         lesson = new Lesson();
-        lesson.updateProps({
-            verbs: ['cantar', 'falar'],
+        lesson.updateProps({            
             tenses: ['present', 'preterite'],
             tense: ['present']
         });
+        lesson.addVerb('cantar');
+        lesson.addVerb('falar');
         drills = await lesson.createDrills(api);
         expect(drills.length).toBe(2);
-        expect(drills[0].verb).toBe('cantar');
-        expect(lesson.verb).toBe('cantar');
+        expect(drills.find(d => d.verb === 'cantar').verb).toBe('cantar');
     });
     test('calling getNextDrill should return null when no drills yet created', () => {
         lesson = new Lesson();
@@ -144,28 +120,25 @@ describe('lesson use case one', () => {
     test('calling getNextDrill should return first drill', async () => {
         lesson = new Lesson();
         lesson.addVerb('cantar');
-        await lesson.createDrills(api);
-        expect(lesson.drills.length).toStrictEqual(1);
-        expect(lesson.drills[0].verb).toStrictEqual('cantar');
         lesson.addVerb('andar');
         await lesson.createDrills(api);
         expect(lesson.drills.length).toStrictEqual(2);
-        expect(lesson.drills[0].verb).toStrictEqual('cantar');
         lesson.getNextDrill();
-        expect(lesson.drills[0].verb).toStrictEqual('cantar');
-        expect(lesson.drills.filter(d => !d.completed)[0].verb).toStrictEqual('andar');
+        expect(lesson.drill.verb).toStrictEqual('cantar');
+        lesson.getNextDrill();
+        expect(lesson.drill.verb).toStrictEqual('andar');
     });
 });
 
 describe('lessons score', () => {
-    let lesson, answers;
+    let lesson, answers, drill;
     test('expect lesson to have initial empty set of scores', () => {
         lesson = new Lesson();
         answers = [];
         lesson.markLesson(answers);
         expect(lesson.scores.length).toBe(0);
     });
-    test('expect drill lesson to return a score for each question', () => {
+    test('expect markLesson to return a score for each question', () => {
         lesson = new Lesson();
         answers = [
             {
@@ -181,5 +154,25 @@ describe('lessons score', () => {
         expect(lesson.scores.length).toBe(2);
         expect(lesson.scores[0].isCorrect).toBe(false);
         expect(lesson.scores[1].isCorrect).toBe(true);
+    });
+    test('expect to progress from one verb drill to the next', async () => {
+
+        lesson = new Lesson();
+        lesson.addVerb('cantar');
+        lesson.addVerb('ter');
+
+        expect(lesson.verbs.length).toBe(2);
+
+        await lesson.createDrills(api);
+        lesson.getNextDrill();
+        expect(lesson.verb).toBe('cantar');
+        expect(lesson.drills.length).toBe(2);
+        expect(lesson.drills.filter(d => !d.completed).length).toBe(2);
+        expect(lesson.drills.find(d => d.verb === 'cantar').questions[0].value.to).toBe('canto');
+        expect(lesson.drills.find(d => d.verb === 'ter').questions[0].value.to).toBe('tenho');
+
+        drill = lesson.getNextDrill();
+        expect(lesson.drills.filter(d => !d.completed).length).toBe(1);
+        expect(lesson.verb).toBe('ter');
     });
 });

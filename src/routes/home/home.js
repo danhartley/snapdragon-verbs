@@ -42,12 +42,15 @@ const Home = () => {
             lesson.markLesson(qandas);
             lesson.getNextDrill();
             setDrill(lesson.drill);
+            let form = document.getElementById('drills-form');
+                form.reset();
+                form.elements[0].focus();
         }    
     };
 
-    const onCompleteHandler = qandas => {
+    const onDrillRenderHandler = qandas => {
         setQandas(qandas);
-    };    
+    };
 
     useEffect( async () => {
         let verbs = await api.getVerbs();
@@ -60,8 +63,10 @@ const Home = () => {
         <div class="home">
             <div class="main">
                 <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to your lesson'}></Picker>                                
-                <Drill drill={drill} onComplete={onCompleteHandler} />
-                <button onClick={handleMarkLesson}>Mark lesson</button>
+                <>
+                    <Drill drill={drill} onDrillRender={onDrillRenderHandler} />
+                    <button onClick={handleMarkLesson}>Mark lesson</button>
+                </>
             </div>
             <div class="sidebar">
                 <div><h2>Selected verbs</h2></div>

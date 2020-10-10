@@ -108,6 +108,17 @@ export const data = {
                         'falaram'
                     ]
                 },
+                {
+                    inf: 'ter',
+                    present: [
+                        'tenho',
+                        'tens',
+                        'tem',
+                        'temos',
+                        'tendes',
+                        'têm'
+                    ]
+                }
             ];
         const filteredConjugations = conjugations.find(verb => clean(verb.inf) === clean(inf));
         return new Promise(resolve => resolve(filteredConjugations));

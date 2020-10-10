@@ -9,18 +9,22 @@ export const Drill = props => {
 
     const [qandas, setQandas] = useState([]);
 
-    props.onComplete(qandas)
+    props.onDrillRender(qandas)
 
     const inputRef = useRef();
 
-    // useEffect(() => {
-    //     inputRef.current.focus();
-    // });
+    useEffect(() => {
+        if(qandas.length === 0) {
+            inputRef.current.focus();
+        }
+    });
+
     const handleOnBlur = e => {
         const qanda = new QandA(e.target.id, e.target.value);
         setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }}, ...qandas ]);        
         
     };
+    
     const questions = props.drill.questions.map((question, index) =>
         index === 0
             ? <div><label>{question.label}-{question.value.to}</label><input id={question.value.to} onBlur={handleOnBlur} ref={inputRef} /></div>
@@ -31,7 +35,9 @@ export const Drill = props => {
           <h2>
               <span>{props.drill.verb}</span>
           </h2>
-          <div class="questions">{questions}</div>
+          <form id="drills-form">
+            <div class="questions">{questions}</div>
+          </form>
       </section>
     );
   };

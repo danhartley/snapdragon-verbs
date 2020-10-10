@@ -71,12 +71,22 @@ export class Lesson {
     };
     getNextDrill = () => {
         if(this.drills.length > 0) {
+            
+            let currentVerb = this.verb;
+
+            if(currentVerb) {
+                this.drills.find(d => d.verb === currentVerb).completed = true;
+                this.verb = this.verbs[this.verbs.indexOf(currentVerb) + 1];
+            } else {
+                currentVerb = this.verbs[0];
+                this.verb = currentVerb;
+            }
+
             const uncompletedDrills = this.drills.filter(drill => !drill.completed);
-            this.drills[0].completed = true;
-            if(uncompletedDrills.length > 0) {                        
-                this.verb = uncompletedDrills[0].verb;
-                this.drill = uncompletedDrills[0];
-                return uncompletedDrills[0];
+            
+            if(uncompletedDrills.length > 0) {           
+                this.drill = uncompletedDrills.find(d => d.verb === this.verb);
+                return this.drill;
             } else {
                 this.drill = null;
                 return null
@@ -89,13 +99,12 @@ export class Lesson {
     createDrill = async (api, verb) => {
         let conjugations, pronoun, drill, question;
         if(this.option === Option.drill) {
-            verb = verb || this.verbs[0];
             drill = {
-                verb: verb,
+                verb,
                 questions: [],
                 completed: false
             };
-            conjugations = await api.getConjugations(this.verbs[0], this.language.to);
+            conjugations = await api.getConjugations(verb, this.language.to);
             conjugations[this.tense].forEach((conjugation, index) => {
                 pronoun = Pronoun_PT[index];
                 question = new Question(pronoun, pronoun, {
@@ -114,9 +123,8 @@ export class Lesson {
         }));
         await getDrills(api, this.verbs, this.createDrill);
         if(this.drills.length > 0) {            
-            this.verb = this.drills[0].verb;            
+            // this.verb = this.drills[0].verb;  
         }
-        console.log('this.drills', this.drills);
         return await this.drills;
     };
     addVerb = inf => {
@@ -141,7 +149,6 @@ export class Lesson {
             this.scores = qandas.map(qanda => {
                 const score = new Score(qanda.question, qanda.answer);
                 return { question: score.question, answer: score.answer, isCorrect: score.isCorrect() };
-                // return { ...qanda, isCorrect: score.isCorrect() }
             });
             return this.scores;
         };
