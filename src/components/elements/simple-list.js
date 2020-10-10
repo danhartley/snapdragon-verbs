@@ -1,6 +1,6 @@
 export const SimpleList = props => {
-    const list = props.values.map(value =>
-      <li>{value}</li>
+    const list = props.items.map(item =>
+      <li>{item}</li>
     );
     return (
       <ul>{list}</ul>

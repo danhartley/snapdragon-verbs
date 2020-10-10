@@ -108,6 +108,7 @@ describe('lesson use case one', () => {
             tenses: ['present', 'preterite'],
             tense: ['present']
         });
+        // lesson.verb = 'cantar';
         await lesson.createDrill(api);
         expect(lesson.drills.length).toBe(1);
         expect(lesson.drills[0].verb).toBe('cantar');
@@ -136,9 +137,9 @@ describe('lesson use case one', () => {
         expect(drills[0].verb).toBe('cantar');
         expect(lesson.verb).toBe('cantar');
     });
-    test('calling getNextDrill should return empty set when no drills', () => {
+    test('calling getNextDrill should return null when no drills yet created', () => {
         lesson = new Lesson();
-        expect(lesson.getNextDrill()).toStrictEqual([]);
+        expect(lesson.getNextDrill()).toStrictEqual(null);
     });
     test('calling getNextDrill should return first drill', async () => {
         lesson = new Lesson();
@@ -169,11 +170,11 @@ describe('lessons score', () => {
         answers = [
             {
                 question: {value: {to: 'A'}},
-                response: {value: 'B'}
+                answer: {value: 'B'}
             },
             {
                 question: {value: {to: 'C'}},
-                response: {value: 'C'}
+                answer: {value: 'C'}
             }
         ];
         lesson.markLesson(answers);

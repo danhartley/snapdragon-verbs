@@ -6,7 +6,7 @@ export class QandA {
                 cleaned = cleaned.toLowerCase();
             return cleaned;
         };
-        this.q = this.clean(q);
-        this.a = this.clean(a);
+        this.question = this.clean(q);
+        this.answer = this.clean(a);
     };
 }

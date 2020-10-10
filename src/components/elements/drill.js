@@ -1,8 +1,9 @@
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const DrillList = props => {
-    if(!props.drill.questions) {
+export const Drill = props => {
+
+    if(!props.drill) {
         return (<div></div>);
     }
 
@@ -12,12 +13,12 @@ export const DrillList = props => {
 
     const inputRef = useRef();
 
-    useEffect(() => {
-        // inputRef.current.focus();
-    });
+    // useEffect(() => {
+    //     inputRef.current.focus();
+    // });
     const handleOnBlur = e => {
         const qanda = new QandA(e.target.id, e.target.value);
-        setQandas([ { q: qanda.q, a: qanda.a }, ...qandas ]);        
+        setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }}, ...qandas ]);        
         
     };
     const questions = props.drill.questions.map((question, index) =>
@@ -27,7 +28,9 @@ export const DrillList = props => {
         );
     return (
       <section class="drills">
-          <h2>{props.drill.verb}</h2>
+          <h2>
+              <span>{props.drill.verb}</span>
+          </h2>
           <div class="questions">{questions}</div>
       </section>
     );

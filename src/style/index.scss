@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import './mixins.scss';
 
 @mixin snap-button {
     button {
@@ -11,8 +12,8 @@ html, body {
 	height: 100%;
     width: 100%;
     max-width: 1400px;
-	padding: 0;
-	margin: auto 2rem;
+    padding: 0;
+    margin: 0;
 	background: #FAFAFA;
 	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
@@ -26,29 +27,83 @@ html, body {
 	box-sizing: border-box;
 }
 
+ul {
+    margin: ($space * 2) 0;
+    padding: 0;
+}
+
 li {
     list-style-type: none;
     cursor: pointer;
+    font-style: italic;
 }
 
-.main {
+h1 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 $space;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+	font-weight: 400;
+	color: #FFF;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.home {
+    @include display-wrap;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 3.5rem;
+    width: 100%;
+    height: auto !important;
+    padding: 0 ($space * 2);
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+
+.main, .sidebar {
     padding: $space;
-    min-width: 500px;
 }
 
 .drills {
+    margin-top: $space;
+    h2 > span {
+        border-bottom: 1px solid lightgray;
+        font-weight: bold;
+    }
     .questions {
         label {
             width: 30 * $space;
             display: inline-block;
-            text-align: right;
             padding-right: $space;
+            text-align: right;
+            @media (max-width: 440px) {
+                text-align: left;
+            }
         }
         input {
             padding: .5 * $space;
         }
         & > div {
-            margin: $space;
+            margin: $space 0;
         }
     }
 }

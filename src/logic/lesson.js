@@ -39,6 +39,7 @@ export class Lesson {
         this.random = random;
         this.drills = [];
         this.scores = [];
+        this.drill = null;
     };
     updateProps = props => {
         this.options = props.options || this.options,
@@ -74,12 +75,15 @@ export class Lesson {
             this.drills[0].completed = true;
             if(uncompletedDrills.length > 0) {                        
                 this.verb = uncompletedDrills[0].verb;
+                this.drill = uncompletedDrills[0];
                 return uncompletedDrills[0];
             } else {
-                return [];
+                this.drill = null;
+                return null
             }
         } else {
-            return [];
+            this.drill = null;
+            return null;
         }
     };
     createDrill = async (api, verb) => {
@@ -106,13 +110,14 @@ export class Lesson {
     createDrills = async api => {
         this.drills = [];
         const getDrills = async (api, verbs, fnc) => Promise.all(verbs.map(async verb => {
-            return await fnc(api, verb);
+            await fnc(api, verb);
         }));
         await getDrills(api, this.verbs, this.createDrill);
         if(this.drills.length > 0) {            
             this.verb = this.drills[0].verb;            
         }
-        return this.drills;
+        console.log('this.drills', this.drills);
+        return await this.drills;
     };
     addVerb = inf => {
         if(this.verbs.includes(inf)) return this.verbs;
@@ -131,11 +136,14 @@ export class Lesson {
         this.tenses = this.tenses.filter(t => t !== tense);
         return this.tenses;
     };
-    markLesson = answers => {
-        this.scores = answers.map(answer => {
-            const score = new Score(answer.question, answer.response);
-            return { ...answer, isCorrect: score.isCorrect() }
-        });
-        return this.scores;
-    };
+    markLesson = qandas => {
+        if(qandas && qandas.length > 0) {
+            this.scores = qandas.map(qanda => {
+                const score = new Score(qanda.question, qanda.answer);
+                return { question: score.question, answer: score.answer, isCorrect: score.isCorrect() };
+                // return { ...qanda, isCorrect: score.isCorrect() }
+            });
+            return this.scores;
+        };
+    }
 };

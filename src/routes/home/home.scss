@@ -1,8 +1,0 @@
-@import '../../style/mixins.scss';
-
-.home {
-    @include display-wrap;
-	padding: 3.5rem 0;
-	min-height: 100%;
-    width: 100%;
-}

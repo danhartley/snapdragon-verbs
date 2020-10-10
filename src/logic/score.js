@@ -1,6 +1,7 @@
 export class Score {
-    constructor(question, answer) {
+    constructor(question, answer) {        
         this.clean = str => {
+            if(str === undefined ) return '';
             let cleaned = str;
                 cleaned = cleaned.trim();
                 cleaned = cleaned.toLowerCase();

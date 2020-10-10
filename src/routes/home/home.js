@@ -1,39 +1,55 @@
 import { h } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
-import style from './home.scss';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
 import { SimpleList } from '../../components/elements/simple-list';
-import { DrillList } from '../../components/elements/drill-list';
+import { Drill } from '../../components/elements/drill';
 
-const lesson = new Lesson();
+let lesson = new Lesson();
 
 const Home = () => {
     
     const [inputItems, setInputItems] = useState([]);
+    const [selectedVerbs, setSelectedVerbs] = useState([]);
     const [selectedItem, setSelectedItem] = useState({});
-    const [startLesson, setStartLesson] = useState(false);
+    const [drill, setDrill] = useState(null);
+    const [qandas, setQandas] = useState([]);
+    const [reRender, setReRender] = useState(new Date().toLocaleDateString());
 
-    if( Object.keys(selectedItem).length !== 0) {
-        lesson.addVerb(selectedItem);              
-        const items = inputItems.filter(item => item !== selectedItem );        
-    }
-
-    const handleStartLesson = async e => {
-        await lesson.createDrills(api);
-        setStartLesson(true);
+    const handleItemPicked = verb => {
+        setSelectedItem(verb);
+        setSelectedVerbs([ ...selectedVerbs, verb ]);
     };
 
-    const handleMarkLesson = async () => {
-        lesson.markLesson(answers);
+    const handleStartLesson = async e => {
+
+        if(selectedVerbs.length > 0) {
+
+            selectedVerbs.forEach(verb => lesson.addVerb(verb));
+
+            await lesson.createDrills(api);
+            const drill = lesson.getNextDrill();
+            console.log('drill', drill);
+            setDrill(drill);
+        }
+
+        setReRender(new Date().toLocaleDateString());
+    };
+
+    const handleMarkLesson = () => {
+        if(qandas && qandas.length > 0) {
+            lesson.markLesson(qandas);
+            lesson.getNextDrill();
+            setDrill(lesson.drill);
+        }    
     };
 
     const onCompleteHandler = qandas => {
-        console.log('qandas!!!', qandas);
-    };
+        setQandas(qandas);
+    };    
 
-    useEffect(async()=>{
+    useEffect( async () => {
         let verbs = await api.getVerbs();
             verbs = verbs.map(verb => {
                 return verb.pt.inf;
@@ -41,19 +57,15 @@ const Home = () => {
             setInputItems(verbs);
         }, []);
       return (
-        <div class={style.home}>
+        <div class="home">
             <div class="main">
-                <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={setSelectedItem} label={'Pick verbs to add to your lesson'}></Picker>                
-                {!startLesson ? null : (
-                    <DrillList drill={lesson.getNextDrill()} onComplete={onCompleteHandler} />
-                )}
-                {!startLesson ? null : (
-                    <button onClick={handleMarkLesson}>Mark lesson</button>
-                )}
+                <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to your lesson'}></Picker>                                
+                <Drill drill={drill} onComplete={onCompleteHandler} />
+                <button onClick={handleMarkLesson}>Mark lesson</button>
             </div>
             <div class="sidebar">
                 <div><h2>Selected verbs</h2></div>
-                <SimpleList values={lesson.verbs} />
+                <SimpleList items={selectedVerbs} />
                 <button onClick={handleStartLesson}>Start lesson</button>
             </div>
         </div>
