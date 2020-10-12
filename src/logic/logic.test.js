@@ -112,6 +112,7 @@ describe('lesson use case one', () => {
         drills = await lesson.createDrills(api);
         expect(drills.length).toBe(2);
         expect(drills.find(d => d.verb === 'cantar').verb).toBe('cantar');
+        expect(lesson.drills.filter(d => d.completed).length).toBe(0);
     });
     test('calling getNextDrill should return null when no drills yet created', () => {
         lesson = new Lesson();
@@ -155,6 +156,23 @@ describe('lessons score', () => {
         expect(lesson.scores[0].isCorrect).toBe(false);
         expect(lesson.scores[1].isCorrect).toBe(true);
     });
+    test('expect markLesson to remove duplicates', () => {
+        lesson = new Lesson();
+        answers = [
+            {
+                question: {value: {to: 'A'}},
+                answer: {value: 'B'}
+            },
+            {
+                question: {value: {to: 'C'}},
+                answer: {value: 'C'}
+            }
+        ];
+        lesson.markLesson(answers);
+        expect(lesson.scores.length).toBe(2);
+        expect(lesson.scores[0].isCorrect).toBe(false);
+        expect(lesson.scores[1].isCorrect).toBe(true);
+    });
     test('expect to progress from one verb drill to the next', async () => {
 
         lesson = new Lesson();
@@ -167,12 +185,12 @@ describe('lessons score', () => {
         lesson.getNextDrill();
         expect(lesson.verb).toBe('cantar');
         expect(lesson.drills.length).toBe(2);
-        expect(lesson.drills.filter(d => !d.completed).length).toBe(2);
+        expect(lesson.drills.filter(d => d.completed).length).toBe(0);
         expect(lesson.drills.find(d => d.verb === 'cantar').questions[0].value.to).toBe('canto');
         expect(lesson.drills.find(d => d.verb === 'ter').questions[0].value.to).toBe('tenho');
 
         drill = lesson.getNextDrill();
-        expect(lesson.drills.filter(d => !d.completed).length).toBe(1);
+        expect(lesson.drills.filter(d => d.completed).length).toBe(1);
         expect(lesson.verb).toBe('ter');
     });
 });

@@ -15,61 +15,33 @@ const Home = ({ verbs }) => {
     const [inputItems, setInputItems] = useState([]);
     const [selectedVerbs, setSelectedVerbs] = useState([]);
     const [selectedItem, setSelectedItem] = useState({});
-    const [drill, setDrill] = useState(null);
-    const [qandas, setQandas] = useState([]);
-    const [drillActionText, setDrillActionText] = useState('Check answers');
+    const [hasDrills, setHasDrills] = useState(false);
 
     setInputItems(verbs);
 
     const handleItemPicked = verb => {
         console.log('HANDLE PICKED');
         setSelectedItem(verb);
-        setSelectedVerbs([ ...selectedVerbs, verb ]);
+        setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb), verb ]);
     };
 
     const handleStartLesson = async e => {
         console.log('START LESSON');
-        if(selectedVerbs.length > 0) {
+        if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
 
             selectedVerbs.forEach(verb => lesson.addVerb(verb));
 
             await lesson.createDrills(api);
-            const drill = lesson.getNextDrill();
-            setDrill(drill);
+            setHasDrills(true);
         }
-    };
-
-    const handleDrillActionState = () => {
-        console.log('MARK LESSON');
-        if(qandas && qandas.length > 0) {
-            if(lesson.verbs.indexOf(lesson.verb) !== lesson.verbs.length -1) {
-                setDrillActionText('next drill');
-            }
-            lesson.markLesson(qandas);
-            lesson.getNextDrill();
-            setDrill(lesson.drill);
-            let form = document.getElementById('drills-form');
-                form.reset();
-                form.elements[0].focus();
-
-        }    
-    };
-
-    const onDrillRenderHandler = qandas => {
-        console.log('RENDER DRILL');
-        setQandas(qandas);
     };
 
     return (
         <div class="home">
             <div class="main">
                 <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to your lesson'}></Picker>                                
-                { drill ? (
-                    <>
-                        <Drill drill={drill} onDrillRender={onDrillRenderHandler} />
-                        <button onClick={handleDrillActionState}>{drillActionText}</button>
-                    </>
-                    
+                { hasDrills ? (
+                    <Drill lesson={lesson} />                    
                 ): <></>}
             </div>
             <div class="sidebar">

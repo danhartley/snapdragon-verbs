@@ -122,9 +122,6 @@ export class Lesson {
             await fnc(api, verb);
         }));
         await getDrills(api, this.verbs, this.createDrill);
-        if(this.drills.length > 0) {            
-            // this.verb = this.drills[0].verb;  
-        }
         return await this.drills;
     };
     addVerb = inf => {
@@ -149,7 +146,7 @@ export class Lesson {
             this.scores = qandas.map(qanda => {
                 const score = new Score(qanda.question, qanda.answer);
                 return { question: score.question, answer: score.answer, isCorrect: score.isCorrect() };
-            });
+            });            
             return this.scores;
         };
     }
