@@ -3,8 +3,6 @@ import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
 export const Drill = ({ lesson }) => {
-    
-    // console.log('%c render Drill', 'color: green');
 
     const [qandas, setQandas] = useState([]);
     const [hasFocus, setHasFocus] = useState(() => true);
@@ -14,9 +12,11 @@ export const Drill = ({ lesson }) => {
 
     const handleDrillActionState = e => {
         
-        const button = e.target;
+        e.preventDefault();
 
-        switch(button.dataset.state) {
+        const form = e.target;
+
+        switch(form.dataset.state) {
             case DrillState.checkAnswers:
                 lesson.markLesson(qandas);
                 lesson.getNextDrill();
@@ -28,15 +28,12 @@ export const Drill = ({ lesson }) => {
                 break;
             case DrillState.nextDrill:
                 setDrillActionState(DrillState.checkAnswers);
-                setDrill(lesson.drill);
-                let form = document.getElementById('drills-form');
-                    form.reset();
-                    form.elements[0].focus();
+                setDrill(lesson.drill);                
+                form.reset();
+                form.elements[0].focus();
                 break;
         } 
     };
-
-    console.log(`%c ${drillActionState}`, 'color:black');
 
     const inputRef = useRef();
 
@@ -58,18 +55,18 @@ export const Drill = ({ lesson }) => {
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div class={isCorrect ? 'is-correct' : ''}><label>{question.label}-{question.value.to}</label><input id={question.value.to} data-key={index} onBlur={handleOnBlur} ref={inputRef} /></div>
-                : <div><label>{question.label}-{question.value.to}</label><input id={question.value.to} data-key={index} onBlur={handleOnBlur} /></div>
+                ? <div class={isCorrect ? 'is-correct' : ''}><label htmlFor={question.value.to}>{question.label}-{question.value.to}</label><input id={question.value.to} data-key={index} onBlur={handleOnBlur} ref={inputRef} /></div>
+                : <div><label htmlFor={question.value.to}>{question.label}-{question.value.to}</label><input id={question.value.to} data-key={index} onBlur={handleOnBlur} /></div>
             );
         return (
         <section class="drills">
             <h2>
                 <span>{drill.verb}</span>
             </h2>
-            <form id="drills-form">
-            <div class="questions">{questions}</div>
+            <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
+                <div class="questions">{questions}</div>
+                <button>{drillActionState}</button>
             </form>
-            <button data-state={drillActionState} onClick={handleDrillActionState}>{drillActionState}</button>
         </section>
         );
     }
