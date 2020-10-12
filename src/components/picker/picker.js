@@ -1,4 +1,5 @@
 import glamorous, {Div} from 'glamorous';
+import { useState, useEffect } from 'preact/hooks';
 import Downshift from 'downshift/preact';
 import style from './picker.scss';
 import {
@@ -8,13 +9,15 @@ import {
     Input,
     Menu,
     Item
-  } from '../../components/icons/icons'
+  } from '../elements/glamorousElements';
 
-export const Picker = props => (
+export const Picker = props => {
+    
+    return (
     <Downshift
-      onChange={selection => {
+      onChange={selection => {        
           if(selection) {
-              props.onChange(selection);
+              props.onChange(selection);              
           }
       }}
     >
@@ -43,7 +46,7 @@ export const Picker = props => (
                     })}
                     />
                     {selectedItem ? (
-                    <ControllerButton
+                    <ControllerButton                         
                         css={{paddingTop: 4}}
                         onClick={clearSelection}
                         aria-label="clear selection"
@@ -79,4 +82,5 @@ export const Picker = props => (
         </section>
       )}
     </Downshift>
-);
+    )
+};

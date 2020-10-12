@@ -8,36 +8,38 @@ import { Drill } from '../../components/elements/drill';
 
 let lesson = new Lesson();
 
-const Home = () => {
+const Home = ({ verbs }) => {
+
+    console.log('%c render Home', 'color: red');
     
     const [inputItems, setInputItems] = useState([]);
     const [selectedVerbs, setSelectedVerbs] = useState([]);
     const [selectedItem, setSelectedItem] = useState({});
     const [drill, setDrill] = useState(null);
     const [qandas, setQandas] = useState([]);
-    const [reRender, setReRender] = useState(new Date().toLocaleDateString());
+
+    setInputItems(verbs);
 
     const handleItemPicked = verb => {
+        console.log('HANDLE PICKED');
         setSelectedItem(verb);
         setSelectedVerbs([ ...selectedVerbs, verb ]);
     };
 
     const handleStartLesson = async e => {
-
+        console.log('START LESSON');
         if(selectedVerbs.length > 0) {
 
             selectedVerbs.forEach(verb => lesson.addVerb(verb));
 
             await lesson.createDrills(api);
             const drill = lesson.getNextDrill();
-            console.log('drill', drill);
             setDrill(drill);
         }
-
-        setReRender(new Date().toLocaleDateString());
     };
 
     const handleMarkLesson = () => {
+        console.log('MARK LESSON');
         if(qandas && qandas.length > 0) {
             lesson.markLesson(qandas);
             lesson.getNextDrill();
@@ -49,24 +51,21 @@ const Home = () => {
     };
 
     const onDrillRenderHandler = qandas => {
+        console.log('RENDER DRILL');
         setQandas(qandas);
     };
 
-    useEffect( async () => {
-        let verbs = await api.getVerbs();
-            verbs = verbs.map(verb => {
-                return verb.pt.inf;
-            });
-            setInputItems(verbs);
-        }, []);
-      return (
+    return (
         <div class="home">
             <div class="main">
                 <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to your lesson'}></Picker>                                
-                <>
-                    <Drill drill={drill} onDrillRender={onDrillRenderHandler} />
-                    <button onClick={handleMarkLesson}>Mark lesson</button>
-                </>
+                { drill ? (
+                    <>
+                        <Drill drill={drill} onDrillRender={onDrillRenderHandler} />
+                        <button onClick={handleMarkLesson}>Mark lesson</button>
+                    </>
+                    
+                ): <></>}
             </div>
             <div class="sidebar">
                 <div><h2>Selected verbs</h2></div>
@@ -74,7 +73,7 @@ const Home = () => {
                 <button onClick={handleStartLesson}>Start lesson</button>
             </div>
         </div>
-      )
-    };
+    )
+};
 
 export default Home;

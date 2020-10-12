@@ -2,22 +2,26 @@ import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
 export const Drill = props => {
-
+    
     if(!props.drill) {
         return (<div></div>);
     }
+    
+    console.log('%c render Drill', 'color: green');
 
     const [qandas, setQandas] = useState([]);
+    const [hasFocus, setHasFocus] = useState(() => true);
 
-    props.onDrillRender(qandas)
+    props.onDrillRender(qandas);
 
     const inputRef = useRef();
 
     useEffect(() => {
-        if(qandas.length === 0) {
+        if(hasFocus) {
             inputRef.current.focus();
+            setHasFocus(false);
         }
-    });
+    }, []);
 
     const handleOnBlur = e => {
         const qanda = new QandA(e.target.id, e.target.value);
