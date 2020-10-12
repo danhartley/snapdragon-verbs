@@ -1,3 +1,4 @@
+import { DrillState } from '../../logic/enums';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
@@ -11,6 +12,7 @@ export const Drill = props => {
 
     const [qandas, setQandas] = useState([]);
     const [hasFocus, setHasFocus] = useState(() => true);
+    const [isCorrect, setIsCorrect] = useState(() => false);
 
     props.onDrillRender(qandas);
 
@@ -31,7 +33,7 @@ export const Drill = props => {
     
     const questions = props.drill.questions.map((question, index) =>
         index === 0
-            ? <div><label>{question.label}-{question.value.to}</label><input id={question.value.to} onBlur={handleOnBlur} ref={inputRef} /></div>
+            ? <div class={isCorrect ? 'is-correct' : ''}><label>{question.label}-{question.value.to}</label><input id={question.value.to} onBlur={handleOnBlur} ref={inputRef} /></div>
             : <div><label>{question.label}-{question.value.to}</label><input id={question.value.to} onBlur={handleOnBlur} /></div>
         );
     return (

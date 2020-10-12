@@ -32,3 +32,9 @@ export class Pronoun_PT extends Enumify {
     static 4 = 'vós';
     static 5 = 'eles, elas, vocês';
 }
+
+export class DrillState extends Enumify {
+    static 0 = 'MARK';
+    static 0 = 'NEXT';
+    static 0 = 'END';
+}

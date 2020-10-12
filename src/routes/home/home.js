@@ -17,6 +17,7 @@ const Home = ({ verbs }) => {
     const [selectedItem, setSelectedItem] = useState({});
     const [drill, setDrill] = useState(null);
     const [qandas, setQandas] = useState([]);
+    const [drillActionText, setDrillActionText] = useState('Check answers');
 
     setInputItems(verbs);
 
@@ -38,15 +39,19 @@ const Home = ({ verbs }) => {
         }
     };
 
-    const handleMarkLesson = () => {
+    const handleDrillActionState = () => {
         console.log('MARK LESSON');
         if(qandas && qandas.length > 0) {
+            if(lesson.verbs.indexOf(lesson.verb) !== lesson.verbs.length -1) {
+                setDrillActionText('next drill');
+            }
             lesson.markLesson(qandas);
             lesson.getNextDrill();
             setDrill(lesson.drill);
             let form = document.getElementById('drills-form');
                 form.reset();
                 form.elements[0].focus();
+
         }    
     };
 
@@ -62,7 +67,7 @@ const Home = ({ verbs }) => {
                 { drill ? (
                     <>
                         <Drill drill={drill} onDrillRender={onDrillRenderHandler} />
-                        <button onClick={handleMarkLesson}>Mark lesson</button>
+                        <button onClick={handleDrillActionState}>{drillActionText}</button>
                     </>
                     
                 ): <></>}
