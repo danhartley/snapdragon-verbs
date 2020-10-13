@@ -1,6 +1,7 @@
 import { DrillState } from '../../logic/enums';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
+import { api } from '../../logic/api';
 
 export const Drill = ({ lesson }) => {
 
@@ -9,6 +10,7 @@ export const Drill = ({ lesson }) => {
     const [isCorrect, setIsCorrect] = useState(() => false);
     const [drill, setDrill] = useState(() => lesson.getNextDrill());
     const [drillActionState, setDrillActionState] = useState(() => DrillState.checkAnswers);
+    const [translation, setTranslation] = useState('');
 
     const handleDrillActionState = e => {
         
@@ -43,6 +45,18 @@ export const Drill = ({ lesson }) => {
             setHasFocus(false);
         }
     }, []);
+    
+    
+    const getTranslation = async () => {
+        let translation;
+            translation = await api.getVerb(drill.verb);
+        return translation[lesson.language.from].inf;
+    };
+
+    useEffect( async () => {
+        let translation = await getTranslation();
+        setTranslation(translation);
+    }, [drill]);
 
     const handleOnBlur = e => {
         const input = e.target;
@@ -61,7 +75,7 @@ export const Drill = ({ lesson }) => {
         return (
         <section class="drills">
             <h2>
-                <span>{drill.verb}</span>
+                <span>{drill.verb}</span><span class="translation">{translation}</span>
             </h2>
             <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
                 <div class="questions">{questions}</div>
@@ -71,3 +85,5 @@ export const Drill = ({ lesson }) => {
         );
     }
   };
+
+  // check value for qandas: if < 6, disabe the check answers button

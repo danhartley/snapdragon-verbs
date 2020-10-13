@@ -18,19 +18,16 @@ const Home = ({ verbs }) => {
     const [hasDrills, setHasDrills] = useState(false);
 
     setInputItems(verbs);
+    // setInputItems(verbs.map(verb => verb[lesson.language.to].inf));
 
     const handleItemPicked = verb => {
-        console.log('HANDLE PICKED');
         setSelectedItem(verb);
         setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb), verb ]);
     };
 
-    const handleStartLesson = async e => {
-        console.log('START LESSON');
+    const handleStartDrill = async e => {
         if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
-
             selectedVerbs.forEach(verb => lesson.addVerb(verb));
-
             await lesson.createDrills(api);
             setHasDrills(true);
         }
@@ -39,7 +36,7 @@ const Home = ({ verbs }) => {
     return (
         <div class="home">
             <div class="main">
-                <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to your lesson'}></Picker>                                
+                <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to drill'}></Picker>                                
                 { hasDrills ? (
                     <Drill lesson={lesson} />                    
                 ): <></>}
@@ -47,7 +44,7 @@ const Home = ({ verbs }) => {
             <div class="sidebar">
                 <div><h2>Selected verbs</h2></div>
                 <SimpleList items={selectedVerbs} />
-                <button onClick={handleStartLesson}>Start lesson</button>
+                <button onClick={handleStartDrill}>Start drill</button>
             </div>
         </div>
     )

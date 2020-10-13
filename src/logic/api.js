@@ -55,5 +55,5 @@ export const api = {
             conjugations = this.getConjugationsFromLike(likeRoot, likeConjugations, root, tenses);
             return conjugations;
         }
-    },
+    }
 };

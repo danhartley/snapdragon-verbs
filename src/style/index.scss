@@ -5,6 +5,8 @@
     button {
         padding: $space;
         cursor: pointer;
+        font-size: 1.1rem;
+        color: rgb(80, 80, 80);
     }
 }
 
@@ -34,8 +36,7 @@ ul {
 
 li {
     list-style-type: none;
-    cursor: pointer;
-    font-style: italic;
+    cursor: pointer;    
 }
 
 h1 {
@@ -106,9 +107,14 @@ h2 {
             margin: $space 0;
         }
     }
-
     .is-correct {
         color: red;
         background-color: black;
+    }
+    .translation {
+        margin-left: $space;
+        font-style: italic;
+        color: darkgray;
+        border-bottom: none;
     }
 }

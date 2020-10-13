@@ -85,8 +85,8 @@ export class Lesson {
             const uncompletedDrills = this.drills.filter(drill => !drill.completed);
             
             if(uncompletedDrills.length > 0) {           
-                this.drill = uncompletedDrills.find(d => d.verb === this.verb);
-                return this.drill;
+                this.drill = uncompletedDrills.find(d => d.verb === this.verb);                
+                return this.drill;                
             } else {
                 this.drill = null;
                 return null
