@@ -8,21 +8,28 @@ import { Drill } from '../../components/elements/drill';
 
 let lesson = new Lesson();
 
-const Home = ({ verbs }) => {
+const Home = ({ verbs, tenses }) => {
 
     console.log('%c render Home', 'color: red');
     
-    const [inputItems, setInputItems] = useState([]);
+    const [inputVerbs, setInputVerbs] = useState([]);
+    const [inputTenses, setInputTenses] = useState([]);
     const [selectedVerbs, setSelectedVerbs] = useState([]);
-    const [selectedItem, setSelectedItem] = useState({});
+    const [selectedVerb, setSelectedVerb] = useState({});
+    const [selectedTense, setSelectedTense] = useState({});
     const [hasDrills, setHasDrills] = useState(false);
 
-    setInputItems(verbs);
+    setInputVerbs(verbs);
+    setInputTenses(tenses);
 
-    const handleItemPicked = verb => {
-        setSelectedItem(verb);
+    const handleVerbPicked = verb => {
+        setSelectedVerb(verb);
         setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb), verb ]);
     };
+
+    const handleTensePicked = tense => {
+        setSelectedTense(tense);
+    }
 
     const handleStartDrill = async e => {
         if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
@@ -35,7 +42,8 @@ const Home = ({ verbs }) => {
     return (
         <div class="home">
             <div class="main">
-                <Picker itemToString={item => item ? item : ''} items={inputItems} onChange={handleItemPicked} label={'Pick verbs to add to drill'}></Picker>                                
+                <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Pick tense for the drill'}></Picker>
+                <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Pick verbs to add to drill'}></Picker>
                 { hasDrills ? (
                     <Drill lesson={lesson} />                    
                 ): <></>}

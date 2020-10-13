@@ -24,6 +24,11 @@ const App = () => {
     };
     
     const [verbs, setVerbs] = useLocalStorageState('verbs', []);
+    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense[GLOBAL_LANGUAGE]));
+
+    console.log(tenses)
+
+
 
     useEffect( async () => {
         if(verbs.length === 0) { getVerbs() };
@@ -33,7 +38,7 @@ const App = () => {
         <div id="app">
             <Header />
             <Router>
-                <Home verbs={verbs} path="/" />
+                <Home verbs={verbs} tenses={tenses} path="/" />
             </Router>
         </div>
     )
