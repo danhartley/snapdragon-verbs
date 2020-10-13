@@ -18,7 +18,6 @@ const Home = ({ verbs }) => {
     const [hasDrills, setHasDrills] = useState(false);
 
     setInputItems(verbs);
-    // setInputItems(verbs.map(verb => verb[lesson.language.to].inf));
 
     const handleItemPicked = verb => {
         setSelectedItem(verb);

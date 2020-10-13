@@ -2,15 +2,16 @@
 @import '../../style/mixins.scss';
 
 .picker {
+    min-height: 50px;
     @include display-wrap;
-    border: 1px solid $border;
+    // border: 1px solid $border;
+    // padding-right: $space;
     label {
         align-self: center;
-        padding-left: $space;
-        // min-width: 300px;
+        padding: $space $space $space 0;
     }
     input {
-        margin: $space;
+        margin: $space 0;
         padding: $space;
     }
     .highlighted {

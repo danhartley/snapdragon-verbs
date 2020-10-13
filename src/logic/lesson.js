@@ -144,8 +144,8 @@ export class Lesson {
     markLesson = qandas => {
         if(qandas && qandas.length > 0) {
             this.scores = qandas.map(qanda => {
-                const score = new Score(qanda.question, qanda.answer);
-                return { question: score.question, answer: score.answer, isCorrect: score.isCorrect() };
+                const score = new Score(qanda.question, qanda.answer, qanda.key);
+                return { question: score.question, answer: score.answer, isCorrect: score.isCorrect(), key: score.key };
             });            
             return this.scores;
         };
