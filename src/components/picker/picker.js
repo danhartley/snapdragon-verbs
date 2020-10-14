@@ -34,15 +34,15 @@ export const Picker = props => {
         getRootProps,
         clearSelection
       }) => (
-        <section>
+        <section class="section-block">
             <div class={style.picker}>
                 <label {...getLabelProps()}>{props.label}</label>
-                <Div position="relative" css={{paddingRight: '1.75em'}}>
+                <Div position="relative" css={{paddingRight: '1.75em; width: 18rem'}}>
                     <Input
                     autoFocus={true}
                     {...getInputProps({
                         isOpen,
-                        placeholder: 'Start typing…'
+                        placeholder: 'Start typing, or pick from dropdown'
                     })}
                     />
                     {selectedItem ? (

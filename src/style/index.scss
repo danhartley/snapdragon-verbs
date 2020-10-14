@@ -29,6 +29,8 @@ ul {
 li {
     list-style-type: none;
     cursor: pointer;    
+    font-size: 1.2rem;
+    color: rgb(50,50,50);
 }
 
 h1 {
@@ -76,14 +78,8 @@ select, input {
     }
 }
 
-.main, .sidebar {
-    padding: $space;
-}
-
-.sidebar > div {
-    height: 50px;
-    display: flex;
-    align-items: center;
+.main {
+    padding-top: $space;
 }
 
 button:disabled {
@@ -91,19 +87,22 @@ button:disabled {
 }
 
 .drills {
-    margin-top: $space * 4;
+    margin-top: $space;
+    text-align: right;
+    @media (max-width: 460px) {
+        text-align: left;
+    }
     h2 > span {
         border-bottom: 1px solid lightgray;
         font-weight: bold;
     }
     .questions {
         label {
-            width: 32 * $space;
+            width: 20 * $space;
             display: inline-block;
             padding-right: $space;
             text-align: right;
-            // @media (max-width: 440px) {
-            @media (max-width: 414px) {
+            @media (max-width: 460px) {
                 text-align: left;
                 margin-bottom: $space;
                 display: inline-block;
@@ -140,4 +139,43 @@ button:disabled {
         color: darkgray;
         border-bottom: none;
     }
+}
+
+.section-block {
+    min-height: $block;
+    display: flex;
+    position: relative;
+}
+
+.banner-block {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: $block;
+}
+
+.hint { 
+    color: gray;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 460px) {
+        align-items: flex-start;
+    }
+}
+
+input[type='checkbox'] {
+    filter: invert(0%) grayscale(100%) brightness(1);
+    width: 1rem !important;
+    height: 1rem !important;
 }

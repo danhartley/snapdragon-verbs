@@ -9,13 +9,37 @@ export const api = {
         const verbs = await data.getVerbs(inf);
         return verbs ? verbs[0] : {};
     },
+    getLikeFromVerbEnding(verb, language, tense = 'present') {
+        
+        const likes = {
+            pt: {                
+                'ar': 'falar',
+                'ir': 'partir',
+                'er': 'vender'
+            }
+        };
+
+        let like; 
+        
+        switch(tense) {
+            case 'present':
+                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                break;
+            case 'preterite':
+                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                break;
+            default:
+                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                break;
+        }        
+
+        return like;
+    },
     async getLike(inf, language) {
         let verb = await this.getVerb(inf);
-        return verb = verb 
-            ? verb[language]
-              ? verb[language].like 
-              : inf
-            : inf;
+        return verb[language].like === undefined
+                ? this.getLikeFromVerbEnding(inf, language)
+                : verb[language].like;
     },
     getRoot(inf, language) {
         switch(language) {

@@ -60,7 +60,7 @@ const ControllerButton = glamorous.button({
       minHeight: '2em',
       background: '#fff',
       display: 'inline-block',
-      padding: '.5em 2em .5em 1em !important',
+      padding: '.5em 0em .5em 1em !important',
       color: 'rgba(0,0,0,.87)',
       boxShadow: 'none',
       border: '1px solid rgb(125,125,125)',
@@ -99,6 +99,12 @@ const ControllerButton = glamorous.button({
     borderBottomWidth: 1,
     borderLeftWidth: 1,
     borderStyle: 'solid',
+    position: 'absolute',
+    right: '0',
+    width: '220px',
+    top: '50',
+    zIndex: '1',
+    backgroundColor: 'rgb(255, 255, 255)'
   })
 
   const Item = glamorous.div(

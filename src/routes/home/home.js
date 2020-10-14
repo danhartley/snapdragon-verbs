@@ -3,7 +3,7 @@ import { useState, useEffect } from 'preact/hooks';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
-import { SimpleList } from '../../components/elements/simple-list';
+import { SimpleList, RemoveableList } from '../../components/elements/simple-list';
 import { Drill } from '../../components/elements/drill';
 
 let lesson = new Lesson();
@@ -16,7 +16,7 @@ const Home = ({ verbs, tenses }) => {
     const [inputTenses, setInputTenses] = useState([]);
     const [selectedVerbs, setSelectedVerbs] = useState([]);
     const [selectedVerb, setSelectedVerb] = useState({});
-    const [selectedTense, setSelectedTense] = useState({});
+    const [selectedTenses, setSelectedTenses] = useState([]);
     const [hasDrills, setHasDrills] = useState(false);
 
     setInputVerbs(verbs);
@@ -28,7 +28,8 @@ const Home = ({ verbs, tenses }) => {
     };
 
     const handleTensePicked = tense => {
-        setSelectedTense(tense);
+        setSelectedTenses([ tense ]);
+        // setSelectedTenses([ ...selectedTenses.filter(v => v !== tense), tense ]);
     }
 
     const handleStartDrill = async e => {
@@ -41,17 +42,30 @@ const Home = ({ verbs, tenses }) => {
 
     return (
         <div class="home">
+            <section class="banner-block">
+                <h2>Verb drills</h2>
+            </section>
             <div class="main">
-                <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Pick tense for the drill'}></Picker>
-                <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Pick verbs to add to drill'}></Picker>
-                { hasDrills ? (
-                    <Drill lesson={lesson} />                    
-                ): <></>}
+                <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
+                <div class="flex-column">
+                    <div>
+                        <SimpleList msg="" items={selectedTenses} />         
+                        <SimpleList msg="" items={selectedVerbs} />
+                    </div>
+                    {
+                        selectedVerbs.length > 0 
+                            ? <button onClick={handleStartDrill}>Start drill</button>
+                            : ''
+                    }
+                </div>
             </div>
-            <div class="sidebar">
-                <div><h2>Selected verbs</h2></div>
-                <SimpleList items={selectedVerbs} />
-                <button onClick={handleStartDrill}>Start drill</button>
+            <div class="sidebar">                
+                <div class="section-block">                    
+                    { hasDrills ? (
+                        <Drill lesson={lesson} />                    
+                    ): <></>}
+                </div>
             </div>
         </div>
     )
