@@ -3,21 +3,40 @@ import { useState, useEffect } from 'preact/hooks';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
-import { SimpleList, RemoveableList } from '../../components/elements/simple-list';
+import { SimpleList, ActionList } from '../../components/elements/simple-list';
 import { Drill } from '../../components/elements/drill';
 
 let lesson = new Lesson();
 
 const Home = ({ verbs, tenses }) => {
 
-    console.log('%c render Home', 'color: red');
-    
     const [inputVerbs, setInputVerbs] = useState([]);
     const [inputTenses, setInputTenses] = useState([]);
     const [selectedVerbs, setSelectedVerbs] = useState([]);
     const [selectedVerb, setSelectedVerb] = useState({});
     const [selectedTenses, setSelectedTenses] = useState([]);
     const [hasDrills, setHasDrills] = useState(false);
+    const [setDrills, setSetDrills] = useState(() => [
+        {
+            id: 1,
+            name: 'Common irregular verbs',
+            verbs: [ 'ser', 'estar' ]
+        },
+        {
+            id: 2,
+            name: 'Regular -ar, -er and -ir verbs',
+            verbs: [ 'falar', 'partir', 'vender' ]
+        },
+        {
+            id: 3,
+            name: 'Common reflexive verbs',
+            verbs: [ 'lembrar-se', 'levantar-se', 'vestir-se']
+            // verbs: [ 'lembrar-se', 'levantar-se', 'sentar-se', 'vestir-se' ]
+            // verbs: [ 'lembrar-se', 'levantar-se', 'sentar-se', 'sentir-se', 'servir-se', 'vestir-se' ]
+        },
+    ]);
+
+    console.log(`%c ${hasDrills}`, 'color: red');
 
     setInputVerbs(verbs);
     setInputTenses(tenses);
@@ -40,17 +59,30 @@ const Home = ({ verbs, tenses }) => {
         }
     };
 
+    const handleSelectSetDrill = e => {
+        const set = e.target;
+        const id = parseInt(set.dataset.id);
+        const verbs = setDrills.find(set => set.id === id).verbs;
+        setSelectedVerbs(verbs);
+        // setSetDrills([]);
+        setHasDrills(false);
+    };
+
+    useEffect(() => {
+        if(!hasDrills) lesson.drills = [];
+    }, [hasDrills])
+
     return (
         <div class="home">
             <section class="banner-block">
-                <h2>Verb drills</h2>
+                <h1>Verb drills</h1>
             </section>
             <div class="main">
                 <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                 <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
                 <div class="flex-column">
                     <div>
-                        <SimpleList msg="" items={selectedTenses} />         
+                        <SimpleList msg="" items={selectedTenses} />   
                         <SimpleList msg="" items={selectedVerbs} />
                     </div>
                     {
@@ -60,12 +92,13 @@ const Home = ({ verbs, tenses }) => {
                     }
                 </div>
             </div>
-            <div class="sidebar">                
-                <div class="section-block">                    
+            <div class="sidebar">                                
+                <div class="section-block">          
                     { hasDrills ? (
                         <Drill lesson={lesson} />                    
                     ): <></>}
                 </div>
+                <div class="section-block"><ActionList callback={handleSelectSetDrill} items={setDrills} /></div>
             </div>
         </div>
     )

@@ -34,13 +34,8 @@ li {
 }
 
 h1 {
-	float: left;
-	margin: 0;
-	padding: 0 0 0 $space;
-	font-size: 1.5rem;
-	line-height: 3.5rem;
-	font-weight: 400;
-	color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 h2 {
@@ -78,9 +73,9 @@ select, input {
     }
 }
 
-.main {
-    padding-top: $space;
-}
+// .main {
+//     padding-top: $space;
+// }
 
 button:disabled {
     pointer-events: none;
@@ -98,7 +93,7 @@ button:disabled {
     }
     .questions {
         label {
-            width: 20 * $space;
+            width: 30 * $space;
             display: inline-block;
             padding-right: $space;
             text-align: right;
@@ -142,8 +137,8 @@ button:disabled {
 }
 
 .section-block {
-    min-height: $block;
-    display: flex;
+    // min-height: $block;
+    // display: flex;
     position: relative;
 }
 
@@ -178,4 +173,15 @@ input[type='checkbox'] {
     filter: invert(0%) grayscale(100%) brightness(1);
     width: 1rem !important;
     height: 1rem !important;
+}
+
+.button-link {
+    border: none;
+    text-decoration: none;
+    background-color: transparent;    
+    width: auto;
+    span {
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 2px;
+    }
 }

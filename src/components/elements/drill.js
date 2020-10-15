@@ -84,15 +84,15 @@ export const Drill = ({ lesson }) => {
                 : <div class={question.class}><label htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div>
             );
         return (
-        <section class="drills">
-            <h2>
-                <span>{drill.verb}</span><span class="translation">{translation}</span>
-            </h2>
-            <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
-                <div class="questions">{questions}</div>
-                <button disabled={qandas.length < 6}>{drillActionState}</button>
-            </form>
-        </section>
+            <section class="drills">
+                <h2>
+                    <span>{drill.verb}</span><span class="translation">{translation}</span>
+                </h2>
+                <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
+                    <div class="questions">{questions}</div>
+                    <button disabled={qandas.length < 6}>{drillActionState}</button>
+                </form>
+            </section>
         );
     }
   };

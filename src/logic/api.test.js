@@ -2,7 +2,7 @@ import { Language } from './enums.js';
 
 import { api } from './api.js';
 
-describe('api', () => {
+describe('api simple verbs', () => {
     test('check translation lookups are valid', async () => {
         let verbs = await api.getVerbs();
         expect(verbs.length).toBeGreaterThan(0);
@@ -46,9 +46,9 @@ describe('api', () => {
     });    
     test('check verb root', () => {
         let root = api.getRoot('cantar', Language.PT);
-        expect(root).toBe('cant')
+        expect(root).toBe('cant');
         root = api.getRoot('vender', Language.PT);
-        expect(root).toBe('vend')
+        expect(root).toBe('vend');
         root = api.getRoot('partir', Language.PT);
         expect(root).toBe('part')
     });
@@ -96,6 +96,46 @@ describe('api', () => {
         expect(conjugations.present[0]).toBe('canto'); 
         expect(conjugations.preterite[0]).toBe('cantei'); 
     });  
+});
+
+describe('api reflexive verbs', () => {
+    test('should return the non-flexive root', () => {
+        let root; 
+        root = api.getReflexiveRoot('lembrar-se', Language.PT);
+        expect(root).toBe('lembr');
+        root = api.getRoot('lembrar-se', Language.PT);
+        expect(root).toBe('lembr');
+    });
+    test('check reflexive -ar verbs, with no like, follow the pattern in present tense', async() => {
+        const verb = 'levantar-se';
+        const conjugations = await api.getConjugations(verb, Language.PT);
+        expect(conjugations.present[0]).toBe('levanto-me');
+        expect(conjugations.present[1]).toBe('levantas-te');
+        expect(conjugations.present[2]).toBe('levanta-se');
+        expect(conjugations.present[3]).toBe('levantamo-nos');
+        expect(conjugations.present[4]).toBe('levantais-vos');
+        expect(conjugations.present[5]).toBe('levantam-se');
+    });
+    test('check reflexive -er verbs, with no like, follow the pattern in present tense', async() => {
+        const verb = 'arrepender-se';
+        const conjugations = await api.getConjugations(verb, Language.PT);
+        expect(conjugations.present[0]).toBe('arrependo-me');
+        expect(conjugations.present[1]).toBe('arrependes-te');
+        expect(conjugations.present[2]).toBe('arrepende-se');
+        expect(conjugations.present[3]).toBe('arrependemo-nos');
+        expect(conjugations.present[4]).toBe('arrependeis-vos');
+        expect(conjugations.present[5]).toBe('arrependem-se');
+    });
+    test('check reflexive -ir verbs, with no like, follow the pattern in present tense', async() => {
+        const verb = 'divertir-se';
+        const conjugations = await api.getConjugations(verb, Language.PT);
+        expect(conjugations.present[0]).toBe('diverto-me');
+        expect(conjugations.present[1]).toBe('divertes-te');
+        expect(conjugations.present[2]).toBe('diverte-se');
+        expect(conjugations.present[3]).toBe('divertimo-nos');
+        expect(conjugations.present[4]).toBe('divertis-vos');
+        expect(conjugations.present[5]).toBe('divertem-se');
+    });
 });
 
 describe('api regular verb conjugation patterns in the present', () => {

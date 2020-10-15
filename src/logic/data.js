@@ -12828,13 +12828,13 @@ export const data = {
             },
             {
               en: {
-                inf: 'ENINF'
+                inf: 'to remember'
               },
               pt: {
                 inf: 'lembrar-se'
               },
               es: {
-                inf: 'ESINF'
+                inf: 'to remember'
               }
             },
             {
@@ -19917,7 +19917,7 @@ export const data = {
                 : verbs;
         return new Promise(resolve => resolve(filteredVerbs));
     },
-    getConjugations(inf) {
+    getConjugations(inf, isReflexive) {
         const conjugations = [
                 {
                     inf: 'ser',
@@ -20038,6 +20038,25 @@ export const data = {
                         'partiram'
                     ]
                 },
+                // {
+                //     inf: 'lembrar-se',
+                //     present: [
+                //         'lembro-me',
+                //         'lembras-te',
+                //         'lembra-se',
+                //         'lembramo-nos',
+                //         'lembrais-vos',
+                //         'lembram-se'
+                //     ],
+                //     preterite: [
+                //         'lembrei-me',
+                //         'lembraste-te',
+                //         'lembrou-se',
+                //         'lembrámo-nos',
+                //         'lembrastes-vos',
+                //         'lembraram-se'
+                //     ]
+                // },
                 {
                     inf: 'estar',
                     present: [
@@ -20058,7 +20077,34 @@ export const data = {
                     ]
                 },
             ];
-        const filteredConjugations = conjugations.find(verb => clean(verb.inf) === clean(inf));
+        
+        let filteredConjugations = conjugations.find(verb => clean(verb.inf) === clean(inf));
+
+        if(isReflexive && filteredConjugations) {
+            let present = filteredConjugations.present.map((c,i) => {
+                switch(i){
+                    case 0: return `${c}-me`;
+                    case 1: return `${c}-te`;
+                    case 2: return `${c}-se`;
+                    case 3: return `${c.slice(0, c.length -1)}-nos`;
+                    case 4: return `${c}-vos`;
+                    case 5: return `${c}-se`;
+                }
+            });
+            let preterite = filteredConjugations.present.map((c,i) => {
+                switch(i){
+                    case 0: return `${c}-me`;
+                    case 1: return `${c}-te`;
+                    case 2: return `${c}-se`;
+                    case 3: return `${c.slice(0, c.length -1)}-nos`;
+                    case 4: return `${c}-vos`;
+                    case 5: return `${c}-se`;
+                }
+            });
+            filteredConjugations.present = present;
+            filteredConjugations.preterite = preterite;
+        }
+
         return new Promise(resolve => resolve(filteredConjugations));
     },
     getTenses() {

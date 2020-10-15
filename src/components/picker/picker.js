@@ -63,20 +63,21 @@ export const Picker = props => {
             {!isOpen ? null : (
                 <Menu>
                 {props.items
-                        .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
-                        .map((item, index) => (
-                    <Item
-                    key={item.id}
-                    {...getItemProps({
-                        item,
-                        index,
-                        isActive: highlightedIndex === index,
-                        isSelected: selectedItem === item,
-                    })}
-                    >
-                    {props.itemToString(item)}
-                    </Item>
-                ))}
+                    .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
+                    .map((item, index) => (
+                                            <Item
+                                            key={item.id}
+                                            {...getItemProps({
+                                                item,
+                                                index,
+                                                isActive: highlightedIndex === index,
+                                                isSelected: selectedItem === item,
+                                            })}
+                                            >
+                                            {props.itemToString(item)}
+                                            </Item>
+                                        )
+                    )}
                 </Menu>
             )}
         </section>

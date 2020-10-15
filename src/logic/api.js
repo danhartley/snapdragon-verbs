@@ -11,25 +11,37 @@ export const api = {
     },
     getLikeFromVerbEnding(verb, language, tense = 'present') {
         
-        const likes = {
-            pt: {                
+        const isReflexive = (verb.indexOf('-se') > -1);
+
+        let likes = isReflexive 
+        ? {
+            pt: {         
+                'ar-se': 'falar',
+                'er-se': 'vender',
+                'ir-se': 'partir',
+            }
+        } 
+        : {
+            pt: {         
                 'ar': 'falar',
+                'er': 'vender',
                 'ir': 'partir',
-                'er': 'vender'
             }
         };
+
+        let end = isReflexive ? 5 : 2;
 
         let like; 
         
         switch(tense) {
             case 'present':
-                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                like = likes[language][verb.substring(verb.length - end)];
                 break;
             case 'preterite':
-                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                like = likes[language][verb.substring(verb.length - end)];
                 break;
             default:
-                like = likes[language][verb.substring(verb.length -2, verb.length)];
+                like = likes[language][verb.substring(verb.length - end)];
                 break;
         }        
 
@@ -41,10 +53,19 @@ export const api = {
                 ? this.getLikeFromVerbEnding(inf, language)
                 : verb[language].like;
     },
-    getRoot(inf, language) {
+    getReflexiveRoot(inf, language) {
         switch(language) {
             case Language.PT:
-                return inf.slice(0, inf.length -2);
+                return inf.slice(0, inf.length -5);
+            case Language.EN:
+                return inf;
+        }
+    },
+    getRoot(inf, language) {
+        const isReflexive = (inf.indexOf('-se') > -1);
+        switch(language) {
+            case Language.PT:
+                return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
             case Language.EN:
                 return inf;
         }
@@ -64,9 +85,9 @@ export const api = {
     getTenses() {
         return data.getTenses();
     },
-    async getConjugations(inf, language) {        
+    async getConjugations(inf, language, isReflexive = false) {        
         let tenses, like, likeRoot, likeConjugations, root, conjugations;
-        conjugations = await data.getConjugations(inf);
+        conjugations = await data.getConjugations(inf, isReflexive);
         if(conjugations) {
             return conjugations;
         } 
@@ -74,7 +95,7 @@ export const api = {
             tenses = ['present', 'preterite'];
             like = await this.getLike(inf, language);
             likeRoot = this.getRoot(like, language);
-            likeConjugations = await this.getConjugations(like, language);
+            likeConjugations = await this.getConjugations(like, language, (inf.indexOf('-se') > -1) );
             root = this.getRoot(inf, language);
             conjugations = this.getConjugationsFromLike(likeRoot, likeConjugations, root, tenses);
             return conjugations;
