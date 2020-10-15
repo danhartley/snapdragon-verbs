@@ -6,12 +6,12 @@ describe('api simple verbs', () => {
     test('check translation lookups are valid', async () => {
         let verbs = await api.getVerbs();
         expect(verbs.length).toBeGreaterThan(0);
-        let toBe = await verbs.find(verb => verb.en.inf === 'to be');
-        expect(toBe.pt.inf).toBe('ser');
+        let toBe = await verbs.find(verb => verb.en.i === 'to be');
+        expect(toBe.pt.i).toBe('ser');
         toBe = await api.getVerbs('to be');
-        expect(toBe[0].pt.inf).toBe('ser');
+        expect(toBe[0].pt.i).toBe('ser');
         toBe = await api.getVerb('to be');
-        expect(toBe.pt.inf).toBe('ser');
+        expect(toBe.pt.i).toBe('ser');
     });
     test('check conjugation lookup is valid', async () => {
         const verb = 'ser';

@@ -63,7 +63,7 @@ export const Drill = ({ lesson }) => {
     useEffect( async () => {
         if(drill) {
             let translation = await api.getVerb(drill.verb);
-            translation = translation[lesson.language.from].inf;
+            translation = translation[lesson.language.from].i;
             setTranslation(translation);
         }
     }, [drill]);
@@ -80,8 +80,8 @@ export const Drill = ({ lesson }) => {
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div class={question.class}><label htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} ref={inputRef} /></div>
-                : <div class={question.class}><label htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div>
+                ? <div class={question.class}><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} ref={inputRef} /></div>
+                : <div class={question.class}><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div>
             );
         return (
             <section class="drills">

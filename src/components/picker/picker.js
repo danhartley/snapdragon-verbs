@@ -34,7 +34,7 @@ export const Picker = props => {
         getRootProps,
         clearSelection
       }) => (
-        <section class="section-block">
+        <section class="relative-block">
             <div class={style.picker}>
                 <label {...getLabelProps()}>{props.label}</label>
                 <Div position="relative" css={{paddingRight: '1.75em; width: 18rem'}}>

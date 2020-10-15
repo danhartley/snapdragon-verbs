@@ -18,7 +18,7 @@ const App = () => {
     const getVerbs = async () => {
         savedVerbs = await api.getVerbs();
         savedVerbs = savedVerbs.map(verb => {
-            return verb[GLOBAL_LANGUAGE].inf;
+            return verb[GLOBAL_LANGUAGE].i;
         });
         setVerbs(savedVerbs);
     };

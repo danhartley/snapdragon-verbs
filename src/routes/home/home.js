@@ -73,18 +73,18 @@ const Home = ({ verbs, tenses }) => {
     }, [hasDrills])
 
     return (
-        <div class="home">
-            <section class="banner-block">
-                <h1>Verb drills</h1>
-            </section>
-            <div class="main">
-                <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
-                <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                <div class="flex-column">
-                    <div>
-                        <SimpleList msg="" items={selectedTenses} />   
-                        <SimpleList msg="" items={selectedVerbs} />
-                    </div>
+        <div class="home">          
+          <section class="banner-block">
+            <h1>Verb drills</h1>
+          </section>
+          <div class="columns">
+          <div class="sidebar">
+                <div> 
+                    <ActionList header={'Fixed drills'} callback={handleSelectSetDrill} items={setDrills} />
+                    <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                    <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
+                    <SimpleList header={'Tenses'} msg="" items={selectedTenses} />
+                    <SimpleList header={'Custom drill'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 
                             ? <button onClick={handleStartDrill}>Start drill</button>
@@ -92,14 +92,25 @@ const Home = ({ verbs, tenses }) => {
                     }
                 </div>
             </div>
-            <div class="sidebar">                                
-                <div class="section-block">          
+            <div class="main">
+            {/* <div class="block">
+                <h3>Selectors for custom drills</h3>
+            </div> */}
+                <div class="block">
                     { hasDrills ? (
                         <Drill lesson={lesson} />                    
                     ): <></>}
                 </div>
-                <div class="section-block"><ActionList callback={handleSelectSetDrill} items={setDrills} /></div>
             </div>
+            {/* <div class="sidebar2">
+                <div class="block flex-column">
+                    <h3>Verb conjugation</h3>
+                    <div>
+                        <input disabled />
+                    </div>
+                </div>
+            </div> */}
+          </div>
         </div>
     )
 };

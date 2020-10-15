@@ -1,20 +1,26 @@
-export const SimpleList = ({ items, msg }) => {
-    const list = items.length > 0 
+export const SimpleList = ({ items, msg, header }) => {
+    const showList = items.length > 0;
+    const list = showList 
         ? items.map(item =><li>{item}</li>)
         : <li class="hint">{msg}</li>;
-    return (
-      <ul>{list}</ul>
-    );
+    if(showList) {    
+        return (
+        <>
+            <div class="block"><h3>{header}</h3></div>
+            <ul>{list}</ul>
+        </>
+        );
+    } else return (<></>);
   }
 
-  export const ActionList = ({ items, callback }) => {
-    const handleClick = e => {
-        const btn = e.target;
-        callback(btn);
-    };
+  export const ActionList = ({ items, callback, header }) => {
+    
     const list = items.map(item =><li><button onClick={callback} class="button-link" data-id={item.id}><span data-id={item.id}>{item.name}</span></button></li>);
     return (
-      <ul>{list}</ul>
+      <>  
+        {/* <div class="block"><h3>{header}</h3></div> */}
+        <ul>{list}</ul>
+      </>
     );
   }
 

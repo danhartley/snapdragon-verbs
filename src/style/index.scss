@@ -22,7 +22,7 @@ html, body {
 }
 
 ul {
-    margin: 0 0 ($space * 2) 0;
+    margin: 0 0 1rem 0;
     padding: 0;
 }
 
@@ -30,17 +30,27 @@ li {
     list-style-type: none;
     cursor: pointer;    
     font-size: 1.2rem;
-    color: rgb(50,50,50);
 }
 
 h1 {
     font-size: 1.5rem;
     font-weight: 500;
+    display: inline-block;
+    margin: 0;
 }
 
 h2 {
     font-size: 1.25rem;
     font-weight: 400;
+    display: inline-block;
+    margin: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 400;
+    display: inline-block;
     margin: 0;
 }
 
@@ -59,23 +69,25 @@ select, input {
     padding: 0 ($space * 2);
     margin-right: auto;
     margin-left: auto;
-    @media (min-width: 576px) {
-        max-width: 540px;
-    }
-    @media (min-width: 768px) {
-        max-width: 720px;
-    }
-    @media (min-width: 992px) {
-        max-width: 960px;
-    }
-    @media (min-width: 1200px) {
-        max-width: 1140px;
-    }
+    // @media (min-width: 576px) {
+    //     max-width: 540px;
+    // }
+    // @media (min-width: 768px) {
+    //     max-width: 720px;
+    // }
+    // @media (min-width: 992px) {
+    //     max-width: 960px;
+    // }
+    // @media (min-width: 1200px) {
+    //     max-width: 1140px;
+    // }
+    max-width: 1200px;    
 }
 
-// .main {
-//     padding-top: $space;
-// }
+.main, .sidebar, .sidebar2 {
+    margin-right: 4rem;
+    min-width: 300px;
+}
 
 button:disabled {
     pointer-events: none;
@@ -84,30 +96,39 @@ button:disabled {
 .drills {
     margin-top: $space;
     text-align: right;
-    @media (max-width: 460px) {
-        text-align: left;
-    }
+    // @media (max-width: 460px) {
+    //     text-align: left;
+    // }
     h2 > span {
         border-bottom: 1px solid lightgray;
         font-weight: bold;
     }
     .questions {
         label {
-            width: 30 * $space;
+            // width: 30 * $space;
             display: inline-block;
             padding-right: $space;
-            text-align: right;
-            @media (max-width: 460px) {
-                text-align: left;
-                margin-bottom: $space;
-                display: inline-block;
-            }
+            // text-align: right;
+            // @media (max-width: 460px) {
+            //     text-align: left;
+            //     margin-bottom: $space;
+            //     display: inline-block;
+            // }
         }
         input {
             @include outline;
         }
         & > div {
             margin: ($space * 2) 0;
+        }
+    }
+    .responsive-align {
+        text-align: right;
+        @media (max-width: 414px) {
+            text-align: left;
+            margin-bottom: $space;
+            display: inline-block;
+            padding-right: 0;
         }
     }
     .answer { 
@@ -136,10 +157,17 @@ button:disabled {
     }
 }
 
-.section-block {
-    // min-height: $block;
-    // display: flex;
+.relative-block {
     position: relative;
+}
+
+.block {
+    min-height: $space * 3;
+    display: flex;
+    align-items: center;
+    &:empty {
+        display: none;
+    }
 }
 
 .banner-block {
@@ -162,11 +190,8 @@ button:disabled {
 
 .flex-column {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    @media (max-width: 460px) {
-        align-items: flex-start;
-    }
+    align-items: flex-start;
 }
 
 input[type='checkbox'] {
@@ -180,8 +205,16 @@ input[type='checkbox'] {
     text-decoration: none;
     background-color: transparent;    
     width: auto;
+    padding: .5rem 0;
+    outline: none !important;
+    text-transform: initial;
     span {
         border-bottom: 1px solid lightgray;
         padding-bottom: 2px;
     }
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
 }

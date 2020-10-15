@@ -10,19917 +10,14513 @@ export const data = {
         const verbs1 = [
             {
                 en: {
-                    inf: 'to be',
+                    i: 'to be',
                     like: 'to be'
                 },
                 pt: {
-                    inf: 'ser',
+                    i: 'ser',
                     like: 'ser'
                 },
                 es: {
-                    inf: 'ser',
+                    i: 'ser',
                     like: 'ser'
                 }
             }, 
             {
                 en: {
-                    inf: 'to have',
+                    i: 'to have',
                     like: 'to have'
                 },
                 pt: {
-                    inf: 'ter',
+                    i: 'ter',
                     like: 'ter'
                 },
                 es: {
-                    inf: 'tener',
+                    i: 'tener',
                     like: 'tener'
                 }
             },
             {
                 en: {
-                    inf: 'to speak',
+                    i: 'to speak',
                     like: 'to speak'
                 },
                 pt: {
-                    inf: 'falar',
+                    i: 'falar',
                     like: 'falar'
                 },
                 es: {
-                    inf: 'hablar',
+                    i: 'hablar',
                     like: 'hablar'
                 }
             },
             {
                 en: {
-                    inf: 'to sing',
+                    i: 'to sing',
                     like: 'to speak'
                 },
                 pt: {
-                    inf: 'cantar',
+                    i: 'cantar',
                     like: 'falar'
                 }
             },
             {
                 en: {
-                    inf: 'to walk',
+                    i: 'to walk',
                     like: 'to walk'
                 },
                 pt: {
-                    inf: 'andar',
+                    i: 'andar',
                     like: 'falar'
                 }
             },
             {
                 en: {
-                    inf: 'to leave'
+                    i: 'to leave'
                 },
                 pt: {
-                    inf: 'partir',
+                    i: 'partir',
                     like: 'partir'
                 }
             },
             {
                 en: {
-                    inf: 'to sell'
+                    i: 'to sell'
                 },
                 pt: {
-                    inf: 'vender',
+                    i: 'vender',
                     like: 'vender'
                 }
             },
             {
                 en: {
-                    inf: 'to comply'
+                    i: 'to comply'
                 },
                 pt: {
-                    inf: 'adimplir',
+                    i: 'adimplir',
                 }
             },
         ];
-        const verbs2 = [
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abanar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abandonar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abastecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abater'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abaular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abençoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abolir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abortar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abotoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abraçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abranger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abreviar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abrigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'absolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'absorver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abster'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abster-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abstrair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'abusar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acabar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acalmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acampar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acariciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acatar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aceitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acelerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'to light up'
-              },
-              pt: {
-                inf: 'acender'
-              },
-              es: {
-                inf: 'encender'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acentuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'achar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aclamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'açoitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acolher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acomodar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acompanhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aconselhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acontecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acoplar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acostar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acostumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acreditar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acrescentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acumular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'acusar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adaptar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adaptar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adequar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aderir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adiantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adiantar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adicionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adivinhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'administrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'admirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'admitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'admoestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adoçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adoecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adormecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adornar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adquirir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'adubar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'advertir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afirmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afligir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afogar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afrouxar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'afundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agachar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agarrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agoniar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agradar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agradecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agravar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agredir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'agrupar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aguardar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aguçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aguentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ajoelhar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ajudar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ajuizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ajustar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alargar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alarmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'albergar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alcançar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alegrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alegrar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aleitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alienar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alimentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alinhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aliviar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'almejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'almoçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alongar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alterar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'altercar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alternar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alugar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alvoroçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'alvorotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amainar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amanhecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amarar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amarrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amassar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ameaçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amenizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amoldar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ampliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amplificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'amputar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'analisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'andar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anestesiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'angustiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'animar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anoitecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ansiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'antecipar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'anunciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apaixonar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apanhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aparecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apartar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apascentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apaziguar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aperceber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apetecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apiedar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aplaudir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aplicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apoiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apontar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apostar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apreciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apregoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aprender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apresentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apressar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aprisionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aprofundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aprovar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aproveitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aproximar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'apurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aquecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'argumentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'armar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'armazenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arquivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arrancar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arranhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arranjar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arrastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arremeter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arrepender-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arriscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arruinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arrumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'arrumar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'articular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ascender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'asfixiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aspergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aspirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assaltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assassinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assegurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assemelhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assemelhar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assimilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assinalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assobiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'associar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assomar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assombrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assumir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assustar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'assustar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atacar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atenuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aterrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aterrorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atingir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ativar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atordoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atormentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atrair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atravessar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atribuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atropelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atualizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'atuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'auferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aumentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'autenticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'automatizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'autorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avaliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avançar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avariar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'aventurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avergonhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'averiguar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'avivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bailar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'baixar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'balançar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'balancear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'balbuciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'balizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'banhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'banhar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'barbear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'barrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'basear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'batalhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bater'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'batizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'beber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'beijar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'beijocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'beliscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bendizer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'beneficiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'besuntar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'blasfemar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'blindar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bloquear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bocejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'boiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bombear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'borbulhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'borrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bosquejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'botar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bradar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bramar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'branquear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brecar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brincar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brindar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bronzear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'brunir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'bulhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'buscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caducar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'calar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'calar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'calcar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'calcular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caldear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'calhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cambiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caminhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'camuflar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'canalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cancelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cansar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cantarolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'capitular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'captar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'capturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'caracterizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cardar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'carecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'carpir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'carregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'casar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'castigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'castrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'catalisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'catapultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'categorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cativar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'causar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cavar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ceifar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'celebrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'censurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'centelhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'centralizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'centrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cerrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'certificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cerzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cessar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chamar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cheirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'choramingar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chover'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chupar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'chuviscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cifrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cingir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cintilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'circular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'circuncidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'circundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'circunscrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cismar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'citar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'civilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'clamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'clarificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'classificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'claudicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'clicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coabitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coagular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coalhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cobrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cochichar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'codificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coincidir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colaborar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colapsar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colecionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colonizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'colorir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coludir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comandar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'combater'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'combinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'começar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comemorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comercializar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comerciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cometer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comover'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compadecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comparar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comparecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compartilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compensar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'competir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'completar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'complicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comportar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comportar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comprar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comprazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'compreender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comprometer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comprovar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'comunicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conceber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concentrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concernir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conciliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'concretizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'condenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'condicionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conectar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confeccionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confessar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'configurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confirmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confiscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conformar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confortar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confrontar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confundir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'confundir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'congelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'congregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conhecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conhecer-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conjecturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conjeturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conjugar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conquistar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consagrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conseguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conservar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'considerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consolidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'constar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'constatar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consternar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'constituir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'constranger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'construir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'consumir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contactar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contagiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contaminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contemplar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'continuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contradizer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contrair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contrariar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contrastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contratar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'contribuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'controlar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'convencer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'convergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conversar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'converter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'convidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'convir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'conviver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'convocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cooperar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coordenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'copiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'copular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coroar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'correr'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'corresponder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'corrigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'corroborar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'corromper'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cortar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cortejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coser'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'costumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'costurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'coxear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cozer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cozinhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cravar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'crer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'crescer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'criar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'criticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'crivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'crucificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cruzar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cuidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'culminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'culpar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cultivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cumprimentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cumprir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cumular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'curar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'cursar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'curtir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'curvar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'custar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'custodiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'danar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dançar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'debater'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'debilitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'debutar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decapitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decepcionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decidir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'declarar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'declinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decompor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'decorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dedicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dedicar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'defender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'definir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'degelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'degolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'degustar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deitar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deixar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'delegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deliberar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'delinear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'delinquir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'demitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'demolir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'demonstrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'demorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'denegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'denegrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'denunciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'depender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deplorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'depor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'depositar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'depreciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'depurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'derivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'derramar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'derrotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'derrubar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'derruir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desaconselhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desanimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desaparecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desbotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descalçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descansar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descarregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descarrilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descartar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descobrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descompor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desconectar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desconfiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descongelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'descrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desculpar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desculpar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desdobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desembocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desempenhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desenhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desfazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desfrutar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'designar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desligar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deslizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desmaiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desobedecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despachar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despedir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despedir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desperdiçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despertar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'despir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desprender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desprezar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'destacar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'destilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'destinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'destruir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'desviar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'detalhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'detectar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'deteriorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'determinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'detestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'detonar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'devastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'devolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'devorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'diagnosticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'diferenciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'diferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dificultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'difundir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'digerir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'digitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dignificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dilatar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'diluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'diminuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dirigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'discernir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'disciplinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'discriminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'discutir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'disfarçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'disparar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dispensar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dispersar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dispor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dispor-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'disputar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'disseminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dissentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dissimular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dissolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'distanciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'distinguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'distrair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'distrair-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'distribuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ditar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divertir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divertir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dividir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divorciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divorciar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'divulgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dizer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'doar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'documentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'doer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'domesticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dominar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dormir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'dramatizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'drenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'duplicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'durar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'duvidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'edificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'editar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'educar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'efetuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ejacular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'elaborar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'eleger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'elevar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'eliminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'elogiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'eludir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emagrecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emanar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emancipar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emascular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'embarcar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'embeber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'embelezar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'embrulhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'embruxar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emendar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emigrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emocionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emparelhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empatar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empenhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empenhar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empreender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'emprestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'empurrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enaltecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encaminhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encarar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encarcerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encarregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encolher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encomendar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encontrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encontrar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encorajar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encostar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'encurtar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'endoidecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enfeitiçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enfermar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enfiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enfocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enforcar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enfrentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enganar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enganchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'engolir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'engordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'engraxar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enjoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enlaçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enlevar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enredar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enriquecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enrolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ensaiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ensinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entediar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entediar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enterrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entreter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entreter-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entrevistar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entristecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entupir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entusiasmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'entusiasmar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enumerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enunciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'envelhecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'envenenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'envergonhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'envergonhar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enviar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'envolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enxaguar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enxergar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'enxugar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'equiparar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'equivaler'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'equivocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'equivocar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'erguer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'erigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'errar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escapar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escavar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esclarecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escolher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esconder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esconder-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escorregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escovar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escusar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escusar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'escutar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esfoliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esfregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esfriar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esfumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esgotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esmagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espalhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espavorir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'especializar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'especificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'especular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esperar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espevitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espirrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espreitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'espremer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquecer-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esquivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estabelecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estacionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estar',
-                like: 'estar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esterilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estigmatizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estimular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estipular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estourar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estragar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estrangular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estranhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estrear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estrelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estremecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estressar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estudar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'estufar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'esvaziar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evacuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evadir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evaporar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evoluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'evolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exagerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'examinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exasperar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exceler'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exclamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'excluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'executar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exercer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exibir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'eximir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'existir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exonerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expandir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expatriar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expedir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expelir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'experimentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'explicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'explodir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'explorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exportar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expressar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'expulsar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'exterminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'extinguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'extraditar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'extrair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fabricar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'facilitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fagocitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falsear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'falsificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'faltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fanfarronar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fantasiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fartar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fascinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fatigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'faturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'favorecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fechar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'feder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'felicitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fertilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ferver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ficar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fichar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'figurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'filmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'filosofar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'filtrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'finalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'financiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fincar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fingir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'firmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fixar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'flectir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'flertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'flexibilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'flexionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'florescer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'florir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'flutuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'focalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'focar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'foder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'folhear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fomentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'forçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'formalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'formar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'formular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fornear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fornecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fornicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fortalecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fortificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fotocopiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fotografar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fracassar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fraternizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fraturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'frear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'frequentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'frigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fritar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'frustrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fugir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fumigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'funcionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fundir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'furar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'fusionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gaguejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'galopar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'galvanizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ganhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'garantir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gastar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gemer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'generalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gerir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gesticular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'girar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'glorificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'golpear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gostar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'governar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gozar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gracejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'graduar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'granizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gratificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gravar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'gritar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'grulhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'grunhir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'guardar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'guiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'guisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'habitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'harmonizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'haver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'herdar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'hesitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'hidratar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'hipnotizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'horrorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'hospedar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'hospitalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'humilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'idealizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'idear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'identificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ignorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'igualar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'iludir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'iluminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ilusionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ilustrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imaginar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imaginar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imigrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imiscuir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'impedir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'impelir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'implantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'implementar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'implicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'impor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'importar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'impressionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'improvisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'impugnar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'imunizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inaugurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incendiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incidir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incinerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inclinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incomodar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incorporar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incrementar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incriminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'incubar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'indagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'indicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'indignar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'individualizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'industrializar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'induzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infectar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infiltrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inflamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inflar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infligir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'influenciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'informar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'informar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infringir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'infundir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ingerir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ingressar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inibir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'iniciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'injetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inocular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inovar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inquirir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inscrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inscrever-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inserir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'insinuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'insistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inspecionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inspirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'instalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'instigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'instituir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'instruir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'insultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'integrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intercambiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interceptar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intercetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interessar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interessar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'internar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interpor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interpretar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interrogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'interromper'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intervir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intimidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intoxicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'introduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'intuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inundar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'invadir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'invalidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'invejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inventar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'inverter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'investigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'investir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'invitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'invocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'irmanar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'irradiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'irrigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'irritar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'irromper'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'isolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'jantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'jazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'jogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'julgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'juntar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'jurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'justapor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'justificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lactar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ladrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lamber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lambiscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lamentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lamentar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lançar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lanchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'largar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'latir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lavar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'legalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'legar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'legislar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'legitimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lembrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'to remember'
-              },
-              pt: {
-                inf: 'lembrar-se'
-              },
-              es: {
-                inf: 'to remember'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ler'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'levantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'levantar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'levar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'liberar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'libertar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'licenciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'liderar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ligar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'limitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'limpar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'linchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'liquefazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'liquidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'litigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'livrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'localizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lograr'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'louvar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lubrificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lucrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'lutar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'luzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'machucar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'madrugar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'madurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'maldizer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'malquerer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'maltratar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mandar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manejar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manifestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manipular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manufacturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'manufaturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'maquiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'maquiar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'maravilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'marcar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'marchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'marear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mastigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'masturbar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'matar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mediar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'medicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'medir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'meditar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'melhorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'memorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mencionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'menosprezar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'menstruar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'merecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'merendar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mergulhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'meter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mexer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'miar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'migrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mijar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'minguar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mistificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'misturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mitigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mobiliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mobilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'modelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'moderar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'modernizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'modificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'modular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'moer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'molestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'molhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'montar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'morar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'morder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'morrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mostrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'motivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mover'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mudar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'multar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'multiplicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'murmurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'mutilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nadar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'narrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nascer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'naturalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'naufragar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'navegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'necessitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'negar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'negociar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'neutralizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nevar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'neviscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nivelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nomear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'notar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'notificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'numerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'nutrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'obedecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'obliquar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'obrigar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'observar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'obstruir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'obter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ocorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ocultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ocupar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'odiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ofender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'oferecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'olhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'olvidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'omitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'operar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'opinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'opor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'optar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'orçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ordenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ordenhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'organizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'orientar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'originar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ornar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'orquestrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'oscilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ousar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'outorgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ouvir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ovular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'oxidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'oxigenar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pactuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'padecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'palpitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'palrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'paquerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parabenizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parafrasear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'paralisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'parodiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'participar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'partilhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'partir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pasmar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'passar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'passear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'patinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pausar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pedalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pedir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pendurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'peneirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'penetrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'penhorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pensar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pentear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pentear-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perceber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'percutir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perdoar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perfeccionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perfumar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perfurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perguntar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'permanecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'permitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perpetuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perseguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'perseverar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'persistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'personalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'persuadir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pertencer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pesar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pescar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pesquisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'petiscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'picar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pintar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'piorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'planar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'planificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'plantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'poder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'polarizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'polinizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'polir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'poluir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pôr'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'posicionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pospor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'possibilitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'possuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'postular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'potenciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'poupar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pousar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'praticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'precipitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'precisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'predicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'predominar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preencher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prejudicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prejulgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'premiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preocupar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preparar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preparar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prescrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'preservar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'presidir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pressentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pressionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'presumir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pretender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prevalecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prevenir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'principiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'privar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'processar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proclamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'procrastinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'procurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'produzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prognosticar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'programar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'progredir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proibir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proliferar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prolongar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prometer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'promover'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pronunciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'propagar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'propor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proporcionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prosseguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'protagonizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'proteger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'protestar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'provar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'prover'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'provir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'provocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'publicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'publicitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'puir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'pular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'punçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'punir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'purificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'puxar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'qualificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'quantificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'quebrantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'quebrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'queimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'queixar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'querer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'questionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'radiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'raiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ralar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ranger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'raptar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rasgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'raspar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reabilitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reagir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'realizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rebelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rebelar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rebentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rebobinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rebocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recapitular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recarregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'receber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reciclar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reciprocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reclamar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recolher'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recomeçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recomendar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recompensar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reconciliar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reconhecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reconquistar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reconstruir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recordar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recrutar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recuperar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'recusar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'redigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'redistribuir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'refazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'referir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'refletir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reflexionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'refogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reforçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reformar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'refugiar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'refundir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'regalar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'regenerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'registar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'registrar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'regressar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'regular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reiniciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reintegrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rejeitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'relacionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'relatar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'relativizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'relaxar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'relegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reluzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'remar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'remunerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'renascer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'render'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'renovar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'renunciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reparar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'repatriar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'repelir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'repercutir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'repetir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'replicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'representar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reprochar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reproduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'requerer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'requisitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reservar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'residir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'resistir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'resmungar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'resolver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'respeitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'respirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'responder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ressaltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'restabelecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'restar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'restaurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'restituir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'restringir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'resultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'resumir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'retificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'retirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'retocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'retornar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'retroceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'reunir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'revalidar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'revelar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'revisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'revogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rezar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ridicularizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'riscar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rivalizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'roçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rociar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rodar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rodear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rogar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rolar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'romper'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'roncar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rondar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'roubar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'rugir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ruminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saber'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sabotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sacar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sacrificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sacudir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'salgar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'salientar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'salpicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'salvaguardar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'salvar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sangrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saquear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'satirizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'satisfazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'saudar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'secar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'secularizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'seduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'segar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'segmentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'segregar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'seguir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'segurar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'selecionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'semear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sentar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sentir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sentir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'separar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'separar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sepultar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sequestrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ser'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'serrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'servir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'significar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'simbolizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'simpatizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'simplificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'simular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sincopar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sincronizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sindicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sintetizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sintonizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'situar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sobressair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sobreviver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soçobrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'socorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sofrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soletrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'solicitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soluçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'solucionar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'somar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sonhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'soprar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sorrir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sortear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sossegar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suavizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'subir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'subjugar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sublinhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'submergir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'submeter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'subministrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'subordinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'subscrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'substanciar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'substituir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suceder'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sucumbir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sufocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sugerir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sujar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sujeitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sumir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'superar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'supervisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suplicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'supor'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suportar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suprimir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suprir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'surgir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'surpreender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suscitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suspeitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suspender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suspirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sussurrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'sustentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'suster'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tamisar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tanger'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tardar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tartamudear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tatuar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'taxar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tecer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'teclar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'teimar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'telefonar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'telegrafar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'temer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'temperar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tentar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'terminar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tesar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'testar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tingir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tinir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'titular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tolerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tomar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tombar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'torcer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tornar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tornar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'torrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'torturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tossir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tostar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trabalhar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'traçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'traduzir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tragar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trair'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tramar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transcorrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transcrever'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transferir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transformar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transigir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transladar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transmitir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transpirar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transplantar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'transportar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tratar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trautear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'travar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trazer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'treinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tremer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'triangular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tricotar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trinchar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'triturar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'triunfar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'troar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'trocar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'tropeçar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'uivar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ultrapassar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ungir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'unificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'unir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'urdir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'urgir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'urinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'usar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'utilizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vacilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vacinar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vagir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'valer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'validar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'valorar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'valorizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vaporizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'variar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'varrer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vegetar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'velar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vencer'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vender'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'venerar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ventar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ventilar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'ver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'veranear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'verificar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'verter'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vestir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vestir-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'viajar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vibrar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vigiar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vincular'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vindicar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'violar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vir'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'virar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'virar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'visar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'visitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'visualizar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'viver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'voar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'voltar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'voltear'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'volver'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'vomitar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'votar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'zangar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'zangar-se'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'zarpar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
-            },
-            {
-              en: {
-                inf: 'ENINF'
-              },
-              pt: {
-                inf: 'zombar'
-              },
-              es: {
-                inf: 'ESINF'
-              }
+       const verbs2 = [{
+		"en": {
+			"i": "ENINF"
+		},
+		"pt": {
+			"i": "abalar"
+		}
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abalizar"
             }
-          ];
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abanar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abandonar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abastecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abater"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abaular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abençoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abolir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abortar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abotoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abraçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abranger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abreviar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abrigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "absolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "absorver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abster"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abster-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abstrair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "abusar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acabar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acalmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acampar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acariciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acatar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aceitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acelerar"
+            }
+        },
+        {
+            "en": {
+                "i": "to light up"
+            },
+            "pt": {
+                "i": "acender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acentuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "achar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aclamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "açoitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acolher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acomodar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acompanhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aconselhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acontecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acoplar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acostar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acostumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acreditar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acrescentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acumular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "acusar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adaptar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adaptar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adequar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aderir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adiantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adiantar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adicionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adivinhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "administrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "admirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "admitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "admoestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adoçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adoecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adormecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adornar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adquirir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "adubar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "advertir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afirmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afligir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afogar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afrouxar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "afundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agachar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agarrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agoniar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agradar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agradecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agravar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agredir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "agrupar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aguardar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aguçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aguentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ajoelhar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ajudar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ajuizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ajustar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alargar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alarmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "albergar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alcançar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alegrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alegrar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aleitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alienar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alimentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alinhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aliviar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "almejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "almoçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alongar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alterar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "altercar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alternar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alugar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alvoroçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "alvorotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amainar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amanhecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amarar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amarrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amassar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ameaçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amenizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amoldar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ampliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amplificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "amputar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "analisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "andar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anestesiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "angustiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "animar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anoitecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ansiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "antecipar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "anunciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apaixonar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apanhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aparecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apartar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apascentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apaziguar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aperceber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apetecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apiedar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aplaudir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aplicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apoiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apontar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apostar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apreciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apregoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aprender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apresentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apressar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aprisionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aprofundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aprovar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aproveitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aproximar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "apurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aquecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "argumentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "armar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "armazenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arquivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arrancar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arranhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arranjar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arrastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arremeter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arrepender-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arriscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arruinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arrumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "arrumar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "articular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ascender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "asfixiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aspergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aspirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assaltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assassinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assegurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assemelhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assemelhar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assimilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assinalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assobiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "associar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assomar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assombrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assumir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assustar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "assustar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atacar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atenuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aterrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aterrorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atingir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ativar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atordoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atormentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atrair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atravessar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atribuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atropelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atualizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "atuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "auferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aumentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "autenticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "automatizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "autorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avaliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avançar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avariar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "aventurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avergonhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "averiguar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "avivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bailar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "baixar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "balançar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "balancear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "balbuciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "balizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "banhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "banhar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "barbear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "barrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "basear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "batalhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bater"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "batizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "beber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "beijar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "beijocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "beliscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bendizer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "beneficiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "besuntar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "blasfemar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "blindar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bloquear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bocejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "boiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bombear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "borbulhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "borrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bosquejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "botar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bradar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bramar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "branquear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brecar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brincar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brindar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bronzear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "brunir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "bulhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "buscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caducar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "calar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "calar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "calcar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "calcular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caldear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "calhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cambiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caminhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "camuflar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "canalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cancelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cansar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cantarolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "capitular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "captar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "capturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "caracterizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cardar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "carecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "carpir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "carregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "casar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "castigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "castrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "catalisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "catapultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "categorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cativar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "causar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cavar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ceifar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "celebrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "censurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "centelhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "centralizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "centrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cerrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "certificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cerzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cessar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chamar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cheirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "choramingar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chover"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chupar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "chuviscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cifrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cingir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cintilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "circular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "circuncidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "circundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "circunscrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cismar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "citar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "civilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "clamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "clarificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "classificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "claudicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "clicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coabitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coagular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coalhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cobrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cochichar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "codificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coincidir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colaborar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colapsar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colecionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colonizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "colorir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coludir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comandar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "combater"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "combinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "começar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comemorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comercializar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comerciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cometer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comover"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compadecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comparar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comparecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compartilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compensar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "competir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "completar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "complicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comportar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comportar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comprar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comprazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "compreender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comprometer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comprovar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "comunicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conceber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concentrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concernir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conciliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "concretizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "condenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "condicionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conectar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confeccionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confessar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "configurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confirmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confiscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conformar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confortar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confrontar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confundir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "confundir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "congelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "congregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conhecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conhecer-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conjecturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conjeturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conjugar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conquistar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consagrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conseguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conservar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "considerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consolidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "constar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "constatar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consternar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "constituir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "constranger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "construir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "consumir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contactar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contagiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contaminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contemplar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "continuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contradizer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contrair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contrariar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contrastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contratar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "contribuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "controlar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "convencer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "convergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conversar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "converter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "convidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "convir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "conviver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "convocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cooperar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coordenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "copiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "copular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coroar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "correr"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "corresponder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "corrigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "corroborar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "corromper"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cortar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cortejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coser"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "costumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "costurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "coxear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cozer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cozinhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cravar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "crer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "crescer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "criar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "criticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "crivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "crucificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cruzar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cuidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "culminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "culpar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cultivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cumprimentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cumprir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cumular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "curar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "cursar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "curtir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "curvar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "custar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "custodiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "danar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dançar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "debater"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "debilitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "debutar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decapitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decepcionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decidir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "declarar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "declinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decompor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "decorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dedicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dedicar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "defender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "definir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "degelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "degolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "degustar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deitar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deixar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "delegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deliberar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "delinear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "delinquir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "demitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "demolir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "demonstrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "demorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "denegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "denegrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "denunciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "depender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deplorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "depor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "depositar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "depreciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "depurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "derivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "derramar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "derrotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "derrubar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "derruir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desaconselhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desanimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desaparecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desbotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descalçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descansar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descarregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descarrilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descartar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descobrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descompor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desconectar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desconfiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descongelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "descrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desculpar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desculpar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desdobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desembocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desempenhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desenhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desfazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desfrutar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "designar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desligar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deslizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desmaiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desobedecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despachar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despedir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despedir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desperdiçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despertar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "despir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desprender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desprezar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "destacar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "destilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "destinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "destruir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "desviar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "detalhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "detectar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "deteriorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "determinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "detestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "detonar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "devastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "devolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "devorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "diagnosticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "diferenciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "diferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dificultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "difundir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "digerir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "digitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dignificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dilatar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "diluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "diminuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dirigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "discernir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "disciplinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "discriminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "discutir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "disfarçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "disparar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dispensar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dispersar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dispor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dispor-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "disputar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "disseminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dissentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dissimular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dissolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "distanciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "distinguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "distrair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "distrair-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "distribuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ditar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divertir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divertir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dividir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divorciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divorciar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "divulgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dizer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "doar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "documentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "doer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "domesticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dominar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dormir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "dramatizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "drenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "duplicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "durar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "duvidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "edificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "editar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "educar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "efetuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ejacular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "elaborar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "eleger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "elevar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "eliminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "elogiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "eludir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emagrecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emanar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emancipar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emascular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "embarcar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "embeber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "embelezar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "embrulhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "embruxar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emendar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emigrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emocionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emparelhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empatar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empenhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empenhar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empreender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "emprestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "empurrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enaltecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encaminhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encarar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encarcerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encarregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encolher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encomendar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encontrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encontrar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encorajar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encostar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "encurtar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "endoidecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enfeitiçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enfermar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enfiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enfocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enforcar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enfrentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enganar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enganchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "engolir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "engordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "engraxar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enjoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enlaçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enlevar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enredar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enriquecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enrolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ensaiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ensinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entediar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entediar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enterrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entreter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entreter-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entrevistar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entristecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entupir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entusiasmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "entusiasmar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enumerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enunciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "envelhecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "envenenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "envergonhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "envergonhar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enviar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "envolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enxaguar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enxergar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "enxugar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "equiparar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "equivaler"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "equivocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "equivocar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "erguer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "erigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "errar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escapar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escavar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esclarecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escolher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esconder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esconder-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escorregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escovar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escusar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escusar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "escutar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esfoliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esfregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esfriar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esfumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esgotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esmagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espalhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espavorir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "especializar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "especificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "especular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esperar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espevitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espirrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espreitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "espremer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquecer-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esquivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estabelecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estacionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estar",
+                "like": "estar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esterilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estigmatizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estimular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estipular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estourar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estragar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estrangular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estranhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estrear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estrelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estremecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estressar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estudar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "estufar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "esvaziar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evacuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evadir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evaporar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evoluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "evolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exagerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "examinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exasperar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exceler"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exclamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "excluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "executar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exercer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exibir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "eximir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "existir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exonerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expandir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expatriar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expedir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expelir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "experimentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "explicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "explodir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "explorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exportar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expressar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "expulsar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "exterminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "extinguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "extraditar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "extrair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fabricar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "facilitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fagocitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falsear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "falsificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "faltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fanfarronar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fantasiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fartar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fascinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fatigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "faturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "favorecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fechar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "feder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "felicitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fertilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ferver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ficar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fichar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "figurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "filmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "filosofar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "filtrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "finalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "financiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fincar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fingir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "firmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fixar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "flectir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "flertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "flexibilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "flexionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "florescer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "florir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "flutuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "focalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "focar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "foder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "folhear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fomentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "forçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "formalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "formar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "formular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fornear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fornecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fornicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fortalecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fortificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fotocopiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fotografar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fracassar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fraternizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fraturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "frear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "frequentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "frigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fritar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "frustrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fugir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fumigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "funcionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fundir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "furar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "fusionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gaguejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "galopar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "galvanizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ganhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "garantir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gastar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gemer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "generalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gerir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gesticular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "girar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "glorificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "golpear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gostar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "governar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gozar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gracejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "graduar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "granizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gratificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gravar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "gritar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "grulhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "grunhir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "guardar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "guiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "guisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "habitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "harmonizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "haver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "herdar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "hesitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "hidratar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "hipnotizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "horrorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "hospedar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "hospitalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "humilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "idealizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "idear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "identificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ignorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "igualar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "iludir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "iluminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ilusionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ilustrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imaginar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imaginar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imigrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imiscuir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "impedir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "impelir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "implantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "implementar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "implicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "impor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "importar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "impressionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "improvisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "impugnar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "imunizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inaugurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incendiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incidir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incinerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inclinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incomodar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incorporar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incrementar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incriminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "incubar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "indagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "indicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "indignar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "individualizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "industrializar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "induzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infectar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infiltrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inflamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inflar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infligir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "influenciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "informar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "informar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infringir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "infundir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ingerir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ingressar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inibir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "iniciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "injetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inocular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inovar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inquirir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inscrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inscrever-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inserir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "insinuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "insistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inspecionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inspirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "instalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "instigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "instituir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "instruir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "insultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "integrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intercambiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interceptar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intercetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interessar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interessar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "internar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interpor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interpretar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interrogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "interromper"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intervir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intimidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intoxicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "introduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "intuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inundar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "invadir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "invalidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "invejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inventar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "inverter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "investigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "investir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "invitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "invocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "irmanar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "irradiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "irrigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "irritar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "irromper"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "isolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "jantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "jazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "jogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "julgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "juntar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "jurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "justapor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "justificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lactar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ladrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lamber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lambiscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lamentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lamentar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lançar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lanchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "largar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "latir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lavar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "legalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "legar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "legislar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "legitimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lembrar"
+            }
+        },
+        {
+            "en": {
+                "i": "to remember"
+            },
+            "pt": {
+                "i": "lembrar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ler"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "levantar"
+            }
+        },
+        {
+            "en": {
+                "i": "to stand up"
+            },
+            "pt": {
+                "i": "levantar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "levar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "liberar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "libertar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "licenciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "liderar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ligar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "limitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "limpar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "linchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "liquefazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "liquidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "litigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "livrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "localizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lograr"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "louvar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lubrificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lucrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "lutar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "luzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "machucar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "madrugar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "madurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "maldizer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "malquerer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "maltratar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mandar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manejar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manifestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manipular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manufacturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "manufaturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "maquiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "maquiar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "maravilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "marcar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "marchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "marear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mastigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "masturbar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "matar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mediar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "medicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "medir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "meditar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "melhorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "memorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mencionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "menosprezar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "menstruar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "merecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "merendar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mergulhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "meter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mexer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "miar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "migrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mijar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "minguar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mistificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "misturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mitigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mobiliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mobilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "modelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "moderar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "modernizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "modificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "modular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "moer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "molestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "molhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "montar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "morar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "morder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "morrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mostrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "motivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mover"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mudar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "multar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "multiplicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "murmurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "mutilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nadar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "narrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nascer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "naturalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "naufragar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "navegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "necessitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "negar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "negociar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "neutralizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nevar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "neviscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nivelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nomear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "notar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "notificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "numerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "nutrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "obedecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "obliquar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "obrigar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "observar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "obstruir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "obter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ocorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ocultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ocupar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "odiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ofender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "oferecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "olhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "olvidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "omitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "operar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "opinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "opor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "optar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "orçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ordenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ordenhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "organizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "orientar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "originar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ornar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "orquestrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "oscilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ousar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "outorgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ouvir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ovular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "oxidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "oxigenar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pactuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "padecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "palpitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "palrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "paquerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parabenizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parafrasear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "paralisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "parodiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "participar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "partilhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "partir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pasmar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "passar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "passear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "patinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pausar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pedalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pedir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pendurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "peneirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "penetrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "penhorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pensar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pentear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pentear-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perceber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "percutir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perdoar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perfeccionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perfumar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perfurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perguntar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "permanecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "permitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perpetuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perseguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "perseverar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "persistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "personalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "persuadir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pertencer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pesar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pescar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pesquisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "petiscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "picar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pintar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "piorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "planar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "planificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "plantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "poder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "polarizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "polinizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "polir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "poluir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pôr"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "posicionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pospor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "possibilitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "possuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "postular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "potenciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "poupar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pousar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "praticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "precipitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "precisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "predicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "predominar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preencher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prejudicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prejulgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "premiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preocupar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preparar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preparar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prescrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "preservar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "presidir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pressentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pressionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "presumir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pretender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prevalecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prevenir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "principiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "privar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "processar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proclamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "procrastinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "procurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "produzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prognosticar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "programar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "progredir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proibir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proliferar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prolongar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prometer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "promover"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pronunciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "propagar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "propor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proporcionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prosseguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "protagonizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "proteger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "protestar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "provar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "prover"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "provir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "provocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "publicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "publicitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "puir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "pular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "punçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "punir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "purificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "puxar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "qualificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "quantificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "quebrantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "quebrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "queimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "queixar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "querer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "questionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "radiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "raiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ralar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ranger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "raptar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rasgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "raspar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reabilitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reagir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "realizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rebelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rebelar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rebentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rebobinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rebocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recapitular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recarregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "receber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reciclar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reciprocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reclamar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recolher"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recomeçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recomendar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recompensar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reconciliar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reconhecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reconquistar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reconstruir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recordar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recrutar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recuperar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "recusar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "redigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "redistribuir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "refazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "referir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "refletir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reflexionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "refogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reforçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reformar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "refugiar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "refundir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "regalar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "regenerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "registar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "registrar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "regressar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "regular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reiniciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reintegrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rejeitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "relacionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "relatar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "relativizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "relaxar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "relegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reluzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "remar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "remunerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "renascer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "render"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "renovar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "renunciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reparar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "repatriar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "repelir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "repercutir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "repetir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "replicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "representar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reprochar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reproduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "requerer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "requisitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reservar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "residir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "resistir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "resmungar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "resolver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "respeitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "respirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "responder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ressaltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "restabelecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "restar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "restaurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "restituir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "restringir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "resultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "resumir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "retificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "retirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "retocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "retornar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "retroceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "reunir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "revalidar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "revelar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "revisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "revogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rezar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ridicularizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "riscar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rivalizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "roçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rociar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rodar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rodear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rogar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rolar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "romper"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "roncar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rondar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "roubar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "rugir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ruminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saber"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sabotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sacar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sacrificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sacudir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "salgar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "salientar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "salpicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "salvaguardar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "salvar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sangrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saquear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "satirizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "satisfazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "saudar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "secar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "secularizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "seduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "segar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "segmentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "segregar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "seguir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "segurar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "selecionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "semear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sentar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sentir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sentir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "separar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "separar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sepultar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sequestrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ser"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "serrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "servir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "significar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "simbolizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "simpatizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "simplificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "simular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sincopar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sincronizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sindicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sintetizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sintonizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "situar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sobressair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sobreviver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soçobrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "socorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sofrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soletrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "solicitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soluçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "solucionar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "somar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sonhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "soprar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sorrir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sortear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sossegar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suavizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "subir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "subjugar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sublinhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "submergir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "submeter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "subministrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "subordinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "subscrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "substanciar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "substituir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suceder"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sucumbir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sufocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sugerir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sujar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sujeitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sumir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "superar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "supervisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suplicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "supor"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suportar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suprimir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suprir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "surgir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "surpreender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suscitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suspeitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suspender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suspirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sussurrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "sustentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "suster"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tamisar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tanger"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tardar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tartamudear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tatuar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "taxar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tecer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "teclar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "teimar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "telefonar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "telegrafar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "temer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "temperar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tentar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "terminar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tesar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "testar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tingir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tinir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "titular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tolerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tomar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tombar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "torcer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tornar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tornar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "torrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "torturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tossir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tostar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trabalhar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "traçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "traduzir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tragar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trair"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tramar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transcorrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transcrever"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transferir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transformar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transigir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transladar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transmitir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transpirar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transplantar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "transportar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tratar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trautear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "travar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trazer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "treinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tremer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "triangular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tricotar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trinchar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "triturar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "triunfar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "troar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "trocar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "tropeçar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "uivar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ultrapassar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ungir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "unificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "unir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "urdir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "urgir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "urinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "usar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "utilizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vacilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vacinar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vagir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "valer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "validar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "valorar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "valorizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vaporizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "variar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "varrer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vegetar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "velar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vencer"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vender"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "venerar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ventar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ventilar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "ver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "veranear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "verificar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "verter"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vestir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vestir-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "viajar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vibrar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vigiar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vincular"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vindicar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "violar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vir"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "virar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "virar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "visar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "visitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "visualizar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "viver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "voar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "voltar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "voltear"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "volver"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "vomitar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "votar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "zangar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "zangar-se"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "zarpar"
+            }
+        },
+        {
+            "en": {
+                "i": "ENINF"
+            },
+            "pt": {
+                "i": "zombar"
+            }
+        }
+        ];
         const verbs = [ ...verbs1, ...verbs2 ];
         const filteredVerbs = inf
-                ? verbs.filter(verb => (verb.en && verb.en.inf === inf) || (verb.pt && verb.pt.inf === inf) || (verb.es && verb.es.inf === inf))
+                ? verbs.filter(verb => (verb.en && verb.en.i === inf) || (verb.pt && verb.pt.i === inf) || (verb.es && verb.es.i === inf))
                 : verbs;
         return new Promise(resolve => resolve(filteredVerbs));
     },
     getConjugations(inf, isReflexive) {
         const conjugations = [
                 {
-                    inf: 'ser',
+                    i: 'ser',
                     present: [
                         'sou',
                         'és',
@@ -19971,7 +14567,7 @@ export const data = {
                     ],
                 },
                 {
-                    inf: 'falar',
+                    i: 'falar',
                     present: [
                         'falo',
                         'falas',
@@ -19990,7 +14586,7 @@ export const data = {
                     ]
                 },
                 {
-                    inf: 'ter',
+                    i: 'ter',
                     present: [
                         'tenho',
                         'tens',
@@ -20001,7 +14597,7 @@ export const data = {
                     ]
                 },
                 {
-                    inf: 'vender',
+                    i: 'vender',
                     present: [
                         'vendo',
                         'vendes',
@@ -20020,7 +14616,7 @@ export const data = {
                     ]
                 },
                 {
-                    inf: 'partir',
+                    i: 'partir',
                     present: [
                         'parto',
                         'partes',
@@ -20039,7 +14635,7 @@ export const data = {
                     ]
                 },
                 // {
-                //     inf: 'lembrar-se',
+                //     i: 'lembrar-se',
                 //     present: [
                 //         'lembro-me',
                 //         'lembras-te',
@@ -20058,7 +14654,7 @@ export const data = {
                 //     ]
                 // },
                 {
-                    inf: 'estar',
+                    i: 'estar',
                     present: [
                         'estou',
                         'estás',
@@ -20078,7 +14674,7 @@ export const data = {
                 },
             ];
         
-        let filteredConjugations = conjugations.find(verb => clean(verb.inf) === clean(inf));
+        let filteredConjugations = conjugations.find(verb => clean(verb.i) === clean(inf));
 
         if(isReflexive && filteredConjugations) {
             let present = filteredConjugations.present.map((c,i) => {
