@@ -15,9 +15,9 @@ export const SimpleList = ({ items, msg, header }) => {
 
   export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true }) => {
     let showUnderlining = underlined ? '' : ' no-underlining';
-    let marginItem = direction === 'horizontal' ? 'margin-right' : '';
+    let marginItem = direction === 'horizontal' ? 'double-margin-right' : '';
         marginItem += showUnderlining;
-    let marginList = direction === 'horizontal' ? 'flex responsive-align margin-top' : '';
+    let marginList = direction === 'horizontal' ? 'flex margin-top' : '';
     let list = items.map(item =><li class={marginItem}><button onClick={listItemClickHandler} class="button-link" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
     return (
       <>  

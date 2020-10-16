@@ -75,8 +75,6 @@ export const Drill = ({ lesson }) => {
         const _qandas = qandas.filter(q => q.key !== qanda.key); // remove qanda if already exists for this key        
         setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);
         let handler = e => {
-            // let inputs = document.querySelectorAll('.questions input');
-            // let nextInput = inputs[2];
             let inputs = input.form.elements;
             let nextIndex;
 
@@ -97,17 +95,21 @@ export const Drill = ({ lesson }) => {
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div class={question.class}><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} ref={inputRef} /></div>
-                : <div class={question.class}><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div>
+                ? <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                : <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div><div><span class='answer'>{question.value.to}</span></div></div>
             );
         return (
             <section class="drills responsive-align">
-                <h2>
-                    <span>{drill.verb}</span><span class="translation">{translation}</span>
-                </h2>
+                <div class="text-align">
+                    <h2>
+                        <span>{drill.verb}</span><span class="translation">{translation}</span>
+                    </h2>
+                </div>
                 <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
                     <div class="questions">{questions}</div>
-                    <button disabled={qandas.length < 6}>{drillActionState}</button>
+                    <div class="action-button">
+                        <button disabled={qandas.length < 6}>{drillActionState}</button>
+                    </div>
                 </form>
             </section>
         );

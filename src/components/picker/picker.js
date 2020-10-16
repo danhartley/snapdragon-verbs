@@ -36,8 +36,8 @@ export const Picker = props => {
       }) => (
         <section class="relative-block">
             <div class={style.picker}>
-                <label {...getLabelProps()} class='responsive-align'>{props.label}</label>
-                <Div position="relative" css={{paddingRight: '1em; width: 18rem'}}>
+                <label {...getLabelProps()} style='text-align: right;'>{props.label}</label>
+                <Div position="relative" css={{paddingRight: '.5em; width: calc(100% - .5rem); display:flex; align-items:center'}}>
                     <Input
                     autoFocus={true}
                     {...getInputProps({
@@ -47,20 +47,21 @@ export const Picker = props => {
                     />
                     {selectedItem ? (
                     <ControllerButton                         
-                        css={{paddingTop: 4}}
+                        css={{paddingTop: 4, outline: 'none'}}
                         onClick={clearSelection}
                         aria-label="clear selection"
                     >
                         <ArrowIcon />
                     </ControllerButton>
                     ) : (
-                    <ControllerButton {...getToggleButtonProps()}>
+                    <ControllerButton {...getToggleButtonProps()} css={{outline: 'none'}}>
                         <ArrowIcon isOpen={isOpen} />
                     </ControllerButton>
                     )}
                 </Div>
             </div>
             {!isOpen ? null : (
+                <div class="menu">
                 <Menu>
                 {props.items
                     .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
@@ -79,6 +80,7 @@ export const Picker = props => {
                                         )
                     )}
                 </Menu>
+                </div>
             )}
         </section>
       )}

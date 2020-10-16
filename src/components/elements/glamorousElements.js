@@ -7,15 +7,18 @@ const ControllerButton = glamorous.button({
     border: 'none',
     position: 'absolute',
     right: 0,
-    top: 10,
     cursor: 'pointer',
-    padding: '0.25rem 0.5rem .1rem 0.5rem !important',
+    padding: '.25rem .5rem',
     fontSize: '1rem',
-    outline: '3px solid transparent',
-    // outline: '0',
-    border: '1px solid transparent'
-    // border: '1px solid rgb(89, 173, 201)'
-  })
+    outline: '1px solid transparent',
+    border: '1px solid transparent',
+    [onAttention]: {
+        outline: '1px solid transparent'
+        // outline: '1px solid rgb(125, 174, 219)'
+    }
+}
+    
+    );
   
   function ArrowIcon({isOpen}) {
     return (
@@ -51,38 +54,20 @@ const ControllerButton = glamorous.button({
 
   const Input = glamorous.input(
     {
-      width: 'calc(100% - 16px)', // full width - icon width/2 - border
-      fontSize: 14,
+      width: 'calc(100% - 34px)', // full width - icon width/2 - border
+      fontSize: 12,
       wordWrap: 'break-word',
-      lineHeight: '1em',
+      lineHeight: '16px',
       outline: 0,
       whiteSpace: 'normal',
-      minHeight: '2em',
+      minHeight: '32px',
       background: '#fff',
       display: 'inline-block',
-      padding: '.5em 0em .5em 1em !important',
       color: 'rgba(0,0,0,.87)',
       boxShadow: 'none',
       border: '1px solid rgb(125,125,125)',
-    //   border: '1px solid rgba(34,36,38,.15)',
-    //   borderRadius: '.30rem',
-    //   transition: 'box-shadow .1s ease,width .1s ease',
-    //   ':hover': {
-    //     borderColor: 'rgba(34,36,38,.35)',
-    //     boxShadow: 'none',
-    //   },
-    //   [onAttention]: {
-    //     borderColor: '#96c8da',
-    //     boxShadow: '0 2px 3px 0 rgba(34,36,38,.15)',
-    //   },
-    },
-    // ({isOpen}) =>
-    //   isOpen
-    //     ? {
-    //         borderBottomLeftRadius: '0',
-    //         borderBottomRightRadius: '0',
-    //       }
-    //     : null,
+      borderRadius: 0
+    }
   )
   
   const Menu = glamorous.div({
@@ -92,7 +77,6 @@ const ControllerButton = glamorous.button({
     outline: '0',
     borderRadius: '0 0 .28571429rem .28571429rem',
     transition: 'opacity .1s ease',
-    // boxShadow: '0 2px 3px 0 rgba(34,36,38,.15)',
     borderColor: 'rgb(150,150,150)',
     borderTopWidth: 1,
     borderRightWidth: 1,
@@ -101,8 +85,7 @@ const ControllerButton = glamorous.button({
     borderStyle: 'solid',
     position: 'absolute',
     right: '0',
-    width: '220px',
-    top: '50',
+    top: '60px',
     zIndex: '1',
     backgroundColor: 'rgb(255, 255, 255)'
   })

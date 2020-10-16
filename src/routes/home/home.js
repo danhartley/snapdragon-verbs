@@ -31,8 +31,6 @@ const Home = ({ verbs, tenses }) => {
             id: 3,
             name: 'Common reflexive verbs',
             verbs: [ 'lembrar-se', 'levantar-se', 'vestir-se']
-            // verbs: [ 'lembrar-se', 'levantar-se', 'sentar-se', 'vestir-se' ]
-            // verbs: [ 'lembrar-se', 'levantar-se', 'sentar-se', 'sentir-se', 'servir-se', 'vestir-se' ]
         },
     ]);
     const [vowels, setVowels] = useState(() => [
@@ -85,7 +83,7 @@ const Home = ({ verbs, tenses }) => {
     useEffect(() => {
         active = document.activeElement;
     });
-    
+
     return (
         <div class="home">          
           <section class="banner-block">
@@ -97,7 +95,7 @@ const Home = ({ verbs, tenses }) => {
                     <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={setDrills} />
                     <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                    <SimpleList header={'Tenses'} msg="" items={selectedTenses} />
+                    <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} />
                     <SimpleList header={'Selected verbs'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 

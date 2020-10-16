@@ -24,7 +24,7 @@ const App = () => {
     };
     
     const [verbs, setVerbs] = useLocalStorageState('verbs', []);
-    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense[GLOBAL_LANGUAGE]));
+    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense[GLOBAL_LANGUAGE]));    
 
     useEffect( async () => {
         if(verbs.length === 0) { getVerbs() };

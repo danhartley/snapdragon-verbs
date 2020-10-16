@@ -2,9 +2,7 @@
 @import '../../style/mixins.scss';
 
 .picker {    
-    @include display-wrap;
-    // border: 1px solid $border;
-    // padding-right: $space;
+    // @include display-wrap;
     button {
         width: initial;
     }
@@ -21,9 +19,4 @@
     .highlighted {
         background-color: red;
     }
-    // @media (max-width: 460px) {
-    //     label {
-    //         text-align: left;
-    //     }
-    // }
 }

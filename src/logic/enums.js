@@ -27,10 +27,10 @@ export class Pronoun_EN extends Enumify {
 export class Pronoun_PT extends Enumify {
     static 0 = 'eu';
     static 1 = 'tu';
-    static 2 = 'ela';
+    static 2 = 'ela, ele, você';
     static 3 = 'nós';
     static 4 = 'vós';
-    static 5 = 'elas';
+    static 5 = 'elas, eles, vocês';
 }
 
 export class DrillState extends Enumify {
