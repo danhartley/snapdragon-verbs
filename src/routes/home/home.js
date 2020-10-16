@@ -20,7 +20,7 @@ const Home = ({ verbs, tenses }) => {
         {
             id: 1,
             name: 'Common irregular verbs',
-            verbs: [ 'ser', 'estar' ]
+            verbs: [ 'ser', 'estar', 'ter', 'fazer', 'ir', 'vir' ]
         },
         {
             id: 2,

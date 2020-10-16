@@ -56,8 +56,7 @@ export const data = {
                     like: 'to speak'
                 },
                 pt: {
-                    i: 'cantar',
-                    like: 'falar'
+                    i: 'cantar'
                 }
             },
             {
@@ -66,8 +65,7 @@ export const data = {
                     like: 'to walk'
                 },
                 pt: {
-                    i: 'andar',
-                    like: 'falar'
+                    i: 'andar'
                 }
             },
             {
@@ -7319,14 +7317,6 @@ export const data = {
                 "i": "ENINF"
             },
             "pt": {
-                "i": "falar"
-            }
-        },
-        {
-            "en": {
-                "i": "ENINF"
-            },
-            "pt": {
                 "i": "falecer"
             }
         },
@@ -7431,7 +7421,8 @@ export const data = {
                 "i": "ENINF"
             },
             "pt": {
-                "i": "fazer"
+                "i": "fazer",
+                like: 'fazer'
             }
         },
         {
@@ -9100,7 +9091,7 @@ export const data = {
         },
         {
             "en": {
-                "i": "ENINF"
+                "i": "to go"
             },
             "pt": {
                 "i": "ir"
@@ -13007,14 +12998,6 @@ export const data = {
                 "i": "ENINF"
             },
             "pt": {
-                "i": "ser"
-            }
-        },
-        {
-            "en": {
-                "i": "ENINF"
-            },
-            "pt": {
                 "i": "serrar"
             }
         },
@@ -13664,14 +13647,6 @@ export const data = {
             },
             "pt": {
                 "i": "tentar"
-            }
-        },
-        {
-            "en": {
-                "i": "ENINF"
-            },
-            "pt": {
-                "i": "ter"
             }
         },
         {
@@ -14372,10 +14347,11 @@ export const data = {
         },
         {
             "en": {
-                "i": "ENINF"
+                "i": "to come"
             },
             "pt": {
-                "i": "vir"
+                "i": "vir",
+                like: 'vir'
             }
         },
         {
@@ -14583,6 +14559,38 @@ export const data = {
                         'falámos',
                         'falastes',
                         'falaram'
+                    ],
+                    imperfect: [
+                        'falava',
+                        'falavas',
+                        'falava',
+                        'falávamos',
+                        'faláveis',
+                        'falavam'
+                    ],
+                    future: [
+                        'falarei',
+                        'falarás',
+                        'falará',
+                        'falaremos',
+                        'falareis',
+                        'falarāo'
+                    ],
+                    conditional: [
+                        'falaria',
+                        'falarias',
+                        'falaria',
+                        'falaríamos',
+                        'falaríeis',
+                        'falariam'
+                    ],
+                    pluperfect: [
+                        'falara',
+                        'falaras',
+                        'falara',
+                        'faláramos',
+                        'faláreis',
+                        'falaram'
                     ]
                 },
                 {
@@ -14594,6 +14602,46 @@ export const data = {
                         'temos',
                         'tendes',
                         'têm'
+                    ],
+                    preterite: [
+                        'tive',
+                        'tiveste',
+                        'teve',
+                        'tivemos',
+                        'tiveis',
+                        'tiveram'
+                    ],
+                    imperfect: [
+                        'tinha',
+                        'tinhas',
+                        'tinha',
+                        'tínhamos',
+                        'tínheis',
+                        'tinham'
+                    ],
+                    future: [
+                        'terei',
+                        'terás',
+                        'terá',
+                        'teremos',
+                        'tereis',
+                        'terāo'
+                    ],
+                    conditional: [
+                        'teria',
+                        'terias',
+                        'teria',
+                        'teríamos',
+                        'teríeis',
+                        'teriam'
+                    ],
+                    pluperfect: [
+                        'tivera',
+                        'tiveras',
+                        'tivera',
+                        'tivéramos',
+                        'tivéreis',
+                        'tiveram'
                     ]
                 },
                 {
@@ -14613,6 +14661,38 @@ export const data = {
                         'vendemos',
                         'vendestes',
                         'venderam'   
+                    ],
+                    imperfect: [
+                        'vendia',
+                        'vendias',
+                        'vendia',
+                        'vendíamos',
+                        'vendíeis',
+                        'vendiam'
+                    ],
+                    future: [
+                        'venderei',
+                        'venderás',
+                        'venderá',
+                        'venderemos',
+                        'vendereis',
+                        'venderāo'
+                    ],
+                    conditional: [
+                        'vernderia',
+                        'venderias',
+                        'venderia',
+                        'venderíamos',
+                        'venderíeis',
+                        'venderiam'
+                    ],
+                    pluperfect: [
+                        'vendera',
+                        'venderas',
+                        'vendera',
+                        'vendêramos',
+                        'vendêreis',
+                        'venderam'
                     ]
                 },
                 {
@@ -14632,27 +14712,40 @@ export const data = {
                         'partimos',
                         'partistes',
                         'partiram'
+                    ],
+                    imperfect: [
+                        'partia',
+                        'partias',
+                        'partia',
+                        'partíamos',
+                        'partíeis',
+                        'partiam'
+                    ],
+                    future: [
+                        'partirei',
+                        'partirás',
+                        'partirá',
+                        'partiremos',
+                        'partireis',
+                        'partirão'
+                    ],
+                    conditional: [
+                        'partiria',
+                        'partirias',
+                        'partiria',
+                        'partiríamos',
+                        'partiríeis',
+                        'partiriam'
+                    ],
+                    pluperfect: [
+                        'partira',
+                        'partiras',
+                        'partira',
+                        'partíramos',
+                        'partíreis',
+                        'partiram'
                     ]
                 },
-                // {
-                //     i: 'lembrar-se',
-                //     present: [
-                //         'lembro-me',
-                //         'lembras-te',
-                //         'lembra-se',
-                //         'lembramo-nos',
-                //         'lembrais-vos',
-                //         'lembram-se'
-                //     ],
-                //     preterite: [
-                //         'lembrei-me',
-                //         'lembraste-te',
-                //         'lembrou-se',
-                //         'lembrámo-nos',
-                //         'lembrastes-vos',
-                //         'lembraram-se'
-                //     ]
-                // },
                 {
                     i: 'estar',
                     present: [
@@ -14670,8 +14763,193 @@ export const data = {
                         'estivemos',
                         'estivestes',
                         'estiveram'
+                    ],
+                    imperfect: [
+                        'estava',
+                        'estavas',
+                        'estava',
+                        'estávamos',
+                        'estáveis',
+                        'estavam'
+                    ],
+                    future: [
+                        'estarei',
+                        'estarás',
+                        'estará',
+                        'estaremos',
+                        'estareis',
+                        'estarāo'
+                    ],
+                    conditional: [
+                        'estaria',
+                        'estarias',
+                        'estaria',
+                        'estaríamos',
+                        'estaríeis',
+                        'estariam'
+                    ],
+                    pluperfect: [
+                        'eestivera',
+                        'estiveras',
+                        'estivera',
+                        'estivéramos',
+                        'estivéreis',
+                        'estiveram'
                     ]
                 },
+                {
+                i: 'fazer',
+                present: [
+                    'faço',
+                    'fazes',
+                    'faz',
+                    'fazemos',
+                    'fazeis',
+                    'fazem'
+                ],
+                preterite: [
+                    'fiz',
+                    'fizeste',
+                    'fez',
+                    'fizemos',
+                    'fizeis',
+                    'fizeram'
+                ],                
+                imperfect: [
+                    'fazia',
+                    'fazias',
+                    'fazia',
+                    'fazíamos',
+                    'fazíeis',
+                    'faziam'
+                ],
+                future: [
+                    'farei',
+                    'farás',
+                    'fará',
+                    'faremos',
+                    'fareis',
+                    'farāo'
+                ],
+                conditional: [
+                    'faria',
+                    'farias',
+                    'faria',
+                    'faríamos',
+                    'faríeis',
+                    'faríam'
+                ],
+                pluperfect: [
+                    'fizera',
+                    'fizeras',
+                    'fizera',
+                    'fizéramos',
+                    'fizéreis',
+                    'fizeram'
+                ]
+                },
+                {
+                    i: 'ir',
+                    present: [
+                        'voy',
+                        'vais',
+                        'vai',
+                        'vamos',
+                        'vais',
+                        'vāo'
+                    ],
+                    preterite: [
+                        'fui',
+                        'foste',
+                        'foi',
+                        'fomos',
+                        'fostes',
+                        'foram'
+                    ],                    
+                    imperfect: [
+                        'ia',
+                        'ias',
+                        'ia',
+                        'íamos',
+                        'íeis',
+                        'iam'
+                    ],
+                    future: [
+                        'irei',
+                        'irás',
+                        'irá',
+                        'iremos',
+                        'ireis',
+                        'irāo'
+                    ],
+                    conditional: [
+                        'iria',
+                        'irias',
+                        'iria',
+                        'iríamos',
+                        'iríeis',
+                        'iriam'
+                    ],
+                    pluperfect: [
+                        'fora',
+                        'foras',
+                        'fora',
+                        'fôramos',
+                        'fôreis',
+                        'foram'
+                    ]
+                },
+                {
+                    i: 'vir',
+                    present: [
+                        'venho',
+                        'vens',
+                        'vem',
+                        'vimos',
+                        'vindes',
+                        'vêm'
+                    ],
+                    preterite: [
+                        'vim',
+                        'vieste',
+                        'veio',
+                        'viemos',
+                        'viestes',
+                        'vieram'
+                    ],                    
+                    imperfect: [
+                        'vinha',
+                        'vinhas',
+                        'vinha',
+                        'vínhamos',
+                        'vínheis',
+                        'vínham'
+                    ],
+                    future: [
+                        'virei',
+                        'virás',
+                        'virá',
+                        'viremos',
+                        'vireis',
+                        'virāo'
+                    ],
+                    conditional: [
+                        'viria',
+                        'virias',
+                        'viria',
+                        'viríamos',
+                        'viríeis',
+                        'viriam'
+                    ],
+                    pluperfect: [
+                        'viera',
+                        'vieras',
+                        'viera',
+                        'viéramos',
+                        'viéreis',
+                        'vieram'
+                    ]
+                }
             ];
         
         let filteredConjugations = conjugations.find(verb => clean(verb.i) === clean(inf));
