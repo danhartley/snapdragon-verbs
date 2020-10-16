@@ -39,8 +39,6 @@ const Home = ({ verbs, tenses }) => {
         'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
     ]);
 
-    console.log(`%c ${hasDrills}`, 'color: red');
-
     setInputVerbs(verbs);
     setInputTenses(tenses);
 
@@ -87,7 +85,7 @@ const Home = ({ verbs, tenses }) => {
     useEffect(() => {
         active = document.activeElement;
     });
-
+    
     return (
         <div class="home">          
           <section class="banner-block">
@@ -113,7 +111,8 @@ const Home = ({ verbs, tenses }) => {
                     { hasDrills ? (
                         <><Drill lesson={lesson} />
                           <ActionList header={'Accented vowels'} underlined={false} listItemClickHandler={handleSelectVowel} items={vowels} direction="horizontal" />
-                        </>): <></>}
+                        </>): <div class="block"></div>
+                    }
                 </div>
             </div>
           </div>

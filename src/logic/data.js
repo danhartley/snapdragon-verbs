@@ -6825,7 +6825,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to be"
             },
             pt: {
                 i: "estar",

@@ -89,15 +89,9 @@ button:disabled {
     }
     .questions {
         label {
-            // width: 30 * $space;
+            width: 12rem;
             display: inline-block;
             padding-right: $space;
-            // text-align: right;
-            // @media (max-width: 460px) {
-            //     text-align: left;
-            //     margin-bottom: $space;
-            //     display: inline-block;
-            // }
         }
         input {
             @include outline;
@@ -203,12 +197,12 @@ input[type='checkbox'] {
     }
 }
 
-.margin-right {
-    margin-right: $space;
-}
-
 .margin-top {
     margin-top: $space;
+}
+
+.margin-right {
+    margin-right: $space;
 }
 
 .no-underlining {
