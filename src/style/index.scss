@@ -69,22 +69,10 @@ select, input {
     padding: 0 ($space * 2);
     margin-right: auto;
     margin-left: auto;
-    // @media (min-width: 576px) {
-    //     max-width: 540px;
-    // }
-    // @media (min-width: 768px) {
-    //     max-width: 720px;
-    // }
-    // @media (min-width: 992px) {
-    //     max-width: 960px;
-    // }
-    // @media (min-width: 1200px) {
-    //     max-width: 1140px;
-    // }
     max-width: 1200px;    
 }
 
-.main, .sidebar, .sidebar2 {
+.main, .sidebar {
     margin-right: 4rem;
     min-width: 300px;
 }
@@ -95,10 +83,6 @@ button:disabled {
 
 .drills {
     margin-top: $space;
-    text-align: right;
-    // @media (max-width: 460px) {
-    //     text-align: left;
-    // }
     h2 > span {
         border-bottom: 1px solid lightgray;
         font-weight: bold;
@@ -120,15 +104,6 @@ button:disabled {
         }
         & > div {
             margin: ($space * 2) 0;
-        }
-    }
-    .responsive-align {
-        text-align: right;
-        @media (max-width: 414px) {
-            text-align: left;
-            margin-bottom: $space;
-            display: inline-block;
-            padding-right: 0;
         }
     }
     .answer { 
@@ -163,8 +138,6 @@ button:disabled {
 
 .block {
     min-height: $space * 3;
-    display: flex;
-    align-items: center;
     &:empty {
         display: none;
     }
@@ -217,4 +190,31 @@ input[type='checkbox'] {
 .columns {
     display: flex;
     flex-wrap: wrap;
+}
+
+.responsive-align {
+    text-align: right;
+    justify-content: flex-end;
+    @media (max-width: 414px) {
+        text-align: left !important;
+        margin-bottom: $space;
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+}
+
+.margin-right {
+    margin-right: $space;
+}
+
+.margin-top {
+    margin-top: $space;
+}
+
+.no-underlining {
+    button { 
+        span {
+            border: none;
+        }
+    }
 }

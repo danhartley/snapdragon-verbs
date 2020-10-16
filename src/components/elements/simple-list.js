@@ -13,13 +13,16 @@ export const SimpleList = ({ items, msg, header }) => {
     } else return (<></>);
   }
 
-  export const ActionList = ({ items, callback, header }) => {
-    
-    const list = items.map(item =><li><button onClick={callback} class="button-link" data-id={item.id}><span data-id={item.id}>{item.name}</span></button></li>);
+  export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true }) => {
+    let showUnderlining = underlined ? '' : ' no-underlining';
+    let marginItem = direction === 'horizontal' ? 'margin-right' : '';
+        marginItem += showUnderlining;
+    let marginList = direction === 'horizontal' ? 'flex responsive-align margin-top' : '';
+    let list = items.map(item =><li class={marginItem}><button onClick={listItemClickHandler} class="button-link" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
     return (
       <>  
         {/* <div class="block"><h3>{header}</h3></div> */}
-        <ul>{list}</ul>
+        <ul class={marginList}>{list}</ul>
       </>
     );
   }

@@ -96,14390 +96,14390 @@ export const data = {
             },
         ];
        const verbs2 = [{
-		"en": {
-			"i": "ENINF"
+		en: {
+			i: "ENINF"
 		},
-		"pt": {
-			"i": "abalar"
+		pt: {
+			i: "abalar"
 		}
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abalizar"
+            pt: {
+                i: "abalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abanar"
+            pt: {
+                i: "abanar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abandonar"
+            pt: {
+                i: "abandonar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abastecer"
+            pt: {
+                i: "abastecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abater"
+            pt: {
+                i: "abater"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abaular"
+            pt: {
+                i: "abaular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abençoar"
+            pt: {
+                i: "abençoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abolir"
+            pt: {
+                i: "abolir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abordar"
+            pt: {
+                i: "abordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abortar"
+            pt: {
+                i: "abortar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abotoar"
+            pt: {
+                i: "abotoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abraçar"
+            pt: {
+                i: "abraçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abranger"
+            pt: {
+                i: "abranger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abreviar"
+            pt: {
+                i: "abreviar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abrigar"
+            pt: {
+                i: "abrigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abrir"
+            pt: {
+                i: "abrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "absolver"
+            pt: {
+                i: "absolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "absorver"
+            pt: {
+                i: "absorver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abster"
+            pt: {
+                i: "abster"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abster-se"
+            pt: {
+                i: "abster-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abstrair"
+            pt: {
+                i: "abstrair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abundar"
+            pt: {
+                i: "abundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "abusar"
+            pt: {
+                i: "abusar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acabar"
+            pt: {
+                i: "acabar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acalmar"
+            pt: {
+                i: "acalmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acamar"
+            pt: {
+                i: "acamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acampar"
+            pt: {
+                i: "acampar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acariciar"
+            pt: {
+                i: "acariciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acatar"
+            pt: {
+                i: "acatar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aceder"
+            pt: {
+                i: "aceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aceitar"
+            pt: {
+                i: "aceitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acelerar"
+            pt: {
+                i: "acelerar"
             }
         },
         {
-            "en": {
-                "i": "to light up"
+            en: {
+                i: "to light up"
             },
-            "pt": {
-                "i": "acender"
+            pt: {
+                i: "acender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acentuar"
+            pt: {
+                i: "acentuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acertar"
+            pt: {
+                i: "acertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "achar"
+            pt: {
+                i: "achar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aclamar"
+            pt: {
+                i: "aclamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "açoitar"
+            pt: {
+                i: "açoitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acolher"
+            pt: {
+                i: "acolher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acomodar"
+            pt: {
+                i: "acomodar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acompanhar"
+            pt: {
+                i: "acompanhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aconselhar"
+            pt: {
+                i: "aconselhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acontecer"
+            pt: {
+                i: "acontecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acoplar"
+            pt: {
+                i: "acoplar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acordar"
+            pt: {
+                i: "acordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acostar-se"
+            pt: {
+                i: "acostar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acostumar"
+            pt: {
+                i: "acostumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acreditar"
+            pt: {
+                i: "acreditar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acrescentar"
+            pt: {
+                i: "acrescentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acumular"
+            pt: {
+                i: "acumular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "acusar"
+            pt: {
+                i: "acusar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adaptar"
+            pt: {
+                i: "adaptar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adaptar-se"
+            pt: {
+                i: "adaptar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adequar"
+            pt: {
+                i: "adequar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aderir"
+            pt: {
+                i: "aderir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adiantar"
+            pt: {
+                i: "adiantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adiantar-se"
+            pt: {
+                i: "adiantar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adiar"
+            pt: {
+                i: "adiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adicionar"
+            pt: {
+                i: "adicionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adir"
+            pt: {
+                i: "adir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adivinhar"
+            pt: {
+                i: "adivinhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "administrar"
+            pt: {
+                i: "administrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "admirar"
+            pt: {
+                i: "admirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "admitir"
+            pt: {
+                i: "admitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "admoestar"
+            pt: {
+                i: "admoestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adoçar"
+            pt: {
+                i: "adoçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adoecer"
+            pt: {
+                i: "adoecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adorar"
+            pt: {
+                i: "adorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adormecer"
+            pt: {
+                i: "adormecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adornar"
+            pt: {
+                i: "adornar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adotar"
+            pt: {
+                i: "adotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adquirir"
+            pt: {
+                i: "adquirir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "adubar"
+            pt: {
+                i: "adubar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "advertir"
+            pt: {
+                i: "advertir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afastar"
+            pt: {
+                i: "afastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afetar"
+            pt: {
+                i: "afetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afilhar"
+            pt: {
+                i: "afilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afirmar"
+            pt: {
+                i: "afirmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afligir"
+            pt: {
+                i: "afligir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afogar"
+            pt: {
+                i: "afogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afogar-se"
+            pt: {
+                i: "afogar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afrouxar"
+            pt: {
+                i: "afrouxar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "afundar"
+            pt: {
+                i: "afundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agachar-se"
+            pt: {
+                i: "agachar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agarrar"
+            pt: {
+                i: "agarrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agir"
+            pt: {
+                i: "agir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agitar"
+            pt: {
+                i: "agitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agoniar"
+            pt: {
+                i: "agoniar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agradar"
+            pt: {
+                i: "agradar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agradecer"
+            pt: {
+                i: "agradecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agravar"
+            pt: {
+                i: "agravar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agredir"
+            pt: {
+                i: "agredir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agregar"
+            pt: {
+                i: "agregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "agrupar"
+            pt: {
+                i: "agrupar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aguardar"
+            pt: {
+                i: "aguardar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aguçar"
+            pt: {
+                i: "aguçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aguentar"
+            pt: {
+                i: "aguentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ajoelhar-se"
+            pt: {
+                i: "ajoelhar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ajudar"
+            pt: {
+                i: "ajudar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ajuizar"
+            pt: {
+                i: "ajuizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ajustar"
+            pt: {
+                i: "ajustar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alagar"
+            pt: {
+                i: "alagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alargar"
+            pt: {
+                i: "alargar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alarmar"
+            pt: {
+                i: "alarmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "albergar"
+            pt: {
+                i: "albergar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alcançar"
+            pt: {
+                i: "alcançar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alçar"
+            pt: {
+                i: "alçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alegar"
+            pt: {
+                i: "alegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alegrar"
+            pt: {
+                i: "alegrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alegrar-se"
+            pt: {
+                i: "alegrar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aleitar"
+            pt: {
+                i: "aleitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alertar"
+            pt: {
+                i: "alertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aliar"
+            pt: {
+                i: "aliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alienar"
+            pt: {
+                i: "alienar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alimentar"
+            pt: {
+                i: "alimentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alinhar"
+            pt: {
+                i: "alinhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aliviar"
+            pt: {
+                i: "aliviar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "almejar"
+            pt: {
+                i: "almejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "almoçar"
+            pt: {
+                i: "almoçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alongar"
+            pt: {
+                i: "alongar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alterar"
+            pt: {
+                i: "alterar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "altercar"
+            pt: {
+                i: "altercar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alternar"
+            pt: {
+                i: "alternar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alugar"
+            pt: {
+                i: "alugar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alvoroçar"
+            pt: {
+                i: "alvoroçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "alvorotar"
+            pt: {
+                i: "alvorotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amainar"
+            pt: {
+                i: "amainar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amanhecer"
+            pt: {
+                i: "amanhecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amar"
+            pt: {
+                i: "amar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amarar"
+            pt: {
+                i: "amarar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amarrar"
+            pt: {
+                i: "amarrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amassar"
+            pt: {
+                i: "amassar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ameaçar"
+            pt: {
+                i: "ameaçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amenizar"
+            pt: {
+                i: "amenizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amoldar"
+            pt: {
+                i: "amoldar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ampliar"
+            pt: {
+                i: "ampliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amplificar"
+            pt: {
+                i: "amplificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "amputar"
+            pt: {
+                i: "amputar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "analisar"
+            pt: {
+                i: "analisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "andar"
+            pt: {
+                i: "andar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anegar"
+            pt: {
+                i: "anegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anelar"
+            pt: {
+                i: "anelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anestesiar"
+            pt: {
+                i: "anestesiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "angustiar"
+            pt: {
+                i: "angustiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "animar"
+            pt: {
+                i: "animar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anoitecer"
+            pt: {
+                i: "anoitecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anotar"
+            pt: {
+                i: "anotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ansiar"
+            pt: {
+                i: "ansiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "antecipar"
+            pt: {
+                i: "antecipar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anular"
+            pt: {
+                i: "anular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "anunciar"
+            pt: {
+                i: "anunciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apagar"
+            pt: {
+                i: "apagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apaixonar-se"
+            pt: {
+                i: "apaixonar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apanhar"
+            pt: {
+                i: "apanhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aparecer"
+            pt: {
+                i: "aparecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apartar"
+            pt: {
+                i: "apartar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apascentar"
+            pt: {
+                i: "apascentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apaziguar"
+            pt: {
+                i: "apaziguar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apelar"
+            pt: {
+                i: "apelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aperceber"
+            pt: {
+                i: "aperceber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apertar"
+            pt: {
+                i: "apertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apetecer"
+            pt: {
+                i: "apetecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apiedar-se"
+            pt: {
+                i: "apiedar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aplaudir"
+            pt: {
+                i: "aplaudir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aplicar"
+            pt: {
+                i: "aplicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apoiar"
+            pt: {
+                i: "apoiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apontar"
+            pt: {
+                i: "apontar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apostar"
+            pt: {
+                i: "apostar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apreciar"
+            pt: {
+                i: "apreciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apregoar"
+            pt: {
+                i: "apregoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aprender"
+            pt: {
+                i: "aprender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apresentar"
+            pt: {
+                i: "apresentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apressar"
+            pt: {
+                i: "apressar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aprisionar"
+            pt: {
+                i: "aprisionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aprofundar"
+            pt: {
+                i: "aprofundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aprovar"
+            pt: {
+                i: "aprovar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aproveitar"
+            pt: {
+                i: "aproveitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aproximar"
+            pt: {
+                i: "aproximar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "apurar"
+            pt: {
+                i: "apurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aquecer"
+            pt: {
+                i: "aquecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arder"
+            pt: {
+                i: "arder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arelar"
+            pt: {
+                i: "arelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arguir"
+            pt: {
+                i: "arguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "argumentar"
+            pt: {
+                i: "argumentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "armar"
+            pt: {
+                i: "armar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "armazenar"
+            pt: {
+                i: "armazenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arquivar"
+            pt: {
+                i: "arquivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arrancar"
+            pt: {
+                i: "arrancar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arranhar"
+            pt: {
+                i: "arranhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arranjar"
+            pt: {
+                i: "arranjar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arrastar"
+            pt: {
+                i: "arrastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arremeter"
+            pt: {
+                i: "arremeter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arrepender-se"
+            pt: {
+                i: "arrepender-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arriscar"
+            pt: {
+                i: "arriscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arruinar"
+            pt: {
+                i: "arruinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arrumar"
+            pt: {
+                i: "arrumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "arrumar-se"
+            pt: {
+                i: "arrumar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "articular"
+            pt: {
+                i: "articular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ascender"
+            pt: {
+                i: "ascender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "asfixiar"
+            pt: {
+                i: "asfixiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aspergir"
+            pt: {
+                i: "aspergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aspirar"
+            pt: {
+                i: "aspirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assaltar"
+            pt: {
+                i: "assaltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assar"
+            pt: {
+                i: "assar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assassinar"
+            pt: {
+                i: "assassinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assegurar"
+            pt: {
+                i: "assegurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assemelhar"
+            pt: {
+                i: "assemelhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assemelhar-se"
+            pt: {
+                i: "assemelhar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assentar"
+            pt: {
+                i: "assentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assentir"
+            pt: {
+                i: "assentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assimilar"
+            pt: {
+                i: "assimilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assinalar"
+            pt: {
+                i: "assinalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assinar"
+            pt: {
+                i: "assinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assistir"
+            pt: {
+                i: "assistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assobiar"
+            pt: {
+                i: "assobiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "associar"
+            pt: {
+                i: "associar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assomar"
+            pt: {
+                i: "assomar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assombrar"
+            pt: {
+                i: "assombrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assumir"
+            pt: {
+                i: "assumir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assustar"
+            pt: {
+                i: "assustar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "assustar-se"
+            pt: {
+                i: "assustar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atacar"
+            pt: {
+                i: "atacar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atar"
+            pt: {
+                i: "atar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atender"
+            pt: {
+                i: "atender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atenuar"
+            pt: {
+                i: "atenuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aterrar"
+            pt: {
+                i: "aterrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aterrorizar"
+            pt: {
+                i: "aterrorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atingir"
+            pt: {
+                i: "atingir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atirar"
+            pt: {
+                i: "atirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ativar"
+            pt: {
+                i: "ativar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atordoar"
+            pt: {
+                i: "atordoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atormentar"
+            pt: {
+                i: "atormentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atrair"
+            pt: {
+                i: "atrair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atravessar"
+            pt: {
+                i: "atravessar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atribuir"
+            pt: {
+                i: "atribuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atropelar"
+            pt: {
+                i: "atropelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atualizar"
+            pt: {
+                i: "atualizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "atuar"
+            pt: {
+                i: "atuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "auferir"
+            pt: {
+                i: "auferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aumentar"
+            pt: {
+                i: "aumentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "autenticar"
+            pt: {
+                i: "autenticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "automatizar"
+            pt: {
+                i: "automatizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "autorizar"
+            pt: {
+                i: "autorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avaliar"
+            pt: {
+                i: "avaliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avalizar"
+            pt: {
+                i: "avalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avançar"
+            pt: {
+                i: "avançar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avariar-se"
+            pt: {
+                i: "avariar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "aventurar"
+            pt: {
+                i: "aventurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avergonhar"
+            pt: {
+                i: "avergonhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "averiguar"
+            pt: {
+                i: "averiguar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avisar"
+            pt: {
+                i: "avisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "avivar"
+            pt: {
+                i: "avivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bailar"
+            pt: {
+                i: "bailar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "baixar"
+            pt: {
+                i: "baixar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "balançar"
+            pt: {
+                i: "balançar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "balancear"
+            pt: {
+                i: "balancear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "balbuciar"
+            pt: {
+                i: "balbuciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "balizar"
+            pt: {
+                i: "balizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "banhar"
+            pt: {
+                i: "banhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "banhar-se"
+            pt: {
+                i: "banhar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "barbear"
+            pt: {
+                i: "barbear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "barrar"
+            pt: {
+                i: "barrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "basear"
+            pt: {
+                i: "basear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bastar"
+            pt: {
+                i: "bastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "batalhar"
+            pt: {
+                i: "batalhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bater"
+            pt: {
+                i: "bater"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "batizar"
+            pt: {
+                i: "batizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "beber"
+            pt: {
+                i: "beber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "beijar"
+            pt: {
+                i: "beijar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "beijocar"
+            pt: {
+                i: "beijocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "beliscar"
+            pt: {
+                i: "beliscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bendizer"
+            pt: {
+                i: "bendizer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "beneficiar"
+            pt: {
+                i: "beneficiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "besuntar"
+            pt: {
+                i: "besuntar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "blasfemar"
+            pt: {
+                i: "blasfemar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "blindar"
+            pt: {
+                i: "blindar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bloquear"
+            pt: {
+                i: "bloquear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bocejar"
+            pt: {
+                i: "bocejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "boiar"
+            pt: {
+                i: "boiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bombear"
+            pt: {
+                i: "bombear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "borbulhar"
+            pt: {
+                i: "borbulhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bordar"
+            pt: {
+                i: "bordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "borrar"
+            pt: {
+                i: "borrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bosquejar"
+            pt: {
+                i: "bosquejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "botar"
+            pt: {
+                i: "botar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bradar"
+            pt: {
+                i: "bradar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bramar"
+            pt: {
+                i: "bramar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "branquear"
+            pt: {
+                i: "branquear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brecar"
+            pt: {
+                i: "brecar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brigar"
+            pt: {
+                i: "brigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brilhar"
+            pt: {
+                i: "brilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brincar"
+            pt: {
+                i: "brincar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brindar"
+            pt: {
+                i: "brindar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bronzear"
+            pt: {
+                i: "bronzear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brotar"
+            pt: {
+                i: "brotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "brunir"
+            pt: {
+                i: "brunir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "bulhar"
+            pt: {
+                i: "bulhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "buscar"
+            pt: {
+                i: "buscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caber"
+            pt: {
+                i: "caber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caçar"
+            pt: {
+                i: "caçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caducar"
+            pt: {
+                i: "caducar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cagar"
+            pt: {
+                i: "cagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cair"
+            pt: {
+                i: "cair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "calar"
+            pt: {
+                i: "calar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "calar-se"
+            pt: {
+                i: "calar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "calcar"
+            pt: {
+                i: "calcar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "calcular"
+            pt: {
+                i: "calcular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caldear"
+            pt: {
+                i: "caldear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "calhar"
+            pt: {
+                i: "calhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cambiar"
+            pt: {
+                i: "cambiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caminhar"
+            pt: {
+                i: "caminhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "camuflar"
+            pt: {
+                i: "camuflar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "canalizar"
+            pt: {
+                i: "canalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cancelar"
+            pt: {
+                i: "cancelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cansar"
+            pt: {
+                i: "cansar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cantar"
+            pt: {
+                i: "cantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cantarolar"
+            pt: {
+                i: "cantarolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "capitular"
+            pt: {
+                i: "capitular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "captar"
+            pt: {
+                i: "captar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "capturar"
+            pt: {
+                i: "capturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "caracterizar"
+            pt: {
+                i: "caracterizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cardar"
+            pt: {
+                i: "cardar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "carecer"
+            pt: {
+                i: "carecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "carpir"
+            pt: {
+                i: "carpir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "carregar"
+            pt: {
+                i: "carregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "casar-se"
+            pt: {
+                i: "casar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "castigar"
+            pt: {
+                i: "castigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "castrar"
+            pt: {
+                i: "castrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "catalisar"
+            pt: {
+                i: "catalisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "catapultar"
+            pt: {
+                i: "catapultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "categorizar"
+            pt: {
+                i: "categorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cativar"
+            pt: {
+                i: "cativar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "causar"
+            pt: {
+                i: "causar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cavar"
+            pt: {
+                i: "cavar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cear"
+            pt: {
+                i: "cear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ceder"
+            pt: {
+                i: "ceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cegar"
+            pt: {
+                i: "cegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ceifar"
+            pt: {
+                i: "ceifar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "celebrar"
+            pt: {
+                i: "celebrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "censurar"
+            pt: {
+                i: "censurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "centelhar"
+            pt: {
+                i: "centelhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "centralizar"
+            pt: {
+                i: "centralizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "centrar"
+            pt: {
+                i: "centrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cerrar"
+            pt: {
+                i: "cerrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "certificar"
+            pt: {
+                i: "certificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cerzir"
+            pt: {
+                i: "cerzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cessar"
+            pt: {
+                i: "cessar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chamar"
+            pt: {
+                i: "chamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chamar-se"
+            pt: {
+                i: "chamar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chegar"
+            pt: {
+                i: "chegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cheirar"
+            pt: {
+                i: "cheirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chocar"
+            pt: {
+                i: "chocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "choramingar"
+            pt: {
+                i: "choramingar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chorar"
+            pt: {
+                i: "chorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chover"
+            pt: {
+                i: "chover"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chupar"
+            pt: {
+                i: "chupar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "chuviscar"
+            pt: {
+                i: "chuviscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cifrar"
+            pt: {
+                i: "cifrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cingir"
+            pt: {
+                i: "cingir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cintilar"
+            pt: {
+                i: "cintilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "circular"
+            pt: {
+                i: "circular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "circuncidar"
+            pt: {
+                i: "circuncidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "circundar"
+            pt: {
+                i: "circundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "circunscrever"
+            pt: {
+                i: "circunscrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cismar"
+            pt: {
+                i: "cismar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "citar"
+            pt: {
+                i: "citar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "civilizar"
+            pt: {
+                i: "civilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "clamar"
+            pt: {
+                i: "clamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "clarificar"
+            pt: {
+                i: "clarificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "classificar"
+            pt: {
+                i: "classificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "claudicar"
+            pt: {
+                i: "claudicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "clicar"
+            pt: {
+                i: "clicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coabitar"
+            pt: {
+                i: "coabitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coagular"
+            pt: {
+                i: "coagular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coalhar"
+            pt: {
+                i: "coalhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coar"
+            pt: {
+                i: "coar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cobrar"
+            pt: {
+                i: "cobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cobrir"
+            pt: {
+                i: "cobrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coçar"
+            pt: {
+                i: "coçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cochichar"
+            pt: {
+                i: "cochichar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "codificar"
+            pt: {
+                i: "codificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coincidir"
+            pt: {
+                i: "coincidir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colaborar"
+            pt: {
+                i: "colaborar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colapsar"
+            pt: {
+                i: "colapsar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colar"
+            pt: {
+                i: "colar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colecionar"
+            pt: {
+                i: "colecionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colher"
+            pt: {
+                i: "colher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colocar"
+            pt: {
+                i: "colocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colonizar"
+            pt: {
+                i: "colonizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "colorir"
+            pt: {
+                i: "colorir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coludir"
+            pt: {
+                i: "coludir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comandar"
+            pt: {
+                i: "comandar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "combater"
+            pt: {
+                i: "combater"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "combinar"
+            pt: {
+                i: "combinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "começar"
+            pt: {
+                i: "começar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comemorar"
+            pt: {
+                i: "comemorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comentar"
+            pt: {
+                i: "comentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comer"
+            pt: {
+                i: "comer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comercializar"
+            pt: {
+                i: "comercializar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comerciar"
+            pt: {
+                i: "comerciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cometer"
+            pt: {
+                i: "cometer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comover"
+            pt: {
+                i: "comover"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compadecer"
+            pt: {
+                i: "compadecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comparar"
+            pt: {
+                i: "comparar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comparecer"
+            pt: {
+                i: "comparecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compartilhar"
+            pt: {
+                i: "compartilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compensar"
+            pt: {
+                i: "compensar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "competir"
+            pt: {
+                i: "competir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compilar"
+            pt: {
+                i: "compilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "completar"
+            pt: {
+                i: "completar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "complicar"
+            pt: {
+                i: "complicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compor"
+            pt: {
+                i: "compor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comportar"
+            pt: {
+                i: "comportar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comportar-se"
+            pt: {
+                i: "comportar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comprar"
+            pt: {
+                i: "comprar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comprazer"
+            pt: {
+                i: "comprazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "compreender"
+            pt: {
+                i: "compreender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comprimir"
+            pt: {
+                i: "comprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comprometer"
+            pt: {
+                i: "comprometer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comprovar"
+            pt: {
+                i: "comprovar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "comunicar"
+            pt: {
+                i: "comunicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conceber"
+            pt: {
+                i: "conceber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conceder"
+            pt: {
+                i: "conceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concentrar"
+            pt: {
+                i: "concentrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concernir"
+            pt: {
+                i: "concernir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concertar"
+            pt: {
+                i: "concertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conciliar"
+            pt: {
+                i: "conciliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concluir"
+            pt: {
+                i: "concluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concordar"
+            pt: {
+                i: "concordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concorrer"
+            pt: {
+                i: "concorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "concretizar"
+            pt: {
+                i: "concretizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "condenar"
+            pt: {
+                i: "condenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "condicionar"
+            pt: {
+                i: "condicionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conduzir"
+            pt: {
+                i: "conduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conectar"
+            pt: {
+                i: "conectar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confeccionar"
+            pt: {
+                i: "confeccionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conferir"
+            pt: {
+                i: "conferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confessar"
+            pt: {
+                i: "confessar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confiar"
+            pt: {
+                i: "confiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "configurar"
+            pt: {
+                i: "configurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confinar"
+            pt: {
+                i: "confinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confirmar"
+            pt: {
+                i: "confirmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confiscar"
+            pt: {
+                i: "confiscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confluir"
+            pt: {
+                i: "confluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conformar"
+            pt: {
+                i: "conformar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confortar"
+            pt: {
+                i: "confortar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confrontar"
+            pt: {
+                i: "confrontar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confundir"
+            pt: {
+                i: "confundir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "confundir-se"
+            pt: {
+                i: "confundir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "congelar"
+            pt: {
+                i: "congelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "congregar"
+            pt: {
+                i: "congregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conhecer"
+            pt: {
+                i: "conhecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conhecer-se"
+            pt: {
+                i: "conhecer-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conjecturar"
+            pt: {
+                i: "conjecturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conjeturar"
+            pt: {
+                i: "conjeturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conjugar"
+            pt: {
+                i: "conjugar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conquistar"
+            pt: {
+                i: "conquistar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consagrar"
+            pt: {
+                i: "consagrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conseguir"
+            pt: {
+                i: "conseguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consentir"
+            pt: {
+                i: "consentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conservar"
+            pt: {
+                i: "conservar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "considerar"
+            pt: {
+                i: "considerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consistir"
+            pt: {
+                i: "consistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consolar"
+            pt: {
+                i: "consolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consolidar"
+            pt: {
+                i: "consolidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "constar"
+            pt: {
+                i: "constar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "constatar"
+            pt: {
+                i: "constatar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consternar"
+            pt: {
+                i: "consternar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "constituir"
+            pt: {
+                i: "constituir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "constranger"
+            pt: {
+                i: "constranger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "construir"
+            pt: {
+                i: "construir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consultar"
+            pt: {
+                i: "consultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "consumir"
+            pt: {
+                i: "consumir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contactar"
+            pt: {
+                i: "contactar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contagiar"
+            pt: {
+                i: "contagiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contaminar"
+            pt: {
+                i: "contaminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contar"
+            pt: {
+                i: "contar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contemplar"
+            pt: {
+                i: "contemplar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contender"
+            pt: {
+                i: "contender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conter"
+            pt: {
+                i: "conter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contestar"
+            pt: {
+                i: "contestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "continuar"
+            pt: {
+                i: "continuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contradizer"
+            pt: {
+                i: "contradizer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contrair"
+            pt: {
+                i: "contrair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contrariar"
+            pt: {
+                i: "contrariar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contrastar"
+            pt: {
+                i: "contrastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contratar"
+            pt: {
+                i: "contratar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "contribuir"
+            pt: {
+                i: "contribuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "controlar"
+            pt: {
+                i: "controlar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "convencer"
+            pt: {
+                i: "convencer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "convergir"
+            pt: {
+                i: "convergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conversar"
+            pt: {
+                i: "conversar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "converter"
+            pt: {
+                i: "converter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "convidar"
+            pt: {
+                i: "convidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "convir"
+            pt: {
+                i: "convir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "conviver"
+            pt: {
+                i: "conviver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "convocar"
+            pt: {
+                i: "convocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cooperar"
+            pt: {
+                i: "cooperar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coordenar"
+            pt: {
+                i: "coordenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "copiar"
+            pt: {
+                i: "copiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "copular"
+            pt: {
+                i: "copular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coroar"
+            pt: {
+                i: "coroar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "correr"
+            pt: {
+                i: "correr"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "corresponder"
+            pt: {
+                i: "corresponder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "corrigir"
+            pt: {
+                i: "corrigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "corroborar"
+            pt: {
+                i: "corroborar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "corromper"
+            pt: {
+                i: "corromper"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cortar"
+            pt: {
+                i: "cortar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cortejar"
+            pt: {
+                i: "cortejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coser"
+            pt: {
+                i: "coser"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "costumar"
+            pt: {
+                i: "costumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "costurar"
+            pt: {
+                i: "costurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cotar"
+            pt: {
+                i: "cotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "coxear"
+            pt: {
+                i: "coxear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cozer"
+            pt: {
+                i: "cozer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cozinhar"
+            pt: {
+                i: "cozinhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cravar"
+            pt: {
+                i: "cravar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "crer"
+            pt: {
+                i: "crer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "crescer"
+            pt: {
+                i: "crescer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "criar"
+            pt: {
+                i: "criar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "criticar"
+            pt: {
+                i: "criticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "crivar"
+            pt: {
+                i: "crivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "crucificar"
+            pt: {
+                i: "crucificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cruzar"
+            pt: {
+                i: "cruzar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cuidar"
+            pt: {
+                i: "cuidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "culminar"
+            pt: {
+                i: "culminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "culpar"
+            pt: {
+                i: "culpar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cultivar"
+            pt: {
+                i: "cultivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cumprimentar"
+            pt: {
+                i: "cumprimentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cumprir"
+            pt: {
+                i: "cumprir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cumular"
+            pt: {
+                i: "cumular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "curar"
+            pt: {
+                i: "curar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "cursar"
+            pt: {
+                i: "cursar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "curtir"
+            pt: {
+                i: "curtir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "curvar"
+            pt: {
+                i: "curvar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "custar"
+            pt: {
+                i: "custar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "custodiar"
+            pt: {
+                i: "custodiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "danar"
+            pt: {
+                i: "danar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dançar"
+            pt: {
+                i: "dançar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dar"
+            pt: {
+                i: "dar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "debater"
+            pt: {
+                i: "debater"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "debilitar"
+            pt: {
+                i: "debilitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "debutar"
+            pt: {
+                i: "debutar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decapitar"
+            pt: {
+                i: "decapitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decepcionar"
+            pt: {
+                i: "decepcionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decidir"
+            pt: {
+                i: "decidir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "declarar"
+            pt: {
+                i: "declarar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "declinar"
+            pt: {
+                i: "declinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decompor"
+            pt: {
+                i: "decompor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decorar"
+            pt: {
+                i: "decorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "decorrer"
+            pt: {
+                i: "decorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dedicar"
+            pt: {
+                i: "dedicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dedicar-se"
+            pt: {
+                i: "dedicar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deduzir"
+            pt: {
+                i: "deduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "defender"
+            pt: {
+                i: "defender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deferir"
+            pt: {
+                i: "deferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "definir"
+            pt: {
+                i: "definir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "degelar"
+            pt: {
+                i: "degelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "degolar"
+            pt: {
+                i: "degolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "degustar"
+            pt: {
+                i: "degustar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deitar"
+            pt: {
+                i: "deitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deitar-se"
+            pt: {
+                i: "deitar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deixar"
+            pt: {
+                i: "deixar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "delegar"
+            pt: {
+                i: "delegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deliberar"
+            pt: {
+                i: "deliberar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "delinear"
+            pt: {
+                i: "delinear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "delinquir"
+            pt: {
+                i: "delinquir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "demitir"
+            pt: {
+                i: "demitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "demolir"
+            pt: {
+                i: "demolir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "demonstrar"
+            pt: {
+                i: "demonstrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "demorar"
+            pt: {
+                i: "demorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "denegar"
+            pt: {
+                i: "denegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "denegrir"
+            pt: {
+                i: "denegrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "denunciar"
+            pt: {
+                i: "denunciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "depender"
+            pt: {
+                i: "depender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deplorar"
+            pt: {
+                i: "deplorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "depor"
+            pt: {
+                i: "depor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "depositar"
+            pt: {
+                i: "depositar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "depreciar"
+            pt: {
+                i: "depreciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deprimir"
+            pt: {
+                i: "deprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "depurar"
+            pt: {
+                i: "depurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "derivar"
+            pt: {
+                i: "derivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "derramar"
+            pt: {
+                i: "derramar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "derrotar"
+            pt: {
+                i: "derrotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "derrubar"
+            pt: {
+                i: "derrubar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "derruir"
+            pt: {
+                i: "derruir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desaconselhar"
+            pt: {
+                i: "desaconselhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desanimar"
+            pt: {
+                i: "desanimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desaparecer"
+            pt: {
+                i: "desaparecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desbotar"
+            pt: {
+                i: "desbotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descalçar"
+            pt: {
+                i: "descalçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descansar"
+            pt: {
+                i: "descansar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descarregar"
+            pt: {
+                i: "descarregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descarrilar"
+            pt: {
+                i: "descarrilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descartar"
+            pt: {
+                i: "descartar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descer"
+            pt: {
+                i: "descer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descobrir"
+            pt: {
+                i: "descobrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descompor"
+            pt: {
+                i: "descompor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desconectar"
+            pt: {
+                i: "desconectar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desconfiar"
+            pt: {
+                i: "desconfiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descongelar"
+            pt: {
+                i: "descongelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "descrever"
+            pt: {
+                i: "descrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desculpar"
+            pt: {
+                i: "desculpar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desculpar-se"
+            pt: {
+                i: "desculpar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desdobrar"
+            pt: {
+                i: "desdobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desejar"
+            pt: {
+                i: "desejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desembocar"
+            pt: {
+                i: "desembocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desempenhar"
+            pt: {
+                i: "desempenhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desenhar"
+            pt: {
+                i: "desenhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desfazer"
+            pt: {
+                i: "desfazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desfrutar"
+            pt: {
+                i: "desfrutar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "designar"
+            pt: {
+                i: "designar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desistir"
+            pt: {
+                i: "desistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desligar"
+            pt: {
+                i: "desligar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deslizar"
+            pt: {
+                i: "deslizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desmaiar"
+            pt: {
+                i: "desmaiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desobedecer"
+            pt: {
+                i: "desobedecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desolar"
+            pt: {
+                i: "desolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despachar"
+            pt: {
+                i: "despachar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despedir"
+            pt: {
+                i: "despedir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despedir-se"
+            pt: {
+                i: "despedir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desperdiçar"
+            pt: {
+                i: "desperdiçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despertar"
+            pt: {
+                i: "despertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despertar-se"
+            pt: {
+                i: "despertar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "despir"
+            pt: {
+                i: "despir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desprender"
+            pt: {
+                i: "desprender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desprezar"
+            pt: {
+                i: "desprezar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "destacar"
+            pt: {
+                i: "destacar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "destilar"
+            pt: {
+                i: "destilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "destinar"
+            pt: {
+                i: "destinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "destruir"
+            pt: {
+                i: "destruir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "desviar"
+            pt: {
+                i: "desviar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "detalhar"
+            pt: {
+                i: "detalhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "detectar"
+            pt: {
+                i: "detectar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deter"
+            pt: {
+                i: "deter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "deteriorar"
+            pt: {
+                i: "deteriorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "determinar"
+            pt: {
+                i: "determinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "detestar"
+            pt: {
+                i: "detestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "detonar"
+            pt: {
+                i: "detonar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "devastar"
+            pt: {
+                i: "devastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dever"
+            pt: {
+                i: "dever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "devolver"
+            pt: {
+                i: "devolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "devorar"
+            pt: {
+                i: "devorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "diagnosticar"
+            pt: {
+                i: "diagnosticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "diferenciar"
+            pt: {
+                i: "diferenciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "diferir"
+            pt: {
+                i: "diferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dificultar"
+            pt: {
+                i: "dificultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "difundir"
+            pt: {
+                i: "difundir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "digerir"
+            pt: {
+                i: "digerir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "digitar"
+            pt: {
+                i: "digitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dignificar"
+            pt: {
+                i: "dignificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dilatar"
+            pt: {
+                i: "dilatar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "diluir"
+            pt: {
+                i: "diluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "diminuir"
+            pt: {
+                i: "diminuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dirigir"
+            pt: {
+                i: "dirigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "discernir"
+            pt: {
+                i: "discernir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "disciplinar"
+            pt: {
+                i: "disciplinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "discriminar"
+            pt: {
+                i: "discriminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "discutir"
+            pt: {
+                i: "discutir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "disfarçar"
+            pt: {
+                i: "disfarçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "disparar"
+            pt: {
+                i: "disparar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dispensar"
+            pt: {
+                i: "dispensar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dispersar"
+            pt: {
+                i: "dispersar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dispor"
+            pt: {
+                i: "dispor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dispor-se"
+            pt: {
+                i: "dispor-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "disputar"
+            pt: {
+                i: "disputar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "disseminar"
+            pt: {
+                i: "disseminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dissentir"
+            pt: {
+                i: "dissentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dissimular"
+            pt: {
+                i: "dissimular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dissolver"
+            pt: {
+                i: "dissolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "distanciar"
+            pt: {
+                i: "distanciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "distinguir"
+            pt: {
+                i: "distinguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "distrair"
+            pt: {
+                i: "distrair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "distrair-se"
+            pt: {
+                i: "distrair-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "distribuir"
+            pt: {
+                i: "distribuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ditar"
+            pt: {
+                i: "ditar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divergir"
+            pt: {
+                i: "divergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divertir"
+            pt: {
+                i: "divertir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divertir-se"
+            pt: {
+                i: "divertir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dividir"
+            pt: {
+                i: "dividir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divisar"
+            pt: {
+                i: "divisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divorciar"
+            pt: {
+                i: "divorciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divorciar-se"
+            pt: {
+                i: "divorciar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "divulgar"
+            pt: {
+                i: "divulgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dizer"
+            pt: {
+                i: "dizer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "doar"
+            pt: {
+                i: "doar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dobrar"
+            pt: {
+                i: "dobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "documentar"
+            pt: {
+                i: "documentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "doer"
+            pt: {
+                i: "doer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "domesticar"
+            pt: {
+                i: "domesticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dominar"
+            pt: {
+                i: "dominar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dormir"
+            pt: {
+                i: "dormir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "dramatizar"
+            pt: {
+                i: "dramatizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "drenar"
+            pt: {
+                i: "drenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "duplicar"
+            pt: {
+                i: "duplicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "durar"
+            pt: {
+                i: "durar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "duvidar"
+            pt: {
+                i: "duvidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "edificar"
+            pt: {
+                i: "edificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "editar"
+            pt: {
+                i: "editar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "educar"
+            pt: {
+                i: "educar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "efetuar"
+            pt: {
+                i: "efetuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ejacular"
+            pt: {
+                i: "ejacular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "elaborar"
+            pt: {
+                i: "elaborar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "eleger"
+            pt: {
+                i: "eleger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "elevar"
+            pt: {
+                i: "elevar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "eliminar"
+            pt: {
+                i: "eliminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "elogiar"
+            pt: {
+                i: "elogiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "eludir"
+            pt: {
+                i: "eludir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emagrecer"
+            pt: {
+                i: "emagrecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emanar"
+            pt: {
+                i: "emanar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emancipar"
+            pt: {
+                i: "emancipar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emascular"
+            pt: {
+                i: "emascular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "embarcar"
+            pt: {
+                i: "embarcar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "embeber"
+            pt: {
+                i: "embeber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "embelezar"
+            pt: {
+                i: "embelezar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "embrulhar"
+            pt: {
+                i: "embrulhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "embruxar"
+            pt: {
+                i: "embruxar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emendar"
+            pt: {
+                i: "emendar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emergir"
+            pt: {
+                i: "emergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emigrar"
+            pt: {
+                i: "emigrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emitir"
+            pt: {
+                i: "emitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emocionar"
+            pt: {
+                i: "emocionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emparelhar"
+            pt: {
+                i: "emparelhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empatar"
+            pt: {
+                i: "empatar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empenhar"
+            pt: {
+                i: "empenhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empenhar-se"
+            pt: {
+                i: "empenhar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empreender"
+            pt: {
+                i: "empreender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empregar"
+            pt: {
+                i: "empregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "emprestar"
+            pt: {
+                i: "emprestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "empurrar"
+            pt: {
+                i: "empurrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enaltecer"
+            pt: {
+                i: "enaltecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encaminhar"
+            pt: {
+                i: "encaminhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encantar"
+            pt: {
+                i: "encantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encarar"
+            pt: {
+                i: "encarar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encarcerar"
+            pt: {
+                i: "encarcerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encarregar"
+            pt: {
+                i: "encarregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encender"
+            pt: {
+                i: "encender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encetar"
+            pt: {
+                i: "encetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encher"
+            pt: {
+                i: "encher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encolher"
+            pt: {
+                i: "encolher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encomendar"
+            pt: {
+                i: "encomendar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encontrar"
+            pt: {
+                i: "encontrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encontrar-se"
+            pt: {
+                i: "encontrar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encorajar"
+            pt: {
+                i: "encorajar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encostar"
+            pt: {
+                i: "encostar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "encurtar"
+            pt: {
+                i: "encurtar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "endoidecer"
+            pt: {
+                i: "endoidecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enfeitiçar"
+            pt: {
+                i: "enfeitiçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enfermar"
+            pt: {
+                i: "enfermar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enfiar"
+            pt: {
+                i: "enfiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enfocar"
+            pt: {
+                i: "enfocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enforcar"
+            pt: {
+                i: "enforcar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enfrentar"
+            pt: {
+                i: "enfrentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enganar"
+            pt: {
+                i: "enganar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enganchar"
+            pt: {
+                i: "enganchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "engolir"
+            pt: {
+                i: "engolir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "engordar"
+            pt: {
+                i: "engordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "engraxar"
+            pt: {
+                i: "engraxar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enjoar"
+            pt: {
+                i: "enjoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enlaçar"
+            pt: {
+                i: "enlaçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enlevar"
+            pt: {
+                i: "enlevar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enredar"
+            pt: {
+                i: "enredar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enriquecer"
+            pt: {
+                i: "enriquecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enrolar"
+            pt: {
+                i: "enrolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ensaiar"
+            pt: {
+                i: "ensaiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ensinar"
+            pt: {
+                i: "ensinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entediar"
+            pt: {
+                i: "entediar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entediar-se"
+            pt: {
+                i: "entediar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entender"
+            pt: {
+                i: "entender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enterrar"
+            pt: {
+                i: "enterrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entrar"
+            pt: {
+                i: "entrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entregar"
+            pt: {
+                i: "entregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entreter"
+            pt: {
+                i: "entreter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entreter-se"
+            pt: {
+                i: "entreter-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entrever"
+            pt: {
+                i: "entrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entrevistar"
+            pt: {
+                i: "entrevistar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entristecer"
+            pt: {
+                i: "entristecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entupir"
+            pt: {
+                i: "entupir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entusiasmar"
+            pt: {
+                i: "entusiasmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "entusiasmar-se"
+            pt: {
+                i: "entusiasmar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enumerar"
+            pt: {
+                i: "enumerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enunciar"
+            pt: {
+                i: "enunciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "envelhecer"
+            pt: {
+                i: "envelhecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "envenenar"
+            pt: {
+                i: "envenenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "envergonhar"
+            pt: {
+                i: "envergonhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "envergonhar-se"
+            pt: {
+                i: "envergonhar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enviar"
+            pt: {
+                i: "enviar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "envolver"
+            pt: {
+                i: "envolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enxaguar"
+            pt: {
+                i: "enxaguar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enxergar"
+            pt: {
+                i: "enxergar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "enxugar"
+            pt: {
+                i: "enxugar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "equiparar"
+            pt: {
+                i: "equiparar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "equivaler"
+            pt: {
+                i: "equivaler"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "equivocar"
+            pt: {
+                i: "equivocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "equivocar-se"
+            pt: {
+                i: "equivocar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "erguer"
+            pt: {
+                i: "erguer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "erigir"
+            pt: {
+                i: "erigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "errar"
+            pt: {
+                i: "errar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escalar"
+            pt: {
+                i: "escalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escapar"
+            pt: {
+                i: "escapar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escavar"
+            pt: {
+                i: "escavar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esclarecer"
+            pt: {
+                i: "esclarecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escolher"
+            pt: {
+                i: "escolher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esconder"
+            pt: {
+                i: "esconder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esconder-se"
+            pt: {
+                i: "esconder-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escorregar"
+            pt: {
+                i: "escorregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escorrer"
+            pt: {
+                i: "escorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escovar"
+            pt: {
+                i: "escovar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escrever"
+            pt: {
+                i: "escrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escusar"
+            pt: {
+                i: "escusar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escusar-se"
+            pt: {
+                i: "escusar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "escutar"
+            pt: {
+                i: "escutar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esfoliar"
+            pt: {
+                i: "esfoliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esfregar"
+            pt: {
+                i: "esfregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esfriar"
+            pt: {
+                i: "esfriar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esfumar"
+            pt: {
+                i: "esfumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esgotar"
+            pt: {
+                i: "esgotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esmagar"
+            pt: {
+                i: "esmagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espalhar"
+            pt: {
+                i: "espalhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espantar"
+            pt: {
+                i: "espantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espavorir"
+            pt: {
+                i: "espavorir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "especializar-se"
+            pt: {
+                i: "especializar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "especificar"
+            pt: {
+                i: "especificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "especular"
+            pt: {
+                i: "especular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esperar"
+            pt: {
+                i: "esperar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espevitar"
+            pt: {
+                i: "espevitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espiar"
+            pt: {
+                i: "espiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espionar"
+            pt: {
+                i: "espionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espirrar"
+            pt: {
+                i: "espirrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espreitar"
+            pt: {
+                i: "espreitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "espremer"
+            pt: {
+                i: "espremer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquecer"
+            pt: {
+                i: "esquecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquecer-se"
+            pt: {
+                i: "esquecer-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquentar"
+            pt: {
+                i: "esquentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquiar"
+            pt: {
+                i: "esquiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquilar"
+            pt: {
+                i: "esquilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esquivar"
+            pt: {
+                i: "esquivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estabelecer"
+            pt: {
+                i: "estabelecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estacionar"
+            pt: {
+                i: "estacionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estalar"
+            pt: {
+                i: "estalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estar",
+            pt: {
+                i: "estar",
                 "like": "estar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estender"
+            pt: {
+                i: "estender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esterilizar"
+            pt: {
+                i: "esterilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estigmatizar"
+            pt: {
+                i: "estigmatizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estimar"
+            pt: {
+                i: "estimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estimular"
+            pt: {
+                i: "estimular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estipular"
+            pt: {
+                i: "estipular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estirar"
+            pt: {
+                i: "estirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estourar"
+            pt: {
+                i: "estourar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estragar"
+            pt: {
+                i: "estragar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estrangular"
+            pt: {
+                i: "estrangular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estranhar"
+            pt: {
+                i: "estranhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estrear"
+            pt: {
+                i: "estrear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estrelar"
+            pt: {
+                i: "estrelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estremecer"
+            pt: {
+                i: "estremecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estressar"
+            pt: {
+                i: "estressar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estudar"
+            pt: {
+                i: "estudar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "estufar"
+            pt: {
+                i: "estufar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "esvaziar"
+            pt: {
+                i: "esvaziar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evacuar"
+            pt: {
+                i: "evacuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evadir"
+            pt: {
+                i: "evadir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evaporar"
+            pt: {
+                i: "evaporar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evitar"
+            pt: {
+                i: "evitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evoluir"
+            pt: {
+                i: "evoluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "evolver"
+            pt: {
+                i: "evolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exagerar"
+            pt: {
+                i: "exagerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exalar"
+            pt: {
+                i: "exalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "examinar"
+            pt: {
+                i: "examinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exasperar"
+            pt: {
+                i: "exasperar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exceder"
+            pt: {
+                i: "exceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exceler"
+            pt: {
+                i: "exceler"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exclamar"
+            pt: {
+                i: "exclamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "excluir"
+            pt: {
+                i: "excluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "executar"
+            pt: {
+                i: "executar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exercer"
+            pt: {
+                i: "exercer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exibir"
+            pt: {
+                i: "exibir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exigir"
+            pt: {
+                i: "exigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "eximir"
+            pt: {
+                i: "eximir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "existir"
+            pt: {
+                i: "existir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exonerar"
+            pt: {
+                i: "exonerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expandir"
+            pt: {
+                i: "expandir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expatriar"
+            pt: {
+                i: "expatriar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expedir"
+            pt: {
+                i: "expedir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expelir"
+            pt: {
+                i: "expelir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "experimentar"
+            pt: {
+                i: "experimentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expirar"
+            pt: {
+                i: "expirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "explicar"
+            pt: {
+                i: "explicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "explodir"
+            pt: {
+                i: "explodir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "explorar"
+            pt: {
+                i: "explorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expor"
+            pt: {
+                i: "expor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exportar"
+            pt: {
+                i: "exportar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expressar"
+            pt: {
+                i: "expressar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exprimir"
+            pt: {
+                i: "exprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "expulsar"
+            pt: {
+                i: "expulsar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "exterminar"
+            pt: {
+                i: "exterminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "extinguir"
+            pt: {
+                i: "extinguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "extraditar"
+            pt: {
+                i: "extraditar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "extrair"
+            pt: {
+                i: "extrair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fabricar"
+            pt: {
+                i: "fabricar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "facilitar"
+            pt: {
+                i: "facilitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fagocitar"
+            pt: {
+                i: "fagocitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "falecer"
+            pt: {
+                i: "falecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "falhar"
+            pt: {
+                i: "falhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "falir"
+            pt: {
+                i: "falir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "falsear"
+            pt: {
+                i: "falsear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "falsificar"
+            pt: {
+                i: "falsificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "faltar"
+            pt: {
+                i: "faltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fanfarronar"
+            pt: {
+                i: "fanfarronar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fantasiar"
+            pt: {
+                i: "fantasiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fartar"
+            pt: {
+                i: "fartar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fascinar"
+            pt: {
+                i: "fascinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fatigar"
+            pt: {
+                i: "fatigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "faturar"
+            pt: {
+                i: "faturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "favorecer"
+            pt: {
+                i: "favorecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fazer",
+            pt: {
+                i: "fazer",
                 like: 'fazer'
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fechar"
+            pt: {
+                i: "fechar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "feder"
+            pt: {
+                i: "feder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "felicitar"
+            pt: {
+                i: "felicitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ferir"
+            pt: {
+                i: "ferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fertilizar"
+            pt: {
+                i: "fertilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ferver"
+            pt: {
+                i: "ferver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ficar"
+            pt: {
+                i: "ficar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fichar"
+            pt: {
+                i: "fichar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "figurar"
+            pt: {
+                i: "figurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "filmar"
+            pt: {
+                i: "filmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "filosofar"
+            pt: {
+                i: "filosofar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "filtrar"
+            pt: {
+                i: "filtrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "finalizar"
+            pt: {
+                i: "finalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "financiar"
+            pt: {
+                i: "financiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fincar"
+            pt: {
+                i: "fincar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fingir"
+            pt: {
+                i: "fingir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "firmar"
+            pt: {
+                i: "firmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fitar"
+            pt: {
+                i: "fitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fixar"
+            pt: {
+                i: "fixar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "flectir"
+            pt: {
+                i: "flectir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "flertar"
+            pt: {
+                i: "flertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "flexibilizar"
+            pt: {
+                i: "flexibilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "flexionar"
+            pt: {
+                i: "flexionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "florescer"
+            pt: {
+                i: "florescer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "florir"
+            pt: {
+                i: "florir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fluir"
+            pt: {
+                i: "fluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "flutuar"
+            pt: {
+                i: "flutuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "focalizar"
+            pt: {
+                i: "focalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "focar"
+            pt: {
+                i: "focar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "foder"
+            pt: {
+                i: "foder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "folhear"
+            pt: {
+                i: "folhear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fomentar"
+            pt: {
+                i: "fomentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "forçar"
+            pt: {
+                i: "forçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "formalizar"
+            pt: {
+                i: "formalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "formar"
+            pt: {
+                i: "formar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "formular"
+            pt: {
+                i: "formular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fornear"
+            pt: {
+                i: "fornear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fornecer"
+            pt: {
+                i: "fornecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fornicar"
+            pt: {
+                i: "fornicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fortalecer"
+            pt: {
+                i: "fortalecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fortificar"
+            pt: {
+                i: "fortificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fotocopiar"
+            pt: {
+                i: "fotocopiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fotografar"
+            pt: {
+                i: "fotografar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fracassar"
+            pt: {
+                i: "fracassar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fraternizar"
+            pt: {
+                i: "fraternizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fraturar"
+            pt: {
+                i: "fraturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "frear"
+            pt: {
+                i: "frear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "frequentar"
+            pt: {
+                i: "frequentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "frigir"
+            pt: {
+                i: "frigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fritar"
+            pt: {
+                i: "fritar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "frustrar"
+            pt: {
+                i: "frustrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fugir"
+            pt: {
+                i: "fugir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fumar"
+            pt: {
+                i: "fumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fumigar"
+            pt: {
+                i: "fumigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "funcionar"
+            pt: {
+                i: "funcionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fundar"
+            pt: {
+                i: "fundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fundir"
+            pt: {
+                i: "fundir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "furar"
+            pt: {
+                i: "furar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "fusionar"
+            pt: {
+                i: "fusionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gaguejar"
+            pt: {
+                i: "gaguejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "galopar"
+            pt: {
+                i: "galopar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "galvanizar"
+            pt: {
+                i: "galvanizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ganhar"
+            pt: {
+                i: "ganhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "garantir"
+            pt: {
+                i: "garantir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gastar"
+            pt: {
+                i: "gastar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gelar"
+            pt: {
+                i: "gelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gemer"
+            pt: {
+                i: "gemer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "generalizar"
+            pt: {
+                i: "generalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gerar"
+            pt: {
+                i: "gerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gerir"
+            pt: {
+                i: "gerir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gesticular"
+            pt: {
+                i: "gesticular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "girar"
+            pt: {
+                i: "girar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "glorificar"
+            pt: {
+                i: "glorificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "golpear"
+            pt: {
+                i: "golpear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gostar"
+            pt: {
+                i: "gostar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "governar"
+            pt: {
+                i: "governar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gozar"
+            pt: {
+                i: "gozar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gracejar"
+            pt: {
+                i: "gracejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "graduar"
+            pt: {
+                i: "graduar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "granizar"
+            pt: {
+                i: "granizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gratificar"
+            pt: {
+                i: "gratificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gravar"
+            pt: {
+                i: "gravar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "gritar"
+            pt: {
+                i: "gritar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "grulhar"
+            pt: {
+                i: "grulhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "grunhir"
+            pt: {
+                i: "grunhir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "guardar"
+            pt: {
+                i: "guardar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "guiar"
+            pt: {
+                i: "guiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "guisar"
+            pt: {
+                i: "guisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "habitar"
+            pt: {
+                i: "habitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "harmonizar"
+            pt: {
+                i: "harmonizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "haver"
+            pt: {
+                i: "haver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "herdar"
+            pt: {
+                i: "herdar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "hesitar"
+            pt: {
+                i: "hesitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "hidratar"
+            pt: {
+                i: "hidratar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "hipnotizar"
+            pt: {
+                i: "hipnotizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "horrorizar"
+            pt: {
+                i: "horrorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "hospedar"
+            pt: {
+                i: "hospedar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "hospitalizar"
+            pt: {
+                i: "hospitalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "humilhar"
+            pt: {
+                i: "humilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "idealizar"
+            pt: {
+                i: "idealizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "idear"
+            pt: {
+                i: "idear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "identificar"
+            pt: {
+                i: "identificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ignorar"
+            pt: {
+                i: "ignorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "igualar"
+            pt: {
+                i: "igualar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "iludir"
+            pt: {
+                i: "iludir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "iluminar"
+            pt: {
+                i: "iluminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ilusionar"
+            pt: {
+                i: "ilusionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ilustrar"
+            pt: {
+                i: "ilustrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imaginar"
+            pt: {
+                i: "imaginar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imaginar-se"
+            pt: {
+                i: "imaginar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imergir"
+            pt: {
+                i: "imergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imigrar"
+            pt: {
+                i: "imigrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imiscuir-se"
+            pt: {
+                i: "imiscuir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imitar"
+            pt: {
+                i: "imitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "impedir"
+            pt: {
+                i: "impedir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "impelir"
+            pt: {
+                i: "impelir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "implantar"
+            pt: {
+                i: "implantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "implementar"
+            pt: {
+                i: "implementar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "implicar"
+            pt: {
+                i: "implicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "impor"
+            pt: {
+                i: "impor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "importar"
+            pt: {
+                i: "importar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "impressionar"
+            pt: {
+                i: "impressionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imprimir"
+            pt: {
+                i: "imprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "improvisar"
+            pt: {
+                i: "improvisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "impugnar"
+            pt: {
+                i: "impugnar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "imunizar"
+            pt: {
+                i: "imunizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inalar"
+            pt: {
+                i: "inalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inaugurar"
+            pt: {
+                i: "inaugurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incendiar"
+            pt: {
+                i: "incendiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inchar"
+            pt: {
+                i: "inchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incidir"
+            pt: {
+                i: "incidir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incinerar"
+            pt: {
+                i: "incinerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inclinar"
+            pt: {
+                i: "inclinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incluir"
+            pt: {
+                i: "incluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incoar"
+            pt: {
+                i: "incoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incomodar"
+            pt: {
+                i: "incomodar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incorporar"
+            pt: {
+                i: "incorporar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incorrer"
+            pt: {
+                i: "incorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incrementar"
+            pt: {
+                i: "incrementar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incriminar"
+            pt: {
+                i: "incriminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "incubar"
+            pt: {
+                i: "incubar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "indagar"
+            pt: {
+                i: "indagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "indicar"
+            pt: {
+                i: "indicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "indignar"
+            pt: {
+                i: "indignar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "individualizar"
+            pt: {
+                i: "individualizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "industrializar"
+            pt: {
+                i: "industrializar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "induzir"
+            pt: {
+                i: "induzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infectar"
+            pt: {
+                i: "infectar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inferir"
+            pt: {
+                i: "inferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infetar"
+            pt: {
+                i: "infetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infiltrar"
+            pt: {
+                i: "infiltrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inflamar"
+            pt: {
+                i: "inflamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inflar"
+            pt: {
+                i: "inflar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infligir"
+            pt: {
+                i: "infligir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "influenciar"
+            pt: {
+                i: "influenciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "informar"
+            pt: {
+                i: "informar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "informar-se"
+            pt: {
+                i: "informar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infringir"
+            pt: {
+                i: "infringir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "infundir"
+            pt: {
+                i: "infundir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ingerir"
+            pt: {
+                i: "ingerir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ingressar"
+            pt: {
+                i: "ingressar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inibir"
+            pt: {
+                i: "inibir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "iniciar"
+            pt: {
+                i: "iniciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "injetar"
+            pt: {
+                i: "injetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inocular"
+            pt: {
+                i: "inocular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inovar"
+            pt: {
+                i: "inovar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inquirir"
+            pt: {
+                i: "inquirir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inscrever"
+            pt: {
+                i: "inscrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inscrever-se"
+            pt: {
+                i: "inscrever-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inserir"
+            pt: {
+                i: "inserir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "insinuar"
+            pt: {
+                i: "insinuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "insistir"
+            pt: {
+                i: "insistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inspecionar"
+            pt: {
+                i: "inspecionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inspirar"
+            pt: {
+                i: "inspirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "instalar"
+            pt: {
+                i: "instalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "instigar"
+            pt: {
+                i: "instigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "instituir"
+            pt: {
+                i: "instituir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "instruir"
+            pt: {
+                i: "instruir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "insultar"
+            pt: {
+                i: "insultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "integrar"
+            pt: {
+                i: "integrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intentar"
+            pt: {
+                i: "intentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intercambiar"
+            pt: {
+                i: "intercambiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interceder"
+            pt: {
+                i: "interceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interceptar"
+            pt: {
+                i: "interceptar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intercetar"
+            pt: {
+                i: "intercetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interessar"
+            pt: {
+                i: "interessar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interessar-se"
+            pt: {
+                i: "interessar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interferir"
+            pt: {
+                i: "interferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "internar"
+            pt: {
+                i: "internar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interpor"
+            pt: {
+                i: "interpor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interpretar"
+            pt: {
+                i: "interpretar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interrogar"
+            pt: {
+                i: "interrogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "interromper"
+            pt: {
+                i: "interromper"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intervir"
+            pt: {
+                i: "intervir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intimidar"
+            pt: {
+                i: "intimidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intoxicar"
+            pt: {
+                i: "intoxicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "introduzir"
+            pt: {
+                i: "introduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "intuir"
+            pt: {
+                i: "intuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inundar"
+            pt: {
+                i: "inundar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "invadir"
+            pt: {
+                i: "invadir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "invalidar"
+            pt: {
+                i: "invalidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "invejar"
+            pt: {
+                i: "invejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inventar"
+            pt: {
+                i: "inventar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "inverter"
+            pt: {
+                i: "inverter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "investigar"
+            pt: {
+                i: "investigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "investir"
+            pt: {
+                i: "investir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "invitar"
+            pt: {
+                i: "invitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "invocar"
+            pt: {
+                i: "invocar"
             }
         },
         {
-            "en": {
-                "i": "to go"
+            en: {
+                i: "to go"
             },
-            "pt": {
-                "i": "ir"
+            pt: {
+                i: "ir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ir-se"
+            pt: {
+                i: "ir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "irmanar"
+            pt: {
+                i: "irmanar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "irradiar"
+            pt: {
+                i: "irradiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "irrigar"
+            pt: {
+                i: "irrigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "irritar"
+            pt: {
+                i: "irritar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "irromper"
+            pt: {
+                i: "irromper"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "isolar"
+            pt: {
+                i: "isolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "jantar"
+            pt: {
+                i: "jantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "jazer"
+            pt: {
+                i: "jazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "jogar"
+            pt: {
+                i: "jogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "julgar"
+            pt: {
+                i: "julgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "juntar"
+            pt: {
+                i: "juntar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "jurar"
+            pt: {
+                i: "jurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "justapor"
+            pt: {
+                i: "justapor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "justificar"
+            pt: {
+                i: "justificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lactar"
+            pt: {
+                i: "lactar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ladrar"
+            pt: {
+                i: "ladrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lamber"
+            pt: {
+                i: "lamber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lambiscar"
+            pt: {
+                i: "lambiscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lamentar"
+            pt: {
+                i: "lamentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lamentar-se"
+            pt: {
+                i: "lamentar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lançar"
+            pt: {
+                i: "lançar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lanchar"
+            pt: {
+                i: "lanchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "largar"
+            pt: {
+                i: "largar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "latir"
+            pt: {
+                i: "latir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lavar"
+            pt: {
+                i: "lavar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "legalizar"
+            pt: {
+                i: "legalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "legar"
+            pt: {
+                i: "legar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "legislar"
+            pt: {
+                i: "legislar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "legitimar"
+            pt: {
+                i: "legitimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lembrar"
+            pt: {
+                i: "lembrar"
             }
         },
         {
-            "en": {
-                "i": "to remember"
+            en: {
+                i: "to remember"
             },
-            "pt": {
-                "i": "lembrar-se"
+            pt: {
+                i: "lembrar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ler"
+            pt: {
+                i: "ler"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "levantar"
+            pt: {
+                i: "levantar"
             }
         },
         {
-            "en": {
-                "i": "to stand up"
+            en: {
+                i: "to stand up"
             },
-            "pt": {
-                "i": "levantar-se"
+            pt: {
+                i: "levantar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "levar"
+            pt: {
+                i: "levar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "liberar"
+            pt: {
+                i: "liberar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "libertar"
+            pt: {
+                i: "libertar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "licenciar"
+            pt: {
+                i: "licenciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lidar"
+            pt: {
+                i: "lidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "liderar"
+            pt: {
+                i: "liderar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ligar"
+            pt: {
+                i: "ligar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "limitar"
+            pt: {
+                i: "limitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "limpar"
+            pt: {
+                i: "limpar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "linchar"
+            pt: {
+                i: "linchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "liquefazer"
+            pt: {
+                i: "liquefazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "liquidar"
+            pt: {
+                i: "liquidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "litigar"
+            pt: {
+                i: "litigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "livrar"
+            pt: {
+                i: "livrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "localizar"
+            pt: {
+                i: "localizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lograr"
+            pt: {
+                i: "lograr"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "louvar"
+            pt: {
+                i: "louvar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lubrificar"
+            pt: {
+                i: "lubrificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lucrar"
+            pt: {
+                i: "lucrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "lutar"
+            pt: {
+                i: "lutar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "luzir"
+            pt: {
+                i: "luzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "machucar"
+            pt: {
+                i: "machucar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "madrugar"
+            pt: {
+                i: "madrugar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "madurar"
+            pt: {
+                i: "madurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "maldizer"
+            pt: {
+                i: "maldizer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "malquerer"
+            pt: {
+                i: "malquerer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "maltratar"
+            pt: {
+                i: "maltratar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manchar"
+            pt: {
+                i: "manchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mandar"
+            pt: {
+                i: "mandar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manejar"
+            pt: {
+                i: "manejar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manifestar"
+            pt: {
+                i: "manifestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manipular"
+            pt: {
+                i: "manipular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manobrar"
+            pt: {
+                i: "manobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manter"
+            pt: {
+                i: "manter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manufacturar"
+            pt: {
+                i: "manufacturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "manufaturar"
+            pt: {
+                i: "manufaturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "maquiar"
+            pt: {
+                i: "maquiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "maquiar-se"
+            pt: {
+                i: "maquiar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "maravilhar"
+            pt: {
+                i: "maravilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "marcar"
+            pt: {
+                i: "marcar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "marchar"
+            pt: {
+                i: "marchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "marear"
+            pt: {
+                i: "marear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mastigar"
+            pt: {
+                i: "mastigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "masturbar"
+            pt: {
+                i: "masturbar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "matar"
+            pt: {
+                i: "matar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mediar"
+            pt: {
+                i: "mediar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "medicar"
+            pt: {
+                i: "medicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "medir"
+            pt: {
+                i: "medir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "meditar"
+            pt: {
+                i: "meditar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "melhorar"
+            pt: {
+                i: "melhorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "memorizar"
+            pt: {
+                i: "memorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mencionar"
+            pt: {
+                i: "mencionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "menosprezar"
+            pt: {
+                i: "menosprezar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "menstruar"
+            pt: {
+                i: "menstruar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mentir"
+            pt: {
+                i: "mentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "merecer"
+            pt: {
+                i: "merecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "merendar"
+            pt: {
+                i: "merendar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mergulhar"
+            pt: {
+                i: "mergulhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "meter"
+            pt: {
+                i: "meter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mexer"
+            pt: {
+                i: "mexer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "miar"
+            pt: {
+                i: "miar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "migrar"
+            pt: {
+                i: "migrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mijar"
+            pt: {
+                i: "mijar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mimar"
+            pt: {
+                i: "mimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "minguar"
+            pt: {
+                i: "minguar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mirar"
+            pt: {
+                i: "mirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mistificar"
+            pt: {
+                i: "mistificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "misturar"
+            pt: {
+                i: "misturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mitigar"
+            pt: {
+                i: "mitigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mobiliar"
+            pt: {
+                i: "mobiliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mobilizar"
+            pt: {
+                i: "mobilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "modelar"
+            pt: {
+                i: "modelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "moderar"
+            pt: {
+                i: "moderar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "modernizar"
+            pt: {
+                i: "modernizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "modificar"
+            pt: {
+                i: "modificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "modular"
+            pt: {
+                i: "modular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "moer"
+            pt: {
+                i: "moer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "molestar"
+            pt: {
+                i: "molestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "molhar"
+            pt: {
+                i: "molhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "montar"
+            pt: {
+                i: "montar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "morar"
+            pt: {
+                i: "morar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "morder"
+            pt: {
+                i: "morder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "morrer"
+            pt: {
+                i: "morrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mostrar"
+            pt: {
+                i: "mostrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "motivar"
+            pt: {
+                i: "motivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mover"
+            pt: {
+                i: "mover"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mudar"
+            pt: {
+                i: "mudar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "multar"
+            pt: {
+                i: "multar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "multiplicar"
+            pt: {
+                i: "multiplicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "murmurar"
+            pt: {
+                i: "murmurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "mutilar"
+            pt: {
+                i: "mutilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nadar"
+            pt: {
+                i: "nadar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "narrar"
+            pt: {
+                i: "narrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nascer"
+            pt: {
+                i: "nascer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "naturalizar"
+            pt: {
+                i: "naturalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "naufragar"
+            pt: {
+                i: "naufragar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "navegar"
+            pt: {
+                i: "navegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "necessitar"
+            pt: {
+                i: "necessitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "negar"
+            pt: {
+                i: "negar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "negociar"
+            pt: {
+                i: "negociar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "neutralizar"
+            pt: {
+                i: "neutralizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nevar"
+            pt: {
+                i: "nevar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "neviscar"
+            pt: {
+                i: "neviscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nivelar"
+            pt: {
+                i: "nivelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nomear"
+            pt: {
+                i: "nomear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "notar"
+            pt: {
+                i: "notar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "notificar"
+            pt: {
+                i: "notificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "numerar"
+            pt: {
+                i: "numerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "nutrir"
+            pt: {
+                i: "nutrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "obedecer"
+            pt: {
+                i: "obedecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "obliquar"
+            pt: {
+                i: "obliquar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "obrigar"
+            pt: {
+                i: "obrigar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "observar"
+            pt: {
+                i: "observar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "obstruir"
+            pt: {
+                i: "obstruir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "obter"
+            pt: {
+                i: "obter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ocorrer"
+            pt: {
+                i: "ocorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ocultar"
+            pt: {
+                i: "ocultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ocupar"
+            pt: {
+                i: "ocupar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "odiar"
+            pt: {
+                i: "odiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ofender"
+            pt: {
+                i: "ofender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "oferecer"
+            pt: {
+                i: "oferecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "olhar"
+            pt: {
+                i: "olhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "olvidar"
+            pt: {
+                i: "olvidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "omitir"
+            pt: {
+                i: "omitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "operar"
+            pt: {
+                i: "operar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "opinar"
+            pt: {
+                i: "opinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "opor"
+            pt: {
+                i: "opor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "optar"
+            pt: {
+                i: "optar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "orçar"
+            pt: {
+                i: "orçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ordenar"
+            pt: {
+                i: "ordenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ordenhar"
+            pt: {
+                i: "ordenhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "organizar"
+            pt: {
+                i: "organizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "orientar"
+            pt: {
+                i: "orientar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "originar"
+            pt: {
+                i: "originar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ornar"
+            pt: {
+                i: "ornar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "orquestrar"
+            pt: {
+                i: "orquestrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "oscilar"
+            pt: {
+                i: "oscilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ousar"
+            pt: {
+                i: "ousar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "outorgar"
+            pt: {
+                i: "outorgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ouvir"
+            pt: {
+                i: "ouvir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ovular"
+            pt: {
+                i: "ovular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "oxidar"
+            pt: {
+                i: "oxidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "oxigenar"
+            pt: {
+                i: "oxigenar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pactuar"
+            pt: {
+                i: "pactuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "padecer"
+            pt: {
+                i: "padecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pagar"
+            pt: {
+                i: "pagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "palpitar"
+            pt: {
+                i: "palpitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "palrar"
+            pt: {
+                i: "palrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "paquerar"
+            pt: {
+                i: "paquerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parabenizar"
+            pt: {
+                i: "parabenizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parafrasear"
+            pt: {
+                i: "parafrasear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "paralisar"
+            pt: {
+                i: "paralisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parar"
+            pt: {
+                i: "parar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parecer"
+            pt: {
+                i: "parecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parir"
+            pt: {
+                i: "parir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "parodiar"
+            pt: {
+                i: "parodiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "participar"
+            pt: {
+                i: "participar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "partilhar"
+            pt: {
+                i: "partilhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "partir"
+            pt: {
+                i: "partir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pasmar"
+            pt: {
+                i: "pasmar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "passar"
+            pt: {
+                i: "passar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "passear"
+            pt: {
+                i: "passear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "patinar"
+            pt: {
+                i: "patinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pausar"
+            pt: {
+                i: "pausar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pedalar"
+            pt: {
+                i: "pedalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pedir"
+            pt: {
+                i: "pedir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pegar"
+            pt: {
+                i: "pegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pender"
+            pt: {
+                i: "pender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pendurar"
+            pt: {
+                i: "pendurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "peneirar"
+            pt: {
+                i: "peneirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "penetrar"
+            pt: {
+                i: "penetrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "penhorar"
+            pt: {
+                i: "penhorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pensar"
+            pt: {
+                i: "pensar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pentear"
+            pt: {
+                i: "pentear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pentear-se"
+            pt: {
+                i: "pentear-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perceber"
+            pt: {
+                i: "perceber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "percutir"
+            pt: {
+                i: "percutir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perder"
+            pt: {
+                i: "perder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perdoar"
+            pt: {
+                i: "perdoar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perfeccionar"
+            pt: {
+                i: "perfeccionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perfumar"
+            pt: {
+                i: "perfumar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perfurar"
+            pt: {
+                i: "perfurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perguntar"
+            pt: {
+                i: "perguntar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "permanecer"
+            pt: {
+                i: "permanecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "permitir"
+            pt: {
+                i: "permitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perpetuar"
+            pt: {
+                i: "perpetuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perseguir"
+            pt: {
+                i: "perseguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "perseverar"
+            pt: {
+                i: "perseverar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "persistir"
+            pt: {
+                i: "persistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "personalizar"
+            pt: {
+                i: "personalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "persuadir"
+            pt: {
+                i: "persuadir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pertencer"
+            pt: {
+                i: "pertencer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pesar"
+            pt: {
+                i: "pesar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pescar"
+            pt: {
+                i: "pescar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pesquisar"
+            pt: {
+                i: "pesquisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "petiscar"
+            pt: {
+                i: "petiscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "picar"
+            pt: {
+                i: "picar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pintar"
+            pt: {
+                i: "pintar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "piorar"
+            pt: {
+                i: "piorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pisar"
+            pt: {
+                i: "pisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "planar"
+            pt: {
+                i: "planar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "planificar"
+            pt: {
+                i: "planificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "plantar"
+            pt: {
+                i: "plantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "poder"
+            pt: {
+                i: "poder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "polarizar"
+            pt: {
+                i: "polarizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "polinizar"
+            pt: {
+                i: "polinizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "polir"
+            pt: {
+                i: "polir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "poluir"
+            pt: {
+                i: "poluir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pôr"
+            pt: {
+                i: "pôr"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "posicionar"
+            pt: {
+                i: "posicionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pospor"
+            pt: {
+                i: "pospor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "possibilitar"
+            pt: {
+                i: "possibilitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "possuir"
+            pt: {
+                i: "possuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "postular"
+            pt: {
+                i: "postular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "potenciar"
+            pt: {
+                i: "potenciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "poupar"
+            pt: {
+                i: "poupar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pousar"
+            pt: {
+                i: "pousar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "praticar"
+            pt: {
+                i: "praticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preceder"
+            pt: {
+                i: "preceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "precipitar"
+            pt: {
+                i: "precipitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "precisar"
+            pt: {
+                i: "precisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "predicar"
+            pt: {
+                i: "predicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "predominar"
+            pt: {
+                i: "predominar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preencher"
+            pt: {
+                i: "preencher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preferir"
+            pt: {
+                i: "preferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pregar"
+            pt: {
+                i: "pregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prejudicar"
+            pt: {
+                i: "prejudicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prejulgar"
+            pt: {
+                i: "prejulgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "premiar"
+            pt: {
+                i: "premiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prender"
+            pt: {
+                i: "prender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preocupar-se"
+            pt: {
+                i: "preocupar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preparar"
+            pt: {
+                i: "preparar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preparar-se"
+            pt: {
+                i: "preparar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prescrever"
+            pt: {
+                i: "prescrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "preservar"
+            pt: {
+                i: "preservar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "presidir"
+            pt: {
+                i: "presidir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pressentir"
+            pt: {
+                i: "pressentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pressionar"
+            pt: {
+                i: "pressionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prestar"
+            pt: {
+                i: "prestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "presumir"
+            pt: {
+                i: "presumir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pretender"
+            pt: {
+                i: "pretender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prevalecer"
+            pt: {
+                i: "prevalecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prevenir"
+            pt: {
+                i: "prevenir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prever"
+            pt: {
+                i: "prever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "principiar"
+            pt: {
+                i: "principiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "privar"
+            pt: {
+                i: "privar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proceder"
+            pt: {
+                i: "proceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "processar"
+            pt: {
+                i: "processar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proclamar"
+            pt: {
+                i: "proclamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "procrastinar"
+            pt: {
+                i: "procrastinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "procurar"
+            pt: {
+                i: "procurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "produzir"
+            pt: {
+                i: "produzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prognosticar"
+            pt: {
+                i: "prognosticar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "programar"
+            pt: {
+                i: "programar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "progredir"
+            pt: {
+                i: "progredir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proibir"
+            pt: {
+                i: "proibir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proliferar"
+            pt: {
+                i: "proliferar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prolongar"
+            pt: {
+                i: "prolongar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prometer"
+            pt: {
+                i: "prometer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "promover"
+            pt: {
+                i: "promover"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pronunciar"
+            pt: {
+                i: "pronunciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "propagar"
+            pt: {
+                i: "propagar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "propor"
+            pt: {
+                i: "propor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proporcionar"
+            pt: {
+                i: "proporcionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prosseguir"
+            pt: {
+                i: "prosseguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "protagonizar"
+            pt: {
+                i: "protagonizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "proteger"
+            pt: {
+                i: "proteger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "protestar"
+            pt: {
+                i: "protestar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "provar"
+            pt: {
+                i: "provar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "prover"
+            pt: {
+                i: "prover"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "provir"
+            pt: {
+                i: "provir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "provocar"
+            pt: {
+                i: "provocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "publicar"
+            pt: {
+                i: "publicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "publicitar"
+            pt: {
+                i: "publicitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "puir"
+            pt: {
+                i: "puir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "pular"
+            pt: {
+                i: "pular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "punçar"
+            pt: {
+                i: "punçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "punir"
+            pt: {
+                i: "punir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "purificar"
+            pt: {
+                i: "purificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "puxar"
+            pt: {
+                i: "puxar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "qualificar"
+            pt: {
+                i: "qualificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "quantificar"
+            pt: {
+                i: "quantificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "quebrantar"
+            pt: {
+                i: "quebrantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "quebrar"
+            pt: {
+                i: "quebrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "queimar"
+            pt: {
+                i: "queimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "queixar-se"
+            pt: {
+                i: "queixar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "querer"
+            pt: {
+                i: "querer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "questionar"
+            pt: {
+                i: "questionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "radiar"
+            pt: {
+                i: "radiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "raiar"
+            pt: {
+                i: "raiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ralar"
+            pt: {
+                i: "ralar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ranger"
+            pt: {
+                i: "ranger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "raptar"
+            pt: {
+                i: "raptar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rasgar"
+            pt: {
+                i: "rasgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "raspar"
+            pt: {
+                i: "raspar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reabilitar"
+            pt: {
+                i: "reabilitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reagir"
+            pt: {
+                i: "reagir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "realizar"
+            pt: {
+                i: "realizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rebelar"
+            pt: {
+                i: "rebelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rebelar-se"
+            pt: {
+                i: "rebelar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rebentar"
+            pt: {
+                i: "rebentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rebobinar"
+            pt: {
+                i: "rebobinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rebocar"
+            pt: {
+                i: "rebocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recapitular"
+            pt: {
+                i: "recapitular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recarregar"
+            pt: {
+                i: "recarregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recear"
+            pt: {
+                i: "recear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "receber"
+            pt: {
+                i: "receber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reciclar"
+            pt: {
+                i: "reciclar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reciprocar"
+            pt: {
+                i: "reciprocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recitar"
+            pt: {
+                i: "recitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reclamar"
+            pt: {
+                i: "reclamar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recolher"
+            pt: {
+                i: "recolher"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recomeçar"
+            pt: {
+                i: "recomeçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recomendar"
+            pt: {
+                i: "recomendar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recompensar"
+            pt: {
+                i: "recompensar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reconciliar"
+            pt: {
+                i: "reconciliar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reconhecer"
+            pt: {
+                i: "reconhecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reconquistar"
+            pt: {
+                i: "reconquistar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reconstruir"
+            pt: {
+                i: "reconstruir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recordar"
+            pt: {
+                i: "recordar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recorrer"
+            pt: {
+                i: "recorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recrutar"
+            pt: {
+                i: "recrutar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recuperar"
+            pt: {
+                i: "recuperar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "recusar"
+            pt: {
+                i: "recusar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "redigir"
+            pt: {
+                i: "redigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "redistribuir"
+            pt: {
+                i: "redistribuir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reduzir"
+            pt: {
+                i: "reduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "refazer"
+            pt: {
+                i: "refazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "referir"
+            pt: {
+                i: "referir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "refletir"
+            pt: {
+                i: "refletir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reflexionar"
+            pt: {
+                i: "reflexionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "refogar"
+            pt: {
+                i: "refogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reforçar"
+            pt: {
+                i: "reforçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reformar"
+            pt: {
+                i: "reformar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "refugiar-se"
+            pt: {
+                i: "refugiar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "refundir"
+            pt: {
+                i: "refundir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "regalar"
+            pt: {
+                i: "regalar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "regenerar"
+            pt: {
+                i: "regenerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reger"
+            pt: {
+                i: "reger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "registar"
+            pt: {
+                i: "registar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "registrar-se"
+            pt: {
+                i: "registrar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "regressar"
+            pt: {
+                i: "regressar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "regular"
+            pt: {
+                i: "regular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reinar"
+            pt: {
+                i: "reinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reiniciar"
+            pt: {
+                i: "reiniciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reintegrar"
+            pt: {
+                i: "reintegrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rejeitar"
+            pt: {
+                i: "rejeitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "relacionar"
+            pt: {
+                i: "relacionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "relatar"
+            pt: {
+                i: "relatar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "relativizar"
+            pt: {
+                i: "relativizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "relaxar-se"
+            pt: {
+                i: "relaxar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "relegar"
+            pt: {
+                i: "relegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reluzir"
+            pt: {
+                i: "reluzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "remar"
+            pt: {
+                i: "remar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "remunerar"
+            pt: {
+                i: "remunerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "renascer"
+            pt: {
+                i: "renascer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "render"
+            pt: {
+                i: "render"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "renovar"
+            pt: {
+                i: "renovar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "renunciar"
+            pt: {
+                i: "renunciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reparar"
+            pt: {
+                i: "reparar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "repatriar"
+            pt: {
+                i: "repatriar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "repelir"
+            pt: {
+                i: "repelir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "repercutir"
+            pt: {
+                i: "repercutir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "repetir"
+            pt: {
+                i: "repetir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "replicar"
+            pt: {
+                i: "replicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "representar"
+            pt: {
+                i: "representar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reprimir"
+            pt: {
+                i: "reprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reprochar"
+            pt: {
+                i: "reprochar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reproduzir"
+            pt: {
+                i: "reproduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "requerer"
+            pt: {
+                i: "requerer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "requisitar"
+            pt: {
+                i: "requisitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reservar"
+            pt: {
+                i: "reservar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "residir"
+            pt: {
+                i: "residir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "resistir"
+            pt: {
+                i: "resistir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "resmungar"
+            pt: {
+                i: "resmungar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "resolver"
+            pt: {
+                i: "resolver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "respeitar"
+            pt: {
+                i: "respeitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "respirar"
+            pt: {
+                i: "respirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "responder"
+            pt: {
+                i: "responder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ressaltar"
+            pt: {
+                i: "ressaltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "restabelecer"
+            pt: {
+                i: "restabelecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "restar"
+            pt: {
+                i: "restar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "restaurar"
+            pt: {
+                i: "restaurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "restituir"
+            pt: {
+                i: "restituir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "restringir"
+            pt: {
+                i: "restringir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "resultar"
+            pt: {
+                i: "resultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "resumir"
+            pt: {
+                i: "resumir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reter"
+            pt: {
+                i: "reter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "retificar"
+            pt: {
+                i: "retificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "retirar"
+            pt: {
+                i: "retirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "retocar"
+            pt: {
+                i: "retocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "retornar"
+            pt: {
+                i: "retornar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "retroceder"
+            pt: {
+                i: "retroceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "reunir"
+            pt: {
+                i: "reunir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "revalidar"
+            pt: {
+                i: "revalidar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "revelar"
+            pt: {
+                i: "revelar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rever"
+            pt: {
+                i: "rever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "revisar"
+            pt: {
+                i: "revisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "revogar"
+            pt: {
+                i: "revogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rezar"
+            pt: {
+                i: "rezar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ridicularizar"
+            pt: {
+                i: "ridicularizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rir"
+            pt: {
+                i: "rir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "riscar"
+            pt: {
+                i: "riscar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rivalizar"
+            pt: {
+                i: "rivalizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "roçar"
+            pt: {
+                i: "roçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rociar"
+            pt: {
+                i: "rociar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rodar"
+            pt: {
+                i: "rodar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rodear"
+            pt: {
+                i: "rodear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rogar"
+            pt: {
+                i: "rogar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rolar"
+            pt: {
+                i: "rolar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "romper"
+            pt: {
+                i: "romper"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "roncar"
+            pt: {
+                i: "roncar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rondar"
+            pt: {
+                i: "rondar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "roubar"
+            pt: {
+                i: "roubar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "rugir"
+            pt: {
+                i: "rugir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ruminar"
+            pt: {
+                i: "ruminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saber"
+            pt: {
+                i: "saber"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sabotar"
+            pt: {
+                i: "sabotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sacar"
+            pt: {
+                i: "sacar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saciar"
+            pt: {
+                i: "saciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sacrificar"
+            pt: {
+                i: "sacrificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sacudir"
+            pt: {
+                i: "sacudir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sair"
+            pt: {
+                i: "sair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "salgar"
+            pt: {
+                i: "salgar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "salientar"
+            pt: {
+                i: "salientar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "salpicar"
+            pt: {
+                i: "salpicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saltar"
+            pt: {
+                i: "saltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "salvaguardar"
+            pt: {
+                i: "salvaguardar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "salvar"
+            pt: {
+                i: "salvar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sangrar"
+            pt: {
+                i: "sangrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saquear"
+            pt: {
+                i: "saquear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "satirizar"
+            pt: {
+                i: "satirizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "satisfazer"
+            pt: {
+                i: "satisfazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saturar"
+            pt: {
+                i: "saturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "saudar"
+            pt: {
+                i: "saudar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "secar"
+            pt: {
+                i: "secar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "secularizar"
+            pt: {
+                i: "secularizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "seduzir"
+            pt: {
+                i: "seduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "segar"
+            pt: {
+                i: "segar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "segmentar"
+            pt: {
+                i: "segmentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "segregar"
+            pt: {
+                i: "segregar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "seguir"
+            pt: {
+                i: "seguir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "segurar"
+            pt: {
+                i: "segurar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "selecionar"
+            pt: {
+                i: "selecionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "semear"
+            pt: {
+                i: "semear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sentar-se"
+            pt: {
+                i: "sentar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sentir"
+            pt: {
+                i: "sentir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sentir-se"
+            pt: {
+                i: "sentir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "separar"
+            pt: {
+                i: "separar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "separar-se"
+            pt: {
+                i: "separar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sepultar"
+            pt: {
+                i: "sepultar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sequestrar"
+            pt: {
+                i: "sequestrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "serrar"
+            pt: {
+                i: "serrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "servir"
+            pt: {
+                i: "servir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "significar"
+            pt: {
+                i: "significar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "simbolizar"
+            pt: {
+                i: "simbolizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "simpatizar"
+            pt: {
+                i: "simpatizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "simplificar"
+            pt: {
+                i: "simplificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "simular"
+            pt: {
+                i: "simular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sincopar"
+            pt: {
+                i: "sincopar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sincronizar"
+            pt: {
+                i: "sincronizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sindicar"
+            pt: {
+                i: "sindicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sintetizar"
+            pt: {
+                i: "sintetizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sintonizar"
+            pt: {
+                i: "sintonizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "situar"
+            pt: {
+                i: "situar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soar"
+            pt: {
+                i: "soar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sobrar"
+            pt: {
+                i: "sobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sobressair"
+            pt: {
+                i: "sobressair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sobreviver"
+            pt: {
+                i: "sobreviver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soçobrar"
+            pt: {
+                i: "soçobrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "socorrer"
+            pt: {
+                i: "socorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soer"
+            pt: {
+                i: "soer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sofrer"
+            pt: {
+                i: "sofrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soletrar"
+            pt: {
+                i: "soletrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "solicitar"
+            pt: {
+                i: "solicitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soltar"
+            pt: {
+                i: "soltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soluçar"
+            pt: {
+                i: "soluçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "solucionar"
+            pt: {
+                i: "solucionar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "somar"
+            pt: {
+                i: "somar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sonhar"
+            pt: {
+                i: "sonhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "soprar"
+            pt: {
+                i: "soprar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sorrir"
+            pt: {
+                i: "sorrir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sortear"
+            pt: {
+                i: "sortear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sossegar"
+            pt: {
+                i: "sossegar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suar"
+            pt: {
+                i: "suar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suavizar"
+            pt: {
+                i: "suavizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "subir"
+            pt: {
+                i: "subir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "subjugar"
+            pt: {
+                i: "subjugar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sublinhar"
+            pt: {
+                i: "sublinhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "submergir"
+            pt: {
+                i: "submergir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "submeter"
+            pt: {
+                i: "submeter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "subministrar"
+            pt: {
+                i: "subministrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "subordinar"
+            pt: {
+                i: "subordinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "subscrever"
+            pt: {
+                i: "subscrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "substanciar"
+            pt: {
+                i: "substanciar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "substituir"
+            pt: {
+                i: "substituir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suceder"
+            pt: {
+                i: "suceder"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sucumbir"
+            pt: {
+                i: "sucumbir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sufocar"
+            pt: {
+                i: "sufocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sugerir"
+            pt: {
+                i: "sugerir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sujar"
+            pt: {
+                i: "sujar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sujeitar"
+            pt: {
+                i: "sujeitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sumir"
+            pt: {
+                i: "sumir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "superar"
+            pt: {
+                i: "superar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "supervisar"
+            pt: {
+                i: "supervisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suplicar"
+            pt: {
+                i: "suplicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "supor"
+            pt: {
+                i: "supor"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suportar"
+            pt: {
+                i: "suportar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suprimir"
+            pt: {
+                i: "suprimir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suprir"
+            pt: {
+                i: "suprir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "surgir"
+            pt: {
+                i: "surgir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "surpreender"
+            pt: {
+                i: "surpreender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suscitar"
+            pt: {
+                i: "suscitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suspeitar"
+            pt: {
+                i: "suspeitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suspender"
+            pt: {
+                i: "suspender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suspirar"
+            pt: {
+                i: "suspirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sussurrar"
+            pt: {
+                i: "sussurrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "sustentar"
+            pt: {
+                i: "sustentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "suster"
+            pt: {
+                i: "suster"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tamisar"
+            pt: {
+                i: "tamisar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tanger"
+            pt: {
+                i: "tanger"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tardar"
+            pt: {
+                i: "tardar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tartamudear"
+            pt: {
+                i: "tartamudear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tatuar"
+            pt: {
+                i: "tatuar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "taxar"
+            pt: {
+                i: "taxar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tecer"
+            pt: {
+                i: "tecer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "teclar"
+            pt: {
+                i: "teclar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "teimar"
+            pt: {
+                i: "teimar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "telefonar"
+            pt: {
+                i: "telefonar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "telegrafar"
+            pt: {
+                i: "telegrafar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "temer"
+            pt: {
+                i: "temer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "temperar"
+            pt: {
+                i: "temperar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tender"
+            pt: {
+                i: "tender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tentar"
+            pt: {
+                i: "tentar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "terminar"
+            pt: {
+                i: "terminar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tesar"
+            pt: {
+                i: "tesar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "testar"
+            pt: {
+                i: "testar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tingir"
+            pt: {
+                i: "tingir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tinir"
+            pt: {
+                i: "tinir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tirar"
+            pt: {
+                i: "tirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "titular"
+            pt: {
+                i: "titular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tocar"
+            pt: {
+                i: "tocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tolerar"
+            pt: {
+                i: "tolerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tomar"
+            pt: {
+                i: "tomar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tombar"
+            pt: {
+                i: "tombar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "torcer"
+            pt: {
+                i: "torcer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tornar"
+            pt: {
+                i: "tornar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tornar-se"
+            pt: {
+                i: "tornar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "torrar"
+            pt: {
+                i: "torrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "torturar"
+            pt: {
+                i: "torturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tossir"
+            pt: {
+                i: "tossir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tostar"
+            pt: {
+                i: "tostar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trabalhar"
+            pt: {
+                i: "trabalhar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "traçar"
+            pt: {
+                i: "traçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "traduzir"
+            pt: {
+                i: "traduzir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tragar"
+            pt: {
+                i: "tragar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trair"
+            pt: {
+                i: "trair"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tramar"
+            pt: {
+                i: "tramar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transcorrer"
+            pt: {
+                i: "transcorrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transcrever"
+            pt: {
+                i: "transcrever"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transferir"
+            pt: {
+                i: "transferir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transformar"
+            pt: {
+                i: "transformar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transigir"
+            pt: {
+                i: "transigir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transladar"
+            pt: {
+                i: "transladar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transmitir"
+            pt: {
+                i: "transmitir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transpirar"
+            pt: {
+                i: "transpirar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transplantar"
+            pt: {
+                i: "transplantar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "transportar"
+            pt: {
+                i: "transportar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tratar"
+            pt: {
+                i: "tratar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trautear"
+            pt: {
+                i: "trautear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "travar"
+            pt: {
+                i: "travar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trazer"
+            pt: {
+                i: "trazer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "treinar"
+            pt: {
+                i: "treinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tremer"
+            pt: {
+                i: "tremer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "triangular"
+            pt: {
+                i: "triangular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tricotar"
+            pt: {
+                i: "tricotar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trinchar"
+            pt: {
+                i: "trinchar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "triturar"
+            pt: {
+                i: "triturar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "triunfar"
+            pt: {
+                i: "triunfar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "troar"
+            pt: {
+                i: "troar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "trocar"
+            pt: {
+                i: "trocar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "tropeçar"
+            pt: {
+                i: "tropeçar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "uivar"
+            pt: {
+                i: "uivar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ultrapassar"
+            pt: {
+                i: "ultrapassar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ungir"
+            pt: {
+                i: "ungir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "unificar"
+            pt: {
+                i: "unificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "unir"
+            pt: {
+                i: "unir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "urdir"
+            pt: {
+                i: "urdir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "urgir"
+            pt: {
+                i: "urgir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "urinar"
+            pt: {
+                i: "urinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "usar"
+            pt: {
+                i: "usar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "utilizar"
+            pt: {
+                i: "utilizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vacilar"
+            pt: {
+                i: "vacilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vacinar"
+            pt: {
+                i: "vacinar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vagir"
+            pt: {
+                i: "vagir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "valer"
+            pt: {
+                i: "valer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "validar"
+            pt: {
+                i: "validar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "valorar"
+            pt: {
+                i: "valorar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "valorizar"
+            pt: {
+                i: "valorizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vaporizar"
+            pt: {
+                i: "vaporizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "variar"
+            pt: {
+                i: "variar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "varrer"
+            pt: {
+                i: "varrer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vegetar"
+            pt: {
+                i: "vegetar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "velar"
+            pt: {
+                i: "velar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vencer"
+            pt: {
+                i: "vencer"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vender"
+            pt: {
+                i: "vender"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "venerar"
+            pt: {
+                i: "venerar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ventar"
+            pt: {
+                i: "ventar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ventilar"
+            pt: {
+                i: "ventilar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "ver"
+            pt: {
+                i: "ver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "veranear"
+            pt: {
+                i: "veranear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "verificar"
+            pt: {
+                i: "verificar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "verter"
+            pt: {
+                i: "verter"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vestir"
+            pt: {
+                i: "vestir"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vestir-se"
+            pt: {
+                i: "vestir-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "viajar"
+            pt: {
+                i: "viajar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vibrar"
+            pt: {
+                i: "vibrar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vigiar"
+            pt: {
+                i: "vigiar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vincular"
+            pt: {
+                i: "vincular"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vindicar"
+            pt: {
+                i: "vindicar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "violar"
+            pt: {
+                i: "violar"
             }
         },
         {
-            "en": {
-                "i": "to come"
+            en: {
+                i: "to come"
             },
-            "pt": {
-                "i": "vir",
+            pt: {
+                i: "vir",
                 like: 'vir'
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "virar"
+            pt: {
+                i: "virar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "virar-se"
+            pt: {
+                i: "virar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "visar"
+            pt: {
+                i: "visar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "visitar"
+            pt: {
+                i: "visitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "visualizar"
+            pt: {
+                i: "visualizar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "viver"
+            pt: {
+                i: "viver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "voar"
+            pt: {
+                i: "voar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "voltar"
+            pt: {
+                i: "voltar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "voltear"
+            pt: {
+                i: "voltear"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "volver"
+            pt: {
+                i: "volver"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "vomitar"
+            pt: {
+                i: "vomitar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "votar"
+            pt: {
+                i: "votar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "zangar"
+            pt: {
+                i: "zangar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "zangar-se"
+            pt: {
+                i: "zangar-se"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "zarpar"
+            pt: {
+                i: "zarpar"
             }
         },
         {
-            "en": {
-                "i": "ENINF"
+            en: {
+                i: "ENINF"
             },
-            "pt": {
-                "i": "zombar"
+            pt: {
+                i: "zombar"
             }
         }
         ];

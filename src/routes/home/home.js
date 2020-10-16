@@ -35,6 +35,9 @@ const Home = ({ verbs, tenses }) => {
             // verbs: [ 'lembrar-se', 'levantar-se', 'sentar-se', 'sentir-se', 'servir-se', 'vestir-se' ]
         },
     ]);
+    const [vowels, setVowels] = useState(() => [
+        'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
+    ]);
 
     console.log(`%c ${hasDrills}`, 'color: red');
 
@@ -64,13 +67,26 @@ const Home = ({ verbs, tenses }) => {
         const id = parseInt(set.dataset.id);
         const verbs = setDrills.find(set => set.id === id).verbs;
         setSelectedVerbs(verbs);
-        // setSetDrills([]);
         setHasDrills(false);
+    };
+
+    const handleSelectVowel = e => {
+        let vowel = e.target.dataset.id;
+        if (active instanceof HTMLInputElement) {
+            active.value = active.value + vowel; 
+            active.focus();
+        }
     };
 
     useEffect(() => {
         if(!hasDrills) lesson.drills = [];
-    }, [hasDrills])
+    }, [hasDrills]);
+
+    let active;
+
+    useEffect(() => {
+        active = document.activeElement;
+    });
 
     return (
         <div class="home">          
@@ -80,11 +96,11 @@ const Home = ({ verbs, tenses }) => {
           <div class="columns">
           <div class="sidebar">
                 <div> 
-                    <ActionList header={'Fixed drills'} callback={handleSelectSetDrill} items={setDrills} />
+                    <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={setDrills} />
                     <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
                     <SimpleList header={'Tenses'} msg="" items={selectedTenses} />
-                    <SimpleList header={'Custom drill'} msg="" items={selectedVerbs} />
+                    <SimpleList header={'Selected verbs'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 
                             ? <button onClick={handleStartDrill}>Start drill</button>
@@ -93,23 +109,13 @@ const Home = ({ verbs, tenses }) => {
                 </div>
             </div>
             <div class="main">
-            {/* <div class="block">
-                <h3>Selectors for custom drills</h3>
-            </div> */}
                 <div class="block">
                     { hasDrills ? (
-                        <Drill lesson={lesson} />                    
-                    ): <></>}
+                        <><Drill lesson={lesson} />
+                          <ActionList header={'Accented vowels'} underlined={false} listItemClickHandler={handleSelectVowel} items={vowels} direction="horizontal" />
+                        </>): <></>}
                 </div>
             </div>
-            {/* <div class="sidebar2">
-                <div class="block flex-column">
-                    <h3>Verb conjugation</h3>
-                    <div>
-                        <input disabled />
-                    </div>
-                </div>
-            </div> */}
           </div>
         </div>
     )

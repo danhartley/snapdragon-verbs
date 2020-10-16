@@ -36,8 +36,8 @@ export const Picker = props => {
       }) => (
         <section class="relative-block">
             <div class={style.picker}>
-                <label {...getLabelProps()}>{props.label}</label>
-                <Div position="relative" css={{paddingRight: '1.75em; width: 18rem'}}>
+                <label {...getLabelProps()} class='responsive-align'>{props.label}</label>
+                <Div position="relative" css={{paddingRight: '1em; width: 18rem'}}>
                     <Input
                     autoFocus={true}
                     {...getInputProps({

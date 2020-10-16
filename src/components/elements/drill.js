@@ -84,7 +84,7 @@ export const Drill = ({ lesson }) => {
                 : <div class={question.class}><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span><span class='answer'>{question.value.to}</span></label><input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div>
             );
         return (
-            <section class="drills">
+            <section class="drills responsive-align">
                 <h2>
                     <span>{drill.verb}</span><span class="translation">{translation}</span>
                 </h2>

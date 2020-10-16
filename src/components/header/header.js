@@ -4,7 +4,7 @@ import style from './header.scss';
 
 const Header = () => (
 	<header class={style.header}>
-		<span>Funky magic from the damned hot medina</span>
+		<span>Funky magic</span>
 		{/* <nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
 			<Link activeClassName={style.active} href="/profile">Me</Link>
