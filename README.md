@@ -34,6 +34,3 @@ Added hack in downshift to open menu when clearing input e.g.
 isOpen: _this.props.defaultIsOpen changed to isOpen: true at node_modules/downshift/preact/dist/downshift.esm.js
 
 https://danhartley.github.io/snapdragon-verbs
-
-git add build && git commit -m "Initial build subtree commit"
-git subtree push --prefix build origin gh-pages
