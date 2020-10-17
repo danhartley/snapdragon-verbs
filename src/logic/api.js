@@ -85,17 +85,16 @@ export const api = {
     getTenses() {
         return data.getTenses();
     },
-    async getConjugations(inf, language, isReflexive = false) {        
-        let tenses, like, likeRoot, likeConjugations, root, conjugations;
-        conjugations = await data.getConjugations(inf, isReflexive);
+    async getConjugations({inf, language = Language.PT, isReflexive = false, tenses = ['present', 'preterite', 'imperfect'], tense = 'present'}) {        
+        let like, likeRoot, likeConjugations, root, conjugations;
+        conjugations = await data.getConjugations({inf, language, isReflexive, tenses, tense});
         if(conjugations) {
             return conjugations;
         } 
         else {
-            tenses = ['present', 'preterite'];
             like = await this.getLike(inf, language);
             likeRoot = this.getRoot(like, language);
-            likeConjugations = await this.getConjugations(like, language, (inf.indexOf('-se') > -1) );
+            likeConjugations = await this.getConjugations({ inf: like, language, isReflexive: (inf.indexOf('-se') > -1), tenses, tense });
             root = this.getRoot(inf, language);
             conjugations = this.getConjugationsFromLike(likeRoot, likeConjugations, root, tenses);
             return conjugations;

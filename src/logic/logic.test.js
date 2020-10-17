@@ -78,7 +78,7 @@ describe('lesson use case one', () => {
     let drills;
  
     test('lesson should have one verb and one tense, with all conjugations', async () => {
-        conjugations = await api.getConjugations(verb, Language.PT);
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present).toStrictEqual([
             'canto', 'cantas', 'canta', 'cantamos', 'cantais', 'cantam'
             ]

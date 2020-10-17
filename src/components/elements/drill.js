@@ -125,7 +125,10 @@ export const Drill = ({ lesson }) => {
                 <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
                     <div class="questions">{questions}</div>
                     <div class="action-button">
-                        <button disabled={qandas.length < 6}>{drillActionState}</button>
+                        { drillActionState ===  DrillState.drillsComplete 
+                            ? <button disabled={true}>{drillActionState}</button>
+                            : <button disabled={qandas.length < 6}>{drillActionState}</button>
+                        }
                     </div>
                 </form>
                 {currentInput !== null ? <ActionList colCount={6} listItemClickHandler={handleSelectVowel} items={vowels} /> : <></>}

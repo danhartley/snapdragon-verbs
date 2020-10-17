@@ -37,21 +37,28 @@ const Home = ({ verbs, tenses }) => {
         setHasDrills(true);
     }
 
-    const handleVerbPicked = verb => {
-        setSelectedVerb(verb);
-        setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb), verb ]);
+    const handleVerbPicked = verb => {        
+        if(hasDrills) {
+            setSelectedVerbs([verb]);
+            setHasDrills(false);
+            setLesson({ ...lesson, verbs: [verb], verb: null, drills: []});
+            setHasDrills(false);
+        } else {
+            setSelectedVerb(verb);
+            setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb), verb ]);
+        }
     };
 
     const handleTensePicked = tense => {
         setSelectedTenses([ tense ]);
-        // setSelectedTenses([ ...selectedTenses.filter(v => v !== tense), tense ]);
+        setLesson({ ...lesson, tense, tenses });
     }
 
     const handleStartDrill = async e => {
         if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
             lesson.removeVerbs();
             selectedVerbs.forEach(verb => lesson.addVerb(verb));
-            const drills = await lesson.createDrills(api);
+            const drills = await lesson.createDrills(api, lesson.tense);
             setLesson({ ...lesson, drills });       
         }
     };
@@ -69,18 +76,6 @@ const Home = ({ verbs, tenses }) => {
         if(!hasDrills) setLesson({ ...lesson, drills: []});
     }, [hasDrills]);
 
-    let active;
-
-    useEffect(() => {
-        active = document.activeElement;
-    });
-
-    const startDrillRef = useRef();
-
-    useEffect(() => {                
-        startDrillRef.current.click();     
-    }, []);
-
     return (
         <div class="home">          
           <section class="banner-block">
@@ -96,7 +91,7 @@ const Home = ({ verbs, tenses }) => {
                     <SimpleList header={'Selected verbs'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 
-                            ? <button ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
+                            ? <button onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>

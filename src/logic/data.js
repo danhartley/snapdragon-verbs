@@ -14489,7 +14489,7 @@ export const data = {
                 : verbs;
         return new Promise(resolve => resolve(filteredVerbs));
     },
-    getConjugations(inf, isReflexive) {
+    getConjugations({inf, isReflexive}) {
         const conjugations = [
                 {
                     i: 'ser',

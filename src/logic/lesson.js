@@ -10,7 +10,7 @@ export class Lesson {
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
         verbs = ['falar'],
-        tenses = ['present'],
+        tenses = ['present','imperfect'],
         tense = 'present',
         pronouns = '111111',
         languages = [ Language.EN, Language.PT ],
@@ -97,6 +97,10 @@ export class Lesson {
         }
     };
     createDrill = async (api, verb) => {
+
+        console.log('tense:', this.tense);
+        console.log('tenses:', this.tenses);
+
         let conjugations, pronoun, drill, question;
         if(this.option === Option.drill) {
             drill = {
@@ -104,7 +108,7 @@ export class Lesson {
                 questions: [],
                 completed: false
             };
-            conjugations = await api.getConjugations(verb, this.language.to);
+            conjugations = await api.getConjugations({ inf: verb, language: this.language.to, tenses: this.tenses, tense: this.tense });
             conjugations[this.tense].forEach((conjugation, index) => {
                 pronoun = Pronoun_PT[index];
                 question = new Question(pronoun, pronoun, {
@@ -116,9 +120,10 @@ export class Lesson {
             this.drills.push(drill);
         }
     };
-    createDrills = async api => {
+    createDrills = async (api, tense = this.tense) => {
         this.drills = [];
         this.verb = null;
+        this.tense = tense;
         const getDrills = async (api, verbs, fnc) => Promise.all(verbs.map(async verb => {
             await fnc(api, verb);
         }));

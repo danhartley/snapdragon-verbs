@@ -15,7 +15,7 @@ describe('api simple verbs', () => {
     });
     test('check conjugation lookup is valid', async () => {
         const verb = 'ser';
-        const conjugations = await api.getConjugations(verb);
+        const conjugations = await api.getConjugations({inf:verb});
         expect(conjugations.present[0]).toBe('sou');
     });
     test('check like lookup is valid', async () => {
@@ -53,7 +53,8 @@ describe('api simple verbs', () => {
         expect(root).toBe('part')
     });
     test('check conjugations for example verb is valid', async () => {
-        let conjugations = await api.getConjugations('falar');
+        let conjugations = await api.getConjugations({ inf: 'falar' });
+        console.log(conjugations)
         expect(conjugations.present[0]).toBe('falo');
         expect(conjugations.present[1]).toBe('falas');
         expect(conjugations.present[2]).toBe('fala');
@@ -66,7 +67,7 @@ describe('api simple verbs', () => {
         let tense = 'present';
         let like = await api.getLike(verb, Language.PT);
         let likeRoot = api.getRoot(like, Language.PT);
-        let likeConjugations = await api.getConjugations(like);
+        let likeConjugations = await api.getConjugations({ inf: like });
         let root = api.getRoot(verb, Language.PT);
         let conjugations = api.getConjugationsFromLikeByTense(likeRoot, likeConjugations, root, tense);
         expect(conjugations[tense][0]).toBe('canto');
@@ -78,7 +79,7 @@ describe('api simple verbs', () => {
         let tense = 'present';
         let like = await api.getLike(verb, Language.PT);
         let likeRoot = api.getRoot(like, Language.PT);
-        let likeConjugations = await api.getConjugations(like);
+        let likeConjugations = await api.getConjugations({ inf: like });
         let root = api.getRoot(verb, Language.PT);
         let conjugations = api.getConjugationsFromLikeByTense(likeRoot, likeConjugations, root, tense);
         expect(conjugations[tense][0]).toBe('abalo');
@@ -92,7 +93,7 @@ describe('api simple verbs', () => {
     });   
     test('check one step conjugation lookup is valid', async() => {
         const verb = 'cantar';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf:verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('canto'); 
         expect(conjugations.preterite[0]).toBe('cantei'); 
     });  
@@ -108,7 +109,7 @@ describe('api reflexive verbs', () => {
     });
     test('check reflexive -ar verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'levantar-se';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('levanto-me');
         expect(conjugations.present[1]).toBe('levantas-te');
         expect(conjugations.present[2]).toBe('levanta-se');
@@ -118,7 +119,7 @@ describe('api reflexive verbs', () => {
     });
     test('check reflexive -er verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'arrepender-se';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('arrependo-me');
         expect(conjugations.present[1]).toBe('arrependes-te');
         expect(conjugations.present[2]).toBe('arrepende-se');
@@ -128,7 +129,7 @@ describe('api reflexive verbs', () => {
     });
     test('check reflexive -ir verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'divertir-se';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('diverto-me');
         expect(conjugations.present[1]).toBe('divertes-te');
         expect(conjugations.present[2]).toBe('diverte-se');
@@ -141,7 +142,7 @@ describe('api reflexive verbs', () => {
 describe('api regular verb conjugation patterns in the present', () => {
     test('check -ar verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'abalar';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('abalo');
         expect(conjugations.present[1]).toBe('abalas');
         expect(conjugations.present[2]).toBe('abala');
@@ -151,7 +152,7 @@ describe('api regular verb conjugation patterns in the present', () => {
     });
     test('check -er verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'acender';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('acendo');
         expect(conjugations.present[1]).toBe('acendes');
         expect(conjugations.present[2]).toBe('acende');
@@ -161,7 +162,7 @@ describe('api regular verb conjugation patterns in the present', () => {
     });
     test('check -ir verbs, with no like, follow the pattern in present tense', async() => {
         const verb = 'adimplir';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('adimplo');
         expect(conjugations.present[1]).toBe('adimples');
         expect(conjugations.present[2]).toBe('adimple');
@@ -174,7 +175,7 @@ describe('api regular verb conjugation patterns in the present', () => {
 describe('api regular verb conjugation patterns in the preterite', () => {
     test('check -ar verbs, with no like, follow the pattern in preterite tense', async() => {
         const verb = 'abalar';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.preterite[0]).toBe('abalei');
         expect(conjugations.preterite[1]).toBe('abalaste');
         expect(conjugations.preterite[2]).toBe('abalou');
@@ -184,7 +185,7 @@ describe('api regular verb conjugation patterns in the preterite', () => {
     });
     test('check -er verbs, with no like, follow the pattern in preterite tense', async() => {
         const verb = 'acender';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.preterite[0]).toBe('acendi');
         expect(conjugations.preterite[1]).toBe('acendeste');
         expect(conjugations.preterite[2]).toBe('acendeu');
@@ -194,7 +195,7 @@ describe('api regular verb conjugation patterns in the preterite', () => {
     });
     test('check -ir verbs, with no like, follow the pattern in preterite tense', async() => {
         const verb = 'adimplir';
-        const conjugations = await api.getConjugations(verb, Language.PT);
+        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.preterite[0]).toBe('adimpli');
         expect(conjugations.preterite[1]).toBe('adimpliste');
         expect(conjugations.preterite[2]).toBe('adimpliu');
