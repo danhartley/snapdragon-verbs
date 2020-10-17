@@ -30,14 +30,16 @@ const App = () => {
         if(verbs.length === 0) { getVerbs() };
     }, [verbs]);
 
-    return (
-        <div id="app">
-            <Header />
-            <Router>
-                <Home verbs={verbs} tenses={tenses} path="/" />
-            </Router>
-        </div>
-    )
+    if(verbs.length > 0) {
+        return (
+            <div id="app">
+                <Header />
+                <Router>
+                    <Home verbs={verbs} tenses={tenses} path="/" />
+                </Router>
+            </div>
+        )
+    }
 }
 
 export default App;

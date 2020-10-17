@@ -16,8 +16,6 @@ export const Drill = ({ lesson }) => {
     ]); 
     const [currentInput, setCurrentInput] = useState(null);
 
-    console.log('lesson drill: ', drill);
-
     const handleDrillActionState = e => {
         
         e.preventDefault();

@@ -233,15 +233,13 @@ input[type='checkbox'] {
 }
 
 .menu > div {
-    // width: calc(100% - .5rem);
-    width: 16rem;
+    width: 15.5rem;
     margin: (.5 * $space) $space;
 }
 
 @media (max-width: $break) {
     .menu > div {
         top: 65px;
-        // width: calc(100% - .5rem);
         margin: (.5 * $space) $space;
     }
     .main, .sidebar {

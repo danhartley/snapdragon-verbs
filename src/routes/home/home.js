@@ -33,11 +33,6 @@ const Home = ({ verbs, tenses }) => {
         },
     ]);
 
-    console.clear();
-    console.log(lesson);
-    console.log(hasDrills);
-    console.log(selectedTenses);
-
     if(lesson.drills.length > 0) {
         setHasDrills(true);
     }

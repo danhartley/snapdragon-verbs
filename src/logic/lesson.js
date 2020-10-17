@@ -71,10 +71,7 @@ export class Lesson {
     };
     getNextDrill = () => {
         if(this.drills.length > 0) {
-
-            console.log('this.verb', this.verb);
-            console.log('this.verbs', this.verbs);
-            
+    
             let currentVerb = this.verb;
 
             if(currentVerb) {
