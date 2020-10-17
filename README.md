@@ -33,4 +33,6 @@ Add jest globally to take advantage of cli to e.g. run single tests.
 Added hack in downshift to open menu when clearing input e.g. 
 isOpen: _this.props.defaultIsOpen changed to isOpen: true at node_modules/downshift/preact/dist/downshift.esm.js
 
-https://danhartley.github.io/snapdragon-verbs
+WIKI
+Published at gh-pages (merge required), and paths updated to ./
+https://danhartley.github.io/snapdragon-verbs/wiki/index.html
