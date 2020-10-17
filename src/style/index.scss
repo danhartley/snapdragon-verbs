@@ -33,7 +33,7 @@ li {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     display: inline-block;
     margin: 0;
@@ -66,7 +66,7 @@ select, input {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-top: 3.5rem;
+    margin-top:4rem;
     width: 100%;
     height: auto !important;
     padding: 0 ($space * 2);
@@ -75,9 +75,12 @@ select, input {
     max-width: 800px;    
 }
 
-.main, .sidebar {
+.main {
     margin-right: 4rem;
-    // min-width: 300px;
+}
+
+.sidebar {
+    margin: 0 4rem 2rem 0;
 }
 
 button:disabled {
@@ -85,7 +88,6 @@ button:disabled {
 }
 
 .drills {
-    margin-top: $space;
     h2 > span {
         border-bottom: 1px solid lightgray;
         font-weight: bold;
@@ -145,6 +147,11 @@ button:disabled {
         color: darkgray;
         border-bottom: none;
     }
+    ul {
+        li {
+            font-size: 1.2rem;
+        }
+    }
 }
 
 .relative-block {
@@ -163,6 +170,12 @@ button:disabled {
     align-items: center;
     width: 100%;
     height: $block;
+    background-color: #d3d3d329;
+    padding: 0 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid lightgray;
+    color: rgb(115,115,115);
+    margin: 1rem 0;
 }
 
 .hint { 
@@ -196,6 +209,7 @@ input[type='checkbox'] {
     padding: .5rem 0;
     outline: none !important;
     text-transform: initial;
+    line-height: 1;
     span {
         border-bottom: 1px solid lightgray;
         padding-bottom: 2px;

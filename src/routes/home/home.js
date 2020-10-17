@@ -9,13 +9,13 @@ import { Drill } from '../../components/elements/drill';
 const Home = ({ verbs, tenses }) => {
 
     const [lesson, setLesson] = useState(() => new Lesson());
-    const [inputVerbs, setInputVerbs] = useState([]);
-    const [inputTenses, setInputTenses] = useState([]);
+    const [inputVerbs, setInputVerbs] = useState(() => verbs);
+    const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs);
     const [selectedVerb, setSelectedVerb] = useState({});
-    const [selectedTenses, setSelectedTenses] = useState([]);
+    const [selectedTenses, setSelectedTenses] = useState(() => [tenses[0]]);
     const [hasDrills, setHasDrills] = useState(false);
-    const [setDrills, setSetDrills] = useState(() => [
+    const [fixedDrills, setFixedDrills] = useState(() => [
         {
             id: 1,
             name: 'Common irregular verbs',
@@ -32,12 +32,15 @@ const Home = ({ verbs, tenses }) => {
             verbs: [ 'lembrar-se', 'levantar-se', 'vestir-se']
         },
     ]);
-    const [vowels, setVowels] = useState(() => [
-        'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
-    ]);
 
-    setInputVerbs(verbs);
-    setInputTenses(tenses);
+    console.clear();
+    console.log(lesson);
+    console.log(hasDrills);
+    console.log(selectedTenses);
+
+    if(lesson.drills.length > 0) {
+        setHasDrills(true);
+    }
 
     const handleVerbPicked = verb => {
         setSelectedVerb(verb);
@@ -51,26 +54,20 @@ const Home = ({ verbs, tenses }) => {
 
     const handleStartDrill = async e => {
         if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
+            lesson.removeVerbs();
             selectedVerbs.forEach(verb => lesson.addVerb(verb));
-            await lesson.createDrills(api);
-            setHasDrills(true);
+            const drills = await lesson.createDrills(api);
+            setLesson({ ...lesson, drills });       
         }
     };
 
     const handleSelectSetDrill = e => {
         const set = e.target;
         const id = parseInt(set.dataset.id);
-        const verbs = setDrills.find(set => set.id === id).verbs;
+        const verbs = fixedDrills.find(set => set.id === id).verbs;
         setSelectedVerbs(verbs);
         setHasDrills(false);
-    };
-
-    const handleSelectVowel = e => {
-        let vowel = e.target.dataset.id;
-        if (active instanceof HTMLInputElement) {
-            active.value = active.value + vowel; 
-            active.focus();
-        }
+        setLesson({ ...lesson, verbs, verb: null, drills: []});
     };
 
     useEffect(() => {
@@ -92,12 +89,12 @@ const Home = ({ verbs, tenses }) => {
     return (
         <div class="home">          
           <section class="banner-block">
-            <h1>Verb drills</h1>
+            <h1>Portuguese verb drills</h1>
           </section>
           <div class="columns">
           <div class="sidebar">
                 <div> 
-                    <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={setDrills} />
+                    <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
                     <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
                     <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} />
@@ -112,8 +109,7 @@ const Home = ({ verbs, tenses }) => {
             <div class="main">
                 <div class="block">
                     { hasDrills ? (
-                        <><Drill lesson={lesson} />
-                          <ActionList header={'Accented vowels'} underlined={false} listItemClickHandler={handleSelectVowel} items={vowels} direction="horizontal" />
+                        <><Drill lesson={lesson} />                          
                         </>): <div class="block"></div>
                     }
                 </div>

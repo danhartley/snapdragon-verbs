@@ -71,6 +71,9 @@ export class Lesson {
     };
     getNextDrill = () => {
         if(this.drills.length > 0) {
+
+            console.log('this.verb', this.verb);
+            console.log('this.verbs', this.verbs);
             
             let currentVerb = this.verb;
 
@@ -118,6 +121,7 @@ export class Lesson {
     };
     createDrills = async api => {
         this.drills = [];
+        this.verb = null;
         const getDrills = async (api, verbs, fnc) => Promise.all(verbs.map(async verb => {
             await fnc(api, verb);
         }));
@@ -126,11 +130,15 @@ export class Lesson {
     };
     addVerb = inf => {
         if(this.verbs.includes(inf)) return this.verbs;
-        this.verbs.push(inf);        
+        this.verbs.push(inf);
         return this.verbs;
     };
     removeVerb = inf => {
         this.verbs = this.verbs.filter(verb => verb !== inf);
+        return this.verbs;
+    };
+    removeVerbs = () => {
+        this.verbs = [];
         return this.verbs;
     };
     addTense = tense => {

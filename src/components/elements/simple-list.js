@@ -13,18 +13,26 @@ export const SimpleList = ({ items, msg, header }) => {
     } else return (<></>);
   }
 
-  export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true }) => {
-    let showUnderlining = underlined ? '' : ' no-underlining';
-    let marginItem = direction === 'horizontal' ? 'double-margin-right' : '';
-        marginItem += showUnderlining;
-    let marginList = direction === 'horizontal' ? 'flex margin-top' : '';
-    let list = items.map(item =><li class={marginItem}><button onClick={listItemClickHandler} class="button-link" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
-    return (
-      <>  
-        {/* <div class="block"><h3>{header}</h3></div> */}
-        <ul class={marginList}>{list}</ul>
-      </>
-    );
+  export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true, colCount = 0 }) => {
+    let list;
+    if(colCount) {
+        list = items.map(item =><li><button onClick={listItemClickHandler} class="button-link" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
+        return (
+            <ul style={`column-count: ${colCount}; margin-top: .5rem; text-align: left;`}>{list}</ul>
+        )
+    } else {
+        let showUnderlining = underlined ? '' : ' no-underlining';
+        let marginItem = direction === 'horizontal' ? 'double-margin-right' : '';
+            marginItem += showUnderlining;
+        let marginList = direction === 'horizontal' ? 'flex margin-top' : '';
+        list = items.map(item =><li class={marginItem}><button onClick={listItemClickHandler} class="button-link" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
+        return (
+        <>  
+            {/* <div class="block"><h3>{header}</h3></div> */}
+            <ul class={marginList}>{list}</ul>
+        </>
+        );
+    }
   }
 
   export const RemoveableList = ({ items, msg }) => {

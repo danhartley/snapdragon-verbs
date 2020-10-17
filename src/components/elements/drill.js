@@ -1,4 +1,5 @@
 import { DrillState } from '../../logic/enums';
+import { SimpleList, ActionList } from '../../components/elements/simple-list';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 import { api } from '../../logic/api';
@@ -9,7 +10,13 @@ export const Drill = ({ lesson }) => {
     const [hasFocus, setHasFocus] = useState(() => true);
     const [drill, setDrill] = useState(() => lesson.getNextDrill());
     const [drillActionState, setDrillActionState] = useState(() => DrillState.checkAnswers);
-    const [translation, setTranslation] = useState('');    
+    const [translation, setTranslation] = useState('');
+    const [vowels, setVowels] = useState(() => [
+        'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
+    ]); 
+    const [currentInput, setCurrentInput] = useState(null);
+
+    console.log('lesson drill: ', drill);
 
     const handleDrillActionState = e => {
         
@@ -43,8 +50,7 @@ export const Drill = ({ lesson }) => {
                 break;
             case DrillState.nextDrill:
                 setDrillActionState(DrillState.checkAnswers);
-                lesson.getNextDrill();
-                setDrill(lesson.drill);                
+                setDrill(lesson.getNextDrill());                
                 form.reset();
                 form.elements[0].focus();
                 break;
@@ -71,6 +77,7 @@ export const Drill = ({ lesson }) => {
     const handleOnChange = e => {
         const input = e.target;
         if(input.value.length === 0) return;
+        setCurrentInput(input);
         const qanda = new QandA(input.id, input.value, input.dataset.key);
         const _qandas = qandas.filter(q => q.key !== qanda.key); // remove qanda if already exists for this key        
         setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);
@@ -92,13 +99,25 @@ export const Drill = ({ lesson }) => {
         input.addEventListener('focusout', handler);        
     };
 
+    const handleOnFocus = e => {
+        const input = e.target;
+        setCurrentInput(input);
+    };
+
+    const handleSelectVowel = e => {
+        let vowel = e.target.dataset.id;
+        currentInput.value = currentInput.value + vowel;
+        currentInput.focus();
+    };
+
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
-                : <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                ? <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                : <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
             );
         return (
+            <>
             <section class="drills responsive-align">
                 <div class="text-align">
                     <h2>
@@ -111,7 +130,9 @@ export const Drill = ({ lesson }) => {
                         <button disabled={qandas.length < 6}>{drillActionState}</button>
                     </div>
                 </form>
+                {currentInput !== null ? <ActionList colCount={6} listItemClickHandler={handleSelectVowel} items={vowels} /> : <></>}
             </section>
+            </>
         );
     }
   };
