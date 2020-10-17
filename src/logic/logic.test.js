@@ -64,11 +64,11 @@ describe('lesson, question, and answer constructors, methods and default setting
     });
     test('calling addTense should update tenses and return new values', () => {
         tenses = lesson.addTense('imperfect');
-        expect(tenses).toStrictEqual(['present','imperfect']);
+        expect(tenses).toStrictEqual(['present','imperfect', 'preterite', 'pluperfect', 'future', 'conditional']);
     });
     test('calling removeTense should update tenses and return new values', () => {
         tenses = lesson.removeTense('imperfect');
-        expect(tenses).toStrictEqual(['present']);
+        expect(tenses).toStrictEqual(['present', 'preterite', 'pluperfect', 'future', 'conditional']);
     });
 });
 

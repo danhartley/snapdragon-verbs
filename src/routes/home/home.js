@@ -38,9 +38,8 @@ const Home = ({ verbs, tenses }) => {
     }
 
     const handleVerbPicked = verb => {        
-        if(hasDrills) {
+        if(hasDrills) {            
             setSelectedVerbs([verb]);
-            setHasDrills(false);
             setLesson({ ...lesson, verbs: [verb], verb: null, drills: []});
             setHasDrills(false);
         } else {
@@ -50,6 +49,11 @@ const Home = ({ verbs, tenses }) => {
     };
 
     const handleTensePicked = tense => {
+        if(hasDrills) {
+            setLesson({ ...lesson, verbs: [], verb: null, drills: []});
+            setHasDrills(false);
+            setSelectedVerbs([]);
+        }
         setSelectedTenses([ tense ]);
         setLesson({ ...lesson, tense, tenses });
     }
@@ -76,6 +80,14 @@ const Home = ({ verbs, tenses }) => {
         if(!hasDrills) setLesson({ ...lesson, drills: []});
     }, [hasDrills]);
 
+    const startBtnRef = useRef();
+
+    // useEffect(()=> {
+    //     if(startBtnRef.current) {
+    //         startBtnRef.current.click();
+    //     }
+    // }, [hasDrills]);
+
     return (
         <div class="home">          
           <section class="banner-block">
@@ -91,7 +103,7 @@ const Home = ({ verbs, tenses }) => {
                     <SimpleList header={'Selected verbs'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 
-                            ? <button onClick={handleStartDrill}>Start drill</button>
+                            ? <button ref={startBtnRef} onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>

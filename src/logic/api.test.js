@@ -7,11 +7,11 @@ describe('api simple verbs', () => {
         let verbs = await api.getVerbs();
         expect(verbs.length).toBeGreaterThan(0);
         let toBe = await verbs.find(verb => verb.en.i === 'to be');
-        expect(toBe.pt.i).toBe('ser');
+        expect(toBe.pt.i).toBe('estar');
         toBe = await api.getVerbs('to be');
-        expect(toBe[0].pt.i).toBe('ser');
+        expect(toBe[0].pt.i).toBe('estar');
         toBe = await api.getVerb('to be');
-        expect(toBe.pt.i).toBe('ser');
+        expect(toBe.pt.i).toBe('estar');
     });
     test('check conjugation lookup is valid', async () => {
         const verb = 'ser';
@@ -54,7 +54,6 @@ describe('api simple verbs', () => {
     });
     test('check conjugations for example verb is valid', async () => {
         let conjugations = await api.getConjugations({ inf: 'falar' });
-        console.log(conjugations)
         expect(conjugations.present[0]).toBe('falo');
         expect(conjugations.present[1]).toBe('falas');
         expect(conjugations.present[2]).toBe('fala');

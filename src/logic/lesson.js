@@ -9,8 +9,8 @@ export class Lesson {
         },
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
-        verbs = ['falar'],
-        tenses = ['present','imperfect'],
+        verbs = [],
+        tenses = ['present','imperfect', 'preterite', 'pluperfect', 'future', 'conditional'],
         tense = 'present',
         pronouns = '111111',
         languages = [ Language.EN, Language.PT ],
@@ -98,15 +98,13 @@ export class Lesson {
     };
     createDrill = async (api, verb) => {
 
-        console.log('tense:', this.tense);
-        console.log('tenses:', this.tenses);
-
         let conjugations, pronoun, drill, question;
         if(this.option === Option.drill) {
             drill = {
                 verb,
                 questions: [],
-                completed: false
+                completed: false,
+                tense: this.tense
             };
             conjugations = await api.getConjugations({ inf: verb, language: this.language.to, tenses: this.tenses, tense: this.tense });
             conjugations[this.tense].forEach((conjugation, index) => {
@@ -144,7 +142,9 @@ export class Lesson {
         return this.verbs;
     };
     addTense = tense => {
-        this.tenses.push(tense);
+        if(!this.tenses.find(t => tense)) {
+            this.tenses.push(tense);
+        }
         return this.tenses;
     };
     removeTense = tense => {

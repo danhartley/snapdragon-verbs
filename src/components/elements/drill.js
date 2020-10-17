@@ -58,7 +58,7 @@ export const Drill = ({ lesson }) => {
     const inputRef = useRef();
 
     useEffect(() => {
-        if(hasFocus) {
+        if(hasFocus && inputRef.current) {
             inputRef.current.focus();
             setHasFocus(false);
         }

@@ -7,95 +7,7 @@ const clean = str => {
 
 export const data = {
     getVerbs(inf) {
-        const verbs1 = [
-            {
-                en: {
-                    i: 'to be',
-                    like: 'to be'
-                },
-                pt: {
-                    i: 'ser',
-                    like: 'ser'
-                },
-                es: {
-                    i: 'ser',
-                    like: 'ser'
-                }
-            }, 
-            {
-                en: {
-                    i: 'to have',
-                    like: 'to have'
-                },
-                pt: {
-                    i: 'ter',
-                    like: 'ter'
-                },
-                es: {
-                    i: 'tener',
-                    like: 'tener'
-                }
-            },
-            {
-                en: {
-                    i: 'to speak',
-                    like: 'to speak'
-                },
-                pt: {
-                    i: 'falar',
-                    like: 'falar'
-                },
-                es: {
-                    i: 'hablar',
-                    like: 'hablar'
-                }
-            },
-            {
-                en: {
-                    i: 'to sing',
-                    like: 'to speak'
-                },
-                pt: {
-                    i: 'cantar'
-                }
-            },
-            {
-                en: {
-                    i: 'to walk',
-                    like: 'to walk'
-                },
-                pt: {
-                    i: 'andar'
-                }
-            },
-            {
-                en: {
-                    i: 'to leave'
-                },
-                pt: {
-                    i: 'partir',
-                    like: 'partir'
-                }
-            },
-            {
-                en: {
-                    i: 'to sell'
-                },
-                pt: {
-                    i: 'vender',
-                    like: 'vender'
-                }
-            },
-            {
-                en: {
-                    i: 'to comply'
-                },
-                pt: {
-                    i: 'adimplir',
-                }
-            },
-        ];
-       const verbs2 = [{
+       const verbs = [{
 		en: {
 			i: "ENINF"
 		},
@@ -581,6 +493,14 @@ export const data = {
             },
             pt: {
                 i: "adir"
+            }
+        },
+        {
+            en: {
+                i: 'to comply'
+            },
+            pt: {
+                i: 'adimplir',
             }
         },
         {
@@ -1217,10 +1137,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: 'to walk',
+                like: 'to walk'
             },
             pt: {
-                i: "andar"
+                i: 'andar'
             }
         },
         {
@@ -2625,10 +2546,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: 'to sing',
+                like: 'to speak'
             },
             pt: {
-                i: "cantar"
+                i: 'cantar'
             }
         },
         {
@@ -7314,6 +7236,20 @@ export const data = {
         },
         {
             en: {
+                i: 'to speak',
+                like: 'to speak'
+            },
+            pt: {
+                i: 'falar',
+                like: 'falar'
+            },
+            es: {
+                i: 'hablar',
+                like: 'hablar'
+            }
+        },
+        {
+            en: {
                 i: "ENINF"
             },
             pt: {
@@ -7418,7 +7354,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to do"
             },
             pt: {
                 i: "fazer",
@@ -10643,10 +10579,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: 'to leave'
             },
             pt: {
-                i: "partir"
+                i: 'partir',
+                like: 'partir'
             }
         },
         {
@@ -12995,6 +12932,20 @@ export const data = {
         },
         {
             en: {
+                i: 'to be',
+                like: 'to be'
+            },
+            pt: {
+                i: 'ser',
+                like: 'ser'
+            },
+            es: {
+                i: 'ser',
+                like: 'ser'
+            }
+        }, 
+        {
+            en: {
                 i: "ENINF"
             },
             pt: {
@@ -13651,6 +13602,20 @@ export const data = {
         },
         {
             en: {
+                i: 'to have',
+                like: 'to have'
+            },
+            pt: {
+                i: 'ter',
+                like: 'ter'
+            },
+            es: {
+                i: 'tener',
+                like: 'tener'
+            }
+        },
+        {
+            en: {
                 i: "ENINF"
             },
             pt: {
@@ -14219,10 +14184,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: 'to sell'
             },
             pt: {
-                i: "vender"
+                i: 'vender',
+                like: 'vender'
             }
         },
         {
@@ -14483,7 +14449,6 @@ export const data = {
             }
         }
         ];
-        const verbs = [ ...verbs1, ...verbs2 ];
         const filteredVerbs = inf
                 ? verbs.filter(verb => (verb.en && verb.en.i === inf) || (verb.pt && verb.pt.i === inf) || (verb.es && verb.es.i === inf))
                 : verbs;
@@ -14523,7 +14488,7 @@ export const data = {
                         'será',
                         'seremos',
                         'sereis',
-                        'serāo'
+                        'serão'
                     ],
                     conditional: [
                         'seria',
@@ -14574,7 +14539,7 @@ export const data = {
                         'falará',
                         'falaremos',
                         'falareis',
-                        'falarāo'
+                        'falarão'
                     ],
                     conditional: [
                         'falaria',
@@ -14608,7 +14573,7 @@ export const data = {
                         'tiveste',
                         'teve',
                         'tivemos',
-                        'tiveis',
+                        'tivestes',
                         'tiveram'
                     ],
                     imperfect: [
@@ -14625,7 +14590,7 @@ export const data = {
                         'terá',
                         'teremos',
                         'tereis',
-                        'terāo'
+                        'terão'
                     ],
                     conditional: [
                         'teria',
@@ -14676,7 +14641,7 @@ export const data = {
                         'venderá',
                         'venderemos',
                         'vendereis',
-                        'venderāo'
+                        'venderão'
                     ],
                     conditional: [
                         'vernderia',
@@ -14754,7 +14719,7 @@ export const data = {
                         'está',
                         'estamos',
                         'estais',
-                        'estāo'
+                        'estão'
                     ],
                     preterite: [
                         'estive',
@@ -14778,7 +14743,7 @@ export const data = {
                         'estará',
                         'estaremos',
                         'estareis',
-                        'estarāo'
+                        'estarão'
                     ],
                     conditional: [
                         'estaria',
@@ -14812,7 +14777,7 @@ export const data = {
                     'fizeste',
                     'fez',
                     'fizemos',
-                    'fizeis',
+                    'fizestes',
                     'fizeram'
                 ],                
                 imperfect: [
@@ -14829,7 +14794,7 @@ export const data = {
                     'fará',
                     'faremos',
                     'fareis',
-                    'farāo'
+                    'farão'
                 ],
                 conditional: [
                     'faria',
@@ -14856,7 +14821,7 @@ export const data = {
                         'vai',
                         'vamos',
                         'vais',
-                        'vāo'
+                        'vão'
                     ],
                     preterite: [
                         'fui',
@@ -14880,7 +14845,7 @@ export const data = {
                         'irá',
                         'iremos',
                         'ireis',
-                        'irāo'
+                        'irão'
                     ],
                     conditional: [
                         'iria',
@@ -14931,7 +14896,7 @@ export const data = {
                         'virá',
                         'viremos',
                         'vireis',
-                        'virāo'
+                        'virão'
                     ],
                     conditional: [
                         'viria',
