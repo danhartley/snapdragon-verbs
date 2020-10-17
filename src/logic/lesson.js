@@ -9,7 +9,7 @@ export class Lesson {
         },
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
-        verbs = [],
+        verbs = ['falar'],
         tenses = ['present'],
         tense = 'present',
         pronouns = '111111',

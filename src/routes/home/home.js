@@ -1,18 +1,17 @@
 import { h } from 'preact';
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
 import { SimpleList, ActionList } from '../../components/elements/simple-list';
 import { Drill } from '../../components/elements/drill';
 
-let lesson = new Lesson();
-
 const Home = ({ verbs, tenses }) => {
 
+    const [lesson, setLesson] = useState(() => new Lesson());
     const [inputVerbs, setInputVerbs] = useState([]);
     const [inputTenses, setInputTenses] = useState([]);
-    const [selectedVerbs, setSelectedVerbs] = useState([]);
+    const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs);
     const [selectedVerb, setSelectedVerb] = useState({});
     const [selectedTenses, setSelectedTenses] = useState([]);
     const [hasDrills, setHasDrills] = useState(false);
@@ -75,7 +74,7 @@ const Home = ({ verbs, tenses }) => {
     };
 
     useEffect(() => {
-        if(!hasDrills) lesson.drills = [];
+        if(!hasDrills) setLesson({ ...lesson, drills: []});
     }, [hasDrills]);
 
     let active;
@@ -83,6 +82,12 @@ const Home = ({ verbs, tenses }) => {
     useEffect(() => {
         active = document.activeElement;
     });
+
+    const startDrillRef = useRef();
+
+    useEffect(() => {                
+        startDrillRef.current.click();     
+    }, []);
 
     return (
         <div class="home">          
@@ -99,7 +104,7 @@ const Home = ({ verbs, tenses }) => {
                     <SimpleList header={'Selected verbs'} msg="" items={selectedVerbs} />
                     {
                         selectedVerbs.length > 0 
-                            ? <button onClick={handleStartDrill}>Start drill</button>
+                            ? <button ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>

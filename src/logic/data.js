@@ -4977,7 +4977,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to do"
             },
             pt: {
                 i: "desfazer"
