@@ -35,7 +35,7 @@ const App = () => {
             <div id="app">
                 <Header />
                 <Router>
-                    <Home verbs={verbs} tenses={tenses} path="./" />
+                    <Home verbs={verbs} tenses={tenses} path="/home" />
                 </Router>
             </div>
         )
