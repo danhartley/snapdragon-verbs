@@ -51,5 +51,9 @@ https://danhartley.github.io/snapdragon-verbs/
 
 Cleaning up and starting over: delete the gh-pages branch git branch -d gh-pages
 
+# preact-config
+
+relative paths: https://stackoverflow.com/questions/45742982/set-base-url-for-preact-cli
+
 # sw
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
