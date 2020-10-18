@@ -39,8 +39,8 @@ https://danhartley.github.io/snapdragon-verbs/wiki/index.html
 <username>.github.io/<projectname>
 
 # gh-pages
-1) git add build && git commit -m "Initial build subtree commit"
-2) git subtree push --prefix build origin gh-pages
+1) git add build && git commit -m "Initial build subtree commit" (RUN ONCE)
+2) git subtree push --prefix build origin gh-pages (RUN FOR EVERY DEPLOY)
 
 See: https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages
 
