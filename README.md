@@ -36,4 +36,6 @@ isOpen: _this.props.defaultIsOpen changed to isOpen: true at node_modules/downsh
 WIKI
 Published at gh-pages (merge required), and paths updated to ./
 https://danhartley.github.io/snapdragon-verbs/wiki/index.html
+<username>.github.io/<projectname>
+https://danhartley.github.io/snapdragon-verbs/
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
