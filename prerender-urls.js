@@ -3,7 +3,7 @@ const release = [new Date().toLocaleTimeString()];
 module.exports = function() {
   return [
     {
-      url: "./",
+      url: "/",
       title: '',
       release
     },

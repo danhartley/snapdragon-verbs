@@ -49,5 +49,7 @@ https://github.com/danhartley/snapdragon-verbs/pull/new/gh-pages
 
 https://danhartley.github.io/snapdragon-verbs/
 
+Cleaning up and starting over: delete the gh-pages branch git branch -d gh-pages
+
 # sw
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
