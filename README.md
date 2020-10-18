@@ -39,3 +39,4 @@ https://danhartley.github.io/snapdragon-verbs/wiki/index.html
 <username>.github.io/<projectname>
 https://danhartley.github.io/snapdragon-verbs/
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
+git status
