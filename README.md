@@ -33,10 +33,21 @@ Add jest globally to take advantage of cli to e.g. run single tests.
 Added hack in downshift to open menu when clearing input e.g. 
 isOpen: _this.props.defaultIsOpen changed to isOpen: true at node_modules/downshift/preact/dist/downshift.esm.js
 
-WIKI
+# wiki (* currently switched off*)
 Published at gh-pages (merge required), and paths updated to ./
 https://danhartley.github.io/snapdragon-verbs/wiki/index.html
 <username>.github.io/<projectname>
+
+# gh-pages
+1) git add build && git commit -m "Initial build subtree commit"
+2) git subtree push --prefix build origin gh-pages
+
+See: https://stackoverflow.com/questions/36782467/set-subdirectory-as-website-root-on-github-pages
+
+Create a pull request for 'gh-pages' on GitHub by visiting:
+https://github.com/danhartley/snapdragon-verbs/pull/new/gh-pages
+
 https://danhartley.github.io/snapdragon-verbs/
+
+# sw
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
-git status
