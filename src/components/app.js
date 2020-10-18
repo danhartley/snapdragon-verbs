@@ -34,9 +34,10 @@ const App = () => {
         return (
             <div id="app">
                 <Header />
-                <Router>
-                    <Home verbs={verbs} tenses={tenses} path="/home" />
-                </Router>
+                <Home verbs={verbs} tenses={tenses} />
+                {/* <Router>
+                    <Home verbs={verbs} tenses={tenses} path="/" />
+                </Router> */}
             </div>
         )
     }
