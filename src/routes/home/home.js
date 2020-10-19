@@ -32,6 +32,11 @@ const Home = ({ verbs, tenses }) => {
             name: 'Common reflexive verbs',
             verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' }]
         },
+        {
+            id: 4,
+            name: 'Clear all verbs',
+            verbs: []
+        },
     ]);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
 
@@ -86,9 +91,9 @@ const Home = ({ verbs, tenses }) => {
           <div class={sideBarCSS}>
                 <div> 
                     <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                    <Picker itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                    <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                    <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} />
+                    {/* <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} /> */}
                     <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                     {
                         selectedVerbs.length > 0

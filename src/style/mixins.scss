@@ -11,6 +11,7 @@
     &:focus {
         outline: 3px solid black;
         color: black;
+        border: 1px solid transparent;
     }
 }
 
@@ -18,7 +19,7 @@
     button {
         padding: $space;
         cursor: pointer;
-        font-size: .8em;
+        font-size: .8rem;
         color: rgb(80, 80, 80);
         @include outline;
         text-transform: capitalize;

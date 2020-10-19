@@ -7,7 +7,6 @@ import { api } from '../../logic/api';
 export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill }) => {
 
     const [qandas, setQandas] = useState([]);
-    const [hasFocus, setHasFocus] = useState(() => true);
     const [translation, setTranslation] = useState('');
     const [vowels, setVowels] = useState(() => [
         'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
@@ -57,11 +56,10 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     const inputRef = useRef();
 
     useEffect(() => {
-        if(hasFocus && inputRef.current) {
+        if(inputRef.current && drillActionState ===  DrillState.checkAnswers) {
             inputRef.current.focus();
-            setHasFocus(false);
         }
-    }, []);
+    }, [drill]);
     
     useEffect( async () => {
         if(drill) {

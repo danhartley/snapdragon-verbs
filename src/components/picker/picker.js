@@ -20,6 +20,7 @@ export const Picker = props => {
               props.onChange(selection);              
           }
       }}
+      initialSelectedItem = {props.initialSelectedItem}
     >
       {({
         getToggleButtonProps,
@@ -37,8 +38,7 @@ export const Picker = props => {
         <section class="relative-block">
             <div class={style.picker}>
                 <label {...getLabelProps()} style='text-align: right;'>{props.label}</label>
-                <Div position="relative" css={{paddingRight: '.5em; width: 16rem; display:flex; align-items:center'}}>
-                {/* <Div position="relative" css={{paddingRight: '.5em; width: calc(100% - .5rem); display:flex; align-items:center'}}> */}
+                <Div position="relative" css={{paddingRight: '.5em; width: 16rem; display:flex; align-items:center'}}>                
                     <Input
                     autoFocus={true}
                     {...getInputProps({
