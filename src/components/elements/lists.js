@@ -44,7 +44,7 @@ export const SimpleList = ({ items, msg, header }) => {
     if(colCount) {
         list = items.map(item =><li><button onClick={listItemClickHandler} class="button-link-action" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
         return (
-            <ul style={`column-count: ${colCount}; margin-top: .5rem; text-align: left;`}>{list}</ul>
+            <ul class='icons' style={`column-count: ${colCount}`}>{list}</ul>
         )
     } else {
         let showUnderlining = underlined ? '' : ' no-underlining';

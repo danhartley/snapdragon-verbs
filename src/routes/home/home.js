@@ -55,7 +55,7 @@ const Home = ({ verbs, tenses }) => {
     const handleStartDrill = async e => {        
         if(selectedVerbs.length > 0) {
             lesson.removeVerbs();
-            selectedVerbs.filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
+            shuffleArray(selectedVerbs).filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
             const drills = await lesson.createDrills(api, lesson.tense);
             setLesson({ ...lesson, drills });
             setDrillActionState(DrillState.checkAnswers);
@@ -116,5 +116,25 @@ const Home = ({ verbs, tenses }) => {
         </div>
     )
 };
+
+
+const shuffleArray = array => {
+
+    if(!array || array.length === 0) return;
+
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    while (0 !== currentIndex) {
+
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return [ ...array ];
+  };
 
 export default Home;

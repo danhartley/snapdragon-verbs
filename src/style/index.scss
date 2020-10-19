@@ -102,7 +102,6 @@ button:disabled {
     .questions {
         label {
             width: 6rem;
-            // width: 9rem;
             display: inline-block;
             padding-right: $space;
         }
@@ -111,7 +110,7 @@ button:disabled {
             width: 9rem;
         }
         & > div {
-            margin: ($space * 2) 0;
+            margin: $space 0;
             display: flex;
             align-items: center;
             & > div:first-child {
@@ -153,6 +152,13 @@ button:disabled {
         li {
             font-size: 1.2rem;            
         }
+    }
+}
+ul.icons {    
+    margin-top: .5rem; 
+    text-align: left;
+    button {
+        font-size: 1rem;
     }
 }
 
@@ -203,7 +209,8 @@ input[type='checkbox'] {
     height: 1rem !important;
 }
 
-.button-link-action, .button-edit-action {
+.button-link-action, .button-edit-action {    
+    font-size: .8rem;
     border: none;
     text-decoration: none;
     background-color: transparent;    
@@ -211,7 +218,9 @@ input[type='checkbox'] {
     padding: .5rem 0;
     outline: none !important;
     text-transform: initial;
-    line-height: 1;
+    &:focus {
+        border: none;
+    }
     span {
         border-bottom: 1px solid lightgray;
         padding-bottom: 2px;
@@ -219,8 +228,8 @@ input[type='checkbox'] {
 }
 
 .button-edit-action {
-    &:before { content:'\2713'; }
     color: black;
+    &:before { content:'\2713'; }    
     &.disabled-item {
         color: gray;
     }

@@ -6,12 +6,12 @@
 @mixin outline {
     padding: $space (2 * $space);
     border-radius: (.5 * $space);
-    outline: 3px solid transparent;
-    border: 1px solid darkgray;
+    // outline: 3px solid transparent;
+    border: 3px solid darkgray;
     &:focus {
-        outline: 3px solid black;
+        outline: none;
         color: black;
-        border: 1px solid transparent;
+        border: 3px solid black;
     }
 }
 
@@ -19,10 +19,10 @@
     button {
         padding: $space;
         cursor: pointer;
-        font-size: .8rem;
+        font-size: .7rem;
         color: rgb(80, 80, 80);
         @include outline;
-        text-transform: capitalize;
+        text-transform: uppercase;
         width: 9rem;
     }
 }
