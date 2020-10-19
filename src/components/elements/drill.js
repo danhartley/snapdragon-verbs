@@ -1,15 +1,13 @@
 import { DrillState } from '../../logic/enums';
-import { SimpleList, ActionList } from './lists';
+import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 import { api } from '../../logic/api';
 
-export const Drill = ({ lesson }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill }) => {
 
     const [qandas, setQandas] = useState([]);
     const [hasFocus, setHasFocus] = useState(() => true);
-    const [drill, setDrill] = useState(() => lesson.getNextDrill());
-    const [drillActionState, setDrillActionState] = useState(() => DrillState.checkAnswers);
     const [translation, setTranslation] = useState('');
     const [vowels, setVowels] = useState(() => [
         'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
@@ -23,6 +21,7 @@ export const Drill = ({ lesson }) => {
         const form = e.target;
 
         switch(form.dataset.state) {
+
             case DrillState.checkAnswers:
 
                 const scores = lesson.markLesson(qandas);
@@ -38,17 +37,17 @@ export const Drill = ({ lesson }) => {
                     });
                 });
 
-                setDrill(_drill);
+                onChangeDrill(_drill);
 
                 if(lesson.drills.filter(d => !d.completed).length === 1) { // why 1, not 0, because we haven't called getNextDrill…
-                    setDrillActionState(DrillState.drillsComplete);
+                    onChangeDrillActionState(DrillState.drillsComplete);
                 } else {                          
-                    setDrillActionState(DrillState.nextDrill);
+                    onChangeDrillActionState(DrillState.nextDrill);
                 }
                 break;
             case DrillState.nextDrill:
-                setDrillActionState(DrillState.checkAnswers);
-                setDrill(lesson.getNextDrill());                
+                onChangeDrillActionState(DrillState.checkAnswers);
+                onChangeDrill(lesson.getNextDrill());
                 form.reset();
                 form.elements[0].focus();
                 break;
@@ -111,8 +110,8 @@ export const Drill = ({ lesson }) => {
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
-                : <div class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                ? <div key={question.value.to} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                : <div key={question.value.to} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
             );
         return (
             <>

@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
+import { DrillState } from '../../logic/enums';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
@@ -9,13 +10,12 @@ import { Drill } from '../../components/elements/drill';
 const Home = ({ verbs, tenses }) => {
 
     const [lesson, setLesson] = useState(() => new Lesson());
-    const [hasLessonStarted, setHasLessonStarted] = useState(false);
+    const [drill, setDrill] = useState(null);
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
     const [selectedVerb, setSelectedVerb] = useState({});
     const [selectedTenses, setSelectedTenses] = useState(() => [tenses[0]]);
-    const [hasDrills, setHasDrills] = useState(false);
     const [fixedDrills, setFixedDrills] = useState(() => [
         {
             id: 1,
@@ -33,48 +33,37 @@ const Home = ({ verbs, tenses }) => {
             verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' }]
         },
     ]);
+    const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
 
-    if(lesson.drills.length > 0) {
-        setHasDrills(true);
-    }
-
-    const handleVerbPicked = verb => {        
-        if(hasDrills) {            
-            setSelectedVerbs([verb]);
-            setLesson({ ...lesson, verbs: [verb.name], verb: null, drills: []});
-            setHasDrills(false);
-        } else {
-            setSelectedVerb({ name: verb, disabled: false });
-            setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb.name), { name: verb, disabled: false } ]);
-        }
+    const handleVerbPicked = verb => {
+        setDrillActionState(true);   
+        setSelectedVerb({ name: verb, disabled: false });
+        setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb.name), { name: verb, disabled: false } ]);
     };
 
     const handleTensePicked = tense => {
-        if(hasDrills) {
-            setLesson({ ...lesson, verbs: [], verb: null, drills: []});
-            setHasDrills(false);
-            setSelectedVerbs([]);
-        }
+        setDrillActionState(true);
         setSelectedTenses([ tense ]);
         setLesson({ ...lesson, tense, tenses });
     }
 
-    const handleStartDrill = async e => {
-        if(selectedVerbs.length > 0 && lesson.drills.length === 0) {
+    const handleStartDrill = async e => {        
+        if(selectedVerbs.length > 0) {
             lesson.removeVerbs();
             selectedVerbs.filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
             const drills = await lesson.createDrills(api, lesson.tense);
             setLesson({ ...lesson, drills });
-            setHasLessonStarted(true);     
-        }
+            setDrillActionState(DrillState.checkAnswers);
+            setDrill(lesson.getNextDrill());
+        }        
     };
 
     const handleSelectSetDrill = e => {
+        setDrillActionState(true);
         const set = e.target;
         const id = parseInt(set.dataset.id);
         const verbs = fixedDrills.find(set => set.id === id).verbs;
         setSelectedVerbs(verbs);
-        setHasDrills(false);
         setLesson({ ...lesson, verbs, verb: null, drills: []});
     };
 
@@ -86,11 +75,7 @@ const Home = ({ verbs, tenses }) => {
         setSelectedVerbs(verbs);
     };
 
-    useEffect(() => {
-        if(!hasDrills) setLesson({ ...lesson, drills: []});
-    }, [hasDrills]);
-
-    const sideBarCSS = hasLessonStarted ? 'sidebar disabled' : 'sidebar';
+    const sideBarCSS = drillActionState === DrillState.checkAnswers ? 'sidebar disabled' : 'sidebar';
 
     return (
         <div class="home">          
@@ -114,8 +99,8 @@ const Home = ({ verbs, tenses }) => {
             </div>
             <div class="main">
                 <div class="block">
-                    { hasDrills ? (
-                        <><Drill lesson={lesson} />                          
+                    { drillActionState !== DrillState.hideDrills ? (
+                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => setDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} />                          
                         </>): <div class="block"></div>
                     }
                 </div>

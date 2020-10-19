@@ -36,7 +36,8 @@ export class Pronoun_PT extends Enumify {
 }
 
 export class DrillState extends Enumify {
+    static hideDrills = 'hide drills';
     static checkAnswers = 'Check answers';
     static nextDrill = 'Next drill';
-    static drillsComplete = 'Drills complete';
+    static drillsComplete = 'All done!';
 }
