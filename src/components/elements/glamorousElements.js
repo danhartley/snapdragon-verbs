@@ -11,7 +11,7 @@ const ControllerButton = glamorous.button({
     padding: '.25rem .5rem',
     fontSize: '1rem',
     outline: '1px solid transparent',
-    border: '1px solid transparent',
+    border: 'none !important',
     [onAttention]: {
         outline: '1px solid transparent'
         // outline: '1px solid rgb(125, 174, 219)'

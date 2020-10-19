@@ -22,12 +22,23 @@ const App = () => {
         });
         setVerbs(savedVerbs);
     };
-    
+
+    const defaultDate = Date.parse(new Date(2020,0,1));
+
+    const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate);
     const [verbs, setVerbs] = useLocalStorageState('verbs', []);
-    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));    
+    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));
 
     useEffect( async () => {
-        if(verbs.length === 0) { getVerbs() };
+        
+        const timeDiff = Math.abs(Date.now() - new Date(lastVisit));
+        const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); 
+    
+        if(verbs.length === 0 || daysDiff > 1) { 
+            console.log('update database');
+            getVerbs();
+            setLastVisit(Date.now());
+        };
     }, [verbs]);
 
     if(verbs.length > 0) {
@@ -35,9 +46,6 @@ const App = () => {
             <div id="app">
                 <Header />
                 <Home verbs={verbs} tenses={tenses} />
-                {/* <Router>
-                    <Home verbs={verbs} tenses={tenses} path="/" />
-                </Router> */}
             </div>
         )
     }

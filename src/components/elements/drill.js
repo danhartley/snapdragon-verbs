@@ -109,8 +109,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0
-                ? <div key={question.value.to} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
-                : <div key={question.value.to} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                ? <div key={`${question.label}_${question.value.to}`} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
+                : <div key={`${question.label}_${question.value.to}`} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
             );
         return (
             <>

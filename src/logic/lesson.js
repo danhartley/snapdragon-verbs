@@ -10,7 +10,7 @@ export class Lesson {
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
         verbs = [],
-        tenses = ['present','imperfect', 'preterite', 'pluperfect', 'future', 'conditional'],
+        tenses = ['present','imperfect', 'preterite', 'future', 'conditional', 'pluperfect'],
         tense = 'present',
         pronouns = '111111',
         languages = [ Language.EN, Language.PT ],

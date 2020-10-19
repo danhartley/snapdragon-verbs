@@ -14887,8 +14887,8 @@ export const data = {
                         'vinhas',
                         'vinha',
                         'vínhamos',
-                        'vínheis',
-                        'vínham'
+                        'vínhais',
+                        'vinham'
                     ],
                     future: [
                         'virei',
@@ -14964,11 +14964,6 @@ export const data = {
                 es: 'imperfecto',
             }
             , {
-                en: 'pluperfect',
-                pt: 'mais-que-perfeito',
-                es: 'pluscuamperfecto',
-            }
-            , {
                 en: 'future',
                 pt: 'futuro',
                 es: 'futuro',
@@ -14977,6 +14972,11 @@ export const data = {
                 en: 'conditional',
                 pt: 'condicional',
                 es: 'condicional',
+            }
+            , {
+                en: 'pluperfect',
+                pt: 'mais-que-perfeito',
+                es: 'pluscuamperfecto',
             }
         ];
         return tenses;
