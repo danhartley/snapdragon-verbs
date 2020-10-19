@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'preact/hooks';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
-import { SimpleList, ActionList, EditableList } from '../../components/elements/simple-list';
+import { SimpleList, ActionList, EditableList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 
 const Home = ({ verbs, tenses }) => {

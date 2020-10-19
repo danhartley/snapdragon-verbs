@@ -1,5 +1,5 @@
 import { DrillState } from '../../logic/enums';
-import { SimpleList, ActionList } from '../../components/elements/simple-list';
+import { SimpleList, ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 import { api } from '../../logic/api';
