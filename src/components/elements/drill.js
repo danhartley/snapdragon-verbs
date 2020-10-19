@@ -45,6 +45,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 }
                 break;
             case DrillState.nextDrill:
+                setQandas([]);
                 onChangeDrillActionState(DrillState.checkAnswers);
                 onChangeDrill(lesson.getNextDrill());
                 form.reset();

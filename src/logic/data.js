@@ -14816,11 +14816,11 @@ export const data = {
                 {
                     i: 'ir',
                     present: [
-                        'voy',
+                        'vou',
                         'vais',
                         'vai',
                         'vamos',
-                        'vais',
+                        'ides',
                         'vão'
                     ],
                     preterite: [
