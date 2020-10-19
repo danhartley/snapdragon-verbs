@@ -91,8 +91,10 @@ const Home = ({ verbs, tenses }) => {
                     <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} />
                     <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                     {
-                        selectedVerbs.length > 0 
-                            ? <button onClick={handleStartDrill}>Start drill</button>
+                        selectedVerbs.length > 0
+                            ? selectedVerbs.filter(v => !v.disabled).length > 0
+                                ? <button onClick={handleStartDrill}>Start drill</button>
+                                : <button disabled onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>
