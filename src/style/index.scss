@@ -81,6 +81,10 @@ select, input {
 
 .sidebar {
     margin: 0 4rem 2rem 0;
+    &.disabled {
+        pointer-events: none;
+        opacity: .6;
+    }
 }
 
 button:disabled {
@@ -149,7 +153,7 @@ button:disabled {
     }
     ul {
         li {
-            font-size: 1.2rem;
+            font-size: 1.2rem;            
         }
     }
 }
@@ -201,7 +205,7 @@ input[type='checkbox'] {
     height: 1rem !important;
 }
 
-.button-link {
+.button-link-action, .button-edit-action {
     border: none;
     text-decoration: none;
     background-color: transparent;    
@@ -213,6 +217,14 @@ input[type='checkbox'] {
     span {
         border-bottom: 1px solid lightgray;
         padding-bottom: 2px;
+    }
+}
+
+.button-edit-action {
+    &:before { content:'\2713'; }
+    color: black;
+    &.disabled-item {
+        color: gray;
     }
 }
 
