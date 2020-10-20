@@ -4,7 +4,7 @@ import { DrillState } from '../../logic/enums';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
-import { SimpleList, ActionList, EditableList } from '../../components/elements/lists';
+import { ActionList, EditableList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 
 const Home = ({ verbs, tenses }) => {

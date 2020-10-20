@@ -12,6 +12,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
     ]); 
     const [currentInput, setCurrentInput] = useState(null);
+    const [eventCode, setEventCode] = useState(() => null);
 
     const handleDrillActionState = e => {
         
@@ -106,27 +107,39 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         currentInput.focus();
     };
 
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     // the problem is that keydown fires when adding alternate vowels
+        window.addEventListener("keydown", e => {
+            if (e.defaultPrevented) {
+              return;
+            }
 
-    //     window.addEventListener("keydown", e => {
-    //         if (e.defaultPrevented) {
-    //           return;
-    //         }
-           
-    //         switch(e.code) {
-    //             case 'Enter':
-    //                 const form = document.activeElement.form;
-    //                 const index = Array.from(form.elements).indexOf(e.target);
-    //                 if (index < form.elements.length -1) { // ignore final element, the submit button
-    //                     form.elements[index + 1].focus();
-    //                 }
+            const form = document.activeElement.form;
 
-    //                 break;
-    //         }
-    //     }, { once: true });
-    // });
+            if(form) {
+
+                setEventCode(e.code);
+
+                switch(e.code) {                
+                    case 'Enter':         
+                            const isConsecutiveEntryKey = e.code === eventCode; // accented character may be last in word e.g. é
+                            console.log();
+                            const inputValue = e.target.value;
+                            const accentedVowel = vowels.find(v => v === inputValue.slice(inputValue.length - 1));
+                            if(accentedVowel && !isConsecutiveEntryKey) {
+                                return;
+                            } else {
+                                const index = Array.from(form.elements).indexOf(e.target);
+                                if (index < form.elements.length -1) { // ignore final element, the submit button
+                                    form.elements[index + 1].focus();
+                                }
+                            }
+                            break;
+                        }                        
+                    }
+            }
+        , { once: true });
+    });
 
     if(drill) {
         const questions = drill.questions.map((question, index) =>
