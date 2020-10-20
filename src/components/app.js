@@ -4,6 +4,7 @@ import { useState, useEffect } from 'preact/hooks';
 import { Router } from 'preact-router';
 
 import Header from './header/header';
+import Footer from './footer/footer';
 
 import { useLocalStorageState } from '../utils/custom-hooks';
 
@@ -46,6 +47,7 @@ const App = () => {
             <div id="app">
                 <Header />
                 <Home verbs={verbs} tenses={tenses} />
+                {/* <Footer /> */}
             </div>
         )
     }

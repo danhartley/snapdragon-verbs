@@ -6,6 +6,7 @@ import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
 import { ActionList, EditableList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
+import Footer from '../../components/footer/footer';
 
 const Home = ({ verbs, tenses }) => {
 
@@ -87,10 +88,11 @@ const Home = ({ verbs, tenses }) => {
     const sideBarCSS = drillActionState === DrillState.checkAnswers ? 'sidebar disabled' : 'sidebar';
 
     return (
-        <div class="home">          
-          <section class="banner-block">
+        <>
+        <section class="banner-block">
             <h1>Portuguese verb drills</h1>
-          </section>
+        </section>
+        <div class="home">          
           <div class="columns">
           <div class={sideBarCSS}>
                 <div> 
@@ -116,7 +118,9 @@ const Home = ({ verbs, tenses }) => {
                 </div>
             </div>
           </div>
+          <Footer />
         </div>
+        </>
     )
 };
 

@@ -5,17 +5,16 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 3.5rem;
+	height: $block;
 	padding: 0;
     background-color: $bg5;
-	// box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     z-index: 50;
     span {
         float: left;
         margin: 0;
         padding: 0 0 0 $space;
         font-size: 1.5rem;
-        line-height: 3.5rem;
+        line-height: $block;
         font-weight: 400;
         color: #FFF;
     }

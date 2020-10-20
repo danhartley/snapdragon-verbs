@@ -1,0 +1,13 @@
+@import '../../style/variables.scss';
+
+.footer {
+    height: $block;
+    background-color: lightgray;
+    width: 100%;
+    color: black;
+    div {
+        height: inherit;
+        margin-left: $space;
+        font-size: .8rem;
+    }
+}
