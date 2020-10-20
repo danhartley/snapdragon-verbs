@@ -106,6 +106,28 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         currentInput.focus();
     };
 
+    // useEffect(() => {
+
+    //     // the problem is that keydown fires when adding alternate vowels
+
+    //     window.addEventListener("keydown", e => {
+    //         if (e.defaultPrevented) {
+    //           return;
+    //         }
+           
+    //         switch(e.code) {
+    //             case 'Enter':
+    //                 const form = document.activeElement.form;
+    //                 const index = Array.from(form.elements).indexOf(e.target);
+    //                 if (index < form.elements.length -1) { // ignore final element, the submit button
+    //                     form.elements[index + 1].focus();
+    //                 }
+
+    //                 break;
+    //         }
+    //     }, { once: true });
+    // });
+
     if(drill) {
         const questions = drill.questions.map((question, index) =>
             index === 0

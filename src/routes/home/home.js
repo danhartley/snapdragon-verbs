@@ -14,8 +14,8 @@ const Home = ({ verbs, tenses }) => {
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
-    const [selectedVerb, setSelectedVerb] = useState({});
-    const [selectedTenses, setSelectedTenses] = useState(() => [tenses[0]]);
+    // const [selectedVerb, setSelectedVerb] = useState({});
+    // const [selectedTenses, setSelectedTenses] = useState(() => [tenses[0]]);
     const [fixedDrills, setFixedDrills] = useState(() => [
         {
             id: 1,
@@ -42,13 +42,13 @@ const Home = ({ verbs, tenses }) => {
 
     const handleVerbPicked = verb => {
         setDrillActionState(true);   
-        setSelectedVerb({ name: verb, disabled: false });
+        // setSelectedVerb({ name: verb, disabled: false });
         setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb.name), { name: verb, disabled: false } ]);
     };
 
     const handleTensePicked = tense => {
         setDrillActionState(true);
-        setSelectedTenses([ tense ]);
+        // setSelectedTenses([ tense ]);
         setLesson({ ...lesson, tense, tenses });
     }
 
@@ -80,6 +80,14 @@ const Home = ({ verbs, tenses }) => {
         setSelectedVerbs(verbs);
     };
 
+    const startDrillRef = useRef();
+
+    useEffect(() => {
+        if(startDrillRef.current) {
+            startDrillRef.current.focus();
+        }
+    }, [selectedVerbs]);
+
     const sideBarCSS = drillActionState === DrillState.checkAnswers ? 'sidebar disabled' : 'sidebar';
 
     return (
@@ -93,13 +101,12 @@ const Home = ({ verbs, tenses }) => {
                     <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
                     <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                    {/* <SimpleList header={'Selected tenses'} msg="" items={selectedTenses} /> */}
                     <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                     {
                         selectedVerbs.length > 0
                             ? selectedVerbs.filter(v => !v.disabled).length > 0
-                                ? <button onClick={handleStartDrill}>Start drill</button>
-                                : <button disabled onClick={handleStartDrill}>Start drill</button>
+                                ? <button ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
+                                : <button ref={startDrillRef} disabled onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>
