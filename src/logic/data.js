@@ -9,7 +9,7 @@ export const data = {
     getVerbs(inf) {
        const verbs = [{
 		en: {
-			i: "ENINF"
+			i: "to shake"
 		},
 		pt: {
 			i: "abalar"
@@ -17,7 +17,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to approve"
             },
             pt: {
                 i: "abalizar"
@@ -25,7 +25,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shake"
             },
             pt: {
                 i: "abanar"
@@ -33,7 +33,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abandon"
             },
             pt: {
                 i: "abandonar"
@@ -41,7 +41,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fuel"
             },
             pt: {
                 i: "abastecer"
@@ -49,7 +49,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shoot down"
             },
             pt: {
                 i: "abater"
@@ -57,7 +57,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bulge"
             },
             pt: {
                 i: "abaular"
@@ -65,7 +65,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bless"
             },
             pt: {
                 i: "abençoar"
@@ -73,7 +73,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abolish"
             },
             pt: {
                 i: "abolir"
@@ -81,7 +81,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to approach"
             },
             pt: {
                 i: "abordar"
@@ -89,7 +89,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abort"
             },
             pt: {
                 i: "abortar"
@@ -97,7 +97,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to button up"
             },
             pt: {
                 i: "abotoar"
@@ -105,7 +105,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hug"
             },
             pt: {
                 i: "abraçar"
@@ -113,7 +113,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to reach"
             },
             pt: {
                 i: "abranger"
@@ -121,7 +121,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abbreviate"
             },
             pt: {
                 i: "abreviar"
@@ -129,7 +129,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to harbour"
             },
             pt: {
                 i: "abrigar"
@@ -137,7 +137,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to open"
             },
             pt: {
                 i: "abrir"
@@ -145,7 +145,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to absolve"
             },
             pt: {
                 i: "absolver"
@@ -153,7 +153,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to absorb"
             },
             pt: {
                 i: "absorver"
@@ -161,7 +161,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abstain"
             },
             pt: {
                 i: "abster"
@@ -169,7 +169,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abstain"
             },
             pt: {
                 i: "abster-se"
@@ -177,7 +177,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abstract"
             },
             pt: {
                 i: "abstrair"
@@ -185,7 +185,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abound"
             },
             pt: {
                 i: "abundar"
@@ -193,7 +193,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abuse"
             },
             pt: {
                 i: "abusar"
@@ -201,7 +201,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to end"
             },
             pt: {
                 i: "acabar"
@@ -209,7 +209,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to calm down"
             },
             pt: {
                 i: "acalmar"
@@ -217,7 +217,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to take"
             },
             pt: {
                 i: "acamar"
@@ -225,7 +225,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to camp"
             },
             pt: {
                 i: "acampar"
@@ -233,7 +233,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to caress"
             },
             pt: {
                 i: "acariciar"
@@ -241,7 +241,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accept"
             },
             pt: {
                 i: "acatar"
@@ -249,7 +249,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to access"
             },
             pt: {
                 i: "aceder"
@@ -257,7 +257,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accept"
             },
             pt: {
                 i: "aceitar"
@@ -265,7 +265,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to speed up"
             },
             pt: {
                 i: "acelerar"
@@ -281,7 +281,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accentuate"
             },
             pt: {
                 i: "acentuar"
@@ -289,7 +289,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hit"
             },
             pt: {
                 i: "acertar"
@@ -297,7 +297,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to find"
             },
             pt: {
                 i: "achar"
@@ -305,7 +305,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to acclaim"
             },
             pt: {
                 i: "aclamar"
@@ -313,7 +313,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to flog"
             },
             pt: {
                 i: "açoitar"
@@ -321,7 +321,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to welcome"
             },
             pt: {
                 i: "acolher"
@@ -329,7 +329,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accommodate"
             },
             pt: {
                 i: "acomodar"
@@ -337,7 +337,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to go along"
             },
             pt: {
                 i: "acompanhar"
@@ -345,7 +345,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to advise"
             },
             pt: {
                 i: "aconselhar"
@@ -353,7 +353,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to happen"
             },
             pt: {
                 i: "acontecer"
@@ -361,7 +361,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to couple"
             },
             pt: {
                 i: "acoplar"
@@ -369,7 +369,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to wake up"
             },
             pt: {
                 i: "acordar"
@@ -377,7 +377,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to lean in"
             },
             pt: {
                 i: "acostar-se"
@@ -385,7 +385,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accustom"
             },
             pt: {
                 i: "acostumar"
@@ -393,7 +393,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to believe"
             },
             pt: {
                 i: "acreditar"
@@ -401,7 +401,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to add"
             },
             pt: {
                 i: "acrescentar"
@@ -409,7 +409,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accumulate"
             },
             pt: {
                 i: "acumular"
@@ -417,7 +417,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to accuse"
             },
             pt: {
                 i: "acusar"
@@ -425,7 +425,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adapt"
             },
             pt: {
                 i: "adaptar"
@@ -433,7 +433,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adapt"
             },
             pt: {
                 i: "adaptar-se"
@@ -441,7 +441,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to suit"
             },
             pt: {
                 i: "adequar"
@@ -449,7 +449,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adhere"
             },
             pt: {
                 i: "aderir"
@@ -457,7 +457,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to anticipate"
             },
             pt: {
                 i: "adiantar"
@@ -465,7 +465,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to get ahead"
             },
             pt: {
                 i: "adiantar-se"
@@ -473,7 +473,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to put off"
             },
             pt: {
                 i: "adiar"
@@ -481,7 +481,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to add"
             },
             pt: {
                 i: "adicionar"
@@ -489,7 +489,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adhere"
             },
             pt: {
                 i: "adir"
@@ -505,7 +505,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to guess"
             },
             pt: {
                 i: "adivinhar"
@@ -513,7 +513,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to administer"
             },
             pt: {
                 i: "administrar"
@@ -521,7 +521,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to admire"
             },
             pt: {
                 i: "admirar"
@@ -529,7 +529,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to admit"
             },
             pt: {
                 i: "admitir"
@@ -537,7 +537,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to admonish"
             },
             pt: {
                 i: "admoestar"
@@ -545,7 +545,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sweeten"
             },
             pt: {
                 i: "adoçar"
@@ -553,7 +553,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sicken"
             },
             pt: {
                 i: "adoecer"
@@ -561,7 +561,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to worship"
             },
             pt: {
                 i: "adorar"
@@ -569,7 +569,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fall asleep"
             },
             pt: {
                 i: "adormecer"
@@ -577,7 +577,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adorn"
             },
             pt: {
                 i: "adornar"
@@ -585,7 +585,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adopt"
             },
             pt: {
                 i: "adotar"
@@ -593,7 +593,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to purchase"
             },
             pt: {
                 i: "adquirir"
@@ -601,7 +601,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to compost"
             },
             pt: {
                 i: "adubar"
@@ -609,7 +609,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to warn"
             },
             pt: {
                 i: "advertir"
@@ -617,7 +617,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to put away"
             },
             pt: {
                 i: "afastar"
@@ -625,7 +625,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to affect"
             },
             pt: {
                 i: "afetar"
@@ -633,7 +633,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adopt"
             },
             pt: {
                 i: "afilhar"
@@ -641,7 +641,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to claim"
             },
             pt: {
                 i: "afirmar"
@@ -649,7 +649,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to afflict"
             },
             pt: {
                 i: "afligir"
@@ -657,7 +657,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to drown"
             },
             pt: {
                 i: "afogar"
@@ -665,7 +665,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to drown"
             },
             pt: {
                 i: "afogar-se"
@@ -673,7 +673,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to loosen"
             },
             pt: {
                 i: "afrouxar"
@@ -681,7 +681,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sink"
             },
             pt: {
                 i: "afundar"
@@ -689,7 +689,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to crouch"
             },
             pt: {
                 i: "agachar-se"
@@ -697,7 +697,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to grab"
             },
             pt: {
                 i: "agarrar"
@@ -705,7 +705,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to act"
             },
             pt: {
                 i: "agir"
@@ -713,7 +713,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shake"
             },
             pt: {
                 i: "agitar"
@@ -721,7 +721,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to agonise"
             },
             pt: {
                 i: "agoniar"
@@ -729,7 +729,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to please"
             },
             pt: {
                 i: "agradar"
@@ -737,7 +737,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to thank"
             },
             pt: {
                 i: "agradecer"
@@ -745,7 +745,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to aggravate"
             },
             pt: {
                 i: "agravar"
@@ -753,7 +753,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to attack"
             },
             pt: {
                 i: "agredir"
@@ -761,7 +761,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to aggregate"
             },
             pt: {
                 i: "agregar"
@@ -769,7 +769,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to agroup"
             },
             pt: {
                 i: "agrupar"
@@ -777,7 +777,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to wait"
             },
             pt: {
                 i: "aguardar"
@@ -785,7 +785,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sharpen"
             },
             pt: {
                 i: "aguçar"
@@ -793,7 +793,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to endure"
             },
             pt: {
                 i: "aguentar"
@@ -801,7 +801,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to kneel"
             },
             pt: {
                 i: "ajoelhar-se"
@@ -809,7 +809,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to help"
             },
             pt: {
                 i: "ajudar"
@@ -817,7 +817,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to judge"
             },
             pt: {
                 i: "ajuizar"
@@ -825,7 +825,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to adjust"
             },
             pt: {
                 i: "ajustar"
@@ -833,7 +833,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to flood"
             },
             pt: {
                 i: "alagar"
@@ -841,7 +841,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to widen"
             },
             pt: {
                 i: "alargar"
@@ -849,7 +849,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to alarm"
             },
             pt: {
                 i: "alarmar"
@@ -857,7 +857,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to house"
             },
             pt: {
                 i: "albergar"
@@ -865,7 +865,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to catch up"
             },
             pt: {
                 i: "alcançar"
@@ -873,7 +873,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to lift"
             },
             pt: {
                 i: "alçar"
@@ -881,7 +881,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to claim"
             },
             pt: {
                 i: "alegar"
@@ -889,7 +889,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rejoice"
             },
             pt: {
                 i: "alegrar"
@@ -897,7 +897,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rejoice"
             },
             pt: {
                 i: "alegrar-se"
@@ -905,7 +905,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to suck"
             },
             pt: {
                 i: "aleitar"
@@ -913,7 +913,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to alert"
             },
             pt: {
                 i: "alertar"
@@ -921,7 +921,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to ally"
             },
             pt: {
                 i: "aliar"
@@ -929,7 +929,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to alienate"
             },
             pt: {
                 i: "alienar"
@@ -937,7 +937,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to feed"
             },
             pt: {
                 i: "alimentar"
@@ -945,7 +945,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to line up"
             },
             pt: {
                 i: "alinhar"
@@ -953,7 +953,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to relieve"
             },
             pt: {
                 i: "aliviar"
@@ -961,7 +961,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to crave"
             },
             pt: {
                 i: "almejar"
@@ -969,7 +969,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to have lunch"
             },
             pt: {
                 i: "almoçar"
@@ -977,7 +977,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to stretch"
             },
             pt: {
                 i: "alongar"
@@ -985,7 +985,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to change"
             },
             pt: {
                 i: "alterar"
@@ -993,7 +993,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to alter"
             },
             pt: {
                 i: "altercar"
@@ -1001,7 +1001,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to switch"
             },
             pt: {
                 i: "alternar"
@@ -1009,7 +1009,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rent"
             },
             pt: {
                 i: "alugar"
@@ -1017,7 +1017,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bustle"
             },
             pt: {
                 i: "alvoroçar"
@@ -1025,7 +1025,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to dawn"
             },
             pt: {
                 i: "alvorotar"
@@ -1033,7 +1033,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to abate"
             },
             pt: {
                 i: "amainar"
@@ -1041,7 +1041,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to dawn"
             },
             pt: {
                 i: "amanhecer"
@@ -1049,7 +1049,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to love"
             },
             pt: {
                 i: "amar"
@@ -1057,7 +1057,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to love"
             },
             pt: {
                 i: "amarar"
@@ -1065,7 +1065,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to tie"
             },
             pt: {
                 i: "amarrar"
@@ -1073,7 +1073,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to crumple"
             },
             pt: {
                 i: "amassar"
@@ -1081,7 +1081,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to threaten"
             },
             pt: {
                 i: "ameaçar"
@@ -1089,7 +1089,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to soften"
             },
             pt: {
                 i: "amenizar"
@@ -1097,7 +1097,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shape"
             },
             pt: {
                 i: "amoldar"
@@ -1105,7 +1105,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to enlarge"
             },
             pt: {
                 i: "ampliar"
@@ -1113,7 +1113,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to amplify"
             },
             pt: {
                 i: "amplificar"
@@ -1121,7 +1121,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to amputate"
             },
             pt: {
                 i: "amputar"
@@ -1129,7 +1129,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to analise"
             },
             pt: {
                 i: "analisar"
@@ -1146,7 +1146,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to inundate"
             },
             pt: {
                 i: "anegar"
@@ -1154,7 +1154,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to ring"
             },
             pt: {
                 i: "anelar"
@@ -1162,7 +1162,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to numb"
             },
             pt: {
                 i: "anestesiar"
@@ -1170,7 +1170,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to distress"
             },
             pt: {
                 i: "angustiar"
@@ -1178,7 +1178,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to cheer up"
             },
             pt: {
                 i: "animar"
@@ -1186,7 +1186,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to grow dark"
             },
             pt: {
                 i: "anoitecer"
@@ -1194,7 +1194,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to write down"
             },
             pt: {
                 i: "anotar"
@@ -1202,7 +1202,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to crave"
             },
             pt: {
                 i: "ansiar"
@@ -1210,7 +1210,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to anticipate"
             },
             pt: {
                 i: "antecipar"
@@ -1218,7 +1218,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to cancel"
             },
             pt: {
                 i: "anular"
@@ -1226,7 +1226,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to announce"
             },
             pt: {
                 i: "anunciar"
@@ -1234,7 +1234,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to delete"
             },
             pt: {
                 i: "apagar"
@@ -1242,7 +1242,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fall in love"
             },
             pt: {
                 i: "apaixonar-se"
@@ -1250,7 +1250,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to catch"
             },
             pt: {
                 i: "apanhar"
@@ -1258,7 +1258,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to appear"
             },
             pt: {
                 i: "aparecer"
@@ -1266,7 +1266,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to separate"
             },
             pt: {
                 i: "apartar"
@@ -1274,7 +1274,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to feed"
             },
             pt: {
                 i: "apascentar"
@@ -1282,7 +1282,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to appease"
             },
             pt: {
                 i: "apaziguar"
@@ -1290,7 +1290,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to appeal"
             },
             pt: {
                 i: "apelar"
@@ -1298,7 +1298,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to realise"
             },
             pt: {
                 i: "aperceber"
@@ -1306,7 +1306,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hold tight"
             },
             pt: {
                 i: "apertar"
@@ -1314,7 +1314,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to crave"
             },
             pt: {
                 i: "apetecer"
@@ -1322,7 +1322,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to pity yourself"
             },
             pt: {
                 i: "apiedar-se"
@@ -1330,7 +1330,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to applaud"
             },
             pt: {
                 i: "aplaudir"
@@ -1338,7 +1338,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to apply"
             },
             pt: {
                 i: "aplicar"
@@ -1346,7 +1346,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to support"
             },
             pt: {
                 i: "apoiar"
@@ -1354,7 +1354,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to point"
             },
             pt: {
                 i: "apontar"
@@ -1362,7 +1362,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bet"
             },
             pt: {
                 i: "apostar"
@@ -1370,7 +1370,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to appreciate"
             },
             pt: {
                 i: "apreciar"
@@ -1378,7 +1378,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to proclaim"
             },
             pt: {
                 i: "apregoar"
@@ -1386,7 +1386,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to learn"
             },
             pt: {
                 i: "aprender"
@@ -1394,7 +1394,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to present"
             },
             pt: {
                 i: "apresentar"
@@ -1402,7 +1402,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rush"
             },
             pt: {
                 i: "apressar"
@@ -1410,7 +1410,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to imprison"
             },
             pt: {
                 i: "aprisionar"
@@ -1418,7 +1418,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to deepen"
             },
             pt: {
                 i: "aprofundar"
@@ -1426,7 +1426,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to approve"
             },
             pt: {
                 i: "aprovar"
@@ -1434,7 +1434,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to enjoy"
             },
             pt: {
                 i: "aproveitar"
@@ -1442,7 +1442,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to approach"
             },
             pt: {
                 i: "aproximar"
@@ -1450,7 +1450,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to investigate"
             },
             pt: {
                 i: "apurar"
@@ -1458,7 +1458,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to warm"
             },
             pt: {
                 i: "aquecer"
@@ -1466,7 +1466,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to burn"
             },
             pt: {
                 i: "arder"
@@ -1474,7 +1474,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to long for"
             },
             pt: {
                 i: "arelar"
@@ -1482,7 +1482,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to argue"
             },
             pt: {
                 i: "arguir"
@@ -1490,7 +1490,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to argue"
             },
             pt: {
                 i: "argumentar"
@@ -1498,7 +1498,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to arm"
             },
             pt: {
                 i: "armar"
@@ -1506,7 +1506,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to store"
             },
             pt: {
                 i: "armazenar"
@@ -1514,7 +1514,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to file"
             },
             pt: {
                 i: "arquivar"
@@ -1522,7 +1522,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rip out"
             },
             pt: {
                 i: "arrancar"
@@ -1530,7 +1530,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to scratch"
             },
             pt: {
                 i: "arranhar"
@@ -1538,7 +1538,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to arrange"
             },
             pt: {
                 i: "arranjar"
@@ -1546,7 +1546,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to drag"
             },
             pt: {
                 i: "arrastar"
@@ -1554,7 +1554,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to rush"
             },
             pt: {
                 i: "arremeter"
@@ -1562,7 +1562,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to repent"
             },
             pt: {
                 i: "arrepender-se"
@@ -1570,7 +1570,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to risk"
             },
             pt: {
                 i: "arriscar"
@@ -1578,7 +1578,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to ruin"
             },
             pt: {
                 i: "arruinar"
@@ -1586,7 +1586,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to straighten"
             },
             pt: {
                 i: "arrumar"
@@ -1594,7 +1594,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to get dressed"
             },
             pt: {
                 i: "arrumar-se"
@@ -1602,7 +1602,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to articulate"
             },
             pt: {
                 i: "articular"
@@ -1610,7 +1610,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to climb"
             },
             pt: {
                 i: "ascender"
@@ -1618,7 +1618,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to choke"
             },
             pt: {
                 i: "asfixiar"
@@ -1626,7 +1626,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sprinkle"
             },
             pt: {
                 i: "aspergir"
@@ -1634,7 +1634,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to breathe"
             },
             pt: {
                 i: "aspirar"
@@ -1642,7 +1642,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to assault"
             },
             pt: {
                 i: "assaltar"
@@ -1650,7 +1650,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bake"
             },
             pt: {
                 i: "assar"
@@ -1658,7 +1658,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to murder"
             },
             pt: {
                 i: "assassinar"
@@ -1666,7 +1666,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to secure"
             },
             pt: {
                 i: "assegurar"
@@ -1674,7 +1674,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to resemble"
             },
             pt: {
                 i: "assemelhar"
@@ -1682,7 +1682,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to resemble"
             },
             pt: {
                 i: "assemelhar-se"
@@ -1690,7 +1690,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to settle"
             },
             pt: {
                 i: "assentar"
@@ -1698,7 +1698,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to nod"
             },
             pt: {
                 i: "assentir"
@@ -1706,7 +1706,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to assimilate"
             },
             pt: {
                 i: "assimilar"
@@ -1714,7 +1714,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to point out"
             },
             pt: {
                 i: "assinalar"
@@ -1722,7 +1722,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sign"
             },
             pt: {
                 i: "assinar"
@@ -1730,7 +1730,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to assist"
             },
             pt: {
                 i: "assistir"
@@ -1738,7 +1738,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to whistle"
             },
             pt: {
                 i: "assobiar"
@@ -1746,7 +1746,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to connect"
             },
             pt: {
                 i: "associar"
@@ -1754,7 +1754,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to loom"
             },
             pt: {
                 i: "assomar"
@@ -1762,7 +1762,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to haunt"
             },
             pt: {
                 i: "assombrar"
@@ -1770,7 +1770,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to take on"
             },
             pt: {
                 i: "assumir"
@@ -1778,7 +1778,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to scare"
             },
             pt: {
                 i: "assustar"
@@ -1786,7 +1786,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to frighten"
             },
             pt: {
                 i: "assustar-se"
@@ -1794,7 +1794,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to attack"
             },
             pt: {
                 i: "atacar"
@@ -1802,7 +1802,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to tie"
             },
             pt: {
                 i: "atar"
@@ -1810,7 +1810,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to answer"
             },
             pt: {
                 i: "atender"
@@ -1818,7 +1818,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to soften"
             },
             pt: {
                 i: "atenuar"
@@ -1826,7 +1826,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to land"
             },
             pt: {
                 i: "aterrar"
@@ -1834,7 +1834,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to terrorise"
             },
             pt: {
                 i: "aterrorizar"
@@ -1842,7 +1842,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to reach"
             },
             pt: {
                 i: "atingir"
@@ -1850,7 +1850,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shoot"
             },
             pt: {
                 i: "atirar"
@@ -1858,7 +1858,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to activate"
             },
             pt: {
                 i: "ativar"
@@ -1866,7 +1866,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to stun"
             },
             pt: {
                 i: "atordoar"
@@ -1874,7 +1874,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to torment"
             },
             pt: {
                 i: "atormentar"
@@ -1882,7 +1882,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to attract"
             },
             pt: {
                 i: "atrair"
@@ -1890,7 +1890,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to pass through"
             },
             pt: {
                 i: "atravessar"
@@ -1898,7 +1898,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to assign"
             },
             pt: {
                 i: "atribuir"
@@ -1906,7 +1906,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to run over"
             },
             pt: {
                 i: "atropelar"
@@ -1914,7 +1914,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to update"
             },
             pt: {
                 i: "atualizar"
@@ -1922,7 +1922,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to act"
             },
             pt: {
                 i: "atuar"
@@ -1930,7 +1930,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to earn"
             },
             pt: {
                 i: "auferir"
@@ -1938,7 +1938,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to increase"
             },
             pt: {
                 i: "aumentar"
@@ -1946,7 +1946,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to authenticate"
             },
             pt: {
                 i: "autenticar"
@@ -1954,7 +1954,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to automate"
             },
             pt: {
                 i: "automatizar"
@@ -1962,7 +1962,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to authorise"
             },
             pt: {
                 i: "autorizar"
@@ -1970,7 +1970,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to evaluate"
             },
             pt: {
                 i: "avaliar"
@@ -1978,7 +1978,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to endorse"
             },
             pt: {
                 i: "avalizar"
@@ -1986,7 +1986,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to advance"
             },
             pt: {
                 i: "avançar"
@@ -1994,7 +1994,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to break down"
             },
             pt: {
                 i: "avariar-se"
@@ -2002,7 +2002,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to venture"
             },
             pt: {
                 i: "aventurar"
@@ -2010,7 +2010,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shame"
             },
             pt: {
                 i: "avergonhar"
@@ -2018,7 +2018,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to ascertain"
             },
             pt: {
                 i: "averiguar"
@@ -2026,7 +2026,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to warn"
             },
             pt: {
                 i: "avisar"
@@ -2034,7 +2034,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to enliven"
             },
             pt: {
                 i: "avivar"
@@ -2042,7 +2042,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to dance"
             },
             pt: {
                 i: "bailar"
@@ -2050,7 +2050,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to download"
             },
             pt: {
                 i: "baixar"
@@ -2058,7 +2058,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to swing"
             },
             pt: {
                 i: "balançar"
@@ -2066,7 +2066,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to balance"
             },
             pt: {
                 i: "balancear"
@@ -2074,7 +2074,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to stammer"
             },
             pt: {
                 i: "balbuciar"
@@ -2082,7 +2082,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to mark out"
             },
             pt: {
                 i: "balizar"
@@ -2090,7 +2090,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bathe"
             },
             pt: {
                 i: "banhar"
@@ -2098,7 +2098,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bathe"
             },
             pt: {
                 i: "banhar-se"
@@ -2106,7 +2106,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shave"
             },
             pt: {
                 i: "barbear"
@@ -2114,7 +2114,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to spread"
             },
             pt: {
                 i: "barrar"
@@ -2122,7 +2122,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to base"
             },
             pt: {
                 i: "basear"
@@ -2130,7 +2130,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to suffice"
             },
             pt: {
                 i: "bastar"
@@ -2138,7 +2138,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to battle"
             },
             pt: {
                 i: "batalhar"
@@ -2146,7 +2146,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hit"
             },
             pt: {
                 i: "bater"
@@ -2154,7 +2154,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to baptise"
             },
             pt: {
                 i: "batizar"
@@ -2162,7 +2162,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to drink"
             },
             pt: {
                 i: "beber"
@@ -2170,7 +2170,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to kiss"
             },
             pt: {
                 i: "beijar"
@@ -2178,7 +2178,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to smack"
             },
             pt: {
                 i: "beijocar"
@@ -2186,7 +2186,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to pinch"
             },
             pt: {
                 i: "beliscar"
@@ -2194,7 +2194,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bless"
             },
             pt: {
                 i: "bendizer"
@@ -2202,7 +2202,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to benefit"
             },
             pt: {
                 i: "beneficiar"
@@ -2210,7 +2210,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to smear"
             },
             pt: {
                 i: "besuntar"
@@ -2218,7 +2218,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to swear"
             },
             pt: {
                 i: "blasfemar"
@@ -2226,7 +2226,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shield"
             },
             pt: {
                 i: "blindar"
@@ -2234,7 +2234,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to block"
             },
             pt: {
                 i: "bloquear"
@@ -2242,7 +2242,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to yawn"
             },
             pt: {
                 i: "bocejar"
@@ -2250,7 +2250,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to float"
             },
             pt: {
                 i: "boiar"
@@ -2258,7 +2258,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to pump"
             },
             pt: {
                 i: "bombear"
@@ -2266,7 +2266,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bubble"
             },
             pt: {
                 i: "borbulhar"
@@ -2274,7 +2274,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to embroider"
             },
             pt: {
                 i: "bordar"
@@ -2282,7 +2282,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to blur"
             },
             pt: {
                 i: "borrar"
@@ -2290,7 +2290,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sketch"
             },
             pt: {
                 i: "bosquejar"
@@ -2298,7 +2298,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to put"
             },
             pt: {
                 i: "botar"
@@ -2306,7 +2306,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shout"
             },
             pt: {
                 i: "bradar"
@@ -2314,7 +2314,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to roar"
             },
             pt: {
                 i: "bramar"
@@ -2322,7 +2322,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to whiten"
             },
             pt: {
                 i: "branquear"
@@ -2330,7 +2330,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to break"
             },
             pt: {
                 i: "brecar"
@@ -2338,7 +2338,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fight"
             },
             pt: {
                 i: "brigar"
@@ -2346,7 +2346,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shine"
             },
             pt: {
                 i: "brilhar"
@@ -2354,7 +2354,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to play"
             },
             pt: {
                 i: "brincar"
@@ -2362,7 +2362,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to toast"
             },
             pt: {
                 i: "brindar"
@@ -2370,7 +2370,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to tan"
             },
             pt: {
                 i: "bronzear"
@@ -2378,7 +2378,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sprout"
             },
             pt: {
                 i: "brotar"
@@ -2386,7 +2386,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to burnish"
             },
             pt: {
                 i: "brunir"
@@ -2394,7 +2394,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to flourish"
             },
             pt: {
                 i: "bulhar"
@@ -2402,7 +2402,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to search"
             },
             pt: {
                 i: "buscar"
@@ -2410,7 +2410,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fit"
             },
             pt: {
                 i: "caber"
@@ -2418,7 +2418,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hunt"
             },
             pt: {
                 i: "caçar"
@@ -2426,7 +2426,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to lapse"
             },
             pt: {
                 i: "caducar"
@@ -2434,7 +2434,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shit"
             },
             pt: {
                 i: "cagar"
@@ -2442,7 +2442,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to fall"
             },
             pt: {
                 i: "cair"
@@ -2450,7 +2450,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shut up"
             },
             pt: {
                 i: "calar"
@@ -2458,7 +2458,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to shut up"
             },
             pt: {
                 i: "calar-se"
@@ -2466,7 +2466,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to trample"
             },
             pt: {
                 i: "calcar"
@@ -2474,7 +2474,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to calculate"
             },
             pt: {
                 i: "calcular"
@@ -2482,7 +2482,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to melt"
             },
             pt: {
                 i: "caldear"
@@ -2490,7 +2490,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to risk"
             },
             pt: {
                 i: "calhar"
@@ -2498,7 +2498,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to change"
             },
             pt: {
                 i: "cambiar"
@@ -2506,7 +2506,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to walk"
             },
             pt: {
                 i: "caminhar"
@@ -2514,7 +2514,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to mask"
             },
             pt: {
                 i: "camuflar"
@@ -2522,7 +2522,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to channel"
             },
             pt: {
                 i: "canalizar"
@@ -2530,7 +2530,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to cancel"
             },
             pt: {
                 i: "cancelar"
@@ -2538,7 +2538,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to tire"
             },
             pt: {
                 i: "cansar"
@@ -2555,7 +2555,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hum"
             },
             pt: {
                 i: "cantarolar"
@@ -2563,7 +2563,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to capitulate"
             },
             pt: {
                 i: "capitular"
@@ -2571,7 +2571,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to capture"
             },
             pt: {
                 i: "captar"
@@ -2579,7 +2579,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to capture"
             },
             pt: {
                 i: "capturar"
@@ -2587,7 +2587,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to characterise"
             },
             pt: {
                 i: "caracterizar"
@@ -2595,7 +2595,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to tease"
             },
             pt: {
                 i: "cardar"
@@ -2603,7 +2603,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to lack"
             },
             pt: {
                 i: "carecer"
@@ -2611,7 +2611,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to moan"
             },
             pt: {
                 i: "carpir"
@@ -2619,7 +2619,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to load"
             },
             pt: {
                 i: "carregar"
@@ -2627,7 +2627,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to get married"
             },
             pt: {
                 i: "casar-se"
@@ -2635,7 +2635,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to punish"
             },
             pt: {
                 i: "castigar"
@@ -2643,7 +2643,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to castrate"
             },
             pt: {
                 i: "castrar"
@@ -2651,7 +2651,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to catalyse"
             },
             pt: {
                 i: "catalisar"
@@ -2659,7 +2659,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to catapult"
             },
             pt: {
                 i: "catapultar"
@@ -2667,7 +2667,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to categorise"
             },
             pt: {
                 i: "categorizar"
@@ -2675,7 +2675,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to captivate"
             },
             pt: {
                 i: "cativar"
@@ -2683,7 +2683,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to cause"
             },
             pt: {
                 i: "causar"
@@ -2691,7 +2691,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to dig"
             },
             pt: {
                 i: "cavar"
@@ -2699,7 +2699,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cear"
@@ -2707,7 +2707,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ceder"
@@ -2715,7 +2715,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cegar"
@@ -2723,7 +2723,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ceifar"
@@ -2731,7 +2731,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "celebrar"
@@ -2739,7 +2739,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "censurar"
@@ -2747,7 +2747,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "centelhar"
@@ -2755,7 +2755,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "centralizar"
@@ -2763,7 +2763,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "centrar"
@@ -2771,7 +2771,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cerrar"
@@ -2779,7 +2779,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "certificar"
@@ -2787,7 +2787,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cerzir"
@@ -2795,7 +2795,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cessar"
@@ -2803,7 +2803,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chamar"
@@ -2811,7 +2811,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chamar-se"
@@ -2819,7 +2819,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chegar"
@@ -2827,7 +2827,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cheirar"
@@ -2835,7 +2835,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chocar"
@@ -2843,7 +2843,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "choramingar"
@@ -2851,7 +2851,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chorar"
@@ -2859,7 +2859,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chover"
@@ -2867,7 +2867,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chupar"
@@ -2875,7 +2875,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "chuviscar"
@@ -2883,7 +2883,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cifrar"
@@ -2891,7 +2891,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cingir"
@@ -2899,7 +2899,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cintilar"
@@ -2907,7 +2907,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "circular"
@@ -2915,7 +2915,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "circuncidar"
@@ -2923,7 +2923,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "circundar"
@@ -2931,7 +2931,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "circunscrever"
@@ -2939,7 +2939,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cismar"
@@ -2947,7 +2947,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "citar"
@@ -2955,7 +2955,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "civilizar"
@@ -2963,7 +2963,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "clamar"
@@ -2971,7 +2971,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "clarificar"
@@ -2979,7 +2979,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "classificar"
@@ -2987,7 +2987,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "claudicar"
@@ -2995,7 +2995,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "clicar"
@@ -3003,7 +3003,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coabitar"
@@ -3011,7 +3011,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coagular"
@@ -3019,7 +3019,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coalhar"
@@ -3027,7 +3027,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coar"
@@ -3035,7 +3035,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cobrar"
@@ -3043,7 +3043,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cobrir"
@@ -3051,7 +3051,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coçar"
@@ -3059,7 +3059,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cochichar"
@@ -3067,7 +3067,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "codificar"
@@ -3075,7 +3075,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coincidir"
@@ -3083,7 +3083,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colaborar"
@@ -3091,7 +3091,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colapsar"
@@ -3099,7 +3099,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colar"
@@ -3107,7 +3107,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colecionar"
@@ -3115,7 +3115,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colher"
@@ -3123,7 +3123,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colocar"
@@ -3131,7 +3131,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colonizar"
@@ -3139,7 +3139,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "colorir"
@@ -3147,7 +3147,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coludir"
@@ -3155,7 +3155,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comandar"
@@ -3163,7 +3163,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "combater"
@@ -3171,7 +3171,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "combinar"
@@ -3179,7 +3179,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "começar"
@@ -3187,7 +3187,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comemorar"
@@ -3195,7 +3195,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comentar"
@@ -3203,7 +3203,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comer"
@@ -3211,7 +3211,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comercializar"
@@ -3219,7 +3219,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comerciar"
@@ -3227,7 +3227,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cometer"
@@ -3235,7 +3235,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comover"
@@ -3243,7 +3243,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compadecer"
@@ -3251,7 +3251,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comparar"
@@ -3259,7 +3259,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comparecer"
@@ -3267,7 +3267,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compartilhar"
@@ -3275,7 +3275,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compensar"
@@ -3283,7 +3283,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "competir"
@@ -3291,7 +3291,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compilar"
@@ -3299,7 +3299,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "completar"
@@ -3307,7 +3307,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "complicar"
@@ -3315,7 +3315,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compor"
@@ -3323,7 +3323,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comportar"
@@ -3331,7 +3331,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comportar-se"
@@ -3339,7 +3339,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comprar"
@@ -3347,7 +3347,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comprazer"
@@ -3355,7 +3355,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "compreender"
@@ -3363,7 +3363,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comprimir"
@@ -3371,7 +3371,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comprometer"
@@ -3379,7 +3379,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comprovar"
@@ -3387,7 +3387,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "comunicar"
@@ -3395,7 +3395,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conceber"
@@ -3403,7 +3403,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conceder"
@@ -3411,7 +3411,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concentrar"
@@ -3419,7 +3419,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concernir"
@@ -3427,7 +3427,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concertar"
@@ -3435,7 +3435,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conciliar"
@@ -3443,7 +3443,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concluir"
@@ -3451,7 +3451,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concordar"
@@ -3459,7 +3459,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concorrer"
@@ -3467,7 +3467,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "concretizar"
@@ -3475,7 +3475,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "condenar"
@@ -3483,7 +3483,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "condicionar"
@@ -3491,7 +3491,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conduzir"
@@ -3499,7 +3499,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conectar"
@@ -3507,7 +3507,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confeccionar"
@@ -3515,7 +3515,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conferir"
@@ -3523,7 +3523,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confessar"
@@ -3531,7 +3531,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confiar"
@@ -3539,7 +3539,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "configurar"
@@ -3547,7 +3547,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confinar"
@@ -3555,7 +3555,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confirmar"
@@ -3563,7 +3563,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confiscar"
@@ -3571,7 +3571,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confluir"
@@ -3579,7 +3579,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conformar"
@@ -3587,7 +3587,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confortar"
@@ -3595,7 +3595,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confrontar"
@@ -3603,7 +3603,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confundir"
@@ -3611,7 +3611,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "confundir-se"
@@ -3619,7 +3619,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "congelar"
@@ -3627,7 +3627,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "congregar"
@@ -3635,7 +3635,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conhecer"
@@ -3643,7 +3643,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conhecer-se"
@@ -3651,7 +3651,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conjecturar"
@@ -3659,7 +3659,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conjeturar"
@@ -3667,7 +3667,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conjugar"
@@ -3675,7 +3675,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conquistar"
@@ -3683,7 +3683,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consagrar"
@@ -3691,7 +3691,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conseguir"
@@ -3699,7 +3699,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consentir"
@@ -3707,7 +3707,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conservar"
@@ -3715,7 +3715,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "considerar"
@@ -3723,7 +3723,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consistir"
@@ -3731,7 +3731,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consolar"
@@ -3739,7 +3739,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consolidar"
@@ -3747,7 +3747,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "constar"
@@ -3755,7 +3755,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "constatar"
@@ -3763,7 +3763,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consternar"
@@ -3771,7 +3771,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "constituir"
@@ -3779,7 +3779,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "constranger"
@@ -3787,7 +3787,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "construir"
@@ -3795,7 +3795,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consultar"
@@ -3803,7 +3803,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "consumir"
@@ -3811,7 +3811,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contactar"
@@ -3819,7 +3819,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contagiar"
@@ -3827,7 +3827,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contaminar"
@@ -3835,7 +3835,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contar"
@@ -3843,7 +3843,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contemplar"
@@ -3851,7 +3851,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contender"
@@ -3859,7 +3859,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conter"
@@ -3867,7 +3867,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contestar"
@@ -3875,7 +3875,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "continuar"
@@ -3883,7 +3883,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contradizer"
@@ -3891,7 +3891,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contrair"
@@ -3899,7 +3899,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contrariar"
@@ -3907,7 +3907,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contrastar"
@@ -3915,7 +3915,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contratar"
@@ -3923,7 +3923,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "contribuir"
@@ -3931,7 +3931,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "controlar"
@@ -3939,7 +3939,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "convencer"
@@ -3947,7 +3947,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "convergir"
@@ -3955,7 +3955,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conversar"
@@ -3963,7 +3963,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "converter"
@@ -3971,7 +3971,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "convidar"
@@ -3979,7 +3979,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "convir"
@@ -3987,7 +3987,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "conviver"
@@ -3995,7 +3995,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "convocar"
@@ -4003,7 +4003,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cooperar"
@@ -4011,7 +4011,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coordenar"
@@ -4019,7 +4019,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "copiar"
@@ -4027,7 +4027,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "copular"
@@ -4035,7 +4035,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coroar"
@@ -4043,7 +4043,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "correr"
@@ -4051,7 +4051,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "corresponder"
@@ -4059,7 +4059,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "corrigir"
@@ -4067,7 +4067,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "corroborar"
@@ -4075,7 +4075,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "corromper"
@@ -4083,7 +4083,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cortar"
@@ -4091,7 +4091,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cortejar"
@@ -4099,7 +4099,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coser"
@@ -4107,7 +4107,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "costumar"
@@ -4115,7 +4115,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "costurar"
@@ -4123,7 +4123,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cotar"
@@ -4131,7 +4131,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "coxear"
@@ -4139,7 +4139,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cozer"
@@ -4147,7 +4147,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cozinhar"
@@ -4155,7 +4155,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cravar"
@@ -4172,7 +4172,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "crescer"
@@ -4180,7 +4180,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "criar"
@@ -4188,7 +4188,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "criticar"
@@ -4196,7 +4196,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "crivar"
@@ -4204,7 +4204,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "crucificar"
@@ -4212,7 +4212,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cruzar"
@@ -4220,7 +4220,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cuidar"
@@ -4228,7 +4228,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "culminar"
@@ -4236,7 +4236,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "culpar"
@@ -4244,7 +4244,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cultivar"
@@ -4252,7 +4252,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cumprimentar"
@@ -4260,7 +4260,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cumprir"
@@ -4268,7 +4268,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cumular"
@@ -4276,7 +4276,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "curar"
@@ -4284,7 +4284,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "cursar"
@@ -4292,7 +4292,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "curtir"
@@ -4300,7 +4300,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "curvar"
@@ -4308,7 +4308,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "custar"
@@ -4316,7 +4316,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "custodiar"
@@ -4324,7 +4324,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "danar"
@@ -4332,7 +4332,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dançar"
@@ -4349,7 +4349,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "debater"
@@ -4357,7 +4357,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "debilitar"
@@ -4365,7 +4365,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "debutar"
@@ -4373,7 +4373,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decapitar"
@@ -4381,7 +4381,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decepcionar"
@@ -4389,7 +4389,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decidir"
@@ -4397,7 +4397,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "declarar"
@@ -4405,7 +4405,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "declinar"
@@ -4413,7 +4413,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decompor"
@@ -4421,7 +4421,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decorar"
@@ -4429,7 +4429,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "decorrer"
@@ -4437,7 +4437,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dedicar"
@@ -4445,7 +4445,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dedicar-se"
@@ -4453,7 +4453,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deduzir"
@@ -4461,7 +4461,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "defender"
@@ -4469,7 +4469,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deferir"
@@ -4477,7 +4477,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "definir"
@@ -4485,7 +4485,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "degelar"
@@ -4493,7 +4493,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "degolar"
@@ -4501,7 +4501,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "degustar"
@@ -4509,7 +4509,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deitar"
@@ -4517,7 +4517,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deitar-se"
@@ -4525,7 +4525,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deixar"
@@ -4533,7 +4533,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "delegar"
@@ -4541,7 +4541,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deliberar"
@@ -4549,7 +4549,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "delinear"
@@ -4557,7 +4557,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "delinquir"
@@ -4565,7 +4565,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "demitir"
@@ -4573,7 +4573,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "demolir"
@@ -4581,7 +4581,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "demonstrar"
@@ -4589,7 +4589,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "demorar"
@@ -4597,7 +4597,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "denegar"
@@ -4605,7 +4605,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "denegrir"
@@ -4613,7 +4613,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "denunciar"
@@ -4621,7 +4621,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "depender"
@@ -4629,7 +4629,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deplorar"
@@ -4637,7 +4637,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "depor"
@@ -4645,7 +4645,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "depositar"
@@ -4653,7 +4653,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "depreciar"
@@ -4661,7 +4661,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deprimir"
@@ -4669,7 +4669,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "depurar"
@@ -4677,7 +4677,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "derivar"
@@ -4685,7 +4685,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "derramar"
@@ -4693,7 +4693,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "derrotar"
@@ -4701,7 +4701,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "derrubar"
@@ -4709,7 +4709,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "derruir"
@@ -4717,7 +4717,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desaconselhar"
@@ -4725,7 +4725,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desanimar"
@@ -4733,7 +4733,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desaparecer"
@@ -4741,7 +4741,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desbotar"
@@ -4749,7 +4749,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descalçar"
@@ -4757,7 +4757,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descansar"
@@ -4765,7 +4765,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descarregar"
@@ -4773,7 +4773,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descarrilar"
@@ -4781,7 +4781,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descartar"
@@ -4789,7 +4789,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descer"
@@ -4797,7 +4797,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descobrir"
@@ -4805,7 +4805,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descompor"
@@ -4813,7 +4813,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desconectar"
@@ -4821,7 +4821,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desconfiar"
@@ -4829,7 +4829,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descongelar"
@@ -4837,7 +4837,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "descrever"
@@ -4845,7 +4845,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desculpar"
@@ -4853,7 +4853,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desculpar-se"
@@ -4861,7 +4861,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desdobrar"
@@ -4869,7 +4869,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desejar"
@@ -4877,7 +4877,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desembocar"
@@ -4885,7 +4885,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desempenhar"
@@ -4893,7 +4893,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desenhar"
@@ -4909,7 +4909,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desfrutar"
@@ -4917,7 +4917,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "designar"
@@ -4925,7 +4925,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desistir"
@@ -4933,7 +4933,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desligar"
@@ -4941,7 +4941,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deslizar"
@@ -4949,7 +4949,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desmaiar"
@@ -4957,7 +4957,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desobedecer"
@@ -4965,7 +4965,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desolar"
@@ -4973,7 +4973,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despachar"
@@ -4981,7 +4981,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despedir"
@@ -4989,7 +4989,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despedir-se"
@@ -4997,7 +4997,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desperdiçar"
@@ -5005,7 +5005,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despertar"
@@ -5013,7 +5013,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despertar-se"
@@ -5021,7 +5021,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "despir"
@@ -5029,7 +5029,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desprender"
@@ -5037,7 +5037,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desprezar"
@@ -5045,7 +5045,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "destacar"
@@ -5053,7 +5053,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "destilar"
@@ -5061,7 +5061,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "destinar"
@@ -5069,7 +5069,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "destruir"
@@ -5077,7 +5077,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "desviar"
@@ -5085,7 +5085,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "detalhar"
@@ -5093,7 +5093,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "detectar"
@@ -5101,7 +5101,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deter"
@@ -5109,7 +5109,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "deteriorar"
@@ -5117,7 +5117,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "determinar"
@@ -5125,7 +5125,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "detestar"
@@ -5133,7 +5133,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "detonar"
@@ -5141,7 +5141,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "devastar"
@@ -5149,7 +5149,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dever"
@@ -5157,7 +5157,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "devolver"
@@ -5165,7 +5165,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "devorar"
@@ -5173,7 +5173,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "diagnosticar"
@@ -5181,7 +5181,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "diferenciar"
@@ -5189,7 +5189,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "diferir"
@@ -5197,7 +5197,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dificultar"
@@ -5205,7 +5205,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "difundir"
@@ -5213,7 +5213,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "digerir"
@@ -5221,7 +5221,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "digitar"
@@ -5229,7 +5229,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dignificar"
@@ -5237,7 +5237,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dilatar"
@@ -5245,7 +5245,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "diluir"
@@ -5253,7 +5253,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "diminuir"
@@ -5261,7 +5261,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dirigir"
@@ -5269,7 +5269,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "discernir"
@@ -5277,7 +5277,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "disciplinar"
@@ -5285,7 +5285,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "discriminar"
@@ -5293,7 +5293,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "discutir"
@@ -5301,7 +5301,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "disfarçar"
@@ -5309,7 +5309,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "disparar"
@@ -5317,7 +5317,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dispensar"
@@ -5325,7 +5325,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dispersar"
@@ -5333,7 +5333,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dispor"
@@ -5341,7 +5341,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dispor-se"
@@ -5349,7 +5349,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "disputar"
@@ -5357,7 +5357,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "disseminar"
@@ -5365,7 +5365,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dissentir"
@@ -5373,7 +5373,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dissimular"
@@ -5381,7 +5381,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dissolver"
@@ -5389,7 +5389,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "distanciar"
@@ -5397,7 +5397,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "distinguir"
@@ -5405,7 +5405,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "distrair"
@@ -5413,7 +5413,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "distrair-se"
@@ -5421,7 +5421,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "distribuir"
@@ -5429,7 +5429,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ditar"
@@ -5437,7 +5437,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divergir"
@@ -5445,7 +5445,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divertir"
@@ -5453,7 +5453,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divertir-se"
@@ -5461,7 +5461,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dividir"
@@ -5469,7 +5469,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divisar"
@@ -5477,7 +5477,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divorciar"
@@ -5485,7 +5485,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divorciar-se"
@@ -5493,7 +5493,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "divulgar"
@@ -5510,7 +5510,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "doar"
@@ -5518,7 +5518,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dobrar"
@@ -5526,7 +5526,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "documentar"
@@ -5534,7 +5534,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "doer"
@@ -5542,7 +5542,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "domesticar"
@@ -5550,7 +5550,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dominar"
@@ -5567,7 +5567,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "dramatizar"
@@ -5575,7 +5575,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "drenar"
@@ -5583,7 +5583,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "duplicar"
@@ -5591,7 +5591,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "durar"
@@ -5599,7 +5599,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "duvidar"
@@ -5607,7 +5607,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "edificar"
@@ -5615,7 +5615,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "editar"
@@ -5623,7 +5623,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "educar"
@@ -5631,7 +5631,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "efetuar"
@@ -5639,7 +5639,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ejacular"
@@ -5647,7 +5647,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "elaborar"
@@ -5655,7 +5655,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "eleger"
@@ -5663,7 +5663,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "elevar"
@@ -5671,7 +5671,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "eliminar"
@@ -5679,7 +5679,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "elogiar"
@@ -5687,7 +5687,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "eludir"
@@ -5695,7 +5695,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emagrecer"
@@ -5703,7 +5703,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emanar"
@@ -5711,7 +5711,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emancipar"
@@ -5719,7 +5719,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emascular"
@@ -5727,7 +5727,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "embarcar"
@@ -5735,7 +5735,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "embeber"
@@ -5743,7 +5743,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "embelezar"
@@ -5751,7 +5751,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "embrulhar"
@@ -5759,7 +5759,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "embruxar"
@@ -5767,7 +5767,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emendar"
@@ -5775,7 +5775,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emergir"
@@ -5783,7 +5783,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emigrar"
@@ -5791,7 +5791,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emitir"
@@ -5799,7 +5799,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emocionar"
@@ -5807,7 +5807,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emparelhar"
@@ -5815,7 +5815,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empatar"
@@ -5823,7 +5823,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empenhar"
@@ -5831,7 +5831,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empenhar-se"
@@ -5839,7 +5839,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empreender"
@@ -5847,7 +5847,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empregar"
@@ -5855,7 +5855,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "emprestar"
@@ -5863,7 +5863,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "empurrar"
@@ -5871,7 +5871,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enaltecer"
@@ -5879,7 +5879,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encaminhar"
@@ -5887,7 +5887,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encantar"
@@ -5895,7 +5895,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encarar"
@@ -5903,7 +5903,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encarcerar"
@@ -5911,7 +5911,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encarregar"
@@ -5919,7 +5919,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encender"
@@ -5927,7 +5927,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encetar"
@@ -5935,7 +5935,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encher"
@@ -5943,7 +5943,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encolher"
@@ -5951,7 +5951,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encomendar"
@@ -5959,7 +5959,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encontrar"
@@ -5967,7 +5967,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encontrar-se"
@@ -5975,7 +5975,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encorajar"
@@ -5983,7 +5983,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encostar"
@@ -5991,7 +5991,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "encurtar"
@@ -5999,7 +5999,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "endoidecer"
@@ -6007,7 +6007,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enfeitiçar"
@@ -6015,7 +6015,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enfermar"
@@ -6023,7 +6023,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enfiar"
@@ -6031,7 +6031,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enfocar"
@@ -6039,7 +6039,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enforcar"
@@ -6047,7 +6047,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enfrentar"
@@ -6055,7 +6055,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enganar"
@@ -6063,7 +6063,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enganchar"
@@ -6071,7 +6071,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "engolir"
@@ -6079,7 +6079,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "engordar"
@@ -6087,7 +6087,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "engraxar"
@@ -6095,7 +6095,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enjoar"
@@ -6103,7 +6103,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enlaçar"
@@ -6111,7 +6111,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enlevar"
@@ -6119,7 +6119,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enredar"
@@ -6127,7 +6127,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enriquecer"
@@ -6135,7 +6135,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enrolar"
@@ -6143,7 +6143,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ensaiar"
@@ -6151,7 +6151,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ensinar"
@@ -6159,7 +6159,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entediar"
@@ -6167,7 +6167,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entediar-se"
@@ -6175,7 +6175,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entender"
@@ -6183,7 +6183,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enterrar"
@@ -6191,7 +6191,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entrar"
@@ -6199,7 +6199,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entregar"
@@ -6207,7 +6207,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entreter"
@@ -6215,7 +6215,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entreter-se"
@@ -6223,7 +6223,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entrever"
@@ -6231,7 +6231,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entrevistar"
@@ -6239,7 +6239,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entristecer"
@@ -6247,7 +6247,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entupir"
@@ -6255,7 +6255,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entusiasmar"
@@ -6263,7 +6263,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "entusiasmar-se"
@@ -6271,7 +6271,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enumerar"
@@ -6279,7 +6279,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enunciar"
@@ -6287,7 +6287,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "envelhecer"
@@ -6295,7 +6295,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "envenenar"
@@ -6303,7 +6303,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "envergonhar"
@@ -6311,7 +6311,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "envergonhar-se"
@@ -6319,7 +6319,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enviar"
@@ -6327,7 +6327,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "envolver"
@@ -6335,7 +6335,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enxaguar"
@@ -6343,7 +6343,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enxergar"
@@ -6351,7 +6351,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "enxugar"
@@ -6359,7 +6359,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "equiparar"
@@ -6367,7 +6367,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "equivaler"
@@ -6375,7 +6375,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "equivocar"
@@ -6383,7 +6383,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "equivocar-se"
@@ -6391,7 +6391,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "erguer"
@@ -6399,7 +6399,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "erigir"
@@ -6407,7 +6407,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "errar"
@@ -6415,7 +6415,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escalar"
@@ -6423,7 +6423,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escapar"
@@ -6431,7 +6431,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escavar"
@@ -6439,7 +6439,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esclarecer"
@@ -6447,7 +6447,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escolher"
@@ -6455,7 +6455,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esconder"
@@ -6463,7 +6463,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esconder-se"
@@ -6471,7 +6471,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escorregar"
@@ -6479,7 +6479,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escorrer"
@@ -6487,7 +6487,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escovar"
@@ -6495,7 +6495,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escrever"
@@ -6503,7 +6503,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escusar"
@@ -6511,7 +6511,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escusar-se"
@@ -6519,7 +6519,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "escutar"
@@ -6527,7 +6527,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esfoliar"
@@ -6535,7 +6535,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esfregar"
@@ -6543,7 +6543,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esfriar"
@@ -6551,7 +6551,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esfumar"
@@ -6559,7 +6559,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esgotar"
@@ -6567,7 +6567,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esmagar"
@@ -6575,7 +6575,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espalhar"
@@ -6583,7 +6583,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espantar"
@@ -6591,7 +6591,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espavorir"
@@ -6599,7 +6599,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "especializar-se"
@@ -6607,7 +6607,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "especificar"
@@ -6615,7 +6615,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "especular"
@@ -6623,7 +6623,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esperar"
@@ -6631,7 +6631,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espevitar"
@@ -6639,7 +6639,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espiar"
@@ -6647,7 +6647,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espionar"
@@ -6655,7 +6655,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espirrar"
@@ -6663,7 +6663,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espreitar"
@@ -6671,7 +6671,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "espremer"
@@ -6679,7 +6679,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquecer"
@@ -6687,7 +6687,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquecer-se"
@@ -6695,7 +6695,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquentar"
@@ -6703,7 +6703,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquiar"
@@ -6711,7 +6711,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquilar"
@@ -6719,7 +6719,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esquivar"
@@ -6727,7 +6727,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estabelecer"
@@ -6735,7 +6735,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estacionar"
@@ -6743,7 +6743,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estalar"
@@ -6760,7 +6760,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estender"
@@ -6768,7 +6768,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esterilizar"
@@ -6776,7 +6776,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estigmatizar"
@@ -6784,7 +6784,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estimar"
@@ -6792,7 +6792,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estimular"
@@ -6800,7 +6800,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estipular"
@@ -6808,7 +6808,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estirar"
@@ -6816,7 +6816,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estourar"
@@ -6824,7 +6824,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estragar"
@@ -6832,7 +6832,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estrangular"
@@ -6840,7 +6840,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estranhar"
@@ -6848,7 +6848,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estrear"
@@ -6856,7 +6856,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estrelar"
@@ -6864,7 +6864,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estremecer"
@@ -6872,7 +6872,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estressar"
@@ -6880,7 +6880,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estudar"
@@ -6888,7 +6888,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "estufar"
@@ -6896,7 +6896,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "esvaziar"
@@ -6904,7 +6904,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evacuar"
@@ -6912,7 +6912,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evadir"
@@ -6920,7 +6920,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evaporar"
@@ -6928,7 +6928,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evitar"
@@ -6936,7 +6936,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evoluir"
@@ -6944,7 +6944,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "evolver"
@@ -6952,7 +6952,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exagerar"
@@ -6960,7 +6960,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exalar"
@@ -6968,7 +6968,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "examinar"
@@ -6976,7 +6976,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exasperar"
@@ -6984,7 +6984,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exceder"
@@ -6992,7 +6992,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exceler"
@@ -7000,7 +7000,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exclamar"
@@ -7008,7 +7008,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "excluir"
@@ -7016,7 +7016,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "executar"
@@ -7024,7 +7024,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exercer"
@@ -7032,7 +7032,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exibir"
@@ -7040,7 +7040,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exigir"
@@ -7048,7 +7048,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "eximir"
@@ -7056,7 +7056,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "existir"
@@ -7064,7 +7064,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exonerar"
@@ -7072,7 +7072,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expandir"
@@ -7080,7 +7080,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expatriar"
@@ -7088,7 +7088,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expedir"
@@ -7096,7 +7096,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expelir"
@@ -7104,7 +7104,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "experimentar"
@@ -7112,7 +7112,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expirar"
@@ -7120,7 +7120,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "explicar"
@@ -7128,7 +7128,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "explodir"
@@ -7136,7 +7136,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "explorar"
@@ -7144,7 +7144,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expor"
@@ -7152,7 +7152,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exportar"
@@ -7160,7 +7160,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expressar"
@@ -7168,7 +7168,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exprimir"
@@ -7176,7 +7176,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "expulsar"
@@ -7184,7 +7184,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "exterminar"
@@ -7192,7 +7192,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "extinguir"
@@ -7200,7 +7200,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "extraditar"
@@ -7208,7 +7208,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "extrair"
@@ -7216,7 +7216,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fabricar"
@@ -7224,7 +7224,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "facilitar"
@@ -7232,7 +7232,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fagocitar"
@@ -7254,7 +7254,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "falecer"
@@ -7262,7 +7262,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "falhar"
@@ -7270,7 +7270,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "falir"
@@ -7278,7 +7278,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "falsear"
@@ -7286,7 +7286,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "falsificar"
@@ -7294,7 +7294,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "faltar"
@@ -7302,7 +7302,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fanfarronar"
@@ -7310,7 +7310,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fantasiar"
@@ -7318,7 +7318,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fartar"
@@ -7326,7 +7326,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fascinar"
@@ -7334,7 +7334,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fatigar"
@@ -7342,7 +7342,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "faturar"
@@ -7350,7 +7350,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "favorecer"
@@ -7367,7 +7367,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fechar"
@@ -7375,7 +7375,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "feder"
@@ -7383,7 +7383,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "felicitar"
@@ -7391,7 +7391,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ferir"
@@ -7399,7 +7399,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fertilizar"
@@ -7407,7 +7407,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ferver"
@@ -7415,7 +7415,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ficar"
@@ -7423,7 +7423,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fichar"
@@ -7431,7 +7431,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "figurar"
@@ -7439,7 +7439,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "filmar"
@@ -7447,7 +7447,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "filosofar"
@@ -7455,7 +7455,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "filtrar"
@@ -7463,7 +7463,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "finalizar"
@@ -7471,7 +7471,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "financiar"
@@ -7479,7 +7479,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fincar"
@@ -7487,7 +7487,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fingir"
@@ -7495,7 +7495,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "firmar"
@@ -7503,7 +7503,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fitar"
@@ -7511,7 +7511,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fixar"
@@ -7519,7 +7519,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "flectir"
@@ -7527,7 +7527,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "flertar"
@@ -7535,7 +7535,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "flexibilizar"
@@ -7543,7 +7543,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "flexionar"
@@ -7551,7 +7551,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "florescer"
@@ -7559,7 +7559,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "florir"
@@ -7567,7 +7567,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fluir"
@@ -7575,7 +7575,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "flutuar"
@@ -7583,7 +7583,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "focalizar"
@@ -7591,7 +7591,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "focar"
@@ -7599,7 +7599,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "foder"
@@ -7607,7 +7607,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "folhear"
@@ -7615,7 +7615,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fomentar"
@@ -7623,7 +7623,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "forçar"
@@ -7631,7 +7631,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "formalizar"
@@ -7639,7 +7639,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "formar"
@@ -7647,7 +7647,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "formular"
@@ -7655,7 +7655,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fornear"
@@ -7663,7 +7663,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fornecer"
@@ -7671,7 +7671,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fornicar"
@@ -7679,7 +7679,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fortalecer"
@@ -7687,7 +7687,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fortificar"
@@ -7695,7 +7695,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fotocopiar"
@@ -7703,7 +7703,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fotografar"
@@ -7711,7 +7711,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fracassar"
@@ -7719,7 +7719,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fraternizar"
@@ -7727,7 +7727,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fraturar"
@@ -7735,7 +7735,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "frear"
@@ -7743,7 +7743,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "frequentar"
@@ -7751,7 +7751,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "frigir"
@@ -7759,7 +7759,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fritar"
@@ -7767,7 +7767,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "frustrar"
@@ -7775,7 +7775,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fugir"
@@ -7783,7 +7783,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fumar"
@@ -7791,7 +7791,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fumigar"
@@ -7799,7 +7799,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "funcionar"
@@ -7807,7 +7807,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fundar"
@@ -7815,7 +7815,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fundir"
@@ -7823,7 +7823,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "furar"
@@ -7831,7 +7831,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "fusionar"
@@ -7839,7 +7839,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gaguejar"
@@ -7847,7 +7847,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "galopar"
@@ -7855,7 +7855,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "galvanizar"
@@ -7863,7 +7863,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ganhar"
@@ -7871,7 +7871,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "garantir"
@@ -7879,7 +7879,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gastar"
@@ -7887,7 +7887,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gelar"
@@ -7895,7 +7895,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gemer"
@@ -7903,7 +7903,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "generalizar"
@@ -7911,7 +7911,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gerar"
@@ -7919,7 +7919,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gerir"
@@ -7927,7 +7927,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gesticular"
@@ -7935,7 +7935,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "girar"
@@ -7943,7 +7943,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "glorificar"
@@ -7951,7 +7951,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "golpear"
@@ -7959,7 +7959,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gostar"
@@ -7967,7 +7967,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "governar"
@@ -7975,7 +7975,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gozar"
@@ -7983,7 +7983,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gracejar"
@@ -7991,7 +7991,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "graduar"
@@ -7999,7 +7999,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "granizar"
@@ -8007,7 +8007,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gratificar"
@@ -8015,7 +8015,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gravar"
@@ -8023,7 +8023,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "gritar"
@@ -8031,7 +8031,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "grulhar"
@@ -8039,7 +8039,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "grunhir"
@@ -8047,7 +8047,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "guardar"
@@ -8055,7 +8055,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "guiar"
@@ -8063,7 +8063,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "guisar"
@@ -8071,7 +8071,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "habitar"
@@ -8079,7 +8079,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "harmonizar"
@@ -8096,7 +8096,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "herdar"
@@ -8104,7 +8104,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "hesitar"
@@ -8112,7 +8112,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "hidratar"
@@ -8120,7 +8120,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "hipnotizar"
@@ -8128,7 +8128,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "horrorizar"
@@ -8136,7 +8136,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "hospedar"
@@ -8144,7 +8144,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "hospitalizar"
@@ -8152,7 +8152,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "humilhar"
@@ -8160,7 +8160,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "idealizar"
@@ -8168,7 +8168,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "idear"
@@ -8176,7 +8176,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "identificar"
@@ -8184,7 +8184,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ignorar"
@@ -8192,7 +8192,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "igualar"
@@ -8200,7 +8200,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "iludir"
@@ -8208,7 +8208,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "iluminar"
@@ -8216,7 +8216,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ilusionar"
@@ -8224,7 +8224,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ilustrar"
@@ -8232,7 +8232,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imaginar"
@@ -8240,7 +8240,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imaginar-se"
@@ -8248,7 +8248,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imergir"
@@ -8256,7 +8256,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imigrar"
@@ -8264,7 +8264,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imiscuir-se"
@@ -8272,7 +8272,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imitar"
@@ -8280,7 +8280,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "impedir"
@@ -8288,7 +8288,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "impelir"
@@ -8296,7 +8296,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "implantar"
@@ -8304,7 +8304,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "implementar"
@@ -8312,7 +8312,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "implicar"
@@ -8320,7 +8320,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "impor"
@@ -8328,7 +8328,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "importar"
@@ -8336,7 +8336,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "impressionar"
@@ -8344,7 +8344,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imprimir"
@@ -8352,7 +8352,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "improvisar"
@@ -8360,7 +8360,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "impugnar"
@@ -8368,7 +8368,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "imunizar"
@@ -8376,7 +8376,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inalar"
@@ -8384,7 +8384,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inaugurar"
@@ -8392,7 +8392,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incendiar"
@@ -8400,7 +8400,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inchar"
@@ -8408,7 +8408,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incidir"
@@ -8416,7 +8416,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incinerar"
@@ -8424,7 +8424,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inclinar"
@@ -8432,7 +8432,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incluir"
@@ -8440,7 +8440,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incoar"
@@ -8448,7 +8448,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incomodar"
@@ -8456,7 +8456,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incorporar"
@@ -8464,7 +8464,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incorrer"
@@ -8472,7 +8472,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incrementar"
@@ -8480,7 +8480,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incriminar"
@@ -8488,7 +8488,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "incubar"
@@ -8496,7 +8496,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "indagar"
@@ -8504,7 +8504,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "indicar"
@@ -8512,7 +8512,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "indignar"
@@ -8520,7 +8520,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "individualizar"
@@ -8528,7 +8528,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "industrializar"
@@ -8536,7 +8536,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "induzir"
@@ -8544,7 +8544,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infectar"
@@ -8552,7 +8552,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inferir"
@@ -8560,7 +8560,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infetar"
@@ -8568,7 +8568,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infiltrar"
@@ -8576,7 +8576,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inflamar"
@@ -8584,7 +8584,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inflar"
@@ -8592,7 +8592,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infligir"
@@ -8600,7 +8600,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "influenciar"
@@ -8608,7 +8608,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "informar"
@@ -8616,7 +8616,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "informar-se"
@@ -8624,7 +8624,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infringir"
@@ -8632,7 +8632,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "infundir"
@@ -8640,7 +8640,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ingerir"
@@ -8648,7 +8648,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ingressar"
@@ -8656,7 +8656,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inibir"
@@ -8664,7 +8664,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "iniciar"
@@ -8672,7 +8672,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "injetar"
@@ -8680,7 +8680,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inocular"
@@ -8688,7 +8688,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inovar"
@@ -8696,7 +8696,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inquirir"
@@ -8704,7 +8704,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inscrever"
@@ -8712,7 +8712,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inscrever-se"
@@ -8720,7 +8720,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inserir"
@@ -8728,7 +8728,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "insinuar"
@@ -8736,7 +8736,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "insistir"
@@ -8744,7 +8744,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inspecionar"
@@ -8752,7 +8752,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inspirar"
@@ -8760,7 +8760,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "instalar"
@@ -8768,7 +8768,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "instigar"
@@ -8776,7 +8776,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "instituir"
@@ -8784,7 +8784,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "instruir"
@@ -8792,7 +8792,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "insultar"
@@ -8800,7 +8800,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "integrar"
@@ -8808,7 +8808,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intentar"
@@ -8816,7 +8816,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intercambiar"
@@ -8824,7 +8824,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interceder"
@@ -8832,7 +8832,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interceptar"
@@ -8840,7 +8840,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intercetar"
@@ -8848,7 +8848,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interessar"
@@ -8856,7 +8856,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interessar-se"
@@ -8864,7 +8864,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interferir"
@@ -8872,7 +8872,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "internar"
@@ -8880,7 +8880,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interpor"
@@ -8888,7 +8888,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interpretar"
@@ -8896,7 +8896,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interrogar"
@@ -8904,7 +8904,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "interromper"
@@ -8912,7 +8912,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intervir"
@@ -8920,7 +8920,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intimidar"
@@ -8928,7 +8928,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intoxicar"
@@ -8936,7 +8936,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "introduzir"
@@ -8944,7 +8944,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "intuir"
@@ -8952,7 +8952,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inundar"
@@ -8960,7 +8960,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "invadir"
@@ -8968,7 +8968,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "invalidar"
@@ -8976,7 +8976,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "invejar"
@@ -8984,7 +8984,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inventar"
@@ -8992,7 +8992,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "inverter"
@@ -9000,7 +9000,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "investigar"
@@ -9008,7 +9008,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "investir"
@@ -9016,7 +9016,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "invitar"
@@ -9024,7 +9024,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "invocar"
@@ -9040,7 +9040,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ir-se"
@@ -9048,7 +9048,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "irmanar"
@@ -9056,7 +9056,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "irradiar"
@@ -9064,7 +9064,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "irrigar"
@@ -9072,7 +9072,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "irritar"
@@ -9080,7 +9080,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "irromper"
@@ -9088,7 +9088,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "isolar"
@@ -9096,7 +9096,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "jantar"
@@ -9104,7 +9104,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "jazer"
@@ -9112,7 +9112,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "jogar"
@@ -9120,7 +9120,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "julgar"
@@ -9128,7 +9128,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "juntar"
@@ -9136,7 +9136,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "jurar"
@@ -9144,7 +9144,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "justapor"
@@ -9152,7 +9152,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "justificar"
@@ -9160,7 +9160,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lactar"
@@ -9168,7 +9168,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ladrar"
@@ -9176,7 +9176,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lamber"
@@ -9184,7 +9184,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lambiscar"
@@ -9192,7 +9192,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lamentar"
@@ -9200,7 +9200,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lamentar-se"
@@ -9208,7 +9208,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lançar"
@@ -9216,7 +9216,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lanchar"
@@ -9224,7 +9224,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "largar"
@@ -9232,7 +9232,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "latir"
@@ -9240,7 +9240,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lavar"
@@ -9248,7 +9248,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "legalizar"
@@ -9256,7 +9256,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "legar"
@@ -9264,7 +9264,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "legislar"
@@ -9272,7 +9272,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "legitimar"
@@ -9280,7 +9280,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lembrar"
@@ -9305,7 +9305,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "levantar"
@@ -9321,7 +9321,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "levar"
@@ -9329,7 +9329,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "liberar"
@@ -9337,7 +9337,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "libertar"
@@ -9345,7 +9345,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "licenciar"
@@ -9353,7 +9353,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lidar"
@@ -9361,7 +9361,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "liderar"
@@ -9369,7 +9369,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ligar"
@@ -9377,7 +9377,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "limitar"
@@ -9385,7 +9385,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "limpar"
@@ -9393,7 +9393,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "linchar"
@@ -9401,7 +9401,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "liquefazer"
@@ -9409,7 +9409,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "liquidar"
@@ -9417,7 +9417,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "litigar"
@@ -9425,7 +9425,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "livrar"
@@ -9433,7 +9433,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "localizar"
@@ -9441,7 +9441,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lograr"
@@ -9449,7 +9449,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "louvar"
@@ -9457,7 +9457,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lubrificar"
@@ -9465,7 +9465,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lucrar"
@@ -9473,7 +9473,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "lutar"
@@ -9481,7 +9481,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "luzir"
@@ -9489,7 +9489,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "machucar"
@@ -9497,7 +9497,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "madrugar"
@@ -9505,7 +9505,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "madurar"
@@ -9513,7 +9513,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "maldizer"
@@ -9521,7 +9521,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "malquerer"
@@ -9529,7 +9529,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "maltratar"
@@ -9537,7 +9537,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manchar"
@@ -9545,7 +9545,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mandar"
@@ -9553,7 +9553,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manejar"
@@ -9561,7 +9561,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manifestar"
@@ -9569,7 +9569,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manipular"
@@ -9577,7 +9577,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manobrar"
@@ -9585,7 +9585,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manter"
@@ -9593,7 +9593,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manufacturar"
@@ -9601,7 +9601,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "manufaturar"
@@ -9609,7 +9609,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "maquiar"
@@ -9617,7 +9617,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "maquiar-se"
@@ -9625,7 +9625,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "maravilhar"
@@ -9633,7 +9633,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "marcar"
@@ -9641,7 +9641,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "marchar"
@@ -9649,7 +9649,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "marear"
@@ -9657,7 +9657,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mastigar"
@@ -9665,7 +9665,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "masturbar"
@@ -9673,7 +9673,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "matar"
@@ -9681,7 +9681,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mediar"
@@ -9689,7 +9689,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "medicar"
@@ -9697,7 +9697,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "medir"
@@ -9705,7 +9705,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "meditar"
@@ -9713,7 +9713,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "melhorar"
@@ -9721,7 +9721,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "memorizar"
@@ -9729,7 +9729,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mencionar"
@@ -9737,7 +9737,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "menosprezar"
@@ -9745,7 +9745,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "menstruar"
@@ -9753,7 +9753,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mentir"
@@ -9761,7 +9761,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "merecer"
@@ -9769,7 +9769,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "merendar"
@@ -9777,7 +9777,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mergulhar"
@@ -9785,7 +9785,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "meter"
@@ -9793,7 +9793,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mexer"
@@ -9801,7 +9801,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "miar"
@@ -9809,7 +9809,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "migrar"
@@ -9817,7 +9817,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mijar"
@@ -9825,7 +9825,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mimar"
@@ -9833,7 +9833,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "minguar"
@@ -9841,7 +9841,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mirar"
@@ -9849,7 +9849,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mistificar"
@@ -9857,7 +9857,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "misturar"
@@ -9865,7 +9865,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mitigar"
@@ -9873,7 +9873,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mobiliar"
@@ -9881,7 +9881,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mobilizar"
@@ -9889,7 +9889,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "modelar"
@@ -9897,7 +9897,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "moderar"
@@ -9905,7 +9905,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "modernizar"
@@ -9913,7 +9913,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "modificar"
@@ -9921,7 +9921,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "modular"
@@ -9929,7 +9929,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "moer"
@@ -9937,7 +9937,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "molestar"
@@ -9945,7 +9945,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "molhar"
@@ -9953,7 +9953,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "montar"
@@ -9961,7 +9961,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "morar"
@@ -9969,7 +9969,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "morder"
@@ -9977,7 +9977,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "morrer"
@@ -9985,7 +9985,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mostrar"
@@ -9993,7 +9993,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "motivar"
@@ -10001,7 +10001,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mover"
@@ -10009,7 +10009,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mudar"
@@ -10017,7 +10017,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "multar"
@@ -10025,7 +10025,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "multiplicar"
@@ -10033,7 +10033,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "murmurar"
@@ -10041,7 +10041,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "mutilar"
@@ -10049,7 +10049,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nadar"
@@ -10057,7 +10057,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "narrar"
@@ -10065,7 +10065,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nascer"
@@ -10073,7 +10073,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "naturalizar"
@@ -10081,7 +10081,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "naufragar"
@@ -10089,7 +10089,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "navegar"
@@ -10097,7 +10097,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "necessitar"
@@ -10105,7 +10105,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "negar"
@@ -10113,7 +10113,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "negociar"
@@ -10121,7 +10121,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "neutralizar"
@@ -10129,7 +10129,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nevar"
@@ -10137,7 +10137,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "neviscar"
@@ -10145,7 +10145,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nivelar"
@@ -10153,7 +10153,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nomear"
@@ -10161,7 +10161,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "notar"
@@ -10169,7 +10169,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "notificar"
@@ -10177,7 +10177,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "numerar"
@@ -10185,7 +10185,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "nutrir"
@@ -10193,7 +10193,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "obedecer"
@@ -10201,7 +10201,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "obliquar"
@@ -10209,7 +10209,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "obrigar"
@@ -10217,7 +10217,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "observar"
@@ -10225,7 +10225,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "obstruir"
@@ -10233,7 +10233,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "obter"
@@ -10241,7 +10241,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ocorrer"
@@ -10249,7 +10249,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ocultar"
@@ -10257,7 +10257,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ocupar"
@@ -10265,7 +10265,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "odiar"
@@ -10273,7 +10273,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ofender"
@@ -10281,7 +10281,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "oferecer"
@@ -10289,7 +10289,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "olhar"
@@ -10297,7 +10297,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "olvidar"
@@ -10305,7 +10305,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "omitir"
@@ -10313,7 +10313,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "operar"
@@ -10321,7 +10321,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "opinar"
@@ -10329,7 +10329,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "opor"
@@ -10337,7 +10337,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "optar"
@@ -10345,7 +10345,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "orçar"
@@ -10353,7 +10353,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ordenar"
@@ -10361,7 +10361,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ordenhar"
@@ -10369,7 +10369,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "organizar"
@@ -10377,7 +10377,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "orientar"
@@ -10385,7 +10385,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "originar"
@@ -10393,7 +10393,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ornar"
@@ -10401,7 +10401,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "orquestrar"
@@ -10409,7 +10409,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "oscilar"
@@ -10417,7 +10417,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ousar"
@@ -10425,7 +10425,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "outorgar"
@@ -10442,7 +10442,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ovular"
@@ -10450,7 +10450,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "oxidar"
@@ -10458,7 +10458,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "oxigenar"
@@ -10466,7 +10466,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pactuar"
@@ -10474,7 +10474,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "padecer"
@@ -10482,7 +10482,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pagar"
@@ -10490,7 +10490,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "palpitar"
@@ -10498,7 +10498,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "palrar"
@@ -10506,7 +10506,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "paquerar"
@@ -10514,7 +10514,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parabenizar"
@@ -10522,7 +10522,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parafrasear"
@@ -10530,7 +10530,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "paralisar"
@@ -10538,7 +10538,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parar"
@@ -10546,7 +10546,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parecer"
@@ -10554,7 +10554,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parir"
@@ -10562,7 +10562,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "parodiar"
@@ -10570,7 +10570,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "participar"
@@ -10578,7 +10578,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "partilhar"
@@ -10595,7 +10595,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pasmar"
@@ -10603,7 +10603,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "passar"
@@ -10611,7 +10611,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "passear"
@@ -10619,7 +10619,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "patinar"
@@ -10627,7 +10627,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pausar"
@@ -10635,7 +10635,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pedalar"
@@ -10652,7 +10652,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pegar"
@@ -10660,7 +10660,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pender"
@@ -10668,7 +10668,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pendurar"
@@ -10676,7 +10676,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "peneirar"
@@ -10684,7 +10684,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "penetrar"
@@ -10692,7 +10692,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "penhorar"
@@ -10700,7 +10700,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pensar"
@@ -10708,7 +10708,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pentear"
@@ -10716,7 +10716,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pentear-se"
@@ -10724,7 +10724,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perceber"
@@ -10732,7 +10732,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "percutir"
@@ -10740,7 +10740,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perder"
@@ -10748,7 +10748,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perdoar"
@@ -10756,7 +10756,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perfeccionar"
@@ -10764,7 +10764,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perfumar"
@@ -10772,7 +10772,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perfurar"
@@ -10780,7 +10780,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perguntar"
@@ -10788,7 +10788,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "permanecer"
@@ -10796,7 +10796,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "permitir"
@@ -10804,7 +10804,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perpetuar"
@@ -10812,7 +10812,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perseguir"
@@ -10820,7 +10820,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "perseverar"
@@ -10828,7 +10828,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "persistir"
@@ -10836,7 +10836,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "personalizar"
@@ -10844,7 +10844,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "persuadir"
@@ -10852,7 +10852,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pertencer"
@@ -10860,7 +10860,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pesar"
@@ -10868,7 +10868,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pescar"
@@ -10876,7 +10876,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pesquisar"
@@ -10884,7 +10884,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "petiscar"
@@ -10892,7 +10892,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "picar"
@@ -10900,7 +10900,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pintar"
@@ -10908,7 +10908,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "piorar"
@@ -10916,7 +10916,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pisar"
@@ -10924,7 +10924,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "planar"
@@ -10932,7 +10932,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "planificar"
@@ -10940,7 +10940,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "plantar"
@@ -10957,7 +10957,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "polarizar"
@@ -10965,7 +10965,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "polinizar"
@@ -10973,7 +10973,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "polir"
@@ -10981,7 +10981,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "poluir"
@@ -10998,7 +10998,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "posicionar"
@@ -11006,7 +11006,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pospor"
@@ -11014,7 +11014,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "possibilitar"
@@ -11022,7 +11022,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "possuir"
@@ -11030,7 +11030,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "postular"
@@ -11038,7 +11038,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "potenciar"
@@ -11046,7 +11046,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "poupar"
@@ -11054,7 +11054,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pousar"
@@ -11062,7 +11062,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "praticar"
@@ -11070,7 +11070,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preceder"
@@ -11078,7 +11078,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "precipitar"
@@ -11086,7 +11086,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "precisar"
@@ -11094,7 +11094,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "predicar"
@@ -11102,7 +11102,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "predominar"
@@ -11110,7 +11110,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preencher"
@@ -11118,7 +11118,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preferir"
@@ -11126,7 +11126,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pregar"
@@ -11134,7 +11134,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prejudicar"
@@ -11142,7 +11142,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prejulgar"
@@ -11150,7 +11150,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "premiar"
@@ -11158,7 +11158,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prender"
@@ -11166,7 +11166,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preocupar-se"
@@ -11174,7 +11174,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preparar"
@@ -11182,7 +11182,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preparar-se"
@@ -11190,7 +11190,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prescrever"
@@ -11198,7 +11198,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "preservar"
@@ -11206,7 +11206,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "presidir"
@@ -11214,7 +11214,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pressentir"
@@ -11222,7 +11222,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pressionar"
@@ -11230,7 +11230,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prestar"
@@ -11238,7 +11238,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "presumir"
@@ -11246,7 +11246,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pretender"
@@ -11254,7 +11254,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prevalecer"
@@ -11262,7 +11262,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prevenir"
@@ -11270,7 +11270,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prever"
@@ -11278,7 +11278,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "principiar"
@@ -11286,7 +11286,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "privar"
@@ -11294,7 +11294,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proceder"
@@ -11302,7 +11302,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "processar"
@@ -11310,7 +11310,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proclamar"
@@ -11318,7 +11318,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "procrastinar"
@@ -11326,7 +11326,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "procurar"
@@ -11334,7 +11334,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "produzir"
@@ -11342,7 +11342,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prognosticar"
@@ -11350,7 +11350,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "programar"
@@ -11366,7 +11366,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proibir"
@@ -11374,7 +11374,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proliferar"
@@ -11382,7 +11382,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prolongar"
@@ -11390,7 +11390,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prometer"
@@ -11398,7 +11398,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "promover"
@@ -11406,7 +11406,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pronunciar"
@@ -11414,7 +11414,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "propagar"
@@ -11422,7 +11422,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "propor"
@@ -11430,7 +11430,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proporcionar"
@@ -11438,7 +11438,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prosseguir"
@@ -11446,7 +11446,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "protagonizar"
@@ -11454,7 +11454,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "proteger"
@@ -11462,7 +11462,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "protestar"
@@ -11470,7 +11470,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "provar"
@@ -11478,7 +11478,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "prover"
@@ -11486,7 +11486,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "provir"
@@ -11494,7 +11494,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "provocar"
@@ -11502,7 +11502,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "publicar"
@@ -11510,7 +11510,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "publicitar"
@@ -11518,7 +11518,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "puir"
@@ -11526,7 +11526,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "pular"
@@ -11534,7 +11534,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "punçar"
@@ -11542,7 +11542,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "punir"
@@ -11550,7 +11550,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "purificar"
@@ -11558,7 +11558,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "puxar"
@@ -11566,7 +11566,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "qualificar"
@@ -11574,7 +11574,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "quantificar"
@@ -11582,7 +11582,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "quebrantar"
@@ -11590,7 +11590,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "quebrar"
@@ -11598,7 +11598,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "queimar"
@@ -11606,7 +11606,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "queixar-se"
@@ -11623,7 +11623,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "questionar"
@@ -11631,7 +11631,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "radiar"
@@ -11639,7 +11639,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "raiar"
@@ -11647,7 +11647,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ralar"
@@ -11655,7 +11655,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ranger"
@@ -11663,7 +11663,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "raptar"
@@ -11671,7 +11671,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rasgar"
@@ -11679,7 +11679,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "raspar"
@@ -11687,7 +11687,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reabilitar"
@@ -11695,7 +11695,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reagir"
@@ -11703,7 +11703,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "realizar"
@@ -11711,7 +11711,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rebelar"
@@ -11719,7 +11719,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rebelar-se"
@@ -11727,7 +11727,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rebentar"
@@ -11735,7 +11735,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rebobinar"
@@ -11743,7 +11743,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rebocar"
@@ -11751,7 +11751,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recapitular"
@@ -11759,7 +11759,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recarregar"
@@ -11767,7 +11767,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recear"
@@ -11775,7 +11775,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "receber"
@@ -11783,7 +11783,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reciclar"
@@ -11791,7 +11791,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reciprocar"
@@ -11799,7 +11799,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recitar"
@@ -11807,7 +11807,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reclamar"
@@ -11815,7 +11815,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recolher"
@@ -11823,7 +11823,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recomeçar"
@@ -11831,7 +11831,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recomendar"
@@ -11839,7 +11839,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recompensar"
@@ -11847,7 +11847,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reconciliar"
@@ -11855,7 +11855,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reconhecer"
@@ -11863,7 +11863,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reconquistar"
@@ -11871,7 +11871,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reconstruir"
@@ -11879,7 +11879,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recordar"
@@ -11887,7 +11887,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recorrer"
@@ -11895,7 +11895,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recrutar"
@@ -11903,7 +11903,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recuperar"
@@ -11911,7 +11911,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "recusar"
@@ -11919,7 +11919,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "redigir"
@@ -11927,7 +11927,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "redistribuir"
@@ -11935,7 +11935,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reduzir"
@@ -11943,7 +11943,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "refazer"
@@ -11951,7 +11951,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "referir"
@@ -11959,7 +11959,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "refletir"
@@ -11967,7 +11967,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reflexionar"
@@ -11975,7 +11975,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "refogar"
@@ -11983,7 +11983,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reforçar"
@@ -11991,7 +11991,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reformar"
@@ -11999,7 +11999,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "refugiar-se"
@@ -12007,7 +12007,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "refundir"
@@ -12015,7 +12015,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "regalar"
@@ -12023,7 +12023,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "regenerar"
@@ -12031,7 +12031,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reger"
@@ -12039,7 +12039,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "registar"
@@ -12047,7 +12047,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "registrar-se"
@@ -12055,7 +12055,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "regressar"
@@ -12063,7 +12063,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "regular"
@@ -12071,7 +12071,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reinar"
@@ -12079,7 +12079,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reiniciar"
@@ -12087,7 +12087,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reintegrar"
@@ -12095,7 +12095,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rejeitar"
@@ -12103,7 +12103,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "relacionar"
@@ -12111,7 +12111,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "relatar"
@@ -12119,7 +12119,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "relativizar"
@@ -12127,7 +12127,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "relaxar-se"
@@ -12135,7 +12135,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "relegar"
@@ -12143,7 +12143,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reluzir"
@@ -12151,7 +12151,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "remar"
@@ -12159,7 +12159,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "remunerar"
@@ -12167,7 +12167,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "renascer"
@@ -12175,7 +12175,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "render"
@@ -12183,7 +12183,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "renovar"
@@ -12191,7 +12191,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "renunciar"
@@ -12199,7 +12199,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reparar"
@@ -12207,7 +12207,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "repatriar"
@@ -12215,7 +12215,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "repelir"
@@ -12223,7 +12223,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "repercutir"
@@ -12231,7 +12231,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "repetir"
@@ -12239,7 +12239,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "replicar"
@@ -12247,7 +12247,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "representar"
@@ -12255,7 +12255,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reprimir"
@@ -12263,7 +12263,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reprochar"
@@ -12271,7 +12271,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reproduzir"
@@ -12279,7 +12279,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "requerer"
@@ -12287,7 +12287,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "requisitar"
@@ -12295,7 +12295,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reservar"
@@ -12303,7 +12303,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "residir"
@@ -12311,7 +12311,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "resistir"
@@ -12319,7 +12319,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "resmungar"
@@ -12327,7 +12327,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "resolver"
@@ -12335,7 +12335,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "respeitar"
@@ -12343,7 +12343,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "respirar"
@@ -12351,7 +12351,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "responder"
@@ -12359,7 +12359,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ressaltar"
@@ -12367,7 +12367,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "restabelecer"
@@ -12375,7 +12375,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "restar"
@@ -12383,7 +12383,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "restaurar"
@@ -12391,7 +12391,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "restituir"
@@ -12399,7 +12399,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "restringir"
@@ -12407,7 +12407,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "resultar"
@@ -12415,7 +12415,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "resumir"
@@ -12423,7 +12423,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reter"
@@ -12431,7 +12431,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "retificar"
@@ -12439,7 +12439,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "retirar"
@@ -12447,7 +12447,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "retocar"
@@ -12455,7 +12455,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "retornar"
@@ -12463,7 +12463,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "retroceder"
@@ -12471,7 +12471,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "reunir"
@@ -12479,7 +12479,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "revalidar"
@@ -12487,7 +12487,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "revelar"
@@ -12495,7 +12495,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rever"
@@ -12503,7 +12503,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "revisar"
@@ -12511,7 +12511,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "revogar"
@@ -12519,7 +12519,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rezar"
@@ -12527,7 +12527,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ridicularizar"
@@ -12535,7 +12535,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rir"
@@ -12543,7 +12543,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "riscar"
@@ -12551,7 +12551,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rivalizar"
@@ -12559,7 +12559,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "roçar"
@@ -12567,7 +12567,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rociar"
@@ -12575,7 +12575,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rodar"
@@ -12583,7 +12583,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rodear"
@@ -12591,7 +12591,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rogar"
@@ -12599,7 +12599,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rolar"
@@ -12607,7 +12607,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "romper"
@@ -12615,7 +12615,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "roncar"
@@ -12623,7 +12623,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rondar"
@@ -12631,7 +12631,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "roubar"
@@ -12639,7 +12639,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "rugir"
@@ -12647,7 +12647,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ruminar"
@@ -12664,7 +12664,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sabotar"
@@ -12672,7 +12672,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sacar"
@@ -12680,7 +12680,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "saciar"
@@ -12688,7 +12688,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sacrificar"
@@ -12696,7 +12696,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sacudir"
@@ -12704,7 +12704,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sair"
@@ -12712,7 +12712,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "salgar"
@@ -12720,7 +12720,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "salientar"
@@ -12728,7 +12728,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "salpicar"
@@ -12736,7 +12736,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "saltar"
@@ -12744,7 +12744,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "salvaguardar"
@@ -12752,7 +12752,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "salvar"
@@ -12760,7 +12760,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sangrar"
@@ -12768,7 +12768,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "saquear"
@@ -12776,7 +12776,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "satirizar"
@@ -12784,7 +12784,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "satisfazer"
@@ -12792,7 +12792,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "saturar"
@@ -12800,7 +12800,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "saudar"
@@ -12808,7 +12808,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "secar"
@@ -12816,7 +12816,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "secularizar"
@@ -12824,7 +12824,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "seduzir"
@@ -12832,7 +12832,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "segar"
@@ -12840,7 +12840,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "segmentar"
@@ -12848,7 +12848,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "segregar"
@@ -12864,7 +12864,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "segurar"
@@ -12872,7 +12872,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "selecionar"
@@ -12880,7 +12880,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "semear"
@@ -12888,7 +12888,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sentar-se"
@@ -12896,7 +12896,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sentir"
@@ -12904,7 +12904,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sentir-se"
@@ -12912,7 +12912,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "separar"
@@ -12920,7 +12920,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "separar-se"
@@ -12928,7 +12928,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sepultar"
@@ -12936,7 +12936,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sequestrar"
@@ -12958,7 +12958,7 @@ export const data = {
         }, 
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "serrar"
@@ -12966,7 +12966,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "servir"
@@ -12974,7 +12974,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "significar"
@@ -12982,7 +12982,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "simbolizar"
@@ -12990,7 +12990,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "simpatizar"
@@ -12998,7 +12998,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "simplificar"
@@ -13006,7 +13006,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "simular"
@@ -13014,7 +13014,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sincopar"
@@ -13022,7 +13022,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sincronizar"
@@ -13030,7 +13030,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sindicar"
@@ -13038,7 +13038,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sintetizar"
@@ -13046,7 +13046,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sintonizar"
@@ -13054,7 +13054,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "situar"
@@ -13062,7 +13062,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soar"
@@ -13070,7 +13070,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sobrar"
@@ -13078,7 +13078,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sobressair"
@@ -13086,7 +13086,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sobreviver"
@@ -13094,7 +13094,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soçobrar"
@@ -13102,7 +13102,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "socorrer"
@@ -13110,7 +13110,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soer"
@@ -13118,7 +13118,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sofrer"
@@ -13126,7 +13126,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soletrar"
@@ -13134,7 +13134,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "solicitar"
@@ -13142,7 +13142,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soltar"
@@ -13150,7 +13150,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soluçar"
@@ -13158,7 +13158,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "solucionar"
@@ -13166,7 +13166,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "somar"
@@ -13174,7 +13174,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sonhar"
@@ -13182,7 +13182,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "soprar"
@@ -13190,7 +13190,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sorrir"
@@ -13198,7 +13198,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sortear"
@@ -13206,7 +13206,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sossegar"
@@ -13214,7 +13214,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suar"
@@ -13222,7 +13222,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suavizar"
@@ -13238,7 +13238,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "subjugar"
@@ -13246,7 +13246,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sublinhar"
@@ -13254,7 +13254,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "submergir"
@@ -13262,7 +13262,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "submeter"
@@ -13270,7 +13270,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "subministrar"
@@ -13278,7 +13278,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "subordinar"
@@ -13286,7 +13286,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "subscrever"
@@ -13294,7 +13294,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "substanciar"
@@ -13302,7 +13302,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "substituir"
@@ -13310,7 +13310,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suceder"
@@ -13318,7 +13318,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sucumbir"
@@ -13326,7 +13326,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sufocar"
@@ -13334,7 +13334,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sugerir"
@@ -13342,7 +13342,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sujar"
@@ -13350,7 +13350,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sujeitar"
@@ -13358,7 +13358,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sumir"
@@ -13366,7 +13366,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "superar"
@@ -13374,7 +13374,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "supervisar"
@@ -13382,7 +13382,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suplicar"
@@ -13390,7 +13390,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "supor"
@@ -13398,7 +13398,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suportar"
@@ -13406,7 +13406,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suprimir"
@@ -13414,7 +13414,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suprir"
@@ -13422,7 +13422,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "surgir"
@@ -13430,7 +13430,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "surpreender"
@@ -13438,7 +13438,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suscitar"
@@ -13446,7 +13446,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suspeitar"
@@ -13454,7 +13454,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suspender"
@@ -13462,7 +13462,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suspirar"
@@ -13470,7 +13470,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sussurrar"
@@ -13478,7 +13478,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "sustentar"
@@ -13486,7 +13486,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "suster"
@@ -13494,7 +13494,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tamisar"
@@ -13502,7 +13502,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tanger"
@@ -13510,7 +13510,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tardar"
@@ -13518,7 +13518,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tartamudear"
@@ -13526,7 +13526,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tatuar"
@@ -13534,7 +13534,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "taxar"
@@ -13542,7 +13542,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tecer"
@@ -13550,7 +13550,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "teclar"
@@ -13558,7 +13558,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "teimar"
@@ -13566,7 +13566,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "telefonar"
@@ -13574,7 +13574,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "telegrafar"
@@ -13582,7 +13582,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "temer"
@@ -13590,7 +13590,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "temperar"
@@ -13598,7 +13598,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tender"
@@ -13606,7 +13606,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tentar"
@@ -13628,7 +13628,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "terminar"
@@ -13636,7 +13636,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tesar"
@@ -13644,7 +13644,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "testar"
@@ -13652,7 +13652,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tingir"
@@ -13660,7 +13660,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tinir"
@@ -13668,7 +13668,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tirar"
@@ -13676,7 +13676,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "titular"
@@ -13684,7 +13684,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tocar"
@@ -13692,7 +13692,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tolerar"
@@ -13700,7 +13700,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tomar"
@@ -13708,7 +13708,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tombar"
@@ -13716,7 +13716,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "torcer"
@@ -13724,7 +13724,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tornar"
@@ -13732,7 +13732,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tornar-se"
@@ -13740,7 +13740,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "torrar"
@@ -13748,7 +13748,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "torturar"
@@ -13756,7 +13756,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tossir"
@@ -13764,7 +13764,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tostar"
@@ -13772,7 +13772,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "trabalhar"
@@ -13780,7 +13780,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "traçar"
@@ -13788,7 +13788,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "traduzir"
@@ -13796,7 +13796,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tragar"
@@ -13804,7 +13804,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "trair"
@@ -13812,7 +13812,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tramar"
@@ -13820,7 +13820,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transcorrer"
@@ -13828,7 +13828,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transcrever"
@@ -13836,7 +13836,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transferir"
@@ -13844,7 +13844,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transformar"
@@ -13852,7 +13852,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transigir"
@@ -13860,7 +13860,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transladar"
@@ -13868,7 +13868,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transmitir"
@@ -13876,7 +13876,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transpirar"
@@ -13884,7 +13884,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transplantar"
@@ -13892,7 +13892,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "transportar"
@@ -13900,7 +13900,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tratar"
@@ -13908,7 +13908,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "trautear"
@@ -13916,7 +13916,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "travar"
@@ -13933,7 +13933,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "treinar"
@@ -13941,7 +13941,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tremer"
@@ -13949,7 +13949,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "triangular"
@@ -13957,7 +13957,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tricotar"
@@ -13965,7 +13965,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "trinchar"
@@ -13973,7 +13973,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "triturar"
@@ -13981,7 +13981,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "triunfar"
@@ -13989,7 +13989,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "troar"
@@ -13997,7 +13997,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "trocar"
@@ -14005,7 +14005,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "tropeçar"
@@ -14013,7 +14013,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "uivar"
@@ -14021,7 +14021,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ultrapassar"
@@ -14029,7 +14029,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ungir"
@@ -14037,7 +14037,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "unificar"
@@ -14045,7 +14045,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "unir"
@@ -14053,7 +14053,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "urdir"
@@ -14061,7 +14061,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "urgir"
@@ -14069,7 +14069,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "urinar"
@@ -14077,7 +14077,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "usar"
@@ -14085,7 +14085,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "utilizar"
@@ -14093,7 +14093,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vacilar"
@@ -14101,7 +14101,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vacinar"
@@ -14109,7 +14109,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vagir"
@@ -14117,7 +14117,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "valer"
@@ -14125,7 +14125,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "validar"
@@ -14133,7 +14133,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "valorar"
@@ -14141,7 +14141,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "valorizar"
@@ -14149,7 +14149,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vaporizar"
@@ -14157,7 +14157,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "variar"
@@ -14165,7 +14165,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "varrer"
@@ -14173,7 +14173,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vegetar"
@@ -14181,7 +14181,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "velar"
@@ -14189,7 +14189,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vencer"
@@ -14206,7 +14206,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "venerar"
@@ -14214,7 +14214,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ventar"
@@ -14222,7 +14222,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "ventilar"
@@ -14239,7 +14239,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "veranear"
@@ -14247,7 +14247,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "verificar"
@@ -14255,7 +14255,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "verter"
@@ -14263,7 +14263,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vestir"
@@ -14271,7 +14271,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vestir-se"
@@ -14279,7 +14279,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "viajar"
@@ -14287,7 +14287,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vibrar"
@@ -14295,7 +14295,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vigiar"
@@ -14303,7 +14303,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vincular"
@@ -14311,7 +14311,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vindicar"
@@ -14319,7 +14319,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "violar"
@@ -14336,7 +14336,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "virar"
@@ -14344,7 +14344,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "virar-se"
@@ -14352,7 +14352,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "visar"
@@ -14360,7 +14360,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "visitar"
@@ -14368,7 +14368,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "visualizar"
@@ -14376,7 +14376,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "viver"
@@ -14384,7 +14384,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "voar"
@@ -14392,7 +14392,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "voltar"
@@ -14400,7 +14400,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "voltear"
@@ -14408,7 +14408,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "volver"
@@ -14416,7 +14416,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "vomitar"
@@ -14424,7 +14424,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "votar"
@@ -14432,7 +14432,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "zangar"
@@ -14440,7 +14440,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "zangar-se"
@@ -14448,7 +14448,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "zarpar"
@@ -14456,7 +14456,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to "
             },
             pt: {
                 i: "zombar"

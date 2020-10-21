@@ -49,7 +49,10 @@ https://github.com/danhartley/snapdragon-verbs/pull/new/gh-pages
 
 https://danhartley.github.io/snapdragon-verbs/
 
-Cleaning up and starting over: delete the gh-pages branch git branch -d gh-pages
+Cleaning up and starting over: (delete the gh-pages branch) 
+git branch -a
+git branch -d gh-pages (local branch, if there is one)
+git push origin -d gh-pages (remote branch)
 
 # preact-config
 Relative paths: https://stackoverflow.com/questions/45742982/set-base-url-for-preact-cli
