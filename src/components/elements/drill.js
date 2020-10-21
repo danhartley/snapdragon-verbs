@@ -13,6 +13,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     ]); 
     const [currentInput, setCurrentInput] = useState(null);
     const [eventCode, setEventCode] = useState(() => null);
+    const [isKeyboardHelpClosed, setIsKeyboardHelpClosed] = useState(true);
 
     const handleDrillActionState = e => {
         
@@ -107,6 +108,10 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         currentInput.focus();
     };
 
+    const handleToggleVisibility = e => {
+        setIsKeyboardHelpClosed(!isKeyboardHelpClosed);
+    }
+
     useEffect(() => {
 
         window.addEventListener("keydown", e => {
@@ -156,15 +161,26 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                     </h2>
                 </div>
                 <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
-                    <div class="questions">{questions}</div>
+                    <section class="questions">{questions}</section>
                     <div class="action-button">
                         { drillActionState ===  DrillState.drillsComplete 
-                            ? <button disabled={true}>{drillActionState}</button>
-                            : <button disabled={qandas.length < 6}>{drillActionState}</button>
+                            ? <button class="btn" disabled={true}>{drillActionState}</button>
+                            : <button class="btn" disabled={qandas.length < 6}>{drillActionState}</button>
                         }
                     </div>
                 </form>
                 {currentInput !== null ? <ActionList colCount={6} listItemClickHandler={handleSelectVowel} items={vowels} /> : <></>}
+                <button class={`keyboard-help ${isKeyboardHelpClosed ? "closed" : ""} `} onClick={handleToggleVisibility}>
+                    <div>
+                        <h4>Keyboard shortcuts</h4>
+                        <svg viewBox="0 0 20 20" preserveAspectRatio="none" width="16" fill="transparent" stroke="rgb(0,0,0)" stroke-width="1.1px"><path d="M1,6 L10,15 L19,6"></path></svg>
+                    </div>    
+                    <ul>
+                        <li>To move down, use the TAB or ENTER keys.</li>
+                        <li>To move up, use the TAB + SHIFT keys in combination.</li>
+                        <li>To move forward, use the ENTER key.</li>
+                    </ul>
+                </button>
             </section>
             </>
         );

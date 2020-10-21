@@ -19,20 +19,25 @@ const Home = ({ verbs, tenses }) => {
         {
             id: 1,
             name: 'Common irregular verbs',
-            verbs: [ { name:'ser' }, { name:'estar' }, { name:'ter' }, { name:'fazer', }, { name:'ir' }, { name:'vir' } ]
+            verbs: [ { name:'ser' }, { name:'estar' }, { name:'ter' }, { name:'fazer', }, { name:'ir' }, { name:'vir' }, { name: 'ver' }, { name: 'querer' }, { name: 'dar' }, { name: 'dizer' }, {  name: 'haver' }, { name: 'poder' } ]
         },
         {
             id: 2,
+            name: 'More irregular verbs',
+            verbs: [ { name:'saber' }, { name:'pôr' }, { name:'trazer' }, { name:'dormir', }, { name:'ler' }, { name:'crer' }, { name: 'ouvir' }, { name: 'pedir' } ]
+        },
+        {
+            id: 3,
             name: 'Regular -ar, -er and -ir verbs',
             verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
         },
         {
-            id: 3,
+            id: 4,
             name: 'Common reflexive verbs',
             verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' }]
         },
         {
-            id: 4,
+            id: 5,
             name: 'Clear all verbs',
             verbs: []
         },
@@ -82,6 +87,7 @@ const Home = ({ verbs, tenses }) => {
     useEffect(() => {
         if(startDrillRef.current) {
             startDrillRef.current.focus();
+            startDrillRef.current.scrollTo(0,0);
         }
     }, [selectedVerbs]);
 
@@ -103,8 +109,8 @@ const Home = ({ verbs, tenses }) => {
                     {
                         selectedVerbs.length > 0
                             ? selectedVerbs.filter(v => !v.disabled).length > 0
-                                ? <button ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
-                                : <button ref={startDrillRef} disabled onClick={handleStartDrill}>Start drill</button>
+                                ? <button class="btn" ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
+                                : <button class="btn" ref={startDrillRef} disabled onClick={handleStartDrill}>Start drill</button>
                             : ''
                     }
                 </div>

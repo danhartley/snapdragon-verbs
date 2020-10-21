@@ -34,7 +34,7 @@ export const SimpleList = ({ items, msg, header }) => {
     return (
     <>
         <div class="block"><h3>{header}</h3></div>
-        <ul style='column-count: 2'>{list}</ul>
+        <ul style='column-count: 3'>{list}</ul>
     </>
     );
   }

@@ -39,7 +39,7 @@ li {
 
 h1 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
     display: inline-block;
     margin: 0;
 }
@@ -48,7 +48,7 @@ h2 {
     font-size: 1.25rem;
     font-weight: 400;
     display: inline-block;
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
 
 h3 {
@@ -58,6 +58,12 @@ h3 {
     margin: 1rem 0 .5rem 0;
     color: rgb(108, 108, 108);
     text-transform: uppercase;    
+}
+
+h4 {
+    margin: 0 0 .25rem 0;
+    font-weight: 500;
+    font-size: .9rem;
 }
 
 select, input {
@@ -155,7 +161,51 @@ button:disabled {
             font-size: 1.2rem;            
         }
     }
+    .keyboard-help {
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        text-transform: initial;
+        border: none;
+        width: initial;
+        background-color: transparent;
+        &:focus {
+            color: rgb(80,80,80);
+        }
+        ul  {
+            li {
+                font-size: .8rem;
+                color: black;
+            }
+        }
+        h4 {
+            display: inline-block;
+            margin-right: .5 * $space;
+            border-bottom: 1px solid transparent;
+            padding-bottom: 2px;            
+        }        
+        svg {
+            width: 12px;
+            transform: rotate(180deg);
+        }  
+        &.closed {
+            ul {
+                visibility: hidden;
+            }
+         h4 {
+            border-bottom: 1px solid gray;
+            padding-bottom: 2px;
+         }
+         svg {
+             transform: initial;
+         }
+        }
+        @media (hover: none){
+            display: none;
+        }
+    }
 }
+
 ul.icons {    
     margin-top: .5rem; 
     text-align: left;
@@ -241,21 +291,21 @@ input[type='checkbox'] {
     display: flex;
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    margin: 2rem auto;
     width: 800px;
-    min-height: calc(100% - 7rem);
+    margin: 2rem auto;
+    min-height: calc(100% - 7.5rem);
     padding: 0 0 0 .5rem;
 }
 
 .responsive-align {
     text-align: right;
     justify-content: flex-end;
-    @media (max-width: $break) {
-        text-align: left !important;
-        margin-bottom: $space;
-        padding-right: 0;
-        justify-content: flex-start;
-    }
+    // @media (max-width: $break) {
+    //     text-align: left !important;
+    //     margin-bottom: $space;
+    //     padding-right: 0;
+    //     justify-content: flex-start;
+    // }
 }
 
 .menu > div {
@@ -281,6 +331,15 @@ input[type='checkbox'] {
             margin: 0;
         }
     } 
+    .responsive-align {
+        text-align: left !important;
+        margin-bottom: $space;
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+    .action-button {
+        margin-left: 0;
+    }
 }
 
 .margin-top {
@@ -309,7 +368,7 @@ input[type='checkbox'] {
 
 .action-button {
     margin-left: 6rem; text-align:left;
-    @media (max-width: $break) {
-        margin-left: 0;
-    }
+    // @media (max-width: $break) {
+    //     margin-left: 0;
+    // }
 }

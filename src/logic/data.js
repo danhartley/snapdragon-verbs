@@ -4163,10 +4163,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to believe"
             },
             pt: {
-                i: "crer"
+                i: "crer",
+                like: "crer"
             }
         },
         {
@@ -4339,10 +4340,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to give"
             },
             pt: {
-                i: "dar"
+                i: "dar",
+                like: "dar"
             }
         },
         {
@@ -5499,10 +5501,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to say"
             },
             pt: {
-                i: "dizer"
+                i: "dizer",
+                like: "dizer"
             }
         },
         {
@@ -5555,10 +5558,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to sleep"
             },
             pt: {
-                i: "dormir"
+                i: "dormir",
+                like: "dormir"
             }
         },
         {
@@ -8083,10 +8087,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to have"
             },
             pt: {
-                i: "haver"
+                i: "haver",
+                like: "haver"
             }
         },
         {
@@ -9291,10 +9296,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to read"
             },
             pt: {
-                i: "ler"
+                i: "ler",
+                like: "ler"
             }
         },
         {
@@ -10427,10 +10433,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to hear"
             },
             pt: {
-                i: "ouvir"
+                i: "ouvir",
+                like: "ouvir"
             }
         },
         {
@@ -10636,10 +10643,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to ask"
             },
             pt: {
-                i: "pedir"
+                i: "pedir",
+                like: "pedir"
             }
         },
         {
@@ -10940,10 +10948,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to be able to"
             },
             pt: {
-                i: "poder"
+                i: "poder",
+                like: "poder"
             }
         },
         {
@@ -10983,7 +10992,8 @@ export const data = {
                 i: "ENINF"
             },
             pt: {
-                i: "pôr"
+                i: "pôr",
+                like: "pôr"
             }
         },
         {
@@ -11604,10 +11614,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to want"
             },
             pt: {
-                i: "querer"
+                i: "querer",
+                like: "querer"
             }
         },
         {
@@ -12644,10 +12655,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to know"
             },
             pt: {
-                i: "saber"
+                i: "saber",
+                like: "saber"
             }
         },
         {
@@ -13912,10 +13924,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to bring"
             },
             pt: {
-                i: "trazer"
+                i: "trazer",
+                like: "trazer"
             }
         },
         {
@@ -14217,10 +14230,11 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to see"
             },
             pt: {
-                i: "ver"
+                i: "ver",
+                like: "ver"
             }
         },
         {
@@ -14506,6 +14520,30 @@ export const data = {
                         'fôreis',
                         'foram'
                     ],
+                    'present subjunctive': [
+                        'seja',
+                        'sejas',
+                        'seja',
+                        'sejamos',
+                        'sejais',
+                        'sejam',
+                    ],
+                    'imperfect subjunctive': [
+                        'fosse',
+                        'fosses',
+                        'fosse',
+                        'fôssemos',
+                        'fôsseis',
+                        'fossem',
+                    ],
+                    'future subjunctive': [
+                        'for',
+                        'fores',
+                        'for',
+                        'formos',
+                        'fordes',
+                        'forem',
+                    ],
                 },
                 {
                     i: 'falar',
@@ -14556,7 +14594,31 @@ export const data = {
                         'faláramos',
                         'faláreis',
                         'falaram'
-                    ]
+                    ],
+                    'present subjunctive': [
+                        'fale',
+                        'fales',
+                        'fale',
+                        'falemos',
+                        'faleis',
+                        'falem',
+                    ],
+                    'imperfect subjunctive': [
+                        'falasse',
+                        'falasses',
+                        'falasse',
+                        'falássemos',
+                        'falásseis',
+                        'falassem',
+                    ],
+                    'future subjunctive': [
+                        'falar',
+                        'falares',
+                        'falar',
+                        'falarmos',
+                        'falardes',
+                        'falarem',
+                    ],
                 },
                 {
                     i: 'ter',
@@ -14607,7 +14669,31 @@ export const data = {
                         'tivéramos',
                         'tivéreis',
                         'tiveram'
-                    ]
+                    ],
+                    'present subjunctive': [
+                        'tenha',
+                        'tenhas',
+                        'tenha',
+                        'tenhamos',
+                        'tenhais',
+                        'tenham',
+                    ],
+                    'imperfect subjunctive': [
+                        'tivesse',
+                        'tivesses',
+                        'tivesse',
+                        'tivéssemos',
+                        'tivésseis',
+                        'tivessem',
+                    ],
+                    'future subjunctive': [
+                        'tiver',
+                        'tiveres',
+                        'tiver',
+                        'tivermos',
+                        'tiverdes',
+                        'tiverem',
+                    ],
                 },
                 {
                     i: 'vender',
@@ -14658,7 +14744,31 @@ export const data = {
                         'vendêramos',
                         'vendêreis',
                         'venderam'
-                    ]
+                    ],
+                    'present subjunctive': [
+                        'venda',
+                        'vendas',
+                        'venda',
+                        'vendamos',
+                        'vendais',
+                        'vendam',
+                    ],
+                    'imperfect subjunctive': [
+                        'vendesse',
+                        'vendesses',
+                        'vendesse',
+                        'vendêssemos',
+                        'vendêsseis',
+                        'vendessem',
+                    ],
+                    'future subjunctive': [
+                        'vender',
+                        'venderes',
+                        'vender',
+                        'vendermos',
+                        'venderdes',
+                        'venderem',
+                    ],
                 },
                 {
                     i: 'partir',
@@ -14709,7 +14819,31 @@ export const data = {
                         'partíramos',
                         'partíreis',
                         'partiram'
-                    ]
+                    ],
+                    'present subjunctive': [
+                        'parta',
+                        'partas',
+                        'parta',
+                        'partamos',
+                        'partais',
+                        'partam',
+                    ],
+                    'imperfect subjunctive': [
+                        'partisse',
+                        'partisses',
+                        'partisse',
+                        'partíssemos',
+                        'partísseis',
+                        'partissem',
+                    ],
+                    'future subjunctive': [
+                        'partir',
+                        'partires',
+                        'partir',
+                        'partirmos',
+                        'partirdes',
+                        'partirem',
+                    ],
                 },
                 {
                     i: 'estar',
@@ -14760,7 +14894,31 @@ export const data = {
                         'estivéramos',
                         'estivéreis',
                         'estiveram'
-                    ]
+                    ],
+                    'present subjunctive': [
+                        'esteja',
+                        'estejas',
+                        'esteja',
+                        'estejamos',
+                        'estejais',
+                        'estejam',
+                    ],
+                    'imperfect subjunctive': [
+                        'estivesse',
+                        'estivesses',
+                        'estivesse',
+                        'estivéssemos',
+                        'estivésseis',
+                        'estivessem',
+                    ],
+                    'future subjunctive': [
+                        'estiver',
+                        'estiveres',
+                        'estiver',
+                        'estivermos',
+                        'estiverdes',
+                        'estiverem',
+                    ],
                 },
                 {
                 i: 'fazer',
@@ -14802,7 +14960,7 @@ export const data = {
                     'faria',
                     'faríamos',
                     'faríeis',
-                    'faríam'
+                    'fariam'
                 ],
                 pluperfect: [
                     'fizera',
@@ -14811,7 +14969,31 @@ export const data = {
                     'fizéramos',
                     'fizéreis',
                     'fizeram'
-                ]
+                ],
+                'present subjunctive': [
+                    'faça',
+                    'faças',
+                    'faça',
+                    'façamos',
+                    'façais',
+                    'façam',
+                ],
+                'imperfect subjunctive': [
+                    'fizesse',
+                    'fizesses',
+                    'fizesse',
+                    'fizéssemos',
+                    'fizésseis',
+                    'fizessem',
+                ],
+                'future subjunctive': [
+                    'fizer',
+                    'fizeres',
+                    'fizer',
+                    'fizermos',
+                    'fizerdes',
+                    'fizerem',
+                ],
                 },
                 {
                     i: 'ir',
@@ -14862,7 +15044,32 @@ export const data = {
                         'fôramos',
                         'fôreis',
                         'foram'
-                    ]
+                    ],
+
+                    'present subjunctive': [
+                        'vá',
+                        'vás',
+                        'vá',
+                        'vamos',
+                        'vades',
+                        'vão'
+                    ],
+                    'imperfect subjunctive': [
+                        'fosse',
+                        'fosses',
+                        'fosse',
+                        'fôssemos',
+                        'fôsseis',
+                        'fossem'
+                    ],
+                    'future subjunctive': [
+                        'for',
+                        'fores',
+                        'for',                        
+                        'formos',                        
+                        'fordes',                        
+                        'forem',                        
+                    ],
                 },
                 {
                     i: 'vir',
@@ -14913,7 +15120,1083 @@ export const data = {
                         'viéramos',
                         'viéreis',
                         'vieram'
+                    ],
+
+                    'present subjunctive': [
+                        'venha',
+                        'venhas',
+                        'venha',
+                        'venhamos',
+                        'venhais',
+                        'venham',
+                    ],
+                    'imperfect subjunctive': [
+                        'viesse',
+                        'viesses',
+                        'viesse',
+                        'viéssemos',
+                        'viésseis',
+                        'viessem',
+                    ],
+                    'future subjunctive': [
+                        'vier',
+                        'vieres',
+                        'vier',
+                        'viermos',
+                        'vierdes',
+                        'vierem',
+                    ],
+                },
+                {
+                    i: 'ver',
+                    present: [
+                        'vejo',
+                        'vês',
+                        'vê',
+                        'vemos',
+                        'vedes',
+                        'veem'
+                    ],
+                    preterite: [
+                        'vi',
+                        'viste',
+                        'viu',
+                        'vimos',
+                        'vistes',
+                        'viram'
+                    ],                    
+                    imperfect: [
+                        'via',
+                        'vias',
+                        'via',
+                        'víamos',
+                        'víeis',
+                        'viam',
+                    ],
+                    future: [
+                        'verei',
+                        'verás',
+                        'verá',
+                        'veremos',
+                        'vereis',
+                        'verão',
+                    ],
+                    conditional: [
+                        'veria',
+                        'verias',
+                        'veria',
+                        'veríamos',
+                        'veríeis',
+                        'veriam',
+                    ],
+                    pluperfect: [
+                        'vira',
+                        'viras',
+                        'vira',
+                        'víramos',
+                        'víreis',
+                        'viram',
+                    ],
+                    'present subjunctive': [
+                        'veja',
+                        'vejas',
+                        'veja',
+                        'vejamos',
+                        'vejais',
+                        'vejam',
+                    ],
+                    'imperfect subjunctive': [
+                        'visse',
+                        'visses',
+                        'visse',
+                        'víssemos',
+                        'vísseis',
+                        'vissem',
+                    ],
+                    'future subjunctive': [
+                        'vir',
+                        'vires',
+                        'vir',
+                        'virmos',
+                        'virdes',
+                        'virem',
+                    ],
+                },
+                {
+                    i: 'querer',
+                    present: [
+                        'quero',
+                        'queres',
+                        'quer',
+                        'queremos',
+                        'quereis',
+                        'querem',
+                    ],
+                    preterite: [
+                        'quis',
+                        'quiseste',
+                        'quis',
+                        'quisemos',
+                        'quisestes',
+                        'quiseram',
+                    ],                    
+                    imperfect: [
+                        'queria',
+                        'querias',
+                        'queria',
+                        'queríamos',
+                        'queríeis',
+                        'queriam',
+                    ],
+                    future: [
+                        'quererei',
+                        'quererás',
+                        'quererá',
+                        'quereremos',
+                        'querereis',
+                        'quererão'
+                    ],
+                    conditional: [
+                        'quereria',
+                        'quererias',
+                        'quereria',
+                        'quereríamos',
+                        'quereríeis',
+                        'quereriam',
+                    ],
+                    pluperfect: [
+                        'quisera',
+                        'quiseras',
+                        'quisera',
+                        'quiséramos',
+                        'quiséreis',
+                        'quiseram',
+                    ],
+
+                    'present subjunctive': [
+                        'queira',
+                        'queiras',
+                        'queira',
+                        'queiramos',
+                        'queirais',
+                        'queiram',
+                    ],
+                    'imperfect subjunctive': [
+                        'quisesse',
+                        'quisesses',
+                        'quisesse',
+                        'quiséssemos',
+                        'quisésseis',
+                        'quisessem',
+                    ],
+                    'future subjunctive': [
+                        'quiser',
+                        'quiseres',
+                        'quiser',
+                        'quisermos',
+                        'quiserdes',
+                        'quiserem',
+                    ],
+                },
+                {
+                    i: 'dar',
+                    present: [
+                        'dou',
+                        'dás',
+                        'dá',
+                        'damos',
+                        'dais',
+                        'dão'
+                    ],
+                    preterite: [
+                        'dei',
+                        'deste',
+                        'deu',
+                        'demos',
+                        'destes',
+                        'deram',
+                    ],                    
+                    imperfect: [
+                        'dava',
+                        'davas',
+                        'dava',
+                        'dávamos',
+                        'dáveis',
+                        'davam',
+                    ],
+                    future: [
+                        'darei',
+                        'darás',
+                        'dará',
+                        'daremos',
+                        'dareis',
+                        'darão'
+                    ],
+                    conditional: [
+                        'daria',
+                        'darias',
+                        'daria',
+                        'daríamos',
+                        'daríes',
+                        'dariam',
+                    ],
+                    pluperfect: [
+                        'dera',
+                        'deras',
+                        'dera',
+                        'déramos',
+                        'déreis',
+                        'deram',
+                    ],
+                    'present subjunctive': [
+                        'dê',
+                        'dês',
+                        'dê',
+                        'demos',
+                        'deis',
+                        'deem'
+                    ],
+                    'imperfect subjunctive': [
+                        'desse',
+                        'desses',
+                        'desse',
+                        'déssemos',
+                        'désseis',
+                        'dessem',
+                    ],
+                    'future subjunctive': [
+                        'der',
+                        'deres',
+                        'der',
+                        'dermos',
+                        'derdes',
+                        'derem'
                     ]
+                },
+                {
+                    i: 'dizer',
+                    present: [
+                        'digo',
+                        'dizes',
+                        'diz',
+                        'dizemos',
+                        'dizeis',
+                        'dizem',
+                    ],
+                    preterite: [
+                        'disse',
+                        'disseste',
+                        'disse',
+                        'dissemos',
+                        'dissestes',
+                        'disseram',
+                    ],                    
+                    imperfect: [
+                        'dizia',
+                        'dizias',
+                        'dizia',
+                        'dizíamos',
+                        'dizíeis',
+                        'diziam'
+                    ],
+                    future: [
+                        'direi',
+                        'dirás',
+                        'dirá',
+                        'diremos',
+                        'direis',
+                        'dirão'
+                    ],
+                    conditional: [
+                        'diria',
+                        'dirias',
+                        'diria',
+                        'diríamos',
+                        'diríeis',
+                        'diriam',
+                    ],
+                    pluperfect: [
+                        'dissera',
+                        'disseras',
+                        'dissera',
+                        'disséramos',
+                        'disséreis',
+                        'disseram'
+                    ],
+                    'present subjunctive': [
+                        'diga',
+                        'digas',
+                        'diga',
+                        'digamos',
+                        'digais',
+                        'digam',
+                    ],
+                    'imperfect subjunctive': [
+                        'dissesse',
+                        'dissesses',
+                        'dissesse',
+                        'disséssemos',
+                        'dissésseis',
+                        'dissessem',
+                    ],
+                    'future subjunctive': [
+                        'disser',
+                        'disseres',
+                        'disser',
+                        'dissermos',
+                        'disserdes',
+                        'disserem',
+                    ],
+                },
+                {
+                    i: 'haver',
+                    present: [
+                        'hei',
+                        'hás',
+                        'há',
+                        'havemos',
+                        'haveis',
+                        'hão'
+                    ],
+                    preterite: [
+                        'houve',
+                        'houveste',
+                        'houve',
+                        'houvemos',
+                        'houvestes',
+                        'houveram',
+                    ],                    
+                    imperfect: [
+                        'havia',
+                        'havias',
+                        'havia',
+                        'havíamos',
+                        'havíeis',
+                        'haviam',
+                    ],
+                    future: [
+                        'haverei',
+                        'haverás',
+                        'haverá',
+                        'haveremos',
+                        'havereis',
+                        'haverão'
+                    ],
+                    conditional: [
+                        'haveria',
+                        'haverias',
+                        'haveria',
+                        'haveríamos',
+                        'haveríeis',
+                        'haveriam'
+                    ],
+                    pluperfect: [
+                        'houvera',
+                        'houveras',
+                        'houvera',
+                        'houvéramos',
+                        'houvéreis',
+                        'houveram',
+                    ],
+                    'present subjunctive': [
+                        'haja',
+                        'hajas',
+                        'haja',
+                        'hajamos',
+                        'hajais',
+                        'hajam',
+                    ],
+                    'imperfect subjunctive': [
+                        'houvesse',
+                        'houvesses',
+                        'houvesse',
+                        'houvéssemos',
+                        'houvésseis',
+                        'houvessem'
+                    ],
+                    'future subjunctive': [
+                        'houver',
+                        'houveres',
+                        'houver',
+                        'houvermos',
+                        'houverdes',
+                        'houverem'
+                    ],
+                },
+                {
+                    i: 'poder',
+                    present: [
+                        'posso',
+                        'podes',
+                        'pode',
+                        'podemos',
+                        'podeis',
+                        'podem',
+                    ],
+                    preterite: [
+                        'pude',
+                        'pudeste',
+                        'pôde',
+                        'pudemos',
+                        'pudestes',
+                        'puderam'
+                    ],                    
+                    imperfect: [
+                        'podia',
+                        'podias',
+                        'podia',
+                        'podíamos',
+                        'podíeis',
+                        'podiam',
+                    ],
+                    future: [
+                        'poderei',
+                        'poderás',
+                        'poderá',
+                        'poderemos',
+                        'podereis',
+                        'poderão'
+                    ],
+                    conditional: [
+                        'poderia',
+                        'poderias',
+                        'poderia',
+                        'poderíamos',
+                        'poderíeis',
+                        'poderiam',
+                    ],
+                    pluperfect: [
+                        'pudera',
+                        'puderas',
+                        'pudera',
+                        'pudéramos',
+                        'pudéreis',
+                        'puderam',
+                    ],
+                    'present subjunctive': [
+                        'possa',
+                        'possas',
+                        'possa',
+                        'possamos',
+                        'possais',
+                        'possam',
+                    ],
+                    'imperfect subjunctive': [
+                        'pudesse',
+                        'pudesses',
+                        'pudesse',
+                        'pudéssemos',
+                        'pudésseis',
+                        'pudessem',
+                    ],
+                    'future subjunctive': [
+                        'puder',
+                        'puderes',
+                        'puder',
+                        'pudermos',
+                        'puderdes',
+                        'puderem',
+                    ],
+                },
+                {
+                    i: 'saber',
+                    present: [
+                        'sei',
+                        'sabes',
+                        'sabe',
+                        'sabemos',
+                        'sabeis',
+                        'sabem',
+                    ],
+                    preterite: [
+                        'soube',
+                        'soubeste',
+                        'soube',
+                        'soubemos',
+                        'soubestes',
+                        'souberam'
+                    ],                    
+                    imperfect: [
+                        'sabia',
+                        'sabias',
+                        'sabia',
+                        'sabíamos',
+                        'sabíaeis',
+                        'sabiam',
+                    ],
+                    future: [
+                        'saberei',
+                        'saberás',
+                        'saberá',
+                        'saberemos',
+                        'sabereis',
+                        'saberão'
+                    ],
+                    conditional: [
+                        'saberia',
+                        'saberias',
+                        'saberia',
+                        'saberíamos',
+                        'saberíeis',
+                        'saberiam'
+                    ],
+                    pluperfect: [
+                        'soubera',
+                        'souberas',
+                        'soubera',
+                        'soubéramos',
+                        'soubéreis',
+                        'souberam'
+                    ],
+                    'present subjunctive': [
+                        'saiba',
+                        'saibas',
+                        'saiba',
+                        'saibamos',
+                        'saibais',
+                        'saibam',
+                    ],
+                    'imperfect subjunctive': [
+                        'soubesse',
+                        'soubesses',
+                        'soubesse',
+                        'soubéssemos',
+                        'soubésseis',
+                        'soubessem'
+                    ],
+                    'future subjunctive': [
+                        'souber',
+                        'souberes',
+                        'souber',
+                        'soubermos',
+                        'souberdes',
+                        'souberem',
+                    ],
+                },
+                {
+                    i: 'pôr',
+                    present: [
+                        'ponho',
+                        'pões',
+                        'põe',
+                        'pomos',
+                        'podes',
+                        'põem'
+                    ],
+                    preterite: [
+                        'pus',
+                        'puseste',
+                        'pôs',
+                        'pusemos',
+                        'pusestes',
+                        'puseram'
+                    ],                    
+                    imperfect: [
+                        'punha',
+                        'punhas',
+                        'punha',
+                        'púnhamos',
+                        'púnheis',
+                        'punham'
+                    ],
+                    future: [
+                        'porei',
+                        'porás',
+                        'porá',
+                        'poremos',
+                        'poreis',
+                        'porão'
+                    ],
+                    conditional: [
+                        'poria',
+                        'porias',
+                        'poria',
+                        'poríamos',
+                        'poríeis',
+                        'poriam'
+                    ],
+                    pluperfect: [
+    			        'pusera',
+    			        'puseras',
+                        'pusera',
+                        'puséramos',
+                        'puséreis',
+                        'puseram'
+                    ],
+                    'present subjunctive': [
+                        'ponha',
+                        'ponhas',
+                        'ponha',
+                        'ponhamos',
+                        'ponhais',
+                        'ponham',
+                    ],
+                    'imperfect subjunctive': [
+                        'pusesse',
+                        'pusesses',
+                        'pusesse',
+                        'puséssemos',
+                        'pusésseis',
+                        'pusessem'
+                    ],
+                    'future subjunctive': [
+                        'puser',
+                        'puseres',
+                        'puser',
+                        'pusermos',
+                        'puserdes',
+                        'puserem'
+                    ],
+                },
+                {
+                    i: 'trazer',
+                    present: [
+                        'trago',
+                        'trazes',
+                        'traze',
+                        'trazemos',
+                        'trazeis',
+                        'trazem',
+                    ],
+                    preterite: [
+                        'trouxe',
+                        'trouxeste',
+                        'trouxe',
+                        'trouxemos',
+                        'trouxestes',
+                        'trouxeram',
+                    ],                    
+                    imperfect: [
+                        'trazia',
+                        'trazias',
+                        'trazia',
+                        'trazíamos',
+                        'trazíeis',
+                        'traziam'
+                    ],
+                    future: [
+                        'trarei',
+                        'trarás',
+                        'trará',
+                        'traremos',
+                        'trareis',
+                        'trarão'
+                    ],
+                    conditional: [
+                        'traria',
+                        'trarias',
+                        'traria',
+                        'traríamos',
+                        'traríeis',
+                        'trariam'
+                    ],
+                    pluperfect: [
+    			        'trouxera',
+    			        'trouxeras',
+                        'trouxera',
+                        'trouxéramos',
+                        'trouxéreis',
+                        'trouxeram',
+                    ],
+                    'present subjunctive': [
+                        'traga',
+                        'tragas',
+                        'traga',
+                        'tragamos',
+                        'tragais',
+                        'tragam',
+                    ],
+                    'imperfect subjunctive': [
+                        'trouxesse',
+                        'trouxesses',
+                        'trouxesse',
+                        'trouxéssemos',
+                        'trouxésseis',
+                        'trouxessem',
+                    ],
+                    'future subjunctive': [
+                        'trouxer',
+                        'trouxeres',
+                        'trouxer',
+                        'trouxermos',
+                        'trouxerdes',
+                        'trouxerem',
+                    ],
+                },
+                {
+                    i: 'dormir',
+                    present: [
+                        'durmo',
+                        'dormes',
+                        'dorme',
+                        'dormimos',
+                        'dormis',
+                        'dormem',
+                    ],
+                    preterite: [
+                        'dormi',
+                        'dormiste',
+                        'dormiu',
+                        'dormimos',
+                        'dormistes',
+                        'dormiram',
+                    ],                    
+                    imperfect: [
+                        'dormia',
+                        'dormias',
+                        'dormia',
+                        'dormíamos',
+                        'dormíeis',
+                        'dormiam',
+                    ],
+                    future: [
+                        'dormirei',
+                        'dormirás',
+                        'dormirá',
+                        'dormiremos',
+                        'dormireis',
+                        'dormirão'
+                    ],
+                    conditional: [
+                        'dormiria',
+                        'dormirias',
+                        'dormiria',
+                        'dormiríamos',
+                        'dormiríeis',
+                        'dormiriam',
+                    ],
+                    pluperfect: [
+    			        'dormira',
+    			        'dormiras',
+                        'dormira',
+                        'dormíramos',
+                        'dormíreis',
+                        'dormiram',
+                    ],
+                    'present subjunctive': [
+                        'durma',
+                        'durmas',
+                        'durma',
+                        'durmamos',
+                        'durmais',
+                        'durmam',
+                    ],
+                    'imperfect subjunctive': [
+                        'dormisse',
+                        'dormisses',
+                        'dormisse',
+                        'dormíssemos',
+                        'dormísseis',
+                        'dormissem',
+                    ],
+                    'future subjunctive': [
+                        'dormir',
+                        'dormires',
+                        'dormir',
+                        'dormirmos',
+                        'dormirdes',
+                        'dormirem',
+                    ],
+                },
+                {
+                    i: 'ler',
+                    present: [
+                        'leio',
+                        'lês',
+                        'lê',
+                        'lemos',
+                        'ledes',
+                        'leem',
+                    ],
+                    preterite: [
+                        'li',
+                        'leste',
+                        'leu',
+                        'lemos',
+                        'lestes',
+                        'leram',
+                    ],                    
+                    imperfect: [
+                        'lia',
+                        'lias',
+                        'lia',
+                        'líamos',
+                        'líeis',
+                        'liam',
+                    ],
+                    future: [
+                        'lerei',
+                        'lerás',
+                        'lerá',
+                        'leremos',
+                        'lereis',
+                        'lerão',
+                    ],
+                    conditional: [
+                        'leria',
+                        'lerias',
+                        'leria',
+                        'leríamos',
+                        'leríeis',
+                        'leriam'
+                    ],
+                    pluperfect: [
+    			        'lera',
+    			        'leras',
+    			        'lera',
+    			        'lêramos',
+                        'lêreis',
+                        'leram'
+                    ],
+                    'present subjunctive': [
+                        'leia',
+                        'leias',
+                        'leia',
+                        'leiamos',
+                        'leiais',
+                        'leiam',
+                    ],
+                    'imperfect subjunctive': [
+                        'lesse',
+                        'lesses',
+                        'lesse',
+                        'lêssemos',
+                        'lêsseis',
+                        'lessem',
+                    ],
+                    'future subjunctive': [
+                        'ler',
+                        'leres',
+                        'ler',
+                        'lermos',
+                        'lerdes',
+                        'lerem',
+                    ],
+                },
+                {
+                    i: 'crer',
+                    present: [
+                        'creio',
+                        'crês',
+                        'crê',
+                        'cremos',
+                        'credes',
+                        'crêem',
+                    ],
+                    preterite: [
+                        'cri',
+                        'creste',
+                        'creu',
+                        'cremos',
+                        'crestes',
+                        'creram',
+                    ],                    
+                    imperfect: [
+                        'cria',
+                        'crias',
+                        'cria',
+                        'críamos',
+                        'críeis',
+                        'criam',
+                    ],
+                    future: [
+                        'crerei',
+                        'crerás',
+                        'crerá',
+                        'creremos',
+                        'crereis',
+                        'crerão'
+                    ],
+                    conditional: [
+                        'creria',
+                        'crerias',
+                        'creria',
+                        'creríamos',
+                        'creríeis',
+                        'creriam',
+                    ],
+                    pluperfect: [
+    			        'crera',
+    			        'creras',
+    			        'crera',
+    			        'crêramos',
+    			        'crêreis',
+    			        'creram',
+                    ],
+                    'present subjunctive': [
+                        'creia',
+                        'creias',
+                        'creia',
+                        'creiamos',
+                        'creiais',
+                        'creiam',
+                    ],
+                    'imperfect subjunctive': [
+                        'cresse',
+                        'cresses',
+                        'cresse',
+                        'crêssemos',
+                        'crêsseis',
+                        'cressem',
+                    ],
+                    'future subjunctive': [
+                        'crer',
+                        'creres',
+                        'crer',
+                        'crermos',
+                        'crerdes',
+                        'crerem',
+                    ],
+                },
+                {
+                    i: 'ouvir',
+                    present: [
+                        'ouço',
+                        'ouves',
+                        'ouve',
+                        'ouvimos',
+                        'ouvis',
+                        'ouvem',
+                    ],
+                    preterite: [
+                        'ouvi',
+                        'ouviste',
+                        'ouviu',
+                        'ouvimos',
+                        'ouvistes',
+                        'ouviram',
+                    ],                    
+                    imperfect: [
+                        'ouvia',
+                        'ouvias',
+                        'ouvia',
+                        'ouvíamos',
+                        'ouvíeis',
+                        'ouviam',
+                    ],
+                    future: [
+                        'ouvirei',
+                        'ouvirás',
+                        'ouvirá',
+                        'ouviremos',
+                        'ouvireis',
+                        'ouvirão',
+                    ],
+                    conditional: [
+                        'ouviria',
+                        'ouvirias',
+                        'ouviria',
+                        'ouviríamos',
+                        'ouviríeis',
+                        'ouviriam',
+                    ],
+                    pluperfect: [
+                        'ouvira',
+                        'ouviras',
+                        'ouvira',
+                        'ouvíramos',
+                        'ouvíreis',
+                        'ouviram',
+                    ],
+                    'present subjunctive': [
+                        'ouça',
+                        'ouças',
+                        'ouça',
+                        'ouçamos',
+                        'ouçais',
+                        'ouçam',
+                    ],
+                    'imperfect subjunctive': [
+                        'ouvisse',
+                        'ouvisses',
+                        'ouvisse',
+                        'ouvíssemos',
+                        'ouvísseis',
+                        'ouvissem',
+                    ],
+                    'future subjunctive': [
+                        'ouvir',
+                        'ouvires',
+                        'ouvir',
+                        'ouvirmos',
+                        'ouvirdes',
+                        'ouvirem',
+                    ],
+                },
+                {
+                    i: 'pedir',
+                    present: [
+                        'peço',
+                        'pedes',
+                        'pede',
+                        'pedimos',
+                        'pedis',
+                        'pedem',
+                    ],
+                    preterite: [
+                        'pedi',
+                        'pediste',
+                        'pediu',
+                        'pedimos',
+                        'pedistes',
+                        'pediram',
+                    ],                    
+                    imperfect: [
+                        'pedia',
+                        'pedias',
+                        'pedia',
+                        'pedíamos',
+                        'pedíeis',
+                        'pediam',
+                    ],
+                    future: [
+                        'pedirei',
+                        'pedirás',
+                        'pedirá',
+                        'pediremos',
+                        'pedireis',
+                        'pedirão',
+                    ],
+                    conditional: [
+                        'pediria',
+                        'pedirias',
+                        'pediria',
+                        'pediríamos',
+                        'pediríeis',
+                        'pediriam',
+                    ],
+                    pluperfect: [
+    				    'pedira',
+    				    'pediras',
+    				    'pedira',
+    				    'pedíramos',
+    				    'pedíreis',
+    				    'pediram',
+                    ],
+                    'present subjunctive': [
+                        'peça',
+                        'peças',
+                        'peça',
+                        'peçamos',
+                        'peçais',
+                        'peçam',
+                    ],
+                    'imperfect subjunctive': [
+                        'pedisse',
+                        'pedisses',
+                        'pedisse',
+                        'pedíssemos',
+                        'pedísseis',
+                        'pedissem',
+                    ],
+                    'future subjunctive': [
+                        'pedir',
+                        'pedires',
+                        'pedir',
+                        'pedirmos',
+                        'pedirdes',
+                        'pedirem',
+                    ],
                 }
             ];
         
@@ -14977,6 +16260,21 @@ export const data = {
                 en: 'pluperfect',
                 pt: 'mais-que-perfeito',
                 es: 'pluscuamperfecto',
+            }
+            , {
+                en: 'present subjunctive',
+                pt: 'subjuntivo, presente',
+                es: 'subjuntivo, presente',
+            }
+            , {
+                en: 'imperfect subjunctive',
+                pt: 'subjuntivo, imperfeito',
+                es: 'subjuntivo, imperfeito',
+            }
+            , {
+                en: 'future subjunctive',
+                pt: 'subjuntivo, futuro',
+                es: 'subjuntivo, futuro',
             }
         ];
         return tenses;
