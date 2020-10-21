@@ -10989,7 +10989,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to put"
             },
             pt: {
                 i: "pôr",
@@ -13230,7 +13230,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to climb"
             },
             pt: {
                 i: "subir"
@@ -15680,7 +15680,7 @@ export const data = {
                         'pões',
                         'põe',
                         'pomos',
-                        'podes',
+                        'pondes',
                         'põem'
                     ],
                     preterite: [

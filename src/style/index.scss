@@ -24,6 +24,12 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+a {
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
 
 ul {
     margin: 0 0 1rem 0;
@@ -84,7 +90,7 @@ select, input {
 }
 
 .sidebar {
-    margin: 0 4rem 0 0;
+    margin: 0 6rem 0 0;
     &.disabled {
         pointer-events: none;
         opacity: .6;
