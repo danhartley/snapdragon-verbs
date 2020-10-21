@@ -15,33 +15,7 @@ const Home = ({ verbs, tenses }) => {
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
-    const [fixedDrills, setFixedDrills] = useState(() => [
-        {
-            id: 1,
-            name: 'Common irregular verbs',
-            verbs: [ { name:'ser' }, { name:'estar' }, { name:'ter' }, { name:'fazer', }, { name:'ir' }, { name:'vir' }, { name: 'ver' }, { name: 'querer' }, { name: 'dar' }, { name: 'dizer' }, {  name: 'haver' }, { name: 'poder' } ]
-        },
-        {
-            id: 2,
-            name: 'More irregular verbs',
-            verbs: [ { name:'saber' }, { name:'pôr' }, { name:'trazer' }, { name:'dormir', }, { name:'ler' }, { name:'crer' }, { name: 'ouvir' }, { name: 'pedir' } ]
-        },
-        {
-            id: 3,
-            name: 'Regular -ar, -er and -ir verbs',
-            verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
-        },
-        {
-            id: 4,
-            name: 'Common reflexive verbs',
-            verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' }]
-        },
-        {
-            id: 5,
-            name: 'Clear all verbs',
-            verbs: []
-        },
-    ]);
+    const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
 
     const handleVerbPicked = verb => {

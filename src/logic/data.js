@@ -11358,7 +11358,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to get along"
             },
             pt: {
                 i: "progredir"
@@ -12856,7 +12856,7 @@ export const data = {
         },
         {
             en: {
-                i: "ENINF"
+                i: "to follow"
             },
             pt: {
                 i: "seguir"
@@ -16197,6 +16197,232 @@ export const data = {
                         'pedirdes',
                         'pedirem',
                     ],
+                },
+                {
+
+                    i: 'subir',
+                    present: [
+                        'subo',
+                        'sobes',
+                        'sobe',
+                        'subimos',
+                        'subis',
+                        'subem',
+                    ],
+                    preterite: [
+                        'subi',
+                        'subiste',
+                        'subiu',
+                        'subimos',
+                        'subistes',
+                        'subiram',
+                    ],                    
+                    imperfect: [
+                        'subia',
+                        'subias',
+                        'subia',
+                        'subíamos',
+                        'subíeis',
+                        'subiam',
+                    ],
+                    future: [
+                        'subirei',
+                        'subirás',
+                        'subirá',
+                        'subiremos',
+                        'subireis',
+                        'subirão'
+                    ],
+                    conditional: [
+                        'subiria',
+                        'subirias',
+                        'subiria',
+                        'subiríamos',
+                        'subiríeis',
+                        'subiriam',
+                    ],
+                    pluperfect: [
+    				    'subira',
+    				    'subiras',
+    				    'subira',
+    				    'subíramos',
+    				    'subíreis',
+    				    'subiram',
+                    ],
+                    'present subjunctive': [
+                        'suba',
+                        'subas',
+                        'suba',
+                        'subamos',
+                        'subais',
+                        'subam',
+                    ],
+                    'imperfect subjunctive': [
+                        'subisse',
+                        'subisses',
+                        'subisse',
+                        'subíssemos',
+                        'subísseis',
+                        'subissem',
+                    ],
+                    'future subjunctive': [
+                        'subir',
+                        'subires',
+                        'subir',
+                        'subirmos',
+                        'subirdes',
+                        'subirem',
+                    ]
+                },
+                {
+                    i: 'seguir',
+                    present: [
+                        'sigo',
+                        'segues',
+                        'segue',
+                        'seguimos',
+                        'seguis',
+                        'seguem',
+                    ],
+                    preterite: [
+                        'segui',
+                        'seguiste',
+                        'seguiu',
+                        'seguimos',
+                        'seguistes',
+                        'seguiram',
+                    ],                    
+                    imperfect: [
+                        'seguia',
+                        'seguias',
+                        'seguia',
+                        'seguíamos',
+                        'seguíeis',
+                        'seguiam',
+                    ],
+                    future: [
+                        'seguirei',
+                        'seguirás',
+                        'seguirás',
+                        'seguiremos',
+                        'seguireis',
+                        'seguirão',
+                    ],
+                    conditional: [
+                        'seguiria',
+                        'seguirias',
+                        'seguiria',
+                        'seguiríamos',
+                        'seguiríeis',
+                        'seguiriam',
+                    ],
+                    pluperfect: [
+    				    'seguira',
+    				    'seguiras',
+    				    'seguira',
+    				    'seguíramos',
+    				    'seguíreis',
+    				    'seguiram',
+                    ],
+                    'present subjunctive': [
+                        'siga',
+                        'sigas',
+                        'siga',
+                        'sigamos',
+                        'sigais',
+                        'sigam',
+                    ],
+                    'imperfect subjunctive': [
+                        'seguisse',
+                        'seguisses',
+                        'seguisse',
+                        'seguíssemos',
+                        'seguísseis',
+                        'seguissem',
+                    ],
+                    'future subjunctive': [
+                        'seguir',
+                        'seguires',
+                        'seguir',
+                        'seguirmos',
+                        'seguirdes',
+                        'seguirem',
+                    ],
+                },
+                {
+                    i: 'progredir',
+                    present: [
+                        'progredo',
+                        'progredes',
+                        'progrede',
+                        'progredimos',
+                        'progredis',
+                        'progredem',
+                    ],
+                    preterite: [
+                        'progredi',
+                        'progrediste',
+                        'progrediu',
+                        'progredimos',
+                        'progredistes',
+                        'progrediram',
+                    ],                    
+                    imperfect: [
+                        'progredia',
+                        'progredias',
+                        'progredia',
+                        'progredíamos',
+                        'progredíeis',
+                        'progrediam',
+                    ],
+                    future: [
+                        'progredirei',
+                        'progredirás',
+                        'progredirá',
+                        'progrediremos',
+                        'progredireis',
+                        'progredirão',
+                    ],
+                    conditional: [
+                        'progrediria',
+                        'progredirias',
+                        'progrediria',
+                        'progrediríamos',
+                        'progrediríeis',
+                        'progrediriam',
+                    ],
+                    pluperfect: [
+    				    'progredira',
+    				    'progrediras',
+    				    'progredira',
+    				    'progredíramos',
+    				    'progredíreis',
+    				    'progrediram',
+                    ],
+                    'present subjunctive': [
+                        'progreda',
+                        'progredas',
+                        'progreda',
+                        'progredamos',
+                        'progredais',
+                        'progredam',
+                    ],
+                    'imperfect subjunctive': [
+                        'progredisse',
+                        'progredisses',
+                        'progredisse',
+                        'progredíssemos',
+                        'progredísseis',
+                        'progredissem',
+                    ],
+                    'future subjunctive': [
+                        'progredir',
+                        'progredires',
+                        'progredir',
+                        'progredirmos',
+                        'progredirdes',
+                        'progredirem',
+                    ],
                 }
             ];
         
@@ -16278,5 +16504,34 @@ export const data = {
             }
         ];
         return tenses;
+    },
+    getSetDrills() {
+        return [
+            {
+                id: 1,
+                name: 'Common irregular verbs',
+                verbs: [ { name:'ser' }, { name:'estar' }, { name:'ter' }, { name:'fazer', }, { name:'ir' }, { name:'vir' }, { name: 'ver' }, { name: 'querer' }, { name: 'dar' }, { name: 'dizer' }, {  name: 'haver' }, { name: 'poder' } ]
+            },
+            {
+                id: 2,
+                name: 'More irregular verbs',
+                verbs: [ { name:'saber' }, { name:'pôr' }, { name:'trazer' }, { name:'dormir', }, { name:'ler' }, { name:'crer' }, { name: 'ouvir' }, { name: 'pedir' }, { name: 'subir' }, { name: 'seguir' }, { name: 'progredir'} ]
+            },
+            {
+                id: 3,
+                name: 'Regular -ar, -er and -ir verbs',
+                verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
+            },
+            {
+                id: 4,
+                name: 'Common reflexive verbs',
+                verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' }]
+            },
+            {
+                id: 5,
+                name: 'Clear all verbs',
+                verbs: []
+            },
+        ];
     }
 };
