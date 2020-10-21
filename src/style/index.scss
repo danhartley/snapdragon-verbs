@@ -21,7 +21,6 @@ html, body {
 }
 
 #app {
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +77,6 @@ select, input {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    min-height: calc(100% - 7rem);
 }
 
 .main {
@@ -109,7 +107,6 @@ button:disabled {
     }
     .questions {
         label {
-            // width: 6rem;
             display: inline-block;
             padding-right: $space;
         }
@@ -123,6 +120,7 @@ button:disabled {
             align-items: center;
             & > div:first-child > div:first-child {
                 width: 6rem;
+                text-align: right;
             }
             & > div > div:nth-child(2) {
                 width: 9rem;
@@ -169,6 +167,8 @@ button:disabled {
         border: none;
         width: initial;
         background-color: transparent;
+        margin-left: 0;
+        padding-left: 0;
         &:focus {
             color: rgb(80,80,80);
         }
@@ -229,7 +229,7 @@ ul.icons {
     display: flex;
     align-items: center;
     width: fit-content;
-    height: $block;
+    min-height: $block;
     background-color: #d3d3d329;
     padding: 0 1rem;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -291,10 +291,10 @@ input[type='checkbox'] {
     display: flex;
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    width: 800px;
+    width: 1000px;
     margin: 2rem auto;
-    min-height: calc(100% - 7.5rem);
     padding: 0 0 0 .5rem;
+    min-height: calc(100vh - 15.5rem);
 }
 
 .menu > div {
@@ -306,7 +306,19 @@ input[type='checkbox'] {
     margin-left: 6rem; text-align:left;
 }
 
-@media (max-width: $break) {
+@media (max-width: 413px) {
+    .drills .questions > div > div:first-child > div:first-child {
+        width: 3rem;
+    }
+    .drills .is-incorrect > div:nth-child(2) {        
+        font-size: .8rem;
+    }
+    .action-button {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 374px) {
     .menu > div {
         top: 65px;
         margin: (.5 * $space) $space;
@@ -318,17 +330,11 @@ input[type='checkbox'] {
         align-items: flex-start;
         flex-direction: column;
     }
-    .drills .questions > div > div:nth-child(1) > div:nth-child(1) {
-        width: 3rem;
-    }
     .drills .is-incorrect > div:nth-child(2) {        
         margin-left: 3rem;
         .answer {
             margin: 0;
         }
-    }
-    .action-button {
-        margin-left: 3rem;
     }
 }
 
