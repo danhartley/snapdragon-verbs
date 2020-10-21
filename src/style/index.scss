@@ -109,7 +109,7 @@ button:disabled {
     }
     .questions {
         label {
-            width: 6rem;
+            // width: 6rem;
             display: inline-block;
             padding-right: $space;
         }
@@ -121,19 +121,19 @@ button:disabled {
             margin: $space 0;
             display: flex;
             align-items: center;
-            & > div:first-child {
+            & > div:first-child > div:first-child {
                 width: 6rem;
             }
-            & > div {
+            & > div > div:nth-child(2) {
                 width: 9rem;
             }
-            & > div:nth-child(3) {
+            & > div:nth-child(3) > div {
                 text-align: left;
             }
         }
     }
     .answer { 
-        display: none;
+        visibility: hidden;
     }
     .is-correct {
         input {            
@@ -144,7 +144,7 @@ button:disabled {
     }
     .is-incorrect {        
         .answer {
-            display: initial;
+            visibility: visible;
             color: black;
             margin-left: $space;
             border-bottom: 1px solid black;
@@ -297,20 +297,13 @@ input[type='checkbox'] {
     padding: 0 0 0 .5rem;
 }
 
-.responsive-align {
-    text-align: right;
-    justify-content: flex-end;
-    // @media (max-width: $break) {
-    //     text-align: left !important;
-    //     margin-bottom: $space;
-    //     padding-right: 0;
-    //     justify-content: flex-start;
-    // }
-}
-
 .menu > div {
     width: 15.5rem;
     margin: (.5 * $space) $space;
+}
+
+.action-button {
+    margin-left: 6rem; text-align:left;
 }
 
 @media (max-width: $break) {
@@ -325,20 +318,17 @@ input[type='checkbox'] {
         align-items: flex-start;
         flex-direction: column;
     }
-    .drills .is-incorrect > div:nth-child(3) {
-        margin-top: .5rem;
+    .drills .questions > div > div:nth-child(1) > div:nth-child(1) {
+        width: 3rem;
+    }
+    .drills .is-incorrect > div:nth-child(2) {        
+        margin-left: 3rem;
         .answer {
             margin: 0;
         }
-    } 
-    .responsive-align {
-        text-align: left !important;
-        margin-bottom: $space;
-        padding-right: 0;
-        justify-content: flex-start;
     }
     .action-button {
-        margin-left: 0;
+        margin-left: 3rem;
     }
 }
 
@@ -364,11 +354,4 @@ input[type='checkbox'] {
 
 .text-align {
     text-align: left;
-}
-
-.action-button {
-    margin-left: 6rem; text-align:left;
-    // @media (max-width: $break) {
-    //     margin-left: 0;
-    // }
 }

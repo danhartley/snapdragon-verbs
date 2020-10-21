@@ -148,13 +148,17 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
     if(drill) {
         const questions = drill.questions.map((question, index) =>
-            index === 0
-                ? <div key={`${question.label}_${question.value.to}`} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={inputRef} /></div><div><span class='answer'>{question.value.to}</span></div></div>
-                : <div key={`${question.label}_${question.value.to}`} class={question.class}><div><label class="responsive-align" htmlFor={question.value.to}><span>{question.label}</span></label></div><div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} /></div><div><span class='answer'>{question.value.to}</span></div></div>
-            );
+            <div key={`${question.label}_${question.value.to}`} class={question.class}>
+                <div class="flex">
+                    <div><label htmlFor={question.value.to}><span>{question.label}</span></label></div>
+                    <div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={index === 0 ? inputRef : null} /></div>
+                </div>
+                <div><span class='answer'>{question.value.to}</span></div>
+            </div>
+        );
         return (
             <>
-            <section class="drills responsive-align">
+            <section class="drills">
                 <div class="text-align">
                     <h2>
                         <span>{drill.verb}</span><span class="translation">{translation}</span>
@@ -176,9 +180,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         <svg viewBox="0 0 20 20" preserveAspectRatio="none" width="16" fill="transparent" stroke="rgb(0,0,0)" stroke-width="1.1px"><path d="M1,6 L10,15 L19,6"></path></svg>
                     </div>    
                     <ul>
-                        <li>To move down, use the TAB or ENTER keys.</li>
-                        <li>To move up, use the TAB + SHIFT keys in combination.</li>
-                        <li>To move forward, use the ENTER key.</li>
+                        <li>To move to the next conjugation, use the TAB or ENTER keys.</li>
+                        <li>To return to previous conjugation, use the TAB + SHIFT keys in combination.</li>
+                        <li>To check your answers, use the ENTER key.</li>
                     </ul>
                 </button>
             </section>

@@ -15753,7 +15753,7 @@ export const data = {
                     present: [
                         'trago',
                         'trazes',
-                        'traze',
+                        'traz',
                         'trazemos',
                         'trazeis',
                         'trazem',
