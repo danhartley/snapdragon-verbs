@@ -180,8 +180,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         <svg viewBox="0 0 20 20" preserveAspectRatio="none" width="16" fill="transparent" stroke="rgb(0,0,0)" stroke-width="1.1px"><path d="M1,6 L10,15 L19,6"></path></svg>
                     </div>    
                     <ul>
-                        <li>To move to the next conjugation, use the TAB or ENTER keys.</li>
-                        <li>To return to previous conjugation, use the TAB + SHIFT keys in combination.</li>
+                        <li>To move to the next person, use the TAB or ENTER keys.</li>
+                        <li>To return to the previous person, use the TAB + SHIFT keys in combination.</li>
                         <li>To check your answers, use the ENTER key.</li>
                     </ul>
                 </button>

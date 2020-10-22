@@ -1,4 +1,4 @@
-import { Language } from './enums.js';
+import { Language, Tense } from './enums.js';
 
 import { api } from './api.js';
 
@@ -28,11 +28,11 @@ describe('api simple verbs', () => {
     });
     test('use getLikeFromVerbEnding to work out like verb', () => {
         let like;
-        like = api.getLikeFromVerbEnding('abalar', Language.PT);
+        like = api.getLikeFromVerbEnding({ inf: 'abalar', language: Language.PT, isReflexive: false });
         expect(like).toBe('falar');
-        like = api.getLikeFromVerbEnding('adimplir', Language.PT);
+        like = api.getLikeFromVerbEnding({ inf: 'adimplir', language: Language.PT, isReflexive: false });
         expect(like).toBe('partir');
-        like = api.getLikeFromVerbEnding('acender', Language.PT);
+        like = api.getLikeFromVerbEnding({ inf: 'acender', language: Language.PT, isReflexive: false });
         expect(like).toBe('vender');
     });
     test('use getLike to determine conjugations by ending, when there is no like', async () => {
@@ -68,9 +68,9 @@ describe('api simple verbs', () => {
         let likeRoot = api.getRoot(like, Language.PT);
         let likeConjugations = await api.getConjugations({ inf: like });
         let root = api.getRoot(verb, Language.PT);
-        let conjugations = api.getConjugationsFromLikeByTense(likeRoot, likeConjugations, root, tense);
-        expect(conjugations[tense][0]).toBe('canto');
-        conjugations = api.getConjugationsFromLike(likeRoot, likeConjugations, root, [tense]);
+        let conjugations = api.getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive:false, inf: 'cantar'});
+        expect(conjugations[0]).toBe('canto');
+        conjugations = api.getConjugationsFromLike({likeRoot, likeConjugations, root, tense: [tense]});
         expect(conjugations[tense][0]).toBe('canto');
     });
     test('check -ar verbs, without a like, follow the pattern', async () => {
@@ -80,14 +80,14 @@ describe('api simple verbs', () => {
         let likeRoot = api.getRoot(like, Language.PT);
         let likeConjugations = await api.getConjugations({ inf: like });
         let root = api.getRoot(verb, Language.PT);
-        let conjugations = api.getConjugationsFromLikeByTense(likeRoot, likeConjugations, root, tense);
-        expect(conjugations[tense][0]).toBe('abalo');
-        expect(conjugations[tense][1]).toBe('abalas');
-        expect(conjugations[tense][2]).toBe('abala');
-        expect(conjugations[tense][3]).toBe('abalamos');
-        expect(conjugations[tense][4]).toBe('abalais');
-        expect(conjugations[tense][5]).toBe('abalam');
-        conjugations = api.getConjugationsFromLike(likeRoot, likeConjugations, root, [tense]);
+        let conjugations = api.getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense});
+        expect(conjugations[0]).toBe('abalo');
+        expect(conjugations[1]).toBe('abalas');
+        expect(conjugations[2]).toBe('abala');
+        expect(conjugations[3]).toBe('abalamos');
+        expect(conjugations[4]).toBe('abalais');
+        expect(conjugations[5]).toBe('abalam');
+        conjugations = api.getConjugationsFromLike({likeRoot, likeConjugations, root, tense: [tense]});
         expect(conjugations[tense][0]).toBe('abalo');
     });   
     test('check one step conjugation lookup is valid', async() => {
@@ -139,9 +139,10 @@ describe('api reflexive verbs', () => {
 });
 
 describe('api regular verb conjugation patterns in the present', () => {
+    let verb, conjugations;
     test('check -ar verbs, with no like, follow the pattern in present tense', async() => {
-        const verb = 'abalar';
-        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        verb = 'abalar';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('abalo');
         expect(conjugations.present[1]).toBe('abalas');
         expect(conjugations.present[2]).toBe('abala');
@@ -150,8 +151,8 @@ describe('api regular verb conjugation patterns in the present', () => {
         expect(conjugations.present[5]).toBe('abalam');
     });
     test('check -er verbs, with no like, follow the pattern in present tense', async() => {
-        const verb = 'acender';
-        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        verb = 'acender';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('acendo');
         expect(conjugations.present[1]).toBe('acendes');
         expect(conjugations.present[2]).toBe('acende');
@@ -160,8 +161,8 @@ describe('api regular verb conjugation patterns in the present', () => {
         expect(conjugations.present[5]).toBe('acendem');
     });
     test('check -ir verbs, with no like, follow the pattern in present tense', async() => {
-        const verb = 'adimplir';
-        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        verb = 'adimplir';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.present[0]).toBe('adimplo');
         expect(conjugations.present[1]).toBe('adimples');
         expect(conjugations.present[2]).toBe('adimple');
@@ -172,9 +173,10 @@ describe('api regular verb conjugation patterns in the present', () => {
 });
 
 describe('api regular verb conjugation patterns in the preterite', () => {
+    let verb, conjugations;
     test('check -ar verbs, with no like, follow the pattern in preterite tense', async() => {
-        const verb = 'abalar';
-        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        verb = 'abalar';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.preterite[0]).toBe('abalei');
         expect(conjugations.preterite[1]).toBe('abalaste');
         expect(conjugations.preterite[2]).toBe('abalou');
@@ -193,13 +195,125 @@ describe('api regular verb conjugation patterns in the preterite', () => {
         expect(conjugations.preterite[5]).toBe('acenderam');
     });
     test('check -ir verbs, with no like, follow the pattern in preterite tense', async() => {
-        const verb = 'adimplir';
-        const conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        verb = 'adimplir';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
         expect(conjugations.preterite[0]).toBe('adimpli');
         expect(conjugations.preterite[1]).toBe('adimpliste');
         expect(conjugations.preterite[2]).toBe('adimpliu');
         expect(conjugations.preterite[3]).toBe('adimplimos');
         expect(conjugations.preterite[4]).toBe('adimplistes');
         expect(conjugations.preterite[5]).toBe('adimpliram');
+    });
+});
+
+describe('check conjugations for regular verbs', () => {    
+    let verb, conjugations;
+    test('check for levantar-se', async () => {
+        verb = 'levantar-se';
+        conjugations = await api.getConjugations({inf:verb, isReflexive:true, language:Language.pt, tense: Tense.present});
+        expect(conjugations.present[0]).toBe('levanto-me');
+        expect(conjugations.present[3]).toBe('levantamo-nos');
+        conjugations = await api.getConjugations({inf:verb, isReflexive:true, language:Language.pt, tense: Tense.imperfect});
+        expect(conjugations[Tense.imperfect][0]).toBe('levantava-me');
+        expect(conjugations[Tense.imperfect][3]).toBe('levantávamo-nos');
+        conjugations = await api.getConjugations({inf:verb, isReflexive:true, language:Language.pt, tense: Tense.preterite});
+        expect(conjugations[Tense.preterite][0]).toBe('levantei-me');
+        expect(conjugations[Tense.preterite][3]).toBe('levantámo-nos');
+        conjugations = await api.getConjugations({inf:verb, isReflexive:true, language:Language.pt, tense: Tense.pluperfect});
+        expect(conjugations[Tense.pluperfect][0]).toBe('levantara-me');
+        expect(conjugations[Tense.pluperfect][3]).toBe('levantáramo-nos');
+    });
+});
+
+describe('makeReflexive converts regular verb into a reflexive verb', () => {
+    let verb, conjugations, reflexiveConjugations;
+    test('check present, preterite, imperfect and pluperfect', () => {
+        verb = 'lavar';
+        conjugations = [
+            'lavo',
+            'lavas',
+            'lava',
+            'lavamos',
+            'lavais',
+            'lavam',
+        ];
+        reflexiveConjugations = api.makeReflexive({conjugations, tense: Tense.present});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavo-me',
+            'lavas-te',
+            'lava-se',
+            'lavamo-nos',
+            'lavais-vos',
+            'lavam-se',
+        ]);
+        conjugations = [
+            'lavei',
+            'lavaste',
+            'lavou',
+            'lavámos',
+            'lavastes',
+            'lavaram',
+        ];
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavei-me',
+            'lavaste-te',
+            'lavou-se',
+            'lavámo-nos',
+            'lavastes-vos',
+            'lavaram-se',
+        ]);
+        conjugations = [
+            'lavava',
+            'lavavas',
+            'lavava',
+            'lavávamos',
+            'laváveis',
+            'lavavam',
+        ];
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavava-me',
+            'lavavas-te',
+            'lavava-se',
+            'lavávamo-nos',
+            'laváveis-vos',
+            'lavavam-se',
+        ]);
+        conjugations = [
+            'lavara',
+            'lavaras',
+            'lavara',
+            'laváramos',
+            'laváreis',
+            'lavaram',
+        ];
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavara-me',
+            'lavaras-te',
+            'lavara-se',
+            'laváramo-nos',
+            'laváreis-vos',
+            'lavaram-se',
+        ]);
+        reflexiveConjugations = api.makeReflexive({conjugations:[0,1,2,3,4,5], tense:Tense.future, inf:'lavar'});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavar-me-ei',
+            'lavar-te-ás',
+            'lavar-se-á',
+            'lavar-nos-emos',
+            'lavar-vos-eis',
+            'lavar-se-ão',
+        ]);
+        reflexiveConjugations = api.makeReflexive({conjugations:[0,1,2,3,4,5], tense:Tense.conditional, inf:'lavar'});
+        expect(reflexiveConjugations).toStrictEqual([
+            'lavar-me-ia',
+            'lavar-te-ias',
+            'lavar-se-ia',
+            'lavar-nos-íamos',
+            'lavar-vos-íeis',
+            'lavar-se-iam',
+        ]);
     });
 });

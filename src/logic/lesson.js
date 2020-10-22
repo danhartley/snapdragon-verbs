@@ -107,6 +107,7 @@ export class Lesson {
                 tense: this.tense
             };
             conjugations = await api.getConjugations({ inf: verb, language: this.language.to, tenses: this.tenses, tense: this.tense });
+
             conjugations[this.tense].forEach((conjugation, index) => {
                 pronoun = Pronoun_PT[index];
                 question = new Question(pronoun, pronoun, {

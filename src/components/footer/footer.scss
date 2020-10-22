@@ -9,9 +9,14 @@
         height: inherit;
         margin: 0 $space;
         font-size: .7rem;
-        justify-content: space-between;
         a {
             color: black;
+        }
+        span:first-child {
+            margin-right: $space;            
+        }
+        span:nth-child(2) {
+            font-size: .9rem;
         }
     }
 }

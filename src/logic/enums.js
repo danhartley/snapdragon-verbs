@@ -41,3 +41,15 @@ export class DrillState extends Enumify {
     static nextDrill = 'Next drill';
     static drillsComplete = 'All done!';
 }
+
+export class Tense extends Enumify {
+    static present = 'present';
+    static imperfect = 'imperfect';
+    static preterite = 'preterite';
+    static pluperfect = 'pluperfect';
+    static future = 'future';
+    static conditional = 'conditional';
+    static present_subjunctive = 'present subjunctive';
+    static imperfect_subjunctive = 'imperfect subjunctive';
+    static future_subjunctive = 'future subjunctive';
+}
