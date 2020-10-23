@@ -30,6 +30,12 @@ const Home = ({ verbs, tenses }) => {
         setLesson({ ...lesson, tense, tenses });
     }
 
+    const handleSetDrill = async drill => {        
+        let translation = await api.getVerb(drill.verb);
+        drill.translation = translation[lesson.language.from].i;
+        setDrill(drill);
+    };
+
     const handleStartDrill = async e => {        
         if(selectedVerbs.length > 0) {
             lesson.removeVerbs();
@@ -38,9 +44,7 @@ const Home = ({ verbs, tenses }) => {
             setLesson({ ...lesson, drills });
             setDrillActionState(DrillState.checkAnswers);
             let drill = lesson.getNextDrill();
-            let translation = await api.getVerb(drill.verb);
-            drill.translation = translation[lesson.language.from].i;
-            setDrill(drill);
+            handleSetDrill(drill);
         }        
     };
 
@@ -97,7 +101,7 @@ const Home = ({ verbs, tenses }) => {
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => setDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} />                          
+                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} />                          
                         </>): <div class="block"></div>
                     }
                 </div>
