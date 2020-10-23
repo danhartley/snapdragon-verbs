@@ -65,7 +65,8 @@ export const Picker = props => {
                 <div class="menu">
                 <Menu>
                 {props.items
-                    .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
+                    // .filter(item => !inputValue || item.toLowerCase().includes(inputValue.toLowerCase()))
+                    .filter(item => !inputValue || item.toLowerCase().startsWith(inputValue.toLowerCase()))
                     .map((item, index) => (
                                             <Item
                                             key={item.id}

@@ -1,16 +1,12 @@
-export const SimpleList = ({ items, msg, header }) => {
-    const showList = items.length > 0;
-    const list = showList 
-        ? items.map(item =><li>{item}</li>)
-        : <li class="hint">{msg}</li>;
-    if(showList) {    
+import { Pronoun_PT } from '../../logic/enums.js';
+
+export const ConjugationList = ({ items }) => {
+    const list = items.map((item, i) => <li><span class="margin-right">{Pronoun_PT[i]}</span><span>{item}</span></li> );
         return (
         <>
-            <div class="block"><h3>{header}</h3></div>
             <ul>{list}</ul>
         </>
         );
-    } else return (<></>);
   }
   
   export const EditableList = ({ items, header, editedHandler }) => {
@@ -30,7 +26,7 @@ export const SimpleList = ({ items, msg, header }) => {
         editedHandler(verb, isVerbDisabled);                
     };
 
-    const list = items.map(item =><li key={item.name}><button class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
+    const list = items.map(item =><li key={item.name}><button aria-label={item.name} class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
     return (
     <>
         <div class="block"><h3>{header}</h3></div>
@@ -42,7 +38,7 @@ export const SimpleList = ({ items, msg, header }) => {
   export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true, colCount = 0 }) => {
     let list;
     if(colCount) {
-        list = items.map(item =><li><button onClick={listItemClickHandler} class="button-link-action" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
+        list = items.map(item =><li><button aria-label={item.name} onClick={listItemClickHandler} class="button-link-action" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
         return (
             <ul class='icons' style={`column-count: ${colCount}`}>{list}</ul>
         )

@@ -32,7 +32,7 @@ a {
 }
 
 ul {
-    margin: 0 0 1rem 0;
+    margin: 0 0 ($space * 2) 0;
     padding: 0;
 }
 
@@ -53,29 +53,41 @@ h2 {
     font-size: 1.25rem;
     font-weight: 400;
     display: inline-block;
-    margin: 0 0 1rem 0;
+    margin: 0 0 ($space * 2) 0;
 }
 
 h3 {
     font-size: .8rem;
     font-weight: 400;
     display: inline-block;
-    margin: 1rem 0 .5rem 0;
+    margin: ($space * 2) 0 $space 0;
     color: $fg5;
     text-transform: uppercase;    
 }
 
 h4 {
-    margin: 0 0 .25rem 0;
+    margin: 0 0 (.5 * $space) 0;
     font-weight: 500;
     font-size: .9rem;
+}
+
+h5 {
+    margin: 0 $space $space 0;
+    font-weight: 500;
+    background-color: $bg3;
+    padding: $space;
+    color: $fg2;
 }
 
 select, input {
     font-size: 12px;
 }
 
-.home, .conjugations {
+input:focus {
+    border-color: $fg3;
+}
+
+.home, .conjugations-container {
     @include display-wrap;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -291,6 +303,9 @@ input[type='checkbox'] {
     &.disabled-item {
         color: gray;
     }
+    &:focus{
+        color:gray;        
+    }
 }
 
 .columns {
@@ -352,6 +367,10 @@ input[type='checkbox'] {
     margin-right: $space;
 }
 
+.margin-left {
+    margin-left: $space;
+}
+
 .double-margin-right {
     margin-right: $space * 2;
 }
@@ -366,4 +385,29 @@ input[type='checkbox'] {
 
 .text-align {
     text-align: left;
+}
+
+.conjugations-container {
+    padding: 0 0 ($space * 4) 0;
+    section:nth-child(1) {
+    width: 100%;
+    justify-content: center;    
+}
+}
+
+.conjugations {
+    width: 800px;
+    column-count: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    li {
+        font-size: 1rem;
+        span:nth-child(1) {
+            width: 4 * $space;
+            text-align: right;
+            display: inline-block;
+        }
+    }
 }

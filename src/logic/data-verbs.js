@@ -12958,7 +12958,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: "to serve"
          },
          pt: {
              i: "servir"

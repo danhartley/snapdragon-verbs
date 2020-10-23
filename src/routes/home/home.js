@@ -33,6 +33,7 @@ const Home = ({ verbs, tenses }) => {
     const handleSetDrill = async drill => {        
         let translation = await api.getVerb(drill.verb);
         drill.translation = translation[lesson.language.from].i;
+        drill.conjugations = await api.getConjugations({inf:drill.verb});
         setDrill(drill);
     };
 
@@ -107,7 +108,7 @@ const Home = ({ verbs, tenses }) => {
                 </div>
             </div>
           </div>
-          { showConjugation ? <Conjugations verb={drill.verb} /> : '' }
+          { showConjugation ? <Conjugations drill={drill} /> : '' }
           <Footer />
         </div>
         </>
