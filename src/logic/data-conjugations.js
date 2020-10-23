@@ -417,7 +417,7 @@ const conjugations = [
             'estariam'
         ],
         pluperfect: [
-            'eestivera',
+            'estivera',
             'estiveras',
             'estivera',
             'estivéramos',
@@ -1978,6 +1978,595 @@ const partials = [
             'sirvamos',
             'sirvais',
             'sirvam',
+        ]
+    },
+    {
+        i: 'esquecer',
+        present: ['esqueço','','','','',''],
+        'present subjunctive': [
+            'esqueça',
+            'esqueças',
+            'esqueça',
+            'esqueçamos',
+            'esqueçais',
+            'esqueçam',
+        ]
+    },
+    {
+        i: 'distrair',
+        present: [
+            'distraio',
+            'distrais',
+            'distrai',
+            'distraímos',
+            'distraís',
+            'distraem'
+        ],
+        imperfect: [
+            'distraía',
+            'distraías',
+            'distraía', 
+            'distraíamos',
+            'distraíeis',
+            'distraíam'
+        ],
+        preterite: [
+            'distraí',
+            'distraíste',
+            'distraiu',
+            'distraímos',
+            'distraístes',
+            'distraíram'
+        ],
+        pluperfect: [
+            'distraíra',
+            'distraíras',
+            'distraíra',
+            'distraíramos',
+            'distraíreis',
+            'distraíram'
+        ],
+        'present subjunctive': [
+            'distraia',
+            'distraias',
+            'distraia',
+            'distraiamos',
+            'distraiais',
+            'distraiam',
+        ],
+        'imperfect subjunctive': [
+            'distraísse',
+            'distraísses',
+            'distraísse',
+            'distraíssemos',
+            'distraísseis',
+            'distraíssem',
+        ],
+        'future subjunctive': [
+            'distrair',
+            'distraíres',
+            'distrair',
+            'distrairmos',
+            'distrairdes',
+            'distraírem'
+        ]
+    },
+    {
+        i: 'acudir',
+        present: [
+            'acudo',
+            'acodes',
+            'acode',
+            'acudimos',
+            'acudis',
+            'acodem',
+        ]
+    },
+    {
+        i: 'aderir',
+        present: [
+            'adiro', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'adira',
+            'adiras',
+            'adira',
+            'adiramos',
+            'adirais',
+            'adiram',
+        ]
+    },
+    {
+        i: 'agredir',
+        present: [
+            'agrido',
+            'agrides',
+            'agride',
+            'agredimos',
+            'agredis',
+            'agridem',
+        ],
+        'present subjunctive': [
+            'agrida',
+            'agridas',
+            'agrida',
+            'agridamos',
+            'agridais',
+            'agridam',
+        ]
+    },
+    {
+        i: 'caber',
+        present: ['caibo','','','','',''],
+        preterite: [
+            'coube',
+            'coubeste',
+            'coube',
+            'coubemos',
+            'coubestes',
+            'couberam',
+        ],
+        pluperfect: [
+            'coubera',
+            'couberas',
+            'coubera',
+            'coubéramos',
+            'coubéreis',
+            'couberam',
+        ],
+        'present subjunctive': [
+            'caiba',
+            'caibas',
+            'caiba',
+            'caibamos',
+            'caibais',
+            'caibam',
+        ],
+        'imperfect subjunctive': [
+            'coubesse',
+            'coubesses',
+            'coubesse',
+            'coubéssemos',
+            'coubésseis',
+            'coubessem',
+        ],
+        'future subjunctive': [
+            'couber',
+            'couberes',
+            'couber',
+            'coubermos',
+            'couberdes',
+            'couberem',
+        ],
+    },
+    {
+        i: 'caçar',
+        preterite: ['cacei', '', '', '', '', ''],
+        'present subjunctive': [
+            'cace',
+            'caces',
+            'cace',
+            'cacemos',
+            'caceis',
+            'cacem',
+        ]
+    },
+    {
+        i: 'chegar',
+        preterite: ['cheguei', '', '', '', '', ''],
+        'present subjunctive': [
+            'chegue',
+            'chegues',
+            'chegue',
+            'cheguemos',
+            'chegueis',
+            'cheguem',
+        ]
+    },
+    {
+        i: 'cobrir',
+        present: ['cubro', '', '', '', '', ''],
+        'present subjunctive': [
+            'cubra',
+            'cubras',
+            'cubra',
+            'cubramos',
+            'cubrais',
+            'cubram',
+        ]
+    },
+    {
+        i: 'construir',
+        present: [
+            'construo',
+            'constróis',
+            'constrói',
+            'construímos',
+            'construís',
+            'constroem'
+        ],
+        imperfect: [
+            'construía',
+            'construías',
+            'construía',
+            'construíamos',
+            'construíeis',
+            'construíam'
+        ],
+        preterite: [
+            'construí',
+            'construíste',
+            'construiu',
+            'construímos',
+            'construístes',
+            'construíram'
+        ],
+        'present subjunctive': [
+            'construíra',
+            'construíras',
+            'construíra',
+            'construíramos',
+            'construíreis',
+            'construíram',
+        ],
+        'imperfect subjunctive': [
+            'construísse',
+            'construísses',
+            'construísse',
+            'construíssemos',
+            'construísseis',
+            'construíssem',
+        ],
+        'future subjunctive': [
+            'construir',
+            'construíres',
+            'construir',
+            'construirmos',
+            'construirdes',
+            'construírem'
+        ]
+    },
+    {
+        i: 'distinguir',
+        present: ['distingo', '', '', '', '', ''],
+        'present subjunctive': [
+            'distinga',
+            'distingas',
+            'distinga',
+            'distingamos',
+            'distingais',
+            'distingam',
+        ]
+    },
+    {
+        i: 'erguer',
+        present: ['ergo', '', '', '', '', ''],
+        'present subjunctive': [
+            'erga',
+            'ergas',
+            'erga',
+            'ergamos',
+            'ergais',
+            'ergam',
+        ]
+    },
+    {
+        i: 'ficar',
+        preterite: ['fiquei', '', '', '', '', ''],
+        'present subjunctive': [
+            'fique',
+            'fiques',
+            'fique',
+            'fiquemos',
+            'fiqueis',
+            'fiquem',
+        ]
+    },
+    {
+        i: 'fingir',
+        preterite: ['finjo', '', '', '', '', ''],
+        'present subjunctive': [
+            'finja',
+            'finjas',
+            'finja',
+            'finjamos',
+            'finjais',
+            'finjam',
+        ]
+    },
+    {
+        i: 'frigir',
+        preterite: ['frijo', '', '', '', '', ''],
+        'present subjunctive': [
+            'frija',
+            'frijas',
+            'frija',
+            'frijamos',
+            'frijais',
+            'frijam',
+        ]
+    },
+    {
+        i: 'fugir',
+        preterite: ['fujo', 'foges', 'foge', '', '', '', 'fogem'],
+        'present subjunctive': [
+            'fuja',
+            'fujas',
+            'fuja',
+            'fujamos',
+            'fujais',
+            'fujam',
+        ]
+    },
+    {
+        i: 'incendiar',
+        preterite: ['incendeio', 'incendeias', 'incendeia', '', '', '', 'incendeiam'],
+        'present subjunctive': [
+            'incendeie',
+            'incendeies',
+            'incendeie',
+            'incendeiemos',
+            'incendeieis',
+            'incendeiem',
+        ]
+    },
+    {
+        i: 'influir',
+        present: [
+            'influo',
+            'influis',
+            'influi',
+            'influímos',
+            'influís',
+            'influem'
+        ],
+        imperfect: [
+            'influía',
+            'influías',
+            'influía',
+            'influíamos',
+            'influíaeis',
+            'influíam'
+        ],
+        preterite: [
+            'influí',
+            'influíste',
+            'influiu',
+            'influímos',
+            'influístes',
+            'influíram'
+        ],
+        pluperfect: [
+            'influíra',
+            'influíras',
+            'influíra',
+            'influíramos',
+            'influíreis',
+            'influíram',
+        ],
+        'imperfect subjunctive': [
+            'influísse',
+            'influísses',
+            'influísse',
+            'influíssemos',
+            'influísseis',
+            'influíssem',
+        ],
+        'future subjunctive': [
+            'influir',
+            'influíres',
+            'influir',
+            'influirmos',
+            'influirdes',
+            'influírem'
+        ]
+    },
+    {
+        i: 'moer',
+        present: [
+            'moo',
+            'móis',
+            'mói',
+            '',
+            '',
+            ''
+        ],
+        imperfect: [
+            'moía',
+            'moías',
+            'moía',
+            'moíamos',
+            'moíeis',
+            'moíam'
+        ],
+        preterite: [ 'eumoí', '', '', '', '', '' ]
+    },
+    {
+        i: 'passear',
+        preterite: ['passeio', 'passeias', 'passeia', '', '', '', 'passeiam'],
+        'present subjunctive': [
+            'passeie',
+            'passeies',
+            'passeie',
+            'passeemos',
+            'passeeis',
+            'passeiem',
+        ]
+    },
+    {
+        i: 'perder',
+        preterite: ['perco', '', '', '', '', ''],
+        'present subjunctive': [
+            'perca',
+            'percas',
+            'perca',
+            'percamos',
+            'percais',
+            'percam',
+        ]
+    },
+    {
+        i: 'precaver',
+        preterite: ['', '', '', '', 'precaveis', '' ],
+    },
+    {
+        i: 'proteger',
+        preterite: ['protejo', '', '', '', '', ''],
+        'present subjunctive': [
+            'proteja',
+            'protejas',
+            'proteja',
+            'protejamos',
+            'protejais',
+            'protejam',
+        ]
+    },  
+    {
+        i: 'prover',
+        preterite: ['provejo', 'provês', 'provê', 'provemos', 'provedes', 'proveem'],
+        'present subjunctive': [
+            'proveja',
+            'provejas',
+            'proveja',
+            'provejamos',
+            'provejais',
+            'provejam',
+        ]
+    },
+    {
+        i: 'reaver',
+        preterite: ['reouve', 'reouveste', 'reouve', 'reouvemos', 'reouvestes', 'reouveram'],
+        imperfect: [
+            'reouvera',
+            'reouveras',
+            'reouvera',
+            'reouvéramos',
+            'reouvéreis',
+            'reouveram',
+        ],
+        'imperfect subjunctive': [
+            'reouvesse',
+            'reouvesses',
+            'reouvesse',
+            'reouvéssemos',
+            'reouvésseis',
+            'reouvessem',
+        ]
+    },
+    {
+        i: 'requerer',
+        preterite: ['requeiro', '', 'requer', '', '', ''],
+        'present subjunctive': [
+            'requeira',
+            'requeiras',
+            'requeira',
+            'requeiramos',
+            'requeirais',
+            'requeiram',
+        ]
+    },
+    {
+        i: 'rir',
+        preterite: ['rio', 'ris', 'ri', 'rimos', 'rides', 'riem'],
+        'present subjunctive': [
+            'ria',
+            'rias',
+            'ria',
+            'riamos',
+            'riais',
+            'riam',
+        ]
+    },
+    {
+        i: 'sair',
+        preterite: ['saio', 'saias', 'sai', 'saímos', 'saís', 'saem'],
+        imperfect: [
+            'saía',
+            'saías',
+            'saía',
+            'saíamos',
+            'saíeis',
+            'saíam',
+        ],
+        preterite: [
+            'saí',
+            'saíste',
+            'saiu',
+            'saímos',
+            'saístes',
+            'saíram'
+        ],
+        pluperfect: [
+            'saíra',
+            'saíras',
+            'saíra',
+            'saíramos',
+            'saíreis',
+            'saíram',
+        ],
+        'present subjunctive': [
+            'saia',
+            'saias',
+            'saia',
+            'saiamos',
+            'saiais',
+            'saiam',
+        ],
+        'imperfect subjunctive': [
+            'saísse',
+            'saísses',
+            'saísse',
+            'saíssemos',
+            'saísseis',
+            'saíssem',
+        ],
+        'present subjunctive': [
+            'sair',
+            'saíres',
+            'sair',
+            'sairmos',
+            'sairdes',
+            'saírem',
+        ],
+    },
+    {
+        i: 'saudar',
+        preterite: ['saúdo', 'saúdas', 'saúda', 'saudamos', 'saudais', 'saúdam'],
+        'present subjunctive': [
+            'saúde',
+            'saúdes',
+            'saúde',
+            'saudemos',
+            'saudeis',
+            'saúdem',
+        ]
+    },
+    {
+        i: 'seduzir',
+        preterite: ['', '', 'seduz', '', '', ''],
+    },
+    {
+        i: 'valer',
+        preterite: ['valho', '', '', '', '', ''],
+        'present subjunctive': [
+            'valha',
+            'valhas',
+            'valha',
+            'valhamos',
+            'valhais',
+            'valham',
+        ]
+    },
+    {
+        i: 'vencer',
+        preterite: ['venço', '', '', '', '', ''],
+        'present subjunctive': [
+            'vença',
+            'venças',
+            'vença',
+            'vençamos',
+            'vençais',
+            'vençam',
         ]
     },
 ];

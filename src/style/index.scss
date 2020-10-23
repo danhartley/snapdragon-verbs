@@ -115,7 +115,7 @@ button:disabled {
 
 .drills {
     h2 > span {
-        border-bottom: 1px solid lightgray;
+        // border-bottom: 1px solid lightgray;
         font-weight: bold;
         color: $fg1;
     }
@@ -408,6 +408,8 @@ input[type='checkbox'] {
             width: 4 * $space;
             text-align: right;
             display: inline-block;
+            color: $fg3;
+            font-weight: 500;
         }
     }
 }

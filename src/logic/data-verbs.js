@@ -1,490 +1,498 @@
 export const getVerbsList = inf => {
     const verbs = [{
      en: {
-         i: "to shake"
+         i: 'to shake'
      },
      pt: {
-         i: "abalar"
+         i: 'abalar'
      }
      },
      {
          en: {
-             i: "to approve"
+             i: 'to approve'
          },
          pt: {
-             i: "abalizar"
+             i: 'abalizar'
          }
      },
      {
          en: {
-             i: "to shake"
+             i: 'to shake'
          },
          pt: {
-             i: "abanar"
+             i: 'abanar'
          }
      },
      {
          en: {
-             i: "to abandon"
+             i: 'to abandon'
          },
          pt: {
-             i: "abandonar"
+             i: 'abandonar'
          }
      },
      {
          en: {
-             i: "to fuel"
+             i: 'to fuel'
          },
          pt: {
-             i: "abastecer"
+             i: 'abastecer'
          }
      },
      {
          en: {
-             i: "to shoot down"
+             i: 'to shoot down'
          },
          pt: {
-             i: "abater"
+             i: 'abater'
          }
      },
      {
          en: {
-             i: "to bulge"
+             i: 'to bulge'
          },
          pt: {
-             i: "abaular"
+             i: 'abaular'
          }
      },
      {
          en: {
-             i: "to bless"
+             i: 'to bless'
          },
          pt: {
-             i: "abençoar"
+             i: 'abençoar'
          }
      },
      {
          en: {
-             i: "to abolish"
+             i: 'to abolish'
          },
          pt: {
-             i: "abolir"
+             i: 'abolir'
          }
      },
      {
          en: {
-             i: "to approach"
+             i: 'to approach'
          },
          pt: {
-             i: "abordar"
+             i: 'abordar'
          }
      },
      {
          en: {
-             i: "to abort"
+             i: 'to abort'
          },
          pt: {
-             i: "abortar"
+             i: 'abortar'
          }
      },
      {
          en: {
-             i: "to button up"
+             i: 'to button up'
          },
          pt: {
-             i: "abotoar"
+             i: 'abotoar'
          }
      },
      {
          en: {
-             i: "to hug"
+             i: 'to hug'
          },
          pt: {
-             i: "abraçar"
+             i: 'abraçar'
          }
      },
      {
          en: {
-             i: "to reach"
+             i: 'to reach'
          },
          pt: {
-             i: "abranger"
+             i: 'abranger'
          }
      },
      {
          en: {
-             i: "to abbreviate"
+             i: 'to abbreviate'
          },
          pt: {
-             i: "abreviar"
+             i: 'abreviar'
          }
      },
      {
          en: {
-             i: "to harbour"
+             i: 'to harbour'
          },
          pt: {
-             i: "abrigar"
+             i: 'abrigar'
          }
      },
      {
          en: {
-             i: "to open"
+             i: 'to open'
          },
          pt: {
-             i: "abrir"
+             i: 'abrir'
          }
      },
      {
          en: {
-             i: "to absolve"
+             i: 'to absolve'
          },
          pt: {
-             i: "absolver"
+             i: 'absolver'
          }
      },
      {
          en: {
-             i: "to absorb"
+             i: 'to absorb'
          },
          pt: {
-             i: "absorver"
+             i: 'absorver'
          }
      },
      {
          en: {
-             i: "to abstain"
+             i: 'to abstain'
          },
          pt: {
-             i: "abster"
+             i: 'abster'
          }
      },
      {
          en: {
-             i: "to abstain"
+             i: 'to abstain'
          },
          pt: {
-             i: "abster-se"
+             i: 'abster-se'
          }
      },
      {
          en: {
-             i: "to abstract"
+             i: 'to abstract'
          },
          pt: {
-             i: "abstrair"
+             i: 'abstrair'
          }
      },
      {
          en: {
-             i: "to abound"
+             i: 'to abound'
          },
          pt: {
-             i: "abundar"
+             i: 'abundar'
          }
      },
      {
          en: {
-             i: "to abuse"
+             i: 'to abuse'
          },
          pt: {
-             i: "abusar"
+             i: 'abusar'
          }
      },
      {
          en: {
-             i: "to end"
+             i: 'to end'
          },
          pt: {
-             i: "acabar"
+             i: 'acabar'
          }
      },
      {
          en: {
-             i: "to calm down"
+             i: 'to calm down'
          },
          pt: {
-             i: "acalmar"
+             i: 'acalmar'
          }
      },
      {
          en: {
-             i: "to take"
+             i: 'to take'
          },
          pt: {
-             i: "acamar"
+             i: 'acamar'
          }
      },
      {
          en: {
-             i: "to camp"
+             i: 'to camp'
          },
          pt: {
-             i: "acampar"
+             i: 'acampar'
          }
      },
      {
          en: {
-             i: "to caress"
+             i: 'to caress'
          },
          pt: {
-             i: "acariciar"
+             i: 'acariciar'
          }
      },
      {
          en: {
-             i: "to accept"
+             i: 'to accept'
          },
          pt: {
-             i: "acatar"
+             i: 'acatar'
          }
      },
      {
          en: {
-             i: "to access"
+             i: 'to access'
          },
          pt: {
-             i: "aceder"
+             i: 'aceder'
          }
      },
      {
          en: {
-             i: "to accept"
+             i: 'to accept'
          },
          pt: {
-             i: "aceitar"
+             i: 'aceitar'
          }
      },
      {
          en: {
-             i: "to speed up"
+             i: 'to speed up'
          },
          pt: {
-             i: "acelerar"
+             i: 'acelerar'
          }
      },
      {
          en: {
-             i: "to light up"
+             i: 'to light up'
          },
          pt: {
-             i: "acender"
+             i: 'acender'
          }
      },
      {
          en: {
-             i: "to accentuate"
+             i: 'to accentuate'
          },
          pt: {
-             i: "acentuar"
+             i: 'acentuar'
          }
      },
      {
          en: {
-             i: "to hit"
+             i: 'to hit'
          },
          pt: {
-             i: "acertar"
+             i: 'acertar'
          }
      },
      {
          en: {
-             i: "to find"
+             i: 'to find'
          },
          pt: {
-             i: "achar"
+             i: 'achar'
          }
      },
      {
          en: {
-             i: "to acclaim"
+             i: 'to acclaim'
          },
          pt: {
-             i: "aclamar"
+             i: 'aclamar'
          }
      },
      {
          en: {
-             i: "to flog"
+             i: 'to flog'
          },
          pt: {
-             i: "açoitar"
+             i: 'açoitar'
          }
      },
      {
          en: {
-             i: "to welcome"
+             i: 'to welcome'
          },
          pt: {
-             i: "acolher"
+             i: 'acolher'
          }
      },
      {
          en: {
-             i: "to accommodate"
+             i: 'to accommodate'
          },
          pt: {
-             i: "acomodar"
+             i: 'acomodar'
          }
      },
      {
          en: {
-             i: "to go along"
+             i: 'to go along'
          },
          pt: {
-             i: "acompanhar"
+             i: 'acompanhar'
          }
      },
      {
          en: {
-             i: "to advise"
+             i: 'to advise'
          },
          pt: {
-             i: "aconselhar"
+             i: 'aconselhar'
          }
      },
      {
          en: {
-             i: "to happen"
+             i: 'to happen'
          },
          pt: {
-             i: "acontecer"
+             i: 'acontecer'
          }
      },
      {
          en: {
-             i: "to couple"
+             i: 'to couple'
          },
          pt: {
-             i: "acoplar"
+             i: 'acoplar'
          }
      },
      {
          en: {
-             i: "to wake up"
+             i: 'to wake up'
          },
          pt: {
-             i: "acordar"
+             i: 'acordar'
          }
      },
      {
          en: {
-             i: "to lean in"
+             i: 'to lean in'
          },
          pt: {
-             i: "acostar-se"
+             i: 'acostar-se'
          }
      },
      {
          en: {
-             i: "to accustom"
+             i: 'to accustom'
          },
          pt: {
-             i: "acostumar"
+             i: 'acostumar'
          }
      },
      {
          en: {
-             i: "to believe"
+             i: 'to believe'
          },
          pt: {
-             i: "acreditar"
+             i: 'acreditar'
          }
      },
      {
          en: {
-             i: "to add"
+             i: 'to add'
          },
          pt: {
-             i: "acrescentar"
+             i: 'acrescentar'
          }
      },
      {
          en: {
-             i: "to accumulate"
+             i: 'to accumulate'
          },
          pt: {
-             i: "acumular"
+             i: 'acumular'
          }
      },
      {
          en: {
-             i: "to accuse"
+             i: 'to help'
          },
          pt: {
-             i: "acusar"
+             i: 'acudir'
          }
      },
      {
          en: {
-             i: "to adapt"
+             i: 'to accuse'
          },
          pt: {
-             i: "adaptar"
+             i: 'acusar'
          }
      },
      {
          en: {
-             i: "to adapt"
+             i: 'to adapt'
          },
          pt: {
-             i: "adaptar-se"
+             i: 'adaptar'
          }
      },
      {
          en: {
-             i: "to suit"
+             i: 'to adapt'
          },
          pt: {
-             i: "adequar"
+             i: 'adaptar-se'
          }
      },
      {
          en: {
-             i: "to adhere"
+             i: 'to suit'
          },
          pt: {
-             i: "aderir"
+             i: 'adequar'
          }
      },
      {
          en: {
-             i: "to anticipate"
+             i: 'to adhere'
          },
          pt: {
-             i: "adiantar"
+             i: 'aderir'
          }
      },
      {
          en: {
-             i: "to get ahead"
+             i: 'to anticipate'
          },
          pt: {
-             i: "adiantar-se"
+             i: 'adiantar'
          }
      },
      {
          en: {
-             i: "to put off"
+             i: 'to get ahead'
          },
          pt: {
-             i: "adiar"
+             i: 'adiantar-se'
          }
      },
      {
          en: {
-             i: "to add"
+             i: 'to put off'
          },
          pt: {
-             i: "adicionar"
+             i: 'adiar'
          }
      },
      {
          en: {
-             i: "to adhere"
+             i: 'to add'
          },
          pt: {
-             i: "adir"
+             i: 'adicionar'
+         }
+     },
+     {
+         en: {
+             i: 'to adhere'
+         },
+         pt: {
+             i: 'adir'
          }
      },
      {
@@ -497,634 +505,652 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to guess"
+             i: 'to guess'
          },
          pt: {
-             i: "adivinhar"
+             i: 'adivinhar'
          }
      },
      {
          en: {
-             i: "to administer"
+             i: 'to administer'
          },
          pt: {
-             i: "administrar"
+             i: 'administrar'
          }
      },
      {
          en: {
-             i: "to admire"
+             i: 'to admire'
          },
          pt: {
-             i: "admirar"
+             i: 'admirar'
          }
      },
      {
          en: {
-             i: "to admit"
+             i: 'to admit'
          },
          pt: {
-             i: "admitir"
+             i: 'admitir'
          }
      },
      {
          en: {
-             i: "to admonish"
+             i: 'to admonish'
          },
          pt: {
-             i: "admoestar"
+             i: 'admoestar'
          }
      },
      {
          en: {
-             i: "to sweeten"
+             i: 'to sweeten'
          },
          pt: {
-             i: "adoçar"
+             i: 'adoçar'
          }
      },
      {
          en: {
-             i: "to sicken"
+             i: 'to sicken'
          },
          pt: {
-             i: "adoecer"
+             i: 'adoecer'
          }
      },
      {
          en: {
-             i: "to worship"
+             i: 'to worship'
          },
          pt: {
-             i: "adorar"
+             i: 'adorar'
          }
      },
      {
          en: {
-             i: "to fall asleep"
+             i: 'to fall asleep'
          },
          pt: {
-             i: "adormecer"
+             i: 'adormecer'
          }
      },
      {
          en: {
-             i: "to adorn"
+             i: 'to adorn'
          },
          pt: {
-             i: "adornar"
+             i: 'adornar'
          }
      },
      {
          en: {
-             i: "to adopt"
+             i: 'to adopt'
          },
          pt: {
-             i: "adotar"
+             i: 'adotar'
          }
      },
      {
          en: {
-             i: "to purchase"
+             i: 'to purchase'
          },
          pt: {
-             i: "adquirir"
+             i: 'adquirir'
          }
      },
      {
          en: {
-             i: "to compost"
+             i: 'to compost'
          },
          pt: {
-             i: "adubar"
+             i: 'adubar'
          }
      },
      {
          en: {
-             i: "to warn"
+             i: 'to hook'
          },
          pt: {
-             i: "advertir"
+             i: 'aduncar',
+             like: 'ficar'
          }
      },
      {
          en: {
-             i: "to put away"
+             i: 'to warn'
          },
          pt: {
-             i: "afastar"
+             i: 'advertir'
          }
      },
      {
          en: {
-             i: "to affect"
+             i: 'to put away'
          },
          pt: {
-             i: "afetar"
+             i: 'afastar'
          }
      },
      {
          en: {
-             i: "to adopt"
+             i: 'to affect'
          },
          pt: {
-             i: "afilhar"
+             i: 'afetar'
          }
      },
      {
          en: {
-             i: "to claim"
+             i: 'to adopt'
          },
          pt: {
-             i: "afirmar"
+             i: 'afilhar'
          }
      },
      {
          en: {
-             i: "to afflict"
+             i: 'to claim'
          },
          pt: {
-             i: "afligir"
+             i: 'afirmar'
          }
      },
      {
          en: {
-             i: "to drown"
+             i: 'to afflict'
          },
          pt: {
-             i: "afogar"
+             i: 'afligir'
          }
      },
      {
          en: {
-             i: "to drown"
+             i: 'to drown'
          },
          pt: {
-             i: "afogar-se"
+             i: 'afogar'
          }
      },
      {
          en: {
-             i: "to loosen"
+             i: 'to drown'
          },
          pt: {
-             i: "afrouxar"
+             i: 'afogar-se'
          }
      },
      {
          en: {
-             i: "to sink"
+             i: 'to loosen'
          },
          pt: {
-             i: "afundar"
+             i: 'afrouxar'
          }
      },
      {
          en: {
-             i: "to crouch"
+             i: 'to sink'
          },
          pt: {
-             i: "agachar-se"
+             i: 'afundar'
          }
      },
      {
          en: {
-             i: "to grab"
+             i: 'to crouch'
          },
          pt: {
-             i: "agarrar"
+             i: 'agachar-se'
          }
      },
      {
          en: {
-             i: "to act"
+             i: 'to grab'
          },
          pt: {
-             i: "agir"
+             i: 'agarrar'
          }
      },
      {
          en: {
-             i: "to shake"
+             i: 'to act'
          },
          pt: {
-             i: "agitar"
+             i: 'agir'
          }
      },
      {
          en: {
-             i: "to agonise"
+             i: 'to shake'
          },
          pt: {
-             i: "agoniar"
+             i: 'agitar'
          }
      },
      {
          en: {
-             i: "to please"
+             i: 'to agonise'
          },
          pt: {
-             i: "agradar"
+             i: 'agoniar'
          }
      },
      {
          en: {
-             i: "to thank"
+             i: 'to please'
          },
          pt: {
-             i: "agradecer"
+             i: 'agradar'
          }
      },
      {
          en: {
-             i: "to aggravate"
+             i: 'to thank'
          },
          pt: {
-             i: "agravar"
+             i: 'agradecer'
          }
      },
      {
          en: {
-             i: "to attack"
+             i: 'to aggravate'
          },
          pt: {
-             i: "agredir"
+             i: 'agravar'
          }
      },
      {
          en: {
-             i: "to aggregate"
+             i: 'to attack'
          },
          pt: {
-             i: "agregar"
+             i: 'agredir'
          }
      },
      {
          en: {
-             i: "to agroup"
+             i: 'to aggregate'
          },
          pt: {
-             i: "agrupar"
+             i: 'agregar'
          }
      },
      {
          en: {
-             i: "to wait"
+             i: 'to agroup'
          },
          pt: {
-             i: "aguardar"
+             i: 'agrupar'
          }
      },
      {
          en: {
-             i: "to sharpen"
+             i: 'to wait'
          },
          pt: {
-             i: "aguçar"
+             i: 'aguardar'
          }
      },
      {
          en: {
-             i: "to endure"
+             i: 'to sharpen'
          },
          pt: {
-             i: "aguentar"
+             i: 'aguçar'
          }
      },
      {
          en: {
-             i: "to kneel"
+             i: 'to endure'
          },
          pt: {
-             i: "ajoelhar-se"
+             i: 'aguentar'
          }
      },
      {
          en: {
-             i: "to help"
+             i: 'to kneel'
          },
          pt: {
-             i: "ajudar"
+             i: 'ajoelhar-se'
          }
      },
      {
          en: {
-             i: "to judge"
+             i: 'to help'
          },
          pt: {
-             i: "ajuizar"
+             i: 'ajudar'
          }
      },
      {
          en: {
-             i: "to adjust"
+             i: 'to judge'
          },
          pt: {
-             i: "ajustar"
+             i: 'ajuizar'
          }
      },
      {
          en: {
-             i: "to flood"
+             i: 'to adjust'
          },
          pt: {
-             i: "alagar"
+             i: 'ajustar'
          }
      },
      {
          en: {
-             i: "to widen"
+             i: 'to flood'
          },
          pt: {
-             i: "alargar"
+             i: 'alagar'
          }
      },
      {
          en: {
-             i: "to alarm"
+             i: 'to bend'
          },
          pt: {
-             i: "alarmar"
+             i: 'alancar',
+             like: 'ficar'
          }
      },
      {
          en: {
-             i: "to house"
+             i: 'to widen'
          },
          pt: {
-             i: "albergar"
+             i: 'alargar'
          }
      },
      {
          en: {
-             i: "to catch up"
+             i: 'to alarm'
          },
          pt: {
-             i: "alcançar"
+             i: 'alarmar'
          }
      },
      {
          en: {
-             i: "to lift"
+             i: 'to house'
          },
          pt: {
-             i: "alçar"
+             i: 'albergar'
          }
      },
      {
          en: {
-             i: "to claim"
+             i: 'to catch up'
          },
          pt: {
-             i: "alegar"
+             i: 'alcançar'
          }
      },
      {
          en: {
-             i: "to rejoice"
+             i: 'to lift'
          },
          pt: {
-             i: "alegrar"
+             i: 'alçar'
          }
      },
      {
          en: {
-             i: "to rejoice"
+             i: 'to claim'
          },
          pt: {
-             i: "alegrar-se"
+             i: 'alegar'
          }
      },
      {
          en: {
-             i: "to suck"
+             i: 'to rejoice'
          },
          pt: {
-             i: "aleitar"
+             i: 'alegrar'
          }
      },
      {
          en: {
-             i: "to alert"
+             i: 'to rejoice'
          },
          pt: {
-             i: "alertar"
+             i: 'alegrar-se'
          }
      },
      {
          en: {
-             i: "to ally"
+             i: 'to suck'
          },
          pt: {
-             i: "aliar"
+             i: 'aleitar'
          }
      },
      {
          en: {
-             i: "to alienate"
+             i: 'to alert'
          },
          pt: {
-             i: "alienar"
+             i: 'alertar'
          }
      },
      {
          en: {
-             i: "to feed"
+             i: 'to ally'
          },
          pt: {
-             i: "alimentar"
+             i: 'aliar'
          }
      },
      {
          en: {
-             i: "to line up"
+             i: 'to alienate'
          },
          pt: {
-             i: "alinhar"
+             i: 'alienar'
          }
      },
      {
          en: {
-             i: "to relieve"
+             i: 'to feed'
          },
          pt: {
-             i: "aliviar"
+             i: 'alimentar'
          }
      },
      {
          en: {
-             i: "to crave"
+             i: 'to line up'
          },
          pt: {
-             i: "almejar"
+             i: 'alinhar'
          }
      },
      {
          en: {
-             i: "to have lunch"
+             i: 'to relieve'
          },
          pt: {
-             i: "almoçar"
+             i: 'aliviar'
          }
      },
      {
          en: {
-             i: "to stretch"
+             i: 'to crave'
          },
          pt: {
-             i: "alongar"
+             i: 'almejar'
          }
      },
      {
          en: {
-             i: "to change"
+             i: 'to have lunch'
          },
          pt: {
-             i: "alterar"
+             i: 'almoçar'
          }
      },
      {
          en: {
-             i: "to alter"
+             i: 'to stretch'
          },
          pt: {
-             i: "altercar"
+             i: 'alongar'
          }
      },
      {
          en: {
-             i: "to switch"
+             i: 'to change'
          },
          pt: {
-             i: "alternar"
+             i: 'alterar'
          }
      },
      {
          en: {
-             i: "to rent"
+             i: 'to alter'
          },
          pt: {
-             i: "alugar"
+             i: 'altercar'
          }
      },
      {
          en: {
-             i: "to bustle"
+             i: 'to switch'
          },
          pt: {
-             i: "alvoroçar"
+             i: 'alternar'
          }
      },
      {
          en: {
-             i: "to dawn"
+             i: 'to rent'
          },
          pt: {
-             i: "alvorotar"
+             i: 'alugar'
          }
      },
      {
          en: {
-             i: "to abate"
+             i: 'to bustle'
          },
          pt: {
-             i: "amainar"
+             i: 'alvoroçar'
          }
      },
      {
          en: {
-             i: "to dawn"
+             i: 'to dawn'
          },
          pt: {
-             i: "amanhecer"
+             i: 'alvorotar'
          }
      },
      {
          en: {
-             i: "to love"
+             i: 'to abate'
          },
          pt: {
-             i: "amar"
+             i: 'amainar'
          }
      },
      {
          en: {
-             i: "to love"
+             i: 'to dawn'
          },
          pt: {
-             i: "amarar"
+             i: 'amanhecer'
          }
      },
      {
          en: {
-             i: "to tie"
+             i: 'to love'
          },
          pt: {
-             i: "amarrar"
+             i: 'amar'
          }
      },
      {
          en: {
-             i: "to crumple"
+             i: 'to love'
          },
          pt: {
-             i: "amassar"
+             i: 'amarar'
          }
      },
      {
          en: {
-             i: "to threaten"
+             i: 'to tie'
          },
          pt: {
-             i: "ameaçar"
+             i: 'amarrar'
          }
      },
      {
          en: {
-             i: "to soften"
+             i: 'to crumple'
          },
          pt: {
-             i: "amenizar"
+             i: 'amassar'
          }
      },
      {
          en: {
-             i: "to shape"
+             i: 'to threaten'
          },
          pt: {
-             i: "amoldar"
+             i: 'ameaçar'
          }
      },
      {
          en: {
-             i: "to enlarge"
+             i: 'to soften'
          },
          pt: {
-             i: "ampliar"
+             i: 'amenizar'
          }
      },
      {
          en: {
-             i: "to amplify"
+             i: 'to shape'
          },
          pt: {
-             i: "amplificar"
+             i: 'amoldar'
          }
      },
      {
          en: {
-             i: "to amputate"
+             i: 'to enlarge'
          },
          pt: {
-             i: "amputar"
+             i: 'ampliar'
          }
      },
      {
          en: {
-             i: "to analise"
+             i: 'to amplify'
          },
          pt: {
-             i: "analisar"
+             i: 'amplificar'
+         }
+     },
+     {
+         en: {
+             i: 'to amputate'
+         },
+         pt: {
+             i: 'amputar'
+         }
+     },
+     {
+         en: {
+             i: 'to analise'
+         },
+         pt: {
+             i: 'analisar'
          }
      },
      {
@@ -1138,1402 +1164,1402 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to inundate"
+             i: 'to inundate'
          },
          pt: {
-             i: "anegar"
+             i: 'anegar'
          }
      },
      {
          en: {
-             i: "to ring"
+             i: 'to ring'
          },
          pt: {
-             i: "anelar"
+             i: 'anelar'
          }
      },
      {
          en: {
-             i: "to numb"
+             i: 'to numb'
          },
          pt: {
-             i: "anestesiar"
+             i: 'anestesiar'
          }
      },
      {
          en: {
-             i: "to distress"
+             i: 'to distress'
          },
          pt: {
-             i: "angustiar"
+             i: 'angustiar'
          }
      },
      {
          en: {
-             i: "to cheer up"
+             i: 'to cheer up'
          },
          pt: {
-             i: "animar"
+             i: 'animar'
          }
      },
      {
          en: {
-             i: "to grow dark"
+             i: 'to grow dark'
          },
          pt: {
-             i: "anoitecer"
+             i: 'anoitecer'
          }
      },
      {
          en: {
-             i: "to write down"
+             i: 'to write down'
          },
          pt: {
-             i: "anotar"
+             i: 'anotar'
          }
      },
      {
          en: {
-             i: "to crave"
+             i: 'to crave'
          },
          pt: {
-             i: "ansiar"
+             i: 'ansiar'
          }
      },
      {
          en: {
-             i: "to anticipate"
+             i: 'to anticipate'
          },
          pt: {
-             i: "antecipar"
+             i: 'antecipar'
          }
      },
      {
          en: {
-             i: "to cancel"
+             i: 'to cancel'
          },
          pt: {
-             i: "anular"
+             i: 'anular'
          }
      },
      {
          en: {
-             i: "to announce"
+             i: 'to announce'
          },
          pt: {
-             i: "anunciar"
+             i: 'anunciar'
          }
      },
      {
          en: {
-             i: "to delete"
+             i: 'to delete'
          },
          pt: {
-             i: "apagar"
+             i: 'apagar'
          }
      },
      {
          en: {
-             i: "to fall in love"
+             i: 'to fall in love'
          },
          pt: {
-             i: "apaixonar-se"
+             i: 'apaixonar-se'
          }
      },
      {
          en: {
-             i: "to catch"
+             i: 'to catch'
          },
          pt: {
-             i: "apanhar"
+             i: 'apanhar'
          }
      },
      {
          en: {
-             i: "to appear"
+             i: 'to appear'
          },
          pt: {
-             i: "aparecer"
+             i: 'aparecer'
          }
      },
      {
          en: {
-             i: "to separate"
+             i: 'to separate'
          },
          pt: {
-             i: "apartar"
+             i: 'apartar'
          }
      },
      {
          en: {
-             i: "to feed"
+             i: 'to feed'
          },
          pt: {
-             i: "apascentar"
+             i: 'apascentar'
          }
      },
      {
          en: {
-             i: "to appease"
+             i: 'to appease'
          },
          pt: {
-             i: "apaziguar"
+             i: 'apaziguar'
          }
      },
      {
          en: {
-             i: "to appeal"
+             i: 'to appeal'
          },
          pt: {
-             i: "apelar"
+             i: 'apelar'
          }
      },
      {
          en: {
-             i: "to realise"
+             i: 'to realise'
          },
          pt: {
-             i: "aperceber"
+             i: 'aperceber'
          }
      },
      {
          en: {
-             i: "to hold tight"
+             i: 'to hold tight'
          },
          pt: {
-             i: "apertar"
+             i: 'apertar'
          }
      },
      {
          en: {
-             i: "to crave"
+             i: 'to crave'
          },
          pt: {
-             i: "apetecer"
+             i: 'apetecer'
          }
      },
      {
          en: {
-             i: "to pity yourself"
+             i: 'to pity yourself'
          },
          pt: {
-             i: "apiedar-se"
+             i: 'apiedar-se'
          }
      },
      {
          en: {
-             i: "to applaud"
+             i: 'to applaud'
          },
          pt: {
-             i: "aplaudir"
+             i: 'aplaudir'
          }
      },
      {
          en: {
-             i: "to apply"
+             i: 'to apply'
          },
          pt: {
-             i: "aplicar"
+             i: 'aplicar'
          }
      },
      {
          en: {
-             i: "to support"
+             i: 'to support'
          },
          pt: {
-             i: "apoiar"
+             i: 'apoiar'
          }
      },
      {
          en: {
-             i: "to point"
+             i: 'to point'
          },
          pt: {
-             i: "apontar"
+             i: 'apontar'
          }
      },
      {
          en: {
-             i: "to bet"
+             i: 'to bet'
          },
          pt: {
-             i: "apostar"
+             i: 'apostar'
          }
      },
      {
          en: {
-             i: "to appreciate"
+             i: 'to appreciate'
          },
          pt: {
-             i: "apreciar"
+             i: 'apreciar'
          }
      },
      {
          en: {
-             i: "to proclaim"
+             i: 'to proclaim'
          },
          pt: {
-             i: "apregoar"
+             i: 'apregoar'
          }
      },
      {
          en: {
-             i: "to learn"
+             i: 'to learn'
          },
          pt: {
-             i: "aprender"
+             i: 'aprender'
          }
      },
      {
          en: {
-             i: "to present"
+             i: 'to present'
          },
          pt: {
-             i: "apresentar"
+             i: 'apresentar'
          }
      },
      {
          en: {
-             i: "to rush"
+             i: 'to rush'
          },
          pt: {
-             i: "apressar"
+             i: 'apressar'
          }
      },
      {
          en: {
-             i: "to imprison"
+             i: 'to imprison'
          },
          pt: {
-             i: "aprisionar"
+             i: 'aprisionar'
          }
      },
      {
          en: {
-             i: "to deepen"
+             i: 'to deepen'
          },
          pt: {
-             i: "aprofundar"
+             i: 'aprofundar'
          }
      },
      {
          en: {
-             i: "to approve"
+             i: 'to approve'
          },
          pt: {
-             i: "aprovar"
+             i: 'aprovar'
          }
      },
      {
          en: {
-             i: "to enjoy"
+             i: 'to enjoy'
          },
          pt: {
-             i: "aproveitar"
+             i: 'aproveitar'
          }
      },
      {
          en: {
-             i: "to approach"
+             i: 'to approach'
          },
          pt: {
-             i: "aproximar"
+             i: 'aproximar'
          }
      },
      {
          en: {
-             i: "to investigate"
+             i: 'to investigate'
          },
          pt: {
-             i: "apurar"
+             i: 'apurar'
          }
      },
      {
          en: {
-             i: "to warm"
+             i: 'to warm'
          },
          pt: {
-             i: "aquecer"
+             i: 'aquecer'
          }
      },
      {
          en: {
-             i: "to burn"
+             i: 'to burn'
          },
          pt: {
-             i: "arder"
+             i: 'arder'
          }
      },
      {
          en: {
-             i: "to long for"
+             i: 'to long for'
          },
          pt: {
-             i: "arelar"
+             i: 'arelar'
          }
      },
      {
          en: {
-             i: "to argue"
+             i: 'to argue'
          },
          pt: {
-             i: "arguir"
+             i: 'arguir'
          }
      },
      {
          en: {
-             i: "to argue"
+             i: 'to argue'
          },
          pt: {
-             i: "argumentar"
+             i: 'argumentar'
          }
      },
      {
          en: {
-             i: "to arm"
+             i: 'to arm'
          },
          pt: {
-             i: "armar"
+             i: 'armar'
          }
      },
      {
          en: {
-             i: "to store"
+             i: 'to store'
          },
          pt: {
-             i: "armazenar"
+             i: 'armazenar'
          }
      },
      {
          en: {
-             i: "to file"
+             i: 'to file'
          },
          pt: {
-             i: "arquivar"
+             i: 'arquivar'
          }
      },
      {
          en: {
-             i: "to rip out"
+             i: 'to rip out'
          },
          pt: {
-             i: "arrancar"
+             i: 'arrancar'
          }
      },
      {
          en: {
-             i: "to scratch"
+             i: 'to scratch'
          },
          pt: {
-             i: "arranhar"
+             i: 'arranhar'
          }
      },
      {
          en: {
-             i: "to arrange"
+             i: 'to arrange'
          },
          pt: {
-             i: "arranjar"
+             i: 'arranjar'
          }
      },
      {
          en: {
-             i: "to drag"
+             i: 'to drag'
          },
          pt: {
-             i: "arrastar"
+             i: 'arrastar'
          }
      },
      {
          en: {
-             i: "to rush"
+             i: 'to rush'
          },
          pt: {
-             i: "arremeter"
+             i: 'arremeter'
          }
      },
      {
          en: {
-             i: "to repent"
+             i: 'to repent'
          },
          pt: {
-             i: "arrepender-se"
+             i: 'arrepender-se'
          }
      },
      {
          en: {
-             i: "to risk"
+             i: 'to risk'
          },
          pt: {
-             i: "arriscar"
+             i: 'arriscar'
          }
      },
      {
          en: {
-             i: "to ruin"
+             i: 'to ruin'
          },
          pt: {
-             i: "arruinar"
+             i: 'arruinar'
          }
      },
      {
          en: {
-             i: "to straighten"
+             i: 'to straighten'
          },
          pt: {
-             i: "arrumar"
+             i: 'arrumar'
          }
      },
      {
          en: {
-             i: "to get dressed"
+             i: 'to get dressed'
          },
          pt: {
-             i: "arrumar-se"
+             i: 'arrumar-se'
          }
      },
      {
          en: {
-             i: "to articulate"
+             i: 'to articulate'
          },
          pt: {
-             i: "articular"
+             i: 'articular'
          }
      },
      {
          en: {
-             i: "to climb"
+             i: 'to climb'
          },
          pt: {
-             i: "ascender"
+             i: 'ascender'
          }
      },
      {
          en: {
-             i: "to choke"
+             i: 'to choke'
          },
          pt: {
-             i: "asfixiar"
+             i: 'asfixiar'
          }
      },
      {
          en: {
-             i: "to sprinkle"
+             i: 'to sprinkle'
          },
          pt: {
-             i: "aspergir"
+             i: 'aspergir'
          }
      },
      {
          en: {
-             i: "to breathe"
+             i: 'to breathe'
          },
          pt: {
-             i: "aspirar"
+             i: 'aspirar'
          }
      },
      {
          en: {
-             i: "to assault"
+             i: 'to assault'
          },
          pt: {
-             i: "assaltar"
+             i: 'assaltar'
          }
      },
      {
          en: {
-             i: "to bake"
+             i: 'to bake'
          },
          pt: {
-             i: "assar"
+             i: 'assar'
          }
      },
      {
          en: {
-             i: "to murder"
+             i: 'to murder'
          },
          pt: {
-             i: "assassinar"
+             i: 'assassinar'
          }
      },
      {
          en: {
-             i: "to secure"
+             i: 'to secure'
          },
          pt: {
-             i: "assegurar"
+             i: 'assegurar'
          }
      },
      {
          en: {
-             i: "to resemble"
+             i: 'to resemble'
          },
          pt: {
-             i: "assemelhar"
+             i: 'assemelhar'
          }
      },
      {
          en: {
-             i: "to resemble"
+             i: 'to resemble'
          },
          pt: {
-             i: "assemelhar-se"
+             i: 'assemelhar-se'
          }
      },
      {
          en: {
-             i: "to settle"
+             i: 'to settle'
          },
          pt: {
-             i: "assentar"
+             i: 'assentar'
          }
      },
      {
          en: {
-             i: "to nod"
+             i: 'to nod'
          },
          pt: {
-             i: "assentir"
+             i: 'assentir'
          }
      },
      {
          en: {
-             i: "to assimilate"
+             i: 'to assimilate'
          },
          pt: {
-             i: "assimilar"
+             i: 'assimilar'
          }
      },
      {
          en: {
-             i: "to point out"
+             i: 'to point out'
          },
          pt: {
-             i: "assinalar"
+             i: 'assinalar'
          }
      },
      {
          en: {
-             i: "to sign"
+             i: 'to sign'
          },
          pt: {
-             i: "assinar"
+             i: 'assinar'
          }
      },
      {
          en: {
-             i: "to assist"
+             i: 'to assist'
          },
          pt: {
-             i: "assistir"
+             i: 'assistir'
          }
      },
      {
          en: {
-             i: "to whistle"
+             i: 'to whistle'
          },
          pt: {
-             i: "assobiar"
+             i: 'assobiar'
          }
      },
      {
          en: {
-             i: "to connect"
+             i: 'to connect'
          },
          pt: {
-             i: "associar"
+             i: 'associar'
          }
      },
      {
          en: {
-             i: "to loom"
+             i: 'to loom'
          },
          pt: {
-             i: "assomar"
+             i: 'assomar'
          }
      },
      {
          en: {
-             i: "to haunt"
+             i: 'to haunt'
          },
          pt: {
-             i: "assombrar"
+             i: 'assombrar'
          }
      },
      {
          en: {
-             i: "to take on"
+             i: 'to take on'
          },
          pt: {
-             i: "assumir"
+             i: 'assumir'
          }
      },
      {
          en: {
-             i: "to scare"
+             i: 'to scare'
          },
          pt: {
-             i: "assustar"
+             i: 'assustar'
          }
      },
      {
          en: {
-             i: "to frighten"
+             i: 'to frighten'
          },
          pt: {
-             i: "assustar-se"
+             i: 'assustar-se'
          }
      },
      {
          en: {
-             i: "to attack"
+             i: 'to attack'
          },
          pt: {
-             i: "atacar"
+             i: 'atacar'
          }
      },
      {
          en: {
-             i: "to tie"
+             i: 'to tie'
          },
          pt: {
-             i: "atar"
+             i: 'atar'
          }
      },
      {
          en: {
-             i: "to answer"
+             i: 'to answer'
          },
          pt: {
-             i: "atender"
+             i: 'atender'
          }
      },
      {
          en: {
-             i: "to soften"
+             i: 'to soften'
          },
          pt: {
-             i: "atenuar"
+             i: 'atenuar'
          }
      },
      {
          en: {
-             i: "to land"
+             i: 'to land'
          },
          pt: {
-             i: "aterrar"
+             i: 'aterrar'
          }
      },
      {
          en: {
-             i: "to terrorise"
+             i: 'to terrorise'
          },
          pt: {
-             i: "aterrorizar"
+             i: 'aterrorizar'
          }
      },
      {
          en: {
-             i: "to reach"
+             i: 'to reach'
          },
          pt: {
-             i: "atingir"
+             i: 'atingir'
          }
      },
      {
          en: {
-             i: "to shoot"
+             i: 'to shoot'
          },
          pt: {
-             i: "atirar"
+             i: 'atirar'
          }
      },
      {
          en: {
-             i: "to activate"
+             i: 'to activate'
          },
          pt: {
-             i: "ativar"
+             i: 'ativar'
          }
      },
      {
          en: {
-             i: "to stun"
+             i: 'to stun'
          },
          pt: {
-             i: "atordoar"
+             i: 'atordoar'
          }
      },
      {
          en: {
-             i: "to torment"
+             i: 'to torment'
          },
          pt: {
-             i: "atormentar"
+             i: 'atormentar'
          }
      },
      {
          en: {
-             i: "to attract"
+             i: 'to attract'
          },
          pt: {
-             i: "atrair"
+             i: 'atrair'
          }
      },
      {
          en: {
-             i: "to pass through"
+             i: 'to pass through'
          },
          pt: {
-             i: "atravessar"
+             i: 'atravessar'
          }
      },
      {
          en: {
-             i: "to assign"
+             i: 'to assign'
          },
          pt: {
-             i: "atribuir"
+             i: 'atribuir'
          }
      },
      {
          en: {
-             i: "to run over"
+             i: 'to run over'
          },
          pt: {
-             i: "atropelar"
+             i: 'atropelar'
          }
      },
      {
          en: {
-             i: "to update"
+             i: 'to update'
          },
          pt: {
-             i: "atualizar"
+             i: 'atualizar'
          }
      },
      {
          en: {
-             i: "to act"
+             i: 'to act'
          },
          pt: {
-             i: "atuar"
+             i: 'atuar'
          }
      },
      {
          en: {
-             i: "to earn"
+             i: 'to earn'
          },
          pt: {
-             i: "auferir"
+             i: 'auferir'
          }
      },
      {
          en: {
-             i: "to increase"
+             i: 'to increase'
          },
          pt: {
-             i: "aumentar"
+             i: 'aumentar'
          }
      },
      {
          en: {
-             i: "to authenticate"
+             i: 'to authenticate'
          },
          pt: {
-             i: "autenticar"
+             i: 'autenticar'
          }
      },
      {
          en: {
-             i: "to automate"
+             i: 'to automate'
          },
          pt: {
-             i: "automatizar"
+             i: 'automatizar'
          }
      },
      {
          en: {
-             i: "to authorise"
+             i: 'to authorise'
          },
          pt: {
-             i: "autorizar"
+             i: 'autorizar'
          }
      },
      {
          en: {
-             i: "to evaluate"
+             i: 'to evaluate'
          },
          pt: {
-             i: "avaliar"
+             i: 'avaliar'
          }
      },
      {
          en: {
-             i: "to endorse"
+             i: 'to endorse'
          },
          pt: {
-             i: "avalizar"
+             i: 'avalizar'
          }
      },
      {
          en: {
-             i: "to advance"
+             i: 'to advance'
          },
          pt: {
-             i: "avançar"
+             i: 'avançar'
          }
      },
      {
          en: {
-             i: "to break down"
+             i: 'to break down'
          },
          pt: {
-             i: "avariar-se"
+             i: 'avariar-se'
          }
      },
      {
          en: {
-             i: "to venture"
+             i: 'to venture'
          },
          pt: {
-             i: "aventurar"
+             i: 'aventurar'
          }
      },
      {
          en: {
-             i: "to shame"
+             i: 'to shame'
          },
          pt: {
-             i: "avergonhar"
+             i: 'avergonhar'
          }
      },
      {
          en: {
-             i: "to ascertain"
+             i: 'to ascertain'
          },
          pt: {
-             i: "averiguar"
+             i: 'averiguar'
          }
      },
      {
          en: {
-             i: "to warn"
+             i: 'to warn'
          },
          pt: {
-             i: "avisar"
+             i: 'avisar'
          }
      },
      {
          en: {
-             i: "to enliven"
+             i: 'to enliven'
          },
          pt: {
-             i: "avivar"
+             i: 'avivar'
          }
      },
      {
          en: {
-             i: "to dance"
+             i: 'to dance'
          },
          pt: {
-             i: "bailar"
+             i: 'bailar'
          }
      },
      {
          en: {
-             i: "to download"
+             i: 'to download'
          },
          pt: {
-             i: "baixar"
+             i: 'baixar'
          }
      },
      {
          en: {
-             i: "to swing"
+             i: 'to swing'
          },
          pt: {
-             i: "balançar"
+             i: 'balançar'
          }
      },
      {
          en: {
-             i: "to balance"
+             i: 'to balance'
          },
          pt: {
-             i: "balancear"
+             i: 'balancear'
          }
      },
      {
          en: {
-             i: "to stammer"
+             i: 'to stammer'
          },
          pt: {
-             i: "balbuciar"
+             i: 'balbuciar'
          }
      },
      {
          en: {
-             i: "to mark out"
+             i: 'to mark out'
          },
          pt: {
-             i: "balizar"
+             i: 'balizar'
          }
      },
      {
          en: {
-             i: "to bathe"
+             i: 'to bathe'
          },
          pt: {
-             i: "banhar"
+             i: 'banhar'
          }
      },
      {
          en: {
-             i: "to bathe"
+             i: 'to bathe'
          },
          pt: {
-             i: "banhar-se"
+             i: 'banhar-se'
          }
      },
      {
          en: {
-             i: "to shave"
+             i: 'to shave'
          },
          pt: {
-             i: "barbear"
+             i: 'barbear'
          }
      },
      {
          en: {
-             i: "to spread"
+             i: 'to spread'
          },
          pt: {
-             i: "barrar"
+             i: 'barrar'
          }
      },
      {
          en: {
-             i: "to base"
+             i: 'to base'
          },
          pt: {
-             i: "basear"
+             i: 'basear'
          }
      },
      {
          en: {
-             i: "to suffice"
+             i: 'to suffice'
          },
          pt: {
-             i: "bastar"
+             i: 'bastar'
          }
      },
      {
          en: {
-             i: "to battle"
+             i: 'to battle'
          },
          pt: {
-             i: "batalhar"
+             i: 'batalhar'
          }
      },
      {
          en: {
-             i: "to hit"
+             i: 'to hit'
          },
          pt: {
-             i: "bater"
+             i: 'bater'
          }
      },
      {
          en: {
-             i: "to baptise"
+             i: 'to baptise'
          },
          pt: {
-             i: "batizar"
+             i: 'batizar'
          }
      },
      {
          en: {
-             i: "to drink"
+             i: 'to drink'
          },
          pt: {
-             i: "beber"
+             i: 'beber'
          }
      },
      {
          en: {
-             i: "to kiss"
+             i: 'to kiss'
          },
          pt: {
-             i: "beijar"
+             i: 'beijar'
          }
      },
      {
          en: {
-             i: "to smack"
+             i: 'to smack'
          },
          pt: {
-             i: "beijocar"
+             i: 'beijocar'
          }
      },
      {
          en: {
-             i: "to pinch"
+             i: 'to pinch'
          },
          pt: {
-             i: "beliscar"
+             i: 'beliscar'
          }
      },
      {
          en: {
-             i: "to bless"
+             i: 'to bless'
          },
          pt: {
-             i: "bendizer"
+             i: 'bendizer'
          }
      },
      {
          en: {
-             i: "to benefit"
+             i: 'to benefit'
          },
          pt: {
-             i: "beneficiar"
+             i: 'beneficiar'
          }
      },
      {
          en: {
-             i: "to smear"
+             i: 'to smear'
          },
          pt: {
-             i: "besuntar"
+             i: 'besuntar'
          }
      },
      {
          en: {
-             i: "to swear"
+             i: 'to swear'
          },
          pt: {
-             i: "blasfemar"
+             i: 'blasfemar'
          }
      },
      {
          en: {
-             i: "to shield"
+             i: 'to shield'
          },
          pt: {
-             i: "blindar"
+             i: 'blindar'
          }
      },
      {
          en: {
-             i: "to block"
+             i: 'to block'
          },
          pt: {
-             i: "bloquear"
+             i: 'bloquear'
          }
      },
      {
          en: {
-             i: "to yawn"
+             i: 'to yawn'
          },
          pt: {
-             i: "bocejar"
+             i: 'bocejar'
          }
      },
      {
          en: {
-             i: "to float"
+             i: 'to float'
          },
          pt: {
-             i: "boiar"
+             i: 'boiar'
          }
      },
      {
          en: {
-             i: "to pump"
+             i: 'to pump'
          },
          pt: {
-             i: "bombear"
+             i: 'bombear'
          }
      },
      {
          en: {
-             i: "to bubble"
+             i: 'to bubble'
          },
          pt: {
-             i: "borbulhar"
+             i: 'borbulhar'
          }
      },
      {
          en: {
-             i: "to embroider"
+             i: 'to embroider'
          },
          pt: {
-             i: "bordar"
+             i: 'bordar'
          }
      },
      {
          en: {
-             i: "to blur"
+             i: 'to blur'
          },
          pt: {
-             i: "borrar"
+             i: 'borrar'
          }
      },
      {
          en: {
-             i: "to sketch"
+             i: 'to sketch'
          },
          pt: {
-             i: "bosquejar"
+             i: 'bosquejar'
          }
      },
      {
          en: {
-             i: "to put"
+             i: 'to put'
          },
          pt: {
-             i: "botar"
+             i: 'botar'
          }
      },
      {
          en: {
-             i: "to shout"
+             i: 'to shout'
          },
          pt: {
-             i: "bradar"
+             i: 'bradar'
          }
      },
      {
          en: {
-             i: "to roar"
+             i: 'to roar'
          },
          pt: {
-             i: "bramar"
+             i: 'bramar'
          }
      },
      {
          en: {
-             i: "to whiten"
+             i: 'to whiten'
          },
          pt: {
-             i: "branquear"
+             i: 'branquear'
          }
      },
      {
          en: {
-             i: "to break"
+             i: 'to break'
          },
          pt: {
-             i: "brecar"
+             i: 'brecar'
          }
      },
      {
          en: {
-             i: "to fight"
+             i: 'to fight'
          },
          pt: {
-             i: "brigar"
+             i: 'brigar'
          }
      },
      {
          en: {
-             i: "to shine"
+             i: 'to shine'
          },
          pt: {
-             i: "brilhar"
+             i: 'brilhar'
          }
      },
      {
          en: {
-             i: "to play"
+             i: 'to play'
          },
          pt: {
-             i: "brincar"
+             i: 'brincar'
          }
      },
      {
          en: {
-             i: "to toast"
+             i: 'to toast'
          },
          pt: {
-             i: "brindar"
+             i: 'brindar'
          }
      },
      {
          en: {
-             i: "to tan"
+             i: 'to tan'
          },
          pt: {
-             i: "bronzear"
+             i: 'bronzear'
          }
      },
      {
          en: {
-             i: "to sprout"
+             i: 'to sprout'
          },
          pt: {
-             i: "brotar"
+             i: 'brotar'
          }
      },
      {
          en: {
-             i: "to burnish"
+             i: 'to burnish'
          },
          pt: {
-             i: "brunir"
+             i: 'brunir'
          }
      },
      {
          en: {
-             i: "to flourish"
+             i: 'to flourish'
          },
          pt: {
-             i: "bulhar"
+             i: 'bulhar'
          }
      },
      {
          en: {
-             i: "to search"
+             i: 'to search'
          },
          pt: {
-             i: "buscar"
+             i: 'buscar'
          }
      },
      {
          en: {
-             i: "to fit"
+             i: 'to fit'
          },
          pt: {
-             i: "caber"
+             i: 'caber'
          }
      },
      {
          en: {
-             i: "to hunt"
+             i: 'to hunt'
          },
          pt: {
-             i: "caçar"
+             i: 'caçar'
          }
      },
      {
          en: {
-             i: "to lapse"
+             i: 'to lapse'
          },
          pt: {
-             i: "caducar"
+             i: 'caducar'
          }
      },
      {
          en: {
-             i: "to shit"
+             i: 'to shit'
          },
          pt: {
-             i: "cagar"
+             i: 'cagar'
          }
      },
      {
          en: {
-             i: "to fall"
+             i: 'to fall'
          },
          pt: {
-             i: "cair"
+             i: 'cair'
          }
      },
      {
          en: {
-             i: "to shut up"
+             i: 'to shut up'
          },
          pt: {
-             i: "calar"
+             i: 'calar'
          }
      },
      {
          en: {
-             i: "to shut up"
+             i: 'to shut up'
          },
          pt: {
-             i: "calar-se"
+             i: 'calar-se'
          }
      },
      {
          en: {
-             i: "to trample"
+             i: 'to trample'
          },
          pt: {
-             i: "calcar"
+             i: 'calcar'
          }
      },
      {
          en: {
-             i: "to calculate"
+             i: 'to calculate'
          },
          pt: {
-             i: "calcular"
+             i: 'calcular'
          }
      },
      {
          en: {
-             i: "to melt"
+             i: 'to melt'
          },
          pt: {
-             i: "caldear"
+             i: 'caldear'
          }
      },
      {
          en: {
-             i: "to risk"
+             i: 'to risk'
          },
          pt: {
-             i: "calhar"
+             i: 'calhar'
          }
      },
      {
          en: {
-             i: "to change"
+             i: 'to change'
          },
          pt: {
-             i: "cambiar"
+             i: 'cambiar'
          }
      },
      {
          en: {
-             i: "to walk"
+             i: 'to walk'
          },
          pt: {
-             i: "caminhar"
+             i: 'caminhar'
          }
      },
      {
          en: {
-             i: "to mask"
+             i: 'to mask'
          },
          pt: {
-             i: "camuflar"
+             i: 'camuflar'
          }
      },
      {
          en: {
-             i: "to channel"
+             i: 'to channel'
          },
          pt: {
-             i: "canalizar"
+             i: 'canalizar'
          }
      },
      {
          en: {
-             i: "to cancel"
+             i: 'to cancel'
          },
          pt: {
-             i: "cancelar"
+             i: 'cancelar'
          }
      },
      {
          en: {
-             i: "to tire"
+             i: 'to tire'
          },
          pt: {
-             i: "cansar"
+             i: 'cansar'
          }
      },
      {
@@ -2547,4687 +2573,4687 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to hum"
+             i: 'to hum'
          },
          pt: {
-             i: "cantarolar"
+             i: 'cantarolar'
          }
      },
      {
          en: {
-             i: "to capitulate"
+             i: 'to capitulate'
          },
          pt: {
-             i: "capitular"
+             i: 'capitular'
          }
      },
      {
          en: {
-             i: "to capture"
+             i: 'to capture'
          },
          pt: {
-             i: "captar"
+             i: 'captar'
          }
      },
      {
          en: {
-             i: "to capture"
+             i: 'to capture'
          },
          pt: {
-             i: "capturar"
+             i: 'capturar'
          }
      },
      {
          en: {
-             i: "to characterise"
+             i: 'to characterise'
          },
          pt: {
-             i: "caracterizar"
+             i: 'caracterizar'
          }
      },
      {
          en: {
-             i: "to tease"
+             i: 'to tease'
          },
          pt: {
-             i: "cardar"
+             i: 'cardar'
          }
      },
      {
          en: {
-             i: "to lack"
+             i: 'to lack'
          },
          pt: {
-             i: "carecer"
+             i: 'carecer'
          }
      },
      {
          en: {
-             i: "to moan"
+             i: 'to moan'
          },
          pt: {
-             i: "carpir"
+             i: 'carpir'
          }
      },
      {
          en: {
-             i: "to load"
+             i: 'to load'
          },
          pt: {
-             i: "carregar"
+             i: 'carregar'
          }
      },
      {
          en: {
-             i: "to get married"
+             i: 'to get married'
          },
          pt: {
-             i: "casar-se"
+             i: 'casar-se'
          }
      },
      {
          en: {
-             i: "to punish"
+             i: 'to punish'
          },
          pt: {
-             i: "castigar"
+             i: 'castigar'
          }
      },
      {
          en: {
-             i: "to castrate"
+             i: 'to castrate'
          },
          pt: {
-             i: "castrar"
+             i: 'castrar'
          }
      },
      {
          en: {
-             i: "to catalyse"
+             i: 'to catalyse'
          },
          pt: {
-             i: "catalisar"
+             i: 'catalisar'
          }
      },
      {
          en: {
-             i: "to catapult"
+             i: 'to catapult'
          },
          pt: {
-             i: "catapultar"
+             i: 'catapultar'
          }
      },
      {
          en: {
-             i: "to categorise"
+             i: 'to categorise'
          },
          pt: {
-             i: "categorizar"
+             i: 'categorizar'
          }
      },
      {
          en: {
-             i: "to captivate"
+             i: 'to captivate'
          },
          pt: {
-             i: "cativar"
+             i: 'cativar'
          }
      },
      {
          en: {
-             i: "to cause"
+             i: 'to cause'
          },
          pt: {
-             i: "causar"
+             i: 'causar'
          }
      },
      {
          en: {
-             i: "to dig"
+             i: 'to dig'
          },
          pt: {
-             i: "cavar"
+             i: 'cavar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cear"
+             i: 'cear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ceder"
+             i: 'ceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cegar"
+             i: 'cegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ceifar"
+             i: 'ceifar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "celebrar"
+             i: 'celebrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "censurar"
+             i: 'censurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "centelhar"
+             i: 'centelhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "centralizar"
+             i: 'centralizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "centrar"
+             i: 'centrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cerrar"
+             i: 'cerrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "certificar"
+             i: 'certificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cerzir"
+             i: 'cerzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to end'
          },
          pt: {
-             i: "cessar"
+             i: 'cessar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to call'
          },
          pt: {
-             i: "chamar"
+             i: 'chamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to be called'
          },
          pt: {
-             i: "chamar-se"
+             i: 'chamar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to arrive'
          },
          pt: {
-             i: "chegar"
+             i: 'chegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cheirar"
+             i: 'cheirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "chocar"
+             i: 'chocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "choramingar"
+             i: 'choramingar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "chorar"
+             i: 'chorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "chover"
+             i: 'chover'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "chupar"
+             i: 'chupar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "chuviscar"
+             i: 'chuviscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cifrar"
+             i: 'cifrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cingir"
+             i: 'cingir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cintilar"
+             i: 'cintilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "circular"
+             i: 'circular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "circuncidar"
+             i: 'circuncidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "circundar"
+             i: 'circundar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "circunscrever"
+             i: 'circunscrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cismar"
+             i: 'cismar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "citar"
+             i: 'citar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "civilizar"
+             i: 'civilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "clamar"
+             i: 'clamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "clarificar"
+             i: 'clarificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "classificar"
+             i: 'classificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "claudicar"
+             i: 'claudicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "clicar"
+             i: 'clicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coabitar"
+             i: 'coabitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coagular"
+             i: 'coagular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coalhar"
+             i: 'coalhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coar"
+             i: 'coar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cobrar"
+             i: 'cobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to cover'
          },
          pt: {
-             i: "cobrir"
+             i: 'cobrir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coçar"
+             i: 'coçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cochichar"
+             i: 'cochichar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "codificar"
+             i: 'codificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coincidir"
+             i: 'coincidir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colaborar"
+             i: 'colaborar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colapsar"
+             i: 'colapsar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colar"
+             i: 'colar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colecionar"
+             i: 'colecionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colher"
+             i: 'colher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colocar"
+             i: 'colocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colonizar"
+             i: 'colonizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "colorir"
+             i: 'colorir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coludir"
+             i: 'coludir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comandar"
+             i: 'comandar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "combater"
+             i: 'combater'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "combinar"
+             i: 'combinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "começar"
+             i: 'começar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comemorar"
+             i: 'comemorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comentar"
+             i: 'comentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comer"
+             i: 'comer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comercializar"
+             i: 'comercializar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comerciar"
+             i: 'comerciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cometer"
+             i: 'cometer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comover"
+             i: 'comover'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compadecer"
+             i: 'compadecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comparar"
+             i: 'comparar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comparecer"
+             i: 'comparecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compartilhar"
+             i: 'compartilhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compensar"
+             i: 'compensar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "competir"
+             i: 'competir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compilar"
+             i: 'compilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "completar"
+             i: 'completar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "complicar"
+             i: 'complicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compor"
+             i: 'compor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comportar"
+             i: 'comportar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comportar-se"
+             i: 'comportar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comprar"
+             i: 'comprar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comprazer"
+             i: 'comprazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "compreender"
+             i: 'compreender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comprimir"
+             i: 'comprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comprometer"
+             i: 'comprometer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comprovar"
+             i: 'comprovar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "comunicar"
+             i: 'comunicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conceber"
+             i: 'conceber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conceder"
+             i: 'conceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concentrar"
+             i: 'concentrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concernir"
+             i: 'concernir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concertar"
+             i: 'concertar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conciliar"
+             i: 'conciliar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concluir"
+             i: 'concluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concordar"
+             i: 'concordar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concorrer"
+             i: 'concorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "concretizar"
+             i: 'concretizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "condenar"
+             i: 'condenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "condicionar"
+             i: 'condicionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conduzir"
+             i: 'conduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conectar"
+             i: 'conectar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confeccionar"
+             i: 'confeccionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conferir"
+             i: 'conferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confessar"
+             i: 'confessar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confiar"
+             i: 'confiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "configurar"
+             i: 'configurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confinar"
+             i: 'confinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confirmar"
+             i: 'confirmar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confiscar"
+             i: 'confiscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confluir"
+             i: 'confluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conformar"
+             i: 'conformar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confortar"
+             i: 'confortar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confrontar"
+             i: 'confrontar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confundir"
+             i: 'confundir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "confundir-se"
+             i: 'confundir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "congelar"
+             i: 'congelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "congregar"
+             i: 'congregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conhecer"
+             i: 'conhecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conhecer-se"
+             i: 'conhecer-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conjecturar"
+             i: 'conjecturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conjeturar"
+             i: 'conjeturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conjugar"
+             i: 'conjugar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conquistar"
+             i: 'conquistar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consagrar"
+             i: 'consagrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conseguir"
+             i: 'conseguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consentir"
+             i: 'consentir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conservar"
+             i: 'conservar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "considerar"
+             i: 'considerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consistir"
+             i: 'consistir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consolar"
+             i: 'consolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consolidar"
+             i: 'consolidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "constar"
+             i: 'constar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "constatar"
+             i: 'constatar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consternar"
+             i: 'consternar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "constituir"
+             i: 'constituir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "constranger"
+             i: 'constranger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to build'
          },
          pt: {
-             i: "construir"
+             i: 'construir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consultar"
+             i: 'consultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "consumir"
+             i: 'consumir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contactar"
+             i: 'contactar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contagiar"
+             i: 'contagiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contaminar"
+             i: 'contaminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contar"
+             i: 'contar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contemplar"
+             i: 'contemplar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contender"
+             i: 'contender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conter"
+             i: 'conter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contestar"
+             i: 'contestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "continuar"
+             i: 'continuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contradizer"
+             i: 'contradizer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contrair"
+             i: 'contrair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contrariar"
+             i: 'contrariar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contrastar"
+             i: 'contrastar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contratar"
+             i: 'contratar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "contribuir"
+             i: 'contribuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "controlar"
+             i: 'controlar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "convencer"
+             i: 'convencer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "convergir"
+             i: 'convergir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conversar"
+             i: 'conversar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "converter"
+             i: 'converter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "convidar"
+             i: 'convidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "convir"
+             i: 'convir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "conviver"
+             i: 'conviver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "convocar"
+             i: 'convocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cooperar"
+             i: 'cooperar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coordenar"
+             i: 'coordenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "copiar"
+             i: 'copiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "copular"
+             i: 'copular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coroar"
+             i: 'coroar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "correr"
+             i: 'correr'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "corresponder"
+             i: 'corresponder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "corrigir"
+             i: 'corrigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "corroborar"
+             i: 'corroborar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "corromper"
+             i: 'corromper'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cortar"
+             i: 'cortar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cortejar"
+             i: 'cortejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coser"
+             i: 'coser'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "costumar"
+             i: 'costumar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "costurar"
+             i: 'costurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cotar"
+             i: 'cotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "coxear"
+             i: 'coxear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cozer"
+             i: 'cozer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cozinhar"
+             i: 'cozinhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cravar"
+             i: 'cravar'
          }
      },
      {
          en: {
-             i: "to believe"
+             i: 'to believe'
          },
          pt: {
-             i: "crer",
-             like: "crer"
+             i: 'crer',
+             like: 'crer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "crescer"
+             i: 'crescer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "criar"
+             i: 'criar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "criticar"
+             i: 'criticar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "crivar"
+             i: 'crivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "crucificar"
+             i: 'crucificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cruzar"
+             i: 'cruzar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cuidar"
+             i: 'cuidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "culminar"
+             i: 'culminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "culpar"
+             i: 'culpar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cultivar"
+             i: 'cultivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cumprimentar"
+             i: 'cumprimentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cumprir"
+             i: 'cumprir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cumular"
+             i: 'cumular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "curar"
+             i: 'curar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "cursar"
+             i: 'cursar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "curtir"
+             i: 'curtir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "curvar"
+             i: 'curvar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "custar"
+             i: 'custar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "custodiar"
+             i: 'custodiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "danar"
+             i: 'danar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dançar"
+             i: 'dançar'
          }
      },
      {
          en: {
-             i: "to give"
+             i: 'to give'
          },
          pt: {
-             i: "dar",
-             like: "dar"
+             i: 'dar',
+             like: 'dar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "debater"
+             i: 'debater'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "debilitar"
+             i: 'debilitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "debutar"
+             i: 'debutar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decapitar"
+             i: 'decapitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decepcionar"
+             i: 'decepcionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decidir"
+             i: 'decidir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "declarar"
+             i: 'declarar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "declinar"
+             i: 'declinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decompor"
+             i: 'decompor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decorar"
+             i: 'decorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "decorrer"
+             i: 'decorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dedicar"
+             i: 'dedicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dedicar-se"
+             i: 'dedicar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deduzir"
+             i: 'deduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "defender"
+             i: 'defender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deferir"
+             i: 'deferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "definir"
+             i: 'definir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "degelar"
+             i: 'degelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "degolar"
+             i: 'degolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "degustar"
+             i: 'degustar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deitar"
+             i: 'deitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deitar-se"
+             i: 'deitar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deixar"
+             i: 'deixar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "delegar"
+             i: 'delegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deliberar"
+             i: 'deliberar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "delinear"
+             i: 'delinear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "delinquir"
+             i: 'delinquir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "demitir"
+             i: 'demitir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "demolir"
+             i: 'demolir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "demonstrar"
+             i: 'demonstrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "demorar"
+             i: 'demorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "denegar"
+             i: 'denegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "denegrir"
+             i: 'denegrir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "denunciar"
+             i: 'denunciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "depender"
+             i: 'depender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deplorar"
+             i: 'deplorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "depor"
+             i: 'depor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "depositar"
+             i: 'depositar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "depreciar"
+             i: 'depreciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deprimir"
+             i: 'deprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "depurar"
+             i: 'depurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "derivar"
+             i: 'derivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "derramar"
+             i: 'derramar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "derrotar"
+             i: 'derrotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "derrubar"
+             i: 'derrubar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "derruir"
+             i: 'derruir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desaconselhar"
+             i: 'desaconselhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desanimar"
+             i: 'desanimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desaparecer"
+             i: 'desaparecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desbotar"
+             i: 'desbotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descalçar"
+             i: 'descalçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descansar"
+             i: 'descansar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descarregar"
+             i: 'descarregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descarrilar"
+             i: 'descarrilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descartar"
+             i: 'descartar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descer"
+             i: 'descer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descobrir"
+             i: 'descobrir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descompor"
+             i: 'descompor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desconectar"
+             i: 'desconectar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desconfiar"
+             i: 'desconfiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descongelar"
+             i: 'descongelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "descrever"
+             i: 'descrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desculpar"
+             i: 'desculpar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desculpar-se"
+             i: 'desculpar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desdobrar"
+             i: 'desdobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desejar"
+             i: 'desejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desembocar"
+             i: 'desembocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desempenhar"
+             i: 'desempenhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desenhar"
+             i: 'desenhar'
          }
      },
      {
          en: {
-             i: "to do"
+             i: 'to do'
          },
          pt: {
-             i: "desfazer"
+             i: 'desfazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desfrutar"
+             i: 'desfrutar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "designar"
+             i: 'designar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desistir"
+             i: 'desistir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desligar"
+             i: 'desligar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deslizar"
+             i: 'deslizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desmaiar"
+             i: 'desmaiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desobedecer"
+             i: 'desobedecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desolar"
+             i: 'desolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despachar"
+             i: 'despachar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despedir"
+             i: 'despedir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despedir-se"
+             i: 'despedir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desperdiçar"
+             i: 'desperdiçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despertar"
+             i: 'despertar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despertar-se"
+             i: 'despertar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "despir"
+             i: 'despir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desprender"
+             i: 'desprender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desprezar"
+             i: 'desprezar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "destacar"
+             i: 'destacar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "destilar"
+             i: 'destilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "destinar"
+             i: 'destinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "destruir"
+             i: 'destruir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "desviar"
+             i: 'desviar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "detalhar"
+             i: 'detalhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "detectar"
+             i: 'detectar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deter"
+             i: 'deter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "deteriorar"
+             i: 'deteriorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "determinar"
+             i: 'determinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "detestar"
+             i: 'detestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "detonar"
+             i: 'detonar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "devastar"
+             i: 'devastar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dever"
+             i: 'dever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "devolver"
+             i: 'devolver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "devorar"
+             i: 'devorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "diagnosticar"
+             i: 'diagnosticar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "diferenciar"
+             i: 'diferenciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "diferir"
+             i: 'diferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dificultar"
+             i: 'dificultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "difundir"
+             i: 'difundir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "digerir"
+             i: 'digerir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "digitar"
+             i: 'digitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dignificar"
+             i: 'dignificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dilatar"
+             i: 'dilatar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "diluir"
+             i: 'diluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "diminuir"
+             i: 'diminuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dirigir"
+             i: 'dirigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "discernir"
+             i: 'discernir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "disciplinar"
+             i: 'disciplinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "discriminar"
+             i: 'discriminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "discutir"
+             i: 'discutir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "disfarçar"
+             i: 'disfarçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "disparar"
+             i: 'disparar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dispensar"
+             i: 'dispensar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dispersar"
+             i: 'dispersar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dispor"
+             i: 'dispor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dispor-se"
+             i: 'dispor-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "disputar"
+             i: 'disputar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "disseminar"
+             i: 'disseminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dissentir"
+             i: 'dissentir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dissimular"
+             i: 'dissimular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dissolver"
+             i: 'dissolver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "distanciar"
+             i: 'distanciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "distinguir"
+             i: 'distinguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to distract'
          },
          pt: {
-             i: "distrair"
+             i: 'distrair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to get'
          },
          pt: {
-             i: "distrair-se"
+             i: 'distrair-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "distribuir"
+             i: 'distribuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ditar"
+             i: 'ditar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divergir"
+             i: 'divergir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divertir"
+             i: 'divertir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divertir-se"
+             i: 'divertir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dividir"
+             i: 'dividir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divisar"
+             i: 'divisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divorciar"
+             i: 'divorciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divorciar-se"
+             i: 'divorciar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "divulgar"
+             i: 'divulgar'
          }
      },
      {
          en: {
-             i: "to say"
+             i: 'to say'
          },
          pt: {
-             i: "dizer",
-             like: "dizer"
+             i: 'dizer',
+             like: 'dizer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "doar"
+             i: 'doar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dobrar"
+             i: 'dobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "documentar"
+             i: 'documentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "doer"
+             i: 'doer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "domesticar"
+             i: 'domesticar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dominar"
+             i: 'dominar'
          }
      },
      {
          en: {
-             i: "to sleep"
+             i: 'to sleep'
          },
          pt: {
-             i: "dormir",
-             like: "dormir"
+             i: 'dormir',
+             like: 'dormir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "dramatizar"
+             i: 'dramatizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "drenar"
+             i: 'drenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "duplicar"
+             i: 'duplicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "durar"
+             i: 'durar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "duvidar"
+             i: 'duvidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "edificar"
+             i: 'edificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "editar"
+             i: 'editar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "educar"
+             i: 'educar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "efetuar"
+             i: 'efetuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ejacular"
+             i: 'ejacular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "elaborar"
+             i: 'elaborar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "eleger"
+             i: 'eleger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "elevar"
+             i: 'elevar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "eliminar"
+             i: 'eliminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "elogiar"
+             i: 'elogiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "eludir"
+             i: 'eludir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emagrecer"
+             i: 'emagrecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emanar"
+             i: 'emanar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emancipar"
+             i: 'emancipar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emascular"
+             i: 'emascular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "embarcar"
+             i: 'embarcar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "embeber"
+             i: 'embeber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "embelezar"
+             i: 'embelezar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "embrulhar"
+             i: 'embrulhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "embruxar"
+             i: 'embruxar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emendar"
+             i: 'emendar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emergir"
+             i: 'emergir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emigrar"
+             i: 'emigrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emitir"
+             i: 'emitir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emocionar"
+             i: 'emocionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emparelhar"
+             i: 'emparelhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empatar"
+             i: 'empatar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empenhar"
+             i: 'empenhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empenhar-se"
+             i: 'empenhar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empreender"
+             i: 'empreender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empregar"
+             i: 'empregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "emprestar"
+             i: 'emprestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "empurrar"
+             i: 'empurrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enaltecer"
+             i: 'enaltecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encaminhar"
+             i: 'encaminhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encantar"
+             i: 'encantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encarar"
+             i: 'encarar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encarcerar"
+             i: 'encarcerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encarregar"
+             i: 'encarregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encender"
+             i: 'encender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encetar"
+             i: 'encetar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encher"
+             i: 'encher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encolher"
+             i: 'encolher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encomendar"
+             i: 'encomendar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encontrar"
+             i: 'encontrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encontrar-se"
+             i: 'encontrar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encorajar"
+             i: 'encorajar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encostar"
+             i: 'encostar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "encurtar"
+             i: 'encurtar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "endoidecer"
+             i: 'endoidecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enfeitiçar"
+             i: 'enfeitiçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enfermar"
+             i: 'enfermar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enfiar"
+             i: 'enfiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enfocar"
+             i: 'enfocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enforcar"
+             i: 'enforcar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enfrentar"
+             i: 'enfrentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enganar"
+             i: 'enganar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enganchar"
+             i: 'enganchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "engolir"
+             i: 'engolir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "engordar"
+             i: 'engordar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "engraxar"
+             i: 'engraxar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enjoar"
+             i: 'enjoar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enlaçar"
+             i: 'enlaçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enlevar"
+             i: 'enlevar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enredar"
+             i: 'enredar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enriquecer"
+             i: 'enriquecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enrolar"
+             i: 'enrolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ensaiar"
+             i: 'ensaiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ensinar"
+             i: 'ensinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entediar"
+             i: 'entediar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entediar-se"
+             i: 'entediar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entender"
+             i: 'entender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enterrar"
+             i: 'enterrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entrar"
+             i: 'entrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entregar"
+             i: 'entregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entreter"
+             i: 'entreter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entreter-se"
+             i: 'entreter-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entrever"
+             i: 'entrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entrevistar"
+             i: 'entrevistar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entristecer"
+             i: 'entristecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entupir"
+             i: 'entupir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entusiasmar"
+             i: 'entusiasmar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "entusiasmar-se"
+             i: 'entusiasmar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enumerar"
+             i: 'enumerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enunciar"
+             i: 'enunciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "envelhecer"
+             i: 'envelhecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "envenenar"
+             i: 'envenenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "envergonhar"
+             i: 'envergonhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "envergonhar-se"
+             i: 'envergonhar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enviar"
+             i: 'enviar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "envolver"
+             i: 'envolver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enxaguar"
+             i: 'enxaguar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enxergar"
+             i: 'enxergar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "enxugar"
+             i: 'enxugar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "equiparar"
+             i: 'equiparar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "equivaler"
+             i: 'equivaler'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "equivocar"
+             i: 'equivocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "equivocar-se"
+             i: 'equivocar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "erguer"
+             i: 'erguer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "erigir"
+             i: 'erigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "errar"
+             i: 'errar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escalar"
+             i: 'escalar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escapar"
+             i: 'escapar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escavar"
+             i: 'escavar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esclarecer"
+             i: 'esclarecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escolher"
+             i: 'escolher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esconder"
+             i: 'esconder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esconder-se"
+             i: 'esconder-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escorregar"
+             i: 'escorregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escorrer"
+             i: 'escorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escovar"
+             i: 'escovar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escrever"
+             i: 'escrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escusar"
+             i: 'escusar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escusar-se"
+             i: 'escusar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "escutar"
+             i: 'escutar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esfoliar"
+             i: 'esfoliar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esfregar"
+             i: 'esfregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esfriar"
+             i: 'esfriar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esfumar"
+             i: 'esfumar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esgotar"
+             i: 'esgotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esmagar"
+             i: 'esmagar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espalhar"
+             i: 'espalhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espantar"
+             i: 'espantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espavorir"
+             i: 'espavorir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "especializar-se"
+             i: 'especializar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "especificar"
+             i: 'especificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "especular"
+             i: 'especular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esperar"
+             i: 'esperar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espevitar"
+             i: 'espevitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espiar"
+             i: 'espiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espionar"
+             i: 'espionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espirrar"
+             i: 'espirrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espreitar"
+             i: 'espreitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "espremer"
+             i: 'espremer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to forget'
          },
          pt: {
-             i: "esquecer"
+             i: 'esquecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to forget'
          },
          pt: {
-             i: "esquecer-se"
+             i: 'esquecer-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esquentar"
+             i: 'esquentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esquiar"
+             i: 'esquiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esquilar"
+             i: 'esquilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esquivar"
+             i: 'esquivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estabelecer"
+             i: 'estabelecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estacionar"
+             i: 'estacionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estalar"
+             i: 'estalar'
          }
      },
      {
          en: {
-             i: "to be"
+             i: 'to be'
          },
          pt: {
-             i: "estar",
-             "like": "estar"
+             i: 'estar',
+             'like': 'estar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estender"
+             i: 'estender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esterilizar"
+             i: 'esterilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estigmatizar"
+             i: 'estigmatizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estimar"
+             i: 'estimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estimular"
+             i: 'estimular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estipular"
+             i: 'estipular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estirar"
+             i: 'estirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estourar"
+             i: 'estourar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estragar"
+             i: 'estragar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estrangular"
+             i: 'estrangular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estranhar"
+             i: 'estranhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estrear"
+             i: 'estrear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estrelar"
+             i: 'estrelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estremecer"
+             i: 'estremecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estressar"
+             i: 'estressar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estudar"
+             i: 'estudar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "estufar"
+             i: 'estufar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "esvaziar"
+             i: 'esvaziar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evacuar"
+             i: 'evacuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evadir"
+             i: 'evadir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evaporar"
+             i: 'evaporar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evitar"
+             i: 'evitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evoluir"
+             i: 'evoluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "evolver"
+             i: 'evolver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exagerar"
+             i: 'exagerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exalar"
+             i: 'exalar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "examinar"
+             i: 'examinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exasperar"
+             i: 'exasperar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exceder"
+             i: 'exceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exceler"
+             i: 'exceler'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exclamar"
+             i: 'exclamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "excluir"
+             i: 'excluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "executar"
+             i: 'executar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exercer"
+             i: 'exercer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exibir"
+             i: 'exibir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exigir"
+             i: 'exigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "eximir"
+             i: 'eximir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "existir"
+             i: 'existir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exonerar"
+             i: 'exonerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expandir"
+             i: 'expandir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expatriar"
+             i: 'expatriar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expedir"
+             i: 'expedir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expelir"
+             i: 'expelir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "experimentar"
+             i: 'experimentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expirar"
+             i: 'expirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "explicar"
+             i: 'explicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "explodir"
+             i: 'explodir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "explorar"
+             i: 'explorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expor"
+             i: 'expor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exportar"
+             i: 'exportar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expressar"
+             i: 'expressar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exprimir"
+             i: 'exprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "expulsar"
+             i: 'expulsar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "exterminar"
+             i: 'exterminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "extinguir"
+             i: 'extinguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "extraditar"
+             i: 'extraditar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "extrair"
+             i: 'extrair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fabricar"
+             i: 'fabricar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "facilitar"
+             i: 'facilitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fagocitar"
+             i: 'fagocitar'
          }
      },
      {
@@ -7246,3334 +7272,3334 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "falecer"
+             i: 'falecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "falhar"
+             i: 'falhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "falir"
+             i: 'falir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "falsear"
+             i: 'falsear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "falsificar"
+             i: 'falsificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "faltar"
+             i: 'faltar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fanfarronar"
+             i: 'fanfarronar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fantasiar"
+             i: 'fantasiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fartar"
+             i: 'fartar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fascinar"
+             i: 'fascinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fatigar"
+             i: 'fatigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "faturar"
+             i: 'faturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "favorecer"
+             i: 'favorecer'
          }
      },
      {
          en: {
-             i: "to do"
+             i: 'to do'
          },
          pt: {
-             i: "fazer",
+             i: 'fazer',
              like: 'fazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fechar"
+             i: 'fechar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "feder"
+             i: 'feder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "felicitar"
+             i: 'felicitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ferir"
+             i: 'ferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fertilizar"
+             i: 'fertilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ferver"
+             i: 'ferver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ficar"
+             i: 'ficar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fichar"
+             i: 'fichar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "figurar"
+             i: 'figurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "filmar"
+             i: 'filmar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "filosofar"
+             i: 'filosofar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "filtrar"
+             i: 'filtrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "finalizar"
+             i: 'finalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "financiar"
+             i: 'financiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fincar"
+             i: 'fincar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fingir"
+             i: 'fingir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "firmar"
+             i: 'firmar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fitar"
+             i: 'fitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fixar"
+             i: 'fixar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "flectir"
+             i: 'flectir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "flertar"
+             i: 'flertar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "flexibilizar"
+             i: 'flexibilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "flexionar"
+             i: 'flexionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "florescer"
+             i: 'florescer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "florir"
+             i: 'florir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fluir"
+             i: 'fluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "flutuar"
+             i: 'flutuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "focalizar"
+             i: 'focalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "focar"
+             i: 'focar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "foder"
+             i: 'foder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "folhear"
+             i: 'folhear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fomentar"
+             i: 'fomentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "forçar"
+             i: 'forçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "formalizar"
+             i: 'formalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "formar"
+             i: 'formar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "formular"
+             i: 'formular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fornear"
+             i: 'fornear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fornecer"
+             i: 'fornecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fornicar"
+             i: 'fornicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fortalecer"
+             i: 'fortalecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fortificar"
+             i: 'fortificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fotocopiar"
+             i: 'fotocopiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fotografar"
+             i: 'fotografar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fracassar"
+             i: 'fracassar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fraternizar"
+             i: 'fraternizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fraturar"
+             i: 'fraturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "frear"
+             i: 'frear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "frequentar"
+             i: 'frequentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "frigir"
+             i: 'frigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fritar"
+             i: 'fritar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "frustrar"
+             i: 'frustrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fugir"
+             i: 'fugir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fumar"
+             i: 'fumar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fumigar"
+             i: 'fumigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "funcionar"
+             i: 'funcionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fundar"
+             i: 'fundar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fundir"
+             i: 'fundir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "furar"
+             i: 'furar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "fusionar"
+             i: 'fusionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gaguejar"
+             i: 'gaguejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "galopar"
+             i: 'galopar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "galvanizar"
+             i: 'galvanizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ganhar"
+             i: 'ganhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "garantir"
+             i: 'garantir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gastar"
+             i: 'gastar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gelar"
+             i: 'gelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gemer"
+             i: 'gemer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "generalizar"
+             i: 'generalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gerar"
+             i: 'gerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gerir"
+             i: 'gerir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gesticular"
+             i: 'gesticular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "girar"
+             i: 'girar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "glorificar"
+             i: 'glorificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "golpear"
+             i: 'golpear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gostar"
+             i: 'gostar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "governar"
+             i: 'governar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gozar"
+             i: 'gozar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gracejar"
+             i: 'gracejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "graduar"
+             i: 'graduar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "granizar"
+             i: 'granizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gratificar"
+             i: 'gratificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gravar"
+             i: 'gravar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "gritar"
+             i: 'gritar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "grulhar"
+             i: 'grulhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "grunhir"
+             i: 'grunhir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "guardar"
+             i: 'guardar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "guiar"
+             i: 'guiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "guisar"
+             i: 'guisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "habitar"
+             i: 'habitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "harmonizar"
+             i: 'harmonizar'
          }
      },
      {
          en: {
-             i: "to have"
+             i: 'to have'
          },
          pt: {
-             i: "haver",
-             like: "haver"
+             i: 'haver',
+             like: 'haver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "herdar"
+             i: 'herdar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "hesitar"
+             i: 'hesitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "hidratar"
+             i: 'hidratar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "hipnotizar"
+             i: 'hipnotizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "horrorizar"
+             i: 'horrorizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "hospedar"
+             i: 'hospedar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "hospitalizar"
+             i: 'hospitalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "humilhar"
+             i: 'humilhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "idealizar"
+             i: 'idealizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "idear"
+             i: 'idear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "identificar"
+             i: 'identificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ignorar"
+             i: 'ignorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "igualar"
+             i: 'igualar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "iludir"
+             i: 'iludir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "iluminar"
+             i: 'iluminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ilusionar"
+             i: 'ilusionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ilustrar"
+             i: 'ilustrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imaginar"
+             i: 'imaginar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imaginar-se"
+             i: 'imaginar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imergir"
+             i: 'imergir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imigrar"
+             i: 'imigrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imiscuir-se"
+             i: 'imiscuir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imitar"
+             i: 'imitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "impedir"
+             i: 'impedir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "impelir"
+             i: 'impelir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "implantar"
+             i: 'implantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "implementar"
+             i: 'implementar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "implicar"
+             i: 'implicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "impor"
+             i: 'impor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "importar"
+             i: 'importar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "impressionar"
+             i: 'impressionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imprimir"
+             i: 'imprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "improvisar"
+             i: 'improvisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "impugnar"
+             i: 'impugnar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "imunizar"
+             i: 'imunizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inalar"
+             i: 'inalar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inaugurar"
+             i: 'inaugurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incendiar"
+             i: 'incendiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inchar"
+             i: 'inchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incidir"
+             i: 'incidir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incinerar"
+             i: 'incinerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inclinar"
+             i: 'inclinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incluir"
+             i: 'incluir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incoar"
+             i: 'incoar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incomodar"
+             i: 'incomodar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incorporar"
+             i: 'incorporar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incorrer"
+             i: 'incorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incrementar"
+             i: 'incrementar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incriminar"
+             i: 'incriminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "incubar"
+             i: 'incubar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "indagar"
+             i: 'indagar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "indicar"
+             i: 'indicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "indignar"
+             i: 'indignar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "individualizar"
+             i: 'individualizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "industrializar"
+             i: 'industrializar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "induzir"
+             i: 'induzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infectar"
+             i: 'infectar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inferir"
+             i: 'inferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infetar"
+             i: 'infetar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infiltrar"
+             i: 'infiltrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inflamar"
+             i: 'inflamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inflar"
+             i: 'inflar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infligir"
+             i: 'infligir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "influenciar"
+             i: 'influenciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "informar"
+             i: 'informar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "informar-se"
+             i: 'informar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infringir"
+             i: 'infringir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "infundir"
+             i: 'infundir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ingerir"
+             i: 'ingerir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ingressar"
+             i: 'ingressar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inibir"
+             i: 'inibir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "iniciar"
+             i: 'iniciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "injetar"
+             i: 'injetar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inocular"
+             i: 'inocular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inovar"
+             i: 'inovar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inquirir"
+             i: 'inquirir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inscrever"
+             i: 'inscrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inscrever-se"
+             i: 'inscrever-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inserir"
+             i: 'inserir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "insinuar"
+             i: 'insinuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "insistir"
+             i: 'insistir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inspecionar"
+             i: 'inspecionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inspirar"
+             i: 'inspirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "instalar"
+             i: 'instalar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "instigar"
+             i: 'instigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "instituir"
+             i: 'instituir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "instruir"
+             i: 'instruir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "insultar"
+             i: 'insultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "integrar"
+             i: 'integrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intentar"
+             i: 'intentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intercambiar"
+             i: 'intercambiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interceder"
+             i: 'interceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interceptar"
+             i: 'interceptar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intercetar"
+             i: 'intercetar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interessar"
+             i: 'interessar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interessar-se"
+             i: 'interessar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interferir"
+             i: 'interferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "internar"
+             i: 'internar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interpor"
+             i: 'interpor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interpretar"
+             i: 'interpretar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interrogar"
+             i: 'interrogar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "interromper"
+             i: 'interromper'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intervir"
+             i: 'intervir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intimidar"
+             i: 'intimidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intoxicar"
+             i: 'intoxicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "introduzir"
+             i: 'introduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "intuir"
+             i: 'intuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inundar"
+             i: 'inundar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "invadir"
+             i: 'invadir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "invalidar"
+             i: 'invalidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "invejar"
+             i: 'invejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inventar"
+             i: 'inventar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "inverter"
+             i: 'inverter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "investigar"
+             i: 'investigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "investir"
+             i: 'investir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "invitar"
+             i: 'invitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "invocar"
+             i: 'invocar'
          }
      },
      {
          en: {
-             i: "to go"
+             i: 'to go'
          },
          pt: {
-             i: "ir"
+             i: 'ir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ir-se"
+             i: 'ir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "irmanar"
+             i: 'irmanar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "irradiar"
+             i: 'irradiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "irrigar"
+             i: 'irrigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "irritar"
+             i: 'irritar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "irromper"
+             i: 'irromper'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "isolar"
+             i: 'isolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "jantar"
+             i: 'jantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "jazer"
+             i: 'jazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "jogar"
+             i: 'jogar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "julgar"
+             i: 'julgar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "juntar"
+             i: 'juntar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "jurar"
+             i: 'jurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "justapor"
+             i: 'justapor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "justificar"
+             i: 'justificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lactar"
+             i: 'lactar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ladrar"
+             i: 'ladrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lamber"
+             i: 'lamber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lambiscar"
+             i: 'lambiscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lamentar"
+             i: 'lamentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lamentar-se"
+             i: 'lamentar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lançar"
+             i: 'lançar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lanchar"
+             i: 'lanchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "largar"
+             i: 'largar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "latir"
+             i: 'latir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lavar"
+             i: 'lavar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "legalizar"
+             i: 'legalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "legar"
+             i: 'legar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "legislar"
+             i: 'legislar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "legitimar"
+             i: 'legitimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lembrar"
+             i: 'lembrar'
          }
      },
      {
          en: {
-             i: "to remember"
+             i: 'to remember'
          },
          pt: {
-             i: "lembrar-se"
+             i: 'lembrar-se'
          }
      },
      {
          en: {
-             i: "to read"
+             i: 'to read'
          },
          pt: {
-             i: "ler",
-             like: "ler"
+             i: 'ler',
+             like: 'ler'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "levantar"
+             i: 'levantar'
          }
      },
      {
          en: {
-             i: "to stand up"
+             i: 'to stand up'
          },
          pt: {
-             i: "levantar-se"
+             i: 'levantar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "levar"
+             i: 'levar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "liberar"
+             i: 'liberar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "libertar"
+             i: 'libertar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "licenciar"
+             i: 'licenciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lidar"
+             i: 'lidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "liderar"
+             i: 'liderar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ligar"
+             i: 'ligar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "limitar"
+             i: 'limitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "limpar"
+             i: 'limpar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "linchar"
+             i: 'linchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "liquefazer"
+             i: 'liquefazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "liquidar"
+             i: 'liquidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "litigar"
+             i: 'litigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "livrar"
+             i: 'livrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "localizar"
+             i: 'localizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lograr"
+             i: 'lograr'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "louvar"
+             i: 'louvar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lubrificar"
+             i: 'lubrificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lucrar"
+             i: 'lucrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "lutar"
+             i: 'lutar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "luzir"
+             i: 'luzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "machucar"
+             i: 'machucar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "madrugar"
+             i: 'madrugar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "madurar"
+             i: 'madurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "maldizer"
+             i: 'maldizer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "malquerer"
+             i: 'malquerer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "maltratar"
+             i: 'maltratar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manchar"
+             i: 'manchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mandar"
+             i: 'mandar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manejar"
+             i: 'manejar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manifestar"
+             i: 'manifestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manipular"
+             i: 'manipular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manobrar"
+             i: 'manobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manter"
+             i: 'manter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manufacturar"
+             i: 'manufacturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "manufaturar"
+             i: 'manufaturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "maquiar"
+             i: 'maquiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "maquiar-se"
+             i: 'maquiar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "maravilhar"
+             i: 'maravilhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "marcar"
+             i: 'marcar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "marchar"
+             i: 'marchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "marear"
+             i: 'marear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mastigar"
+             i: 'mastigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "masturbar"
+             i: 'masturbar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "matar"
+             i: 'matar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mediar"
+             i: 'mediar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "medicar"
+             i: 'medicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "medir"
+             i: 'medir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "meditar"
+             i: 'meditar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "melhorar"
+             i: 'melhorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "memorizar"
+             i: 'memorizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mencionar"
+             i: 'mencionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "menosprezar"
+             i: 'menosprezar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "menstruar"
+             i: 'menstruar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mentir"
+             i: 'mentir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "merecer"
+             i: 'merecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "merendar"
+             i: 'merendar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mergulhar"
+             i: 'mergulhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "meter"
+             i: 'meter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mexer"
+             i: 'mexer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "miar"
+             i: 'miar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "migrar"
+             i: 'migrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mijar"
+             i: 'mijar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mimar"
+             i: 'mimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "minguar"
+             i: 'minguar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mirar"
+             i: 'mirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mistificar"
+             i: 'mistificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "misturar"
+             i: 'misturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mitigar"
+             i: 'mitigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mobiliar"
+             i: 'mobiliar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mobilizar"
+             i: 'mobilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "modelar"
+             i: 'modelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "moderar"
+             i: 'moderar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "modernizar"
+             i: 'modernizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "modificar"
+             i: 'modificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "modular"
+             i: 'modular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "moer"
+             i: 'moer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "molestar"
+             i: 'molestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "molhar"
+             i: 'molhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "montar"
+             i: 'montar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "morar"
+             i: 'morar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "morder"
+             i: 'morder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "morrer"
+             i: 'morrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mostrar"
+             i: 'mostrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "motivar"
+             i: 'motivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mover"
+             i: 'mover'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mudar"
+             i: 'mudar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "multar"
+             i: 'multar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "multiplicar"
+             i: 'multiplicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "murmurar"
+             i: 'murmurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "mutilar"
+             i: 'mutilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nadar"
+             i: 'nadar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "narrar"
+             i: 'narrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nascer"
+             i: 'nascer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "naturalizar"
+             i: 'naturalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "naufragar"
+             i: 'naufragar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "navegar"
+             i: 'navegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "necessitar"
+             i: 'necessitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "negar"
+             i: 'negar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "negociar"
+             i: 'negociar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "neutralizar"
+             i: 'neutralizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nevar"
+             i: 'nevar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "neviscar"
+             i: 'neviscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nivelar"
+             i: 'nivelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nomear"
+             i: 'nomear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "notar"
+             i: 'notar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "notificar"
+             i: 'notificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "numerar"
+             i: 'numerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "nutrir"
+             i: 'nutrir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "obedecer"
+             i: 'obedecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "obliquar"
+             i: 'obliquar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "obrigar"
+             i: 'obrigar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "observar"
+             i: 'observar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "obstruir"
+             i: 'obstruir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "obter"
+             i: 'obter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ocorrer"
+             i: 'ocorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ocultar"
+             i: 'ocultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ocupar"
+             i: 'ocupar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "odiar"
+             i: 'odiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ofender"
+             i: 'ofender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "oferecer"
+             i: 'oferecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "olhar"
+             i: 'olhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "olvidar"
+             i: 'olvidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "omitir"
+             i: 'omitir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "operar"
+             i: 'operar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "opinar"
+             i: 'opinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "opor"
+             i: 'opor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "optar"
+             i: 'optar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "orçar"
+             i: 'orçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ordenar"
+             i: 'ordenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ordenhar"
+             i: 'ordenhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "organizar"
+             i: 'organizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "orientar"
+             i: 'orientar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "originar"
+             i: 'originar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ornar"
+             i: 'ornar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "orquestrar"
+             i: 'orquestrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "oscilar"
+             i: 'oscilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ousar"
+             i: 'ousar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "outorgar"
+             i: 'outorgar'
          }
      },
      {
          en: {
-             i: "to hear"
+             i: 'to hear'
          },
          pt: {
-             i: "ouvir",
-             like: "ouvir"
+             i: 'ouvir',
+             like: 'ouvir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ovular"
+             i: 'ovular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "oxidar"
+             i: 'oxidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "oxigenar"
+             i: 'oxigenar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pactuar"
+             i: 'pactuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "padecer"
+             i: 'padecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pagar"
+             i: 'pagar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "palpitar"
+             i: 'palpitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "palrar"
+             i: 'palrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "paquerar"
+             i: 'paquerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parabenizar"
+             i: 'parabenizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parafrasear"
+             i: 'parafrasear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "paralisar"
+             i: 'paralisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parar"
+             i: 'parar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parecer"
+             i: 'parecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parir"
+             i: 'parir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "parodiar"
+             i: 'parodiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "participar"
+             i: 'participar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "partilhar"
+             i: 'partilhar'
          }
      },
      {
@@ -10587,2351 +10613,2351 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pasmar"
+             i: 'pasmar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "passar"
+             i: 'passar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "passear"
+             i: 'passear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "patinar"
+             i: 'patinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pausar"
+             i: 'pausar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pedalar"
+             i: 'pedalar'
          }
      },
      {
          en: {
-             i: "to ask"
+             i: 'to ask'
          },
          pt: {
-             i: "pedir",
-             like: "pedir"
+             i: 'pedir',
+             like: 'pedir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pegar"
+             i: 'pegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pender"
+             i: 'pender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pendurar"
+             i: 'pendurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "peneirar"
+             i: 'peneirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "penetrar"
+             i: 'penetrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "penhorar"
+             i: 'penhorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pensar"
+             i: 'pensar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pentear"
+             i: 'pentear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pentear-se"
+             i: 'pentear-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perceber"
+             i: 'perceber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "percutir"
+             i: 'percutir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perder"
+             i: 'perder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perdoar"
+             i: 'perdoar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perfeccionar"
+             i: 'perfeccionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perfumar"
+             i: 'perfumar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perfurar"
+             i: 'perfurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perguntar"
+             i: 'perguntar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "permanecer"
+             i: 'permanecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "permitir"
+             i: 'permitir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perpetuar"
+             i: 'perpetuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perseguir"
+             i: 'perseguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "perseverar"
+             i: 'perseverar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "persistir"
+             i: 'persistir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "personalizar"
+             i: 'personalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "persuadir"
+             i: 'persuadir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pertencer"
+             i: 'pertencer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pesar"
+             i: 'pesar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pescar"
+             i: 'pescar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pesquisar"
+             i: 'pesquisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "petiscar"
+             i: 'petiscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "picar"
+             i: 'picar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pintar"
+             i: 'pintar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "piorar"
+             i: 'piorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pisar"
+             i: 'pisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "planar"
+             i: 'planar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "planificar"
+             i: 'planificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "plantar"
+             i: 'plantar'
          }
      },
      {
          en: {
-             i: "to be able to"
+             i: 'to be able to'
          },
          pt: {
-             i: "poder",
-             like: "poder"
+             i: 'poder',
+             like: 'poder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "polarizar"
+             i: 'polarizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "polinizar"
+             i: 'polinizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "polir"
+             i: 'polir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "poluir"
+             i: 'poluir'
          }
      },
      {
          en: {
-             i: "to put"
+             i: 'to put'
          },
          pt: {
-             i: "pôr",
-             like: "pôr"
+             i: 'pôr',
+             like: 'pôr'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "posicionar"
+             i: 'posicionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pospor"
+             i: 'pospor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "possibilitar"
+             i: 'possibilitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "possuir"
+             i: 'possuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "postular"
+             i: 'postular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "potenciar"
+             i: 'potenciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "poupar"
+             i: 'poupar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pousar"
+             i: 'pousar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "praticar"
+             i: 'praticar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preceder"
+             i: 'preceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "precipitar"
+             i: 'precipitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "precisar"
+             i: 'precisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "predicar"
+             i: 'predicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "predominar"
+             i: 'predominar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preencher"
+             i: 'preencher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preferir"
+             i: 'preferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pregar"
+             i: 'pregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prejudicar"
+             i: 'prejudicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prejulgar"
+             i: 'prejulgar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "premiar"
+             i: 'premiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prender"
+             i: 'prender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preocupar-se"
+             i: 'preocupar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preparar"
+             i: 'preparar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preparar-se"
+             i: 'preparar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prescrever"
+             i: 'prescrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "preservar"
+             i: 'preservar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "presidir"
+             i: 'presidir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pressentir"
+             i: 'pressentir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pressionar"
+             i: 'pressionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prestar"
+             i: 'prestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "presumir"
+             i: 'presumir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pretender"
+             i: 'pretender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prevalecer"
+             i: 'prevalecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prevenir"
+             i: 'prevenir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prever"
+             i: 'prever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "principiar"
+             i: 'principiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "privar"
+             i: 'privar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proceder"
+             i: 'proceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "processar"
+             i: 'processar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proclamar"
+             i: 'proclamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "procrastinar"
+             i: 'procrastinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "procurar"
+             i: 'procurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "produzir"
+             i: 'produzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prognosticar"
+             i: 'prognosticar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "programar"
+             i: 'programar'
          }
      },
      {
          en: {
-             i: "to get along"
+             i: 'to get along'
          },
          pt: {
-             i: "progredir"
+             i: 'progredir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proibir"
+             i: 'proibir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proliferar"
+             i: 'proliferar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prolongar"
+             i: 'prolongar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prometer"
+             i: 'prometer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "promover"
+             i: 'promover'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pronunciar"
+             i: 'pronunciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "propagar"
+             i: 'propagar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "propor"
+             i: 'propor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proporcionar"
+             i: 'proporcionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prosseguir"
+             i: 'prosseguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "protagonizar"
+             i: 'protagonizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "proteger"
+             i: 'proteger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "protestar"
+             i: 'protestar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "provar"
+             i: 'provar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "prover"
+             i: 'prover'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "provir"
+             i: 'provir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "provocar"
+             i: 'provocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "publicar"
+             i: 'publicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "publicitar"
+             i: 'publicitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "puir"
+             i: 'puir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "pular"
+             i: 'pular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "punçar"
+             i: 'punçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "punir"
+             i: 'punir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "purificar"
+             i: 'purificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "puxar"
+             i: 'puxar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "qualificar"
+             i: 'qualificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "quantificar"
+             i: 'quantificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "quebrantar"
+             i: 'quebrantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "quebrar"
+             i: 'quebrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "queimar"
+             i: 'queimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "queixar-se"
+             i: 'queixar-se'
          }
      },
      {
          en: {
-             i: "to want"
+             i: 'to want'
          },
          pt: {
-             i: "querer",
-             like: "querer"
+             i: 'querer',
+             like: 'querer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "questionar"
+             i: 'questionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "radiar"
+             i: 'radiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "raiar"
+             i: 'raiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ralar"
+             i: 'ralar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ranger"
+             i: 'ranger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "raptar"
+             i: 'raptar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rasgar"
+             i: 'rasgar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "raspar"
+             i: 'raspar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reabilitar"
+             i: 'reabilitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reagir"
+             i: 'reagir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "realizar"
+             i: 'realizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rebelar"
+             i: 'rebelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rebelar-se"
+             i: 'rebelar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rebentar"
+             i: 'rebentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rebobinar"
+             i: 'rebobinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rebocar"
+             i: 'rebocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recapitular"
+             i: 'recapitular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recarregar"
+             i: 'recarregar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recear"
+             i: 'recear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "receber"
+             i: 'receber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reciclar"
+             i: 'reciclar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reciprocar"
+             i: 'reciprocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recitar"
+             i: 'recitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reclamar"
+             i: 'reclamar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recolher"
+             i: 'recolher'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recomeçar"
+             i: 'recomeçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recomendar"
+             i: 'recomendar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recompensar"
+             i: 'recompensar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reconciliar"
+             i: 'reconciliar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reconhecer"
+             i: 'reconhecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reconquistar"
+             i: 'reconquistar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reconstruir"
+             i: 'reconstruir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recordar"
+             i: 'recordar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recorrer"
+             i: 'recorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recrutar"
+             i: 'recrutar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recuperar"
+             i: 'recuperar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "recusar"
+             i: 'recusar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "redigir"
+             i: 'redigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "redistribuir"
+             i: 'redistribuir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reduzir"
+             i: 'reduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "refazer"
+             i: 'refazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "referir"
+             i: 'referir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "refletir"
+             i: 'refletir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reflexionar"
+             i: 'reflexionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "refogar"
+             i: 'refogar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reforçar"
+             i: 'reforçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reformar"
+             i: 'reformar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "refugiar-se"
+             i: 'refugiar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "refundir"
+             i: 'refundir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "regalar"
+             i: 'regalar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "regenerar"
+             i: 'regenerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reger"
+             i: 'reger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "registar"
+             i: 'registar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "registrar-se"
+             i: 'registrar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "regressar"
+             i: 'regressar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "regular"
+             i: 'regular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reinar"
+             i: 'reinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reiniciar"
+             i: 'reiniciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reintegrar"
+             i: 'reintegrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rejeitar"
+             i: 'rejeitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "relacionar"
+             i: 'relacionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "relatar"
+             i: 'relatar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "relativizar"
+             i: 'relativizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "relaxar-se"
+             i: 'relaxar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "relegar"
+             i: 'relegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reluzir"
+             i: 'reluzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "remar"
+             i: 'remar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "remunerar"
+             i: 'remunerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "renascer"
+             i: 'renascer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "render"
+             i: 'render'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "renovar"
+             i: 'renovar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "renunciar"
+             i: 'renunciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reparar"
+             i: 'reparar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "repatriar"
+             i: 'repatriar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "repelir"
+             i: 'repelir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "repercutir"
+             i: 'repercutir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "repetir"
+             i: 'repetir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "replicar"
+             i: 'replicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "representar"
+             i: 'representar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reprimir"
+             i: 'reprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reprochar"
+             i: 'reprochar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reproduzir"
+             i: 'reproduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "requerer"
+             i: 'requerer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "requisitar"
+             i: 'requisitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reservar"
+             i: 'reservar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "residir"
+             i: 'residir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "resistir"
+             i: 'resistir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "resmungar"
+             i: 'resmungar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "resolver"
+             i: 'resolver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "respeitar"
+             i: 'respeitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "respirar"
+             i: 'respirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "responder"
+             i: 'responder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ressaltar"
+             i: 'ressaltar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "restabelecer"
+             i: 'restabelecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "restar"
+             i: 'restar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "restaurar"
+             i: 'restaurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "restituir"
+             i: 'restituir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "restringir"
+             i: 'restringir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "resultar"
+             i: 'resultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "resumir"
+             i: 'resumir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reter"
+             i: 'reter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "retificar"
+             i: 'retificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "retirar"
+             i: 'retirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "retocar"
+             i: 'retocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "retornar"
+             i: 'retornar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "retroceder"
+             i: 'retroceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "reunir"
+             i: 'reunir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "revalidar"
+             i: 'revalidar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "revelar"
+             i: 'revelar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rever"
+             i: 'rever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "revisar"
+             i: 'revisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "revogar"
+             i: 'revogar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rezar"
+             i: 'rezar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ridicularizar"
+             i: 'ridicularizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rir"
+             i: 'rir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "riscar"
+             i: 'riscar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rivalizar"
+             i: 'rivalizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "roçar"
+             i: 'roçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rociar"
+             i: 'rociar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rodar"
+             i: 'rodar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rodear"
+             i: 'rodear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rogar"
+             i: 'rogar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rolar"
+             i: 'rolar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "romper"
+             i: 'romper'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "roncar"
+             i: 'roncar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rondar"
+             i: 'rondar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "roubar"
+             i: 'roubar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "rugir"
+             i: 'rugir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ruminar"
+             i: 'ruminar'
          }
      },
      {
          en: {
-             i: "to know"
+             i: 'to know'
          },
          pt: {
-             i: "saber",
-             like: "saber"
+             i: 'saber',
+             like: 'saber'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sabotar"
+             i: 'sabotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sacar"
+             i: 'sacar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "saciar"
+             i: 'saciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sacrificar"
+             i: 'sacrificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sacudir"
+             i: 'sacudir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sair"
+             i: 'sair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "salgar"
+             i: 'salgar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "salientar"
+             i: 'salientar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "salpicar"
+             i: 'salpicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "saltar"
+             i: 'saltar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "salvaguardar"
+             i: 'salvaguardar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "salvar"
+             i: 'salvar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sangrar"
+             i: 'sangrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "saquear"
+             i: 'saquear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "satirizar"
+             i: 'satirizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "satisfazer"
+             i: 'satisfazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "saturar"
+             i: 'saturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "saudar"
+             i: 'saudar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "secar"
+             i: 'secar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "secularizar"
+             i: 'secularizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "seduzir"
+             i: 'seduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "segar"
+             i: 'segar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "segmentar"
+             i: 'segmentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "segregar"
+             i: 'segregar'
          }
      },
      {
          en: {
-             i: "to follow"
+             i: 'to follow'
          },
          pt: {
-             i: "seguir"
+             i: 'seguir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "segurar"
+             i: 'segurar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "selecionar"
+             i: 'selecionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "semear"
+             i: 'semear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sentar-se"
+             i: 'sentar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sentir"
+             i: 'sentir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sentir-se"
+             i: 'sentir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "separar"
+             i: 'separar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "separar-se"
+             i: 'separar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sepultar"
+             i: 'sepultar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sequestrar"
+             i: 'sequestrar'
          }
      },
      {
@@ -12950,658 +12976,658 @@ export const getVerbsList = inf => {
      }, 
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "serrar"
+             i: 'serrar'
          }
      },
      {
          en: {
-             i: "to serve"
+             i: 'to serve'
          },
          pt: {
-             i: "servir"
+             i: 'servir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "significar"
+             i: 'significar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "simbolizar"
+             i: 'simbolizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "simpatizar"
+             i: 'simpatizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "simplificar"
+             i: 'simplificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "simular"
+             i: 'simular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sincopar"
+             i: 'sincopar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sincronizar"
+             i: 'sincronizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sindicar"
+             i: 'sindicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sintetizar"
+             i: 'sintetizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sintonizar"
+             i: 'sintonizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "situar"
+             i: 'situar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soar"
+             i: 'soar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sobrar"
+             i: 'sobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sobressair"
+             i: 'sobressair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sobreviver"
+             i: 'sobreviver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soçobrar"
+             i: 'soçobrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "socorrer"
+             i: 'socorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soer"
+             i: 'soer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sofrer"
+             i: 'sofrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soletrar"
+             i: 'soletrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "solicitar"
+             i: 'solicitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soltar"
+             i: 'soltar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soluçar"
+             i: 'soluçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "solucionar"
+             i: 'solucionar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "somar"
+             i: 'somar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sonhar"
+             i: 'sonhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "soprar"
+             i: 'soprar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sorrir"
+             i: 'sorrir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sortear"
+             i: 'sortear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sossegar"
+             i: 'sossegar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suar"
+             i: 'suar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suavizar"
+             i: 'suavizar'
          }
      },
      {
          en: {
-             i: "to climb"
+             i: 'to climb'
          },
          pt: {
-             i: "subir"
+             i: 'subir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "subjugar"
+             i: 'subjugar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sublinhar"
+             i: 'sublinhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "submergir"
+             i: 'submergir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "submeter"
+             i: 'submeter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "subministrar"
+             i: 'subministrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "subordinar"
+             i: 'subordinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "subscrever"
+             i: 'subscrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "substanciar"
+             i: 'substanciar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "substituir"
+             i: 'substituir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suceder"
+             i: 'suceder'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sucumbir"
+             i: 'sucumbir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sufocar"
+             i: 'sufocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sugerir"
+             i: 'sugerir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sujar"
+             i: 'sujar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sujeitar"
+             i: 'sujeitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sumir"
+             i: 'sumir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "superar"
+             i: 'superar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "supervisar"
+             i: 'supervisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suplicar"
+             i: 'suplicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "supor"
+             i: 'supor'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suportar"
+             i: 'suportar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suprimir"
+             i: 'suprimir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suprir"
+             i: 'suprir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "surgir"
+             i: 'surgir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "surpreender"
+             i: 'surpreender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suscitar"
+             i: 'suscitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suspeitar"
+             i: 'suspeitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suspender"
+             i: 'suspender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suspirar"
+             i: 'suspirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sussurrar"
+             i: 'sussurrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "sustentar"
+             i: 'sustentar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "suster"
+             i: 'suster'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tamisar"
+             i: 'tamisar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tanger"
+             i: 'tanger'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tardar"
+             i: 'tardar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tartamudear"
+             i: 'tartamudear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tatuar"
+             i: 'tatuar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "taxar"
+             i: 'taxar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tecer"
+             i: 'tecer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "teclar"
+             i: 'teclar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "teimar"
+             i: 'teimar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "telefonar"
+             i: 'telefonar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "telegrafar"
+             i: 'telegrafar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "temer"
+             i: 'temer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "temperar"
+             i: 'temperar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tender"
+             i: 'tender'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tentar"
+             i: 'tentar'
          }
      },
      {
@@ -13620,571 +13646,571 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "terminar"
+             i: 'terminar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tesar"
+             i: 'tesar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "testar"
+             i: 'testar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tingir"
+             i: 'tingir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tinir"
+             i: 'tinir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tirar"
+             i: 'tirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "titular"
+             i: 'titular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tocar"
+             i: 'tocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tolerar"
+             i: 'tolerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tomar"
+             i: 'tomar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tombar"
+             i: 'tombar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "torcer"
+             i: 'torcer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tornar"
+             i: 'tornar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tornar-se"
+             i: 'tornar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "torrar"
+             i: 'torrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "torturar"
+             i: 'torturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tossir"
+             i: 'tossir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tostar"
+             i: 'tostar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "trabalhar"
+             i: 'trabalhar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "traçar"
+             i: 'traçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "traduzir"
+             i: 'traduzir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tragar"
+             i: 'tragar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "trair"
+             i: 'trair'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tramar"
+             i: 'tramar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transcorrer"
+             i: 'transcorrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transcrever"
+             i: 'transcrever'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transferir"
+             i: 'transferir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transformar"
+             i: 'transformar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transigir"
+             i: 'transigir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transladar"
+             i: 'transladar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transmitir"
+             i: 'transmitir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transpirar"
+             i: 'transpirar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transplantar"
+             i: 'transplantar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "transportar"
+             i: 'transportar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tratar"
+             i: 'tratar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "trautear"
+             i: 'trautear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "travar"
+             i: 'travar'
          }
      },
      {
          en: {
-             i: "to bring"
+             i: 'to bring'
          },
          pt: {
-             i: "trazer",
-             like: "trazer"
+             i: 'trazer',
+             like: 'trazer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "treinar"
+             i: 'treinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tremer"
+             i: 'tremer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "triangular"
+             i: 'triangular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tricotar"
+             i: 'tricotar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "trinchar"
+             i: 'trinchar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "triturar"
+             i: 'triturar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "triunfar"
+             i: 'triunfar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "troar"
+             i: 'troar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "trocar"
+             i: 'trocar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "tropeçar"
+             i: 'tropeçar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "uivar"
+             i: 'uivar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ultrapassar"
+             i: 'ultrapassar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ungir"
+             i: 'ungir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "unificar"
+             i: 'unificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "unir"
+             i: 'unir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "urdir"
+             i: 'urdir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "urgir"
+             i: 'urgir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "urinar"
+             i: 'urinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "usar"
+             i: 'usar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "utilizar"
+             i: 'utilizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vacilar"
+             i: 'vacilar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vacinar"
+             i: 'vacinar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vagir"
+             i: 'vagir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "valer"
+             i: 'valer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "validar"
+             i: 'validar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "valorar"
+             i: 'valorar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "valorizar"
+             i: 'valorizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vaporizar"
+             i: 'vaporizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "variar"
+             i: 'variar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "varrer"
+             i: 'varrer'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vegetar"
+             i: 'vegetar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "velar"
+             i: 'velar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vencer"
+             i: 'vencer'
          }
      },
      {
@@ -14198,260 +14224,260 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "venerar"
+             i: 'venerar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ventar"
+             i: 'ventar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "ventilar"
+             i: 'ventilar'
          }
      },
      {
          en: {
-             i: "to see"
+             i: 'to see'
          },
          pt: {
-             i: "ver",
-             like: "ver"
+             i: 'ver',
+             like: 'ver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "veranear"
+             i: 'veranear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "verificar"
+             i: 'verificar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "verter"
+             i: 'verter'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vestir"
+             i: 'vestir'
          }
      },
      {
          en: {
-             i: "to get dressed"
+             i: 'to get dressed'
          },
          pt: {
-             i: "vestir-se"
+             i: 'vestir-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "viajar"
+             i: 'viajar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vibrar"
+             i: 'vibrar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vigiar"
+             i: 'vigiar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vincular"
+             i: 'vincular'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vindicar"
+             i: 'vindicar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "violar"
+             i: 'violar'
          }
      },
      {
          en: {
-             i: "to come"
+             i: 'to come'
          },
          pt: {
-             i: "vir",
+             i: 'vir',
              like: 'vir'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "virar"
+             i: 'virar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "virar-se"
+             i: 'virar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "visar"
+             i: 'visar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "visitar"
+             i: 'visitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "visualizar"
+             i: 'visualizar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "viver"
+             i: 'viver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "voar"
+             i: 'voar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "voltar"
+             i: 'voltar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "voltear"
+             i: 'voltear'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "volver"
+             i: 'volver'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "vomitar"
+             i: 'vomitar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "votar"
+             i: 'votar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "zangar"
+             i: 'zangar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "zangar-se"
+             i: 'zangar-se'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "zarpar"
+             i: 'zarpar'
          }
      },
      {
          en: {
-             i: "to "
+             i: 'to '
          },
          pt: {
-             i: "zombar"
+             i: 'zombar'
          }
      }
      ];

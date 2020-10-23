@@ -237,7 +237,7 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
             'lavais',
             'lavam',
         ];
-        reflexiveConjugations = api.makeReflexive({conjugations, tense: Tense.present});
+        reflexiveConjugations = api.makeReflexive({conjugations, tense: Tense.present, inf: 'lavar'});
         expect(reflexiveConjugations).toStrictEqual([
             'lavo-me',
             'lavas-te',
@@ -254,7 +254,7 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
             'lavastes',
             'lavaram',
         ];
-        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite, inf: 'lavar'});
         expect(reflexiveConjugations).toStrictEqual([
             'lavei-me',
             'lavaste-te',
@@ -271,7 +271,7 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
             'laváveis',
             'lavavam',
         ];
-        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite, inf: 'lavar'});
         expect(reflexiveConjugations).toStrictEqual([
             'lavava-me',
             'lavavas-te',
@@ -288,7 +288,7 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
             'laváreis',
             'lavaram',
         ];
-        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite});
+        reflexiveConjugations = api.makeReflexive({conjugations, tense:Tense.preterite, inf: 'lavar'});
         expect(reflexiveConjugations).toStrictEqual([
             'lavara-me',
             'lavaras-te',
@@ -316,4 +316,16 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
             'lavar-se-iam',
         ]);
     });
+});
+
+describe('use findTheNewRoot to determine the new root for like verbs', () => {
+    let like, person, tense, partial, inf, regular, expected;
+    like = 'ficar';
+    person = 0;
+    tense = Tense.preterite;
+    partial = 'fiquei';
+    inf = 'alancar';
+    // regular = 'falarei';
+    expected = 'alanquei';
+    // expect(api.findTheNewRoot({like, person, tense, partial, inf})).toBe(expected);
 });

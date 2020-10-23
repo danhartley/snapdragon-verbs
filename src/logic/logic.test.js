@@ -1,4 +1,4 @@
-import { Option, Mode, Language, Pronoun_EN, Pronoun_PT } from './enums.js';
+import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense } from './enums.js';
 import { Lesson } from './lesson.js';
 import { Question } from './question.js';
 import { Answer } from './answer.js';
@@ -62,13 +62,14 @@ describe('lesson, question, and answer constructors, methods and default setting
         verbs = lesson.removeVerb('andar');
         expect(verbs).toStrictEqual(['cantar']);
     });
-    test('calling addTense should update tenses and return new values', () => {
-        tenses = lesson.addTense('imperfect');
-        expect(tenses).toStrictEqual(['present','imperfect', 'preterite', 'future', 'conditional', 'pluperfect']);
-    });
-    test('calling removeTense should update tenses and return new values', () => {
-        tenses = lesson.removeTense('imperfect');
-        expect(tenses).toStrictEqual(['present', 'preterite', 'future', 'conditional', 'pluperfect']);
+    test('calling addTense or removeTense should update tenses and return new values', () => {
+        lesson = new Lesson();
+        expect(lesson.tenses).toEqual([Tense.present, Tense.imperfect, Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ]);
+        lesson.removeTense(Tense.present);
+        lesson.removeTense(Tense.imperfect);
+        expect(lesson.tenses).toEqual([Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ]);
+        lesson.addTense(Tense.imperfect);
+        expect(lesson.tenses).toEqual([Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive, Tense.imperfect ]);
     });
 });
 
@@ -104,8 +105,8 @@ describe('lesson use case one', () => {
     test('calling createDrills should set of drills for all verbs', async () => {
         lesson = new Lesson();
         lesson.updateProps({            
-            tenses: ['present', 'preterite'],
-            tense: ['present']
+            tenses: [Tense.present, Tense.preterite],
+            tense: [Tense.present]
         });
         lesson.addVerb('cantar');
         lesson.addVerb('falar');

@@ -1,4 +1,4 @@
-import { Option, Mode, Language, Pronoun_EN, Pronoun_PT } from './enums.js';
+import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense } from './enums.js';
 import { Question } from './question.js';
 import { Score } from './score.js';
 
@@ -10,7 +10,7 @@ export class Lesson {
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
         verbs = [],
-        tenses = ['present','imperfect', 'preterite', 'future', 'conditional', 'pluperfect'],
+        tenses = [Tense.present, Tense.imperfect, Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ],
         tense = 'present',
         pronouns = '111111',
         languages = [ Language.EN, Language.PT ],
@@ -143,7 +143,7 @@ export class Lesson {
         return this.verbs;
     };
     addTense = tense => {
-        if(!this.tenses.find(t => tense)) {
+        if(!this.tenses.find(t => t === tense)) {
             this.tenses.push(tense);
         }
         return this.tenses;

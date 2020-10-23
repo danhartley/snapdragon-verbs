@@ -1,5 +1,6 @@
 import { Language, Tense } from './enums.js';
 import { data } from './data';
+import { toChildArray } from 'preact';
 
 export const api = {       
     async getVerbs(inf) {
@@ -57,16 +58,14 @@ export const api = {
         }
     },
     makeReflexive({conjugations,tense,inf}) {
+        inf = inf.indexOf('-se') > -1 ? inf.slice(0, inf.indexOf('-se')) : inf;
         const persons = [];
         conjugations.map((c,i) => {            
             switch(tense) {
                 case Tense.present:
-                case Tense.preterite:
                 case Tense.imperfect:
+                case Tense.preterite:
                 case Tense.pluperfect:
-                case Tense.present_subjunctive:
-                case Tense.future_subjunctive:
-                case Tense.imperfect_subjunctive:
                     switch(i){
                         case 0: persons[0] = `${c}-me`;
                         case 1: persons[1] = `${c}-te`;
@@ -96,7 +95,19 @@ export const api = {
                         case 5: persons[5] = `${inf}-se-iam`;
                     }
                     break;
-                default: return c;
+                    case Tense.present_subjunctive:
+                    case Tense.imperfect_subjunctive:
+                    case Tense.future_subjunctive:
+                            switch(i){
+                                case 0: persons[0] = `me ${c}`;
+                                case 1: persons[1] = `te ${c}`;
+                                case 2: persons[2] = `se ${c}`;
+                                case 3: persons[3] = `nos ${c}`;
+                                case 4: persons[4] = `vos ${c}`;
+                                case 5: persons[5] = `se ${c}`;
+                            }
+                    break;
+                    default: return c;
             } 
         });
         return persons;
@@ -110,7 +121,7 @@ export const api = {
     },
     getConjugationsFromLike({likeRoot, likeConjugations, root, tenses = ['present'], isReflexive = false, inf}) {
         let conjugations = {};
-        tenses.forEach(tense => {
+        tenses.filter(t => t).forEach(tense => {
             let nextTense = this.getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive, inf});
             conjugations[tense] = nextTense;
         });
@@ -122,6 +133,31 @@ export const api = {
     getIsReflexive(inf) {
         return (inf.indexOf('-se') > -1);
     },
+    // async findTheNewRoot({likeConjugation, person, tense, partial, inf}) {        
+    //     let regular, regularRoot;
+    //     let ending =  inf.slice(inf.length - 2);
+    //     switch(ending) {
+    //         case 'ar':
+    //             regular = 'falar';
+    //             regularRoot = 'fal';
+    //             break;
+    //         case 'er':
+    //             regular = 'vender';
+    //             regularRoot = 'vend';
+    //             break;
+    //         case 'ir':
+    //             regular = 'partir';
+    //             regularRoot = 'part';
+    //             break;
+    //     }
+    //     let conjugations = await this.getVerb(regular);
+    //     let conjugation = conjugations[tense][person]; // e.g. falei
+    //     let regularEnding = conjugation.remove(regularRoot); // ei
+    //     let likeRoot = likeConjugation.remove(regularEnding); // fiqu
+    //     let likeExpectedRoot = inf.slice(0, inf.length - 2); // fic
+    //     let differenceBetweenRoots = ''; 
+    //     return partial;
+    // },
     mergePersons(conjugation, partial) {
         return partial.map((person, index) => {
             return person === '' ? conjugation[index] : person;
