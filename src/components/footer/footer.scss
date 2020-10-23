@@ -4,13 +4,13 @@
     height: $block;
     background-color: lightgray;
     width: 100%;
-    color: black;
+    color: $fg1;
     div {
         height: inherit;
         margin: 0 $space;
         font-size: .7rem;
         a {
-            color: black;
+            color: $fg1;
         }
         span:first-child {
             margin-right: $space;            

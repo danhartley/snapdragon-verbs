@@ -1967,7 +1967,19 @@ const partials = [
             'sintais',
             'sintam',
         ]
-    }
+    },
+    {
+        i: 'servir',
+        present: ['sirvo','','','','',''],
+        'present subjunctive': [
+            'sirva',
+            'sirvas',
+            'sirva',
+            'sirvamos',
+            'sirvais',
+            'sirvam',
+        ]
+    },
 ];
 
 const reflexiveConjugations = [

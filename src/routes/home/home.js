@@ -1,6 +1,7 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { DrillState } from '../../logic/enums';
+import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
@@ -17,6 +18,7 @@ const Home = ({ verbs, tenses }) => {
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
+    const [showConjugation, setShowConjugation] = useState(() => false);
 
     const handleVerbPicked = verb => {
         setDrillActionState(true);
@@ -35,7 +37,10 @@ const Home = ({ verbs, tenses }) => {
             const drills = await lesson.createDrills(api, lesson.tense);
             setLesson({ ...lesson, drills });
             setDrillActionState(DrillState.checkAnswers);
-            setDrill(lesson.getNextDrill());
+            let drill = lesson.getNextDrill();
+            let translation = await api.getVerb(drill.verb);
+            drill.translation = translation[lesson.language.from].i;
+            setDrill(drill);
         }        
     };
 
@@ -92,12 +97,13 @@ const Home = ({ verbs, tenses }) => {
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => setDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} />                          
+                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => setDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} />                          
                         </>): <div class="block"></div>
                     }
                 </div>
             </div>
           </div>
+          { showConjugation ? <Conjugations verb={drill.verb} /> : '' }
           <Footer />
         </div>
         </>

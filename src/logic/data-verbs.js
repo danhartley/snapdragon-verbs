@@ -14263,7 +14263,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: "to "
+             i: "to get dressed"
          },
          pt: {
              i: "vestir-se"

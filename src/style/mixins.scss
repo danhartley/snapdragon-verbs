@@ -9,8 +9,8 @@
     border: 3px solid darkgray;
     &:focus {
         outline: none;
-        color: black;
-        border: 3px solid black;
+        color: $fg1;
+        border: 3px solid $fg1;
     }
 }
 
@@ -19,7 +19,7 @@
         padding: $space;
         cursor: pointer;
         font-size: .7rem;
-        color: rgb(80, 80, 80);
+        color: $fg2;
         @include outline;
         text-transform: uppercase;
         width: 9rem;

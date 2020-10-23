@@ -25,8 +25,8 @@ html, body {
     flex-direction: column;
 }
 a {
-    color: black;
-    border-bottom: 1px solid black;
+    color: $fg1;
+    border-bottom: 1px solid $fg1;
     text-decoration: none;
     padding-bottom: 2px;
 }
@@ -43,10 +43,10 @@ li {
 }
 
 h1 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.1rem;
     display: inline-block;
     margin: 0;
+    color: $fg3;
 }
 
 h2 {
@@ -61,7 +61,7 @@ h3 {
     font-weight: 400;
     display: inline-block;
     margin: 1rem 0 .5rem 0;
-    color: rgb(108, 108, 108);
+    color: $fg5;
     text-transform: uppercase;    
 }
 
@@ -75,7 +75,7 @@ select, input {
     font-size: 12px;
 }
 
-.home {
+.home, .conjugations {
     @include display-wrap;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -105,7 +105,7 @@ button:disabled {
     h2 > span {
         border-bottom: 1px solid lightgray;
         font-weight: bold;
-        color: black;
+        color: $fg1;
     }
     input {
         font-size: 1rem;
@@ -149,15 +149,15 @@ button:disabled {
     .is-incorrect {        
         .answer {
             visibility: visible;
-            color: black;
+            color: $fg1;
             margin-left: $space;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid $fg1;
         }
     }
     .translation {
         margin-left: $space;
         font-style: italic;
-        color: darkgray;
+        color: $fg8;
         border-bottom: none;
     }
     ul {
@@ -176,12 +176,12 @@ button:disabled {
         margin-left: 0;
         padding-left: 0;
         &:focus {
-            color: rgb(80,80,80);
+            color: $fg4;
         }
         ul  {
             li {
                 font-size: .8rem;
-                color: black;
+                color: $fg1;
             }
         }
         h4 {
@@ -236,11 +236,11 @@ ul.icons {
     align-items: center;
     width: fit-content;
     min-height: $block;
-    background-color: #d3d3d329;
+    background-color: $bg2;
     padding: 0 1rem;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    // box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
     border: 1px solid lightgray;
-    color: rgb(115,115,115);
+    color: $fg6;
     margin: 4.5rem auto 0 auto;
 }
 
@@ -286,7 +286,7 @@ input[type='checkbox'] {
 }
 
 .button-edit-action {
-    color: black;
+    color: $fg1;
     &:before { content:'\2713'; }    
     &.disabled-item {
         color: gray;
@@ -298,9 +298,9 @@ input[type='checkbox'] {
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     width: 1000px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 0 0 0 .5rem;
-    min-height: calc(100vh - 15.5rem);
+    min-height: calc(100vh - 13.5rem);
 }
 
 .menu > div {

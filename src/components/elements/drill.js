@@ -2,12 +2,10 @@ import { DrillState } from '../../logic/enums';
 import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
-import { api } from '../../logic/api';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink }) => {
 
     const [qandas, setQandas] = useState([]);
-    const [translation, setTranslation] = useState('');
     const [vowels, setVowels] = useState(() => [
         'à', 'á', 'â', 'ã', 'é', 'ê', 'í', 'ô', 'ó', 'õ', 'ú', 'ç'
     ]); 
@@ -61,14 +59,6 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     useEffect(() => {
         if(inputRef.current && drillActionState ===  DrillState.checkAnswers) {
             inputRef.current.focus();
-        }
-    }, [drill]);
-    
-    useEffect( async () => {
-        if(drill) {
-            let translation = await api.getVerb(drill.verb);
-            translation = translation[lesson.language.from].i;
-            setTranslation(translation);
         }
     }, [drill]);
 
@@ -161,7 +151,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             <section class="drills">
                 <div class="text-align">
                     <h2>
-                        <span>{drill.verb}</span><span class="translation">{translation}</span>
+                        <span><a href="#conjugations" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
                     </h2>
                 </div>
                 <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
