@@ -63,28 +63,12 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     }, [drill]);
 
     const handleOnChange = e => {
+
         const input = e.target;
-        if(input.value.length === 0) return;
-        setCurrentInput(input);
+        if(input.value.length === 0) return;        
         const qanda = new QandA(input.id, input.value, input.dataset.key);
         const _qandas = qandas.filter(q => q.key !== qanda.key); // remove qanda if already exists for this key        
-        setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);
-        let handler = e => {
-            let inputs = input.form.elements;
-            let nextIndex;
-
-            Array.from(inputs).forEach((el, index) => {
-                if(el === input) nextIndex = index + 1;
-            });
-
-            let nextInput = inputs[nextIndex];
-
-            if (nextInput) {
-                nextInput.focus();
-            }
-            input.removeEventListener('focusout', handler);
-        };
-        input.addEventListener('focusout', handler);        
+        setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);        
     };
 
     const handleOnFocus = e => {
@@ -92,7 +76,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         setCurrentInput(input);
     };
 
-    const handleSelectVowel = e => {
+    const handleAccentedCharacter = e => {
         let vowel = e.target.dataset.id;
         currentInput.value = currentInput.value + vowel;
         currentInput.focus();
@@ -111,14 +95,13 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
             const form = document.activeElement.form;
 
-            if(form) {
+            setEventCode(e.code);
 
-                setEventCode(e.code);
+            if(form) {
 
                 switch(e.code) {                
                     case 'Enter':         
                             const isConsecutiveEntryKey = e.code === eventCode; // accented character may be last in word e.g. é
-                            console.log();
                             const inputValue = e.target.value;
                             const accentedVowel = vowels.find(v => v === inputValue.slice(inputValue.length - 1));
                             if(accentedVowel && !isConsecutiveEntryKey) {
@@ -130,8 +113,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                                 }
                             }
                             break;
-                        }                        
-                    }
+                        }                 
+                }
+
             }
         , { once: true });
     });
@@ -163,7 +147,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         }
                     </div>
                 </form>
-                {currentInput !== null ? <ActionList colCount={6} listItemClickHandler={handleSelectVowel} items={vowels} /> : <></>}
+                {currentInput !== null ? <ActionList colCount={6} listItemClickHandler={handleAccentedCharacter} items={vowels} /> : <></>}
                 <button class={`keyboard-help ${isKeyboardHelpClosed ? "closed" : ""} `} onClick={handleToggleVisibility}>
                     <div>
                         <h4>Keyboard shortcuts</h4>
@@ -171,7 +155,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                     </div>    
                     <ul>
                         <li>To move to the next person, use the TAB or ENTER keys.</li>
-                        <li>To return to the previous person, use the TAB + SHIFT keys in combination.</li>
+                        <li>To return to the previous person, use the SHIFT + TAB keys in combination.</li>
                         <li>To check your answers, use the ENTER key.</li>
                     </ul>
                 </button>
