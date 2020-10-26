@@ -7,9 +7,9 @@ export const ConjugationList = ({ items }) => {
             <ul>{list}</ul>
         </>
         );
-  }
+};
   
-  export const EditableList = ({ items, header, editedHandler }) => {
+export const EditableList = ({ items, header, editedHandler }) => {
     
     if(items.length === 0) return (<></>);
 
@@ -27,15 +27,10 @@ export const ConjugationList = ({ items }) => {
     };
 
     const list = items.map(item =><li key={item.name}><button aria-label={item.name} class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
-    return (
-    <>
-        <div class="block"><h3>{header}</h3></div>
-        <ul style='column-count: 3'>{list}</ul>
-    </>
-    );
-  }
+    return ( <ul style='column-count: 3'>{list}</ul> );
+};
 
-  export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true, colCount = 0 }) => {
+export const ActionList = ({ items, listItemClickHandler, header, direction = 'vertical', underlined = true, colCount = 0 }) => {
     let list;
     if(colCount) {
         list = items.map(item =><li><button aria-label={item.name} onClick={listItemClickHandler} class="button-link-action" data-id={item.id || item}><span data-id={item.id || item}>{item.name || item}</span></button></li>);
@@ -52,13 +47,26 @@ export const ConjugationList = ({ items }) => {
             <ul class={marginList}>{list}</ul>
         );
     }
-  }
+};
 
-  export const RemoveableList = ({ items, msg }) => {
+export const RemoveableList = ({ items, msg }) => {
     const list = items.length > 0 
         ? items.map(item => <li class='flex'><input type='checkbox' checked /><span>{item}</span></li>)
         : <li class="hint">{msg}</li>;
     return (
       <ul>{list}</ul>
     );
-  }
+};
+
+export const RadioButtonList = ({ pronouns = [], direction = 'vertical'}) => {
+    return (
+            <div class={ direction === 'vertical' ? 'flex-column' : 'flex'}>
+                { pronouns.map(pronoun => 
+                    <div class="flex rb-list">
+                        <input type="radio" id={pronoun} name="pronoun-input" value={pronoun} />
+                        <label class="margin-right" for={pronoun}>{pronoun}</label>
+                    </div>
+                )}
+            </div>
+    );
+};

@@ -85,7 +85,7 @@ export const data = {
             },
             {
                 id: 3,
-                name: 'Commmon irregular verbs, 25-40 ',
+                name: 'Commmon irregular verbs, 25-36 ',
                 verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
             },
             {
@@ -100,8 +100,8 @@ export const data = {
             },
             {
                 id: 6,
-                name: '15 Common regular verbs',
-                verbs: [ { name: 'dever' }, { name: 'passar' }, { name: 'deixar' }, { name: 'encontrar' }, { name: 'levar' }, { name: 'partir' }, { name: 'pensar'}, { name: 'apresentar' }, { name: 'olhar' }, { name: 'voltar' }, { name: 'achar' }, { name: 'existir' }, { name: 'entrar' }, { name: 'chamar' }, { name: 'considerar' } ]
+                name: '12 Common regular verbs',
+                verbs: [ { name: 'dever' }, { name: 'deixar' }, { name: 'encontrar' }, { name: 'levar' }, { name: 'partir' }, { name: 'pensar'}, { name: 'olhar' }, { name: 'voltar' }, { name: 'achar' }, { name: 'existir' }, { name: 'entrar' }, { name: 'chamar' } ]
             },
             {
                 id: 7,

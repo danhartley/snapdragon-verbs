@@ -9,6 +9,8 @@
 	padding: 0;
     background-color: $bg5;
     z-index: 50;
+    display: flex;
+    justify-content: space-between;
     span {
         float: left;
         margin: 0;
@@ -17,5 +19,16 @@
         line-height: $block;
         font-weight: 400;
         color: #FFF;
+    }
+    nav {
+        section {
+                margin: 0 $space 0 0;
+                float: left;
+                min-height: 4 * $space;
+                display: flex;
+                align-items: center;
+                font-size: .8rem;
+                color: $fg3;      
+        }
     }
 }

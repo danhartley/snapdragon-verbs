@@ -53,3 +53,8 @@ export class Tense extends Enumify {
     static imperfect_subjunctive = 'imperfect subjunctive';
     static future_subjunctive = 'future subjunctive';
 }
+
+export class Choice extends Enumify {
+    static drills = 'drills';
+    static random = 'random';
+}

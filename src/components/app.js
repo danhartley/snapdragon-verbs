@@ -1,10 +1,9 @@
 import { h } from 'preact';
 import { api } from '../logic/api';
 import { useState, useEffect } from 'preact/hooks';
-import { Router } from 'preact-router';
 
 import Header from './header/header';
-import Footer from './footer/footer';
+import { Choice } from '../logic/enums.js';
 
 import { useLocalStorageState } from '../utils/custom-hooks';
 
@@ -29,6 +28,7 @@ const App = () => {
     const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate);
     const [verbs, setVerbs] = useLocalStorageState('verbs', []);
     const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));
+    const [choice, setChoice] = useState(Choice.drills);
 
     useEffect( async () => {
         
@@ -36,7 +36,6 @@ const App = () => {
         const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); 
     
         if(verbs.length === 0 || daysDiff > 1) { 
-            console.log('update database');
             getVerbs();
             setLastVisit(Date.now());
         };
@@ -45,9 +44,8 @@ const App = () => {
     if(verbs.length > 0) {
         return (
             <div id="app">
-                <Header />
-                <Home verbs={verbs} tenses={tenses} />
-                {/* <Footer /> */}
+                <Header choice={choice} onClickChangeChoice={state => setChoice(state.target.id)} />
+                <Home verbs={verbs} tenses={tenses} choice={choice} />
             </div>
         )
     }

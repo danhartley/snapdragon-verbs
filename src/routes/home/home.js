@@ -1,15 +1,15 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { DrillState } from '../../logic/enums';
+import { DrillState, Choice } from '../../logic/enums';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { Lesson } from '../../logic/lesson';
-import { ActionList, EditableList } from '../../components/elements/lists';
+import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
 
-const Home = ({ verbs, tenses }) => {
+const Home = ({ verbs, tenses, choice }) => {
 
     const [lesson, setLesson] = useState(() => new Lesson());
     const [drill, setDrill] = useState(null);
@@ -80,15 +80,24 @@ const Home = ({ verbs, tenses }) => {
     return (
         <>
         <section class="banner-block">
-            <h1>Portuguese verb drills</h1>
+            <h1>{ choice === Choice.drills ? 'Portuguese verb drills' : 'Portuguese random verbs' }</h1>
         </section>
         <div class="home">          
           <div class="columns">
           <div class={sideBarCSS}>
                 <div> 
-                    <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                    <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                    {
+                        choice === Choice.drills
+                            ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
+                            : <RadioButtonList pronouns={[ 'eu', 'tu', 'ela', 'nós', 'vós', 'elas', 'dummy' ]} />
+
+                    }
                     <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
+                    {
+                        choice === Choice.drills
+                            ? <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                            : <></>
+                    }
                     <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                     {
                         selectedVerbs.length > 0
