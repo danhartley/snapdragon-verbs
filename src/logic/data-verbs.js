@@ -3197,7 +3197,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to begin'
          },
          pt: {
              i: 'começar'
@@ -3653,7 +3653,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to know'
          },
          pt: {
              i: 'conhecer'
@@ -3661,7 +3661,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to know yourself'
          },
          pt: {
              i: 'conhecer-se'
@@ -3709,7 +3709,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to get'
          },
          pt: {
              i: 'conseguir'
@@ -6209,7 +6209,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to enter'
          },
          pt: {
              i: 'entrar'
@@ -7074,7 +7074,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to exist'
          },
          pt: {
              i: 'existir'
@@ -7433,10 +7433,10 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to stay'
          },
          pt: {
-             i: 'ficar'
+             i: 'ficar',
          }
      },
      {
@@ -7793,7 +7793,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to run away'
          },
          pt: {
              i: 'fugir'
@@ -10083,7 +10083,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to be born'
          },
          pt: {
              i: 'nascer'
@@ -10283,7 +10283,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to hate'
          },
          pt: {
              i: 'odiar'
@@ -10307,7 +10307,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to look'
          },
          pt: {
              i: 'olhar'
@@ -10564,7 +10564,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to seem'
          },
          pt: {
              i: 'parecer'
@@ -10758,7 +10758,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to lose'
          },
          pt: {
              i: 'perder'
@@ -10991,7 +10991,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to polish'
          },
          pt: {
              i: 'polir'
@@ -11352,7 +11352,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to produce'
          },
          pt: {
              i: 'produzir'
@@ -11496,7 +11496,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to provide'
          },
          pt: {
              i: 'prover'
@@ -12553,7 +12553,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to laugh'
          },
          pt: {
              i: 'rir'
@@ -12722,7 +12722,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to leave'
          },
          pt: {
              i: 'sair'
@@ -12877,7 +12877,8 @@ export const getVerbsList = inf => {
              i: 'to follow'
          },
          pt: {
-             i: 'seguir'
+             i: 'seguir',
+             like: 'seguir'
          }
      },
      {
@@ -12914,7 +12915,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to feel'
          },
          pt: {
              i: 'sentir'
@@ -12922,7 +12923,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to be affected'
          },
          pt: {
              i: 'sentir-se'
@@ -13251,7 +13252,8 @@ export const getVerbsList = inf => {
              i: 'to climb'
          },
          pt: {
-             i: 'subir'
+             i: 'subir',
+             like: 'subir'
          }
      },
      {
@@ -13440,7 +13442,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to arise'
          },
          pt: {
              i: 'surgir'
@@ -13742,7 +13744,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to make'
          },
          pt: {
              i: 'tornar'
@@ -13750,7 +13752,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to become'
          },
          pt: {
              i: 'tornar-se'
@@ -14410,7 +14412,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to come back'
          },
          pt: {
              i: 'voltar'

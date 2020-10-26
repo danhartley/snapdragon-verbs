@@ -259,7 +259,7 @@ const conjugations = [
             'venderão'
         ],
         conditional: [
-            'vernderia',
+            'venderia',
             'venderias',
             'venderia',
             'venderíamos',
@@ -2479,7 +2479,7 @@ const partials = [
     },
     {
         i: 'sair',
-        preterite: ['saio', 'saias', 'sai', 'saímos', 'saís', 'saem'],
+        present: ['saio', 'saias', 'sai', 'saímos', 'saís', 'saem'],
         imperfect: [
             'saía',
             'saías',
@@ -2567,6 +2567,164 @@ const partials = [
             'vençamos',
             'vençais',
             'vençam',
+        ]
+    },
+    {
+        i: 'polir',
+        present: [
+            'pulo', 'pules', 'pule', 'polimos', 'polis', 'pulem'
+        ],
+        'present subjunctive': [
+            'pula',
+            'pulas',
+            'pula',
+            'pulamos',
+            'pulais',
+            'pulam',
+        ]
+    },
+    {
+        i: 'odiar',
+        present: [
+            'odeio', 'odeias', 'odeia', 'odiamos', 'odiais', 'odeiam'
+        ],
+        'present subjunctive': [
+            'odeie',
+            'odeies',
+            'odeie',
+            'odeiemos',
+            'odeieis',
+            'odeiem',
+        ]
+    },
+    {
+        i: 'parecer',
+        present: [
+            'pareço', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'pareça',
+            'pareças',
+            'pareça',
+            'pareçamos',
+            'pareçais',
+            'pareçam',
+        ]
+    },
+    {
+        i: 'conseguir',
+        present: [
+            'consigo', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'consiga',
+            'consigas',
+            'consiga',
+            'consigamos',
+            'consigais',
+            'consigam',
+        ]
+    },
+    {
+        i: 'conhecer',
+        present: [
+            'conheço', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'conheça',
+            'conheças',
+            'conheça',
+            'conheçamos',
+            'conheçais',
+            'conheçam',
+        ]
+    },
+    {
+        i: 'cair',
+        present: [
+            'caio', 'cais', 'cai', 'caímos', 'caís', 'caem'
+        ],
+        imperfect: [
+            'caía',
+            'caías',
+            'caía',
+            'caíamos',
+            'caíais',
+            'caíam',
+        ],
+        preterite: [
+            'caí',
+            'caíste',
+            'caiu',
+            'caímos',
+            'caístes',
+            'caíram'
+        ],
+        pluperfect: [
+            'caíra',
+            'caíras',
+            'caíra',
+            'caíramos',
+            'caíreis',
+            'caíram',
+        ],
+        'present subjunctive': [
+            'caia',
+            'caias',
+            'caia',
+            'caiamos',
+            'caiais',
+            'caiam',
+        ],
+        'imperfect subjunctive': [
+            'caísse',
+            'caísses',
+            'caísse',
+            'caíssemos',
+            'caísseis',
+            'caíssem',
+        ],
+        'future subjunctive': [
+            'cair',
+            'caíres',
+            'cair',
+            'cairmos',
+            'cairdes',
+            'caírem',
+        ],
+    },
+    {
+        i: 'surgir',
+        present: [
+            'surjo', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'surja',
+            'surjas',
+            'surja',
+            'surjamos',
+            'surjais',
+            'surjam',
+        ]
+    },
+    {
+        i: 'nascer',
+        present: [
+            'nasço', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'nasça',
+            'nasças',
+            'nasça',
+            'nasçamos',
+            'nasçais',
+            'nasçam',
+        ]
+    },
+    {
+        i: 'produz',
+        present: [
+            '', '', 'produz', '', '', ''
         ]
     },
 ];

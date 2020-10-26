@@ -318,14 +318,14 @@ describe('makeReflexive converts regular verb into a reflexive verb', () => {
     });
 });
 
-describe('use findTheNewRoot to determine the new root for like verbs', () => {
-    let like, person, tense, partial, inf, regular, expected;
-    like = 'ficar';
-    person = 0;
-    tense = Tense.preterite;
-    partial = 'fiquei';
-    inf = 'alancar';
-    // regular = 'falarei';
-    expected = 'alanquei';
-    // expect(api.findTheNewRoot({like, person, tense, partial, inf})).toBe(expected);
+describe('use mergeLikeWithVerb to determine the new root for like verbs', () => {
+    test('verbs like ficar', () => {
+        let like, inf, expected;
+        like = 'ficar';
+        inf = 'alancar';
+        expected = api.mergeLikeWithVerb({inf, like, conjugations: { 
+            preterite: [ 'fiquei' ]
+         }});
+        expect(expected['preterite'][0]).toBe('alanquei');
+    });
 });

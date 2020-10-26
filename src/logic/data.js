@@ -75,26 +75,36 @@ export const data = {
         return [
             {
                 id: 1,
-                name: 'Common irregular verbs',
-                verbs: [ { name:'ser' }, { name:'estar' }, { name:'ter' }, { name:'fazer', }, { name:'ir' }, { name:'vir' }, { name: 'ver' }, { name: 'querer' }, { name: 'dar' }, { name: 'dizer' }, {  name: 'haver' }, { name: 'poder' } ]
+                name: 'Common irregular verbs, 1-12',
+                verbs: [ { name:'ser' }, { name:'ter' }, { name:'estar' }, { name: 'poder' }, { name:'fazer', }, { name:'ir' }, {  name: 'haver' }, { name: 'dizer' }, { name: 'dar' }, { name: 'ver' }, { name:'saber' }, { name: 'querer' } ]
             },
             {
                 id: 2,
-                name: 'More irregular verbs',
-                verbs: [ { name:'saber' }, { name:'pôr' }, { name:'trazer' }, { name:'dormir', }, { name:'ler' }, { name:'crer' }, { name: 'ouvir' }, { name: 'pedir' }, { name: 'subir' }, { name: 'seguir' }, { name: 'progredir'} ]
+                name: 'Common irregular verbs, 13-24',
+                verbs: [ { name:'ficar' }, { name:'vir' }, { name: 'chegar' }, { name: 'começar'}, { name: 'parecer' }, { name: 'sair' }, { name: 'conseguir' }, { name: 'sentir' }, { name: 'conhecer'},  { name:'pôr' }, { name: 'ouvir' }, { name: 'perder' } ]
             },
             {
                 id: 3,
+                name: 'Commmon irregular verbs, 25-40 ',
+                verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
+            },
+            {
+                id: 4,
                 name: 'Regular -ar, -er and -ir verbs',
                 verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
             },
             {
-                id: 4,
+                id: 5,
                 name: 'Common reflexive verbs',
                 verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' } ]
             },
             {
-                id: 5,
+                id: 6,
+                name: '15 Common regular verbs',
+                verbs: [ { name: 'dever' }, { name: 'passar' }, { name: 'deixar' }, { name: 'encontrar' }, { name: 'levar' }, { name: 'partir' }, { name: 'pensar'}, { name: 'apresentar' }, { name: 'olhar' }, { name: 'voltar' }, { name: 'achar' }, { name: 'existir' }, { name: 'entrar' }, { name: 'chamar' }, { name: 'considerar' } ]
+            },
+            {
+                id: 7,
                 name: 'Clear all verbs',
                 verbs: []
             },

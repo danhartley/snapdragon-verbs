@@ -133,31 +133,20 @@ export const api = {
     getIsReflexive(inf) {
         return (inf.indexOf('-se') > -1);
     },
-    // async findTheNewRoot({likeConjugation, person, tense, partial, inf}) {        
-    //     let regular, regularRoot;
-    //     let ending =  inf.slice(inf.length - 2);
-    //     switch(ending) {
-    //         case 'ar':
-    //             regular = 'falar';
-    //             regularRoot = 'fal';
-    //             break;
-    //         case 'er':
-    //             regular = 'vender';
-    //             regularRoot = 'vend';
-    //             break;
-    //         case 'ir':
-    //             regular = 'partir';
-    //             regularRoot = 'part';
-    //             break;
-    //     }
-    //     let conjugations = await this.getVerb(regular);
-    //     let conjugation = conjugations[tense][person]; // e.g. falei
-    //     let regularEnding = conjugation.remove(regularRoot); // ei
-    //     let likeRoot = likeConjugation.remove(regularEnding); // fiqu
-    //     let likeExpectedRoot = inf.slice(0, inf.length - 2); // fic
-    //     let differenceBetweenRoots = ''; 
-    //     return partial;
-    // },
+    mergeLikeWithVerb({inf, like, conjugations}) {
+        switch(like) {
+            case 'ficar':
+                let merged = {};
+                let mergedRoot = inf.slice(0, inf.length - 2);
+                    mergedRoot = mergedRoot.replace(mergedRoot[mergedRoot.length -1], 'qu');
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('fiqu', mergedRoot));
+                });
+                return merged;
+            default:
+                return conjugations;
+        }
+    },
     mergePersons(conjugation, partial) {
         return partial.map((person, index) => {
             return person === '' ? conjugation[index] : person;
@@ -184,7 +173,7 @@ export const api = {
             conjugations = this.getConjugationsFromLike({likeRoot, likeConjugations, root, tenses, isReflexive, inf});
             conjugations = !!partials 
                 ? this.mergePartials(conjugations, partials) : conjugations;
-            return conjugations;
+            return this.mergeLikeWithVerb({inf, like, conjugations});
         }
     },
     getSetDrills() {
