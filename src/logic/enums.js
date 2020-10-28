@@ -58,3 +58,9 @@ export class Choice extends Enumify {
     static drills = 'drills';
     static random = 'random';
 }
+
+export class VerbGroup extends Enumify {
+    static all_verbs = 'all verbs';
+    static irregular_verbs = 'irregular verbs';
+    static common_regular_verbs = 'common regular verbs';
+}

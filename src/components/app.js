@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { api } from '../logic/api';
+import { Language } from '../logic/enums';
 import { useState, useEffect } from 'preact/hooks';
 
 import Header from './header/header';
@@ -11,7 +12,7 @@ import Home from '../routes/home/home';
 
 const App = () => {
 
-    const GLOBAL_LANGUAGE = 'pt';
+    const GLOBAL_LANGUAGE = Language.PT;
 
     let savedVerbs;
     
@@ -45,7 +46,7 @@ const App = () => {
         return (
             <div id="app">
                 <Header choice={choice} onClickChangeChoice={state => setChoice(state.target.id)} />
-                <Home verbs={verbs} tenses={tenses} choice={choice} />
+                <Home verbs={verbs} tenses={tenses} choice={choice} language={GLOBAL_LANGUAGE} />
             </div>
         )
     }

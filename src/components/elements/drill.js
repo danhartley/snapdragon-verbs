@@ -3,7 +3,7 @@ import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, selectedPronoun = null }) => {
 
     const [qandas, setQandas] = useState([]);
     const [vowels, setVowels] = useState(() => [
@@ -30,7 +30,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 drill.questions.forEach(q => {
                     scores.forEach(score => {
                         if(score.key === q.pronoun) {
-                            q.class = score.isCorrect ? 'is-correct' : 'is-incorrect';
+                            q.class = score.isCorrect ? `${q.class} is-correct` : 'is-incorrect';
                             _drill.questions.push(q);
                         }
                     });
@@ -97,25 +97,23 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
             setEventCode(e.code);
 
-            if(form) {
-
-                switch(e.code) {                
-                    case 'Enter':         
-                            const isConsecutiveEntryKey = e.code === eventCode; // accented character may be last in word e.g. é
-                            const inputValue = e.target.value;
-                            const accentedVowel = vowels.find(v => v === inputValue.slice(inputValue.length - 1));
-                            if(accentedVowel && !isConsecutiveEntryKey) {
-                                return;
-                            } else {
-                                const index = Array.from(form.elements).indexOf(e.target);
-                                if (index < form.elements.length -1) { // ignore final element, the submit button
-                                    form.elements[index + 1].focus();
+                if(form) {
+                    switch(e.code) {                
+                        case 'Enter':         
+                                const isConsecutiveEntryKey = e.code === eventCode; // accented character may be last in word e.g. é
+                                const inputValue = e.target.value;
+                                const accentedVowel = vowels.find(v => v === inputValue.slice(inputValue.length - 1));
+                                if(accentedVowel && !isConsecutiveEntryKey) {
+                                    return;
+                                } else {
+                                    const index = Array.from(form.elements).indexOf(e.target);
+                                    if (index < form.elements.length -1) { // ignore final element, the submit button
+                                        form.elements[index + 1].focus();
+                                    }
                                 }
-                            }
-                            break;
-                        }                 
+                                break;
+                            }              
                 }
-
             }
         , { once: true });
     });

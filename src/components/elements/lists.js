@@ -26,7 +26,7 @@ export const EditableList = ({ items, header, editedHandler }) => {
         editedHandler(verb, isVerbDisabled);                
     };
 
-    const list = items.map(item =><li key={item.name}><button aria-label={item.name} class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
+    const list = items.map(item => <li key={item.name}><button aria-label={item.name} class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
     return ( <ul style='column-count: 3'>{list}</ul> );
 };
 
@@ -58,15 +58,20 @@ export const RemoveableList = ({ items, msg }) => {
     );
 };
 
-export const RadioButtonList = ({ pronouns = [], direction = 'vertical'}) => {
+export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header, handleRadioButtonSelection, selectedPronoun }) => {
     return (
-            <div class={ direction === 'vertical' ? 'flex-column' : 'flex'}>
-                { pronouns.map(pronoun => 
-                    <div class="flex rb-list">
-                        <input type="radio" id={pronoun} name="pronoun-input" value={pronoun} />
-                        <label class="margin-right" for={pronoun}>{pronoun}</label>
-                    </div>
-                )}
-            </div>
+            <form>
+                <fieldset class={ direction === 'vertical' ? 'flex-column' : 'flex'}>
+                    <legend>{header}</legend>
+                    <ul>
+                    { pronouns.map((pronoun, i) => 
+                        <li class="flex rb-list">
+                            <input onClick={handleRadioButtonSelection} type="radio" id={pronoun} name="pronoun-input" value={pronoun} checked={pronoun === selectedPronoun} />
+                            <label class="margin-right" for={pronoun}>{pronoun}</label>
+                        </li>
+                    )}
+                    </ul>
+                </fieldset>
+            </form>
     );
 };
