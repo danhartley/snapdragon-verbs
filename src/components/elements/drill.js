@@ -1,9 +1,9 @@
-import { DrillState } from '../../logic/enums';
+import { DrillState, Choice } from '../../logic/enums';
 import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, selectedPronoun = null }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice }) => {
 
     const [qandas, setQandas] = useState([]);
     const [vowels, setVowels] = useState(() => [
@@ -34,6 +34,11 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                             _drill.questions.push(q);
                         }
                     });
+                    if(choice === Choice.random && q.pronoun !== scores[0].key) {
+                        q.class = 'half-hidden is-correct';
+                        q.disabled = true;
+                        _drill.questions.push(q);
+                    }
                 });
 
                 onChangeDrill(_drill);
@@ -54,21 +59,23 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         } 
     };
 
-    const inputRef = useRef();
+    const formRef = useRef();
 
     useEffect(() => {
-        if(inputRef.current && drillActionState ===  DrillState.checkAnswers) {
-            inputRef.current.focus();
+        if(formRef.current  && drillActionState ===  DrillState.checkAnswers) {
+            let firstPerson = formRef.current.elements[0];
+            firstPerson.disabled
+                ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
+                : firstPerson.focus();
         }
     }, [drill]);
 
     const handleOnChange = e => {
-
         const input = e.target;
         if(input.value.length === 0) return;        
         const qanda = new QandA(input.id, input.value, input.dataset.key);
         const _qandas = qandas.filter(q => q.key !== qanda.key); // remove qanda if already exists for this key        
-        setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);        
+        setQandas([ { question: {value: { to: qanda.question }}, answer: { value: qanda.answer }, key: qanda.key}, ..._qandas ]);
     };
 
     const handleOnFocus = e => {
@@ -96,7 +103,6 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             const form = document.activeElement.form;
 
             setEventCode(e.code);
-
                 if(form) {
                     switch(e.code) {                
                         case 'Enter':         
@@ -106,8 +112,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                                 if(accentedVowel && !isConsecutiveEntryKey) {
                                     return;
                                 } else {
-                                    const index = Array.from(form.elements).indexOf(e.target);
-                                    if (index < form.elements.length -1) { // ignore final element, the submit button
+                                    const elements = Array.from(form.elements).filter(element => !element.disabled);
+                                    const index = elements.indexOf(e.target);
+                                    if (index < elements.length -1) {
                                         form.elements[index + 1].focus();
                                     }
                                 }
@@ -119,15 +126,27 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     });
 
     if(drill) {
+
         const questions = drill.questions.map((question, index) =>
-            <div key={`${question.label}_${question.value.to}`} class={question.class}>
+            <div key={`${question.label}_${question.value.to}`} class={question.class} >
                 <div class="flex">
                     <div><label htmlFor={question.value.to}><span>{question.label}</span></label></div>
-                    <div><input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} ref={index === 0 ? inputRef : null} /></div>
+                    <div>
+                        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} disabled={question.disabled} >
+                            { question.disabled ? question.value.to : '' }
+                        </input>
+                    </div>
                 </div>
                 <div><span class='answer'>{question.value.to}</span></div>
             </div>
         );
+
+        const drillStillRunning = qandas.length < 6;
+        const randomTestStillRunning = (drill.questions.filter(q => q.disabled).length === 5 && qandas.length === 0);
+        const disableSubmitButton = choice === Choice.drills
+                                        ? drillStillRunning
+                                        : randomTestStillRunning
+        
         return (
             <>
             <section class="drills">
@@ -136,12 +155,12 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         <span><a href="#conjugations" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
                     </h2>
                 </div>
-                <form id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
+                <form ref={formRef} id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
                     <section class="questions">{questions}</section>
                     <div class="action-button">
                         { drillActionState ===  DrillState.drillsComplete 
                             ? <button class="btn" disabled={true}>{drillActionState}</button>
-                            : <button class="btn" disabled={qandas.length < 6}>{drillActionState}</button>
+                            : <button class="btn" disabled={disableSubmitButton}>{drillActionState}</button>
                         }
                     </div>
                 </form>

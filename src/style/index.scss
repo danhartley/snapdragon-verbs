@@ -128,7 +128,7 @@ button:disabled {
         }
     }
     input {
-        font-size: 1rem;
+        font-size: .9rem;
         letter-spacing: .04rem;
     }
     .questions {
@@ -473,4 +473,7 @@ fieldset {
 
 .half-hidden {
     opacity: .1;
+    input {
+        pointer-events: none;
+    }
 }

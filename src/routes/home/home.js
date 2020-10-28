@@ -70,10 +70,12 @@ const Home = ({ verbs, tenses, choice, language }) => {
             break;
         case Choice.random:
                 drills.forEach(drill => drill.questions.forEach(question => {
-                    question.class = question.pronoun !== selectedPronoun 
-                        ? 'half-hidden is-correct' 
-                        : ''
-                }))
+                    const matchingPronoun = selectedPronoun.split(',').find(pronoun => pronoun === question.pronoun);
+                    question.disabled = !matchingPronoun;
+                    question.class = !matchingPronoun
+                        ? 'half-hidden is-correct'
+                        : '';
+                }));
             break;
         }
         setLesson({ ...lesson, drills });
@@ -130,7 +132,13 @@ const Home = ({ verbs, tenses, choice, language }) => {
                             ? <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
                             : <Picker initialSelectedItem='irregular verbs' itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
                     }
-                    <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
+                    {
+                        choice === Choice.drills
+                            ? <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
+                            : selectedVerbs.length > 0
+                               ? <div>{`${selectedVerbs.length} verbs`}</div>
+                               : <></>         
+                    }
                     {
                         selectedVerbs.length > 0 || choice === Choice.random
                             ? selectedVerbs.filter(v => !v.disabled).length > 0 || choice === Choice.random
@@ -143,7 +151,7 @@ const Home = ({ verbs, tenses, choice, language }) => {
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} selectedPronoun={selectedPronoun} />                          
+                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} />                          
                         </>): <div class="block"></div>
                     }
                 </div>
