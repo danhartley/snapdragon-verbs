@@ -2467,7 +2467,7 @@ const partials = [
     },
     {
         i: 'rir',
-        preterite: ['rio', 'ris', 'ri', 'rimos', 'rides', 'riem'],
+        present: ['rio', 'ris', 'ri', 'rimos', 'rides', 'riem'],
         'present subjunctive': [
             'ria',
             'rias',

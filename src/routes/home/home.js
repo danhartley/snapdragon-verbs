@@ -4,32 +4,27 @@ import { Language, DrillState, Choice, Pronoun_PT, Pronoun_EN, VerbGroup } from 
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
-import { Lesson } from '../../logic/lesson';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
 
-const Home = ({ verbs, tenses, choice, language }) => {
+const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState, lesson, setLesson, selectedVerbs, setSelectedVerbs }) => {
 
-    const [lesson, setLesson] = useState(() => new Lesson());
-    const [drill, setDrill] = useState(null);
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputVerbGroups, setInputVerbGroups] = useState(() => [VerbGroup.all_verbs, VerbGroup.irregular_verbs, VerbGroup.common_regular_verbs]);
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedPronoun, setSelectedPronoun] = useState(language === Language.PT ? Pronoun_PT[0] : Pronoun_EN[0]);
-    const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
-    const [selectedVerbGroup, setSelectedVerbGroup] = useState('irregular verbs');
+    const [selectedVerbGroup, setSelectedVerbGroup] = useState(VerbGroup.irregular_verbs);
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
-    const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
     const [showConjugation, setShowConjugation] = useState(() => false);
 
     const handleVerbPicked = verb => {
-        setDrillActionState(true);
+        setDrillActionState(DrillState.intermediate);
         setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb.name), { name: verb, disabled: false } ]);
     };
 
     const handleTensePicked = tense => {
-        setDrillActionState(true);
+        setDrillActionState(DrillState.intermediate);
         setLesson({ ...lesson, tense, tenses });
     };
 
@@ -66,16 +61,19 @@ const Home = ({ verbs, tenses, choice, language }) => {
             shuffleArray(selectedVerbs).filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
             const drills = await lesson.createDrills(api, lesson.tense);
         switch(choice) {
-        case Choice.drills:      
+        case Choice.drills:     
             break;
-        case Choice.random:
-                drills.forEach(drill => drill.questions.forEach(question => {
-                    const matchingPronoun = selectedPronoun.split(',').find(pronoun => pronoun === question.pronoun);
-                    question.disabled = !matchingPronoun;
-                    question.class = !matchingPronoun
-                        ? 'half-hidden is-correct'
-                        : '';
-                }));
+        case Choice.random:                
+                drills.forEach(drill => { 
+                    const pronounToTest = selectedPronoun === 'random pronoun' ? shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                    drill.questions.forEach(question => {                    
+                        const matchingPronoun = pronounToTest.split(',').find(pronoun => pronoun === question.pronoun);
+                        question.disabled = !matchingPronoun;
+                        question.class = !matchingPronoun
+                            ? 'half-hidden is-correct'
+                            : '';
+                })
+            });
             break;
         }
         setLesson({ ...lesson, drills });
@@ -85,7 +83,7 @@ const Home = ({ verbs, tenses, choice, language }) => {
     };
 
     const handleSelectSetDrill = e => {
-        setDrillActionState(true);
+        setDrillActionState(DrillState.intermediate);
         const set = e.target;
         const id = parseInt(set.dataset.id);
         const verbs = fixedDrills.find(set => set.id === id).verbs;
@@ -114,7 +112,7 @@ const Home = ({ verbs, tenses, choice, language }) => {
 
     return (
         <>
-        <section class="banner-block">
+        <section class="header-block">
             <h1>{ choice === Choice.drills ? 'Portuguese verb drills' : 'Portuguese random verbs' }</h1>
         </section>
         <div class="home">          
@@ -124,7 +122,7 @@ const Home = ({ verbs, tenses, choice, language }) => {
                     {
                         choice === Choice.drills
                             ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { console.log(e); setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={[ 'eu', 'tu', 'ela, ele, você', 'nós', 'vós', 'elas, eles, vocês', ]} />                     
+                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={[ 'eu', 'tu', 'ela, ele, você', 'nós', 'vós', 'elas, eles, vocês', 'random pronoun', ]} />                     
                     }
                     <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     {
@@ -136,12 +134,12 @@ const Home = ({ verbs, tenses, choice, language }) => {
                         choice === Choice.drills
                             ? <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                             : selectedVerbs.length > 0
-                               ? <div>{`${selectedVerbs.length} verbs`}</div>
-                               : <></>         
+                                ? <div>{`${selectedVerbs.length} verbs`}</div>
+                                : <></>         
                     }
                     {
                         selectedVerbs.length > 0 || choice === Choice.random
-                            ? selectedVerbs.filter(v => !v.disabled).length > 0 || choice === Choice.random
+                            ? selectedVerbs.filter(v => !v.disabled).length > 0
                                 ? <button class="btn" ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
                                 : <button class="btn" ref={startDrillRef} disabled onClick={handleStartDrill}>Start drill</button>
                             : ''

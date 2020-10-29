@@ -1,6 +1,7 @@
 import { h } from 'preact';
 import { api } from '../logic/api';
-import { Language } from '../logic/enums';
+import { Language, DrillState } from '../logic/enums';
+import { Lesson } from '../logic/lesson';
 import { useState, useEffect } from 'preact/hooks';
 
 import Header from './header/header';
@@ -30,6 +31,10 @@ const App = () => {
     const [verbs, setVerbs] = useLocalStorageState('verbs', []);
     const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));
     const [choice, setChoice] = useState(Choice.drills);
+    const [drill, setDrill] = useState(null);
+    const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
+    const [lesson, setLesson] = useState(() => new Lesson());
+    const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
 
     useEffect( async () => {
         
@@ -42,11 +47,25 @@ const App = () => {
         };
     }, [verbs]);
 
+    const handleSetChoice = id => {
+        setChoice(id);
+        setDrill(null);
+        setDrillActionState(DrillState.intermediate);
+        const lesson = new Lesson();
+        setLesson(lesson);
+        setSelectedVerbs(lesson.verbs.map(v => { return { name: v, disabled: false } }));
+    };
+
     if(verbs.length > 0) {
         return (
             <div id="app">
-                <Header choice={choice} onClickChangeChoice={state => setChoice(state.target.id)} />
-                <Home verbs={verbs} tenses={tenses} choice={choice} language={GLOBAL_LANGUAGE} />
+                <Header choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} />
+                <Home verbs={verbs} tenses={tenses} choice={choice} 
+                    language={GLOBAL_LANGUAGE} drill={drill} setDrill={setDrill} 
+                    drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
+                    lesson={lesson} setLesson={setLesson}
+                    selectedVerbs={selectedVerbs} setSelectedVerbs={setSelectedVerbs}
+                />
             </div>
         )
     }

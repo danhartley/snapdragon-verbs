@@ -10,19 +10,33 @@
     background-color: $bg5;
     z-index: 50;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    @media (min-width: 413px) {
+        justify-content: space-between;
+    }
     span {
-        float: left;
-        margin: 0;
-        padding: 0 0 0 $space;
-        font-size: 1.5rem;
-        line-height: $block;
-        font-weight: 400;
-        color: #FFF;
+        display: none;
+        @media (min-width: 413px) {
+            display: inline;
+            float: left;
+            margin: 0;
+            padding: 0 0 0 $space;
+            font-size: 1.5rem;
+            line-height: $block;
+            font-weight: 400;
+            color: $fg11;
+        }
     }
     nav {
+        padding: $space;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: $space;
+        align-items: initial;
         section {
-                margin: 0 $space 0 0;
+                min-width: 9rem;
+                justify-content: center;
+                margin: 0;
                 float: left;
                 min-height: 4 * $space;
                 display: flex;
