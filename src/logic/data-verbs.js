@@ -3333,10 +3333,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to compose'
          },
          pt: {
-             i: 'compor'
+             i: 'compor',
+             like: 'pôr'
          }
      },
      {
@@ -4431,10 +4432,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to decompose'
          },
          pt: {
-             i: 'decompor'
+             i: 'decompor',
+             like: 'pôr'
          }
      },
      {
@@ -4655,10 +4657,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to testify'
          },
          pt: {
-             i: 'depor'
+             i: 'depor',
+             like: 'pôr'
          }
      },
      {
@@ -4823,10 +4826,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to decompose'
          },
          pt: {
-             i: 'descompor'
+             i: 'descompor',
+             like: 'pôr'
          }
      },
      {
@@ -5351,10 +5355,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to dispose'
          },
          pt: {
-             i: 'dispor'
+             i: 'dispor',
+             like: 'pôr'
          }
      },
      {
@@ -7162,10 +7167,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to expose'
          },
          pt: {
-             i: 'expor'
+             i: 'expor',
+             like: 'pôr'
          }
      },
      {
@@ -8338,10 +8344,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to import'
          },
          pt: {
-             i: 'impor'
+             i: 'impor',
+             like: 'pôr'
          }
      },
      {
@@ -8898,10 +8905,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to interpose'
          },
          pt: {
-             i: 'interpor'
+             i: 'interpor',
+             like: 'pôr'
          }
      },
      {
@@ -9162,10 +9170,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to juxtapose'
          },
          pt: {
-             i: 'justapor'
+             i: 'justapor',
+             like: 'pôr'
          }
      },
      {
@@ -10347,10 +10356,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to oppose'
          },
          pt: {
-             i: 'opor'
+             i: 'opor',
+             like: 'pôr'
          }
      },
      {
@@ -11024,10 +11034,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to postpone'
          },
          pt: {
-             i: 'pospor'
+             i: 'pospor',
+             like: 'pôr'
          }
      },
      {
@@ -11440,10 +11451,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to propose'
          },
          pt: {
-             i: 'propor'
+             i: 'propor',
+             like: 'pôr'
          }
      },
      {
@@ -13410,10 +13422,11 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to suppose'
          },
          pt: {
-             i: 'supor'
+             i: 'supor',
+             like: 'pôr'
          }
      },
      {

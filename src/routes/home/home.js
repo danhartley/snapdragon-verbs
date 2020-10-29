@@ -29,24 +29,26 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
     };
 
     const handleVerbGroupSelected = group => {        
-        let verbs = [];
+        let _verbs = [];
         switch(group) {
             case VerbGroup.all_verbs:
-                api.getSetDrills().forEach(group => {
-                    verbs = [ ...verbs, ...group.verbs.map(verb => verb) ];
+                shuffleArray(verbs).forEach((v,i) => {
+                    if(i < 100) {
+                        _verbs.push({ name: v });
+                    }
                 });
                 break;
             case VerbGroup.irregular_verbs:
                 api.getSetDrills().filter(drill => drill.id < 4).forEach(group => {
-                    verbs = [ ...verbs, ...group.verbs ];
+                    _verbs = [ ..._verbs, ...group.verbs ];
                 });
                 break;
             case VerbGroup.common_regular_verbs:
-                verbs = api.getSetDrills().find(drill => drill.id === 6).verbs;
+                _verbs = api.getSetDrills().find(drill => drill.id === 6).verbs;
                 break;
         }
         setSelectedVerbGroup(group);
-        setSelectedVerbs(verbs);
+        setSelectedVerbs(_verbs);
     };
 
     const handleSetDrill = async drill => {        

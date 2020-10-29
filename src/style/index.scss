@@ -74,7 +74,7 @@ h4 {
 h5 {
     margin: 0 $space $space 0;
     font-weight: 500;
-    background-color: $bg3;
+    background-color: $bg2;
     padding: $space;
     color: $fg2;
 }
@@ -208,9 +208,9 @@ button:disabled {
         }
         h4 {
             display: inline-block;
-            margin-right: .5 * $space;
+            margin: $space (.5 * $space) $space 0;
             border-bottom: 1px solid transparent;
-            padding-bottom: 2px;            
+            padding-bottom: 2px;     
         }        
         svg {
             width: 12px;
@@ -295,7 +295,7 @@ input[type='checkbox'] {
 }
 
 .button-link-action, .button-edit-action {    
-    font-size: .8rem;
+    font-size: .9rem;
     border: none;
     text-decoration: none;
     background-color: transparent;    
@@ -420,6 +420,12 @@ input[type='checkbox'] {
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: auto;
     margin-left: auto;
+    h2 {
+        margin-bottom: 4 * $space;
+    }
+    ul {
+        margin-bottom: 2 * $space;
+    }
     li {
         font-size: 1rem;
         span:nth-child(1) {
@@ -446,14 +452,7 @@ section.nav-block.inactive {
 
 fieldset {
     border: none;
-    // margin-bottom: 2 * $space;
     padding-left: 0;
-    legend {
-        // height: 2 * $space;
-    }
-    // ul {
-    //     margin-left: $space;
-    // }
 }
 
 .rb-list {
@@ -479,7 +478,7 @@ fieldset {
     }
     label {
         cursor: pointer;
-        font-size: .8rem;
+        font-size: .9rem;
         color: $fg3;
         margin-right: $space;
     }
