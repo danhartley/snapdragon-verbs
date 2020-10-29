@@ -2727,6 +2727,20 @@ const partials = [
             '', '', 'produz', '', '', ''
         ]
     },
+    {
+        i: 'medir',
+        present: [
+            'meço', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'meça',
+            'meças',
+            'meça',
+            'meçamos',
+            'meçais',
+            'meçam',
+        ]
+    },
 ];
 
 const reflexiveConjugations = [

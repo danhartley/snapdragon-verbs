@@ -11,16 +11,16 @@ import {
     Item
   } from '../elements/glamorousElements';
 
-export const Picker = props => {
+export const Picker = ({ onChange, initialSelectedItem, label, items, itemToString }) => {
     
     return (
     <Downshift
-      onChange={selection => {        
+      onChange={selection => {
           if(selection) {
-              props.onChange(selection);              
+              onChange(selection);              
           }
       }}
-      initialSelectedItem = {props.initialSelectedItem}
+      initialSelectedItem = {initialSelectedItem}
     >
       {({
         getToggleButtonProps,
@@ -37,7 +37,7 @@ export const Picker = props => {
       }) => (
         <section class="relative-block">
             <div class={style.picker}>
-                <label {...getLabelProps()} style='text-align: right;'>{props.label}</label>
+                <label {...getLabelProps()} style='text-align: right;'>{label}</label>
                 <Div position="relative" css={{paddingRight: '.5em; width: 16rem; display:flex; align-items:center'}}>                
                     <Input
                     autoFocus={true}
@@ -64,7 +64,7 @@ export const Picker = props => {
             {!isOpen ? null : (
                 <div class="menu">
                 <Menu>
-                {props.items
+                {items
                     .filter(item => !inputValue || item.toLowerCase().startsWith(inputValue.toLowerCase()))
                     .map((item, index) => (
                                             <Item
@@ -76,7 +76,7 @@ export const Picker = props => {
                                                 isSelected: selectedItem === item,
                                             })}
                                             >
-                                            {props.itemToString(item)}
+                                            {itemToString(item)}
                                             </Item>
                                         )
                     )}

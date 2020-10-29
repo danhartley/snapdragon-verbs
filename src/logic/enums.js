@@ -62,4 +62,7 @@ export class VerbGroup extends Enumify {
     static all_verbs = '100 random verbs';
     static irregular_verbs = 'irregular verbs';
     static common_regular_verbs = 'common regular verbs';
+    static future_irregular_verbs = 'future irregular verbs';
+    static imperfect_irregular_verbs = 'imperfect irregular verbs';
+    static preterite_irregular_verbs = 'preterite irregular verbs';
 }

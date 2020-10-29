@@ -9724,7 +9724,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to measure'
          },
          pt: {
              i: 'medir'

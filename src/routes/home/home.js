@@ -1,22 +1,27 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Language, DrillState, Choice, Pronoun_PT, Pronoun_EN, VerbGroup } from '../../logic/enums';
+import { Language, DrillState, Choice, Pronoun_PT, Pronoun_EN, VerbGroup, Tense } from '../../logic/enums';
+import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../logic/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
+import { TensePicker } from 'prop-types';
 
-const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState, lesson, setLesson, selectedVerbs, setSelectedVerbs }) => {
+const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
-    const [inputVerbGroups, setInputVerbGroups] = useState(() => [VerbGroup.all_verbs, VerbGroup.irregular_verbs, VerbGroup.common_regular_verbs]);
+    const [inputVerbGroups, setInputVerbGroups] = useState(() => Object.keys(VerbGroup).map(key => VerbGroup[key]));
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedPronoun, setSelectedPronoun] = useState(language === Language.PT ? Pronoun_PT[0] : Pronoun_EN[0]);
     const [selectedVerbGroup, setSelectedVerbGroup] = useState(VerbGroup.irregular_verbs);
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
     const [showConjugation, setShowConjugation] = useState(() => false);
+    const [selectedTense, setSelectedTense] = useState(Tense.present);
+    const [lesson, setLesson] = useState(new Lesson());
+    const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
 
     const handleVerbPicked = verb => {
         setDrillActionState(DrillState.intermediate);
@@ -26,6 +31,7 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
     const handleTensePicked = tense => {
         setDrillActionState(DrillState.intermediate);
         setLesson({ ...lesson, tense, tenses });
+        setSelectedTense(tense);
     };
 
     const handleVerbGroupSelected = group => {        
@@ -45,6 +51,36 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
                 break;
             case VerbGroup.common_regular_verbs:
                 _verbs = api.getSetDrills().find(drill => drill.id === 6).verbs;
+                break;
+            case VerbGroup.future_irregular_verbs:
+                _verbs = [
+                    { name: 'trazer' },
+                    { name: 'dizer' },
+                    { name: 'fazer' },
+                ];
+                handleTensePicked(Tense.future);
+                break;
+            case VerbGroup.imperfect_irregular_verbs:
+                _verbs = [
+                    { name: 'vir' },
+                    { name: 'ter' },
+                    { name: 'ser' },
+                    { name: 'pôr' },
+                ];
+                handleTensePicked(Tense.imperfect);
+                break;
+            case VerbGroup.preterite_irregular_verbs:
+                _verbs = [
+                    { name: 'ser' },
+                    { name: 'estar' },
+                    { name: 'ter' },
+                    { name: 'ir' },
+                    { name: 'vir' },
+                    { name: 'poder' },
+                    { name: 'fazer' },
+                    { name: 'saber' },
+                ];
+                handleTensePicked(Tense.preterite);
                 break;
         }
         setSelectedVerbGroup(group);
@@ -126,11 +162,13 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
                             ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
                             : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={[ 'eu', 'tu', 'ela, ele, você', 'nós', 'vós', 'elas, eles, vocês', 'random pronoun', ]} />                     
                     }
-                    <Picker initialSelectedItem='present' itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                    {
+                        <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                    }
                     {
                         choice === Choice.drills
                             ? <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                            : <Picker initialSelectedItem='irregular verbs' itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
+                            : <Picker itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
                     }
                     {
                         choice === Choice.drills
