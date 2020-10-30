@@ -8,7 +8,7 @@ import { Choice } from '../logic/enums.js';
 
 import { useLocalStorageState } from '../utils/custom-hooks';
 
-import Home from '../routes/home/home';
+import Verbs from '../routes/home/verbs';
 
 const App = () => {
 
@@ -56,7 +56,7 @@ const App = () => {
         return (
             <div id="app">
                 <Header choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} />
-                <Home verbs={verbs} tenses={tenses} choice={choice} 
+                <Verbs verbs={verbs} tenses={tenses} choice={choice} 
                     language={GLOBAL_LANGUAGE} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
                 />

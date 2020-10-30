@@ -49,10 +49,28 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to pour'
+         },
+         pt: {
+             i: 'abocar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to bulge'
          },
          pt: {
              i: 'abaular'
+         }
+     },
+     {
+         en: {
+             i: 'to abdicate'
+         },
+         pt: {
+             i: 'abdicar',
+             like: 'ficar'
          }
      },
      {
@@ -69,6 +87,15 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'abolir'
+         }
+     },
+     {
+         en: {
+             i: 'to bore'
+         },
+         pt: {
+             i: 'aborrascar',
+             like: 'ficar'
          }
      },
      {
@@ -217,6 +244,15 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to hoard'
+         },
+         pt: {
+             i: 'açambarcar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to camp'
          },
          pt: {
@@ -229,6 +265,15 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'acariciar'
+         }
+     },
+     {
+         en: {
+             i: 'to mate'
+         },
+         pt: {
+             i: 'acascar',
+             like: 'ficar'
          }
      },
      {
@@ -281,6 +326,15 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to approach'
+         },
+         pt: {
+             i: 'acercar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to hit'
          },
          pt: {
@@ -293,6 +347,24 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'achar'
+         }
+     },
+     {
+         en: {
+             i: 'to reduce'
+         },
+         pt: {
+             i: 'achicar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to acidify'
+         },
+         pt: {
+             i: 'acidificar',
+             like: 'ficar'
          }
      },
      {
@@ -553,6 +625,15 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to sweeten'
+         },
+         pt: {
+             i: 'adocicar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to sicken'
          },
          pt: {
@@ -642,6 +723,15 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to stay'
+         },
+         pt: {
+             i: 'aficar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to adopt'
          },
          pt: {
@@ -686,6 +776,24 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'afrouxar'
+         }
+     },
+     {
+         en: {
+             i: 'to enjoy'
+         },
+         pt: {
+             i: 'afruticar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to make like agate'
+         },
+         pt: {
+             i: 'agatificar',
+             like: 'ficar'
          }
      },
      {
@@ -818,10 +926,28 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to sprinkle'
+         },
+         pt: {
+             i: 'ajorcar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to help'
          },
          pt: {
              i: 'ajudar'
+         }
+     },
+     {
+         en: {
+             i: 'to award'
+         },
+         pt: {
+             i: 'ajudicar',
+             like: 'ficar'
          }
      },
      {
@@ -846,6 +972,15 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'alagar'
+         }
+     },
+     {
+         en: {
+             i: 'to distill'
+         },
+         pt: {
+             i: 'alambicar',
+             like: 'ficar'
          }
      },
      {
@@ -879,6 +1014,42 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'albergar'
+         }
+     },
+     {
+         en: {
+             i: 'to rumble'
+         },
+         pt: {
+             i: 'alborcar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to reach out'
+         },
+         pt: {
+             i: 'alcandorar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to alkalise'
+         },
+         pt: {
+             i: 'alcalcificar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to alcoholise'
+         },
+         pt: {
+             i: 'alcoolificar',
+             like: 'ficar'
          }
      },
      {
@@ -1003,6 +1174,60 @@ export const getVerbsList = inf => {
      },
      {
          en: {
+             i: 'to haunt'
+         },
+         pt: {
+             i: 'aloucar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to melt'
+         },
+         pt: {
+             i: 'amalucar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to hum'
+         },
+         pt: {
+             i: 'amaricar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to soften'
+         },
+         pt: {
+             i: 'amacacar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to rumple'
+         },
+         pt: {
+             i: 'amaçarocar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
+             i: 'to tie up'
+         },
+         pt: {
+             i: 'amarrecar',
+             like: 'ficar'
+         }
+     },
+     {
+         en: {
              i: 'to change'
          },
          pt: {
@@ -1055,6 +1280,15 @@ export const getVerbsList = inf => {
          },
          pt: {
              i: 'amainar'
+         }
+     },
+     {
+         en: {
+             i: 'to knock down'
+         },
+         pt: {
+             i: 'abatocar',
+             like: 'ficar'
          }
      },
      {
@@ -3510,7 +3744,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to drive'
          },
          pt: {
              i: 'conduzir'
@@ -3686,7 +3920,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to conjugate'
          },
          pt: {
              i: 'conjugar'
@@ -3902,7 +4136,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to contradict'
          },
          pt: {
              i: 'contradizer'
@@ -4158,7 +4392,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to cook'
          },
          pt: {
              i: 'cozer'
@@ -4473,7 +4707,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to deduce'
          },
          pt: {
              i: 'deduzir'
@@ -5557,7 +5791,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to hurt'
          },
          pt: {
              i: 'doer'
@@ -6358,7 +6592,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to rinse off'
          },
          pt: {
              i: 'enxaguar'
@@ -7232,7 +7466,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to extract'
          },
          pt: {
              i: 'extrair'
@@ -8561,7 +8795,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to indeuc'
          },
          pt: {
              i: 'induzir'
@@ -8962,7 +9196,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to introduce'
          },
          pt: {
              i: 'introduzir'
@@ -9130,7 +9364,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to lie'
          },
          pt: {
              i: 'jazer'
@@ -9508,7 +9742,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to shine'
          },
          pt: {
              i: 'luzir'
@@ -9540,7 +9774,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to badmouth'
          },
          pt: {
              i: 'maldizer'
@@ -9956,7 +10190,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to grind'
          },
          pt: {
              i: 'moer'
@@ -10228,7 +10462,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to slope'
          },
          pt: {
              i: 'obliquar'
@@ -10639,7 +10873,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to walk'
          },
          pt: {
              i: 'passear'
@@ -10840,7 +11074,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to stalk'
          },
          pt: {
              i: 'perseguir'
@@ -10952,10 +11186,18 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to soar'
          },
          pt: {
              i: 'planar'
+         }
+     },
+     {
+         en: {
+             i: 'to plan'
+         },
+         pt: {
+             i: 'planear'
          }
      },
      {
@@ -11067,7 +11309,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to enhance'
          },
          pt: {
              i: 'potenciar'
@@ -11484,7 +11726,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to protect'
          },
          pt: {
              i: 'proteger'
@@ -11685,7 +11927,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to creak'
          },
          pt: {
              i: 'ranger'
@@ -11725,7 +11967,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to react'
          },
          pt: {
              i: 'reagir'
@@ -11965,7 +12207,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to reduce'
          },
          pt: {
              i: 'reduzir'
@@ -12173,7 +12415,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to shine'
          },
          pt: {
              i: 'reluzir'
@@ -12301,7 +12543,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to reproduce'
          },
          pt: {
              i: 'reproduzir'
@@ -12854,7 +13096,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to seduce'
          },
          pt: {
              i: 'seduzir'
@@ -13109,7 +13351,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to stand out'
          },
          pt: {
              i: 'sobressair'
@@ -13141,7 +13383,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to usually be'
          },
          pt: {
              i: 'soer'
@@ -13245,7 +13487,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to sweat'
          },
          pt: {
              i: 'suar'
@@ -13334,7 +13576,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to substitute'
          },
          pt: {
              i: 'substituir'
@@ -13821,7 +14063,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to translate'
          },
          pt: {
              i: 'traduzir'
@@ -13837,7 +14079,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to betray'
          },
          pt: {
              i: 'trair'

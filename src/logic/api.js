@@ -31,6 +31,61 @@ export const api = {
         let end = isReflexive ? 5 : 2;
         let like = likes[language][inf.substring(inf.length - end)];
 
+        if(inf.substring(inf.length -3) === 'car') {
+            like = 'ficar';
+        }
+        if(inf.substring(inf.length -2) === 'or') {
+            like = 'pôr';
+        }
+        if(inf.substring(inf.length -5) === 'fazer') {
+            like = 'fazer';
+        }
+        if(inf.substring(inf.length -3) === 'çar') {
+            like = 'caçar';
+        }
+        if(inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') {
+            like = 'conhecer';
+        }
+        if(inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') {
+            like = 'proteger';
+        }
+        if(inf.substring(inf.length -3) === 'ear') {
+            like = 'passear';
+        }
+        if(inf.substring(inf.length -3) === 'gar') {
+            like = 'chegar';
+        }
+        if(inf.substring(inf.length -3) === 'uar') {
+            like = 'extenuar';
+        }
+        if(inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') {
+            like = 'averiguar';
+        }
+        if(inf.substring(inf.length -3) === 'uir') {
+            like = 'influir';
+        }
+        if(inf.substring(inf.length -4) === 'guir') {
+            like = 'seguir';
+        }
+        if(inf.substring(inf.length -3) === 'iar') {
+            like = 'odiar';
+        }
+        if(inf.substring(inf.length -4) === 'izer') {
+            like = 'dizer';
+        }
+        if(inf.substring(inf.length -4) === 'ozer') {
+            like = 'cozer';
+        }
+        if(inf.substring(inf.length -4) === 'uzir') {
+            like = 'seduzir';
+        }
+        if(inf.substring(inf.length -3) === 'oer') {
+            like = 'moer';
+        }
+        if(inf.substring(inf.length -3) === 'air') {
+            like = 'cair';
+        }
+
         return like;
     },
     async getLike(inf, language) {

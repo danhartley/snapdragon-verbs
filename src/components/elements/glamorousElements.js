@@ -71,7 +71,7 @@ const ControllerButton = glamorous.button({
   )
   
   const Menu = glamorous.div({
-    maxHeight: '20rem',
+    maxHeight: '10rem',
     overflowY: 'auto',
     overflowX: 'hidden',
     outline: '0',

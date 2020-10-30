@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import style from './header.scss';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { Choice } from '../../logic/enums.js';

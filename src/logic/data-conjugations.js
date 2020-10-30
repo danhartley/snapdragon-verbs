@@ -2741,6 +2741,32 @@ const partials = [
             'meçam',
         ]
     },
+    {
+        i: 'jazer',
+        present: ['','','jaz','','','',]
+    },
+    {
+        i: 'cozer',
+        present: ['','','coz','','','',]
+    },
+    {
+        i: 'averiguar',
+        preterite: [
+            'averigüei', '', '', '', '', ''
+        ],
+        'present subjunctive': [
+            'averigúe',
+            'averigúes',
+            'averigúe',
+            'averiguemos',
+            'averigueis',
+            'averigúem',
+        ]
+    },
+    {
+        i: 'extenuar',
+        present: ['','extenúas','extenúa','','','extenúam',]
+    }
 ];
 
 const reflexiveConjugations = [

@@ -10,7 +10,7 @@ import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
 import { TensePicker } from 'prop-types';
 
-const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
+const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputVerbGroups, setInputVerbGroups] = useState(() => Object.keys(VerbGroup).map(key => VerbGroup[key]));
@@ -52,14 +52,6 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
             case VerbGroup.common_regular_verbs:
                 _verbs = api.getSetDrills().find(drill => drill.id === 6).verbs;
                 break;
-            case VerbGroup.future_irregular_verbs:
-                _verbs = [
-                    { name: 'trazer' },
-                    { name: 'dizer' },
-                    { name: 'fazer' },
-                ];
-                handleTensePicked(Tense.future);
-                break;
             case VerbGroup.imperfect_irregular_verbs:
                 _verbs = [
                     { name: 'vir' },
@@ -81,6 +73,53 @@ const Home = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSta
                     { name: 'saber' },
                 ];
                 handleTensePicked(Tense.preterite);
+                break;
+            case VerbGroup.future_irregular_verbs:
+                _verbs = [
+                    { name: 'trazer' },
+                    { name: 'dizer' },
+                    { name: 'fazer' },
+                ];
+                handleTensePicked(Tense.future);
+                break;
+            case VerbGroup.conditional:
+                _verbs = [
+                    { name: 'trazer' },
+                    { name: 'dizer' },
+                    { name: 'fazer' },
+                ];
+                handleTensePicked(Tense.future);
+                break;
+            case VerbGroup.conditional_irregular_verbs:
+                _verbs = [
+                    { name: 'trazer' },
+                    { name: 'dizer' },
+                    { name: 'fazer' },
+                ];
+                handleTensePicked(Tense.conditional);
+                break;
+            case VerbGroup.subjunctive_irregular_verbs:
+                _verbs = [
+                    { name: 'trazer' },
+                    { name: 'dizer' },
+                    { name: 'fazer' },
+                    { name: 'ser' },
+                    { name: 'estar' },
+                    { name: 'haver' },
+                    { name: 'saber' },
+                    { name: 'querer' },
+                    { name: 'ter' },
+                    { name: 'pôr' },
+                    { name: 'ver' },
+                    { name: 'poder' },
+                    { name: 'ler' },
+                    { name: 'vir' },
+                    { name: 'ouvir' },
+                    { name: 'perder' },
+                    { name: 'dar' },
+                    { name: 'ir' },
+                ];
+                handleTensePicked(Tense.present_subjunctive);
                 break;
         }
         setSelectedVerbGroup(group);
@@ -222,4 +261,4 @@ const shuffleArray = array => {
     return [ ...array ];
   };
 
-export default Home;
+export default Verbs;
