@@ -233,7 +233,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                 </div>
             </div>
           </div>
-          { showConjugation ? <div class="conjugations-container"><Conjugations drill={drill} /></div> : '' }
+          { showConjugation ? <div class="conjugations-container"><Conjugations key={drill} drill={drill} /></div> : '' }
           <Footer />
         </div>
         </>

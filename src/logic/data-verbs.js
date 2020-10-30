@@ -6648,7 +6648,7 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to lift'
          },
          pt: {
              i: 'erguer'
@@ -7450,10 +7450,18 @@ export const getVerbsList = inf => {
      },
      {
          en: {
-             i: 'to '
+             i: 'to extinguish'
          },
          pt: {
              i: 'extinguir'
+         }
+     },
+     {
+         en: {
+             i: 'to extort'
+         },
+         pt: {
+             i: 'extorquir'
          }
      },
      {

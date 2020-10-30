@@ -2764,163 +2764,31 @@ const partials = [
         ]
     },
     {
-        i: 'extenuar',
-        present: ['','extenúas','extenúa','','','extenúam',]
-    }
-];
-
-const reflexiveConjugations = [
-    {
-        i: 'atrever-se',
-        present: [
-            'atrevo-me',
-            'atreves-te',
-            'atreve-se',
-            'atrevemo-nos',
-            'atreveis-vos',
-            'atrevem-se',
-        ],
+        i: 'extorquir',
         preterite: [
-            'atrevi-me',
-            'atreveste-te',
-            'atreveu-se',
-            'atrevemo-nos',
-            'atrevestes-vos',
-            'atreveram-se'
-        ],                    
-        imperfect: [
-            'atrevia-me',
-            'atrevias-te',
-            'atrevia-se',
-            'atrevíamo-nos',
-            'atrevíeis-vos',
-            'atreviam-se'
-        ],
-        future: [
-            'atrever-me-ei',
-            'atrever-te-ás',
-            'atrever-se-á',
-            'atrever-nos-emos',
-            'atrever-vos-eis',
-            'atrever-se-ão'
-        ],
-        conditional: [
-            'atrever-me-ia',
-            'atrever-te-ias',
-            'atrever-se-ia',
-            'atrever-nos-íamos',
-            'atrever-vos-íeis',
-            'atrever-se-iam'
-        ],
-        pluperfect: [
-            'atrevera-me',
-            'atreveras-te',
-            'atrevera-se',
-            'atrevêramo-nos',
-            'atrevêreis-vos',
-            'atreveram-se'
+            'exturco', '', '', '', '', ''
         ],
         'present subjunctive': [
-            'me atreva',
-            'te atrevas',
-            'se atreva',
-            'nos atrevamos',
-            'vos atrevais',
-            'se atrevam'
-        ],
-        'imperfect subjunctive': [
-            'me atrevesse',
-            'te atrevesses',
-            'se atrevesse',
-            'nos atrevêssemos',
-            'vos atrevêsseis',
-            'se atrevessem'
-        ],
-        'future subjunctive': [
-            'me atrever',
-            'te atreveres',
-            'se atrever',
-            'nos atrevermos',
-            'vos atreverdes',
-            'se atreverem'
-        ],
+            'exturca',
+            'exturcas',
+            'exturca',
+            'exturcamos',
+            'exturcais',
+            'exturcam',
+        ]
     },
     {
-        i: 'levantar-se',
-        present: [
-            'levanto-me',
-            'levantas-te',
-            'levanta-se',
-            'levantamo-nos',
-            'levantais-vos',
-            'levantam-se',
-        ],
-        preterite: [
-            'levantei-me',
-            'levantaste-te',
-            'levantou-se',
-            'levantámo-nos',
-            'levantastes-vos',
-            'levantaram-se'
-        ],                    
-        imperfect: [
-            'levantava-me',
-            'levantavas-te',
-            'levantava-se',
-            'levantávamo-nos',
-            'levantáveis-vos',
-            'levantavam-se'
-        ],
-        future: [
-            'levantar-me-ei',
-            'levantar-te-ás',
-            'levantar-se-á',
-            'levantar-nos-emos',
-            'levantar-vos-eis',
-            'levantar-se-ão'
-        ],
-        conditional: [
-            'levantar-me-ia',
-            'levantar-te-ias',
-            'levantar-se-ia',
-            'levantar-nos-íamos',
-            'levantar-vos-íeis',
-            'levantar-se-iam'
-        ],
-        pluperfect: [
-            'levantara-me',
-            'levantaras-te',
-            'levantara-se',
-            'levantáramo-nos',
-            'levantáreis-vos',
-            'levantaram-se',
-        ],
-        'present subjunctive': [
-            'me levante',
-            'te levantes',
-            'se levante',
-            'nos levantemos',
-            'vos levanteis',
-            'se levantem',
-            
-        ],
-        'imperfect subjunctive': [
-            'me levantasse',
-            'te levantasses',
-            'se levantasse',
-            'nos levantássemos',
-            'vos levantásseis',
-            'se levantassem',
-        ],
-        'future subjunctive': [
-            'me levantar',
-            'te levantares',
-            'se levantar',
-            'nos levantarmos',
-            'vos levantardes',
-            'se levantarem',
-        ],
-    }
+        i: 'extenuar',
+        present: ['','extenúas','extenúa','','','extenúam',]
+    },
+    {
+        i: 'arguir',
+        present: ['','argúis','argúi','','','argúem']
+    },
+    {
+        i: 'erguer',
+        present: ['ergo','','','','','']
+    },
 ];
 
 export const getVerbConjugations = () => {
