@@ -8,7 +8,6 @@ import { api } from '../../logic/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
-import { TensePicker } from 'prop-types';
 
 const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
@@ -234,7 +233,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                 </div>
             </div>
           </div>
-          { showConjugation ? <Conjugations drill={drill} /> : '' }
+          { showConjugation ? <div class="conjugations-container"><Conjugations drill={drill} /></div> : '' }
           <Footer />
         </div>
         </>

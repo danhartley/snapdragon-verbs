@@ -121,7 +121,7 @@ button:disabled {
 
 .drills {
     h2 { 
-        margin: 0 0 (2 * $space) 0;
+        margin: 0 0 (4 * $space) 0;
         span {
         font-weight: bold;
         color: $fg1;
@@ -406,11 +406,12 @@ input[type='checkbox'] {
 }
 
 .conjugations-container {
-    padding: 0 0 ($space * 4) 0;
+    padding: 0 0 ($space * 2) 0;
+    min-height: 36.5rem;
     section:nth-child(1) {
-    width: 100%;
-    justify-content: center;    
-}
+        width: 100%;
+        justify-content: center;    
+    }
 }
 
 .conjugations {
@@ -428,12 +429,19 @@ input[type='checkbox'] {
     }
     li {
         font-size: 1rem;
+        pointer-events: none;
         span:nth-child(1) {
             width: 4 * $space;
             text-align: right;
             display: inline-block;
-            color: $fg3;
-            font-weight: 500;
+            color: $fg6;
+            font-weight: 500;            
+        }
+    }
+    .irregular {
+        span {
+            color: $fg1 !important;
+            font-weight: 400 !important;
         }
     }
 }
@@ -486,11 +494,4 @@ fieldset {
 
 .half-hidden {
     display: none !important; 
-    // @media (min-width: 413px) {
-    //     opacity: .1;
-    //     input {
-    //         pointer-events: none;
-    //     }
-    // }
-
 }

@@ -12,6 +12,9 @@ export const data = {
     async getVerbs(inf) {
         return await getVerbsList(inf);
     },
+    async getAllConjugations() {
+        return await getVerbConjugations();
+    },    
     async getConjugations({inf}) {
 
         const { conjugations, partials } = await getVerbConjugations();

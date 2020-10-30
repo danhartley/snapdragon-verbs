@@ -1,6 +1,5 @@
 import { Language, Tense } from './enums.js';
 import { data } from './data';
-import { toChildArray } from 'preact';
 
 export const api = {       
     async getVerbs(inf) {
@@ -10,6 +9,9 @@ export const api = {
         const verbs = await data.getVerbs(inf);
         return verbs ? verbs[0] : {};
     },
+    async getAllConjugations() {
+        return await data.getAllConjugations();
+    },   
     getLikeFromVerbEnding({ inf, language, isReflexive }) {
         
         let likes = isReflexive 
@@ -31,58 +33,58 @@ export const api = {
         let end = isReflexive ? 5 : 2;
         let like = likes[language][inf.substring(inf.length - end)];
 
-        if(inf.substring(inf.length -3) === 'car') {
+        if(inf.substring(inf.length -3) === 'car' && inf !== 'ficar') {
             like = 'ficar';
         }
-        if(inf.substring(inf.length -2) === 'or') {
+        if(inf.substring(inf.length -2) === 'or' && inf !== 'pôr') {
             like = 'pôr';
         }
-        if(inf.substring(inf.length -5) === 'fazer') {
+        if(inf.substring(inf.length -5) === 'fazer' && inf !== 'fazer') {
             like = 'fazer';
         }
-        if(inf.substring(inf.length -3) === 'çar') {
+        if(inf.substring(inf.length -3) === 'çar' && inf !== 'caçar') {
             like = 'caçar';
         }
-        if(inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') {
+        if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
             like = 'conhecer';
         }
-        if(inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') {
+        if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
             like = 'proteger';
         }
-        if(inf.substring(inf.length -3) === 'ear') {
+        if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {
             like = 'passear';
         }
-        if(inf.substring(inf.length -3) === 'gar') {
+        if(inf.substring(inf.length -3) === 'gar' && inf !== 'chegar') {
             like = 'chegar';
         }
-        if(inf.substring(inf.length -3) === 'uar') {
+        if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
             like = 'extenuar';
         }
-        if(inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') {
+        if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
             like = 'averiguar';
         }
-        if(inf.substring(inf.length -3) === 'uir') {
+        if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
             like = 'influir';
         }
-        if(inf.substring(inf.length -4) === 'guir') {
+        if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
             like = 'seguir';
         }
-        if(inf.substring(inf.length -3) === 'iar') {
+        if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
             like = 'odiar';
         }
-        if(inf.substring(inf.length -4) === 'izer') {
+        if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
             like = 'dizer';
         }
-        if(inf.substring(inf.length -4) === 'ozer') {
+        if(inf.substring(inf.length -4) === 'ozer' && inf !== 'cozer') {
             like = 'cozer';
         }
-        if(inf.substring(inf.length -4) === 'uzir') {
+        if(inf.substring(inf.length -4) === 'uzir' && inf !== 'seduzir') {
             like = 'seduzir';
         }
-        if(inf.substring(inf.length -3) === 'oer') {
+        if(inf.substring(inf.length -3) === 'oer' && inf !== 'moer') {
             like = 'moer';
         }
-        if(inf.substring(inf.length -3) === 'air') {
+        if(inf.substring(inf.length -3) === 'air' && inf !== 'cair') {
             like = 'cair';
         }
 

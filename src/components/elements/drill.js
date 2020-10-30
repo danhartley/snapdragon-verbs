@@ -152,7 +152,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             <section class="drills">
                 <div class="text-align">
                     <h2>
-                        <span><a href="#conjugations" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
+                        <span><a href="#footer" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
                     </h2>
                 </div>
                 <form ref={formRef} id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>

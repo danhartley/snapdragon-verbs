@@ -1,7 +1,7 @@
 import { Pronoun_PT } from '../../logic/enums.js';
 
 export const ConjugationList = ({ items }) => {
-    const list = items.map((item, i) => <li><span class="margin-right">{Pronoun_PT[i]}</span><span>{item}</span></li> );
+    const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{Pronoun_PT[i]}</span><span>{item.form}</span></li> );
         return (
         <>
             <ul>{list}</ul>

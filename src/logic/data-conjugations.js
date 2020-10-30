@@ -2264,7 +2264,7 @@ const partials = [
     },
     {
         i: 'fingir',
-        preterite: ['finjo', '', '', '', '', ''],
+        present: ['finjo', '', '', '', '', ''],
         'present subjunctive': [
             'finja',
             'finjas',
@@ -2276,7 +2276,7 @@ const partials = [
     },
     {
         i: 'frigir',
-        preterite: ['frijo', '', '', '', '', ''],
+        present: ['frijo', '', '', '', '', ''],
         'present subjunctive': [
             'frija',
             'frijas',
@@ -2288,7 +2288,7 @@ const partials = [
     },
     {
         i: 'fugir',
-        preterite: ['fujo', 'foges', 'foge', '', '', '', 'fogem'],
+        present: ['fujo', 'foges', 'foge', '', '', '', 'fogem'],
         'present subjunctive': [
             'fuja',
             'fujas',
@@ -2300,7 +2300,7 @@ const partials = [
     },
     {
         i: 'incendiar',
-        preterite: ['incendeio', 'incendeias', 'incendeia', '', '', '', 'incendeiam'],
+        present: ['incendeio', 'incendeias', 'incendeia', '', '', '', 'incendeiam'],
         'present subjunctive': [
             'incendeie',
             'incendeies',
@@ -2379,11 +2379,11 @@ const partials = [
             'moíeis',
             'moíam'
         ],
-        preterite: [ 'eumoí', '', '', '', '', '' ]
+        preterite: [ 'moí', '', '', '', '', '' ]
     },
     {
         i: 'passear',
-        preterite: ['passeio', 'passeias', 'passeia', '', '', '', 'passeiam'],
+        present: ['passeio', 'passeias', 'passeia', '', '', '', 'passeiam'],
         'present subjunctive': [
             'passeie',
             'passeies',
@@ -2395,7 +2395,7 @@ const partials = [
     },
     {
         i: 'perder',
-        preterite: ['perco', '', '', '', '', ''],
+        present: ['perco', '', '', '', '', ''],
         'present subjunctive': [
             'perca',
             'percas',
@@ -2407,11 +2407,11 @@ const partials = [
     },
     {
         i: 'precaver',
-        preterite: ['', '', '', '', 'precaveis', '' ],
+        present: ['', '', '', '', 'precaveis', '' ],
     },
     {
         i: 'proteger',
-        preterite: ['protejo', '', '', '', '', ''],
+        present: ['protejo', '', '', '', '', ''],
         'present subjunctive': [
             'proteja',
             'protejas',
@@ -2423,7 +2423,7 @@ const partials = [
     },  
     {
         i: 'prover',
-        preterite: ['provejo', 'provês', 'provê', 'provemos', 'provedes', 'proveem'],
+        present: ['provejo', 'provês', 'provê', 'provemos', 'provedes', 'proveem'],
         'present subjunctive': [
             'proveja',
             'provejas',
@@ -2455,7 +2455,7 @@ const partials = [
     },
     {
         i: 'requerer',
-        preterite: ['requeiro', '', 'requer', '', '', ''],
+        present: ['requeiro', '', 'requer', '', '', ''],
         'present subjunctive': [
             'requeira',
             'requeiras',
@@ -2531,7 +2531,7 @@ const partials = [
     },
     {
         i: 'saudar',
-        preterite: ['saúdo', 'saúdas', 'saúda', 'saudamos', 'saudais', 'saúdam'],
+        present: ['saúdo', 'saúdas', 'saúda', 'saudamos', 'saudais', 'saúdam'],
         'present subjunctive': [
             'saúde',
             'saúdes',
@@ -2543,11 +2543,11 @@ const partials = [
     },
     {
         i: 'seduzir',
-        preterite: ['', '', 'seduz', '', '', ''],
+        present: ['', '', 'seduz', '', '', ''],
     },
     {
         i: 'valer',
-        preterite: ['valho', '', '', '', '', ''],
+        present: ['valho', '', '', '', '', ''],
         'present subjunctive': [
             'valha',
             'valhas',
@@ -2559,7 +2559,7 @@ const partials = [
     },
     {
         i: 'vencer',
-        preterite: ['venço', '', '', '', '', ''],
+        present: ['venço', '', '', '', '', ''],
         'present subjunctive': [
             'vença',
             'venças',
