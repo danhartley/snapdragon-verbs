@@ -24,8 +24,11 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             case DrillState.checkAnswers:
 
                 const scores = lesson.markLesson(qandas);
+                const answeredDrillCorrectly = scores.length === scores.filter(score => score.isCorrect).length;
 
-                let _drill = { verb: drill.verb, completed: true, questions: [] };
+                let _drill = { verb: drill.verb, completed: true, questions: [], isCorrect: answeredDrillCorrectly };
+
+                lesson.drills.find(d => d.verb === drill.verb).isCorrect = answeredDrillCorrectly;
 
                 drill.questions.forEach(q => {
                     scores.forEach(score => {
@@ -161,6 +164,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         <span>{lesson.drills.filter(drill => drill.completed).length + 1}</span>
                         <span>of</span>
                         <span>{lesson.drills.length}</span>
+                        <span>{lesson.drills.filter(drill => drill.isCorrect).length}</span>
                     </div>
                 </div>
                 <form ref={formRef} id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>

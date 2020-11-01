@@ -138,7 +138,11 @@ button:disabled {
         }
         span:nth-child(2) {
             font-size: .9rem;
-            margin: 0 .25rem;
+            margin: 0 (.5 * $space);
+        }
+        span:nth-child(4) {
+            color: $fg1;
+            margin-left: .5 * $space;
         }
     }
     input {

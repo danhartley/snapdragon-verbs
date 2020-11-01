@@ -125,11 +125,13 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
         setSelectedVerbs(_verbs);
     };
 
-    const handleSetDrill = async drill => {        
-        let translation = await api.getVerb(drill.verb);
-        drill.translation = translation[lesson.language.from].i;
-        drill.conjugations = await api.getConjugations({inf:drill.verb});
-        setDrill(drill);
+    const handleSetDrill = async drill => {      
+        if(drill) {  
+            let translation = await api.getVerb(drill.verb);
+            drill.translation = translation[lesson.language.from].i;
+            drill.conjugations = await api.getConjugations({inf:drill.verb});
+            setDrill(drill);
+        }
     };
 
     const handleStartDrill = async e => {       
