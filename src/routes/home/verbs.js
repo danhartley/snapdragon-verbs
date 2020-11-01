@@ -14,7 +14,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputVerbGroups, setInputVerbGroups] = useState(() => Object.keys(VerbGroup).map(key => VerbGroup[key]));
     const [inputTenses, setInputTenses] = useState(() => tenses);
-    const [selectedPronoun, setSelectedPronoun] = useState(language === Language.PT ? Pronoun_PT[0] : Pronoun_EN[0]);
+    const [selectedPronoun, setSelectedPronoun] = useState('random pronoun');
     const [selectedVerbGroup, setSelectedVerbGroup] = useState(VerbGroup.irregular_verbs);
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
     const [showConjugation, setShowConjugation] = useState(() => false);
@@ -227,7 +227,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} />                          
+                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} />                          
                         </>): <div class="block"></div>
                     }
                 </div>

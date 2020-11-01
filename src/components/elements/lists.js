@@ -62,7 +62,6 @@ export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header,
     return (
             <form>
                 <fieldset class={ direction === 'vertical' ? 'flex-column' : 'flex'}>
-                    {/* <legend>{header}</legend> */}
                     <ul>
                     { pronouns.map((pronoun, i) => 
                         <li class="flex rb-list">

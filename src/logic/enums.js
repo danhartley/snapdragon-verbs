@@ -38,7 +38,7 @@ export class DrillState extends Enumify {
     static hideDrills = 'hide drills';
     static checkAnswers = 'Check answers';
     static nextDrill = 'Next drill';
-    static drillsComplete = 'All done!';
+    static drillsComplete = 'Try again?';
 }
 
 export class Tense extends Enumify {

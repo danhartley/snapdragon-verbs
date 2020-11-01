@@ -3,7 +3,7 @@ import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice, startDrillRef }) => {
 
     const [qandas, setQandas] = useState([]);
     const [vowels, setVowels] = useState(() => [
@@ -55,6 +55,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 onChangeDrill(lesson.getNextDrill());
                 form.reset();
                 form.elements[0].focus();
+                break;
+            case DrillState.drillsComplete:
+                startDrillRef.current.click();
                 break;
         } 
     };
@@ -150,16 +153,21 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         return (
             <>
             <section class="drills">
-                <div class="text-align">
+                <div class="text-align flex">
                     <h2>
                         <span><a href="#footer" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
                     </h2>
+                    <div class="progress">
+                        <span>{lesson.drills.filter(drill => drill.completed).length + 1}</span>
+                        <span>of</span>
+                        <span>{lesson.drills.length}</span>
+                    </div>
                 </div>
                 <form ref={formRef} id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>
                     <section class="questions">{questions}</section>
                     <div class="action-button">
                         { drillActionState ===  DrillState.drillsComplete 
-                            ? <button class="btn" disabled={true}>{drillActionState}</button>
+                            ? <button class="btn" disabled={false}>{drillActionState}</button>
                             : <button class="btn" disabled={disableSubmitButton}>{drillActionState}</button>
                         }
                     </div>
