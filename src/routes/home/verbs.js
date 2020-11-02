@@ -4,7 +4,7 @@ import { Language, DrillState, Choice, Pronoun_PT, Pronoun_EN, VerbGroup, Tense 
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
-import { api } from '../../logic/api';
+import { api } from '../../api/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';

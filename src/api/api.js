@@ -1,4 +1,4 @@
-import { Language, Tense } from './enums.js';
+import { Language, Tense } from '../logic/enums.js';
 import { data } from './data';
 
 export const api = {       

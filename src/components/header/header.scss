@@ -11,12 +11,12 @@
     z-index: 50;
     display: flex;
     justify-content: space-evenly;
-    @media (min-width: 413px) {
+    @media (min-width: 415px) {
         justify-content: space-between;
     }
-    span {
+    &> div:nth-child(1) {
         display: none;
-        @media (min-width: 413px) {
+        @media (min-width: 415px) {
             display: inline;
             float: left;
             margin: 0;

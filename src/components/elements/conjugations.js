@@ -1,7 +1,7 @@
 import { ConjugationList } from './lists';
 import { Tense } from '../../logic/enums.js'
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { api } from '../../logic/api';
+import { api } from '../../api/api';
 
 export const compareActualConjugationWithRegularInfConjugation = async ({actual, inf}) => {
 

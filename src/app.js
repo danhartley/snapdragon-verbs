@@ -1,14 +1,14 @@
 import { h } from 'preact';
-import { api } from '../logic/api';
-import { Language, DrillState } from '../logic/enums';
+import { api } from './api/api';
+import { Language, DrillState } from './logic/enums';
 import { useState, useEffect } from 'preact/hooks';
 
-import Header from './header/header';
-import { Choice } from '../logic/enums.js';
+import Header from './components/header/header';
+import { Choice } from './logic/enums.js';
 
-import { useLocalStorageState } from '../utils/custom-hooks';
+import { useLocalStorageState } from './utils/custom-hooks';
 
-import Verbs from '../routes/home/verbs';
+import Verbs from './routes/home/verbs';
 
 const App = () => {
 
@@ -32,8 +32,6 @@ const App = () => {
     const [choice, setChoice] = useState(Choice.drills);
     const [drill, setDrill] = useState(null);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
-    // const [lesson, setLesson] = useState(new Lesson());
-    // const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
 
     useEffect( async () => {
         
