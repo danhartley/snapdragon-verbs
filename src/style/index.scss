@@ -271,7 +271,7 @@ ul.icons {
     }
 }
 
-.nav-block, .header-block {
+.header-block {
     display: flex;
     align-items: center;
     width: fit-content;
@@ -280,13 +280,13 @@ ul.icons {
     padding: 0 (2 * $space);
     border: 1px solid lightgray;
     color: $fg6;
-    margin: 4.5rem auto 0 auto;    
-}
-
-.header-block {
+    margin: 4.5rem auto 0 auto;
     min-width: 18rem;
     display: flex;
     justify-content: center;
+    @media (max-width: 601px) {
+        margin: 7rem auto 0 auto;
+    }
 }
 
 .hint { 

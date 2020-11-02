@@ -1,16 +1,23 @@
 import { h } from 'preact';
 import style from './header.scss';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Choice } from '../../logic/enums.js';
+import { Choice, Language_NAV } from '../../logic/enums.js';
+import { NavGroup } from '../elements/lists';
 
-const Header = ({choice, onClickChangeChoice}) => {
+const Header = ({choice, onClickChangeChoice, language, onClickChangeLanguage}) => {
+
+    const [isWideScreen, setIsWideScreen] = useState(false);
+
+    useEffect(() => {
+        setIsWideScreen(window.innerWidth >= 601);
+    }, []);
 
     return (
-        <header class={style.header}>
-            <div><span>The Verb</span></div>		
-            <nav class="flex">
-                <section class={choice === Choice.drills ? 'nav-block' : 'nav-block inactive' }><button id={Choice.drills} onClick={onClickChangeChoice} class="button-link-action">Verb drills</button></section>
-                <section class={choice === Choice.drills ? 'nav-block inactive' : 'nav-block' }><button id={Choice.random} onClick={onClickChangeChoice} class="button-link-action">Random verbs</button></section>
+        <header class={isWideScreen ? style.header : style.headerTall}>
+            <div class={isWideScreen ? style.title : style.hide}><span>The Verb</span></div>		
+            <nav class={isWideScreen ? style.singleLineNav : style.doubleLineNav}>
+                <NavGroup items={Object.keys(Choice).map(key => Choice[key])} item={choice} navItemClickHandler={onClickChangeChoice}></NavGroup>
+                <NavGroup items={Object.keys(Language_NAV).map(key => Language_NAV[key])} item={language} navItemClickHandler={onClickChangeLanguage} minWidth={'4rem'}></NavGroup>
             </nav>
         </header>
     )

@@ -1,0 +1,31 @@
+@import '../../style/variables.scss';
+
+.navBlockActive, .navBlockInactive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    min-height: $block;
+    background-color: $bg2;
+    padding: 0 (2 * $space);
+    border: 1px solid lightgray;
+    color: $fg6;
+    &:nth-child(1) {
+        margin-right: $space;
+    }
+}
+
+.navBlockInactive {
+    background-color: $bg5;
+    cursor: pointer;
+    button {
+        color: $fg10;
+    }
+}
+
+.navList {
+    display: flex;
+    li {
+        min-height: initial;
+    }
+}

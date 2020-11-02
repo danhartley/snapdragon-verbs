@@ -1,10 +1,9 @@
 import { h } from 'preact';
 import { api } from './api/api';
-import { Language, DrillState } from './logic/enums';
+import { Language, DrillState, Language_NAV, Choice } from './logic/enums';
 import { useState, useEffect } from 'preact/hooks';
 
 import Header from './components/header/header';
-import { Choice } from './logic/enums.js';
 
 import { useLocalStorageState } from './utils/custom-hooks';
 
@@ -32,6 +31,7 @@ const App = () => {
     const [choice, setChoice] = useState(Choice.drills);
     const [drill, setDrill] = useState(null);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
+    const [language, setLanguage] = useState(Language_NAV.pt);
 
     useEffect( async () => {
         
@@ -50,10 +50,18 @@ const App = () => {
         setDrillActionState(DrillState.intermediate);
     };
 
+    const handleSetLanguage = id => {
+        setLanguage(id);
+        setDrill(null);
+        setDrillActionState(DrillState.intermediate);
+    };
+
+    console.log(language)
+
     if(verbs.length > 0) {
         return (
             <div id="app">
-                <Header choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} />
+                <Header choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
                 <Verbs verbs={verbs} tenses={tenses} choice={choice} 
                     language={GLOBAL_LANGUAGE} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 

@@ -3,7 +3,7 @@ import { Lesson } from './lesson.js';
 import { Question } from './question.js';
 import { Answer } from './answer.js';
 import { Score } from './score.js';
-import { api } from './api.js';
+import { api } from '../api/api';
 
 describe('lesson, question, and answer constructors, methods and default settings', () => {
     let lesson = new Lesson();

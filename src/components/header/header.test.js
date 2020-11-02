@@ -1,11 +1,34 @@
 import { h } from 'preact';
 import Header from './header';
-import { shallow } from 'enzyme';
+import { NavGroup } from '../../components/elements/lists';
+import { shallow, mount } from 'enzyme';
 
-describe('Initial Test of the Header', () => {
-	test('Header renders 3 nav items', () => {
-		const context = shallow(<Header />);
-		expect(context.find('span').text()).toBe('The Verb');
-		// expect(context.find('Link').length).toBe(3);
-	});
+describe('initial test of the header', () => {
+	test('Header renders app name', () => {
+        const header = mount(<Header />);
+        expect(header.find('span').text()).toBe('The Verb');
+        expect(header.find('div').get(0).props.className).toBe('title');
+    });
+    test('Header should hide title on a narrow device', () => {
+        global.innerWidth = 300;
+        global.dispatchEvent(new Event('resize'));
+        const header = mount(<Header />);
+        expect(header.find('div').get(0).props.className).toBe('hide');
+    });
+    test('Header should display nav on one line', () => {
+        global.innerWidth = 600;
+        global.dispatchEvent(new Event('resize'));
+        const header = mount(<Header />);
+        expect(header.find('nav').get(0).props.className).toBe('singleLineNav');
+    });
+    test('Header should display nav on two lines on a narrow device', () => {
+        global.innerWidth = 300;
+        global.dispatchEvent(new Event('resize'));
+        const header = mount(<Header />);
+        expect(header.find('nav').get(0).props.className).toBe('doubleLineNav');
+    });
+    test('NavGroup renders language options', () => {
+        const languageNav = shallow(<NavGroup item={'pt'} items={['pt', 'es']} />);
+        expect(languageNav.find('button').first().text()).toBe('pt');
+    });
 });

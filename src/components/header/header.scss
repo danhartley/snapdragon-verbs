@@ -1,6 +1,6 @@
 @import '../../style/variables.scss';
 
-.header {
+.header, .headerTall {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -10,39 +10,54 @@
     background-color: $bg5;
     z-index: 50;
     display: flex;
-    justify-content: space-evenly;
-    @media (min-width: 415px) {
-        justify-content: space-between;
+    justify-content: space-between;
+}
+
+.headerTall {
+    height: 6rem;
+    justify-content: space-around;
+}
+
+
+.singleLineNav {
+    display: flex;
+    align-items: initial;
+    section {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+        color: $fg3;      
+        margin-right: 2 * $space;
     }
-    &> div:nth-child(1) {
-        display: none;
-        @media (min-width: 415px) {
-            display: inline;
-            float: left;
-            margin: 0;
-            padding: 0 0 0 $space;
-            font-size: 1.5rem;
-            line-height: $block;
-            font-weight: 400;
-            color: $fg11;
-        }
+}
+
+.doubleLineNav {
+    display: grid;
+    align-items: initial;
+    flex-direction: column;
+    padding: $space;
+    section {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+        color: $fg3;      
+        margin-right: 2 * $space;
     }
-    nav {
-        padding: $space;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: $space;
-        align-items: initial;
-        section {
-                min-width: 9rem;
-                justify-content: center;
-                margin: 0;
-                float: left;
-                min-height: 4 * $space;
-                display: flex;
-                align-items: center;
-                font-size: .8rem;
-                color: $fg3;      
-        }
-    }
+}
+
+.title {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 $space;
+    font-size: 1.5rem;
+    line-height: $block;
+    font-weight: 400;
+    color: $fg11;
+}
+
+.hide {
+    display: none;
 }

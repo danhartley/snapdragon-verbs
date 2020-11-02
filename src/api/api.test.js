@@ -1,6 +1,6 @@
-import { Language, Tense } from './enums.js';
+import { Language, Tense } from '../logic/enums';
 
-import { api } from './api.js';
+import { api } from './api';
 
 describe('api simple verbs', () => {
     test('check translation lookups are valid', async () => {

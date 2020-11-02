@@ -15,6 +15,11 @@ export class Language extends Enumify {
     static PT = 'pt';
 }
 
+export class Language_NAV extends Enumify {
+    static pt = 'PT';
+    static es = 'ES';
+}
+
 export class Pronoun_EN extends Enumify {
     static 0 = 'I';
     static 1 = 'you';
@@ -54,8 +59,8 @@ export class Tense extends Enumify {
 }
 
 export class Choice extends Enumify {
-    static drills = 'drills';
-    static random = 'random';
+    static drills = 'Verb drills';
+    static random = 'Random verbs';
 }
 
 export class VerbGroup extends Enumify {

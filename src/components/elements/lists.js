@@ -1,4 +1,6 @@
+import { h } from 'preact';
 import { Pronoun_PT } from '../../logic/enums.js';
+import style from './list.scss';
 
 export const ConjugationList = ({ items }) => {
     const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{Pronoun_PT[i]}</span><span>{item.form}</span></li> );
@@ -73,4 +75,14 @@ export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header,
                 </fieldset>
             </form>
     );
+};
+
+export const NavGroup = ({ items, item, navItemClickHandler, minWidth = '9rem' }) => {
+    const list = items.map(i => { 
+            return <li style={`min-width: ${minWidth}`} class={item !== i ? style.navBlockInactive : style.navBlockActive}><button class="button-link-action" id={i} onClick={navItemClickHandler}>{i}</button></li>
+        }
+    );
+    return (
+        <section><ul class={style.navList}>{list}</ul></section>
+    )
 };
