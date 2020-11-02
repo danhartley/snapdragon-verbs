@@ -21,13 +21,13 @@ describe('lesson, question, and answer constructors, methods and default setting
         expect(score.question).not.toEqual(score.answer);
     });
     test('direction should be EN to PT', () => {
-        expect(lesson.language.from).toEqual(Language.EN);
-        expect(lesson.language.to).toEqual(Language.PT);
+        expect(lesson.language.from).toEqual(Language.en);
+        expect(lesson.language.to).toEqual(Language.pt);
     });
     test('direction should be PT to EN', () => {
         lesson.reverseLanguageDirection();
-        expect(lesson.language.from).toEqual(Language.PT);
-        expect(lesson.language.to).toEqual(Language.EN);
+        expect(lesson.language.from).toEqual(Language.pt);
+        expect(lesson.language.to).toEqual(Language.en);
     });
     test('mode should be textEntry', () => {
         expect(lesson.mode).toEqual(Mode.multipleChoice);
@@ -79,7 +79,7 @@ describe('lesson use case one', () => {
     let drills;
  
     test('lesson should have one verb and one tense, with all conjugations', async () => {
-        conjugations = await api.getConjugations({ inf: verb, language: Language.PT});
+        conjugations = await api.getConjugations({ inf: verb, language: Language.pt});
         expect(conjugations.present).toStrictEqual([
             'canto', 'cantas', 'canta', 'cantamos', 'cantais', 'cantam'
             ]

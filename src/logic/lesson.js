@@ -5,7 +5,7 @@ import { Score } from './score.js';
 export class Lesson {
     constructor (
         global = {
-            language: Language.EN
+            language: Language.en
         },
         options = [ Option.drill, Option.translation ],
         option = Option.drill,
@@ -13,10 +13,10 @@ export class Lesson {
         tenses = [Tense.present, Tense.imperfect, Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ],
         tense = 'present',
         pronouns = '111111',
-        languages = [ Language.EN, Language.PT ],
+        languages = [ Language.en, Language.pt ],
         language = { 
-            from: Language.EN,
-            to: Language.PT 
+            from: Language.en,
+            to: Language.pt 
         },
         modes = [ Mode.multipleChoice, Mode.textEntry ],
         mode = Mode.multipleChoice,

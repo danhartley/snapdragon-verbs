@@ -11,13 +11,14 @@ export class Mode extends Enumify {
 }
 
 export class Language extends Enumify {
-    static EN = 'en';
-    static PT = 'pt';
+    static en = 'en';
+    static pt = 'pt';
+    static es = 'es';
 }
 
 export class Language_NAV extends Enumify {
-    static pt = 'PT';
-    static es = 'ES';
+    static pt = 'pt';
+    static es = 'es';
 }
 
 export class Pronoun_EN extends Enumify {

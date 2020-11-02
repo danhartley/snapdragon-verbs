@@ -16,7 +16,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedPronoun, setSelectedPronoun] = useState('random pronoun');
     const [selectedVerbGroup, setSelectedVerbGroup] = useState(VerbGroup.irregular_verbs);
-    const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills());
+    const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills(language));
     const [showConjugation, setShowConjugation] = useState(() => false);
     const [selectedTense, setSelectedTense] = useState(Tense.present);
     const [lesson, setLesson] = useState(new Lesson());

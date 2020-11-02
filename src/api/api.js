@@ -99,18 +99,18 @@ export const api = {
     },
     getReflexiveRoot(inf, language) {
         switch(language) {
-            case Language.PT:
+            case Language.pt:
                 return inf.slice(0, inf.length -5);
-            case Language.EN:
+            case Language.en:
                 return inf;
         }
     },
     getRoot(inf, language) {
         const isReflexive = (inf.indexOf('-se') > -1);
         switch(language) {
-            case Language.PT:
+            case Language.pt:
                 return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
-            case Language.EN:
+            case Language.en:
                 return inf;
         }
     },
@@ -216,7 +216,7 @@ export const api = {
         });
         return jugations;
     },
-    async getConjugations({inf, language = Language.PT, tenses = data.getTenses().map(t => t.en), tense = 'present', isReflexive = this.getIsReflexive(inf)}) {
+    async getConjugations({inf, language = Language.pt, tenses = data.getTenses().map(t => t.en), tense = 'present', isReflexive = this.getIsReflexive(inf)}) {
         let like, likeRoot, likeConjugations, root;
         let { conjugations, partials } = await data.getConjugations({inf, language, tenses, tense});
         if(conjugations) {
@@ -233,7 +233,7 @@ export const api = {
             return this.mergeLikeWithVerb({inf, like, conjugations});
         }
     },
-    getSetDrills() {
-        return data.getSetDrills();
+    getSetDrills(language) {
+        return data.getSetDrills(language);
     }
 };

@@ -1,3 +1,4 @@
+import { Language, Language_NAV } from '../logic/enums.js';
 import { getVerbsList } from './data-verbs';
 import { getVerbConjugations } from './data-conjugations';
 
@@ -74,43 +75,48 @@ export const data = {
         ];
         return tenses;
     },
-    getSetDrills() {
-        return [
-            {
-                id: 1,
-                name: 'Common irregular verbs, 1-12',
-                verbs: [ { name:'ser' }, { name:'ter' }, { name:'estar' }, { name: 'poder' }, { name:'fazer', }, { name:'ir' }, {  name: 'haver' }, { name: 'dizer' }, { name: 'dar' }, { name: 'ver' }, { name:'saber' }, { name: 'querer' } ]
-            },
-            {
-                id: 2,
-                name: 'Common irregular verbs, 13-24',
-                verbs: [ { name:'ficar' }, { name:'vir' }, { name: 'chegar' }, { name: 'começar'}, { name: 'parecer' }, { name: 'sair' }, { name: 'conseguir' }, { name: 'sentir' }, { name: 'conhecer'},  { name:'pôr' }, { name: 'ouvir' }, { name: 'perder' } ]
-            },
-            {
-                id: 3,
-                name: 'Commmon irregular verbs, 25-36 ',
-                verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
-            },
-            {
-                id: 4,
-                name: 'Regular -ar, -er and -ir verbs',
-                verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
-            },
-            {
-                id: 5,
-                name: 'Common reflexive verbs',
-                verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' } ]
-            },
-            {
-                id: 6,
-                name: '12 Common regular verbs',
-                verbs: [ { name: 'dever' }, { name: 'deixar' }, { name: 'encontrar' }, { name: 'levar' }, { name: 'partir' }, { name: 'pensar'}, { name: 'olhar' }, { name: 'voltar' }, { name: 'achar' }, { name: 'existir' }, { name: 'entrar' }, { name: 'chamar' } ]
-            },
-            {
-                id: 7,
-                name: 'Clear all verbs',
-                verbs: []
-            },
-        ];
+    getSetDrills(language) {
+        switch(language) {
+            case Language.pt:
+            return [
+                {
+                    id: 1,
+                    name: 'Common irregular verbs, 1-12',
+                    verbs: [ { name:'ser' }, { name:'ter' }, { name:'estar' }, { name: 'poder' }, { name:'fazer', }, { name:'ir' }, {  name: 'haver' }, { name: 'dizer' }, { name: 'dar' }, { name: 'ver' }, { name:'saber' }, { name: 'querer' } ]
+                },
+                {
+                    id: 2,
+                    name: 'Common irregular verbs, 13-24',
+                    verbs: [ { name:'ficar' }, { name:'vir' }, { name: 'chegar' }, { name: 'começar'}, { name: 'parecer' }, { name: 'sair' }, { name: 'conseguir' }, { name: 'sentir' }, { name: 'conhecer'},  { name:'pôr' }, { name: 'ouvir' }, { name: 'perder' } ]
+                },
+                {
+                    id: 3,
+                    name: 'Commmon irregular verbs, 25-36 ',
+                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
+                },
+                {
+                    id: 4,
+                    name: 'Regular -ar, -er and -ir verbs',
+                    verbs: [ { name:'falar' }, { name:'partir' }, { name:'vender' } ]
+                },
+                {
+                    id: 5,
+                    name: 'Common reflexive verbs',
+                    verbs: [ { name:'lembrar-se' }, { name:'levantar-se' }, { name:'vestir-se' } ]
+                },
+                {
+                    id: 6,
+                    name: '12 Common regular verbs',
+                    verbs: [ { name: 'dever' }, { name: 'deixar' }, { name: 'encontrar' }, { name: 'levar' }, { name: 'partir' }, { name: 'pensar'}, { name: 'olhar' }, { name: 'voltar' }, { name: 'achar' }, { name: 'existir' }, { name: 'entrar' }, { name: 'chamar' } ]
+                },
+                {
+                    id: 7,
+                    name: 'Clear all verbs',
+                    verbs: []
+                },
+            ];
+            case Language.es:
+            return [];
+        }
     }
 };

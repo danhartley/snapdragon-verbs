@@ -16,7 +16,7 @@ describe('initial test of the header', () => {
         expect(header.find('div').get(0).props.className).toBe('hide');
     });
     test('Header should display nav on one line', () => {
-        global.innerWidth = 600;
+        global.innerWidth = 601;
         global.dispatchEvent(new Event('resize'));
         const header = mount(<Header />);
         expect(header.find('nav').get(0).props.className).toBe('singleLineNav');

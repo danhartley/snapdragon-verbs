@@ -11,7 +11,7 @@ import Verbs from './routes/home/verbs';
 
 const App = () => {
 
-    const GLOBAL_LANGUAGE = Language.PT;
+    const GLOBAL_LANGUAGE = Language.pt;
 
     let savedVerbs;
     
@@ -61,9 +61,9 @@ const App = () => {
     if(verbs.length > 0) {
         return (
             <div id="app">
-                <Header choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
+                <Header language={language} choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
                 <Verbs verbs={verbs} tenses={tenses} choice={choice} 
-                    language={GLOBAL_LANGUAGE} drill={drill} setDrill={setDrill} 
+                    language={language} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
                 />
             </div>
