@@ -38,6 +38,34 @@ export class Pronoun_PT extends Enumify {
     static 4 = 'vós';
     static 5 = 'elas';
 }
+export class Pronoun_Display_PT extends Enumify {
+    static 0 = 'eu';
+    static 1 = 'tu';
+    static 2 = 'ela, ele, você';
+    static 3 = 'nós';
+    static 4 = 'vós';
+    static 5 = 'elas, eles, vocês';
+    static 6 = 'random pronoun';
+}
+
+export class Pronoun_ES extends Enumify {
+    static 0 = 'yo';
+    static 1 = 'tú';
+    static 2 = 'ella';
+    static 3 = 'nosotros';
+    static 4 = 'vosotros';
+    static 5 = 'ellos';
+}
+
+export class Pronoun_Display_ES extends Enumify {
+    static 0 = 'yo';
+    static 1 = 'tú';
+    static 2 = 'ella, él';
+    static 3 = 'nosotros';
+    static 4 = 'vosotros';
+    static 5 = 'ellos';
+    static 6 = 'random pronoun';
+}
 
 export class DrillState extends Enumify {
     static intermediate = 'intermediate';

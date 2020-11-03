@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Language, DrillState, Choice, Pronoun_PT, Pronoun_EN, VerbGroup, Tense } from '../../logic/enums';
+import { Language, DrillState, Choice, Pronoun_PT, Pronoun_Display_PT, VerbGroup, Tense } from '../../logic/enums';
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
@@ -8,8 +8,17 @@ import { api } from '../../api/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import Footer from '../../components/footer/footer';
+import { utils } from '../../utils/utils';
 
 const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
+
+    const createNewlesson = language => {
+        let _lesson = new Lesson();
+            _lesson.updateProps({language: { from: Language.en, to: language }, tenses: [Tense.present] });
+        return _lesson;
+    };
+
+    console.log(language)
 
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputVerbGroups, setInputVerbGroups] = useState(() => Object.keys(VerbGroup).map(key => VerbGroup[key]));
@@ -19,7 +28,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills(language));
     const [showConjugation, setShowConjugation] = useState(() => false);
     const [selectedTense, setSelectedTense] = useState(Tense.present);
-    const [lesson, setLesson] = useState(new Lesson());
+    const [lesson, setLesson] = useState(createNewlesson(language));
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
 
     const handleVerbPicked = verb => {
@@ -30,120 +39,35 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     const handleTensePicked = tense => {
         setDrillActionState(DrillState.intermediate);
         setLesson({ ...lesson, tense, tenses });
-        setSelectedTense(tense);
+        setSelectedTense(tense);        
     };
 
     const handleVerbGroupSelected = group => {        
-        let _verbs = [];
-        switch(group) {
-            case VerbGroup.all_verbs:
-                shuffleArray(verbs).forEach((v,i) => {
-                    if(i < 100) {
-                        _verbs.push({ name: v });
-                    }
-                });
-                break;
-            case VerbGroup.irregular_verbs:
-                api.getSetDrills().filter(drill => drill.id < 4).forEach(group => {
-                    _verbs = [ ..._verbs, ...group.verbs ];
-                });
-                break;
-            case VerbGroup.common_regular_verbs:
-                _verbs = api.getSetDrills().find(drill => drill.id === 6).verbs;
-                break;
-            case VerbGroup.imperfect_irregular_verbs:
-                _verbs = [
-                    { name: 'vir' },
-                    { name: 'ter' },
-                    { name: 'ser' },
-                    { name: 'pôr' },
-                ];
-                handleTensePicked(Tense.imperfect);
-                break;
-            case VerbGroup.preterite_irregular_verbs:
-                _verbs = [
-                    { name: 'ser' },
-                    { name: 'estar' },
-                    { name: 'ter' },
-                    { name: 'ir' },
-                    { name: 'vir' },
-                    { name: 'poder' },
-                    { name: 'fazer' },
-                    { name: 'saber' },
-                ];
-                handleTensePicked(Tense.preterite);
-                break;
-            case VerbGroup.future_irregular_verbs:
-                _verbs = [
-                    { name: 'trazer' },
-                    { name: 'dizer' },
-                    { name: 'fazer' },
-                ];
-                handleTensePicked(Tense.future);
-                break;
-            case VerbGroup.conditional:
-                _verbs = [
-                    { name: 'trazer' },
-                    { name: 'dizer' },
-                    { name: 'fazer' },
-                ];
-                handleTensePicked(Tense.future);
-                break;
-            case VerbGroup.conditional_irregular_verbs:
-                _verbs = [
-                    { name: 'trazer' },
-                    { name: 'dizer' },
-                    { name: 'fazer' },
-                ];
-                handleTensePicked(Tense.conditional);
-                break;
-            case VerbGroup.subjunctive_irregular_verbs:
-                _verbs = [
-                    { name: 'trazer' },
-                    { name: 'dizer' },
-                    { name: 'fazer' },
-                    { name: 'ser' },
-                    { name: 'estar' },
-                    { name: 'haver' },
-                    { name: 'saber' },
-                    { name: 'querer' },
-                    { name: 'ter' },
-                    { name: 'pôr' },
-                    { name: 'ver' },
-                    { name: 'poder' },
-                    { name: 'ler' },
-                    { name: 'vir' },
-                    { name: 'ouvir' },
-                    { name: 'perder' },
-                    { name: 'dar' },
-                    { name: 'ir' },
-                ];
-                handleTensePicked(Tense.present_subjunctive);
-                break;
-        }
+        let { groupVerbs, tense } = api.getVerbGroups(group, language, verbs);
+        handleTensePicked(tense);
         setSelectedVerbGroup(group);
-        setSelectedVerbs(_verbs);
+        setSelectedVerbs(groupVerbs);
     };
 
     const handleSetDrill = async drill => {      
         if(drill) {  
-            let translation = await api.getVerb(drill.verb);
+            let translation = await api.getVerb(drill.verb, language);
             drill.translation = translation[lesson.language.from].i;
-            drill.conjugations = await api.getConjugations({inf:drill.verb});
+            drill.conjugations = await api.getConjugations({inf:drill.verb, language});
             setDrill(drill);
         }
     };
 
     const handleStartDrill = async e => {       
         lesson.removeVerbs();
-            shuffleArray(selectedVerbs).filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
+        utils.shuffleArray(selectedVerbs).filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
             const drills = await lesson.createDrills(api, lesson.tense);
         switch(choice) {
         case Choice.drills:     
             break;
         case Choice.random:                
                 drills.forEach(drill => { 
-                    const pronounToTest = selectedPronoun === 'random pronoun' ? shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                    const pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
                     drill.questions.forEach(question => {                    
                         const matchingPronoun = pronounToTest.split(',').find(pronoun => pronoun === question.pronoun);
                         question.disabled = !matchingPronoun;
@@ -191,7 +115,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     return (
         <>
         <section class="header-block">
-            <h1>{ choice === Choice.drills ? 'Portuguese verb drills' : 'Portuguese random verbs' }</h1>
+            <h1>{ utils.getLessonTitle(choice, language) }</h1>
         </section>
         <div class="home">          
           <div class="columns">
@@ -200,7 +124,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                     {
                         choice === Choice.drills
                             ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={[ 'eu', 'tu', 'ela, ele, você', 'nós', 'vós', 'elas, eles, vocês', 'random pronoun', ]} />                     
+                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getDisplayPronouns(language)} />                     
                     }
                     {
                         <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
@@ -235,31 +159,11 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                 </div>
             </div>
           </div>
-          { showConjugation ? <div class="conjugations-container"><Conjugations key={drill} drill={drill} /></div> : '' }
+          { showConjugation ? <div class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} /></div> : '' }
           <Footer />
         </div>
         </>
     )
 };
-
-
-const shuffleArray = array => {
-
-    if(!array || array.length === 0) return;
-
-    var currentIndex = array.length, temporaryValue, randomIndex;
-
-    while (0 !== currentIndex) {
-
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-
-    return [ ...array ];
-  };
 
 export default Verbs;

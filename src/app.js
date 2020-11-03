@@ -15,23 +15,23 @@ const App = () => {
 
     let savedVerbs;
     
-    const getVerbs = async () => {
+    const getVerbs = async language => {
         savedVerbs = await api.getVerbs();
         savedVerbs = savedVerbs.map(verb => {
-            return verb[GLOBAL_LANGUAGE].i;
+            return verb[language] ? verb[language].i : undefined;
         });
-        setVerbs(savedVerbs);
+        setVerbs(savedVerbs.filter(v => v));
     };
 
     const defaultDate = Date.parse(new Date(2020,0,1));
 
-    const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate);
-    const [verbs, setVerbs] = useLocalStorageState('verbs', []);
+    const [language, setLanguage] = useState(Language_NAV.pt);
+    const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate, language);
+    const [verbs, setVerbs] = useLocalStorageState('verbs', [], language);
     const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));
     const [choice, setChoice] = useState(Choice.drills);
     const [drill, setDrill] = useState(null);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
-    const [language, setLanguage] = useState(Language_NAV.pt);
 
     useEffect( async () => {
         
@@ -39,7 +39,7 @@ const App = () => {
         const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); 
     
         if(verbs.length === 0 || daysDiff > 1) { 
-            getVerbs();
+            getVerbs(language);
             setLastVisit(Date.now());
         };
     }, [verbs]);
@@ -47,22 +47,21 @@ const App = () => {
     const handleSetChoice = id => {
         setChoice(id);
         setDrill(null);
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.intermediate);        
     };
 
     const handleSetLanguage = id => {
         setLanguage(id);
         setDrill(null);
         setDrillActionState(DrillState.intermediate);
+        getVerbs(id);
     };
-
-    console.log(language)
 
     if(verbs.length > 0) {
         return (
             <div id="app">
                 <Header language={language} choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
-                <Verbs verbs={verbs} tenses={tenses} choice={choice} 
+                <Verbs key={language} verbs={verbs} tenses={tenses} choice={choice} 
                     language={language} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
                 />

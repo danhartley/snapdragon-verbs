@@ -10,7 +10,7 @@ describe('api simple verbs', () => {
         expect(toBe.pt.i).toBe('estar');
         toBe = await api.getVerbs('to be');
         expect(toBe[0].pt.i).toBe('estar');
-        toBe = await api.getVerb('to be');
+        toBe = await api.getVerb('to be', 'pt');
         expect(toBe.pt.i).toBe('estar');
     });
     test('check conjugation lookup is valid', async () => {
@@ -366,5 +366,17 @@ describe('use mergeLikeWithVerb to determine the new root for like verbs', () =>
             preterite: [ 'fiquei' ]
          }});
         expect(expected['preterite'][0]).toBe('alanquei');
+    });
+});
+
+describe('tests for es', () => {
+    test('check getLike lookup is valid', async () => {
+        let like = await api.getLike('hablar', Language.es);
+        expect(like).toBe('hablar');
+    }); 
+    test('check one step conjugation lookup is valid', async() => {
+        const verb = 'hablar';
+        const conjugations = await api.getConjugations({ inf:verb, language: Language.es});
+        expect(conjugations.present[0]).toBe('hablo');
     });
 });

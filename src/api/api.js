@@ -5,12 +5,12 @@ export const api = {
     async getVerbs(inf) {
         return await data.getVerbs(inf);
     },
-    async getVerb(inf) {
-        const verbs = await data.getVerbs(inf);
+    async getVerb(inf, language = Language.pt) {
+        const verbs = await data.getVerbs(inf, language);
         return verbs ? verbs[0] : {};
     },
-    async getAllConjugations() {
-        return await data.getAllConjugations();
+    async getAllConjugations(language) {
+        return await data.getAllConjugations(language);
     },   
     getLikeFromVerbEnding({ inf, language, isReflexive }) {
         
@@ -27,71 +27,80 @@ export const api = {
                 'ar': 'falar',
                 'er': 'vender',
                 'ir': 'partir',
-            }
+            },
+            es: {         
+                'ar': 'hablar',
+                'er': 'comer',
+                'ir': 'vivir',
+            },
         };
 
         let end = isReflexive ? 5 : 2;
         let like = likes[language][inf.substring(inf.length - end)];
 
-        if(inf.substring(inf.length -3) === 'car' && inf !== 'ficar') {
-            like = 'ficar';
-        }
-        if(inf.substring(inf.length -2) === 'or' && inf !== 'pôr') {
-            like = 'pôr';
-        }
-        if(inf.substring(inf.length -5) === 'fazer' && inf !== 'fazer') {
-            like = 'fazer';
-        }
-        if(inf.substring(inf.length -3) === 'çar' && inf !== 'caçar') {
-            like = 'caçar';
-        }
-        if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
-            like = 'conhecer';
-        }
-        if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
-            like = 'proteger';
-        }
-        if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {
-            like = 'passear';
-        }
-        if(inf.substring(inf.length -3) === 'gar' && inf !== 'chegar') {
-            like = 'chegar';
-        }
-        if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
-            like = 'extenuar';
-        }
-        if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
-            like = 'averiguar';
-        }
-        if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
-            like = 'influir';
-        }
-        if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
-            like = 'seguir';
-        }
-        if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
-            like = 'odiar';
-        }
-        if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
-            like = 'dizer';
-        }
-        if(inf.substring(inf.length -4) === 'ozer' && inf !== 'cozer') {
-            like = 'cozer';
-        }
-        if(inf.substring(inf.length -4) === 'uzir' && inf !== 'seduzir') {
-            like = 'seduzir';
-        }
-        if(inf.substring(inf.length -3) === 'oer' && inf !== 'moer') {
-            like = 'moer';
-        }
-        if(inf.substring(inf.length -3) === 'air' && inf !== 'cair') {
-            like = 'cair';
+        switch(language) {
+            case Language.pt:        
+            if(inf.substring(inf.length -3) === 'car' && inf !== 'ficar') {
+                like = 'ficar';
+            }
+            if(inf.substring(inf.length -2) === 'or' && inf !== 'pôr') {
+                like = 'pôr';
+            }
+            if(inf.substring(inf.length -5) === 'fazer' && inf !== 'fazer') {
+                like = 'fazer';
+            }
+            if(inf.substring(inf.length -3) === 'çar' && inf !== 'caçar') {
+                like = 'caçar';
+            }
+            if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
+                like = 'conhecer';
+            }
+            if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
+                like = 'proteger';
+            }
+            if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {
+                like = 'passear';
+            }
+            if(inf.substring(inf.length -3) === 'gar' && inf !== 'chegar') {
+                like = 'chegar';
+            }
+            if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
+                like = 'extenuar';
+            }
+            if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
+                like = 'averiguar';
+            }
+            if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
+                like = 'influir';
+            }
+            if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
+                like = 'seguir';
+            }
+            if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
+                like = 'odiar';
+            }
+            if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
+                like = 'dizer';
+            }
+            if(inf.substring(inf.length -4) === 'ozer' && inf !== 'cozer') {
+                like = 'cozer';
+            }
+            if(inf.substring(inf.length -4) === 'uzir' && inf !== 'seduzir') {
+                like = 'seduzir';
+            }
+            if(inf.substring(inf.length -3) === 'oer' && inf !== 'moer') {
+                like = 'moer';
+            }
+            if(inf.substring(inf.length -3) === 'air' && inf !== 'cair') {
+                like = 'cair';
+            }
+            break;
         }
 
         return like;
     },
     async getLike(inf, language) {
-        let verb = await this.getVerb(inf);
+        let verb = await this.getVerb(inf, language);
         let like = verb[language].like === undefined
                 ? this.getLikeFromVerbEnding({inf, language, isReflexive: this.getIsReflexive(inf)})
                 : verb[language].like;
@@ -235,5 +244,8 @@ export const api = {
     },
     getSetDrills(language) {
         return data.getSetDrills(language);
+    },
+    getVerbGroups(group, language, verbs) {
+        return data.getVerbGroups(group, language, verbs);
     }
 };

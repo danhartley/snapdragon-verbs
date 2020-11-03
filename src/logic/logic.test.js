@@ -195,3 +195,39 @@ describe('lessons score', () => {
         expect(lesson.verb).toBe('ter');
     });
 });
+
+describe('es lesson', () => {
+    let lesson, drills, drill;
+    test('calling createDrills should set of drills for all verbs', async () => {
+        lesson = new Lesson();
+        lesson.updateProps({language: { from: Language.en, to: Language.es } });
+        lesson.updateProps({            
+            tenses: [Tense.present],
+            tense: [Tense.present]
+        });
+        lesson.addVerb('hablar');
+        lesson.addVerb('comer');
+        lesson.addVerb('vivir');
+        drills = await lesson.createDrills(api);
+        expect(drills.length).toBe(3);
+        expect(drills.find(d => d.verb === 'hablar').verb).toBe('hablar');
+        expect(lesson.drills.filter(d => d.completed).length).toBe(0);
+    });
+    test('createDrill should add new drill to lesosn', async () => {
+        lesson = new Lesson();
+        lesson.option = Option.drill;
+        lesson.tense = Tense.present;
+        lesson.tenses = [Tense.present];
+        lesson.language = { from: Language.en, to: Language.es };
+        await lesson.createDrill(api, 'hablar');
+        drill = lesson.drills[0];
+        expect(drill.questions.length).toBe(6);
+        await lesson.createDrill(api, 'comer');
+        drill = lesson.drills[1];
+        expect(drill.questions.length).toBe(6);
+        await lesson.createDrill(api, 'vivir');
+        drill = lesson.drills[2];
+        expect(drill.questions.length).toBe(6);
+        expect(lesson.drills.length).toBe(3);
+    });
+});

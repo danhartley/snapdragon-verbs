@@ -1,6 +1,7 @@
 import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense } from './enums.js';
 import { Question } from './question.js';
 import { Score } from './score.js';
+import { utils } from '../utils/utils.js';
 
 export class Lesson {
     constructor (
@@ -13,7 +14,7 @@ export class Lesson {
         tenses = [Tense.present, Tense.imperfect, Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ],
         tense = 'present',
         pronouns = '111111',
-        languages = [ Language.en, Language.pt ],
+        languages = [ Language.en, Language.pt, Language.es ],
         language = { 
             from: Language.en,
             to: Language.pt 
@@ -109,7 +110,8 @@ export class Lesson {
             conjugations = await api.getConjugations({ inf: verb, language: this.language.to, tenses: this.tenses, tense: this.tense });
 
             conjugations[this.tense].forEach((conjugation, index) => {
-                pronoun = Pronoun_PT[index];
+                let pronouns = utils.getDisplayPronouns(this.language.to);
+                pronoun = pronouns.find((p,i) => i === index);
                 question = new Question(pronoun, pronoun, {
                     from: conjugation,
                     to: conjugation

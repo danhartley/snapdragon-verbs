@@ -1,6 +1,7 @@
-import { Language, Language_NAV } from '../logic/enums.js';
+import { Language, Language_NAV, VerbGroup } from '../logic/enums.js';
 import { getVerbsList } from './data-verbs';
 import { getVerbConjugations } from './data-conjugations';
+import { utils } from '../utils/utils';
 
 const clean = str => {
     let cleaned = str;
@@ -10,15 +11,15 @@ const clean = str => {
 };
 
 export const data = {
-    async getVerbs(inf) {
-        return await getVerbsList(inf);
+    async getVerbs(inf, language = Language.pt) {
+        return await getVerbsList(inf, language);
     },
-    async getAllConjugations() {
-        return await getVerbConjugations();
+    async getAllConjugations(language) {
+        return await getVerbConjugations(language);
     },    
-    async getConjugations({inf}) {
+    async getConjugations({inf, language}) {
 
-        const { conjugations, partials } = await getVerbConjugations();
+        const { conjugations, partials } = await getVerbConjugations(language);
 
         let filteredConjugations = conjugations.find(verb => clean(verb.i) === clean(inf));   
         let filteredPartials = partials.find(verb => clean(verb.i) === clean(inf));   
@@ -115,8 +116,118 @@ export const data = {
                     verbs: []
                 },
             ];
-            case Language.es:
-            return [];
+            case Language.es:                
+            return [
+                {
+                    id: 1,
+                    name: 'Regular -ar, -er and -ir verbs',
+                    verbs: [ { name:'hablar' }, { name:'comer' }, { name:'vivir' } ]
+                },
+            ];
         }
+    },
+    getVerbGroups(group, language, verbs) {
+        let _verbs = [], tense;
+        switch(language) {
+            case Language.pt:
+                switch(group) {
+                    case VerbGroup.all_verbs:
+                        utils.shuffleArray(verbs).forEach((v,i) => {
+                            if(i < 100) {
+                                _verbs.push({ name: v });
+                            }
+                        });
+                        break;
+                    case VerbGroup.irregular_verbs:
+                        this.getSetDrills(language).filter(drill => drill.id < 4).forEach(group => {
+                            _verbs = [ ..._verbs, ...group.verbs ];
+                        });
+                        break;
+                    case VerbGroup.common_regular_verbs:
+                        _verbs = this.getSetDrills(language).find(drill => drill.id === 6).verbs;
+                        break;
+                    case VerbGroup.imperfect_irregular_verbs:
+                        _verbs = [
+                            { name: 'vir' },
+                            { name: 'ter' },
+                            { name: 'ser' },
+                            { name: 'pôr' },
+                        ];
+                        tense = Tense.imperfect;
+                        break;
+                    case VerbGroup.preterite_irregular_verbs:
+                        _verbs = [
+                            { name: 'ser' },
+                            { name: 'estar' },
+                            { name: 'ter' },
+                            { name: 'ir' },
+                            { name: 'vir' },
+                            { name: 'poder' },
+                            { name: 'fazer' },
+                            { name: 'saber' },
+                        ];
+                        tense = Tense.preterite;
+                        break;
+                    case VerbGroup.future_irregular_verbs:
+                        _verbs = [
+                            { name: 'trazer' },
+                            { name: 'dizer' },
+                            { name: 'fazer' },
+                        ];
+                        tense = Tense.future;
+                        break;
+                    case VerbGroup.conditional:
+                        _verbs = [
+                            { name: 'trazer' },
+                            { name: 'dizer' },
+                            { name: 'fazer' },
+                        ];
+                        tense = Tense.future;
+                        break;
+                    case VerbGroup.conditional_irregular_verbs:
+                        _verbs = [
+                            { name: 'trazer' },
+                            { name: 'dizer' },
+                            { name: 'fazer' },
+                        ];
+                        tense = Tense.conditional;
+                        break;
+                    case VerbGroup.subjunctive_irregular_verbs:
+                        _verbs = [
+                            { name: 'trazer' },
+                            { name: 'dizer' },
+                            { name: 'fazer' },
+                            { name: 'ser' },
+                            { name: 'estar' },
+                            { name: 'haver' },
+                            { name: 'saber' },
+                            { name: 'querer' },
+                            { name: 'ter' },
+                            { name: 'pôr' },
+                            { name: 'ver' },
+                            { name: 'poder' },
+                            { name: 'ler' },
+                            { name: 'vir' },
+                            { name: 'ouvir' },
+                            { name: 'perder' },
+                            { name: 'dar' },
+                            { name: 'ir' },
+                        ];
+                        tense = Tense.present_subjunctive;
+                        break;
+                }
+                break;
+            case Language.es:
+                switch(group) {
+                    case VerbGroup.all_verbs:
+                        utils.shuffleArray(verbs).forEach((v,i) => {
+                            if(i < 100) {
+                                _verbs.push({ name: v });
+                            }
+                        });
+                    break;
+                }
+        }
+        return { groupVerbs: _verbs, tense };
     }
 };

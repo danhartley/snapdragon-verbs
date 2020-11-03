@@ -3,9 +3,9 @@ import { Tense } from '../../logic/enums.js'
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { api } from '../../api/api';
 
-export const compareActualConjugationWithRegularInfConjugation = async ({actual, inf}) => {
+export const compareActualConjugationWithRegularInfConjugation = async ({actual, inf, language}) => {
 
-    const { conjugations } = await api.getAllConjugations();
+    const { conjugations } = await api.getAllConjugations(language);
 
     let regularInf, regular;
     let ending = inf.slice(inf.length - 2);
@@ -92,12 +92,12 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     return _conjugations;
 };
 
-export const Conjugations = ({drill}) => {
+export const Conjugations = ({drill, language}) => {
 
     const [comparedConjugations, setComparedConjugations] = useState(null);
 
     useEffect( async () => {
-        let comparedConjugations = await compareActualConjugationWithRegularInfConjugation({ actual: drill.conjugations, inf: drill.verb });
+        let comparedConjugations = await compareActualConjugationWithRegularInfConjugation({ actual: drill.conjugations, inf: drill.verb, language });
         setComparedConjugations(comparedConjugations);
     }, []);
 
