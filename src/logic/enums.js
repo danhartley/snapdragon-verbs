@@ -38,7 +38,7 @@ export class Pronoun_PT extends Enumify {
     static 4 = 'vós';
     static 5 = 'elas';
 }
-export class Pronoun_Display_PT extends Enumify {
+export class Pronoun_Long_PT extends Enumify {
     static 0 = 'eu';
     static 1 = 'tu';
     static 2 = 'ela, ele, você';
@@ -57,7 +57,7 @@ export class Pronoun_ES extends Enumify {
     static 5 = 'ellos';
 }
 
-export class Pronoun_Display_ES extends Enumify {
+export class Pronoun_Long_ES extends Enumify {
     static 0 = 'yo';
     static 1 = 'tú';
     static 2 = 'ella, él';
@@ -82,9 +82,17 @@ export class Tense extends Enumify {
     static pluperfect = 'pluperfect';
     static future = 'future';
     static conditional = 'conditional';
+    static past_perfect = 'past perfect';
+    static past_anterior = 'past anterior';
+    static future_perfect = 'future perfect';    
+    
     static present_subjunctive = 'present subjunctive';
     static imperfect_subjunctive = 'imperfect subjunctive';
     static future_subjunctive = 'future subjunctive';
+    
+    static present_perfect_subjunctive = 'present perfect subjunctive';
+    static pluperfect_subjunctive = 'pluperfect subjunctive';
+    static future_perfect_subjunctive = 'future perfect subjunctive';
 }
 
 export class Choice extends Enumify {

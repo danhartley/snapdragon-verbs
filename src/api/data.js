@@ -1,4 +1,4 @@
-import { Language, Language_NAV, VerbGroup } from '../logic/enums.js';
+import { Language, Language_NAV, VerbGroup, Tense } from '../logic/enums.js';
 import { getVerbsList } from './data-verbs';
 import { getVerbConjugations } from './data-conjugations';
 import { utils } from '../utils/utils';
@@ -26,55 +26,8 @@ export const data = {
 
         return new Promise(resolve => resolve({conjugations: filteredConjugations, partials:filteredPartials}));
     },
-    getTenses() {
-        const tenses = [
-            {
-                en: 'present',
-                pt: 'presente',
-                es: 'presente'
-            }
-            , {
-                en: 'preterite',
-                pt: 'pretérito',
-                es: 'pretérito',
-            }
-            , {
-                en: 'imperfect',
-                pt: 'imperfeito',
-                es: 'imperfecto',
-            }
-            , {
-                en: 'future',
-                pt: 'futuro',
-                es: 'futuro',
-            }
-            , {
-                en: 'conditional',
-                pt: 'condicional',
-                es: 'condicional',
-            }
-            , {
-                en: 'pluperfect',
-                pt: 'mais-que-perfeito',
-                es: 'pluscuamperfecto',
-            }
-            , {
-                en: 'present subjunctive',
-                pt: 'subjuntivo, presente',
-                es: 'subjuntivo, presente',
-            }
-            , {
-                en: 'imperfect subjunctive',
-                pt: 'subjuntivo, imperfeito',
-                es: 'subjuntivo, imperfeito',
-            }
-            , {
-                en: 'future subjunctive',
-                pt: 'subjuntivo, futuro',
-                es: 'subjuntivo, futuro',
-            }
-        ];
-        return tenses;
+    getTenses(language) {
+        return utils.getTensesByLanguage(language);
     },
     getSetDrills(language) {
         switch(language) {

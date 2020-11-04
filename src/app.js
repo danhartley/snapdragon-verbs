@@ -28,7 +28,7 @@ const App = () => {
     const [language, setLanguage] = useState(Language_NAV.pt);
     const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate, language);
     const [verbs, setVerbs] = useLocalStorageState('verbs', [], language);
-    const [tenses, setTenses] = useState(() => api.getTenses().map(tense => tense['en']));
+    const [tenses, setTenses] = useState(() => api.getTenses(language));
     const [choice, setChoice] = useState(Choice.drills);
     const [drill, setDrill] = useState(null);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
@@ -55,6 +55,7 @@ const App = () => {
         setDrill(null);
         setDrillActionState(DrillState.intermediate);
         getVerbs(id);
+        setTenses(api.getTenses(id));
     };
 
     if(verbs.length > 0) {

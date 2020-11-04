@@ -119,82 +119,94 @@ export const api = {
         switch(language) {
             case Language.pt:
                 return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
+            case Language.es:
+                return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
             case Language.en:
                 return inf;
         }
     },
-    makeReflexive({conjugations,tense,inf}) {
+    makeReflexive({conjugations,tense,inf, language = Language.pt}) {
         inf = inf.indexOf('-se') > -1 ? inf.slice(0, inf.indexOf('-se')) : inf;
         const persons = [];
-        conjugations.map((c,i) => {            
-            switch(tense) {
-                case Tense.present:
-                case Tense.imperfect:
-                case Tense.preterite:
-                case Tense.pluperfect:
-                    switch(i){
-                        case 0: persons[0] = `${c}-me`;
-                        case 1: persons[1] = `${c}-te`;
-                        case 2: persons[2] = `${c}-se`;
-                        case 3: persons[3] = `${c.slice(0, c.length -1)}-nos`;
-                        case 4: persons[4] = `${c}-vos`;
-                        case 5: persons[5] = `${c}-se`;
-                    }
-                    break;
-                case Tense.future:
-                    switch(i){
-                        case 0: persons[0] = `${inf}-me-ei`;
-                        case 1: persons[1] = `${inf}-te-ás`;
-                        case 2: persons[2] = `${inf}-se-á`;
-                        case 3: persons[3] = `${inf}-nos-emos`;
-                        case 4: persons[4] = `${inf}-vos-eis`;
-                        case 5: persons[5] = `${inf}-se-ão`;
-                    }
-                    break;
-                case Tense.conditional:
-                    switch(i){
-                        case 0: persons[0] = `${inf}-me-ia`;
-                        case 1: persons[1] = `${inf}-te-ias`;
-                        case 2: persons[2] = `${inf}-se-ia`;
-                        case 3: persons[3] = `${inf}-nos-íamos`;
-                        case 4: persons[4] = `${inf}-vos-íeis`;
-                        case 5: persons[5] = `${inf}-se-iam`;
-                    }
-                    break;
-                    case Tense.present_subjunctive:
-                    case Tense.imperfect_subjunctive:
-                    case Tense.future_subjunctive:
+        switch(language) {
+            case Language.pt:
+                conjugations.map((c,i) => {            
+                    switch(tense) {
+                        case Tense.present:
+                        case Tense.imperfect:
+                        case Tense.preterite:
+                        case Tense.pluperfect:
                             switch(i){
-                                case 0: persons[0] = `me ${c}`;
-                                case 1: persons[1] = `te ${c}`;
-                                case 2: persons[2] = `se ${c}`;
-                                case 3: persons[3] = `nos ${c}`;
-                                case 4: persons[4] = `vos ${c}`;
-                                case 5: persons[5] = `se ${c}`;
+                                case 0: persons[0] = `${c}-me`;
+                                case 1: persons[1] = `${c}-te`;
+                                case 2: persons[2] = `${c}-se`;
+                                case 3: persons[3] = `${c.slice(0, c.length -1)}-nos`;
+                                case 4: persons[4] = `${c}-vos`;
+                                case 5: persons[5] = `${c}-se`;
                             }
-                    break;
-                    default: return c;
-            } 
-        });
+                            break;
+                        case Tense.future:
+                            switch(i){
+                                case 0: persons[0] = `${inf}-me-ei`;
+                                case 1: persons[1] = `${inf}-te-ás`;
+                                case 2: persons[2] = `${inf}-se-á`;
+                                case 3: persons[3] = `${inf}-nos-emos`;
+                                case 4: persons[4] = `${inf}-vos-eis`;
+                                case 5: persons[5] = `${inf}-se-ão`;
+                            }
+                            break;
+                        case Tense.conditional:
+                            switch(i){
+                                case 0: persons[0] = `${inf}-me-ia`;
+                                case 1: persons[1] = `${inf}-te-ias`;
+                                case 2: persons[2] = `${inf}-se-ia`;
+                                case 3: persons[3] = `${inf}-nos-íamos`;
+                                case 4: persons[4] = `${inf}-vos-íeis`;
+                                case 5: persons[5] = `${inf}-se-iam`;
+                            }
+                            break;
+                            case Tense.present_subjunctive:
+                            case Tense.imperfect_subjunctive:
+                            case Tense.future_subjunctive:
+                                    switch(i){
+                                        case 0: persons[0] = `me ${c}`;
+                                        case 1: persons[1] = `te ${c}`;
+                                        case 2: persons[2] = `se ${c}`;
+                                        case 3: persons[3] = `nos ${c}`;
+                                        case 4: persons[4] = `vos ${c}`;
+                                        case 5: persons[5] = `se ${c}`;
+                                    }
+                            break;
+                            default: return c;
+                    } 
+                });
+                break;
+        }
         return persons;
     },
-    getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive, inf}) {
-        const conjugations = likeConjugations[tense].map(p => p.replace(likeRoot, root));
-        const tenseConjugations = isReflexive 
-            ? this.makeReflexive({conjugations, tense, inf})
-            : conjugations;
-        return tenseConjugations;
+    getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive, inf, language}) {
+        if(likeConjugations[tense] !== undefined) {
+            const conjugations = likeConjugations[tense].map(p => p.replace(likeRoot, root));
+            const tenseConjugations = isReflexive 
+                ? this.makeReflexive({conjugations, tense, inf, language})
+                : conjugations;
+            return tenseConjugations;
+        } else {
+            return undefined;
+        }
     },
-    getConjugationsFromLike({likeRoot, likeConjugations, root, tenses = ['present'], isReflexive = false, inf}) {
+    getConjugationsFromLike({likeRoot, likeConjugations, root, tenses = [Tense.present], isReflexive = false, inf, language}) {
         let conjugations = {};
         tenses.filter(t => t).forEach(tense => {
-            let nextTense = this.getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive, inf});
-            conjugations[tense] = nextTense;
+            let nextTense = this.getConjugationsFromLikeByTense({likeRoot, likeConjugations, root, tense, isReflexive, inf, language});
+            if(nextTense !== undefined) {
+                conjugations[tense] = nextTense;
+            }
         });
         return conjugations;
     },
-    getTenses() {
-        return data.getTenses();
+    getTenses(language) {
+        return data.getTenses(language);
     },
     getIsReflexive(inf) {
         return (inf.indexOf('-se') > -1);
@@ -225,7 +237,7 @@ export const api = {
         });
         return jugations;
     },
-    async getConjugations({inf, language = Language.pt, tenses = data.getTenses().map(t => t.en), tense = 'present', isReflexive = this.getIsReflexive(inf)}) {
+    async getConjugations({inf, language = Language.pt, tenses = data.getTenses(language), tense = Tense.present, isReflexive = this.getIsReflexive(inf)}) {
         let like, likeRoot, likeConjugations, root;
         let { conjugations, partials } = await data.getConjugations({inf, language, tenses, tense});
         if(conjugations) {
@@ -236,7 +248,7 @@ export const api = {
             likeRoot = this.getRoot(like, language);
             likeConjugations = await this.getConjugations({ inf: like, language, tenses, tense });
             root = this.getRoot(inf, language);
-            conjugations = this.getConjugationsFromLike({likeRoot, likeConjugations, root, tenses, isReflexive, inf});
+            conjugations = this.getConjugationsFromLike({likeRoot, likeConjugations, root, tenses, isReflexive, inf, language});
             conjugations = !!partials 
                 ? this.mergePartials(conjugations, partials) : conjugations;
             return this.mergeLikeWithVerb({inf, like, conjugations});

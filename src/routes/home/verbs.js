@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Language, DrillState, Choice, Pronoun_PT, Pronoun_Display_PT, VerbGroup, Tense } from '../../logic/enums';
+import { DrillState, Choice, Pronoun_PT, Tense } from '../../logic/enums';
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
@@ -12,23 +12,17 @@ import { utils } from '../../utils/utils';
 
 const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
-    const createNewlesson = language => {
-        let _lesson = new Lesson();
-            _lesson.updateProps({language: { from: Language.en, to: language }, tenses: [Tense.present] });
-        return _lesson;
-    };
-
-    console.log(language)
+    const defaults = utils.getLessonDefaults({lesson: new Lesson(), choice, language });
 
     const [inputVerbs, setInputVerbs] = useState(() => verbs);
-    const [inputVerbGroups, setInputVerbGroups] = useState(() => Object.keys(VerbGroup).map(key => VerbGroup[key]));
+    const [inputVerbGroups, setInputVerbGroups] = useState(() => defaults.verbGroups);
     const [inputTenses, setInputTenses] = useState(() => tenses);
-    const [selectedPronoun, setSelectedPronoun] = useState('random pronoun');
-    const [selectedVerbGroup, setSelectedVerbGroup] = useState(VerbGroup.irregular_verbs);
+    const [selectedPronoun, setSelectedPronoun] = useState(defaults.selectedPronoun);
+    const [selectedVerbGroup, setSelectedVerbGroup] = useState(null);
     const [fixedDrills, setFixedDrills] = useState(() => api.getSetDrills(language));
     const [showConjugation, setShowConjugation] = useState(() => false);
     const [selectedTense, setSelectedTense] = useState(Tense.present);
-    const [lesson, setLesson] = useState(createNewlesson(language));
+    const [lesson, setLesson] = useState(defaults.lesson);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
 
     const handleVerbPicked = verb => {
@@ -115,7 +109,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
     return (
         <>
         <section class="header-block">
-            <h1>{ utils.getLessonTitle(choice, language) }</h1>
+            <h1>{ defaults.title }</h1>
         </section>
         <div class="home">          
           <div class="columns">
@@ -124,7 +118,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                     {
                         choice === Choice.drills
                             ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getDisplayPronouns(language)} />                     
+                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getLongPronouns(language)} />                     
                     }
                     {
                         <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>

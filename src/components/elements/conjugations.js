@@ -1,7 +1,8 @@
 import { ConjugationList } from './lists';
-import { Tense } from '../../logic/enums.js'
+import { Language, Tense } from '../../logic/enums.js'
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { api } from '../../api/api';
+import { utils } from '../../utils/utils';
 
 export const compareActualConjugationWithRegularInfConjugation = async ({actual, inf, language}) => {
 
@@ -13,11 +14,23 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     let regularRoot;
     let isReflexive;
 
-    switch(ending) {
-        case 'ar': regularInf = 'falar'; break;
-        case 'er': regularInf = 'vender'; break;
-        case 'ir': regularInf = 'partir'; break;
-        default: regularInf = null;
+    switch(language) {
+        case Language.pt:
+        switch(ending) {
+            case 'ar': regularInf = 'falar'; break;
+            case 'er': regularInf = 'vender'; break;
+            case 'ir': regularInf = 'partir'; break;
+            default: regularInf = null;
+        }
+        break;
+        case Language.es:
+        switch(ending) {
+            case 'ar': regularInf = 'hablar'; break;
+            case 'er': regularInf = 'comer'; break;
+            case 'ir': regularInf = 'vivir'; break;
+            default: regularInf = null;
+        }
+        break;
     }
 
     if(regularInf) {
@@ -27,17 +40,28 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
         isReflexive = false;
     } else {        
         ending = inf.slice(inf.length - 5);
-        switch(ending) {
-            case 'ar-se': regularInf = 'falar'; break;
-            case 'er-se': regularInf = 'vender'; break;
-            case 'ir-se': regularInf = 'partir'; break;
+        switch(language) {
+            case language.pt:
+            switch(ending) {
+                case 'ar-se': regularInf = 'falar'; break;
+                case 'er-se': regularInf = 'vender'; break;
+                case 'ir-se': regularInf = 'partir'; break;
+            }
+            break;
+            case language.es:
+            switch(ending) {
+                case 'ar-se': regularInf = 'hablar'; break;
+                case 'er-se': regularInf = 'comer'; break;
+                case 'ir-se': regularInf = 'vivir'; break;
+            }
+            break;
         }
         root = inf.slice(0, inf.length - 5);
         regularRoot = regularInf.slice(0, regularInf.length - 2);
         regular = conjugations.find(c => c.i === regularInf);
         let regularReflexive = {};
         Object.keys(Tense).map(key => {
-             regularReflexive[Tense[key]] = api.makeReflexive({ conjugations: regular[Tense[key]], tense: Tense[key], inf: regularInf });
+             regularReflexive[Tense[key]] = api.makeReflexive({ conjugations: regular[Tense[key]], tense: Tense[key], inf: regularInf, language });
         });
         regular = regularReflexive;
         isReflexive = true;
@@ -45,27 +69,30 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
 
     let _conjugations = {};
 
-    const getExpected = (regularExpected, regularRoot, isReflexive, root, tense, person) => {
+    const getExpected = (regularExpected, regularRoot, isReflexive, root, tense, person, language) => {
         let ending, expected;
         if(isReflexive) {
-            switch(tense) {
-                case Tense.present_subjunctive:
-                case Tense.imperfect_subjunctive:
-                case Tense.future_subjunctive:
-                    ending = regularExpected.split(' ')[1];
-                    ending = ending.slice(regularRoot.length);
-                    switch(person){
-                        case 0: expected = `me ${root}${ending}`; break;
-                        case 1: expected = `te ${root}${ending}`; break;
-                        case 2: expected = `se ${root}${ending}`; break;
-                        case 3: expected = `nos ${root}${ending}`; break;
-                        case 4: expected = `vos ${root}${ending}`; break;
-                        case 5: expected = `se ${root}${ending}`; break;
-                    }           
-                return expected;         
-                default:
-                    ending = regularExpected.slice(regularRoot.length);
-                    return root + ending;        
+            switch(language) {
+                case language.pt:
+                switch(tense) {
+                    case Tense.present_subjunctive:
+                    case Tense.imperfect_subjunctive:
+                    case Tense.future_subjunctive:
+                        ending = regularExpected.split(' ')[1];
+                        ending = ending.slice(regularRoot.length);
+                        switch(person){
+                            case 0: expected = `me ${root}${ending}`; break;
+                            case 1: expected = `te ${root}${ending}`; break;
+                            case 2: expected = `se ${root}${ending}`; break;
+                            case 3: expected = `nos ${root}${ending}`; break;
+                            case 4: expected = `vos ${root}${ending}`; break;
+                            case 5: expected = `se ${root}${ending}`; break;
+                        }           
+                    return expected;         
+                    default:
+                        ending = regularExpected.slice(regularRoot.length);
+                        return root + ending;        
+                }
             }
         } else {
             ending = regularExpected.slice(regularRoot.length);
@@ -78,7 +105,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
             const pronouns = [];
             actual[tense].forEach((conjugation, i) => {
                 const regularExpected = regular[tense][i];
-                const expected = getExpected(regularExpected, regularRoot, isReflexive, root, tense, i);
+                const expected = getExpected(regularExpected, regularRoot, isReflexive, root, tense, i, language);
                 const pronoun = {
                     form: conjugation,
                     isIrregular: conjugation !== expected
@@ -101,7 +128,7 @@ export const Conjugations = ({drill, language}) => {
         setComparedConjugations(comparedConjugations);
     }, []);
 
-    let tenses = Object.keys({ ...Tense });
+    let tenses = utils.getTensesByLanguage(language);
         tenses = tenses.map(t => t.replace('_', ' '));
     
      return (

@@ -370,13 +370,39 @@ describe('use mergeLikeWithVerb to determine the new root for like verbs', () =>
 });
 
 describe('tests for es', () => {
+    let verb = 'hablar', conjugations;
     test('check getLike lookup is valid', async () => {
         let like = await api.getLike('hablar', Language.es);
         expect(like).toBe('hablar');
     }); 
-    test('check one step conjugation lookup is valid', async() => {
-        const verb = 'hablar';
+    test('check one step conjugation lookup is valid', async() => {        
         const conjugations = await api.getConjugations({ inf:verb, language: Language.es});
         expect(conjugations.present[0]).toBe('hablo');
+    });
+    test('check -ar verbs, with no like, follow the pattern in present tense', async() => {
+        verb = 'tomar';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.es});
+        expect(conjugations.present[0]).toBe('tomo');
+        expect(conjugations.present[1]).toBe('tomas');
+        expect(conjugations.present[2]).toBe('toma');
+        expect(conjugations.present[3]).toBe('tomamos');
+        expect(conjugations.present[4]).toBe('tomáis');
+        expect(conjugations.present[5]).toBe('toman');
+        verb = 'aprender';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.es});
+        expect(conjugations.present[0]).toBe('aprendo');
+        expect(conjugations.present[1]).toBe('aprendes');
+        expect(conjugations.present[2]).toBe('aprende');
+        expect(conjugations.present[3]).toBe('aprendemos');
+        expect(conjugations.present[4]).toBe('aprendéis');
+        expect(conjugations.present[5]).toBe('aprenden');
+        verb = 'aplaudir';
+        conjugations = await api.getConjugations({ inf: verb, language: Language.es});
+        expect(conjugations.present[0]).toBe('aplaudo');
+        expect(conjugations.present[1]).toBe('aplaudes');
+        expect(conjugations.present[2]).toBe('aplaude');
+        expect(conjugations.present[3]).toBe('aplaudimos');
+        expect(conjugations.present[4]).toBe('aplaudís');
+        expect(conjugations.present[5]).toBe('aplauden');
     });
 });

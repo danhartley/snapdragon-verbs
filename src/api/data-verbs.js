@@ -3297,6 +3297,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'comer'
+            },
+            es: {
+                i: 'comer',
+                like: 'comer'
             }
         }, {
             en: {
@@ -13522,13 +13526,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
             }
         }, {
             en: {
-                i: 'to learn'
-            },
-            es: {
-                i: 'aprender'
-            }
-        }, {
-            en: {
                 i: 'to make good use of'
             },
             es: {
@@ -14079,14 +14076,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             es: {
                 i: 'comentar'
-            }
-        }, {
-            en: {
-                i: 'to eat'
-            },
-            es: {
-                i: 'comer',
-                like: 'comer'
             }
         }, {
             en: {
@@ -15186,13 +15175,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             es: {
                 i: 'habituarse'
-            }
-        }, {
-            en: {
-                i: 'to speak'
-            },
-            es: {
-                i: 'hablar'
             }
         }, {
             en: {
