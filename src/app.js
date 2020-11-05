@@ -11,23 +11,19 @@ import Verbs from './routes/home/verbs';
 
 const App = () => {
 
-    const GLOBAL_LANGUAGE = Language.pt;
-
-    let savedVerbs;
-    
     const getVerbs = async language => {
-        savedVerbs = await api.getVerbs();
-        savedVerbs = savedVerbs.map(verb => {
+        let verbs = await api.getVerbs();
+        verbs = verbs.map(verb => {
             return verb[language] ? verb[language].i : undefined;
-        });
-        setVerbs(savedVerbs.filter(v => v));
+        }).filter(v => v).sort();        
+        setVerbs(verbs);
     };
 
     const defaultDate = Date.parse(new Date(2020,0,1));
 
     const [language, setLanguage] = useState(Language_NAV.pt);
     const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate, language);
-    const [verbs, setVerbs] = useLocalStorageState('verbs', [], language);
+    const [verbs, setVerbs] = useState([]);
     const [tenses, setTenses] = useState(() => api.getTenses(language));
     const [choice, setChoice] = useState(Choice.drills);
     const [drill, setDrill] = useState(null);
@@ -38,11 +34,12 @@ const App = () => {
         const timeDiff = Math.abs(Date.now() - new Date(lastVisit));
         const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); 
     
+        getVerbs(language);
+
         if(verbs.length === 0 || daysDiff > 1) { 
-            getVerbs(language);
             setLastVisit(Date.now());
         };
-    }, [verbs]);
+    }, [language]);
 
     const handleSetChoice = id => {
         setChoice(id);

@@ -82,12 +82,12 @@ const getTensesByLanguage = language => {
             tenses = tenses.filter(tense => tense !== Tense.past_perfect);
             tenses = tenses.filter(tense => tense !== Tense.past_anterior);
             tenses = tenses.filter(tense => tense !== Tense.future_perfect);
-            tenses = tenses.filter(tense => tense !== Tense.present_perfect_subjunctive);
+            tenses = tenses.filter(tense => tense !== Tense.perfect_subjunctive);
             tenses = tenses.filter(tense => tense !== Tense.pluperfect_subjunctive);
             tenses = tenses.filter(tense => tense !== Tense.future_perfect_subjunctive);
             break;
         case Language.es:
-            tenses = tenses.filter(tense => tense !== Tense.future_perfect_subjunctive);
+            // tenses = tenses.filter(tense => tense !== Tense.future_perfect_subjunctive);
             tenses = tenses.filter(tense => tense !== Tense.future_subjunctive);
             break;
         default:

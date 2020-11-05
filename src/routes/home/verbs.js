@@ -12,9 +12,11 @@ import { utils } from '../../utils/utils';
 
 const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
+    // verbs.map(v => console.log(v))
+    console.log(language)
+
     const defaults = utils.getLessonDefaults({lesson: new Lesson(), choice, language });
 
-    const [inputVerbs, setInputVerbs] = useState(() => verbs);
     const [inputVerbGroups, setInputVerbGroups] = useState(() => defaults.verbGroups);
     const [inputTenses, setInputTenses] = useState(() => tenses);
     const [selectedPronoun, setSelectedPronoun] = useState(defaults.selectedPronoun);
@@ -125,8 +127,8 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                     }
                     {
                         choice === Choice.drills
-                            ? <Picker itemToString={item => item ? item : ''} items={inputVerbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                            : <Picker itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
+                            ? <Picker key={verbs} itemToString={item => item ? item : ''} items={verbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
+                            : <Picker key={verbs} itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
                     }
                     {
                         choice === Choice.drills

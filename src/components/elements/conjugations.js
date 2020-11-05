@@ -101,7 +101,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     };
 
     Object.keys(actual).map(tense => {
-        if(tense !== 'i') {
+        if(tense !== 'i' && tense !== 'gerund' && tense !== 'participle') {
             const pronouns = [];
             actual[tense].forEach((conjugation, i) => {
                 const regularExpected = regular[tense][i];

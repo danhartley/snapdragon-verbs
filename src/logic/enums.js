@@ -90,9 +90,9 @@ export class Tense extends Enumify {
     static imperfect_subjunctive = 'imperfect subjunctive';
     static future_subjunctive = 'future subjunctive';
     
-    static present_perfect_subjunctive = 'present perfect subjunctive';
+    static perfect_subjunctive = 'perfect subjunctive';
     static pluperfect_subjunctive = 'pluperfect subjunctive';
-    static future_perfect_subjunctive = 'future perfect subjunctive';
+    // static future_perfect_subjunctive = 'future perfect subjunctive';
 }
 
 export class Choice extends Enumify {

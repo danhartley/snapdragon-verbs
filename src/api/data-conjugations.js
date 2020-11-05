@@ -1,5 +1,5 @@
 import { Language } from "../logic/enums";
-import { esConjugations } from './es/conjugations';
+import { esConjugations, esPartials } from './es/conjugations';
 
 const conjugations = { 
     pt: [        
@@ -2058,7 +2058,7 @@ const conjugations = {
                 'hablareis',
                 'hablaren',
             ],
-            'present perfect subjunctive': [
+            'perfect subjunctive': [
                 'haya hablado',
                 'hayas hablado',
                 'haya hablado',
@@ -2074,14 +2074,16 @@ const conjugations = {
                 'hubierais hablado',
                 'hubieran hablado',
             ],
-            'future perfect subjunctive': [
-                'hubiere hablado',
-                'hubieres hablado',
-                'hubiere hablado',
-                'hubiéremos hablado',
-                'hubiereis hablado',
-                'hubieren hablado',
-            ]
+            // 'future perfect subjunctive': [
+            //     'hubiere hablado',
+            //     'hubieres hablado',
+            //     'hubiere hablado',
+            //     'hubiéremos hablado',
+            //     'hubiereis hablado',
+            //     'hubieren hablado',
+            // ],
+            gerund: 'hablando',
+            participle: 'hablado'
         },
         {
             i: 'comer',
@@ -2181,7 +2183,7 @@ const conjugations = {
                 'comiereis',
                 'comieren',
             ],
-            'present perfect subjunctive': [
+            'perfect subjunctive': [
                 'haya comido',
                 'hayas comido',
                 'haya comido',
@@ -2197,14 +2199,16 @@ const conjugations = {
                 'hubierais comido',
                 'hubieran comido',
             ],
-            'future perfect subjunctive': [
-                'hubiere comido',
-                'hubieres comido',
-                'hubiere comido',
-                'hubiéremos comido',
-                'hubiereis comido',
-                'hubieren comido',
-            ]
+            // 'future perfect subjunctive': [
+            //     'hubiere comido',
+            //     'hubieres comido',
+            //     'hubiere comido',
+            //     'hubiéremos comido',
+            //     'hubiereis comido',
+            //     'hubieren comido',
+            // ],
+            gerund: 'comiendo',
+            participle: 'comido'
         },
         {
             i: 'vivir',
@@ -2304,7 +2308,7 @@ const conjugations = {
                 'viviereis',
                 'vivieren',
             ],
-            'present perfect subjunctive': [
+            'perfect subjunctive': [
                 'haya vivido',
                 'hayas vivido',
                 'haya vivido',
@@ -2320,14 +2324,16 @@ const conjugations = {
                 'hubierais vivido',
                 'hubieran vivido',
             ],
-            'future perfect subjunctive': [
-                'hubiere vivido',
-                'hubieres vivido',
-                'hubiere vivido',
-                'hubiéremos vivido',
-                'hubiereis vivido',
-                'hubieren vivido',
-            ]
+            // 'future perfect subjunctive': [
+            //     'hubiere vivido',
+            //     'hubieres vivido',
+            //     'hubiere vivido',
+            //     'hubiéremos vivido',
+            //     'hubiereis vivido',
+            //     'hubieren vivido',
+            // ],
+            gerund: 'viviendo',
+            participle: 'vivido'
         },
     ]
 };
@@ -3168,7 +3174,9 @@ const conjugations = {
             present: ['ergo','','','','','']
         },
     ],
-    es: []
+    es: [
+        ...esPartials
+    ]
 };
 
 export const getVerbConjugations = (language = Language.pt) => {

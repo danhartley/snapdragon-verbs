@@ -2453,7 +2453,7 @@ export const getVerbsList = (inf, language = Language.pt) => {
             }
         }, {
             en: {
-                i: 'to put'
+                i: 'to throw'
             },
             pt: {
                 i: 'botar'
@@ -2957,7 +2957,8 @@ export const getVerbsList = (inf, language = Language.pt) => {
                 i: 'chegar'
             },
             es: {
-                i: 'llegar'
+                i: 'llegar',
+                like: 'llegar'
             }
         }, {
             en: {
@@ -4304,6 +4305,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'dar',
                 'like': 'dar'
+            },
+            es: {
+                i: 'dar'
             }
         }, {
             en: {
@@ -5324,6 +5328,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'dizer',
                 'like': 'dizer'
+            },
+            es: {
+                i: 'decir',
+                like: 'decir'
             }
         }, {
             en: {
@@ -6977,6 +6985,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'fazer',
                 'like': 'fazer'
+            },
+            es: {
+                i: 'hacer'
             }
         }, {
             en: {
@@ -8453,6 +8464,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'ir'
+            },
+            es: {
+                i: 'ir',
+                like: 'ir'
             }
         }, {
             en: {
@@ -9688,6 +9703,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'ouvir',
                 'like': 'ouvir'
+            },
+            es: {
+                i: 'oír',
+                like: 'oír'
             }
         }, {
             en: {
@@ -9882,7 +9901,17 @@ export const getVerbsList = (inf, language = Language.pt) => {
             es: {
                 i: 'preguntar'
             }
-        }, {
+        }, 
+        {
+            en: {
+                i: 'to ask for'
+            },
+            es: {
+                i: 'pedir',
+                like: 'pedir',
+            }
+        },
+        {
             en: {
                 i: 'to '
             },
@@ -10158,6 +10187,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'poder',
                 'like': 'poder'
+            },
+            es: {
+                i: 'poder',
+                'like': 'poder'
             }
         }, {
             en: {
@@ -10194,6 +10227,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'pôr',
                 'like': 'pôr'
+            },
+            es: {
+                i: 'poner'
             }
         }, {
             en: {
@@ -12499,7 +12535,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
         }, {
             en: {
                 i: 'to have',
-                'like': 'to have'
             },
             pt: {
                 i: 'ter',
@@ -13251,3060 +13286,2993 @@ export const getVerbsList = (inf, language = Language.pt) => {
                 i: 'zombar'
             }
         }, // spanish singles from here 
-        {
-            en: {
-                i: 'to supply'
-            },
-            es: {
-                i: 'abastar'
-            }
-        }, {
-            en: {
-                i: 'to absorb'
-            },
-            es: {
-                i: 'absorber'
-            }
-        }, {
-            en: {
-                i: 'abound'
-            },
-            es: {
-                i: 'abundar'
-            }
-        }, {
-            en: {
-                i: 'to affect'
-            },
-            es: {
-                i: 'afectar'
-            }
-        }, {
-            en: {
-                i: 'to alarm'
-            },
-            es: {
-                i: 'alarmar'
-            }
-        }, {
-            en: {
-                i: 'to get alarmed'
-            },
-            es: {
-                i: 'alarmarse'
-            }
-        }, {
-            en: {
-                i: 'to catch'
-            },
-            es: {
-                i: 'alcanzar'
-            }
-        }, {
-            en: {
-                i: 'to cheer up'
-            },
-            es: {
-                i: 'alegrar'
-            }
-        }, {
-            en: {
-                i: 'to be glad'
-            },
-            es: {
-                i: 'alegrarse'
-            }
-        }, {
-            en: {
-                i: 'to move away'
-            },
-            es: {
-                i: 'alejar'
-            }
-        }, {
-            en: {
-                i: 'to go away'
-            },
-            es: {
-                i: 'alejarse'
-            }
-        }, {
-            en: {
-                i: 'to alert'
-            },
-            es: {
-                i: 'alertar'
-            }
-        }, {
-            en: {
-                i: 'to feed'
-            },
-            es: {
-                i: 'alimentar'
-            }
-        }, {
-            en: {
-                i: 'to ease'
-            },
-            es: {
-                i: 'aliviar'
-            }
-        }, {
-            en: {
-                i: 'to lodge'
-            },
-            es: {
-                i: 'alojar'
-            }
-        }, {
-            en: {
-                i: 'to be lodged'
-            },
-            es: {
-                i: 'alojarse'
-            }
-        }, {
-            en: {
-                i: 'to rent'
-            },
-            es: {
-                i: 'alquilar'
-            }
-        }, {
-            en: {
-                i: 'to alter'
-            },
-            es: {
-                i: 'alterar'
-            }
-        }, {
-            en: {
-                i: 'to light up'
-            },
-            es: {
-                i: 'alumbrar'
-            }
-        }, {
-            en: {
-                i: 'to lift'
-            },
-            es: {
-                i: 'alzar'
-            }
-        }, {
-            en: {
-                i: 'to love'
-            },
-            es: {
-                i: 'amar'
-            }
-        }, {
-            en: {
-                i: 'to aspire to'
-            },
-            es: {
-                i: 'ambicionar'
-            }
-        }, {
-            en: {
-                i: 'to threaten'
-            },
-            es: {
-                i: 'amenazar'
-            }
-        }, {
-            en: {
-                i: 'to analyse'
-            },
-            es: {
-                i: 'analizar'
-            }
-        }, {
-            en: {
-                i: 'to walk'
-            },
-            es: {
-                i: 'andar'
-            }
-        }, {
-            en: {
-                i: 'to cheer up'
-            },
-            es: {
-                i: 'animar'
-            }
-        }, {
-            en: {
-                i: 'to annotate'
-            },
-            es: {
-                i: 'anotar'
-            }
-        }, {
-            en: {
-                i: 'to cancel'
-            },
-            es: {
-                i: 'anular'
-            }
-        }, {
-            en: {
-                i: 'to announce'
-            },
-            es: {
-                i: 'anunciar'
-            }
-        }, {
-            en: {
-                i: 'to add'
-            },
-            es: {
-                i: 'añadir'
-            }
-        }, {
-            en: {
-                i: 'to turn off'
-            },
-            es: {
-                i: 'apagar'
-            }
-        }, {
-            en: {
-                i: 'to park'
-            },
-            es: {
-                i: 'aparcar'
-            }
-        }, {
-            en: {
-                i: 'to separate'
-            },
-            es: {
-                i: 'apartar'
-            }
-        }, {
-            en: {
-                i: 'to part'
-            },
-            es: {
-                i: 'apartarse'
-            }
-        }, {
-            en: {
-                i: 'to pile up'
-            },
-            es: {
-                i: 'apilar'
-            }
-        }, {
-            en: {
-                i: 'to flatten'
-            },
-            es: {
-                i: 'aplastar'
-            }
-        }, {
-            en: {
-                i: 'to applaud'
-            },
-            es: {
-                i: 'aplaudir'
-            }
-        }, {
-            en: {
-                i: 'to postpone'
-            },
-            es: {
-                i: 'aplazar'
-            }
-        }, {
-            en: {
-                i: 'to apply'
-            },
-            es: {
-                i: 'aplicar'
-            }
-        }, {
-            en: {
-                i: 'to make good use of'
-            },
-            es: {
-                i: 'aprovechar'
-            }
-        }, {
-            en: {
-                i: 'to use'
-            },
-            es: {
-                i: 'aprovecharse'
-            }
-        }, {
-            en: {
-                i: 'to take note'
-            },
-            es: {
-                i: 'apuntar'
-            }
-        }, {
-            en: {
-                i: 'to sign on'
-            },
-            es: {
-                i: 'apuntarse'
-            }
-        }, {
-            en: {
-                i: 'to stab'
-            },
-            es: {
-                i: 'apuñalar'
-            }
-        }, {
-            en: {
-                i: 'to file'
-            },
-            es: {
-                i: 'archivar'
-            }
-        }, {
-            en: {
-                i: 'to burn'
-            },
-            es: {
-                i: 'arder'
-            }
-        }, {
-            en: {
-                i: 'to fix up'
-            },
-            es: {
-                i: 'arreglar'
-            }
-        }, {
-            en: {
-                i: 'to arrest'
-            },
-            es: {
-                i: 'arrestar'
-            }
-        }, {
-            en: {
-                i: 'to risk'
-            },
-            es: {
-                i: 'arriesgar'
-            }
-        }, {
-            en: {
-                i: 'to throw'
-            },
-            es: {
-                i: 'arrojar'
-            }
-        }, {
-            en: {
-                i: 'to cover'
-            },
-            es: {
-                i: 'arropar'
-            }
-        }, {
-            en: {
-                i: 'to wrap o.s up'
-            },
-            es: {
-                i: 'arroparse'
-            }
-        }, {
-            en: {
-                i: 'to ruin'
-            },
-            es: {
-                i: 'arruinar'
-            }
-        }, {
-            en: {
-                i: 'to be ruined'
-            },
-            es: {
-                i: 'arruinarse'
-            }
-        }, {
-            en: {
-                i: 'to roast'
-            },
-            es: {
-                i: 'asar'
-            }
-        }, {
-            en: {
-                i: 'to clean up'
-            },
-            es: {
-                i: 'asear'
-            }
-        }, {
-            en: {
-                i: 'to tidy o.s up'
-            },
-            es: {
-                i: 'asearse'
-            }
-        }, {
-            en: {
-                i: 'to secure'
-            },
-            es: {
-                i: 'asegurar'
-            }
-        }, {
-            en: {
-                i: 'to be alike'
-            },
-            es: {
-                i: 'asemejar'
-            }
-        }, {
-            en: {
-                i: 'to be alike'
-            },
-            es: {
-                i: 'asemejarse'
-            }
-        }, {
-            en: {
-                i: 'to murder'
-            },
-            es: {
-                i: 'asesinar'
-            }
-        }, {
-            en: {
-                i: 'to advise'
-            },
-            es: {
-                i: 'asesorar'
-            }
-        }, {
-            en: {
-                i: 'to assimilate'
-            },
-            es: {
-                i: 'asimilar'
-            }
-        }, {
-            en: {
-                i: 'to attend'
-            },
-            es: {
-                i: 'asistir'
-            }
-        }, {
-            en: {
-                i: 'to associate'
-            },
-            es: {
-                i: 'asociar'
-            }
-        }, {
-            en: {
-                i: 'to frighten'
-            },
-            es: {
-                i: 'asustar'
-            }
-        }, {
-            en: {
-                i: 'to attack'
-            },
-            es: {
-                i: 'atacar'
-            }
-        }, {
-            en: {
-                i: 'to tie (up)'
-            },
-            es: {
-                i: 'atar'
-            }
-        }, {
-            en: {
-                i: 'to land'
-            },
-            es: {
-                i: 'aterrizar'
-            }
-        }, {
-            en: {
-                i: 'to terrify'
-            },
-            es: {
-                i: 'aterrorizar'
-            }
-        }, {
-            en: {
-                i: 'to trap'
-            },
-            es: {
-                i: 'atrapar'
-            }
-        }, {
-            en: {
-                i: 'to slow down'
-            },
-            es: {
-                i: 'atrasar'
-            }
-        }, {
-            en: {
-                i: 'to increase'
-            },
-            es: {
-                i: 'aumentar'
-            }
-        }, {
-            en: {
-                i: 'to advance'
-            },
-            es: {
-                i: 'avanzar'
-            }
-        }, {
-            en: {
-                i: 'to find out'
-            },
-            es: {
-                i: 'averiguar'
-            }
-        }, {
-            en: {
-                i: 'to warn'
-            },
-            es: {
-                i: 'avisar'
-            }
-        }, {
-            en: {
-                i: 'to help'
-            },
-            es: {
-                i: 'ayudar'
-            }
-        }, {
-            en: {
-                i: 'to dance'
-            },
-            es: {
-                i: 'bailar'
-            }
-        }, {
-            en: {
-                i: 'to lower'
-            },
-            es: {
-                i: 'bajar'
-            }
-        }, {
-            en: {
-                i: 'to balance'
-            },
-            es: {
-                i: 'balancear'
-            }
-        }, {
-            en: {
-                i: 'to bathe'
-            },
-            es: {
-                i: 'bañar'
-            }
-        }, {
-            en: {
-                i: 'to sweep'
-            },
-            es: {
-                i: 'barrer'
-            }
-        }, {
-            en: {
-                i: 'to drink'
-            },
-            es: {
-                i: 'beber'
-            }
-        }, {
-            en: {
-                i: 'to kiss'
-            },
-            es: {
-                i: 'besar'
-            }
-        }, {
-            en: {
-                i: 'to block'
-            },
-            es: {
-                i: 'bloquear'
-            }
-        }, {
-            en: {
-                i: 'to erase'
-            },
-            es: {
-                i: 'borrar'
-            }
-        }, {
-            en: {
-                i: 'to yawn'
-            },
-            es: {
-                i: 'bostezar'
-            }
-        }, {
-            en: {
-                i: 'to bounce'
-            },
-            es: {
-                i: 'botar'
-            }
-        }, {
-            en: {
-                i: 'to box'
-            },
-            es: {
-                i: 'boxear'
-            }
-        }, {
-            en: {
-                i: 'to toast'
-            },
-            es: {
-                i: 'brindar'
-            }
-        }, {
-            en: {
-                i: 'to joke'
-            },
-            es: {
-                i: 'bromear'
-            }
-        }, {
-            en: {
-                i: 'to dive'
-            },
-            es: {
-                i: 'bucear'
-            }
-        }, {
-            en: {
-                i: 'to look for'
-            },
-            es: {
-                i: 'buscar'
-            }
-        }, {
-            en: {
-                i: 'to shit'
-            },
-            es: {
-                i: 'cagar'
-            }
-        }, {
-            en: {
-                i: 'to calculate'
-            },
-            es: {
-                i: 'calcular'
-            }
-        }, {
-            en: {
-                i: 'to change'
-            },
-            es: {
-                i: 'cambiar'
-            }
-        }, {
-            en: {
-                i: 'to walk'
-            },
-            es: {
-                i: 'caminar'
-            }
-        }, {
-            en: {
-                i: 'to cancel'
-            },
-            es: {
-                i: 'cancelar'
-            }
-        }, {
-            en: {
-                i: 'to get tired'
-            },
-            es: {
-                i: 'cansarse'
-            }
-        }, {
-            en: {
-                i: 'to sing'
-            },
-            es: {
-                i: 'cantar'
-            }
-        }, {
-            en: {
-                i: 'to characterize'
-            },
-            es: {
-                i: 'caracterizar'
-            }
-        }, {
-            en: {
-                i: 'to marry'
-            },
-            es: {
-                i: 'casar'
-            }
-        }, {
-            en: {
-                i: 'to celebrate'
-            },
-            es: {
-                i: 'celebrar'
-            }
-        }, {
-            en: {
-                i: 'to have for supper'
-            },
-            es: {
-                i: 'cenar'
-            }
-        }, {
-            en: {
-                i: 'to certify'
-            },
-            es: {
-                i: 'certificar'
-            }
-        }, {
-            en: {
-                i: 'to break down'
-            },
-            es: {
-                i: 'changarse'
-            }
-        }, {
-            en: {
-                i: 'to blackmail'
-            },
-            es: {
-                i: 'chantajear'
-            }
-        }, {
-            en: {
-                i: 'to chat'
-            },
-            es: {
-                i: 'charlar'
-            }
-        }, {
-            en: {
-                i: 'to scream'
-            },
-            es: {
-                i: 'chillar'
-            }
-        }, {
-            en: {
-                i: 'to crash'
-            },
-            es: {
-                i: 'chocar'
-            }
-        }, {
-            en: {
-                i: 'to classify'
-            },
-            es: {
-                i: 'clasificar'
-            }
-        }, {
-            en: {
-                i: 'to charge'
-            },
-            es: {
-                i: 'cobrar'
-            }
-        }, {
-            en: {
-                i: 'to cook'
-            },
-            es: {
-                i: 'cocinar'
-            }
-        }, {
-            en: {
-                i: 'to coincide'
-            },
-            es: {
-                i: 'coincidir'
-            }
-        }, {
-            en: {
-                i: 'to collaborate'
-            },
-            es: {
-                i: 'colaborar'
-            }
-        }, {
-            en: {
-                i: 'to place'
-            },
-            es: {
-                i: 'colocar'
-            }
-        }, {
-            en: {
-                i: 'to combine'
-            },
-            es: {
-                i: 'combinar'
-            }
-        }, {
-            en: {
-                i: 'to comment'
-            },
-            es: {
-                i: 'comentar'
-            }
-        }, {
-            en: {
-                i: 'to commercialize'
-            },
-            es: {
-                i: 'comercializar'
-            }
-        }, {
-            en: {
-                i: 'to compare'
-            },
-            es: {
-                i: 'comparar'
-            }
-        }, {
-            en: {
-                i: 'to share'
-            },
-            es: {
-                i: 'compartir'
-            }
-        }, {
-            en: {
-                i: 'to complete'
-            },
-            es: {
-                i: 'completar'
-            }
-        }, {
-            en: {
-                i: 'to complicate'
-            },
-            es: {
-                i: 'complicar'
-            }
-        }, {
-            en: {
-                i: 'to behave'
-            },
-            es: {
-                i: 'comportar'
-            }
-        }, {
-            en: {
-                i: 'to buy'
-            },
-            es: {
-                i: 'comprar'
-            }
-        }, {
-            en: {
-                i: 'to understand'
-            },
-            es: {
-                i: 'comprender'
-            }
-        }, {
-            en: {
-                i: 'to communicate'
-            },
-            es: {
-                i: 'comunicar'
-            }
-        }, {
-            en: {
-                i: 'to concede'
-            },
-            es: {
-                i: 'conceder'
-            }
-        }, {
-            en: {
-                i: 'to concentrate'
-            },
-            es: {
-                i: 'concentrar'
-            }
-        }, {
-            en: {
-                i: 'to connect'
-            },
-            es: {
-                i: 'conectar'
-            }
-        }, {
-            en: {
-                i: 'to trust'
-            },
-            es: {
-                i: 'confiar'
-            }
-        }, {
-            en: {
-                i: 'to confirm'
-            },
-            es: {
-                i: 'confirmar'
-            }
-        }, {
-            en: {
-                i: 'to confuse'
-            },
-            es: {
-                i: 'confundir'
-            }
-        }, {
-            en: {
-                i: 'to convey'
-            },
-            es: {
-                i: 'conllevar'
-            }
-        }, {
-            en: {
-                i: 'to conserve'
-            },
-            es: {
-                i: 'conservar'
-            }
-        }, {
-            en: {
-                i: 'to consider'
-            },
-            es: {
-                i: 'considerar'
-            }
-        }, {
-            en: {
-                i: 'to consist of'
-            },
-            es: {
-                i: 'consistir'
-            }
-        }, {
-            en: {
-                i: 'to consolidate'
-            },
-            es: {
-                i: 'consolidar'
-            }
-        }, {
-            en: {
-                i: 'to consult'
-            },
-            es: {
-                i: 'consultar'
-            }
-        }, {
-            en: {
-                i: 'to consume'
-            },
-            es: {
-                i: 'consumir'
-            }
-        }, {
-            en: {
-                i: 'to enter in the accounts'
-            },
-            es: {
-                i: 'contabilizar'
-            }
-        }, {
-            en: {
-                i: 'to contact'
-            },
-            es: {
-                i: 'contactar'
-            }
-        }, {
-            en: {
-                i: 'to transmit'
-            },
-            es: {
-                i: 'contagiar'
-            }
-        }, {
-            en: {
-                i: 'to contaminate'
-            },
-            es: {
-                i: 'contaminar'
-            }
-        }, {
-            en: {
-                i: 'to contemplate'
-            },
-            es: {
-                i: 'contemplar'
-            }
-        }, {
-            en: {
-                i: 'to answer'
-            },
-            es: {
-                i: 'contestar'
-            }
-        }, {
-            en: {
-                i: 'to continue'
-            },
-            es: {
-                i: 'continuar'
-            }
-        }, {
-            en: {
-                i: 'to contrast'
-            },
-            es: {
-                i: 'contrastar'
-            }
-        }, {
-            en: {
-                i: 'to contract for'
-            },
-            es: {
-                i: 'contratar'
-            }
-        }, {
-            en: {
-                i: 'to control'
-            },
-            es: {
-                i: 'controlar'
-            }
-        }, {
-            en: {
-                i: 'to live together'
-            },
-            es: {
-                i: 'convivir'
-            }
-        }, {
-            en: {
-                i: 'to convoke'
-            },
-            es: {
-                i: 'convocar'
-            }
-        }, {
-            en: {
-                i: 'to cooperate'
-            },
-            es: {
-                i: 'cooperar'
-            }
-        }, {
-            en: {
-                i: 'to copy'
-            },
-            es: {
-                i: 'copiar'
-            }
-        }, {
-            en: {
-                i: 'to flirt'
-            },
-            es: {
-                i: 'coquetear'
-            }
-        }, {
-            en: {
-                i: 'to run'
-            },
-            es: {
-                i: 'correr'
-            }
-        }, {
-            en: {
-                i: 'to correspond'
-            },
-            es: {
-                i: 'corresponder'
-            }
-        }, {
-            en: {
-                i: 'to cut'
-            },
-            es: {
-                i: 'cortar'
-            }
-        }, {
-            en: {
-                i: 'to sew'
-            },
-            es: {
-                i: 'coser'
-            }
-        }, {
-            en: {
-                i: 'to create'
-            },
-            es: {
-                i: 'crear'
-            }
-        }, {
-            en: {
-                i: 'to believe'
-            },
-            es: {
-                i: 'creer'
-            }
-        }, {
-            en: {
-                i: 'to bring up'
-            },
-            es: {
-                i: 'criar'
-            }
-        }, {
-            en: {
-                i: 'to criticize'
-            },
-            es: {
-                i: 'criticar'
-            }
-        }, {
-            en: {
-                i: 'to cross'
-            },
-            es: {
-                i: 'cruzar'
-            }
-        }, {
-            en: {
-                i: 'to cover'
-            },
-            es: {
-                i: 'cubrir'
-            }
-        }, {
-            en: {
-                i: 'to question'
-            },
-            es: {
-                i: 'cuestionar'
-            }
-        }, {
-            en: {
-                i: 'to look after'
-            },
-            es: {
-                i: 'cuidar'
-            }
-        }, {
-            en: {
-                i: 'to blame'
-            },
-            es: {
-                i: 'culpar'
-            }
-        }, {
-            en: {
-                i: 'to cultivate'
-            },
-            es: {
-                i: 'cultivar'
-            }
-        }, {
-            en: {
-                i: 'to educate'
-            },
-            es: {
-                i: 'culturizar'
-            }
-        }, {
-            en: {
-                i: 'to fulfil'
-            },
-            es: {
-                i: 'cumplir'
-            }
-        }, {
-            en: {
-                i: 'to cure'
-            },
-            es: {
-                i: 'curar'
-            }
-        }, {
-            en: {
-                i: 'to glance at'
-            },
-            es: {
-                i: 'curiosear'
-            }
-        }, {
-            en: {
-                i: 'to damage'
-            },
-            es: {
-                i: 'dañar'
-            }
-        }, {
-            en: {
-                i: 'to owe'
-            },
-            es: {
-                i: 'deber'
-            }
-        }, {
-            en: {
-                i: 'to decide'
-            },
-            es: {
-                i: 'decidir'
-            }
-        }, {
-            en: {
-                i: 'to decide'
-            },
-            es: {
-                i: 'dedicar'
-            }
-        }, {
-            en: {
-                i: 'to deform'
-            },
-            es: {
-                i: 'deformar'
-            }
-        }, {
-            en: {
-                i: 'to leave'
-            },
-            es: {
-                i: 'dejar'
-            }
-        }, {
-            en: {
-                i: 'to depend'
-            },
-            es: {
-                i: 'depender'
-            }
-        }, {
-            en: {
-                i: 'to depress'
-            },
-            es: {
-                i: 'deprimir'
-            }
-        }, {
-            en: {
-                i: 'to derive'
-            },
-            es: {
-                i: 'derivar'
-            }
-        }, {
-            en: {
-                i: 'to spill'
-            },
-            es: {
-                i: 'derramar'
-            }
-        }, {
-            en: {
-                i: 'to beat'
-            },
-            es: {
-                i: 'derrotar'
-            }
-        }, {
-            en: {
-                i: 'to challenge'
-            },
-            es: {
-                i: 'desafiar'
-            }
-        }, {
-            en: {
-                i: 'to develop'
-            },
-            es: {
-                i: 'desarrollar'
-            }
-        }, {
-            en: {
-                i: 'to have breakfast'
-            },
-            es: {
-                i: 'desayunar'
-            }
-        }, {
-            en: {
-                i: 'to rest'
-            },
-            es: {
-                i: 'descansar'
-            }
-        }, {
-            en: {
-                i: 'to unload'
-            },
-            es: {
-                i: 'descargar'
-            }
-        }, {
-            en: {
-                i: 'to decipher'
-            },
-            es: {
-                i: 'descifrar'
-            }
-        }, {
-            en: {
-                i: 'to describe'
-            },
-            es: {
-                i: 'describir'
-            }
-        }, {
-            en: {
-                i: 'to discover'
-            },
-            es: {
-                i: 'descubrir'
-            }
-        }, {
-            en: {
-                i: 'to neglect'
-            },
-            es: {
-                i: 'descuidar'
-            }
-        }, {
-            en: {
-                i: 'to desire'
-            },
-            es: {
-                i: 'desear'
-            }
-        }, {
-            en: {
-                i: 'to perform'
-            },
-            es: {
-                i: 'desempeñar'
-            }
-        }, {
-            en: {
-                i: 'to unscrew'
-            },
-            es: {
-                i: 'desenroscar'
-            }
-        }, {
-            en: {
-                i: 'to designate'
-            },
-            es: {
-                i: 'designar'
-            }
-        }, {
-            en: {
-                i: 'to desist'
-            },
-            es: {
-                i: 'desistir'
-            }
-        }, {
-            en: {
-                i: 'to undress'
-            },
-            es: {
-                i: 'desnudar'
-            }
-        }, {
-            en: {
-                i: 'to displace'
-            },
-            es: {
-                i: 'desplazar'
-            }
-        }, {
-            en: {
-                i: 'to despise'
-            },
-            es: {
-                i: 'despreciar'
-            }
-        }, {
-            en: {
-                i: 'to uncover'
-            },
-            es: {
-                i: 'destapar'
-            }
-        }, {
-            en: {
-                i: 'to smash'
-            },
-            es: {
-                i: 'destrozar'
-            }
-        }, {
-            en: {
-                i: 'to detest'
-            },
-            es: {
-                i: 'detestar'
-            }
-        }, {
-            en: {
-                i: 'to discuss'
-            },
-            es: {
-                i: 'discutir'
-            }
-        }, {
-            en: {
-                i: 'to enjoy'
-            },
-            es: {
-                i: 'disfrutar'
-            }
-        }, {
-            en: {
-                i: 'to annoy'
-            },
-            es: {
-                i: 'disgustar'
-            }
-        }, {
-            en: {
-                i: 'to shoot'
-            },
-            es: {
-                i: 'disparar'
-            }
-        }, {
-            en: {
-                i: 'to divide'
-            },
-            es: {
-                i: 'dividir'
-            }
-        }, {
-            en: {
-                i: 'to fold'
-            },
-            es: {
-                i: 'doblar'
-            }
-        }, {
-            en: {
-                i: 'to have a shower'
-            },
-            es: {
-                i: 'ducharse'
-            }
-        }, {
-            en: {
-                i: 'to doubt'
-            },
-            es: {
-                i: 'dudar'
-            }
-        }, {
-            en: {
-                i: 'to throw'
-            },
-            es: {
-                i: 'echar'
-            }
-        }, {
-            en: {
-                i: 'to educate'
-            },
-            es: {
-                i: 'educar'
-            }
-        }, {
-            en: {
-                i: 'to effect'
-            },
-            es: {
-                i: 'efectuar'
-            }
-        }, {
-            en: {
-                i: 'to execute'
-            },
-            es: {
-                i: 'ejecutar'
-            }
-        }, {
-            en: {
-                i: 'to elaborate'
-            },
-            es: {
-                i: 'elaborar'
-            }
-        }, {
-            en: {
-                i: 'to raise'
-            },
-            es: {
-                i: 'elevar'
-            }
-        }, {
-            en: {
-                i: 'to eliminate'
-            },
-            es: {
-                i: 'eliminar'
-            }
-        }, {
-            en: {
-                i: 'to praise'
-            },
-            es: {
-                i: 'elogiar'
-            }
-        }, {
-            en: {
-                i: 'to get drunk'
-            },
-            es: {
-                i: 'emborracharse'
-            }
-        }, {
-            en: {
-                i: 'to emit'
-            },
-            es: {
-                i: 'emitir'
-            }
-        }, {
-            en: {
-                i: 'to excite'
-            },
-            es: {
-                i: 'emocionar'
-            }
-        }, {
-            en: {
-                i: 'to employ'
-            },
-            es: {
-                i: 'emplear'
-            }
-        }, {
-            en: {
-                i: 'to undertake'
-            },
-            es: {
-                i: 'emprender'
-            }
-        }, {
-            en: {
-                i: 'to push'
-            },
-            es: {
-                i: 'empujar'
-            }
-        }, {
-            en: {
-                i: 'to fall in love'
-            },
-            es: {
-                i: 'enamorarse'
-            }
-        }, {
-            en: {
-                i: 'to place an order'
-            },
-            es: {
-                i: 'encargar'
-            }
-        }, {
-            en: {
-                i: 'to get angry'
-            },
-            es: {
-                i: 'enfadarse'
-            }
-        }, {
-            en: {
-                i: 'to get ill'
-            },
-            es: {
-                i: 'enfermarse'
-            }
-        }, {
-            en: {
-                i: 'to deceive'
-            },
-            es: {
-                i: 'engañar'
-            }
-        }, {
-            en: {
-                i: 'to soil'
-            },
-            es: {
-                i: 'ensuciar'
-            }
-        }, {
-            en: {
-                i: 'to get in'
-            },
-            es: {
-                i: 'entrar'
-            }
-        }, {
-            en: {
-                i: 'to send'
-            },
-            es: {
-                i: 'enviar'
-            }
-        }, {
-            en: {
-                i: 'to be wrong'
-            },
-            es: {
-                i: 'equivocarse'
-            }
-        }, {
-            en: {
-                i: 'to escape'
-            },
-            es: {
-                i: 'escapar'
-            }
-        }, {
-            en: {
-                i: 'to write'
-            },
-            es: {
-                i: 'escribir'
-            }
-        }, {
-            en: {
-                i: 'to listen to'
-            },
-            es: {
-                i: 'escuchar'
-            }
-        }, {
-            en: {
-                i: 'to hope for'
-            },
-            es: {
-                i: 'esperar'
-            }
-        }, {
-            en: {
-                i: 'to ski'
-            },
-            es: {
-                i: 'esquiar'
-            }
-        }, {
-            en: {
-                i: 'to sneeze'
-            },
-            es: {
-                i: 'estornudar'
-            }
-        }, {
-            en: {
-                i: 'to study'
-            },
-            es: {
-                i: 'estudiar'
-            }
-        }, {
-            en: {
-                i: 'to evaluate'
-            },
-            es: {
-                i: 'evaluar'
-            }
-        }, {
-            en: {
-                i: 'to avoid'
-            },
-            es: {
-                i: 'evitar'
-            }
-        }, {
-            en: {
-                i: 'to examine'
-            },
-            es: {
-                i: 'examinar'
-            }
-        }, {
-            en: {
-                i: 'to excite'
-            },
-            es: {
-                i: 'excitar'
-            }
-        }, {
-            en: {
-                i: 'to exist'
-            },
-            es: {
-                i: 'existir'
-            }
-        }, {
-            en: {
-                i: 'to explain'
-            },
-            es: {
-                i: 'explicar'
-            }
-        }, {
-            en: {
-                i: 'to express'
-            },
-            es: {
-                i: 'expresar'
-            }
-        }, {
-            en: {
-                i: 'to make'
-            },
-            es: {
-                i: 'fabricar'
-            }
-        }, {
-            en: {
-                i: 'to facilitate'
-            },
-            es: {
-                i: 'facilitar'
-            }
-        }, {
-            en: {
-                i: 'to fascinate'
-            },
-            es: {
-                i: 'fascinar'
-            }
-        }, {
-            en: {
-                i: 'to annoy'
-            },
-            es: {
-                i: 'fastidiar'
-            }
-        }, {
-            en: {
-                i: 'to congratulate'
-            },
-            es: {
-                i: 'felicitar'
-            }
-        }, {
-            en: {
-                i: 'to end'
-            },
-            es: {
-                i: 'finalizar'
-            }
-        }, {
-            en: {
-                i: 'to sign'
-            },
-            es: {
-                i: 'firmar'
-            }
-        }, {
-            en: {
-                i: 'to formalize'
-            },
-            es: {
-                i: 'formalizar'
-            }
-        }, {
-            en: {
-                i: 'to form'
-            },
-            es: {
-                i: 'formar'
-            }
-        }, {
-            en: {
-                i: 'to break'
-            },
-            es: {
-                i: 'frenar'
-            }
-        }, {
-            en: {
-                i: 'to smoke'
-            },
-            es: {
-                i: 'fumar'
-            }
-        }, {
-            en: {
-                i: 'to function'
-            },
-            es: {
-                i: 'funcionar'
-            }
-        }, {
-            en: {
-                i: 'to gain'
-            },
-            es: {
-                i: 'ganar'
-            }
-        }, {
-            en: {
-                i: 'to guarantee'
-            },
-            es: {
-                i: 'garantizar'
-            }
-        }, {
-            en: {
-                i: 'to spend'
-            },
-            es: {
-                i: 'gastar'
-            }
-        }, {
-            en: {
-                i: 'to generalize'
-            },
-            es: {
-                i: 'generalizar'
-            }
-        }, {
-            en: {
-                i: 'to generate'
-            },
-            es: {
-                i: 'generar'
-            }
-        }, {
-            en: {
-                i: 'to turn'
-            },
-            es: {
-                i: 'girar'
-            }
-        }, {
-            en: {
-                i: 'to hit'
-            },
-            es: {
-                i: 'golpear'
-            }
-        }, {
-            en: {
-                i: 'to shout'
-            },
-            es: {
-                i: 'gritar'
-            }
-        }, {
-            en: {
-                i: 'to keep'
-            },
-            es: {
-                i: 'guardar'
-            }
-        }, {
-            en: {
-                i: 'to guide'
-            },
-            es: {
-                i: 'guiar'
-            }
-        }, {
-            en: {
-                i: 'to like'
-            },
-            es: {
-                i: 'gustar'
-            }
-        }, {
-            en: {
-                i: 'to inhabit'
-            },
-            es: {
-                i: 'habitar'
-            }
-        }, {
-            en: {
-                i: 'to accustom'
-            },
-            es: {
-                i: 'habituar'
-            }
-        }, {
-            en: {
-                i: 'to get used to'
-            },
-            es: {
-                i: 'habituarse'
-            }
-        }, {
-            en: {
-                i: 'to humiliate'
-            },
-            es: {
-                i: 'humillar'
-            }
-        }, {
-            en: {
-                i: 'to idealize'
-            },
-            es: {
-                i: 'idealizar'
-            }
-        }, {
-            en: {
-                i: 'to think up'
-            },
-            es: {
-                i: 'idear'
-            }
-        }, {
-            en: {
-                i: 'to identify'
-            },
-            es: {
-                i: 'identificar'
-            }
-        }, {
-            en: {
-                i: 'to identify o.s. with'
-            },
-            es: {
-                i: 'identificarse'
-            }
-        }, {
-            en: {
-                i: 'to print'
-            },
-            es: {
-                i: 'imprimir'
-            }
-        }, {
-            en: {
-                i: 'to indicate'
-            },
-            es: {
-                i: 'indicar'
-            }
-        }, {
-            en: {
-                i: 'to inform'
-            },
-            es: {
-                i: 'informar'
-            }
-        }, {
-            en: {
-                i: 'to initiate'
-            },
-            es: {
-                i: 'iniciar'
-            }
-        }, {
-            en: {
-                i: 'to insist'
-            },
-            es: {
-                i: 'insistir'
-            }
-        }, {
-            en: {
-                i: 'to install'
-            },
-            es: {
-                i: 'instalar'
-            }
-        }, {
-            en: {
-                i: 'to insult'
-            },
-            es: {
-                i: 'insultar'
-            }
-        }, {
-            en: {
-                i: 'to try'
-            },
-            es: {
-                i: 'intentar'
-            }
-        }, {
-            en: {
-                i: 'to interest'
-            },
-            es: {
-                i: 'interesar'
-            }
-        }, {
-            en: {
-                i: 'to interrupt'
-            },
-            es: {
-                i: 'interrumpir'
-            }
-        }, {
-            en: {
-                i: 'to invent'
-            },
-            es: {
-                i: 'inventar'
-            }
-        }, {
-            en: {
-                i: 'to invite'
-            },
-            es: {
-                i: 'invitar'
-            }
-        }, {
-            en: {
-                i: 'to join'
-            },
-            es: {
-                i: 'juntar'
-            }
-        }, {
-            en: {
-                i: 'to swear'
-            },
-            es: {
-                i: 'jurar'
-            }
-        }, {
-            en: {
-                i: 'to justify'
-            },
-            es: {
-                i: 'justificar'
-            }
-        }, {
-            en: {
-                i: 'to judge'
-            },
-            es: {
-                i: 'juzgar'
-            }
-        }, {
-            en: {
-                i: 'to measure in kilometres'
-            },
-            es: {
-                i: 'kilometrar'
-            }
-        }, {
-            en: {
-                i: 'to throw'
-            },
-            es: {
-                i: 'lanzar'
-            }
-        }, {
-            en: {
-                i: 'to wash'
-            },
-            es: {
-                i: 'lavar'
-            }
-        }, {
-            en: {
-                i: 'to wash'
-            },
-            es: {
-                i: 'lavarse'
-            }
-        }, {
-            en: {
-                i: 'to read'
-            },
-            es: {
-                i: 'leer'
-            }
-        }, {
-            en: {
-                i: 'to raise'
-            },
-            es: {
-                i: 'levantar'
-            }
-        }, {
-            en: {
-                i: 'to get up'
-            },
-            es: {
-                i: 'levantarse'
-            }
-        }, {
-            en: {
-                i: 'to limit'
-            },
-            es: {
-                i: 'limitar'
-            }
-        }, {
-            en: {
-                i: 'to clean'
-            },
-            es: {
-                i: 'limpiar'
-            }
-        }, {
-            en: {
-                i: 'to call'
-            },
-            es: {
-                i: 'llamar'
-            }
-        }, {
-            en: {
-                i: 'to be called'
-            },
-            es: {
-                i: 'llamarse'
-            }
-        }, {
-            en: {
-                i: 'to arrive'
-            },
-            es: {
-                i: 'llegar'
-            }
-        }, {
-            en: {
-                i: 'to fill'
-            },
-            es: {
-                i: 'llenar'
-            }
-        }, {
-            en: {
-                i: 'to carry'
-            },
-            es: {
-                i: 'llevar'
-            }
-        }, {
-            en: {
-                i: 'to cry'
-            },
-            es: {
-                i: 'llorar'
-            }
-        }, {
-            en: {
-                i: 'to fight'
-            },
-            es: {
-                i: 'luchar'
-            }
-        }, {
-            en: {
-                i: 'to dirty'
-            },
-            es: {
-                i: 'manchar'
-            }
-        }, {
-            en: {
-                i: 'to get dirty'
-            },
-            es: {
-                i: 'mancharse'
-            }
-        }, {
-            en: {
-                i: 'to order'
-            },
-            es: {
-                i: 'mandar'
-            }
-        }, {
-            en: {
-                i: 'to kill'
-            },
-            es: {
-                i: 'matar'
-            }
-        }, {
-            en: {
-                i: 'to improve'
-            },
-            es: {
-                i: 'mejorar'
-            }
-        }, {
-            en: {
-                i: 'to memorize'
-            },
-            es: {
-                i: 'memorizar'
-            }
-        }, {
-            en: {
-                i: 'to insert'
-            },
-            es: {
-                i: 'meter'
-            }
-        }, {
-            en: {
-                i: 'to look at'
-            },
-            es: {
-                i: 'mirar'
-            }
-        }, {
-            en: {
-                i: 'to modify'
-            },
-            es: {
-                i: 'modificar'
-            }
-        }, {
-            en: {
-                i: 'to wet'
-            },
-            es: {
-                i: 'mojar'
-            }
-        }, {
-            en: {
-                i: 'to annoy'
-            },
-            es: {
-                i: 'molestar'
-            }
-        }, {
-            en: {
-                i: 'to wet'
-            },
-            es: {
-                i: 'nadar'
-            }
-        }, {
-            en: {
-                i: 'to narrate'
-            },
-            es: {
-                i: 'narrar'
-            }
-        }, {
-            en: {
-                i: 'to need'
-            },
-            es: {
-                i: 'necesitar'
-            }
-        }, {
-            en: {
-                i: 'to negotiate'
-            },
-            es: {
-                i: 'negociar'
-            }
-        }, {
-            en: {
-                i: 'to name'
-            },
-            es: {
-                i: 'nombrar'
-            }
-        }, {
-            en: {
-                i: 'to number'
-            },
-            es: {
-                i: 'numerar'
-            }
-        }, {
-            en: {
-                i: 'to observe'
-            },
-            es: {
-                i: 'observar'
-            }
-        }, {
-            en: {
-                i: 'to hate'
-            },
-            es: {
-                i: 'odiar'
-            }
-        }, {
-            en: {
-                i: 'to offend'
-            },
-            es: {
-                i: 'ofender'
-            }
-        }, {
-            en: {
-                i: 'to forget'
-            },
-            es: {
-                i: 'olvidar'
-            }
-        }, {
-            en: {
-                i: 'to omit'
-            },
-            es: {
-                i: 'omitir'
-            }
-        }, {
-            en: {
-                i: 'to think'
-            },
-            es: {
-                i: 'opinar'
-            }
-        }, {
-            en: {
-                i: 'to organize'
-            },
-            es: {
-                i: 'organizar'
-            }
-        }, {
-            en: {
-                i: 'to orientate'
-            },
-            es: {
-                i: 'orientar'
-            }
-        }, {
-            en: {
-                i: 'to originate'
-            },
-            es: {
-                i: 'originar'
-            }
-        }, {
-            en: {
-                i: 'to pay'
-            },
-            es: {
-                i: 'pagar'
-            }
-        }, {
-            en: {
-                i: 'to stop'
-            },
-            es: {
-                i: 'parar'
-            }
-        }, {
-            en: {
-                i: 'to split up'
-            },
-            es: {
-                i: 'partir'
-            }
-        }, {
-            en: {
-                i: 'to pass'
-            },
-            es: {
-                i: 'pasar'
-            }
-        }, {
-            en: {
-                i: 'to walk'
-            },
-            es: {
-                i: 'pasear'
-            }
-        }, {
-            en: {
-                i: 'to pardon'
-            },
-            es: {
-                i: 'perdonar'
-            }
-        }, {
-            en: {
-                i: 'to permit'
-            },
-            es: {
-                i: 'permitir'
-            }
-        }, {
-            en: {
-                i: 'to iron'
-            },
-            es: {
-                i: 'planchar'
-            }
-        }, {
-            en: {
-                i: 'to plan'
-            },
-            es: {
-                i: 'planear'
-            }
-        }, {
-            en: {
-                i: 'to possess'
-            },
-            es: {
-                i: 'poseer'
-            }
-        }, {
-            en: {
-                i: 'to practise'
-            },
-            es: {
-                i: 'practicar'
-            }
-        }, {
-            en: {
-                i: 'to precede'
-            },
-            es: {
-                i: 'preceder'
-            }
-        }, {
-            en: {
-                i: 'to ask'
-            },
-            es: {
-                i: 'preguntar'
-            }
-        }, {
-            en: {
-                i: 'to prepare'
-            },
-            es: {
-                i: 'preparar'
-            }
-        }, {
-            en: {
-                i: 'to lend'
-            },
-            es: {
-                i: 'prestar'
-            }
-        }, {
-            en: {
-                i: 'to plan'
-            },
-            es: {
-                i: 'programar'
-            }
-        }, {
-            en: {
-                i: 'to progress'
-            },
-            es: {
-                i: 'progresar'
-            }
-        }, {
-            en: {
-                i: 'to prohibit'
-            },
-            es: {
-                i: 'prohibir'
-            }
-        }, {
-            en: {
-                i: 'to pronounce'
-            },
-            es: {
-                i: 'pronunciar'
-            }
-        }, {
-            en: {
-                i: 'to protest'
-            },
-            es: {
-                i: 'protestar'
-            }
-        }, {
-            en: {
-                i: 'to provoke'
-            },
-            es: {
-                i: 'provocar'
-            }
-        }, {
-            en: {
-                i: 'to press'
-            },
-            es: {
-                i: 'pulsar'
-            }
-        }, {
-            en: {
-                i: 'to stay'
-            },
-            es: {
-                i: 'quedar'
-            }
-        }, {
-            en: {
-                i: 'to keep'
-            },
-            es: {
-                i: 'quedarse'
-            }
-        }, {
-            en: {
-                i: 'to complain'
-            },
-            es: {
-                i: 'quejarse'
-            }
-        }, {
-            en: {
-                i: 'to burn'
-            },
-            es: {
-                i: 'quemar'
-            }
-        }, {
-            en: {
-                i: 'to take away'
-            },
-            es: {
-                i: 'quitar'
-            }
-        }, {
-            en: {
-                i: 'to remove o.s.'
-            },
-            es: {
-                i: 'quitarse'
-            }
-        }, {
-            en: {
-                i: 'to reason'
-            },
-            es: {
-                i: 'razonar'
-            }
-        }, {
-            en: {
-                i: 'to reject'
-            },
-            es: {
-                i: 'rechazar'
-            }
-        }, {
-            en: {
-                i: 'to receive'
-            },
-            es: {
-                i: 'recibir'
-            }
-        }, {
-            en: {
-                i: 'to recuperate'
-            },
-            es: {
-                i: 'recuperarse'
-            }
-        }, {
-            en: {
-                i: 'to return'
-            },
-            es: {
-                i: 'regresar'
-            }
-        }, {
-            en: {
-                i: 'to relate'
-            },
-            es: {
-                i: 'relacionar'
-            }
-        }, {
-            en: {
-                i: 'to be related'
-            },
-            es: {
-                i: 'relacionarse'
-            }
-        }, {
-            en: {
-                i: 'to relax'
-            },
-            es: {
-                i: 'relajar'
-            }
-        }, {
-            en: {
-                i: 'to relax'
-            },
-            es: {
-                i: 'relajarse'
-            }
-        }, {
-            en: {
-                i: 'to repair'
-            },
-            es: {
-                i: 'reparar'
-            }
-        }, {
-            en: {
-                i: 'to distribute'
-            },
-            es: {
-                i: 'repartir'
-            }
-        }, {
-            en: {
-                i: 'to revise'
-            },
-            es: {
-                i: 'repasar'
-            }
-        }, {
-            en: {
-                i: 'to represent'
-            },
-            es: {
-                i: 'representar'
-            }
-        }, {
-            en: {
-                i: 'to reserve'
-            },
-            es: {
-                i: 'reservar'
-            }
-        }, {
-            en: {
-                i: 'to catch a cold'
-            },
-            es: {
-                i: 'resfriarse'
-            }
-        }, {
-            en: {
-                i: 'to resist'
-            },
-            es: {
-                i: 'resistir'
-            }
-        }, {
-            en: {
-                i: 'to respect'
-            },
-            es: {
-                i: 'respetar'
-            }
-        }, {
-            en: {
-                i: 'to breathe'
-            },
-            es: {
-                i: 'respirar'
-            }
-        }, {
-            en: {
-                i: 'to answer'
-            },
-            es: {
-                i: 'responder'
-            }
-        }, {
-            en: {
-                i: 'to take away'
-            },
-            es: {
-                i: 'restar'
-            }
-        }, {
-            en: {
-                i: 'to turn out to be'
-            },
-            es: {
-                i: 'resultar'
-            }
-        }, {
-            en: {
-                i: 'to summarize'
-            },
-            es: {
-                i: 'resumir'
-            }
-        }, {
-            en: {
-                i: 'to delay'
-            },
-            es: {
-                i: 'retrasar'
-            }
-        }, {
-            en: {
-                i: 'to reunite'
-            },
-            es: {
-                i: 'reunir'
-            }
-        }, {
-            en: {
-                i: 'to revolutionize'
-            },
-            es: {
-                i: 'revolucionar'
-            }
-        }, {
-            en: {
-                i: 'to rob'
-            },
-            es: {
-                i: 'robar'
-            }
-        }, {
-            en: {
-                i: 'to break'
-            },
-            es: {
-                i: 'romper'
-            }
-        }, {
-            en: {
-                i: 'to take out'
-            },
-            es: {
-                i: 'sacar'
-            }
-        }, {
-            en: {
-                i: 'to jump'
-            },
-            es: {
-                i: 'saltar'
-            }
-        }, {
-            en: {
-                i: 'to greet'
-            },
-            es: {
-                i: 'saludar'
-            }
-        }, {
-            en: {
-                i: 'to pick'
-            },
-            es: {
-                i: 'seleccionar'
-            }
-        }, {
-            en: {
-                i: 'to separate'
-            },
-            es: {
-                i: 'separar'
-            }
-        }, {
-            en: {
-                i: 'to place'
-            },
-            es: {
-                i: 'situar'
-            }
-        }, {
-            en: {
-                i: 'to solve'
-            },
-            es: {
-                i: 'solucionar'
-            }
-        }, {
-            en: {
-                i: 'to support'
-            },
-            es: {
-                i: 'soportar'
-            }
-        }, {
-            en: {
-                i: 'to surprise'
-            },
-            es: {
-                i: 'sorprender'
-            }
-        }, {
-            en: {
-                i: 'to raise'
-            },
-            es: {
-                i: 'subir'
-            }
-        }, {
-            en: {
-                i: 'to happen'
-            },
-            es: {
-                i: 'suceder'
-            }
-        }, {
-            en: {
-                i: 'to overcome'
-            },
-            es: {
-                i: 'superar'
-            }
-        }, {
-            en: {
-                i: 'to suspend'
-            },
-            es: {
-                i: 'suspender'
-            }
-        }, {
-            en: {
-                i: 'to cover'
-            },
-            es: {
-                i: 'tapar'
-            }
-        }, {
-            en: {
-                i: 'to fear'
-            },
-            es: {
-                i: 'temer'
-            }
-        }, {
-            en: {
-                i: 'to end'
-            },
-            es: {
-                i: 'terminar'
-            }
-        }, {
-            en: {
-                i: 'to throw'
-            },
-            es: {
-                i: 'tirar'
-            }
-        }, {
-            en: {
-                i: 'to touch'
-            },
-            es: {
-                i: 'tocar'
-            }
-        }, {
-            en: {
-                i: 'to touch each other'
-            },
-            es: {
-                i: 'tocarse'
-            }
-        }, {
-            en: {
-                i: 'to tolerate'
-            },
-            es: {
-                i: 'tolerar'
-            }
-        }, {
-            en: {
-                i: 'to take'
-            },
-            es: {
-                i: 'tomar'
-            }
-        }, {
-            en: {
-                i: 'to work'
-            },
-            es: {
-                i: 'trabajar'
-            }
-        }, {
-            en: {
-                i: 'to swallow'
-            },
-            es: {
-                i: 'tragar'
-            }
-        }, {
-            en: {
-                i: 'to transform'
-            },
-            es: {
-                i: 'transformar'
-            }
-        }, {
-            en: {
-                i: 'to transmit'
-            },
-            es: {
-                i: 'transmitir'
-            }
-        }, {
-            en: {
-                i: 'to transport'
-            },
-            es: {
-                i: 'transportar'
-            }
-        }, {
-            en: {
-                i: 'to move'
-            },
-            es: {
-                i: 'trasladar'
-            }
-        }, {
-            en: {
-                i: 'to treat'
-            },
-            es: {
-                i: 'tratar'
-            }
-        }, {
-            en: {
-                i: 'to join'
-            },
-            es: {
-                i: 'unir'
-            }
-        }, {
-            en: {
-                i: 'to use'
-            },
-            es: {
-                i: 'usar'
-            }
-        }, {
-            en: {
-                i: 'to use'
-            },
-            es: {
-                i: 'utilizar'
-            }
-        }, {
-            en: {
-                i: 'to empty'
-            },
-            es: {
-                i: 'vaciar'
-            }
-        }, {
-            en: {
-                i: 'to value'
-            },
-            es: {
-                i: 'valorar'
-            }
-        }, {
-            en: {
-                i: 'to vary'
-            },
-            es: {
-                i: 'variar'
-            }
-        }, {
-            en: {
-                i: 'to sell'
-            },
-            es: {
-                i: 'vender'
-            }
-        }, {
-            en: {
-                i: 'to see'
-            },
-            es: {
-                i: 'ver'
-            }
-        }, {
-            en: {
-                i: 'to travel'
-            },
-            es: {
-                i: 'viajar'
-            }
-        }, {
-            en: {
-                i: 'to watch'
-            },
-            es: {
-                i: 'vigilar'
-            }
-        }, {
-            en: {
-                i: 'to visit'
-            },
-            es: {
-                i: 'visitar'
-            }
-        }, {
-            en: {
-                i: 'to live'
-            },
-            es: {
-                i: 'vivir',
-                like: 'vivir'
-            }
-        }, {
-            en: {
-                i: 'to vomit'
-            },
-            es: {
-                i: 'vomitar'
-            }
-        }, {
-            en: {
-                i: 'to vote'
-            },
-            es: {
-                i: 'votar'
-            }
-        }, {
-            en: {
-                i: 'to photocopy'
-            },
-            es: {
-                i: 'xerocopiar'
-            }
-        }
+        // {
+        //     en: {
+        //         i: 'to supply'
+        //     },
+        //     es: {
+        //         i: 'abastar'
+        //     }
+        // }, 
+        // {
+        //     en: {
+        //         i: 'abound'
+        //     },
+        //     es: {
+        //         i: 'abundar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get alarmed'
+        //     },
+        //     es: {
+        //         i: 'alarmarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be glad'
+        //     },
+        //     es: {
+        //         i: 'alegrarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to move away'
+        //     },
+        //     es: {
+        //         i: 'alejar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to go away'
+        //     },
+        //     es: {
+        //         i: 'alejarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to ease'
+        //     },
+        //     es: {
+        //         i: 'aliviar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to lodge'
+        //     },
+        //     es: {
+        //         i: 'alojar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be lodged'
+        //     },
+        //     es: {
+        //         i: 'alojarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to light up'
+        //     },
+        //     es: {
+        //         i: 'alumbrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to lift'
+        //     },
+        //     es: {
+        //         i: 'alzar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to love'
+        //     },
+        //     es: {
+        //         i: 'amar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to aspire to'
+        //     },
+        //     es: {
+        //         i: 'ambicionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to threaten'
+        //     },
+        //     es: {
+        //         i: 'amenazar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to analyse'
+        //     },
+        //     es: {
+        //         i: 'analizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to walk'
+        //     },
+        //     es: {
+        //         i: 'andar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cheer up'
+        //     },
+        //     es: {
+        //         i: 'animar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to annotate'
+        //     },
+        //     es: {
+        //         i: 'anotar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cancel'
+        //     },
+        //     es: {
+        //         i: 'anular'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to announce'
+        //     },
+        //     es: {
+        //         i: 'anunciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to add'
+        //     },
+        //     es: {
+        //         i: 'añadir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to turn off'
+        //     },
+        //     es: {
+        //         i: 'apagar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to park'
+        //     },
+        //     es: {
+        //         i: 'aparcar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to separate'
+        //     },
+        //     es: {
+        //         i: 'apartar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to part'
+        //     },
+        //     es: {
+        //         i: 'apartarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pile up'
+        //     },
+        //     es: {
+        //         i: 'apilar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to flatten'
+        //     },
+        //     es: {
+        //         i: 'aplastar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to applaud'
+        //     },
+        //     es: {
+        //         i: 'aplaudir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to postpone'
+        //     },
+        //     es: {
+        //         i: 'aplazar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to apply'
+        //     },
+        //     es: {
+        //         i: 'aplicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to make good use of'
+        //     },
+        //     es: {
+        //         i: 'aprovechar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to use'
+        //     },
+        //     es: {
+        //         i: 'aprovecharse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to take note'
+        //     },
+        //     es: {
+        //         i: 'apuntar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sign on'
+        //     },
+        //     es: {
+        //         i: 'apuntarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to stab'
+        //     },
+        //     es: {
+        //         i: 'apuñalar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to file'
+        //     },
+        //     es: {
+        //         i: 'archivar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to burn'
+        //     },
+        //     es: {
+        //         i: 'arder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fix up'
+        //     },
+        //     es: {
+        //         i: 'arreglar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to arrest'
+        //     },
+        //     es: {
+        //         i: 'arrestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to risk'
+        //     },
+        //     es: {
+        //         i: 'arriesgar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to throw'
+        //     },
+        //     es: {
+        //         i: 'arrojar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cover'
+        //     },
+        //     es: {
+        //         i: 'arropar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to wrap o.s up'
+        //     },
+        //     es: {
+        //         i: 'arroparse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to ruin'
+        //     },
+        //     es: {
+        //         i: 'arruinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be ruined'
+        //     },
+        //     es: {
+        //         i: 'arruinarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to roast'
+        //     },
+        //     es: {
+        //         i: 'asar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to clean up'
+        //     },
+        //     es: {
+        //         i: 'asear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to tidy o.s up'
+        //     },
+        //     es: {
+        //         i: 'asearse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to secure'
+        //     },
+        //     es: {
+        //         i: 'asegurar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be alike'
+        //     },
+        //     es: {
+        //         i: 'asemejar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be alike'
+        //     },
+        //     es: {
+        //         i: 'asemejarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to murder'
+        //     },
+        //     es: {
+        //         i: 'asesinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to advise'
+        //     },
+        //     es: {
+        //         i: 'asesorar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to assimilate'
+        //     },
+        //     es: {
+        //         i: 'asimilar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to attend'
+        //     },
+        //     es: {
+        //         i: 'asistir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to associate'
+        //     },
+        //     es: {
+        //         i: 'asociar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to frighten'
+        //     },
+        //     es: {
+        //         i: 'asustar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to attack'
+        //     },
+        //     es: {
+        //         i: 'atacar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to tie (up)'
+        //     },
+        //     es: {
+        //         i: 'atar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to land'
+        //     },
+        //     es: {
+        //         i: 'aterrizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to terrify'
+        //     },
+        //     es: {
+        //         i: 'aterrorizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to trap'
+        //     },
+        //     es: {
+        //         i: 'atrapar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to slow down'
+        //     },
+        //     es: {
+        //         i: 'atrasar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to increase'
+        //     },
+        //     es: {
+        //         i: 'aumentar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to advance'
+        //     },
+        //     es: {
+        //         i: 'avanzar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to find out'
+        //     },
+        //     es: {
+        //         i: 'averiguar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to warn'
+        //     },
+        //     es: {
+        //         i: 'avisar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to help'
+        //     },
+        //     es: {
+        //         i: 'ayudar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to dance'
+        //     },
+        //     es: {
+        //         i: 'bailar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to lower'
+        //     },
+        //     es: {
+        //         i: 'bajar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to balance'
+        //     },
+        //     es: {
+        //         i: 'balancear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to bathe'
+        //     },
+        //     es: {
+        //         i: 'bañar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sweep'
+        //     },
+        //     es: {
+        //         i: 'barrer'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to drink'
+        //     },
+        //     es: {
+        //         i: 'beber'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to kiss'
+        //     },
+        //     es: {
+        //         i: 'besar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to block'
+        //     },
+        //     es: {
+        //         i: 'bloquear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to erase'
+        //     },
+        //     es: {
+        //         i: 'borrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to yawn'
+        //     },
+        //     es: {
+        //         i: 'bostezar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to bounce'
+        //     },
+        //     es: {
+        //         i: 'botar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to box'
+        //     },
+        //     es: {
+        //         i: 'boxear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to toast'
+        //     },
+        //     es: {
+        //         i: 'brindar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to joke'
+        //     },
+        //     es: {
+        //         i: 'bromear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to dive'
+        //     },
+        //     es: {
+        //         i: 'bucear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to look for'
+        //     },
+        //     es: {
+        //         i: 'buscar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to shit'
+        //     },
+        //     es: {
+        //         i: 'cagar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to calculate'
+        //     },
+        //     es: {
+        //         i: 'calcular'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to change'
+        //     },
+        //     es: {
+        //         i: 'cambiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to walk'
+        //     },
+        //     es: {
+        //         i: 'caminar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cancel'
+        //     },
+        //     es: {
+        //         i: 'cancelar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get tired'
+        //     },
+        //     es: {
+        //         i: 'cansarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sing'
+        //     },
+        //     es: {
+        //         i: 'cantar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to characterize'
+        //     },
+        //     es: {
+        //         i: 'caracterizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to marry'
+        //     },
+        //     es: {
+        //         i: 'casar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to celebrate'
+        //     },
+        //     es: {
+        //         i: 'celebrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to have for supper'
+        //     },
+        //     es: {
+        //         i: 'cenar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to certify'
+        //     },
+        //     es: {
+        //         i: 'certificar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to break down'
+        //     },
+        //     es: {
+        //         i: 'changarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to blackmail'
+        //     },
+        //     es: {
+        //         i: 'chantajear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to chat'
+        //     },
+        //     es: {
+        //         i: 'charlar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to scream'
+        //     },
+        //     es: {
+        //         i: 'chillar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to crash'
+        //     },
+        //     es: {
+        //         i: 'chocar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to classify'
+        //     },
+        //     es: {
+        //         i: 'clasificar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to charge'
+        //     },
+        //     es: {
+        //         i: 'cobrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cook'
+        //     },
+        //     es: {
+        //         i: 'cocinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to coincide'
+        //     },
+        //     es: {
+        //         i: 'coincidir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to collaborate'
+        //     },
+        //     es: {
+        //         i: 'colaborar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to place'
+        //     },
+        //     es: {
+        //         i: 'colocar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to combine'
+        //     },
+        //     es: {
+        //         i: 'combinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to comment'
+        //     },
+        //     es: {
+        //         i: 'comentar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to commercialize'
+        //     },
+        //     es: {
+        //         i: 'comercializar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to compare'
+        //     },
+        //     es: {
+        //         i: 'comparar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to share'
+        //     },
+        //     es: {
+        //         i: 'compartir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to complete'
+        //     },
+        //     es: {
+        //         i: 'completar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to complicate'
+        //     },
+        //     es: {
+        //         i: 'complicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to behave'
+        //     },
+        //     es: {
+        //         i: 'comportar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to buy'
+        //     },
+        //     es: {
+        //         i: 'comprar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to understand'
+        //     },
+        //     es: {
+        //         i: 'comprender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to communicate'
+        //     },
+        //     es: {
+        //         i: 'comunicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to concede'
+        //     },
+        //     es: {
+        //         i: 'conceder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to concentrate'
+        //     },
+        //     es: {
+        //         i: 'concentrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to connect'
+        //     },
+        //     es: {
+        //         i: 'conectar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to trust'
+        //     },
+        //     es: {
+        //         i: 'confiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to confirm'
+        //     },
+        //     es: {
+        //         i: 'confirmar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to confuse'
+        //     },
+        //     es: {
+        //         i: 'confundir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to convey'
+        //     },
+        //     es: {
+        //         i: 'conllevar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to conserve'
+        //     },
+        //     es: {
+        //         i: 'conservar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to consider'
+        //     },
+        //     es: {
+        //         i: 'considerar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to consist of'
+        //     },
+        //     es: {
+        //         i: 'consistir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to consolidate'
+        //     },
+        //     es: {
+        //         i: 'consolidar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to consult'
+        //     },
+        //     es: {
+        //         i: 'consultar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to consume'
+        //     },
+        //     es: {
+        //         i: 'consumir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to enter in the accounts'
+        //     },
+        //     es: {
+        //         i: 'contabilizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to contact'
+        //     },
+        //     es: {
+        //         i: 'contactar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to transmit'
+        //     },
+        //     es: {
+        //         i: 'contagiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to contaminate'
+        //     },
+        //     es: {
+        //         i: 'contaminar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to contemplate'
+        //     },
+        //     es: {
+        //         i: 'contemplar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to answer'
+        //     },
+        //     es: {
+        //         i: 'contestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to continue'
+        //     },
+        //     es: {
+        //         i: 'continuar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to contrast'
+        //     },
+        //     es: {
+        //         i: 'contrastar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to contract for'
+        //     },
+        //     es: {
+        //         i: 'contratar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to control'
+        //     },
+        //     es: {
+        //         i: 'controlar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to live together'
+        //     },
+        //     es: {
+        //         i: 'convivir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to convoke'
+        //     },
+        //     es: {
+        //         i: 'convocar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cooperate'
+        //     },
+        //     es: {
+        //         i: 'cooperar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to copy'
+        //     },
+        //     es: {
+        //         i: 'copiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to flirt'
+        //     },
+        //     es: {
+        //         i: 'coquetear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to run'
+        //     },
+        //     es: {
+        //         i: 'correr'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to correspond'
+        //     },
+        //     es: {
+        //         i: 'corresponder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cut'
+        //     },
+        //     es: {
+        //         i: 'cortar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sew'
+        //     },
+        //     es: {
+        //         i: 'coser'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to create'
+        //     },
+        //     es: {
+        //         i: 'crear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to believe'
+        //     },
+        //     es: {
+        //         i: 'creer'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to bring up'
+        //     },
+        //     es: {
+        //         i: 'criar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to criticize'
+        //     },
+        //     es: {
+        //         i: 'criticar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cross'
+        //     },
+        //     es: {
+        //         i: 'cruzar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cover'
+        //     },
+        //     es: {
+        //         i: 'cubrir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to question'
+        //     },
+        //     es: {
+        //         i: 'cuestionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to look after'
+        //     },
+        //     es: {
+        //         i: 'cuidar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to blame'
+        //     },
+        //     es: {
+        //         i: 'culpar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cultivate'
+        //     },
+        //     es: {
+        //         i: 'cultivar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to educate'
+        //     },
+        //     es: {
+        //         i: 'culturizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fulfil'
+        //     },
+        //     es: {
+        //         i: 'cumplir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cure'
+        //     },
+        //     es: {
+        //         i: 'curar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to glance at'
+        //     },
+        //     es: {
+        //         i: 'curiosear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to damage'
+        //     },
+        //     es: {
+        //         i: 'dañar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to owe'
+        //     },
+        //     es: {
+        //         i: 'deber'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to decide'
+        //     },
+        //     es: {
+        //         i: 'decidir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to decide'
+        //     },
+        //     es: {
+        //         i: 'dedicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to deform'
+        //     },
+        //     es: {
+        //         i: 'deformar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to leave'
+        //     },
+        //     es: {
+        //         i: 'dejar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to depend'
+        //     },
+        //     es: {
+        //         i: 'depender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to depress'
+        //     },
+        //     es: {
+        //         i: 'deprimir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to derive'
+        //     },
+        //     es: {
+        //         i: 'derivar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to spill'
+        //     },
+        //     es: {
+        //         i: 'derramar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to beat'
+        //     },
+        //     es: {
+        //         i: 'derrotar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to challenge'
+        //     },
+        //     es: {
+        //         i: 'desafiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to develop'
+        //     },
+        //     es: {
+        //         i: 'desarrollar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to have breakfast'
+        //     },
+        //     es: {
+        //         i: 'desayunar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to rest'
+        //     },
+        //     es: {
+        //         i: 'descansar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to unload'
+        //     },
+        //     es: {
+        //         i: 'descargar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to decipher'
+        //     },
+        //     es: {
+        //         i: 'descifrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to describe'
+        //     },
+        //     es: {
+        //         i: 'describir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to discover'
+        //     },
+        //     es: {
+        //         i: 'descubrir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to neglect'
+        //     },
+        //     es: {
+        //         i: 'descuidar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to desire'
+        //     },
+        //     es: {
+        //         i: 'desear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to perform'
+        //     },
+        //     es: {
+        //         i: 'desempeñar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to unscrew'
+        //     },
+        //     es: {
+        //         i: 'desenroscar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to designate'
+        //     },
+        //     es: {
+        //         i: 'designar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to desist'
+        //     },
+        //     es: {
+        //         i: 'desistir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to undress'
+        //     },
+        //     es: {
+        //         i: 'desnudar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to displace'
+        //     },
+        //     es: {
+        //         i: 'desplazar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to despise'
+        //     },
+        //     es: {
+        //         i: 'despreciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to uncover'
+        //     },
+        //     es: {
+        //         i: 'destapar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to smash'
+        //     },
+        //     es: {
+        //         i: 'destrozar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to detest'
+        //     },
+        //     es: {
+        //         i: 'detestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to discuss'
+        //     },
+        //     es: {
+        //         i: 'discutir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to enjoy'
+        //     },
+        //     es: {
+        //         i: 'disfrutar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to annoy'
+        //     },
+        //     es: {
+        //         i: 'disgustar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to shoot'
+        //     },
+        //     es: {
+        //         i: 'disparar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to divide'
+        //     },
+        //     es: {
+        //         i: 'dividir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fold'
+        //     },
+        //     es: {
+        //         i: 'doblar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to have a shower'
+        //     },
+        //     es: {
+        //         i: 'ducharse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to doubt'
+        //     },
+        //     es: {
+        //         i: 'dudar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to throw'
+        //     },
+        //     es: {
+        //         i: 'echar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to educate'
+        //     },
+        //     es: {
+        //         i: 'educar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to effect'
+        //     },
+        //     es: {
+        //         i: 'efectuar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to execute'
+        //     },
+        //     es: {
+        //         i: 'ejecutar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to elaborate'
+        //     },
+        //     es: {
+        //         i: 'elaborar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to raise'
+        //     },
+        //     es: {
+        //         i: 'elevar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to eliminate'
+        //     },
+        //     es: {
+        //         i: 'eliminar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to praise'
+        //     },
+        //     es: {
+        //         i: 'elogiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get drunk'
+        //     },
+        //     es: {
+        //         i: 'emborracharse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to emit'
+        //     },
+        //     es: {
+        //         i: 'emitir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to excite'
+        //     },
+        //     es: {
+        //         i: 'emocionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to employ'
+        //     },
+        //     es: {
+        //         i: 'emplear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to undertake'
+        //     },
+        //     es: {
+        //         i: 'emprender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to push'
+        //     },
+        //     es: {
+        //         i: 'empujar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fall in love'
+        //     },
+        //     es: {
+        //         i: 'enamorarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to place an order'
+        //     },
+        //     es: {
+        //         i: 'encargar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get angry'
+        //     },
+        //     es: {
+        //         i: 'enfadarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get ill'
+        //     },
+        //     es: {
+        //         i: 'enfermarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to deceive'
+        //     },
+        //     es: {
+        //         i: 'engañar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to soil'
+        //     },
+        //     es: {
+        //         i: 'ensuciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get in'
+        //     },
+        //     es: {
+        //         i: 'entrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to send'
+        //     },
+        //     es: {
+        //         i: 'enviar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be wrong'
+        //     },
+        //     es: {
+        //         i: 'equivocarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to escape'
+        //     },
+        //     es: {
+        //         i: 'escapar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to write'
+        //     },
+        //     es: {
+        //         i: 'escribir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to listen to'
+        //     },
+        //     es: {
+        //         i: 'escuchar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to hope for'
+        //     },
+        //     es: {
+        //         i: 'esperar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to ski'
+        //     },
+        //     es: {
+        //         i: 'esquiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sneeze'
+        //     },
+        //     es: {
+        //         i: 'estornudar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to study'
+        //     },
+        //     es: {
+        //         i: 'estudiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to evaluate'
+        //     },
+        //     es: {
+        //         i: 'evaluar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to avoid'
+        //     },
+        //     es: {
+        //         i: 'evitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to examine'
+        //     },
+        //     es: {
+        //         i: 'examinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to excite'
+        //     },
+        //     es: {
+        //         i: 'excitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to exist'
+        //     },
+        //     es: {
+        //         i: 'existir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to explain'
+        //     },
+        //     es: {
+        //         i: 'explicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to express'
+        //     },
+        //     es: {
+        //         i: 'expresar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to make'
+        //     },
+        //     es: {
+        //         i: 'fabricar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to facilitate'
+        //     },
+        //     es: {
+        //         i: 'facilitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fascinate'
+        //     },
+        //     es: {
+        //         i: 'fascinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to annoy'
+        //     },
+        //     es: {
+        //         i: 'fastidiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to congratulate'
+        //     },
+        //     es: {
+        //         i: 'felicitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to end'
+        //     },
+        //     es: {
+        //         i: 'finalizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sign'
+        //     },
+        //     es: {
+        //         i: 'firmar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to formalize'
+        //     },
+        //     es: {
+        //         i: 'formalizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to form'
+        //     },
+        //     es: {
+        //         i: 'formar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to break'
+        //     },
+        //     es: {
+        //         i: 'frenar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to smoke'
+        //     },
+        //     es: {
+        //         i: 'fumar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to function'
+        //     },
+        //     es: {
+        //         i: 'funcionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to gain'
+        //     },
+        //     es: {
+        //         i: 'ganar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to guarantee'
+        //     },
+        //     es: {
+        //         i: 'garantizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to spend'
+        //     },
+        //     es: {
+        //         i: 'gastar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to generalize'
+        //     },
+        //     es: {
+        //         i: 'generalizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to generate'
+        //     },
+        //     es: {
+        //         i: 'generar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to turn'
+        //     },
+        //     es: {
+        //         i: 'girar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to hit'
+        //     },
+        //     es: {
+        //         i: 'golpear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to shout'
+        //     },
+        //     es: {
+        //         i: 'gritar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to keep'
+        //     },
+        //     es: {
+        //         i: 'guardar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to guide'
+        //     },
+        //     es: {
+        //         i: 'guiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to like'
+        //     },
+        //     es: {
+        //         i: 'gustar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to inhabit'
+        //     },
+        //     es: {
+        //         i: 'habitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to accustom'
+        //     },
+        //     es: {
+        //         i: 'habituar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get used to'
+        //     },
+        //     es: {
+        //         i: 'habituarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to humiliate'
+        //     },
+        //     es: {
+        //         i: 'humillar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to idealize'
+        //     },
+        //     es: {
+        //         i: 'idealizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to think up'
+        //     },
+        //     es: {
+        //         i: 'idear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to identify'
+        //     },
+        //     es: {
+        //         i: 'identificar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to identify o.s. with'
+        //     },
+        //     es: {
+        //         i: 'identificarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to print'
+        //     },
+        //     es: {
+        //         i: 'imprimir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to indicate'
+        //     },
+        //     es: {
+        //         i: 'indicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to inform'
+        //     },
+        //     es: {
+        //         i: 'informar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to initiate'
+        //     },
+        //     es: {
+        //         i: 'iniciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to insist'
+        //     },
+        //     es: {
+        //         i: 'insistir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to install'
+        //     },
+        //     es: {
+        //         i: 'instalar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to insult'
+        //     },
+        //     es: {
+        //         i: 'insultar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to try'
+        //     },
+        //     es: {
+        //         i: 'intentar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to interest'
+        //     },
+        //     es: {
+        //         i: 'interesar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to interrupt'
+        //     },
+        //     es: {
+        //         i: 'interrumpir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to invent'
+        //     },
+        //     es: {
+        //         i: 'inventar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to invite'
+        //     },
+        //     es: {
+        //         i: 'invitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to join'
+        //     },
+        //     es: {
+        //         i: 'juntar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to swear'
+        //     },
+        //     es: {
+        //         i: 'jurar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to justify'
+        //     },
+        //     es: {
+        //         i: 'justificar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to judge'
+        //     },
+        //     es: {
+        //         i: 'juzgar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to measure in kilometres'
+        //     },
+        //     es: {
+        //         i: 'kilometrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to throw'
+        //     },
+        //     es: {
+        //         i: 'lanzar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to wash'
+        //     },
+        //     es: {
+        //         i: 'lavar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to wash'
+        //     },
+        //     es: {
+        //         i: 'lavarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to read'
+        //     },
+        //     es: {
+        //         i: 'leer',
+        //         like: 'leer'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to raise'
+        //     },
+        //     es: {
+        //         i: 'levantar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get up'
+        //     },
+        //     es: {
+        //         i: 'levantarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to limit'
+        //     },
+        //     es: {
+        //         i: 'limitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to clean'
+        //     },
+        //     es: {
+        //         i: 'limpiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to call'
+        //     },
+        //     es: {
+        //         i: 'llamar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be called'
+        //     },
+        //     es: {
+        //         i: 'llamarse'
+        //     }
+        // }, 
+        // {
+        //     en: {
+        //         i: 'to fill'
+        //     },
+        //     es: {
+        //         i: 'llenar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to carry'
+        //     },
+        //     es: {
+        //         i: 'llevar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cry'
+        //     },
+        //     es: {
+        //         i: 'llorar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fight'
+        //     },
+        //     es: {
+        //         i: 'luchar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to dirty'
+        //     },
+        //     es: {
+        //         i: 'manchar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to get dirty'
+        //     },
+        //     es: {
+        //         i: 'mancharse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to order'
+        //     },
+        //     es: {
+        //         i: 'mandar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to kill'
+        //     },
+        //     es: {
+        //         i: 'matar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to improve'
+        //     },
+        //     es: {
+        //         i: 'mejorar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to memorize'
+        //     },
+        //     es: {
+        //         i: 'memorizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to insert'
+        //     },
+        //     es: {
+        //         i: 'meter'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to look at'
+        //     },
+        //     es: {
+        //         i: 'mirar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to modify'
+        //     },
+        //     es: {
+        //         i: 'modificar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to wet'
+        //     },
+        //     es: {
+        //         i: 'mojar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to annoy'
+        //     },
+        //     es: {
+        //         i: 'molestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to wet'
+        //     },
+        //     es: {
+        //         i: 'nadar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to narrate'
+        //     },
+        //     es: {
+        //         i: 'narrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to need'
+        //     },
+        //     es: {
+        //         i: 'necesitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to negotiate'
+        //     },
+        //     es: {
+        //         i: 'negociar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to name'
+        //     },
+        //     es: {
+        //         i: 'nombrar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to number'
+        //     },
+        //     es: {
+        //         i: 'numerar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to observe'
+        //     },
+        //     es: {
+        //         i: 'observar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to hate'
+        //     },
+        //     es: {
+        //         i: 'odiar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to offend'
+        //     },
+        //     es: {
+        //         i: 'ofender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to forget'
+        //     },
+        //     es: {
+        //         i: 'olvidar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to omit'
+        //     },
+        //     es: {
+        //         i: 'omitir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to think'
+        //     },
+        //     es: {
+        //         i: 'opinar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to organize'
+        //     },
+        //     es: {
+        //         i: 'organizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to orientate'
+        //     },
+        //     es: {
+        //         i: 'orientar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to originate'
+        //     },
+        //     es: {
+        //         i: 'originar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pay'
+        //     },
+        //     es: {
+        //         i: 'pagar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to stop'
+        //     },
+        //     es: {
+        //         i: 'parar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to split up'
+        //     },
+        //     es: {
+        //         i: 'partir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pass'
+        //     },
+        //     es: {
+        //         i: 'pasar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to walk'
+        //     },
+        //     es: {
+        //         i: 'pasear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pardon'
+        //     },
+        //     es: {
+        //         i: 'perdonar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to permit'
+        //     },
+        //     es: {
+        //         i: 'permitir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to iron'
+        //     },
+        //     es: {
+        //         i: 'planchar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to plan'
+        //     },
+        //     es: {
+        //         i: 'planear'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to possess'
+        //     },
+        //     es: {
+        //         i: 'poseer'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to practise'
+        //     },
+        //     es: {
+        //         i: 'practicar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to precede'
+        //     },
+        //     es: {
+        //         i: 'preceder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to ask'
+        //     },
+        //     es: {
+        //         i: 'preguntar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to prepare'
+        //     },
+        //     es: {
+        //         i: 'preparar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to lend'
+        //     },
+        //     es: {
+        //         i: 'prestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to plan'
+        //     },
+        //     es: {
+        //         i: 'programar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to progress'
+        //     },
+        //     es: {
+        //         i: 'progresar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to prohibit'
+        //     },
+        //     es: {
+        //         i: 'prohibir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pronounce'
+        //     },
+        //     es: {
+        //         i: 'pronunciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to protest'
+        //     },
+        //     es: {
+        //         i: 'protestar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to provoke'
+        //     },
+        //     es: {
+        //         i: 'provocar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to press'
+        //     },
+        //     es: {
+        //         i: 'pulsar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to stay'
+        //     },
+        //     es: {
+        //         i: 'quedar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to keep'
+        //     },
+        //     es: {
+        //         i: 'quedarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to complain'
+        //     },
+        //     es: {
+        //         i: 'quejarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to burn'
+        //     },
+        //     es: {
+        //         i: 'quemar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to take away'
+        //     },
+        //     es: {
+        //         i: 'quitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to remove o.s.'
+        //     },
+        //     es: {
+        //         i: 'quitarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to reason'
+        //     },
+        //     es: {
+        //         i: 'razonar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to reject'
+        //     },
+        //     es: {
+        //         i: 'rechazar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to receive'
+        //     },
+        //     es: {
+        //         i: 'recibir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to recuperate'
+        //     },
+        //     es: {
+        //         i: 'recuperarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to return'
+        //     },
+        //     es: {
+        //         i: 'regresar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to relate'
+        //     },
+        //     es: {
+        //         i: 'relacionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to be related'
+        //     },
+        //     es: {
+        //         i: 'relacionarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to relax'
+        //     },
+        //     es: {
+        //         i: 'relajar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to relax'
+        //     },
+        //     es: {
+        //         i: 'relajarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to repair'
+        //     },
+        //     es: {
+        //         i: 'reparar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to distribute'
+        //     },
+        //     es: {
+        //         i: 'repartir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to revise'
+        //     },
+        //     es: {
+        //         i: 'repasar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to represent'
+        //     },
+        //     es: {
+        //         i: 'representar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to reserve'
+        //     },
+        //     es: {
+        //         i: 'reservar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to catch a cold'
+        //     },
+        //     es: {
+        //         i: 'resfriarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to resist'
+        //     },
+        //     es: {
+        //         i: 'resistir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to respect'
+        //     },
+        //     es: {
+        //         i: 'respetar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to breathe'
+        //     },
+        //     es: {
+        //         i: 'respirar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to answer'
+        //     },
+        //     es: {
+        //         i: 'responder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to take away'
+        //     },
+        //     es: {
+        //         i: 'restar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to turn out to be'
+        //     },
+        //     es: {
+        //         i: 'resultar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to summarize'
+        //     },
+        //     es: {
+        //         i: 'resumir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to delay'
+        //     },
+        //     es: {
+        //         i: 'retrasar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to reunite'
+        //     },
+        //     es: {
+        //         i: 'reunir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to revolutionize'
+        //     },
+        //     es: {
+        //         i: 'revolucionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to rob'
+        //     },
+        //     es: {
+        //         i: 'robar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to break'
+        //     },
+        //     es: {
+        //         i: 'romper'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to take out'
+        //     },
+        //     es: {
+        //         i: 'sacar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to jump'
+        //     },
+        //     es: {
+        //         i: 'saltar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to greet'
+        //     },
+        //     es: {
+        //         i: 'saludar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to pick'
+        //     },
+        //     es: {
+        //         i: 'seleccionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to separate'
+        //     },
+        //     es: {
+        //         i: 'separar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to situate'
+        //     },
+        //     es: {
+        //         i: 'situar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to solve'
+        //     },
+        //     es: {
+        //         i: 'solucionar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to support'
+        //     },
+        //     es: {
+        //         i: 'soportar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to surprise'
+        //     },
+        //     es: {
+        //         i: 'sorprender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to raise'
+        //     },
+        //     es: {
+        //         i: 'subir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to happen'
+        //     },
+        //     es: {
+        //         i: 'suceder'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to overcome'
+        //     },
+        //     es: {
+        //         i: 'superar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to suspend'
+        //     },
+        //     es: {
+        //         i: 'suspender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to cover'
+        //     },
+        //     es: {
+        //         i: 'tapar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to fear'
+        //     },
+        //     es: {
+        //         i: 'temer'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to end'
+        //     },
+        //     es: {
+        //         i: 'terminar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to throw'
+        //     },
+        //     es: {
+        //         i: 'tirar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to touch'
+        //     },
+        //     es: {
+        //         i: 'tocar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to touch each other'
+        //     },
+        //     es: {
+        //         i: 'tocarse'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to tolerate'
+        //     },
+        //     es: {
+        //         i: 'tolerar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to take'
+        //     },
+        //     es: {
+        //         i: 'tomar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to work'
+        //     },
+        //     es: {
+        //         i: 'trabajar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to swallow'
+        //     },
+        //     es: {
+        //         i: 'tragar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to transform'
+        //     },
+        //     es: {
+        //         i: 'transformar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to transmit'
+        //     },
+        //     es: {
+        //         i: 'transmitir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to transport'
+        //     },
+        //     es: {
+        //         i: 'transportar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to move'
+        //     },
+        //     es: {
+        //         i: 'trasladar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to treat'
+        //     },
+        //     es: {
+        //         i: 'tratar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to join'
+        //     },
+        //     es: {
+        //         i: 'unir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to use'
+        //     },
+        //     es: {
+        //         i: 'usar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to use'
+        //     },
+        //     es: {
+        //         i: 'utilizar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to empty'
+        //     },
+        //     es: {
+        //         i: 'vaciar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to value'
+        //     },
+        //     es: {
+        //         i: 'valorar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to vary'
+        //     },
+        //     es: {
+        //         i: 'variar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to sell'
+        //     },
+        //     es: {
+        //         i: 'vender'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to see'
+        //     },
+        //     es: {
+        //         i: 'ver'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to travel'
+        //     },
+        //     es: {
+        //         i: 'viajar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to watch'
+        //     },
+        //     es: {
+        //         i: 'vigilar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to visit'
+        //     },
+        //     es: {
+        //         i: 'visitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to live'
+        //     },
+        //     es: {
+        //         i: 'vivir',
+        //         like: 'vivir'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to vomit'
+        //     },
+        //     es: {
+        //         i: 'vomitar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to vote'
+        //     },
+        //     es: {
+        //         i: 'votar'
+        //     }
+        // }, {
+        //     en: {
+        //         i: 'to photocopy'
+        //     },
+        //     es: {
+        //         i: 'xerocopiar'
+        //     }
+        // }
     ];
      const filteredVerbs = inf
              ? verbs.filter(verb => (verb.en && verb.en.i === inf) || (verb.pt && verb.pt.i === inf) || (verb.es && verb.es.i === inf))
