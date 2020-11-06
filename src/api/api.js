@@ -55,7 +55,8 @@ export const api = {
             if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
                 like = 'conhecer';
             }
-            if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
+            // if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
+            if((inf.substring(inf.length -3) === 'ger') && inf !== 'proteger') {
                 like = 'proteger';
             }
             if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {

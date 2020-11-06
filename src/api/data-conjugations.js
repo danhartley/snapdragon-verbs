@@ -2856,7 +2856,7 @@ const conjugations = {
         },
         {
             i: 'sair',
-            present: ['saio', 'saias', 'sai', 'saímos', 'saís', 'saem'],
+            present: ['saio', 'sais', 'sai', 'saímos', 'saís', 'saem'],
             imperfect: [
                 'saía',
                 'saías',
