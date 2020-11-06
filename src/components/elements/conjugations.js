@@ -4,7 +4,14 @@ import { useState, useEffect, useRef } from 'preact/hooks';
 import { api } from '../../api/api';
 import { utils } from '../../utils/utils';
 
+const getModal = async (modal, language) => {
+    const all = await api.getAllConjugations(language);
+    return all.conjugations.find(c => c.i === modal);
+};
+
 export const compareActualConjugationWithRegularInfConjugation = async ({actual, inf, language}) => {
+
+    const modal = await getModal('haber', language);
 
     const { conjugations } = await api.getAllConjugations(language);
 
@@ -13,6 +20,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     let root;
     let regularRoot;
     let isReflexive;
+    let participle = actual.participle;
 
     switch(language) {
         case Language.pt:
@@ -69,7 +77,8 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
 
     let _conjugations = {};
 
-    const getExpected = (regularExpected, regularRoot, isReflexive, root, tense, person, language) => {
+
+    const getExpected = ({regularExpected, regularRoot, isReflexive, root, tense, person, language, participle}) => {
         let ending, expected;
         if(isReflexive) {
             switch(language) {
@@ -95,8 +104,26 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
                 }
             }
         } else {
-            ending = regularExpected.slice(regularRoot.length);
-            return root + ending;
+            switch(tense) {
+                case Tense.past_anterior:
+                    return `${modal[Tense.preterite][person]} ${participle}`;
+                case Tense.future_perfect:
+                    return `${modal[Tense.future][person]} ${participle}`;
+                case Tense.past_perfect:
+                    return `${modal[Tense.present][person]} ${participle}`;
+                case Tense.pluperfect:
+                    return `${modal[Tense.imperfect][person]} ${participle}`;
+                case Tense.perfect_subjunctive:
+                    return `${modal[Tense.present_subjunctive][person]} ${participle}`;
+                case Tense.pluperfect_subjunctive:
+                    return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
+                case Tense.pluperfect_subjunctive:
+                    return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
+                default:
+                    ending = regularExpected.slice(regularRoot.length);
+                    return root + ending;
+            }
+            
         }
     };
 
@@ -105,7 +132,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
             const pronouns = [];
             actual[tense].forEach((conjugation, i) => {
                 const regularExpected = regular[tense][i];
-                const expected = getExpected(regularExpected, regularRoot, isReflexive, root, tense, i, language);
+                const expected = getExpected({regularExpected, regularRoot, isReflexive, root, tense, person: i, language, participle});
                 const pronoun = {
                     form: conjugation,
                     isIrregular: conjugation !== expected
@@ -145,12 +172,12 @@ export const Conjugations = ({drill, language}) => {
                     return <div>
                         <h5>{tense}</h5>
                         <div class="margin-left">
-                            <ConjugationList items={comparedConjugations[tense]} />
+                            <ConjugationList language={language} items={comparedConjugations[tense]} />
                         </div>
                     </div>
                 })
             }
             </section>
         </>
-    )
+     )
 };

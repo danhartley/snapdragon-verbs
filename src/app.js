@@ -21,11 +21,11 @@ const App = () => {
 
     const defaultDate = Date.parse(new Date(2020,0,1));
 
-    const [language, setLanguage] = useState(Language_NAV.pt);
-    const [lastVisit, setLastVisit] = useLocalStorageState('last_visit', defaultDate, language);
-    const [verbs, setVerbs] = useState([]);
+    const [language, setLanguage] = useLocalStorageState({ key: 'user_language', defaultValue: Language.pt });
+    const [lastVisit, setLastVisit] = useLocalStorageState({ key: 'last_visit', defaultValue: defaultDate });
+    const [verbs, setVerbs] = useLocalStorageState({ key: 'verbs', defaultValue: [] });
     const [tenses, setTenses] = useState(() => api.getTenses(language));
-    const [choice, setChoice] = useState(Choice.drills);
+    const [choice, setChoice] = useLocalStorageState({ key: 'user_choice', defaultValue: Choice.drills });
     const [drill, setDrill] = useState(null);
     const [drillActionState, setDrillActionState] = useState(() => DrillState.hideDrills);
 
@@ -44,7 +44,7 @@ const App = () => {
     const handleSetChoice = id => {
         setChoice(id);
         setDrill(null);
-        setDrillActionState(DrillState.intermediate);        
+        setDrillActionState(DrillState.intermediate);
     };
 
     const handleSetLanguage = id => {

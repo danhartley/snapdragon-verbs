@@ -129,6 +129,7 @@ button:disabled {
         font-weight: bold;
         color: $fg1;
         }
+        margin-bottom: 2 * $space;
     }
     .progress {
         span {
@@ -449,7 +450,7 @@ input[type='checkbox'] {
         font-size: 1rem;
         pointer-events: none;
         span:nth-child(1) {
-            width: 4 * $space;
+            width: 8 * $space;
             text-align: right;
             display: inline-block;
             color: $fg6;

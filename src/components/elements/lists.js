@@ -1,9 +1,9 @@
 import { h } from 'preact';
-import { Pronoun_PT } from '../../logic/enums.js';
+import { Language, Pronoun_PT, Pronoun_ES } from '../../logic/enums.js';
 import style from './list.scss';
 
-export const ConjugationList = ({ items }) => {
-    const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{Pronoun_PT[i]}</span><span>{item.form}</span></li> );
+export const ConjugationList = ({ items, language }) => {
+    const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{language === Language.pt ? Pronoun_PT[i] : Pronoun_ES[i] }</span><span>{item.form}</span></li> );
         return (
         <>
             <ul>{list}</ul>
@@ -79,7 +79,7 @@ export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header,
 
 export const NavGroup = ({ items, item, navItemClickHandler, minWidth = '9rem' }) => {
     const list = items.map(i => { 
-            return <li style={`min-width: ${minWidth}`} class={item !== i ? style.navBlockInactive : style.navBlockActive}><button class="button-link-action" id={i} onClick={navItemClickHandler}>{i}</button></li>
+            return <li style={`min-width: ${minWidth}`} class={item !== i ? style.navBlockInactive : style.navBlockActive}><button onClick={navItemClickHandler} id={i} class="button-link-action">{i}</button></li>
         }
     );
     return (

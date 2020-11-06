@@ -1,5 +1,5 @@
 import { Language } from "../logic/enums";
-import { esConjugations, esPartials } from './es/conjugations';
+import { esConjugations, esPartials } from './es/es-conjugations';
 
 const conjugations = { 
     pt: [        
@@ -2002,14 +2002,7 @@ const conjugations = {
                 'hablaríais',
                 'hablarían',
             ],
-            'past perfect': [
-                'he hablado',
-                'has hablado',
-                'ha hablado',
-                'hemos hablado',
-                'habéis hablado',
-                'han hablado'
-            ],
+            'past perfect': ['he hablado','has hablado','ha hablado','hemos hablado','habéis hablado','han hablado'],
             pluperfect: [
                 'había hablado',
                 'habías hablado',
@@ -2031,7 +2024,7 @@ const conjugations = {
                 'hubiste hablado',
                 'hubo hablado',
                 'hubimos hablado',
-                'hubimos hablado',
+                'hubisteis hablado',
                 'hubieron hablado',
             ],
             'present subjunctive': [

@@ -73,6 +73,16 @@ export const data = {
             return [
                 {
                     id: 1,
+                    name: 'Common irregular verbs, 1-12',
+                    verbs: [ { name:'ser' }, { name:'tener' }, { name:'estar' }, { name: 'poder' }, { name:'hacer', }, { name:'ir' }, {  name: 'haber' }, { name: 'decir' }, { name: 'dar' }, { name: 'ver' }, { name:'saber' }, { name: 'querer' } ]
+                },
+                {
+                    id: 2,
+                    name: 'Common irregular verbs, 13-24',
+                    verbs: [ { name:'quedar' }, { name:'venir' }, { name: 'llegar' }, { name: 'empezar'}, { name: 'parecer' }, { name: 'salir' }, { name: 'seguir' }, { name: 'sentir' }, { name: 'conocer'},  { name:'poner' }, { name: 'oír' }, { name: 'perder' } ]
+                },
+                {
+                    id: 4,
                     name: 'Regular -ar, -er and -ir verbs',
                     verbs: [ { name:'hablar' }, { name:'comer' }, { name:'vivir' } ]
                 },

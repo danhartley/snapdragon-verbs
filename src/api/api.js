@@ -11,7 +11,7 @@ export const api = {
     },
     async getAllConjugations(language) {
         return await data.getAllConjugations(language);
-    },   
+    },    
     getLikeFromVerbEnding({ inf, language, isReflexive }) {
         
         let likes = isReflexive 
