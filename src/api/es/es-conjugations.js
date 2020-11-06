@@ -772,6 +772,42 @@ export const esConjugations = [
         "pluperfect subjunctive": ["hubiera habido", "hubieras habido", "hubiera habido", "hubiéramos habido", "hubierais habido", "hubieran habido"],
         gerund: 'habiendo',
         participle: 'habido'
+    },
+    {
+        i: 'reír',
+        "present": ["río", "ríes", "ríe", "reímos", "reís", "ríen"],
+        "imperfect": ["reía", "reías", "reía", "reíamos", "reíais", "reían"],
+        "future": ["reiré", "reirás", "reirá", "reiremos", "reiréis", "reirán"],
+        "preterite": ["reí", "reíste", "rió", "reímos", "reísteis", "rieron"],
+        "past perfect": ["he reído", "has reído", "ha reído", "hemos reído", "habéis reído", "han reído"],
+        "pluperfect": ["había reído", "habías reído", "había reído", "habíamos reído", "habíais reído", "habían reído"],
+        "future perfect": ["habré reído", "habrás reído", "habrá reído", "habremos reído", "habréis reído", "habrán reído"],
+        "past anterior": ["hube reído", "hubiste reído", "hubo reído", "hubimos reído", "hubisteis reído", "hubieron reído"],
+        conditional: ['reiría','reirías','reiría','reiríamos','reiríais','reirían'],
+        "present subjunctive": ["ría", "rías", "ría", "riamos", "riais", "rían"],
+        "imperfect subjunctive": ["riera / riese", "rieras / rieses", "riera / riese", "riéramos / riésemos", "rierais / rieseis", "rieran / riesen"],
+        "past perfect subjunctive": ["haya reído", "hayas reído", "haya reído", "hayamos reído", "hayáis reído", "hayan reído"],
+        "pluperfect subjunctive": ["hubiera/hubiese reído", "hubieras/hubieses reído", "hubiera/hubiese reído", "hubiéramos/hubiésemos reído", "hubierais/hubieseis reído", "hubieran/hubiesen reído"],
+        gerund: 'riendo',
+        participle: 'reído'
+    },
+    {
+        i: 'caber',
+        "present": ["quepo", "cabes", "cabe", "cabemos", "cabéis", "caben"],
+        "imperfect": ["cabía", "cabías", "cabía", "cabíamos", "cabíais", "cabían"],
+        "future": ["cabré", "cabrás", "cabrá", "cabremos", "cabréis", "cabrán"],
+        "preterite": ["cupe", "cupiste", "cupo", "cupimos", "cupisteis", "cupieron"],
+        "past perfect": ["he cabido", "has cabido", "ha cabido", "hemos cabido", "habéis cabido", "han cabido"],
+        "pluperfect": ["había cabido", "habías cabido", "había cabido", "habíamos cabido", "habíais cabido", "habían cabido"],
+        "future perfect": ["habré cabido", "habrás cabido", "habrá cabido", "habremos cabido", "habréis cabido", "habrán cabido"],
+        "past anterior": ["hube cabido", "hubiste cabido", "hubo cabido", "hubimos cabido", "hubisteis cabido", "hubieron cabido"],
+        conditional: ['cabría','cabrías','cabría','cabríamos','cabríais','cabrían'],
+        "present subjunctive": ["quepa", "quepas", "quepa", "quepamos", "quepáis", "quepan"],
+        "imperfect subjunctive": ["cupiera / cupiese", "cupieras / cupieses", "cupiera / cupiese", "cupiéramos / cupiésemos", "cupierais / cupieseis", "cupieran / cupiesen"],
+        "past perfect subjunctive": ["haya cabido", "hayas cabido", "haya cabido", "hayamos cabido", "hayáis cabido", "hayan cabido"],
+        "pluperfect subjunctive": ["hubiera/hubiese cabido", "hubieras/hubieses cabido", "hubiera/hubiese cabido", "hubiéramos/hubiésemos cabido", "hubierais/hubieseis cabido", "hubieran/hubiesen cabido"],
+        gerund: 'cabiendo',
+        participle: 'cabido'
     }
 ];
 
@@ -787,7 +823,55 @@ export const esPartials = [
             'parezcáis',
             'parezcan',
         ]
-    }
+    },
+    {
+        i: 'surgir',
+        present: ['surjo', '', '', '', '', ''],
+        'present subjunctive': [
+            'surja',
+            'surjas',
+            'surja',
+            'surjamos',
+            'surjáis',
+            'surjan',
+        ]
+    },
+    {
+        i: 'nascer',
+        present: ['nazco', '', '', '', '', ''],
+        'present subjunctive': [
+            'nazca',
+            'nazcas',
+            'nazca',
+            'nazcamos',
+            'nazcáis',
+            'nazcan',
+        ]
+    },
+    {
+        i: 'producir',
+        present: ['produzco', '', '', '', '', ''],
+        'present subjunctive': [
+            'produzca',
+            'produzcas',
+            'produzca',
+            'produzcamos',
+            'produzcáis',
+            'produzcan',
+        ]
+    },
+    {
+        i: 'servir',
+        present: ['sirvo', 'sirves', 'sirve', '', '', 'sirven'],
+        'present subjunctive': [
+            'sirva',
+            'sirvas',
+            'sirva',
+            'sirvamos',
+            'sirvais',
+            'sirvan',
+        ]
+    },
 ];
 
 // remove alternative endings:  \/ [a-zé]*

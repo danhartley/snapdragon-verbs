@@ -1,7 +1,7 @@
 import { Language } from '../../logic/enums';
 import { compareActualConjugationWithRegularInfConjugation } from './conjugations';
 
-describe.only('find deviation from regular conjugation', () => {
+describe('find deviation from regular conjugation', () => {
     let actual, inf, language, received, expected;
     test('es expect no deviation for regular present tense', async () => {
         actual = {
@@ -45,7 +45,7 @@ describe.only('find deviation from regular conjugation', () => {
         received = await compareActualConjugationWithRegularInfConjugation({actual,inf,language});
         expect(received).toStrictEqual(expected);
     });
-    test.only('es expect deviation for regular past anterior tense', async () => {
+    test('es expect deviation for regular past anterior tense', async () => {
         actual = {
             "i": "hablar",
             participle: "hablado",

@@ -1,6 +1,6 @@
 import { utils } from './utils';
 
-describe.only('test for utils', () => {
+describe('test for utils', () => {
     let language;
     test('getLongPronouns should return array of pronouns specific to language', () => {
         language = 'pt';

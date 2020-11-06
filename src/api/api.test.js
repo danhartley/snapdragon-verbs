@@ -40,7 +40,7 @@ describe('api simple verbs', () => {
         like = await api.getLike('ranger', Language.pt);
         expect(like).toBe('proteger');
         like = await api.getLike('reagir', Language.pt);
-        expect(like).toBe('proteger');
+        expect(like).toBe('surgir');
         like = await api.getLike('enxaguar', Language.pt);
         expect(like).toBe('averiguar');
         like = await api.getLike('obliquar', Language.pt);
@@ -53,8 +53,8 @@ describe('api simple verbs', () => {
         expect(like).toBe('dizer');
         like = await api.getLike('soer', Language.pt);
         expect(like).toBe('moer');
-        like = await api.getLike('suar', Language.pt);
-        expect(like).toBe('extenuar');
+        // like = await api.getLike('suar', Language.pt);
+        // expect(like).toBe('extenuar');
         like = await api.getLike('substituir', Language.pt);
         expect(like).toBe('influir');
         like = await api.getLike('reduzir', Language.pt);
@@ -135,6 +135,33 @@ describe('api simple verbs', () => {
         expect(conjugations.present[0]).toBe('canto'); 
         expect(conjugations.preterite[0]).toBe('cantei'); 
     });  
+});
+
+describe('check merges', () => {
+    let conjugations;
+    test('check merge changes, pt', async () => {
+        conjugations = await api.getConjugations({inf:'beijocar'});
+        expect(conjugations[Tense.preterite][0]).toBe('beijoquei');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('beijoque');
+        let conjugations = await api.getConjugations({inf:'almoçar'});
+        expect(conjugations[Tense.preterite][0]).toBe('almocei');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('almoce');
+        conjugations = await api.getConjugations({inf:'agir'});
+        expect(conjugations[Tense.preterite][0]).toBe('agi');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('aja');
+        conjugations = await api.getConjugations({inf:'abranger'});
+        expect(conjugations[Tense.present][0]).toBe('abranjo');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('abranja');
+        conjugations = await api.getConjugations({inf:'golpear'});
+        expect(conjugations[Tense.present][0]).toBe('golpeio');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('golpeie');
+        conjugations = await api.getConjugations({inf:'apagar'});
+        expect(conjugations[Tense.preterite][0]).toBe('apaguei');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('apague');
+        conjugations = await api.getConjugations({inf:'apaziguar'});
+        expect(conjugations[Tense.preterite][0]).toBe('apazigüei');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('apazigúe');
+    });
 });
 
 describe('api reflexive verbs', () => {

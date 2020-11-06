@@ -1,5 +1,5 @@
 import { ConjugationList } from './lists';
-import { Language, Tense } from '../../logic/enums.js'
+import { Language, Language_NAV, Tense } from '../../logic/enums.js'
 import { useState, useEffect, useRef } from 'preact/hooks';
 import { api } from '../../api/api';
 import { utils } from '../../utils/utils';
@@ -104,24 +104,27 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
                 }
             }
         } else {
-            switch(tense) {
-                case Tense.past_anterior:
-                    return `${modal[Tense.preterite][person]} ${participle}`;
-                case Tense.future_perfect:
-                    return `${modal[Tense.future][person]} ${participle}`;
-                case Tense.past_perfect:
-                    return `${modal[Tense.present][person]} ${participle}`;
-                case Tense.pluperfect:
-                    return `${modal[Tense.imperfect][person]} ${participle}`;
-                case Tense.perfect_subjunctive:
-                    return `${modal[Tense.present_subjunctive][person]} ${participle}`;
-                case Tense.pluperfect_subjunctive:
-                    return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
-                case Tense.pluperfect_subjunctive:
-                    return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
-                default:
-                    ending = regularExpected.slice(regularRoot.length);
-                    return root + ending;
+            switch(language) {
+                case Language.es:
+                switch(tense) {
+                    case Tense.past_anterior:
+                        return `${modal[Tense.preterite][person]} ${participle}`;
+                    case Tense.future_perfect:
+                        return `${modal[Tense.future][person]} ${participle}`;
+                    case Tense.past_perfect:
+                        return `${modal[Tense.present][person]} ${participle}`;
+                    case Tense.pluperfect:
+                        return `${modal[Tense.imperfect][person]} ${participle}`;
+                    case Tense.perfect_subjunctive:
+                        return `${modal[Tense.present_subjunctive][person]} ${participle}`;
+                    case Tense.pluperfect_subjunctive:
+                        return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
+                    case Tense.pluperfect_subjunctive:
+                        return `${modal[Tense.imperfect_subjunctive][person]} ${participle}`;
+                    default:
+                        ending = regularExpected.slice(regularRoot.length);
+                        return root + ending;
+                }
             }
             
         }

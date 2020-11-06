@@ -2567,7 +2567,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'caber'
-            }
+            },
+            es: {
+                i: 'caber'
+            },
         }, {
             en: {
                 i: 'to hunt'
@@ -2598,7 +2601,11 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'cair'
-            }
+            },
+            es: {
+                i: 'caer',
+                like: 'caer',
+            },
         }, {
             en: {
                 i: 'to shut up'
@@ -4161,7 +4168,8 @@ export const getVerbsList = (inf, language = Language.pt) => {
                 'like': 'crer'
             },
             es: {
-                i: 'creer'
+                i: 'creer',
+                like: 'creer',
             }
         }, {
             en: {
@@ -7374,7 +7382,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'fugir'
-            }
+            },
+            es: {
+                i: 'huir'
+            },
         }, {
             en: {
                 i: 'to '
@@ -8726,7 +8737,8 @@ export const getVerbsList = (inf, language = Language.pt) => {
                 'like': 'ler'
             },
             es: {
-                i: 'leer'
+                i: 'leer',
+                like: 'leer',
             }
         }, {
             en: {
@@ -9399,7 +9411,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'nascer'
-            }
+            },
+            es: {
+                i: 'nacer'
+            },
         }, {
             en: {
                 i: 'to '
@@ -10566,6 +10581,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'produzir'
+            },
+            es: {
+                i: 'producir'
             }
         }, {
             en: {
@@ -11622,7 +11640,11 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'rir'
-            }
+            },
+            es: {
+                i: 'reír',
+                like: 'reír',
+            },
         }, {
             en: {
                 i: 'to '
@@ -12016,7 +12038,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'servir'
-            }
+            },
+            es: {
+                i: 'servir'
+            },
         }, {
             en: {
                 i: 'to '
@@ -12248,7 +12273,11 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'subir',
                 'like': 'subir'
-            }
+            },
+            es: {
+                i: 'subir',
+                'like': 'subir'
+            },
         }, {
             en: {
                 i: 'to '
@@ -12417,7 +12446,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'surgir'
-            }
+            },
+            es: {
+                i: 'surgir'
+            },
         }, {
             en: {
                 i: 'to '
@@ -12860,6 +12892,10 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'trazer',
                 'like': 'trazer'
+            },
+            es: {
+                i: 'traer',
+                'like': 'traer'
             }
         }, {
             en: {

@@ -40,62 +40,64 @@ export const api = {
 
         switch(language) {
             case Language.pt:        
-            if(inf.substring(inf.length -3) === 'car' && inf !== 'ficar') {
-                like = 'ficar';
-            }
-            if(inf.substring(inf.length -2) === 'or' && inf !== 'pôr') {
-                like = 'pôr';
-            }
-            if(inf.substring(inf.length -5) === 'fazer' && inf !== 'fazer') {
-                like = 'fazer';
-            }
-            if(inf.substring(inf.length -3) === 'çar' && inf !== 'caçar') {
-                like = 'caçar';
-            }
-            if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
-                like = 'conhecer';
-            }
-            // if((inf.substring(inf.length -3) === 'ger' || inf.substring(inf.length -3) === 'gir') && inf !== 'proteger') {
-            if((inf.substring(inf.length -3) === 'ger') && inf !== 'proteger') {
-                like = 'proteger';
-            }
-            if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {
-                like = 'passear';
-            }
-            if(inf.substring(inf.length -3) === 'gar' && inf !== 'chegar') {
-                like = 'chegar';
-            }
-            if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
-                like = 'extenuar';
-            }
-            if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
-                like = 'averiguar';
-            }
-            if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
-                like = 'influir';
-            }
-            if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
-                like = 'seguir';
-            }
-            if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
-                like = 'odiar';
-            }
-            if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
-                like = 'dizer';
-            }
-            if(inf.substring(inf.length -4) === 'ozer' && inf !== 'cozer') {
-                like = 'cozer';
-            }
-            if(inf.substring(inf.length -4) === 'uzir' && inf !== 'seduzir') {
-                like = 'seduzir';
-            }
-            if(inf.substring(inf.length -3) === 'oer' && inf !== 'moer') {
-                like = 'moer';
-            }
-            if(inf.substring(inf.length -3) === 'air' && inf !== 'cair') {
-                like = 'cair';
-            }
-            break;
+                if(inf.substring(inf.length -3) === 'car' && inf !== 'ficar') {
+                    like = 'ficar';
+                }
+                if(inf.substring(inf.length -2) === 'or' && inf !== 'pôr') {
+                    like = 'pôr';
+                }
+                if(inf.substring(inf.length -5) === 'fazer' && inf !== 'fazer') {
+                    like = 'fazer';// check
+                }
+                if(inf.substring(inf.length -3) === 'çar' && inf !== 'caçar') {
+                    like = 'caçar';
+                }
+                if((inf.substring(inf.length -3) === 'cer' || inf.substring(inf.length -3) === 'cir') && inf !== 'conhecer') {
+                    like = 'conhecer';
+                }
+                if((inf.substring(inf.length -3) === 'gir') && inf !== 'surgir') {
+                    like = 'surgir'
+                }
+                if((inf.substring(inf.length -3) === 'ger') && inf !== 'proteger') {
+                    like = 'proteger';
+                }
+                if(inf.substring(inf.length -3) === 'ear' && inf !== 'passear') {
+                    like = 'passear';
+                }
+                if(inf.substring(inf.length -3) === 'gar' && inf !== 'chegar') {
+                    like = 'chegar';
+                }
+                // if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
+                //     like = 'extenuar';
+                // }
+                if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
+                    like = 'averiguar';
+                }
+                if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
+                    like = 'influir';
+                }
+                if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
+                    like = 'seguir';
+                }
+                if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
+                    like = 'odiar';
+                }
+                if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
+                    like = 'dizer';
+                }
+                if(inf.substring(inf.length -4) === 'ozer' && inf !== 'cozer') {
+                    like = 'cozer';
+                }
+                if(inf.substring(inf.length -4) === 'uzir' && inf !== 'seduzir') {
+                    like = 'seduzir';
+                }
+                if(inf.substring(inf.length -3) === 'oer' && inf !== 'moer') {
+                    like = 'moer';
+                }
+                if(inf.substring(inf.length -3) === 'air' && inf !== 'cair') {
+                    like = 'cair';
+                }
+                break;
         }
 
         return like;
@@ -213,13 +215,40 @@ export const api = {
         return (inf.indexOf('-se') > -1);
     },
     mergeLikeWithVerb({inf, like, conjugations}) {
+        let merged = {}, mergedRoot;
         switch(like) {
-            case 'ficar':
-                let merged = {};
-                let mergedRoot = inf.slice(0, inf.length - 2);
-                    mergedRoot = mergedRoot.replace(mergedRoot[mergedRoot.length -1], 'qu');
+            case 'ficar':                
+                mergedRoot = inf.slice(0, inf.length - 2);
+                mergedRoot = mergedRoot.replace(mergedRoot[mergedRoot.length -1], 'qu');
                 Object.keys(conjugations).map(key => {                    
                     merged[key] = conjugations[key].map(person => person.replace('fiqu', mergedRoot));
+                });
+                return merged;
+            case 'caçar':
+                mergedRoot = inf.slice(0, inf.length - 2);
+                mergedRoot = mergedRoot.replace('ç', 'c');
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('cac', mergedRoot));
+                });
+                return merged;
+            case 'surgir':
+                mergedRoot = inf.slice(0, inf.length - 2);
+                mergedRoot = mergedRoot.replace('g', 'j');
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('surj', mergedRoot));
+                });
+                return merged;
+            case 'proteger':
+                mergedRoot = inf.slice(0, inf.length - 2);
+                mergedRoot = mergedRoot.replace('g', 'j');
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('protej', mergedRoot));
+                });
+                return merged;
+            case 'averiguar':
+                mergedRoot = inf.slice(0, inf.length - 4);
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('averi', mergedRoot));
                 });
                 return merged;
             default:

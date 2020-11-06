@@ -46,7 +46,8 @@ export const data = {
                 {
                     id: 3,
                     name: 'Commmon irregular verbs, 25-36 ',
-                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
+                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'trazer' }, { name: 'cair' }, { name: 'surgir' }, { name: 'nascer' }, { name: 'produzir' }, { name:'ler' }, { name: 'servir' }, { name: 'subir' }, { name: 'fugir' }, { name: 'rir' } ]
+                    // verbs: [ { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
                 },
                 {
                     id: 4,
@@ -80,6 +81,12 @@ export const data = {
                     id: 2,
                     name: 'Common irregular verbs, 13-24',
                     verbs: [ { name:'quedar' }, { name:'venir' }, { name: 'llegar' }, { name: 'empezar'}, { name: 'parecer' }, { name: 'salir' }, { name: 'seguir' }, { name: 'sentir' }, { name: 'conocer'},  { name:'poner' }, { name: 'oír' }, { name: 'perder' } ]
+                },
+                {
+                    id: 3,
+                    name: 'Commmon irregular verbs, 25-36 ',
+                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'traer' }, { name: 'caer' }, { name: 'surgir' }, { name:'leer' }, { name: 'servir' }, { name: 'creer' }, { name: 'reír' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
+                    // verbs: [ { name: 'nacer' }, { name: 'producir' }, { name: 'volver' } ]
                 },
                 {
                     id: 4,
