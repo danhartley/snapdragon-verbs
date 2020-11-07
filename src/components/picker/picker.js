@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import glamorous, {Div} from 'glamorous';
 import { useState, useEffect } from 'preact/hooks';
 import Downshift from 'downshift/preact';

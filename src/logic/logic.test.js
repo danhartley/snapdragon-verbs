@@ -41,7 +41,7 @@ describe('lesson, question, and answer constructors, methods and default setting
     });
     test('mode should be multipleChoice', () => {
         lesson.switchOption();
-        expect(lesson.option).toEqual(Option.translation);
+        expect(lesson.option).toEqual(Option.random);
     });
     test('lesson constructor props should override defaults', () => {
         lesson = new Lesson();

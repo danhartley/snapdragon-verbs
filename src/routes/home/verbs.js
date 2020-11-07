@@ -1,19 +1,16 @@
 import { h } from 'preact';
+import Footer from '../../components/footer/footer';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { DrillState, Choice, Pronoun_PT, Tense } from '../../logic/enums';
+import { Language, DrillState, Choice, Pronoun_PT, Tense, Pronoun_ES } from '../../logic/enums';
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
 import { api } from '../../api/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
-import Footer from '../../components/footer/footer';
 import { utils } from '../../utils/utils';
 
-const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
-
-    // verbs.map(v => console.log(v))
-    console.log(language)
+export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
     const defaults = utils.getLessonDefaults({lesson: new Lesson(), choice, language });
 
@@ -45,13 +42,30 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
         setSelectedVerbs(groupVerbs);
     };
 
+    const getTranslation = async (verb, language) => {
+        const translations = await api.getVerb({ inf: verb, language });
+        return translations[lesson.language.from].i;
+    };
+
     const handleSetDrill = async drill => {      
-        if(drill) {  
-            let translation = await api.getVerb(drill.verb, language);
-            drill.translation = translation[lesson.language.from].i;
+        if(drill) {              
+            drill.translation = await getTranslation(drill.verb, language);
             drill.conjugations = await api.getConjugations({inf:drill.verb, language});
             setDrill(drill);
         }
+    };
+
+    const getPronounToTest = (selectedPronoun, language) => {
+        let pronounToTest;
+        switch(language) {
+            case Language.pt:
+                pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                break;
+            case Language.es:
+                pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]))[0] : selectedPronoun;
+                break;
+        }
+        return pronounToTest;        
     };
 
     const handleStartDrill = async e => {       
@@ -63,7 +77,7 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
             break;
         case Choice.random:                
                 drills.forEach(drill => { 
-                    const pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                    const pronounToTest = getPronounToTest(selectedPronoun, language);
                     drill.questions.forEach(question => {                    
                         const matchingPronoun = pronounToTest.split(',').find(pronoun => pronoun === question.pronoun);
                         question.disabled = !matchingPronoun;
@@ -99,17 +113,17 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
 
     const startDrillRef = useRef();
 
-    useEffect(() => {
-        if(startDrillRef.current) {
-            startDrillRef.current.focus();
-            startDrillRef.current.scrollTo(0,0);
-        }
-    }, [selectedVerbs]);
+    // useEffect(() => {
+    //     if(startDrillRef.current) {
+    //         startDrillRef.current.focus();
+    //         startDrillRef.current.scrollTo(0,0);
+    //     }
+    // }, [selectedVerbs]);
 
     const sideBarCSS = drillActionState === DrillState.checkAnswers ? 'sidebar disabled' : 'sidebar';
 
     return (
-        <>
+        <div>
         <section class="header-block">
             <h1>{ defaults.title }</h1>
         </section>
@@ -135,9 +149,9 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
                             ? <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
                             : selectedVerbs.length > 0
                                 ? <div>{`${selectedVerbs.length} verbs`}</div>
-                                : <></>         
+                                : null      
                     }
-                    {
+                    {                        
                         selectedVerbs.length > 0 || choice === Choice.random
                             ? selectedVerbs.filter(v => !v.disabled).length > 0
                                 ? <button class="btn" ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
@@ -149,8 +163,8 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                        <><Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} />                          
-                        </>): <div class="block"></div>
+                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} />                          
+                        ): <div class="block"></div>
                     }
                 </div>
             </div>
@@ -158,8 +172,8 @@ const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionSt
           { showConjugation ? <div class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} /></div> : '' }
           <Footer />
         </div>
-        </>
+        </div>
     )
 };
 
-export default Verbs;
+// export default Verbs;

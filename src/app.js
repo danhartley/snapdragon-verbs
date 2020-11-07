@@ -7,7 +7,7 @@ import Header from './components/header/header';
 
 import { useLocalStorageState } from './utils/custom-hooks';
 
-import Verbs from './routes/home/verbs';
+import { Verbs } from './routes/home/verbs';
 
 const App = () => {
 
@@ -59,7 +59,7 @@ const App = () => {
         return (
             <div id="app">
                 <Header language={language} choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
-                <Verbs key={language} verbs={verbs} tenses={tenses} choice={choice} 
+                <Verbs key={`${language}_${choice}`} verbs={verbs} tenses={tenses} choice={choice} 
                     language={language} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
                 />

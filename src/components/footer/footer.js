@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import style from './footer.scss';
 
 const Footer = () => (

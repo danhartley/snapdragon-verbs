@@ -1,11 +1,19 @@
 import { Language, Tense } from '../logic/enums.js';
 import { data } from './data';
 
-export const api = {       
+export const api = {    
+    getIsReflexive(inf, language) {
+        switch(language) {
+            case Language.pt:
+                return inf.indexOf('-se') > -1;
+            case Language.es:
+                return inf.slice(inf.length - 2) === 'se';
+        }
+    },   
     async getVerbs(inf) {
         return await data.getVerbs(inf);
     },
-    async getVerb(inf, language = Language.pt) {
+    async getVerb({inf, language = Language.pt}) {
         const verbs = await data.getVerbs(inf, language);
         return verbs ? verbs[0] : {};
     },
@@ -20,18 +28,24 @@ export const api = {
                 'ar-se': 'falar',
                 'er-se': 'vender',
                 'ir-se': 'partir',
-            }
+            },
+            es: {         
+                'arse': 'falar',
+                'erse': 'vender',
+                'irse': 'partir',
+            },
         } 
         : {
             pt: {         
                 'ar': 'falar',
                 'er': 'vender',
-                'ir': 'partir',
+                'ir': 'partir',                
             },
             es: {         
                 'ar': 'hablar',
                 'er': 'comer',
                 'ir': 'vivir',
+                'ír': 'vivir',
             },
         };
 
@@ -103,9 +117,9 @@ export const api = {
         return like;
     },
     async getLike(inf, language) {
-        let verb = await this.getVerb(inf, language);
+        let verb = await this.getVerb({ inf, language });
         let like = verb[language].like === undefined
-                ? this.getLikeFromVerbEnding({inf, language, isReflexive: this.getIsReflexive(inf)})
+                ? this.getLikeFromVerbEnding({inf, language, isReflexive: this.getIsReflexive(inf, language)})
                 : verb[language].like;
         return like;
     },
@@ -118,7 +132,7 @@ export const api = {
         }
     },
     getRoot(inf, language) {
-        const isReflexive = (inf.indexOf('-se') > -1);
+        const isReflexive = this.getIsReflexive(inf, Language);
         switch(language) {
             case Language.pt:
                 return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
@@ -129,7 +143,7 @@ export const api = {
         }
     },
     makeReflexive({conjugations,tense,inf, language = Language.pt}) {
-        inf = inf.indexOf('-se') > -1 ? inf.slice(0, inf.indexOf('-se')) : inf;
+        inf = getIsReflexive(inf, language) ? inf.slice(0, inf.indexOf('-se')) : inf;
         const persons = [];
         switch(language) {
             case Language.pt:
@@ -210,10 +224,7 @@ export const api = {
     },
     getTenses(language) {
         return data.getTenses(language);
-    },
-    getIsReflexive(inf) {
-        return (inf.indexOf('-se') > -1);
-    },
+    },    
     mergeLikeWithVerb({inf, like, conjugations}) {
         let merged = {}, mergedRoot;
         switch(like) {

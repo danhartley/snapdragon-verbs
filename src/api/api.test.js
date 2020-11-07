@@ -10,7 +10,7 @@ describe('api simple verbs', () => {
         expect(toBe.pt.i).toBe('estar');
         toBe = await api.getVerbs('to be');
         expect(toBe[0].pt.i).toBe('estar');
-        toBe = await api.getVerb('to be', 'pt');
+        toBe = await api.getVerb({ inf:'to be', language:'pt' });
         expect(toBe.pt.i).toBe('estar');
     });
     test('check conjugation lookup is valid', async () => {

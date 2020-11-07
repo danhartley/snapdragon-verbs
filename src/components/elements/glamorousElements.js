@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import glamorous from 'glamorous';
 
 const onAttention = '&:hover, &:focus';

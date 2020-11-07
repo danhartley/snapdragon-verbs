@@ -97,7 +97,7 @@ export const data = {
         }
     },
     getVerbGroups(group, language, verbs) {
-        let _verbs = [], tense;
+        let _verbs = [], tense = Tense.present;
         switch(language) {
             case Language.pt:
                 switch(group) {
@@ -196,6 +196,11 @@ export const data = {
                             }
                         });
                     break;
+                    case VerbGroup.irregular_verbs:
+                        this.getSetDrills(language).filter(drill => drill.id < 4).forEach(group => {
+                            _verbs = [ ..._verbs, ...group.verbs ];
+                        });
+                        break;                    
                 }
         }
         return { groupVerbs: _verbs, tense };

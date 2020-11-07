@@ -63,7 +63,14 @@ const getSelectedPronoun = language => {
 };
 
 const getVerbGroups = language => {
-    return Object.keys(VerbGroup).map(key => VerbGroup[key]);
+    switch(language) {
+        case Language.pt:
+            return Object.keys(VerbGroup).map(key => VerbGroup[key]);
+        case Language.es:
+            let groups = Object.keys(VerbGroup).map(key => VerbGroup[key]);
+                groups = groups.filter(group => group === VerbGroup.irregular_verbs);
+            return groups;
+    }
 };
 
 const getLessonDefaults = ({ lesson, choice, language, }) => {

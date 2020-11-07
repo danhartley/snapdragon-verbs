@@ -36,6 +36,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
             case 'ar': regularInf = 'hablar'; break;
             case 'er': regularInf = 'comer'; break;
             case 'ir': regularInf = 'vivir'; break;
+            case 'ír': regularInf = 'vivir'; break;
             default: regularInf = null;
         }
         break;
@@ -134,15 +135,19 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
         if(tense !== 'i' && tense !== 'gerund' && tense !== 'participle') {
             const pronouns = [];
             actual[tense].forEach((conjugation, i) => {
-                const regularExpected = regular[tense][i];
-                const expected = getExpected({regularExpected, regularRoot, isReflexive, root, tense, person: i, language, participle});
-                const pronoun = {
-                    form: conjugation,
-                    isIrregular: conjugation !== expected
+                if(regular[tense]) {
+                    const regularExpected = regular[tense][i];
+                    const expected = getExpected({regularExpected, regularRoot, isReflexive, root, tense, person: i, language, participle});
+                    const pronoun = {
+                        form: conjugation,
+                        isIrregular: conjugation !== expected
+                    }
+                    pronouns.push(pronoun);
                 }
-                pronouns.push(pronoun);
             });
-            _conjugations[tense] = pronouns;
+            if(pronouns.length > 0) {
+                _conjugations[tense] = pronouns;
+            }
         }
     });
 

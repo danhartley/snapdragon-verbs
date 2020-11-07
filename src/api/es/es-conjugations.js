@@ -785,9 +785,9 @@ export const esConjugations = [
         "past anterior": ["hube reído", "hubiste reído", "hubo reído", "hubimos reído", "hubisteis reído", "hubieron reído"],
         conditional: ['reiría','reirías','reiría','reiríamos','reiríais','reirían'],
         "present subjunctive": ["ría", "rías", "ría", "riamos", "riais", "rían"],
-        "imperfect subjunctive": ["riera / riese", "rieras / rieses", "riera / riese", "riéramos / riésemos", "rierais / rieseis", "rieran / riesen"],
+        "imperfect subjunctive": ["riera", "rieras", "riera", "riéramos", "rierais", "rieran"],
         "past perfect subjunctive": ["haya reído", "hayas reído", "haya reído", "hayamos reído", "hayáis reído", "hayan reído"],
-        "pluperfect subjunctive": ["hubiera/hubiese reído", "hubieras/hubieses reído", "hubiera/hubiese reído", "hubiéramos/hubiésemos reído", "hubierais/hubieseis reído", "hubieran/hubiesen reído"],
+        "pluperfect subjunctive": ["hubiera reído", "hubieras reído", "hubiera reído", "hubiéramos reído", "hubierais reído", "hubieran reído"],
         gerund: 'riendo',
         participle: 'reído'
     },
@@ -803,9 +803,9 @@ export const esConjugations = [
         "past anterior": ["hube cabido", "hubiste cabido", "hubo cabido", "hubimos cabido", "hubisteis cabido", "hubieron cabido"],
         conditional: ['cabría','cabrías','cabría','cabríamos','cabríais','cabrían'],
         "present subjunctive": ["quepa", "quepas", "quepa", "quepamos", "quepáis", "quepan"],
-        "imperfect subjunctive": ["cupiera / cupiese", "cupieras / cupieses", "cupiera / cupiese", "cupiéramos / cupiésemos", "cupierais / cupieseis", "cupieran / cupiesen"],
+        "imperfect subjunctive": ["cupiera", "cupieras", "cupiera", "cupiéramos", "cupierais", "cupieran"],
         "past perfect subjunctive": ["haya cabido", "hayas cabido", "haya cabido", "hayamos cabido", "hayáis cabido", "hayan cabido"],
-        "pluperfect subjunctive": ["hubiera/hubiese cabido", "hubieras/hubieses cabido", "hubiera/hubiese cabido", "hubiéramos/hubiésemos cabido", "hubierais/hubieseis cabido", "hubieran/hubiesen cabido"],
+        "pluperfect subjunctive": ["hubiera cabido", "hubieras cabido", "hubiera cabido", "hubiéramos cabido", "hubierais cabido", "hubieran cabido"],
         gerund: 'cabiendo',
         participle: 'cabido'
     }

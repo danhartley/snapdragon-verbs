@@ -8,7 +8,7 @@ export class Lesson {
         global = {
             language: Language.en
         },
-        options = [ Option.drill, Option.translation ],
+        options = [ Option.drill, Option.random ],
         option = Option.drill,
         verbs = [],
         tenses = [Tense.present, Tense.imperfect, Tense.preterite, Tense.pluperfect, Tense.future, Tense.conditional,  Tense.present_subjunctive, Tense.imperfect_subjunctive, Tense.future_subjunctive ],
@@ -56,7 +56,7 @@ export class Lesson {
     };
     switchOption = () => {
         this.option = this.option === Option.drill
-            ? this.option = Option.translation
+            ? this.option = Option.random
             : this.option = Option.drill;
     };
     reverseLanguageDirection = () => {

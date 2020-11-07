@@ -3,17 +3,19 @@ import { Language, Pronoun_PT, Pronoun_ES } from '../../logic/enums.js';
 import style from './list.scss';
 
 export const ConjugationList = ({ items, language }) => {
+    if(items) {
     const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{language === Language.pt ? Pronoun_PT[i] : Pronoun_ES[i] }</span><span>{item.form}</span></li> );
         return (
-        <>
             <ul>{list}</ul>
-        </>
         );
+    } else {
+        return <></>
+    }
 };
   
 export const EditableList = ({ items, header, editedHandler }) => {
     
-    if(items.length === 0) return (<></>);
+    if(items.length === 0) return null;
 
     const localClickHandler = e => {
         

@@ -2,7 +2,7 @@ import { Enumify } from 'enumify';
 
 export class Option extends Enumify {
     static drill = 'DRILL';
-    static translation = 'TRANSLATION';
+    static random = 'RANDOM';
 }
 
 export class Mode extends Enumify {
