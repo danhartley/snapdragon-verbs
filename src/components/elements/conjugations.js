@@ -126,6 +126,9 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
                         ending = regularExpected.slice(regularRoot.length);
                         return root + ending;
                 }
+                case Language.pt:
+                    ending = regularExpected.slice(regularRoot.length);
+                    return root + ending; 
             }
             
         }
