@@ -1,14 +1,18 @@
-import { Language, Tense } from '../logic/enums.js';
+import { Language, Language_NAV, Tense } from '../logic/enums.js';
 import { data } from './data';
 
 export const api = {    
     getIsReflexive(inf, language) {
+        let isReflexive = false;
         switch(language) {
             case Language.pt:
-                return inf.indexOf('-se') > -1;
+                isReflexive = inf.indexOf('-se') > -1;
+                break;
             case Language.es:
-                return inf.slice(inf.length - 2) === 'se';
+                isReflexive = inf.slice(inf.length - 2) === 'se';
+                break;
         }
+        return isReflexive;
     },   
     async getVerbs(inf) {
         return await data.getVerbs(inf);
@@ -132,7 +136,7 @@ export const api = {
         }
     },
     getRoot(inf, language) {
-        const isReflexive = this.getIsReflexive(inf, Language);
+        const isReflexive = this.getIsReflexive(inf, language);
         switch(language) {
             case Language.pt:
                 return isReflexive ? this.getReflexiveRoot(inf, language) : inf.slice(0, inf.length -2);
@@ -143,7 +147,11 @@ export const api = {
         }
     },
     makeReflexive({conjugations,tense,inf, language = Language.pt}) {
-        inf = getIsReflexive(inf, language) ? inf.slice(0, inf.indexOf('-se')) : inf;
+        inf = this.getIsReflexive(inf, language) 
+            ? language === Language.pt 
+                ? inf.slice(0, inf.indexOf('-se')) 
+                : inf.slice(inf.length - 2) 
+            : inf;
         const persons = [];
         switch(language) {
             case Language.pt:
@@ -278,7 +286,7 @@ export const api = {
         });
         return jugations;
     },
-    async getConjugations({inf, language = Language.pt, tenses = data.getTenses(language), tense = Tense.present, isReflexive = this.getIsReflexive(inf)}) {
+    async getConjugations({inf, language = Language.pt, tenses = data.getTenses(language), tense = Tense.present, isReflexive = this.getIsReflexive(inf, language)}) {
         let like, likeRoot, likeConjugations, root;
         let { conjugations, partials } = await data.getConjugations({inf, language, tenses, tense});
         if(conjugations) {

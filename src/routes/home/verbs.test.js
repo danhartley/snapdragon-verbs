@@ -4,7 +4,7 @@ import { Drill } from '../../components/elements/drill';
 import { shallow, mount } from 'enzyme';
 import { Language, Choice } from '../../logic/enums';
 
-describe.only('state of verbs on changing language or test type', () => {
+describe('state of verbs on changing language or test type', () => {
     test('place holder', () => {
         expect(true).toBe(true);
     });
