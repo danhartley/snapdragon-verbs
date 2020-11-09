@@ -23,6 +23,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     const [selectedTense, setSelectedTense] = useState(Tense.present);
     const [lesson, setLesson] = useState(defaults.lesson);
     const [selectedVerbs, setSelectedVerbs] = useState(lesson.verbs.map(v => { return { name: v, disabled: false } }));
+    const [excludeSecondPersonPlural, setExcludeSecondPersonPlural] = useState(true);
 
     const handleVerbPicked = verb => {
         setDrillActionState(DrillState.intermediate);
@@ -55,13 +56,15 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         }
     };
 
-    const getPronounToTest = (selectedPronoun, language) => {
+    const getPronounToTest = (selectedPronoun, language, excludeSecondPersonPlural) => {
         let pronounToTest;
         switch(language) {
             case Language.pt:
+                if(excludeSecondPersonPlural) delete Pronoun_PT[4];
                 pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
                 break;
             case Language.es:
+                if(excludeSecondPersonPlural) delete Pronoun_ES[4];
                 pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]))[0] : selectedPronoun;
                 break;
         }
@@ -71,13 +74,19 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     const handleStartDrill = async e => {       
         lesson.removeVerbs();
         utils.shuffleArray(selectedVerbs).filter(verb => !verb.disabled).forEach(verb => lesson.addVerb(verb.name));
-            const drills = await lesson.createDrills(api, lesson.tense);
+        const drills = await lesson.createDrills(api, lesson.tense);
         switch(choice) {
-        case Choice.drills:     
-            break;
-        case Choice.random:                
+            case Choice.drills:     
+                break;
+            case Choice.random:
+    
                 drills.forEach(drill => { 
-                    const pronounToTest = getPronounToTest(selectedPronoun, language);
+
+                    if(excludeSecondPersonPlural) {
+                        drill.questions = drill.questions.filter((q,i) => i !== 4);
+                    }
+
+                    const pronounToTest = getPronounToTest(selectedPronoun, language, excludeSecondPersonPlural);
                     drill.questions.forEach(question => {                    
                         const matchingPronoun = pronounToTest.split(',').find(pronoun => pronoun === question.pronoun);
                         question.disabled = !matchingPronoun;
@@ -113,14 +122,16 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
 
     const startDrillRef = useRef();
 
-    // useEffect(() => {
-    //     if(startDrillRef.current) {
-    //         startDrillRef.current.focus();
-    //         startDrillRef.current.scrollTo(0,0);
-    //     }
-    // }, [selectedVerbs]);
+    useEffect(() => {
+        if(startDrillRef.current) {
+            startDrillRef.current.focus();
+            startDrillRef.current.scrollTo(0,0);
+        }
+    }, [selectedVerbs]);
 
     const sideBarCSS = drillActionState === DrillState.checkAnswers ? 'sidebar disabled' : 'sidebar';
+    const showButton = selectedVerbs.length > 0 || choice === Choice.random;
+    const isButtonDisabled = selectedVerbs.filter(v => !v.disabled).length === 0;
 
     return (
         <div>
@@ -151,19 +162,21 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                                 ? <div>{`${selectedVerbs.length} verbs`}</div>
                                 : null      
                     }
-                    {                        
-                        selectedVerbs.length > 0 || choice === Choice.random
-                            ? selectedVerbs.filter(v => !v.disabled).length > 0
-                                ? <button class="btn" ref={startDrillRef} onClick={handleStartDrill}>Start drill</button>
-                                : <button class="btn" ref={startDrillRef} disabled onClick={handleStartDrill}>Start drill</button>
+                    {                                       
+                        showButton
+                            ? <button class="btn" ref={startDrillRef} disabled={isButtonDisabled} onClick={handleStartDrill}>Start drill</button>
                             : ''
-                    }
+                    }                    
+                        <section class="filter flex">
+                            <input id="chkBox" class="margin-right" type="checkbox" checked={!excludeSecondPersonPlural} onClick={e => setExcludeSecondPersonPlural(e.target.value)} />
+                            <label for="chkBox">Include vós</label>
+                        </section>                    
                 </div>
             </div>
             <div class="main">
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} />                          
+                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} excludeSecondPersonPlural={excludeSecondPersonPlural} />                          
                         ): <div class="block"></div>
                     }
                 </div>

@@ -3,7 +3,7 @@ import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice, startDrillRef }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice, startDrillRef, excludeSecondPersonPlural }) => {
 
     const [qandas, setQandas] = useState([]);
     const [vowels, setVowels] = useState(() => [
@@ -37,7 +37,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                             _drill.questions.push(q);
                         }
                     });
-                    if(choice === Choice.random && q.pronoun !== scores[0].key) {
+                    let notSelectedPronoun = q.pronoun !== scores[0].key;
+                    if(choice === Choice.random && notSelectedPronoun) {
                         q.class = 'half-hidden is-correct';
                         q.disabled = true;
                         _drill.questions.push(q);
@@ -133,13 +134,18 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
     if(drill) {
 
+        const isDisabled = (question, index) => {            
+            let isDisabled = question.disabled || (index === 4 && excludeSecondPersonPlural && choice === Choice.drills);
+            return isDisabled;
+        };
+
         const questions = drill.questions.map((question, index) =>
             <div key={`${question.label}_${question.value.to}`} class={question.class} >
                 <div class="flex">
                     <div><label htmlFor={question.value.to}><span>{question.label}</span></label></div>
                     <div>
-                        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} disabled={question.disabled} >
-                            { question.disabled ? question.value.to : '' }
+                        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} disabled={isDisabled(question, index)} placeholder={isDisabled(question, index) ? question.value.to : ''} >
+                            { isDisabled(question, index) ? question.value.to : '' }
                         </input>
                     </div>
                 </div>
@@ -147,7 +153,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             </div>
         );
 
-        const drillStillRunning = qandas.length < 6;
+        const drillStillRunning = qandas.length < 6 || (qandas.length < 5 && excludeSecondPersonPlural);
         const randomTestStillRunning = (drill.questions.filter(q => q.disabled).length === 5 && qandas.length === 0);
         const disableSubmitButton = choice === Choice.drills
                                         ? drillStillRunning

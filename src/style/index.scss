@@ -145,6 +145,12 @@ button:disabled {
         span:nth-child(4) {
             color: $fg1;
             margin-left: .5 * $space;
+            font-size: 1rem;
+            vertical-align: top;
+            &:after {
+                content:'\2713';
+                vertical-align: top;
+            }
         }
     }
     input {
@@ -514,4 +520,8 @@ fieldset {
 
 .half-hidden {
     display: none !important; 
+}
+
+.filter {
+    input, label { cursor: pointer; }
 }
