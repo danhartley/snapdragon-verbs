@@ -133,19 +133,13 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     });
 
     if(drill) {
-
-        const isDisabled = (question, index) => {            
-            let isDisabled = question.disabled || (index === 4 && excludeSecondPersonPlural && choice === Choice.drills);
-            return isDisabled;
-        };
-
         const questions = drill.questions.map((question, index) =>
             <div key={`${question.label}_${question.value.to}`} class={question.class} >
                 <div class="flex">
                     <div><label htmlFor={question.value.to}><span>{question.label}</span></label></div>
                     <div>
-                        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} disabled={isDisabled(question, index)} placeholder={isDisabled(question, index) ? question.value.to : ''} >
-                            { isDisabled(question, index) ? question.value.to : '' }
+                        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellCheck="false" id={question.value.to} data-key={question.pronoun} onChange={handleOnChange} onFocus={handleOnFocus} disabled={question.disabled} >
+                            { question.disabled ? question.value.to : '' }
                         </input>
                     </div>
                 </div>
@@ -153,7 +147,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             </div>
         );
 
-        const drillStillRunning = qandas.length < 6 || (qandas.length < 5 && excludeSecondPersonPlural);
+        const drillStillRunning = qandas.length < drill.questions.length;
         const randomTestStillRunning = (drill.questions.filter(q => q.disabled).length === 5 && qandas.length === 0);
         const disableSubmitButton = choice === Choice.drills
                                         ? drillStillRunning
@@ -170,7 +164,10 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         <span>{lesson.drills.filter(drill => drill.completed).length + 1}</span>
                         <span>of</span>
                         <span>{lesson.drills.length}</span>
-                        <span>{lesson.drills.filter(drill => drill.isCorrect).length}</span>
+                        {lesson.drills.filter(drill => drill.isCorrect).length > 0
+                            ? <span>{lesson.drills.filter(drill => drill.isCorrect).length}</span>
+                            : ''
+                        }
                     </div>
                 </div>
                 <form ref={formRef} id="drills-form" data-state={drillActionState} onSubmit={handleDrillActionState}>

@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import Footer from '../../components/footer/footer';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Language, DrillState, Choice, Pronoun_PT, Tense, Pronoun_ES } from '../../logic/enums';
+import { Language, DrillState, Choice, Pronoun_PT, Tense, Pronoun_ES, Pronoun_EN } from '../../logic/enums';
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
@@ -77,9 +77,15 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         const drills = await lesson.createDrills(api, lesson.tense);
         switch(choice) {
             case Choice.drills:     
+                drills.forEach(drill => { 
+
+                    if(excludeSecondPersonPlural) {
+                        drill.questions = drill.questions.filter((q,i) => i !== 4);
+                    }
+
+                })
                 break;
-            case Choice.random:
-    
+            case Choice.random:    
                 drills.forEach(drill => { 
 
                     if(excludeSecondPersonPlural) {
@@ -168,8 +174,10 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                             : ''
                     }                    
                         <section class="filter flex">
-                            <input id="chkBox" class="margin-right" type="checkbox" checked={!excludeSecondPersonPlural} onClick={e => setExcludeSecondPersonPlural(e.target.value)} />
-                            <label for="chkBox">Include vós</label>
+                            <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
+                                setExcludeSecondPersonPlural(e.target.checked)
+                            }} />
+                            <label for="chkBox">Exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
                         </section>                    
                 </div>
             </div>
@@ -188,5 +196,3 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         </div>
     )
 };
-
-// export default Verbs;
