@@ -509,6 +509,7 @@ fieldset {
     border: none;
     padding-left: 0;
     ul:nth-child(1) {
+        width: 100%;
         column-count: 2;
     }
     ul:nth-child(2) {
@@ -558,6 +559,10 @@ fieldset {
 
 .filter {
     input, label { cursor: pointer; }
+    input[type=checkbox] {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
     font-size: .9rem;
 }
 

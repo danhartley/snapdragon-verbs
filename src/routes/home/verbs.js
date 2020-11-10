@@ -61,11 +61,11 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         switch(language) {
             case Language.pt:
                 if(excludeSecondPersonPlural) delete Pronoun_PT[4];
-                pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
                 break;
             case Language.es:
                 if(excludeSecondPersonPlural) delete Pronoun_ES[4];
-                pronounToTest = selectedPronoun === 'random pronoun' ? utils.shuffleArray(Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]))[0] : selectedPronoun;
+                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]))[0] : selectedPronoun;
                 break;
         }
         return pronounToTest;        

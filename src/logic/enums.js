@@ -39,7 +39,7 @@ export class Pronoun_PT extends Enumify {
     static 5 = 'elas';
 }
 export class Pronoun_Long_PT extends Enumify {
-    static 0 = 'random pronoun';
+    static 0 = 'all pronouns';
     static 1 = 'eu';
     static 2 = 'tu';
     static 3 = 'ela, ele, você';
@@ -58,7 +58,7 @@ export class Pronoun_ES extends Enumify {
 }
 
 export class Pronoun_Long_ES extends Enumify {
-    static 0 = 'random pronoun';
+    static 0 = 'all pronouns';
     static 1 = 'yo';
     static 2 = 'tú';
     static 3 = 'ella, él';
