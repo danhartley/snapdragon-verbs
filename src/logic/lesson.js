@@ -1,4 +1,4 @@
-import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense } from './enums.js';
+import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense, Choice } from './enums.js';
 import { Question } from './question.js';
 import { Score } from './score.js';
 import { utils } from '../utils/utils.js';
@@ -40,6 +40,7 @@ export class Lesson {
         this.random = random;
         this.drills = [];
         this.scores = [];
+        this.history = [];
         this.drill = null;
     };
     updateProps = props => {
@@ -154,12 +155,15 @@ export class Lesson {
         this.tenses = this.tenses.filter(t => t !== tense);
         return this.tenses;
     };
-    markLesson = qandas => {
+    markLesson = (qandas, choice = Choice.drills) => {
         if(qandas && qandas.length > 0) {
             this.scores = qandas.map(qanda => {
                 const score = new Score(qanda.question, qanda.answer, qanda.key);
                 return { question: score.question, answer: score.answer, isCorrect: score.isCorrect(), key: score.key };
-            });            
+            });
+            if(choice === Choice.random) {
+                this.history.push(this.scores[0]);
+            }
             return this.scores;
         };
     }

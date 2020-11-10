@@ -15,7 +15,6 @@ const ControllerButton = glamorous.button({
     border: 'none !important',
     [onAttention]: {
         outline: '1px solid transparent'
-        // outline: '1px solid rgb(125, 174, 219)'
     }
 }
     
@@ -55,7 +54,7 @@ const ControllerButton = glamorous.button({
 
   const Input = glamorous.input(
     {
-      width: 'calc(100% - 34px)', // full width - icon width/2 - border
+      width: 'calc(100% - 20px)', // full width - icon width/2 - border
       wordWrap: 'break-word',
       lineHeight: '16px',
       outline: 0,

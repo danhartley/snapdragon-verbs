@@ -6,7 +6,7 @@
 @mixin outline {
     padding: $space (2 * $space);
     border-radius: (.5 * $space);
-    border: 3px solid darkgray;
+    border: 3px solid $fg5;
     &:focus {
         outline: none;
         color: $fg1;

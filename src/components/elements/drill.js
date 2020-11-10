@@ -23,7 +23,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
             case DrillState.checkAnswers:
 
-                const scores = lesson.markLesson(qandas);
+                const scores = lesson.markLesson(qandas, choice);
                 const answeredDrillCorrectly = scores.length === scores.filter(score => score.isCorrect).length;
 
                 let _drill = { verb: drill.verb, completed: true, questions: [], isCorrect: answeredDrillCorrectly };
