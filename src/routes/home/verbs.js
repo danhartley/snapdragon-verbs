@@ -129,9 +129,8 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     const startDrillRef = useRef();
 
     useEffect(() => {
-        if(startDrillRef.current) {
+        if(startDrillRef.current && !startDrillRef.current.disabled) {
             startDrillRef.current.focus();
-            startDrillRef.current.scrollTo(0,0);
         }
     }, [selectedVerbs]);
 

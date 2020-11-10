@@ -162,7 +162,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                     </h2>
                     <div class="progress">
                         <span>{lesson.drills.filter(drill => drill.completed).length + 1}</span>
-                        <span>of</span>
+                        <span>/</span>
                         <span>{lesson.drills.length}</span>
                         {lesson.drills.filter(drill => drill.isCorrect).length > 0
                             ? <span>{lesson.drills.filter(drill => drill.isCorrect).length}</span>

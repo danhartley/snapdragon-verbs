@@ -54,7 +54,7 @@ const ControllerButton = glamorous.button({
 
   const Input = glamorous.input(
     {
-      width: 'calc(100% - 20px)', // full width - icon width/2 - border
+      width: 'calc(100% - 34px)', // full width - icon width/2 - border
       wordWrap: 'break-word',
       lineHeight: '16px',
       outline: 0,
