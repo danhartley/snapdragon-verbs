@@ -39,13 +39,13 @@ export class Pronoun_PT extends Enumify {
     static 5 = 'elas';
 }
 export class Pronoun_Long_PT extends Enumify {
-    static 0 = 'eu';
-    static 1 = 'tu';
-    static 2 = 'ela, ele, você';
-    static 3 = 'nós';
-    static 4 = 'vós';
-    static 5 = 'elas, eles, vocês';
-    static 6 = 'random pronoun';
+    static 0 = 'random pronoun';
+    static 1 = 'eu';
+    static 2 = 'tu';
+    static 3 = 'ela, ele, você';
+    static 4 = 'nós';
+    static 5 = 'vós';
+    static 6 = 'elas, eles, vocês';
 }
 
 export class Pronoun_ES extends Enumify {
@@ -58,13 +58,13 @@ export class Pronoun_ES extends Enumify {
 }
 
 export class Pronoun_Long_ES extends Enumify {
-    static 0 = 'yo';
-    static 1 = 'tú';
-    static 2 = 'ella, él';
-    static 3 = 'nosotros';
-    static 4 = 'vosotros';
-    static 5 = 'ellos';
-    static 6 = 'random pronoun';
+    static 0 = 'random pronoun';
+    static 1 = 'yo';
+    static 2 = 'tú';
+    static 3 = 'ella, él';
+    static 4 = 'nosotros';
+    static 5 = 'vosotros';
+    static 6 = 'ellos';
 }
 
 export class DrillState extends Enumify {

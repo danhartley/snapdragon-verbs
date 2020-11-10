@@ -56,9 +56,9 @@ const getLesson = (lesson, language) => {
 const getSelectedPronoun = language => {
     switch(language){
         case Language.pt:
-        return Pronoun_Long_PT[6];
+        return Pronoun_Long_PT[0];
         case Language.es:
-        return Pronoun_Long_ES[6];
+        return Pronoun_Long_ES[0];
     }
 };
 

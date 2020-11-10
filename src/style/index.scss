@@ -491,6 +491,10 @@ fieldset {
 
 .rb-list {
     height: 4 * $space;
+    &.disabled {
+        pointer-events: none;
+        opacity: .3;
+    }
     input {
         appearance: none;
         border-radius: 50%;
@@ -508,7 +512,7 @@ fieldset {
         }
         &:focus {
             outline: none;
-        }
+        }        
     }
     label {
         cursor: pointer;
