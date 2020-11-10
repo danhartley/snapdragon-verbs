@@ -64,21 +64,29 @@ export const RemoveableList = ({ items, msg }) => {
 
 export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header, handleRadioButtonSelection, selectedPronoun, excludeSecondPersonPlural }) => {
     const getClasses = index => {
-        let classes = 'flex rb-list ';
-        if(index === 5 && excludeSecondPersonPlural) classes += 'disabled';
+        let classes = 'flex rb-list';
+        if(index === 5 && excludeSecondPersonPlural) classes += ' disabled';
         return classes;
     };
     return (
             <form>
                 <fieldset class={ direction === 'vertical' ? 'flex-column' : 'flex'}>
                     <ul>
-                    { pronouns.map((pronoun, i) =>                                                 
+                    { pronouns.map((pronoun, i) =>
+                        i === 0 ? null :
                         <li class={getClasses(i)}>
                             <input onClick={handleRadioButtonSelection} type="radio" id={pronoun} name="pronoun-input" value={pronoun} checked={pronoun === selectedPronoun} />
                             <label class="margin-right" for={pronoun}>{pronoun}</label>
                         </li>
                     )}
                     </ul>
+                    <ul>
+                        <li class="flex rb-list">
+                        <input onClick={handleRadioButtonSelection} type="radio" id={pronouns[0]} name="pronoun-input" value={pronouns[0]} checked={pronouns[0] === selectedPronoun} />
+                            <label class="margin-right" for={pronouns[0]}>{pronouns[0]}</label>
+                        </li>
+                    </ul>
+
                 </fieldset>
             </form>
     );

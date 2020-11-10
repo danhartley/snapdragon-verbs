@@ -36,7 +36,7 @@
     display: grid;
     align-items: initial;
     flex-direction: column;
-    padding: $space;
+    padding: .5 * $space;
     section {
         justify-content: center;
         display: flex;

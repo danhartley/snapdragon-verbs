@@ -56,7 +56,6 @@ const ControllerButton = glamorous.button({
   const Input = glamorous.input(
     {
       width: 'calc(100% - 34px)', // full width - icon width/2 - border
-      fontSize: 12,
       wordWrap: 'break-word',
       lineHeight: '16px',
       outline: 0,
@@ -72,7 +71,7 @@ const ControllerButton = glamorous.button({
   )
   
   const Menu = glamorous.div({
-    maxHeight: '10rem',
+    maxHeight: '15rem',
     overflowY: 'auto',
     overflowX: 'hidden',
     outline: '0',

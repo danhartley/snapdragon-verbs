@@ -148,18 +148,18 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
           <div class="columns">
           <div class={sideBarCSS}>
                 <div> 
-                    {
-                        choice === Choice.drills
-                            ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getLongPronouns(language)} excludeSecondPersonPlural={excludeSecondPersonPlural} />                     
-                    }
-                    {
+                {
                         <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                     }
                     {
                         choice === Choice.drills
                             ? <Picker key={verbs} itemToString={item => item ? item : ''} items={verbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
                             : <Picker key={verbs} itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
+                    }
+                    {
+                        choice === Choice.drills
+                            ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
+                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getLongPronouns(language)} excludeSecondPersonPlural={excludeSecondPersonPlural} />                     
                     }
                     {
                         choice === Choice.drills
@@ -177,7 +177,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                             <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
                                 setExcludeSecondPersonPlural(e.target.checked)
                             }} />
-                            <label for="chkBox">Exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
+                            <label for="chkBox">exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
                         </section>                    
                 </div>
             </div>
