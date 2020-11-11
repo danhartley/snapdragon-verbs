@@ -468,9 +468,15 @@ input[type='checkbox'] {
 
 .conjugations {
     width: 800px;
-    column-count: 3;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 600px) {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 414px) {
+        grid-template-columns: 1fr;
+    }
+    display: grid;
     margin-right: auto;
     margin-left: auto;
     h2 {
@@ -577,7 +583,6 @@ select {
 
 .reload:after {
     content:'\27F3';
-    // content:'\2713';
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
