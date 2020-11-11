@@ -138,7 +138,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
             mainRef.scrollTop -= 200;
         }
-    });
+    },[drill]);
 
     if(drill) {
         const questions = drill.questions.map((question, index) =>
