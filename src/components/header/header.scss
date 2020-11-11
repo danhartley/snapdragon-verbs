@@ -33,17 +33,24 @@
 }
 
 .doubleLineNav {
+    width: 100%;
     display: grid;
     align-items: initial;
     flex-direction: column;
-    padding: .5 * $space;
+    padding: .5 * $space;    
     section {
+        width: 100%;
         justify-content: center;
         display: flex;
         align-items: center;
         font-size: .8rem;
-        color: $fg3;      
-        margin-right: 2 * $space;
+        color: $fg3;
+    }
+    section:nth-child(2) ul {
+        width: 80%;
+    }
+    li {
+        height: 2.25rem;
     }
 }
 

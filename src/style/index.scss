@@ -570,6 +570,11 @@ select {
     font-size: 12px;
 }
 
+.reload:after {
+    content:'\27F3';
+    // content:'\2713';
+}
+
 @media screen and (device-aspect-ratio: 40/71) {
     input[type="text"] { font-size: 16px; }
 }

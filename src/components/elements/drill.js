@@ -3,7 +3,7 @@ import { ActionList } from './lists';
 import { useEffect, useState, useRef } from 'preact/hooks';
 import { QandA } from '../../logic/qanda';
 
-export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice, startDrillRef, excludeSecondPersonPlural }) => {
+export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, drill, onChangeDrill, onClickVerbConjugationLink, choice, startDrillRef, mainRef }) => {
 
     const [qandas, setQandas] = useState([]);
     const [vowels, setVowels] = useState(() => [
@@ -70,6 +70,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
 
     useEffect(() => {
         if(formRef.current  && drillActionState ===  DrillState.checkAnswers) {
+            let narrowScreen = window.matchMedia("only screen and (max-width: 600px)").matches;
+            if(narrowScreen) return;
             let firstPerson = formRef.current.elements[0];
             firstPerson.disabled
                 ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
@@ -101,7 +103,6 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     }
 
     useEffect(() => {
-
         window.addEventListener("keydown", e => {
             if (e.defaultPrevented) {
               return;
@@ -130,6 +131,13 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 }
             }
         , { once: true });
+    });
+
+    useEffect(() => {
+        if(mainRef.current) {
+            mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
+            mainRef.scrollTop -= 200;
+        }
     });
 
     if(drill) {

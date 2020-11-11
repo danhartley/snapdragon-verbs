@@ -92,11 +92,15 @@ export const RadioButtonList = ({ pronouns = [], direction = 'vertical', header,
     );
 };
 
-export const NavGroup = ({ items, item, navItemClickHandler, minWidth = '9rem' }) => {
-    const list = items.map(i => { 
+export const NavGroup = ({ items, item, navItemClickHandler, minWidth = '9rem', isWideScreen = true, onReload }) => {
+    let list = items.map(i => { 
             return <li style={`min-width: ${minWidth}`} class={item !== i ? style.navBlockInactive : style.navBlockActive}><button onClick={navItemClickHandler} id={i} class="button-link-action">{i}</button></li>
         }
     );
+    if(!isWideScreen) {
+        const reload = <li class={style.navBlockInactive} style="min-width: 4rem;"><button id="reload" class="button-link-action reload" onClick={onReload}></button></li>;
+        list.splice(1, 0, reload);
+    }
     return (
         <section><ul class={style.navList}>{list}</ul></section>
     )

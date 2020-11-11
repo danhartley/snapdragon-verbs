@@ -96,8 +96,8 @@ export const data = {
             ];
         }
     },
-    getVerbGroups(group, language, verbs) {
-        let _verbs = [], tense = Tense.present;
+    getVerbGroups({group, language, verbs, tense = Tense.present}) {
+        let _verbs = [], _tense = tense;
         switch(language) {
             case Language.pt:
                 switch(group) {
@@ -123,7 +123,7 @@ export const data = {
                             { name: 'ser' },
                             { name: 'pôr' },
                         ];
-                        tense = Tense.imperfect;
+                        _tense = Tense.imperfect;
                         break;
                     case VerbGroup.preterite_irregular_verbs:
                         _verbs = [
@@ -136,7 +136,7 @@ export const data = {
                             { name: 'fazer' },
                             { name: 'saber' },
                         ];
-                        tense = Tense.preterite;
+                        _tense = Tense.preterite;
                         break;
                     case VerbGroup.future_irregular_verbs:
                         _verbs = [
@@ -144,7 +144,7 @@ export const data = {
                             { name: 'dizer' },
                             { name: 'fazer' },
                         ];
-                        tense = Tense.future;
+                        _tense = Tense.future;
                         break;
                     case VerbGroup.conditional:
                         _verbs = [
@@ -152,7 +152,7 @@ export const data = {
                             { name: 'dizer' },
                             { name: 'fazer' },
                         ];
-                        tense = Tense.future;
+                        _tense = Tense.future;
                         break;
                     case VerbGroup.conditional_irregular_verbs:
                         _verbs = [
@@ -160,7 +160,7 @@ export const data = {
                             { name: 'dizer' },
                             { name: 'fazer' },
                         ];
-                        tense = Tense.conditional;
+                        _tense = Tense.conditional;
                         break;
                     case VerbGroup.subjunctive_irregular_verbs:
                         _verbs = [
@@ -183,7 +183,7 @@ export const data = {
                             { name: 'dar' },
                             { name: 'ir' },
                         ];
-                        tense = Tense.present_subjunctive;
+                        _tense = Tense.present_subjunctive;
                         break;
                 }
                 break;
@@ -203,6 +203,6 @@ export const data = {
                         break;                    
                 }
         }
-        return { groupVerbs: _verbs, tense };
+        return { groupVerbs: _verbs, tense: _tense };
     }
 };

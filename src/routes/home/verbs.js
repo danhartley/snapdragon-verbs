@@ -37,7 +37,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     };
 
     const handleVerbGroupSelected = group => {        
-        let { groupVerbs, tense } = api.getVerbGroups(group, language, verbs);
+        let { groupVerbs, tense } = api.getVerbGroups({group, language, verbs, tense: selectedTense});
         handleTensePicked(tense);
         setSelectedVerbGroup(group);
         setSelectedVerbs(groupVerbs);
@@ -78,20 +78,16 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         switch(choice) {
             case Choice.drills:     
                 drills.forEach(drill => { 
-
                     if(excludeSecondPersonPlural) {
                         drill.questions = drill.questions.filter((q,i) => i !== 4);
                     }
-
                 })
                 break;
             case Choice.random:    
                 drills.forEach(drill => { 
-
                     if(excludeSecondPersonPlural) {
                         drill.questions = drill.questions.filter((q,i) => i !== 4);
                     }
-
                     const pronounToTest = getPronounToTest(selectedPronoun, language, excludeSecondPersonPlural);
                     drill.questions.forEach(question => {                    
                         const matchingPronoun = pronounToTest.split(',').find(pronoun => pronoun === question.pronoun);
@@ -127,10 +123,12 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     };
 
     const startDrillRef = useRef();
+    const mainRef = useRef();
 
     useEffect(() => {
         if(startDrillRef.current && !startDrillRef.current.disabled) {
             startDrillRef.current.focus();
+            startDrillRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
         }
     }, [selectedVerbs]);
 
@@ -180,10 +178,10 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                         </section>                    
                 </div>
             </div>
-            <div class="main">
+            <div class="main" ref={mainRef}>
                 <div class="block">
                     { drillActionState !== DrillState.hideDrills ? (
-                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} excludeSecondPersonPlural={excludeSecondPersonPlural} />                          
+                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} mainRef={mainRef} /> 
                         ): <div class="block"></div>
                     }
                 </div>

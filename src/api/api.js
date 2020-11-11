@@ -306,7 +306,7 @@ export const api = {
     getSetDrills(language) {
         return data.getSetDrills(language);
     },
-    getVerbGroups(group, language, verbs) {
-        return data.getVerbGroups(group, language, verbs);
+    getVerbGroups({group, language, verbs, tense}) {
+        return data.getVerbGroups({group, language, verbs, tense});
     }
 };

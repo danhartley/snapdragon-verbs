@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import { api } from './api/api';
 import { Language, DrillState, Language_NAV, Choice } from './logic/enums';
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 
 import Header from './components/header/header';
 
@@ -41,7 +41,7 @@ const App = () => {
         };
     }, [language]);
 
-    const handleSetChoice = id => {
+    const handleSetChoice = id => {        
         setChoice(id);
         setDrill(null);
         setDrillActionState(DrillState.intermediate);
@@ -55,10 +55,22 @@ const App = () => {
         setTenses(api.getTenses(id));
     };
 
+    const appRef = useRef();
+
+    const handleOnReload = () => {
+        location.reload();
+    };
+
+    useEffect(() => {
+        if(appRef.current) {
+            appRef.current.scrollIntoView(true);
+        }
+    }, []);
+
     if(verbs.length > 0) {
         return (
-            <div id="app">
-                <Header language={language} choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} />
+            <div id="app" ref={appRef}>
+                <Header language={language} choice={choice} onClickChangeChoice={state => handleSetChoice(state.target.id)} language={language} onClickChangeLanguage={state => handleSetLanguage(state.target.id)} onReload={handleOnReload} />
                 <Verbs key={`${language}_${choice}`} verbs={verbs} tenses={tenses} choice={choice} 
                     language={language} drill={drill} setDrill={setDrill} 
                     drillActionState={drillActionState} setDrillActionState={setDrillActionState} 
