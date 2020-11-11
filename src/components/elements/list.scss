@@ -9,9 +9,6 @@
     background-color: $bg2;
     border: 1px solid lightgray;
     color: $fg6;
-    // &:nth-child(1) {
-    //     margin-right: $space;
-    // }
     & button {
         width: 100%;
     }
@@ -29,7 +26,6 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    // margin: 0 1rem;
     li {
         min-height: initial;
     }

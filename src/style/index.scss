@@ -131,9 +131,14 @@ button:disabled {
         }   
     }
     h2 {         
-        span {
-        font-weight: bold;
-        color: $fg1;
+        button {
+            font-weight: bold;
+            color: $fg1;
+            border-bottom: 1px solid $fg1;;
+            text-decoration: none;
+            padding-bottom: 2px;
+            font-size: 1.25rem;
+            border-radius: 0;
         }
         margin-bottom: 2 * $space;
     }

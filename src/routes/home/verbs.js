@@ -122,8 +122,18 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         setSelectedVerbs(verbs);
     };
 
+    const handleShowConjugations = state => {
+        setShowConjugation(state);
+        setTimeout(() => {
+            if(footerRef.current) {
+                footerRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
+            }   
+        });
+    };
+
     const startDrillRef = useRef();
     const mainRef = useRef();
+    const footerRef = useRef();
 
     useEffect(() => {
         if(startDrillRef.current && !startDrillRef.current.disabled) {
@@ -138,58 +148,58 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
 
     return (
         <div>
-        <section class="header-block">
-            <h1>{ defaults.title }</h1>
-        </section>
-        <div class="home">          
-          <div class="columns">
-          <div class={sideBarCSS}>
-                <div> 
-                {
-                        <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
-                    }
+            <section class="header-block">
+                <h1>{ defaults.title }</h1>
+            </section>
+            <div class="home">          
+            <div class="columns">
+            <div class={sideBarCSS}>
+                    <div> 
                     {
-                        choice === Choice.drills
-                            ? <Picker key={verbs} itemToString={item => item ? item : ''} items={verbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
-                            : <Picker key={verbs} itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
-                    }
-                    {
-                        choice === Choice.drills
-                            ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
-                            : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getLongPronouns(language)} excludeSecondPersonPlural={excludeSecondPersonPlural} />                     
-                    }
-                    {
-                        choice === Choice.drills
-                            ? <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
-                            : selectedVerbs.length > 0
-                                ? <div>{`${selectedVerbs.length} verbs`}</div>
-                                : null      
-                    }
-                    {                                       
-                        showButton
-                            ? <button class="btn" ref={startDrillRef} disabled={isButtonDisabled} onClick={handleStartDrill}>Start drill</button>
-                            : ''
-                    }                    
-                        <section class="filter flex">
-                            <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
-                                setExcludeSecondPersonPlural(e.target.checked)
-                            }} />
-                            <label for="chkBox">exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
-                        </section>                    
+                            <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
+                        }
+                        {
+                            choice === Choice.drills
+                                ? <Picker key={verbs} itemToString={item => item ? item : ''} items={verbs} onChange={handleVerbPicked} label={'Verbs'}></Picker>
+                                : <Picker key={verbs} itemToString={item => item ? item : ''} items={inputVerbGroups} onChange={handleVerbGroupSelected} label={'Verb groups'}></Picker>
+                        }
+                        {
+                            choice === Choice.drills
+                                ? <ActionList header={'Fixed drills'} listItemClickHandler={handleSelectSetDrill} items={fixedDrills} />
+                                : <RadioButtonList selectedPronoun={selectedPronoun} handleRadioButtonSelection={e => { setSelectedPronoun(e.target.id); }} header={'Select inflection'} pronouns={utils.getLongPronouns(language)} excludeSecondPersonPlural={excludeSecondPersonPlural} />                     
+                        }
+                        {
+                            choice === Choice.drills
+                                ? <EditableList header={'Selected verbs'} items={selectedVerbs} editedHandler={handleVerbEdited} />
+                                : selectedVerbs.length > 0
+                                    ? <div>{`${selectedVerbs.length} verbs`}</div>
+                                    : null      
+                        }
+                        {                                       
+                            showButton
+                                ? <button class="btn" ref={startDrillRef} disabled={isButtonDisabled} onClick={handleStartDrill}>Start drill</button>
+                                : ''
+                        }                    
+                            <section class="filter flex">
+                                <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
+                                    setExcludeSecondPersonPlural(e.target.checked)
+                                }} />
+                                <label for="chkBox">exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
+                            </section>                    
+                    </div>
+                </div>
+                <div class="main" ref={mainRef}>
+                    <div class="block">
+                        { drillActionState !== DrillState.hideDrills ? (
+                                <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => handleShowConjugations(state)} choice={choice} startDrillRef={startDrillRef} mainRef={mainRef} /> 
+                            ): <div class="block"></div>
+                        }
+                    </div>
                 </div>
             </div>
-            <div class="main" ref={mainRef}>
-                <div class="block">
-                    { drillActionState !== DrillState.hideDrills ? (
-                            <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => setShowConjugation(state)} choice={choice} startDrillRef={startDrillRef} mainRef={mainRef} /> 
-                        ): <div class="block"></div>
-                    }
-                </div>
+            { showConjugation ? <div ref={footerRef} class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} mainRef={mainRef} /></div> : '' }            
+            <Footer />
             </div>
-          </div>
-          { showConjugation ? <div class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} /></div> : '' }
-          <Footer />
-        </div>
         </div>
     )
 };

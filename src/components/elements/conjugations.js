@@ -157,7 +157,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     return _conjugations;
 };
 
-export const Conjugations = ({drill, language}) => {
+export const Conjugations = ({drill, language, mainRef}) => {
 
     const [comparedConjugations, setComparedConjugations] = useState(null);
 
@@ -168,13 +168,19 @@ export const Conjugations = ({drill, language}) => {
 
     let tenses = utils.getTensesByLanguage(language);
         tenses = tenses.map(t => t.replace('_', ' '));
+
+    const goToDrills = () => {
+        if(mainRef.current) {
+            mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
+        }
+    };
     
      return (
         comparedConjugations === null ? '' :
         <>
             <section class="flex drills">
                 <h2>
-                    <span><a href="#app">{drill.verb}</a><a/></span><span class="translation">{drill.translation}</span>
+                    <button class="button-link-action" onclick={goToDrills}>{drill.verb}</button><span class="translation">{drill.translation}</span>
                 </h2>
             </section>
             <section class="conjugations">

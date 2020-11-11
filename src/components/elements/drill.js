@@ -166,7 +166,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             <section class="drills">
                 <div class="text-align flex">
                     <h2>
-                        <span><a href="#footer" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</a></span><span class="translation">{drill.translation}</span>
+                        <span><button class="button-link-action" onClick={onClickVerbConjugationLink} id={drill.verb}>{drill.verb}</button></span><span class="translation">{drill.translation}</span>
                     </h2>
                     <div class="progress">
                         <span>{lesson.drills.filter(drill => drill.completed).length + 1}</span>

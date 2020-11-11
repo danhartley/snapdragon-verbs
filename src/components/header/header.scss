@@ -30,6 +30,9 @@
         color: $fg3;      
         margin-right: 2 * $space;
     }
+    ul li:nth-child(1) {
+        margin-right: $space;
+    }
 }
 
 .doubleLineNav {
