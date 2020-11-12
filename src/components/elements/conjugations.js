@@ -172,7 +172,6 @@ export const Conjugations = ({drill, language, mainRef}) => {
 
     const goToDrills = () => {
         if(mainRef.current) {
-            console.log('scroll to drills');
             mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
         }
     };

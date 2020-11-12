@@ -383,8 +383,8 @@ input[type='checkbox'] {
 }
 
 .menu > div {
-    width: 15.5rem;
-    margin: (.5 * $space) 0;
+    width: 16.5rem;
+    margin: $space 0;
     left: 0;
 }
 
@@ -582,10 +582,6 @@ fieldset {
         margin-left: 0;
     }
     font-size: .9rem;
-}
-
-select { 
-    font-size: 12px;
 }
 
 .reload:after {

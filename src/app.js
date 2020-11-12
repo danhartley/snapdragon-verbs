@@ -63,7 +63,6 @@ const App = () => {
 
     useEffect(() => {
         if(appRef.current) {
-            console.log('scroll to app');
             appRef.current.scrollIntoView(true);
         }
     }, []);

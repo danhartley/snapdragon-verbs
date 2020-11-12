@@ -71,7 +71,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     useEffect(() => {
         if(formRef.current  && drillActionState ===  DrillState.checkAnswers) {
             let narrowScreen = window.matchMedia("only screen and (max-width: 600px)").matches;
-            if(narrowScreen) return;
+            if(narrowScreen && choice === Choice.drills) return;
+            console.log('focus on first pronoun')
             let firstPerson = formRef.current.elements[0];
             firstPerson.disabled
                 ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
@@ -134,9 +135,13 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     });
 
     useEffect(() => {
-        if(mainRef.current && mainRef.current.scrollIntoView ) {
-            console.log('scroll to main');
-            mainRef.current.scrollIntoView({behavior:'smooth', block: 'center'});
+        if(mainRef.current && mainRef.current.scrollIntoView ) {            
+            mainRef.current.scrollIntoView({behavior:'smooth', block: choice === Choice.drills ? 'start' : 'center'});
+            var scrolledY = window.scrollY;
+            if(scrolledY){
+                let diff = choice === Choice.drills ? 45 : -90;
+            window.scroll(0, scrolledY - diff);
+            }
         }
     },[drill]);
 
