@@ -134,9 +134,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     });
 
     useEffect(() => {
-        if(mainRef.current) {
-            mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
-            mainRef.scrollTop -= 200;
+        if(mainRef.current && mainRef.current.scrollIntoView ) {
+            console.log('scroll to main');
+            mainRef.current.scrollIntoView({behavior:'smooth', block: 'center'});
         }
     },[drill]);
 
@@ -151,7 +151,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                         </input>
                     </div>
                 </div>
-                <div><span class='answer'>{question.value.to}</span></div>
+                <div class='answer'><span>{question.value.to}</span></div>
             </div>
         );
 

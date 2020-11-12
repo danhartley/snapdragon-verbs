@@ -8,7 +8,7 @@ html, body {
     padding: 0;
     margin: 0;
 	background: #FAFAFA;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
@@ -186,6 +186,7 @@ button:disabled {
             }
             & > div > div:nth-child(2) {
                 width: 9rem;
+                min-height: 37px;
             }
             & > div:nth-child(3) > div {
                 text-align: left;
@@ -193,7 +194,12 @@ button:disabled {
         }
     }
     .answer { 
-        visibility: hidden;
+        min-height: 2rem;
+        display: flex;
+        align-items: center;
+        & > span {
+            visibility: hidden;
+        }
     }
     .is-correct {
         input {            
@@ -203,7 +209,7 @@ button:disabled {
         }
     }
     .is-incorrect {        
-        .answer {
+        .answer > span {
             visibility: visible;
             color: $fg1;
             margin-left: $space;
@@ -386,18 +392,6 @@ input[type='checkbox'] {
     margin-left: 6rem; text-align:left;
 }
 
-@media (max-width: 413px) {
-    .drills .questions > div > div:first-child > div:first-child {
-        width: 3rem;
-    }
-    .drills .is-incorrect > div:nth-child(2) {        
-        font-size: .8rem;
-    }
-    .action-button {
-        margin-left: 3rem;
-    }
-}
-
 @media (max-width: 374px) {
     .menu > div {
         top: 65px;
@@ -412,9 +406,22 @@ input[type='checkbox'] {
     }
     .drills .is-incorrect > div:nth-child(2) {        
         margin-left: 3rem;
-        .answer {
+        .answer > span {
             margin: 0;
         }
+    }
+}
+
+@media (max-width: 413px) {
+    .drills .questions > div > div:first-child > div:first-child {
+        width: 5rem;
+    }
+    .drills .is-incorrect > div:nth-child(2) {        
+        font-size: .8rem;
+        margin-left: 5rem;
+    }
+    .action-button {
+        margin-left: 5rem;
     }
 }
 

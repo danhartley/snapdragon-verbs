@@ -139,6 +139,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         if(startDrillRef.current && !startDrillRef.current.disabled) {
             startDrillRef.current.focus();
             startDrillRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
+            console.log('scroll to verbs');
         }
     }, [selectedVerbs]);
 

@@ -27,6 +27,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
         switch(ending) {
             case 'ar': regularInf = 'falar'; break;
             case 'er': regularInf = 'vender'; break;
+            case 'ôr': regularInf = 'vender'; break;
             case 'ir': regularInf = 'partir'; break;
             default: regularInf = null;
         }
@@ -34,7 +35,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
         case Language.es:
         switch(ending) {
             case 'ar': regularInf = 'hablar'; break;
-            case 'er': regularInf = 'comer'; break;
+            case 'er': regularInf = 'comer'; break;            
             case 'ir': regularInf = 'vivir'; break;
             case 'ír': regularInf = 'vivir'; break;
             default: regularInf = null;
@@ -171,6 +172,7 @@ export const Conjugations = ({drill, language, mainRef}) => {
 
     const goToDrills = () => {
         if(mainRef.current) {
+            console.log('scroll to drills');
             mainRef.current.scrollIntoView({behavior:'smooth', block: 'end'});
         }
     };

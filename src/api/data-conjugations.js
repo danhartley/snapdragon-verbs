@@ -2665,7 +2665,7 @@ const conjugations = {
         },
         {
             i: 'fugir',
-            present: ['fujo', 'foges', 'foge', '', '', '', 'fogem'],
+            present: ['fujo', 'foges', 'foge', '', '', 'fogem'],
             'present subjunctive': [
                 'fuja',
                 'fujas',

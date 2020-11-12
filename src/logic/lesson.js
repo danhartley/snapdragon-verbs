@@ -163,6 +163,7 @@ export class Lesson {
             });
             if(choice === Choice.random) {
                 this.history.push(this.scores[0]);
+                // console.log(this.history);
             }
             return this.scores;
         };
