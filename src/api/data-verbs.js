@@ -3520,7 +3520,7 @@ export const getVerbsList = (inf, language = Language.pt) => {
             }
         }, {
             en: {
-                i: 'to '
+                i: 'to conclude'
             },
             pt: {
                 i: 'concluir'

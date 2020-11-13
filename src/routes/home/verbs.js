@@ -127,6 +127,11 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         setTimeout(() => {
             if(footerRef.current) {
                 footerRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
+                var scrolledY = window.scrollY;
+                if(scrolledY){
+                    let diff = 90;
+                    window.scroll(0, scrolledY - diff);
+                }
             }   
         });
     };
@@ -138,6 +143,8 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     useEffect(() => {
         if(startDrillRef.current && !startDrillRef.current.disabled) {
             startDrillRef.current.focus();
+            const isWideScreen = window.innerWidth >= 601;
+            if(isWideScreen) return;
             startDrillRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
         }
     }, [selectedVerbs]);
@@ -197,7 +204,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                     </div>
                 </div>
             </div>
-            { showConjugation ? <div ref={footerRef} class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} mainRef={mainRef} /></div> : '' }            
+            { showConjugation ? <div ref={footerRef} class="conjugations-container"><Conjugations key={drill} drill={drill} language={language} mainRef={mainRef} excludeSecondPersonPlural={excludeSecondPersonPlural} /></div> : '' }            
             <Footer />
             </div>
         </div>

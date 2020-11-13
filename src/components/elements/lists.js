@@ -2,9 +2,12 @@ import { h } from 'preact';
 import { Language, Pronoun_PT, Pronoun_ES } from '../../logic/enums.js';
 import style from './list.scss';
 
-export const ConjugationList = ({ items, language }) => {
+export const ConjugationList = ({ items, language, excludeSecondPersonPlural }) => {
     if(items) {
-    const list = items.map((item, i) => <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{language === Language.pt ? Pronoun_PT[i] : Pronoun_ES[i] }</span><span>{item.form}</span></li> );
+    const list = items.map((item, i) => {
+        if(i === 4 && excludeSecondPersonPlural) return;
+        return <li class={item.isIrregular ? 'irregular' : 'regular'}><span class="margin-right">{language === Language.pt ? Pronoun_PT[i] : Pronoun_ES[i] }</span><span>{item.form}</span></li>
+    });
         return (
             <ul>{list}</ul>
         );

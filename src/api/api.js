@@ -88,8 +88,11 @@ export const api = {
                 // if(inf.substring(inf.length -3) === 'uar' && inf !== 'extenuar') {
                 //     like = 'extenuar';
                 // }
-                if((inf.substring(inf.length -4) === 'guar' || inf.substring(inf.length -4) === 'quar') && inf !== 'averiguar') {
+                if(inf.substring(inf.length -4) === 'guar' && inf !== 'averiguar') {
                     like = 'averiguar';
+                }
+                if(inf.substring(inf.length -4) === 'quar' && inf !== 'adequar') {
+                    like = 'adequar';
                 }
                 if(inf.substring(inf.length -3) === 'uir' && inf !== 'influir') {
                     like = 'influir';
@@ -97,9 +100,9 @@ export const api = {
                 if(inf.substring(inf.length -4) === 'guir' && inf !== 'seguir') {
                     like = 'seguir';
                 }
-                if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
-                    like = 'odiar';
-                }
+                // if(inf.substring(inf.length -3) === 'iar' && inf !== 'odiar') {
+                //     like = 'odiar';
+                // }
                 if(inf.substring(inf.length -4) === 'izer' && inf !== 'dizer') {
                     like = 'dizer';
                 }
@@ -268,6 +271,39 @@ export const api = {
                 mergedRoot = inf.slice(0, inf.length - 4);
                 Object.keys(conjugations).map(key => {                    
                     merged[key] = conjugations[key].map(person => person.replace('averi', mergedRoot));
+                });
+                return merged;
+            case 'adequar':
+                mergedRoot = inf.slice(0, inf.length - 4);
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('ade', mergedRoot));
+                });
+                return merged;
+            case 'influir':
+                mergedRoot = inf.slice(0, inf.length - 3);
+                Object.keys(conjugations).map(key => {                    
+                    merged[key] = conjugations[key].map(person => person.replace('infl', mergedRoot));
+                });
+                return merged;
+            case 'seguir':
+                mergedRoot = inf.replace('seguir', '');
+                Object.keys(conjugations).map(key => {       
+                    switch(key) {
+                        case Tense.present:
+                            merged[key] = conjugations[key];
+                            conjugations[key].map((person, i) => {                                
+                                if(i === 0) merged[key][i] = `${mergedRoot}${person}`;
+                            });                            
+                            break;
+                        case Tense.present_subjunctive:
+                            merged[key] = conjugations[key];
+                            conjugations[key].map((person, i) => {                                
+                                merged[key][i] = `${mergedRoot}${person}`;
+                            });                            
+                            break;
+                        default:
+                            merged[key] = conjugations[key];
+                    }
                 });
                 return merged;
             default:

@@ -2702,7 +2702,7 @@ const conjugations = {
                 'influías',
                 'influía',
                 'influíamos',
-                'influíaeis',
+                'influíeis',
                 'influíam'
             ],
             preterite: [
@@ -3128,9 +3128,7 @@ const conjugations = {
         },
         {
             i: 'averiguar',
-            preterite: [
-                'averigüei', '', '', '', '', ''
-            ],
+            preterite: ['averigüei', '', '', '', '', ''],
             'present subjunctive': [
                 'averigúe',
                 'averigúes',
@@ -3138,6 +3136,18 @@ const conjugations = {
                 'averiguemos',
                 'averigueis',
                 'averigúem',
+            ]
+        },
+        {
+            i: 'adequar',
+            preterite: ['adeqüei', '', '', '', '', ''],
+            'present subjunctive': [
+                'adeqúe',
+                'adeqúes',
+                'adeqúe',
+                'adequemos',
+                'adequeis',
+                'adeqúem',
             ]
         },
         {

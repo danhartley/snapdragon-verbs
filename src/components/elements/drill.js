@@ -135,12 +135,14 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
     });
 
     useEffect(() => {
-        if(mainRef.current && mainRef.current.scrollIntoView ) {            
+        if(mainRef.current && mainRef.current.scrollIntoView ) {
+            const isWideScreen = window.innerWidth >= 601;
+            if(isWideScreen) return;
             mainRef.current.scrollIntoView({behavior:'smooth', block: choice === Choice.drills ? 'start' : 'center'});
             var scrolledY = window.scrollY;
             if(scrolledY){
                 let diff = choice === Choice.drills ? 45 : -90;
-            window.scroll(0, scrolledY - diff);
+                window.scroll(0, scrolledY - diff);
             }
         }
     },[drill]);

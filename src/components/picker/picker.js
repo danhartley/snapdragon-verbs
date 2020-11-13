@@ -44,7 +44,7 @@ export const Picker = ({ onChange, initialSelectedItem, label, items, itemToStri
                     autoFocus={true}
                     {...getInputProps({
                         isOpen,
-                        placeholder: 'Start typing, or pick from dropdown'
+                        placeholder: 'Start typing, or pick choice'
                     })}
                     />
                     {selectedItem ? (

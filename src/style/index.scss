@@ -72,7 +72,7 @@ h4 {
 }
 
 h5 {
-    margin: 0 $space $space 0;
+    margin: 0 0 $space 0;
     font-weight: 500;
     background-color: $bg2;
     padding: $space;
@@ -395,7 +395,6 @@ input[type='checkbox'] {
 @media (max-width: 374px) {
     .menu > div {
         top: 65px;
-        margin: (.5 * $space) 0;
     }
     .main, .sidebar {
         margin-right: 0;
@@ -476,6 +475,7 @@ input[type='checkbox'] {
 .conjugations {
     width: 800px;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: $space;
     @media (max-width: 600px) {
         width: 100%;
         grid-template-columns: 1fr 1fr;
@@ -588,6 +588,6 @@ fieldset {
     content:'\27F3';
 }
 
-@media screen and (device-aspect-ratio: 40/71) {
-    input[type="text"] { font-size: 16px; }
+@media (hover: none){
+    input, select { font-size: 16px; }
 }

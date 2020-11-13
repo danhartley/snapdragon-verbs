@@ -158,7 +158,7 @@ export const compareActualConjugationWithRegularInfConjugation = async ({actual,
     return _conjugations;
 };
 
-export const Conjugations = ({drill, language, mainRef}) => {
+export const Conjugations = ({drill, language, mainRef, excludeSecondPersonPlural}) => {
 
     const [comparedConjugations, setComparedConjugations] = useState(null);
 
@@ -190,7 +190,7 @@ export const Conjugations = ({drill, language, mainRef}) => {
                     return <div>
                         <h5>{tense}</h5>
                         <div class="margin-left">
-                            <ConjugationList language={language} items={comparedConjugations[tense]} />
+                            <ConjugationList language={language} items={comparedConjugations[tense]} excludeSecondPersonPlural={excludeSecondPersonPlural} />
                         </div>
                     </div>
                 })
