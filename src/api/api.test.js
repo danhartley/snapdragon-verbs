@@ -37,7 +37,9 @@ describe('api simple verbs', () => {
         expect(like).toBe('passear');
         like = await api.getLike('conjugar', Language.pt);
         expect(like).toBe('chegar');
-        like = await api.getLike('ranger', Language.pt);
+    });
+    test('more check getLike lookup is valid', async () => {
+        let like = await api.getLike('ranger', Language.pt);
         expect(like).toBe('proteger');
         like = await api.getLike('reagir', Language.pt);
         expect(like).toBe('surgir');
@@ -49,23 +51,24 @@ describe('api simple verbs', () => {
         expect(like).toBe('influir');
         like = await api.getLike('perseguir', Language.pt);
         expect(like).toBe('seguir');
-        like = await api.getLike('potenciar', Language.pt);
-        expect(like).toBe('odiar');
-        like = await api.getLike('maldizer', Language.pt);
-        expect(like).toBe('dizer');
         like = await api.getLike('soer', Language.pt);
         expect(like).toBe('moer');
-        // like = await api.getLike('suar', Language.pt);
-        // expect(like).toBe('extenuar');
         like = await api.getLike('substituir', Language.pt);
         expect(like).toBe('influir');
         like = await api.getLike('reduzir', Language.pt);
         expect(like).toBe('seduzir');
         like = await api.getLike('extrair', Language.pt);
         expect(like).toBe('cair');
-
         like = await api.getLike('to sing', Language.en);
         expect(like).toBe('to speak');
+        like = await api.getLike('maldizer', Language.pt);
+        expect(like).toBe('dizer');
+        like = await api.getLike('conduzir', Language.pt);
+        expect(like).toBe('seduzir');
+        like = await api.getLike('sobressair', Language.pt);
+        expect(like).toBe('cair');
+        like = await api.getLike('contrair', Language.pt);
+        expect(like).toBe('cair');
     });
     test('use getLikeFromVerbEnding to work out like verb', () => {
         let like;
@@ -193,6 +196,38 @@ describe('check merges', () => {
         conjugations = await api.getConjugations({inf:'perseguir'});
         expect(conjugations[Tense.present][0]).toBe('persigo');
         expect(conjugations[Tense.present_subjunctive][0]).toBe('persiga');
+    });
+    test('check more merge changes, pt', async () => {
+        conjugations = await api.getConjugations({inf:'dizer'});
+        expect(conjugations[Tense.present][0]).toBe('digo');
+        expect(conjugations[Tense.present][2]).toBe('diz');
+        expect(conjugations[Tense.future][0]).toBe('direi');
+        expect(conjugations[Tense.preterite][0]).toBe('disse');
+        expect(conjugations[Tense.pluperfect][0]).toBe('dissera');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('diga');
+        conjugations = await api.getConjugations({inf:'maldizer'});
+        expect(conjugations[Tense.present][0]).toBe('maldigo');
+        expect(conjugations[Tense.present][2]).toBe('maldiz');
+        expect(conjugations[Tense.future][0]).toBe('maldirei');
+        expect(conjugations[Tense.preterite][0]).toBe('maldisse');
+        expect(conjugations[Tense.pluperfect][0]).toBe('maldissera');
+        expect(conjugations[Tense.present_subjunctive][0]).toBe('maldiga');
+        conjugations = await api.getConjugations({inf:'seduzir'});
+        expect(conjugations[Tense.present][2]).toBe('seduz');
+        conjugations = await api.getConjugations({inf:'moer'});
+        expect(conjugations[Tense.present][1]).toBe('móis');
+        expect(conjugations[Tense.present][2]).toBe('mói');
+        expect(conjugations[Tense.preterite][0]).toBe('moí');
+        expect(conjugations[Tense.imperfect][0]).toBe('moía');
+        conjugations = await api.getConjugations({inf:'soer'});
+        expect(conjugations[Tense.present][1]).toBe('sóis');
+        expect(conjugations[Tense.present][2]).toBe('sói');
+        expect(conjugations[Tense.preterite][0]).toBe('soí');
+        expect(conjugations[Tense.imperfect][0]).toBe('soía');
+        conjugations = await api.getConjugations({inf:'cair'});
+        expect(conjugations[Tense.present]).toStrictEqual(['caio', 'cais', 'cai', 'caímos', 'caís', 'caem']);
+        conjugations = await api.getConjugations({inf:'contrair'});
+        expect(conjugations[Tense.present]).toStrictEqual(['contraio', 'contrais', 'contrai', 'contraímos', 'contraís', 'contraem']);
     });
 });
 
