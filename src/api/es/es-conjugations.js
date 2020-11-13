@@ -861,6 +861,34 @@ export const esPartials = [
         ]
     },
     {
+        i: 'conducir',
+        present: ['conduzco', '', '', '', '', ''],
+        preterite: [
+            'conduje',
+            'condujiste',
+            'condujo',
+            'condujimos',
+            'condujisteis',
+            'condujeron',
+        ],        
+        'present subjunctive': [
+            'conduzca',
+            'conduzcas',
+            'conduzca',
+            'conduzcamos',
+            'conduzcáis',
+            'conduzcan',
+        ],
+        'imperfect subjunctive': [
+            'condujera',
+            'condujeras',
+            'condujera',
+            'condujéramos',
+            'condujerais',
+            'condujeran',
+        ]
+    },
+    {
         i: 'servir',
         present: ['sirvo', 'sirves', 'sirve', '', '', 'sirven'],
         'present subjunctive': [
@@ -870,6 +898,18 @@ export const esPartials = [
             'sirvamos',
             'sirvais',
             'sirvan',
+        ]
+    },
+    {
+        i: 'juzgar',
+        preterite: ['juzgué', '', '', '', '', ''],
+        'present subjunctive': [
+            'juzgue',
+            'juzgues',
+            'juzgue',
+            'juzguemos',
+            'juzguéis',
+            'juzguen',
         ]
     },
 ];

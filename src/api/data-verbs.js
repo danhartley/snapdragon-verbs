@@ -188,6 +188,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'abundar'
+            },
+            es: {
+                i: 'abundar'
             }
         }, {
             en: {
@@ -659,14 +662,27 @@ export const getVerbsList = (inf, language = Language.pt) => {
             es: {
                 i: 'avisar'
             }
-        }, {
+        }, 
+        {
             en: {
                 i: 'to put away'
             },
             pt: {
                 i: 'afastar'
             }
-        }, {
+        }, 
+        {
+            en: {
+                i: 'to move away'
+            },
+            pt: {
+                i: 'afastar-se'
+            },
+                es: {
+                i: 'alejarse'
+            }
+        }, 
+        {
             en: {
                 i: 'to affect'
             },
@@ -1453,9 +1469,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'apascentar'
-            },
-            es: {
-                i: 'alimentar'
             }
         }, {
             en: {
@@ -3566,6 +3579,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'conduzir'
+            },
+            es: {
+                i: 'conducir'
             }
         }, {
             en: {
@@ -6883,6 +6899,9 @@ export const getVerbsList = (inf, language = Language.pt) => {
                 i: 'to '
             },
             pt: {
+                i: 'fabricar'
+            },
+            es: {
                 i: 'fabricar'
             }
         }, {
@@ -12713,9 +12732,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
             },
             pt: {
                 i: 'tornar'
-            },
-            es: {
-                i: 'fabricar'
             }
         }, {
             en: {
@@ -13373,51 +13389,40 @@ export const getVerbsList = (inf, language = Language.pt) => {
             pt: {
                 i: 'zombar'
             }
-        }, // spanish singles from here 
-        // {
-        //     en: {
-        //         i: 'to supply'
-        //     },
-        //     es: {
-        //         i: 'abastar'
-        //     }
-        // }, 
-        // {
-        //     en: {
-        //         i: 'abound'
-        //     },
-        //     es: {
-        //         i: 'abundar'
-        //     }
-        // }, {
-        //     en: {
-        //         i: 'to get alarmed'
-        //     },
-        //     es: {
-        //         i: 'alarmarse'
-        //     }
-        // }, {
-        //     en: {
-        //         i: 'to be glad'
-        //     },
-        //     es: {
-        //         i: 'alegrarse'
-        //     }
-        // }, {
-        //     en: {
-        //         i: 'to move away'
-        //     },
-        //     es: {
-        //         i: 'alejar'
-        //     }
-        // }, {
-        //     en: {
-        //         i: 'to go away'
-        //     },
-        //     es: {
-        //         i: 'alejarse'
-        //     }
-        // }, {
+        },
+        {
+            en: {
+                i: 'to supply'
+            },
+            es: {
+                i: 'abastar'
+            }
+        }, 
+        {
+            en: {
+                i: 'to get alarmed'
+            },
+            es: {
+                i: 'alarmarse'
+            }
+        }, 
+        {
+            en: {
+                i: 'to be glad'
+            },
+            es: {
+                i: 'alegrarse'
+            }
+        }, 
+        {
+            en: {
+                i: 'to move away'
+            },
+            es: {
+                i: 'alejar'
+            }
+        }, 
+        //{
         //     en: {
         //         i: 'to ease'
         //     },
@@ -15059,13 +15064,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
         //     }
         // }, {
         //     en: {
-        //         i: 'to make'
-        //     },
-        //     es: {
-        //         i: 'fabricar'
-        //     }
-        // }, {
-        //     en: {
         //         i: 'to facilitate'
         //     },
         //     es: {
@@ -15378,13 +15376,6 @@ export const getVerbsList = (inf, language = Language.pt) => {
         //     },
         //     es: {
         //         i: 'justificar'
-        //     }
-        // }, {
-        //     en: {
-        //         i: 'to judge'
-        //     },
-        //     es: {
-        //         i: 'juzgar'
         //     }
         // }, {
         //     en: {
@@ -16358,7 +16349,7 @@ export const getVerbsList = (inf, language = Language.pt) => {
         // }
     ];
      const filteredVerbs = inf
-             ? verbs.filter(verb => (verb.en && verb.en.i === inf) || (verb.pt && verb.pt.i === inf) || (verb.es && verb.es.i === inf))
-             : verbs;
+             ? verbs.filter(verb => verb[language] && verb[language].i === inf)
+             : verbs.filter(verb => verb[language]);
      return new Promise(resolve => resolve(filteredVerbs));
  };

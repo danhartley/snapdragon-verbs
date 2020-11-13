@@ -152,7 +152,7 @@ export const data = {
                             { name: 'dizer' },
                             { name: 'fazer' },
                         ];
-                        _tense = Tense.future;
+                        _tense = Tense.conditional;
                         break;
                     case VerbGroup.conditional_irregular_verbs:
                         _verbs = [
@@ -190,17 +190,75 @@ export const data = {
             case Language.es:
                 switch(group) {
                     case VerbGroup.all_verbs:
-                        utils.shuffleArray(verbs).forEach((v,i) => {
+                        utils.shuffleArray(verbs).filter(v => v.indexOf('se') !== v.length - 2).forEach((v,i) => {
                             if(i < 100) {
+                                console.log(v)
                                 _verbs.push({ name: v });
                             }
                         });
-                    break;
+                        break;
                     case VerbGroup.irregular_verbs:
                         this.getSetDrills(language).filter(drill => drill.id < 4).forEach(group => {
                             _verbs = [ ..._verbs, ...group.verbs ];
                         });
-                        break;                    
+                        break;
+                    case VerbGroup.preterite_irregular_verbs:
+                        _verbs = [
+                            { name: 'ser' },
+                            { name: 'ir' },
+                            { name: 'andar' },
+                            { name: 'venir' },
+                            { name: 'estar' },
+                            { name: 'poder' },
+                            { name: 'tener' },
+                            { name: 'saber' },
+                            { name: 'hacer' },
+                            { name: 'poner' },
+                            { name: 'dar' },
+                            { name: 'querer' },
+                            { name: 'decir' },
+                            { name: 'traer' },
+                            { name: 'conducir' },
+                            // { name: 'deshacer' },
+                            // { name: 'rehacer' },
+                            // { name: 'contradecir' },
+                            // { name: 'predecir' },
+                            // { name: 'producir' },
+                            // { name: 'traducir' },
+                            // { name: 'detener' },
+                            // { name: 'retener' },
+                            // { name: 'contener' },
+                            // { name: 'convenir' },
+                            // { name: 'prevenir' },
+                            // { name: 'componer' },
+                            // { name: 'descomponer' },
+                            // { name: 'proponer' },
+                            // { name: 'disponer' },
+                        ];
+                        _tense = Tense.preterite;
+                        break;
+                    case VerbGroup.imperfect_irregular_verbs:
+                        _verbs = [
+                            { name: 'ver' },
+                            { name: 'ir' },
+                            { name: 'ser' }
+                        ];
+                        _tense = Tense.imperfect;
+                        break;    
+                    case VerbGroup.future_irregular_verbs:
+                        _verbs = [
+                            { name: 'decir' },
+                            { name: 'hacer' },
+                            { name: 'poder' },
+                            { name: 'poner' },
+                            { name: 'querer' },
+                            { name: 'saber' },
+                            { name: 'salir' },
+                            { name: 'tener' },
+                            { name: 'venir' },
+                        ];
+                        _tense = Tense.future;
+                        break;           
                 }
         }
         return { groupVerbs: _verbs, tense: _tense };

@@ -72,9 +72,8 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
         if(formRef.current  && drillActionState ===  DrillState.checkAnswers) {
             let narrowScreen = window.matchMedia("only screen and (max-width: 600px)").matches;
             if(narrowScreen && choice === Choice.drills) return;
-            console.log('focus on first pronoun')
             let firstPerson = formRef.current.elements[0];
-            firstPerson.disabled
+            firstPerson && firstPerson.disabled
                 ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
                 : firstPerson.focus();
         }

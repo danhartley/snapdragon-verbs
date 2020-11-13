@@ -68,7 +68,13 @@ const getVerbGroups = language => {
             return Object.keys(VerbGroup).map(key => VerbGroup[key]);
         case Language.es:
             let groups = Object.keys(VerbGroup).map(key => VerbGroup[key]);
-                groups = groups.filter(group => group === VerbGroup.irregular_verbs);
+                groups = groups.filter(group => {
+                    return group === VerbGroup.irregular_verbs 
+                        || group === VerbGroup.all_verbs
+                        || group === VerbGroup.preterite_irregular_verbs
+                        || group === VerbGroup.future_irregular_verbs
+                        || group === VerbGroup.imperfect_irregular_verbs
+                });
             return groups;
     }
 };
