@@ -61,6 +61,9 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 form.elements[0].focus();
                 break;
             case DrillState.drillsComplete:
+                setQandas([]);
+                form.reset();
+                form.elements[0].focus();
                 startDrillRef.current.click();
                 break;
         } 
@@ -75,7 +78,7 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             let firstPerson = formRef.current.elements[0];
             firstPerson && firstPerson.disabled
                 ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
-                : firstPerson.focus();
+                : firstPerson ? firstPerson.focus() : null;
         }
     }, [drill]);
 

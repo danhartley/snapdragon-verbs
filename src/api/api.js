@@ -14,11 +14,11 @@ export const api = {
         }
         return isReflexive;
     },   
-    async getVerbs(inf) {
-        return await data.getVerbs(inf);
+    async getVerbs({inf, language}) {
+        return await data.getVerbs({inf, language});
     },
     async getVerb({inf, language = Language.pt}) {
-        const verbs = await data.getVerbs(inf, language);
+        const verbs = await data.getVerbs({inf, language});
         return verbs ? verbs[0] : {};
     },
     async getAllConjugations(language) {

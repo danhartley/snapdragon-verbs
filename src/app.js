@@ -12,7 +12,7 @@ import { Verbs } from './routes/home/verbs';
 const App = () => {
 
     const getVerbs = async language => {
-        let verbs = await api.getVerbs();
+        let verbs = await api.getVerbs({language: Language.pt});
         verbs = verbs.map(verb => {
             return verb[language] ? verb[language].i : undefined;
         }).filter(v => v).sort();        

@@ -4,13 +4,13 @@ import { api } from './api';
 
 describe('api simple verbs', () => {
     test('check translation lookups are valid', async () => {
-        let verbs = await api.getVerbs();
+        let verbs = await api.getVerbs({language: 'en'});
         expect(verbs.length).toBeGreaterThan(0);
         let toBe = await verbs.find(verb => verb.en.i === 'to be');
         expect(toBe.pt.i).toBe('estar');
-        toBe = await api.getVerbs('to be');
+        toBe = await api.getVerbs({inf:'to be',language: Language.en});
         expect(toBe[0].pt.i).toBe('estar');
-        toBe = await api.getVerb({ inf:'to be', language:'pt' });
+        toBe = await api.getVerb({ inf:'estar', language: Language.pt });
         expect(toBe.pt.i).toBe('estar');
     });
     test('check conjugation lookup is valid', async () => {

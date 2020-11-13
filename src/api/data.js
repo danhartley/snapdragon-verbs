@@ -11,8 +11,8 @@ const clean = str => {
 };
 
 export const data = {
-    async getVerbs(inf, language = Language.pt) {
-        return await getVerbsList(inf, language);
+    async getVerbs({inf, language = Language.pt}) {
+        return await getVerbsList({inf, language});
     },
     async getAllConjugations(language) {
         return await getVerbConjugations(language);
@@ -85,7 +85,7 @@ export const data = {
                 {
                     id: 3,
                     name: 'Commmon irregular verbs, 25-36 ',
-                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'traer' }, { name: 'caer' }, { name: 'surgir' }, { name:'leer' }, { name: 'servir' }, { name: 'creer' }, { name: 'reír' }, { name:'dormir' }, { name: 'caber'}, { name:'crer' } ]
+                    verbs: [ { name: 'pedir' }, { name: 'seguir' }, { name:'traer' }, { name: 'caer' }, { name: 'surgir' }, { name:'leer' }, { name: 'servir' }, { name: 'creer' }, { name: 'reír' }, { name:'dormir' }, { name: 'caber'}, { name:'creer' } ]
                     // verbs: [ { name: 'nacer' }, { name: 'producir' }, { name: 'volver' } ]
                 },
                 {

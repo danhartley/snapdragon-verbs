@@ -1,6 +1,6 @@
 import { Language } from '../logic/enums.js';
 
-export const getVerbsList = (inf, language = Language.pt) => {
+export const getVerbsList = ({inf, language = Language.pt}) => {
     const verbs = [{
         en: {
                 i: 'to shake'
