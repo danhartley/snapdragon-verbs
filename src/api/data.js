@@ -201,6 +201,12 @@ export const data = {
                         this.getSetDrills(language).filter(drill => drill.id < 4).forEach(group => {
                             _verbs = [ ..._verbs, ...group.verbs ];
                         });
+                        _verbs = _verbs.reduce((unique, o) => {
+                            if(!unique.some(obj => obj.name === o.name)) {
+                              unique.push(o);
+                            }
+                            return unique;
+                        },[]);
                         break;
                     case VerbGroup.preterite_irregular_verbs:
                         _verbs = [

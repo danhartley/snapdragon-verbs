@@ -20,13 +20,16 @@ const shuffleArray = array => {
 };
 
 const getDisplayPronouns = language => {
+    let pronouns;
     switch(language) {
         case Language.pt:
-            return Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]);
+            pronouns = Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]);
+            break;
         case Language.es:
-            return Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]);
-
+            pronouns = Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]);
+            break;    
     }
+    return pronouns;
 };
 
 const getLongPronouns = language => {

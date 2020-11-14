@@ -5419,7 +5419,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             pt: {
                 i: 'dormir',
                 'like': 'dormir'
-            }
+            },
+            es: {
+                i: 'dormir',
+                'like': 'dormir'
+            },
         }, {
             en: {
                 i: 'to '

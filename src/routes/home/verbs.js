@@ -45,6 +45,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
 
     const getTranslation = async (verb, language) => {
         const translations = await api.getVerb({ inf: verb, language });
+        if(!translations) console.log(verb);
         return translations[lesson.language.from].i;
     };
 
@@ -57,15 +58,15 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     };
 
     const getPronounToTest = (selectedPronoun, language, excludeSecondPersonPlural) => {
-        let pronounToTest;
+        let pronouns, pronounToTest;
         switch(language) {
             case Language.pt:
-                if(excludeSecondPersonPlural) delete Pronoun_PT[4];
-                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(Object.keys(Pronoun_PT).map(key => Pronoun_PT[key]))[0] : selectedPronoun;
+                pronouns = excludeSecondPersonPlural ? Object.keys(Pronoun_PT).filter((p,i) => i !== 4) : Object.keys(Pronoun_PT);
+                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(pronouns.map(key => Pronoun_PT[key]))[0] : selectedPronoun;
                 break;
-            case Language.es:
-                if(excludeSecondPersonPlural) delete Pronoun_ES[4];
-                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(Object.keys(Pronoun_ES).map(key => Pronoun_ES[key]))[0] : selectedPronoun;
+            case Language.es:                
+                pronouns = excludeSecondPersonPlural ? Object.keys(Pronoun_ES).filter((p,i) => i !== 4) : Object.keys(Pronoun_ES);
+                pronounToTest = selectedPronoun === 'all pronouns' ? utils.shuffleArray(pronouns.map(key => Pronoun_ES[key]))[0] : selectedPronoun;
                 break;
         }
         return pronounToTest;        

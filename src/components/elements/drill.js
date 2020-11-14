@@ -76,8 +76,10 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
             let narrowScreen = window.matchMedia("only screen and (max-width: 600px)").matches;
             if(narrowScreen && choice === Choice.drills) return;
             let firstPerson = formRef.current.elements[0];
+            let nonDisabledElements = Array.from(formRef.current.elements).find(element => !element.disabled);
+            if(!nonDisabledElements) console.log(firstPerson)
             firstPerson && firstPerson.disabled
-                ? Array.from(formRef.current.elements).find(element => !element.disabled).focus()
+                ? nonDisabledElements ? nonDisabledElements.focus() : null
                 : firstPerson ? firstPerson.focus() : null;
         }
     }, [drill]);
