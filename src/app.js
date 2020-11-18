@@ -44,13 +44,13 @@ const App = () => {
     const handleSetChoice = id => {        
         setChoice(id);
         setDrill(null);
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.indeterminate);
     };
 
     const handleSetLanguage = id => {
         setLanguage(id);
         setDrill(null);
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.indeterminate);
         getVerbs(id);
         setTenses(api.getTenses(id));
     };

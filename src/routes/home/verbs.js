@@ -9,6 +9,7 @@ import { api } from '../../api/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import { utils } from '../../utils/utils';
+import { version } from 'react';
 
 export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
@@ -26,12 +27,12 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     const [excludeSecondPersonPlural, setExcludeSecondPersonPlural] = useState(true);
 
     const handleVerbPicked = verb => {
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.indeterminate);
         setSelectedVerbs([ ...selectedVerbs.filter(v => v !== verb.name), { name: verb, disabled: false } ]);
     };
 
     const handleTensePicked = tense => {
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.indeterminate);
         setLesson({ ...lesson, tense, tenses });
         setSelectedTense(tense);        
     };
@@ -107,7 +108,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
     };
 
     const handleSelectSetDrill = e => {
-        setDrillActionState(DrillState.intermediate);
+        setDrillActionState(DrillState.indeterminate);
         const set = e.target;
         const id = parseInt(set.dataset.id);
         const verbs = fixedDrills.find(set => set.id === id).verbs;
@@ -137,6 +138,31 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         });
     };
 
+    const handleSetDrillActionState = (state, drill) => {
+        switch(state) {
+            case DrillState.nextDrill:
+            case DrillState.drillsComplete:
+                selectedVerbs.forEach(verb => {
+                    if(verb.name === drill.verb) {
+                        verb.isCorrect = drill.isCorrect;
+                        verb.isInCorrect = !drill.isCorrect;
+                    }
+                    return verb;
+                });
+                break;
+            case DrillState.lastDrill:
+                selectedVerbs.forEach(verb => { 
+                    delete verb.isCorrect;
+                    delete verb.isInCorrect;
+                    return { name: verb.name } 
+                });
+                break;
+            default:
+                break;
+        }
+        setDrillActionState(state);
+    }
+
     const startDrillRef = useRef();
     const mainRef = useRef();
     const footerRef = useRef();
@@ -163,7 +189,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
             <div class="columns">
             <div class={sideBarCSS}>
                     <div> 
-                    {
+                        {
                             <Picker key={selectedTense} initialSelectedItem={selectedTense} itemToString={item => item ? item : ''} items={inputTenses} onChange={handleTensePicked} label={'Tenses'}></Picker>
                         }
                         {
@@ -188,18 +214,18 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
                                 ? <button class="btn" ref={startDrillRef} disabled={isButtonDisabled} onClick={handleStartDrill}>Start drill</button>
                                 : ''
                         }                    
-                            <section class="filter flex">
-                                <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
-                                    setExcludeSecondPersonPlural(e.target.checked)
-                                }} />
-                                <label for="chkBox">exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
-                            </section>                    
+                        <section class="filter flex">
+                            <input id="chkBox" class="margin-right" type="checkbox" checked={excludeSecondPersonPlural} onClick={e => {
+                                setExcludeSecondPersonPlural(e.target.checked)
+                            }} />
+                            <label for="chkBox">exclude {language === Language.pt ? Pronoun_PT[4] : Pronoun_ES[4]}</label>
+                        </section>                    
                     </div>
                 </div>
                 <div class="main" ref={mainRef}>
                     <div class="block">
                         { drillActionState !== DrillState.hideDrills ? (
-                                <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={state => setDrillActionState(state)} onClickVerbConjugationLink={state => handleShowConjugations(state)} choice={choice} startDrillRef={startDrillRef} mainRef={mainRef} /> 
+                                <Drill lesson={lesson} drill={drill} onChangeDrill={drill => handleSetDrill(drill)} drillActionState={drillActionState} onChangeDrillActionState={(state, drill) => handleSetDrillActionState(state, drill)} onClickVerbConjugationLink={state => handleShowConjugations(state)} choice={choice} startDrillRef={startDrillRef} mainRef={mainRef} /> 
                             ): <div class="block"></div>
                         }
                     </div>

@@ -360,7 +360,8 @@ input[type='checkbox'] {
 
 .button-edit-action {
     color: $fg1;
-    &:before { content:'\2713'; }    
+    &.is-correct:before { content:'\2713'; }
+    &.is-incorrect:before { content:'\2717'; margin-right:.125rem; }
     &.disabled-item {
         color: gray;
     }

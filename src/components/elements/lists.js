@@ -33,7 +33,7 @@ export const EditableList = ({ items, header, editedHandler }) => {
         editedHandler(verb, isVerbDisabled);                
     };
 
-    const list = items.map(item => <li key={item.name}><button aria-label={item.name} class="button-edit-action" onClick={localClickHandler}>{item.name}</button></li>);
+    const list = items.map(item => <li key={item.name}><button aria-label={item.name} class={`button-edit-action${item.isCorrect ? ' is-correct' : item.isInCorrect ? ' is-incorrect' : ''}`} onClick={localClickHandler}>{item.name}</button></li>);
     return ( <ul style='column-count: 3'>{list}</ul> );
 };
 

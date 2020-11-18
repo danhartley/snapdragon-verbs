@@ -48,22 +48,23 @@ export const Drill = ({ lesson, drillActionState, onChangeDrillActionState, dril
                 onChangeDrill(_drill);
 
                 if(lesson.drills.filter(d => !d.completed).length === 1) { // why 1, not 0, because we haven't called getNextDrill…
-                    onChangeDrillActionState(DrillState.drillsComplete);
+                    onChangeDrillActionState(DrillState.drillsComplete, drill);
                 } else {                          
-                    onChangeDrillActionState(DrillState.nextDrill);
+                    onChangeDrillActionState(DrillState.nextDrill, drill);
                 }
                 break;
             case DrillState.nextDrill:
                 setQandas([]);
-                onChangeDrillActionState(DrillState.checkAnswers);
-                onChangeDrill(lesson.getNextDrill());
                 form.reset();
                 form.elements[0].focus();
+                onChangeDrillActionState(DrillState.checkAnswers, drill);
+                onChangeDrill(lesson.getNextDrill());
                 break;
             case DrillState.drillsComplete:
                 setQandas([]);
                 form.reset();
                 form.elements[0].focus();
+                onChangeDrillActionState(DrillState.lastDrill, drill);
                 startDrillRef.current.click();
                 break;
         } 

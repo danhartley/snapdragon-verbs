@@ -13071,7 +13071,17 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             pt: {
                 i: 'vacinar'
             }
-        }, {
+        }, 
+        {
+            en: {
+                i: 'to live'
+            },
+            es: {
+                i: 'vivir',
+                like: 'vivir'
+            }
+        }, 
+        {
             en: {
                 i: 'to '
             },
@@ -16321,15 +16331,8 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
         //     es: {
         //         i: 'visitar'
         //     }
-        // }, {
-        //     en: {
-        //         i: 'to live'
-        //     },
-        //     es: {
-        //         i: 'vivir',
-        //         like: 'vivir'
-        //     }
-        // }, {
+        // }, 
+        // {
         //     en: {
         //         i: 'to vomit'
         //     },

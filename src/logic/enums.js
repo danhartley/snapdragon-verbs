@@ -68,11 +68,12 @@ export class Pronoun_Long_ES extends Enumify {
 }
 
 export class DrillState extends Enumify {
-    static intermediate = 'intermediate';
+    static indeterminate = 'indeterminate';
     static hideDrills = 'hide drills';
     static checkAnswers = 'Check answers';
     static nextDrill = 'Next drill';
     static drillsComplete = 'Try again?';
+    static lastDrill = 'Last drill';
 }
 
 export class Tense extends Enumify {
