@@ -62,3 +62,11 @@ Routing removed
 
 # sw
 Turn off sw: https://github.com/preactjs/preact-cli/issues/1133
+
+# how to run (current version) 
+this can take time to propagate (… best practice?)
+npm run build
+{ push latest }
+git push origin -d gh-pages
+git subtree push --prefix build origin gh-pages
+
