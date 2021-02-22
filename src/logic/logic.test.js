@@ -1,4 +1,4 @@
-import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense } from './enums.js';
+import { Option, Mode, Language, Tense } from './enums.js';
 import { Lesson } from './lesson.js';
 import { Question } from './question.js';
 import { Answer } from './answer.js';

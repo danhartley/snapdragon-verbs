@@ -4,7 +4,7 @@ const shuffleArray = array => {
 
     if(!array || array.length === 0) return;
 
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    let currentIndex = array.length, temporaryValue, randomIndex;
 
     while (0 !== currentIndex) {
 
@@ -43,12 +43,12 @@ const getLongPronouns = language => {
 };
 
 const getLessonTitle = (choice, language) => {
-    switch(language){
+    switch(language) {
         case Language.pt:
             return choice === Choice.drills ? 'Portuguese verb drills' : 'Portuguese random verbs';
         case Language.es:
             return choice === Choice.drills ? 'Spanish verb drills' : 'Spanish random verbs';
-    };    
+    }
 };
 
 const getLesson = (lesson, language) => {

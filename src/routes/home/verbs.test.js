@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import { Verbs } from './verbs';
 import { Drill } from '../../components/elements/drill';
-import { shallow, mount } from 'enzyme';
+import { mount } from 'enzyme';
 import { Language, Choice } from '../../logic/enums';
 
 describe.only('state of verbs on changing language or test type', () => {

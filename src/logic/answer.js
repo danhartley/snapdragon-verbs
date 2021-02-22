@@ -3,6 +3,5 @@ export class Answer {
         value
     ) {
         this.value = value;        
-    };
-    
+    };   
 }

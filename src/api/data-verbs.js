@@ -49,7 +49,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'abocar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -64,7 +64,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'abdicar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -86,7 +86,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'aborrascar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -232,7 +232,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'açambarcar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -254,7 +254,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'acascar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -307,7 +307,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'acercar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -332,7 +332,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'achicar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -340,7 +340,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'acidificar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -593,7 +593,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'adocicar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -650,7 +650,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'aduncar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -698,7 +698,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'aficar',
-                'like': 'ficar'
+                like: 'ficar'
             },
             es: {
                 i: 'quedar'
@@ -751,7 +751,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'afruticar',
-                'like': 'ficar'
+                like: 'ficar'
             },
             es: {
                 i: 'disfrutar'
@@ -762,7 +762,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'agatificar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -885,7 +885,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ajorcar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -903,7 +903,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ajudicar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -935,7 +935,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alambicar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -943,7 +943,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alancar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -975,7 +975,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alborcar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -983,7 +983,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alcandorar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -991,7 +991,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alcalcificar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -999,7 +999,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'alcoolificar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1121,7 +1121,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'aloucar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1129,7 +1129,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'amalucar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1137,7 +1137,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'amaricar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1145,7 +1145,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'amacacar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1153,7 +1153,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'amaçarocar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1161,7 +1161,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'amarrecar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1227,7 +1227,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'abatocar',
-                'like': 'ficar'
+                like: 'ficar'
             }
         }, {
             en: {
@@ -1325,7 +1325,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
         }, {
             en: {
                 i: 'to walk',
-                'like': 'to walk'
+                like: 'to walk'
             },
             pt: {
                 i: 'andar'
@@ -2721,7 +2721,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
         }, {
             en: {
                 i: 'to sing',
-                'like': 'to speak'
+                like: 'to speak'
             },
             pt: {
                 i: 'cantar'
@@ -3424,7 +3424,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'compor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -4181,7 +4181,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'crer',
-                'like': 'crer'
+                like: 'crer'
             },
             es: {
                 i: 'creer',
@@ -4340,11 +4340,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'dar',
-                'like': 'dar'
+                like: 'dar'
             },
             es: {
                 i: 'dar',
-                'like': 'dar'
+                like: 'dar'
             }
         }, {
             en: {
@@ -4408,7 +4408,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'decompor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -4605,7 +4605,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'depor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -4753,7 +4753,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'descompor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -5216,7 +5216,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'dispor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -5364,7 +5364,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'dizer',
-                'like': 'dizer'
+                like: 'dizer'
             },
             es: {
                 i: 'decir',
@@ -5418,11 +5418,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'dormir',
-                'like': 'dormir'
+                like: 'dormir'
             },
             es: {
                 i: 'dormir',
-                'like': 'dormir'
+                like: 'dormir'
             },
         }, {
             en: {
@@ -6475,11 +6475,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'estar',
-                'like': 'estar'
+                like: 'estar'
             },
             es: {
                 i: 'estar',
-                'like': 'estar'
+                like: 'estar'
             }
         }, {
             en: {
@@ -6826,7 +6826,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'expor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -6925,11 +6925,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
         }, {
             en: {
                 i: 'to speak',
-                'like': 'to speak'
+                like: 'to speak'
             },
             pt: {
                 i: 'falar',
-                'like': 'falar'
+                like: 'falar'
             },
             es: {
                 i: 'hablar',
@@ -7032,7 +7032,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'fazer',
-                'like': 'fazer'
+                like: 'fazer'
             },
             es: {
                 i: 'hacer',
@@ -7681,7 +7681,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'haver',
-                'like': 'haver'
+                like: 'haver'
             },
             es: {
                 i: 'haber'
@@ -7888,7 +7888,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'impor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -8386,7 +8386,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'interpor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -8623,7 +8623,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'justapor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -8757,7 +8757,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ler',
-                'like': 'ler'
+                like: 'ler'
             },
             es: {
                 i: 'leer',
@@ -9671,7 +9671,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'opor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -9763,7 +9763,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ouvir',
-                'like': 'ouvir'
+                like: 'ouvir'
             },
             es: {
                 i: 'oír',
@@ -9904,7 +9904,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'partir',
-                'like': 'partir'
+                like: 'partir'
             },
             es: {
                 i: 'dejar'
@@ -9960,7 +9960,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'pedir',
-                'like': 'pedir'
+                like: 'pedir'
             },
             es: {
                 i: 'preguntar'
@@ -10254,11 +10254,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'poder',
-                'like': 'poder'
+                like: 'poder'
             },
             es: {
                 i: 'poder',
-                'like': 'poder'
+                like: 'poder'
             }
         }, {
             en: {
@@ -10294,7 +10294,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'pôr',
-                'like': 'pôr'
+                like: 'pôr'
             },
             es: {
                 i: 'poner',
@@ -10313,7 +10313,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'pospor',
-                'like': 'pôr'
+                like: 'pôr'
             },
             es: {
                 i: 'aplazar'
@@ -10684,7 +10684,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'propor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -10853,11 +10853,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'querer',
-                'like': 'querer'
+                like: 'querer'
             },
             es: {
                 i: 'querer',
-                'like': 'querer'
+                like: 'querer'
             }
         }, {
             en: {
@@ -11772,10 +11772,10 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'saber',
-                'like': 'saber'
+                like: 'saber'
             }, es: {
                 i: 'saber',
-                'like': 'saber'
+                like: 'saber'
             }
         }, {
             en: {
@@ -11955,11 +11955,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'seguir',
-                'like': 'seguir'
+                like: 'seguir'
             },
             es: {
                 i: 'seguir',
-                'like': 'seguir'
+                like: 'seguir'
             }
         }, {
             en: {
@@ -12038,15 +12038,15 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
         }, {
             en: {
                 i: 'to be',
-                'like': 'to be'
+                like: 'to be'
             },
             pt: {
                 i: 'ser',
-                'like': 'ser'
+                like: 'ser'
             },
             es: {
                 i: 'ser',
-                'like': 'ser'
+                like: 'ser'
             }
         }, {
             en: {
@@ -12295,11 +12295,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'subir',
-                'like': 'subir'
+                like: 'subir'
             },
             es: {
                 i: 'subir',
-                'like': 'subir'
+                like: 'subir'
             },
         }, {
             en: {
@@ -12440,7 +12440,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'supor',
-                'like': 'pôr'
+                like: 'pôr'
             }
         }, {
             en: {
@@ -12640,11 +12640,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ter',
-                'like': 'ter'
+                like: 'ter'
             },
             es: {
                 i: 'tener',
-                'like': 'tener'
+                like: 'tener'
             }
         }, {
             en: {
@@ -12911,11 +12911,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'trazer',
-                'like': 'trazer'
+                like: 'trazer'
             },
             es: {
                 i: 'traer',
-                'like': 'traer'
+                like: 'traer'
             }
         }, {
             en: {
@@ -13164,7 +13164,7 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'vender',
-                'like': 'vender'
+                like: 'vender'
             },
             es: {
                 i: 'vender'
@@ -13196,11 +13196,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'ver',
-                'like': 'ver'
+                like: 'ver'
             },
             es: {
                 i: 'ver',
-                'like': 'ver'
+                like: 'ver'
             }
         }, {
             en: {
@@ -13285,11 +13285,11 @@ export const getVerbsList = ({inf, language = Language.pt}) => {
             },
             pt: {
                 i: 'vir',
-                'like': 'vir'
+                like: 'vir'
             },
             es: {
                 i: 'venir',
-                'like': 'venir'
+                like: 'venir'
             }
         }, {
             en: {

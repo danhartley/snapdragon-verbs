@@ -2988,20 +2988,20 @@ const conjugations = {
                 'pareçam',
             ]
         },
-        {
-            i: 'conseguir',
-            present: [
-                'consigo', '', '', '', '', ''
-            ],
-            'present subjunctive': [
-                'consiga',
-                'consigas',
-                'consiga',
-                'consigamos',
-                'consigais',
-                'consigam',
-            ]
-        },
+        // {
+        //     i: 'conseguir',
+        //     present: [
+        //         'consigo', '', '', '', '', ''
+        //     ],
+        //     'present subjunctive': [
+        //         'consiga',
+        //         'consigas',
+        //         'consiga',
+        //         'consigamos',
+        //         'consigais',
+        //         'consigam',
+        //     ]
+        // },
         {
             i: 'conhecer',
             present: [

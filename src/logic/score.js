@@ -10,7 +10,7 @@ export class Score {
         this.question = this.clean(question.value.to);
         this.answer = this.clean(answer.value);
         this.key = key;
-    };
+    }
     isCorrect = () => {
         return this.question === this.answer;
     };

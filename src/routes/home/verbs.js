@@ -1,7 +1,7 @@
 import { h } from 'preact';
 import Footer from '../../components/footer/footer';
 import { useState, useEffect, useRef } from 'preact/hooks';
-import { Language, DrillState, Choice, Pronoun_PT, Tense, Pronoun_ES, Pronoun_EN } from '../../logic/enums';
+import { Language, DrillState, Choice, Pronoun_PT, Tense, Pronoun_ES } from '../../logic/enums';
 import { Lesson } from '../../logic/lesson';
 import { Conjugations } from '../../components/elements/conjugations';
 import { Picker } from '../../components/picker/picker';
@@ -9,7 +9,6 @@ import { api } from '../../api/api';
 import { ActionList, EditableList, RadioButtonList } from '../../components/elements/lists';
 import { Drill } from '../../components/elements/drill';
 import { utils } from '../../utils/utils';
-import { version } from 'react';
 
 export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillActionState, setDrillActionState }) => {
 
@@ -129,7 +128,7 @@ export const Verbs = ({ verbs, tenses, choice, language, drill, setDrill, drillA
         setTimeout(() => {
             if(footerRef.current) {
                 footerRef.current.scrollIntoView({behavior:'smooth', block: 'start'});
-                var scrolledY = window.scrollY;
+                let scrolledY = window.scrollY;
                 if(scrolledY){
                     let diff = 90;
                     window.scroll(0, scrolledY - diff);

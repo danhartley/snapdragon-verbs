@@ -1,4 +1,4 @@
-import { Option, Mode, Language, Pronoun_EN, Pronoun_PT, Tense, Choice } from './enums.js';
+import { Option, Mode, Language, Tense, Choice } from './enums.js';
 import { Question } from './question.js';
 import { Score } from './score.js';
 import { utils } from '../utils/utils.js';
@@ -42,7 +42,7 @@ export class Lesson {
         this.scores = [];
         this.history = [];
         this.drill = null;
-    };
+    }
     updateProps = props => {
         this.options = props.options || this.options,
         this.option = props.option || this.option,

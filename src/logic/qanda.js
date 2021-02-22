@@ -9,5 +9,5 @@ export class QandA {
         this.key = key;
         this.question = this.clean(q);
         this.answer = this.clean(a);
-    };
+    }
 }
